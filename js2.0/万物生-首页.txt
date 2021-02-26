@@ -5,97 +5,97 @@
         {
         "title":"K1080影视",
         "url":"https://www.ak1080.com",
-       "img":"https://gitee.com/egwang186/iptv/raw/master/js/1080logo.jpg"
+       "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/1080logo.jpg"
         },
         {
         "title":"COKEMV影视",
         "url":"https://cokemv.cn",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/cokemv.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cokemv.png"
         },
         {
         "title":"宅看影视",
         "url":"https://www.zhaikanys.com",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/zhaikanlogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhaikanlogo.png"
         },
         {
         "title":"极品影视",
         "url":"https://www.jpysvip.net",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/jpyslogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jpyslogo.png"
         },
         {
         "title":"神马影院",
         "url":"https://www.shenma4480.com",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/smlogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/smlogo.png"
         },
         {
         "title":"素白白影视",
         "url":"https://www.subaibai.com",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/sbblogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/sbblogo.png"
         },
         {
         "title":"VIP影院",
         "url":"https://vip.sb",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/viplogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/viplogo.png"
         },
         {
         "title":"真不卡影视",
         "url":"https://www.zhenbuka.com",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/zbklogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zbklogo.png"
         },
         {
         "title":"骚火电影",
         "url":"http://saohuotv.com",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/shlogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/shlogo.png"
         },
         {
         "title":"爱迪影视(部分资源会员制)",
         "url":"https://www.edu-hb.com",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/aidilogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/aidilogo.png"
         },
         {
         "title":"奈飞星影视",
         "url":"https://www.nfstar.net",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/nfstarlogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nfstarlogo.png"
         },
         {
         "title":"QQ影院",
         "url":"http://www.hdworking.top",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/qqlogo.webp"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qqlogo.webp"
         },
         {
         "title":"TVB云播",
         "url":"https://www.hktvyb.com",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/tvblogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/tvblogo.png"
         },
         {
         "title":"思古影视",
         "url":"https://www.siguyy.com",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/sigulogo.webp"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/sigulogo.webp"
         },
         {
         "title":"下午茶影视",
         "url":"http://www.xwcys.com",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/xwcyslogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xwcyslogo.png"
         },
         {
         "title":"独播库",
         "url":"https://www.duboku.tv",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/dubokulogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dubokulogo.png"
         },
         {
         "title":"江湖视频",
         "url":"https://v.jhdyw.vip",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/jhyslogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jhyslogo.png"
         },
         {
         "title":"哔嘀影视",
         "url":"https://bde4.cc",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/bde4logo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/bde4logo.png"
         },
         {
         "title":"泡饭影视",
         "url":"https://www.paofans.com",
-        "img":"https://gitee.com/egwang186/iptv/raw/master/js/paofanslogo.png"
+        "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/paofanslogo.png"
         }
         ]
     }
