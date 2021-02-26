@@ -1,0 +1,94 @@
+var URL=getVar("url");
+var 分类=getVar("源码").match(/<dd[\s\S]*?\/dd>/g);
+var res={};var items=[];
+for(var i=0;i<分类.length;i++){
+var 初列表=分类[i].match(/CDATA\[([\s\S]*?)[#]*?\]/)[1]+"#";
+var 列表=初列表.match(/[\S]*?#/g);
+var 标题=e2Rex(分类[i],".a(flag)");
+var LIST=[];
+for(var j=0;j<列表.length;j++){
+    if(列表[j].indexOf("$")!=-1){
+    var 选集=列表[j].split("$")[0];
+    }else{
+    var 选集=j+1;
+    }
+    var 选集地址=e2Rex(列表[j],".z2(\\\(http.*?\\\)[\\$|#]).or().z2(\\$\\\(.*?\\\)[$|&|#]).or().z(.*)");
+//开始根据网址，线路判断前缀
+      if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1){
+      选集地址="https://egwang186.gitee.io/?url="+选集地址;
+}else if(选集地址.indexOf(":6688/player")!=-1){
+      var hash=选集地址.split("player/")[1];
+      选集地址="https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
+}else if(URL.indexOf('yeyemi.com')!=-1){
+      选集地址="https://ssl.vip.cqzyw.net:11551/?url="+选集地址;
+}else if(URL.indexOf('baipiaozy')!=-1){
+      选集地址="https://jx.baipiaozy.com/player/?url="+选集地址;
+}else if(URL.indexOf('bowang.tv')!=-1){
+      if(标题.indexOf('msp')!=-1){
+      选集地址="https://titan.mgtv.com.bowang.tv/player/analysis.php?v="+选集地址;
+     }
+}else if(URL.indexOf('leduozy')!=-1){
+      选集地址="https://api.leduotv.com/wp-api/glid.php?vid="+选集地址;
+}else if(URL.indexOf('zhaikanys.com')!=-1){
+      if(选集地址.indexOf(".m3u8")!=-1){
+       选集地址=选集地址;
+       }else{
+       选集地址="https://ty.hjjjjhd.top/index.php?url="+选集地址;
+       }
+}else if(标题.indexOf("rrm3u8")!=-1){
+      选集地址="https://www.meiju11.com/ckplayerx/m3u8.php?url="+选集地址;
+}else if(标题.indexOf("bbkdj")!=-1){
+      选集地址="http://jx.yparse.com/index.php?url="+选集地址;
+}else if(标题=='Q4'||标题=='Q6'||标题=='Q8'){
+      选集地址=e2Rex(选集地址,".dn64()");
+}else if(标题=='ddyunp'){
+      选集地址="https://player.90mm.me/play.php?url="+选集地址;
+}else if(标题=='ppayun'||标题=='gangtiexia'){
+    if(选集地址.indexOf("http")!=-1){
+        选集地址=选集地址;
+    }else{
+        选集地址="https://wy.mlkioiy.cn/api/ShowVideoWy/3bb24322f78b47dfb8723c13d46d45ee/"+选集地址;
+    }  
+}else if(标题=='tt10'){
+      选集地址="https://wy.mlkioiy.cn/api/GetDownUrlMu/3bb24322f78b47dfb8723c13d46d45ee/"+选集地址+".m3u8";
+}else if(标题=='ttee'){
+    if(选集地址.indexOf("https://wy.lalabqd.cn")!=-1){
+      选集地址="https://wy.mlkioiy.cn/api/ShowVideoWy/3bb24322f78b47dfb8723c13d46d45ee/"+选集地址.split("/")[6];
+    }else{
+    选集地址=选集地址;
+    }
+}else if(标题=='wekan'){
+      选集地址="https://www.flvweb.com/gw/?url="+选集地址;
+}else if(URL.indexOf('yyid6080')!=-1||URL.indexOf('p4kan')!=-1){
+         if(标题=='xigua'||标题=='bjm3u8'){
+           选集地址="https://bbs.cnzv.cc/dp/mp4.php?url=http://list.47api.cn:90/qq/xigua.php?id="+选集地址;
+           }else if(标题=='qqkj'){
+           选集地址="https://bbs.cnzv.cc/dp/ck/ck.php?url=http://list.47api.cn:90/qq/mp4.php?id="+选集地址;
+           }else if(标题=='tianyi'){
+           选集地址="http://p4kan.com/mp4/mp4.php?url="+选集地址;
+           }else if(标题=='tudou'){
+           选集地址="https://bbs.cnzv.cc/dp/mp4.php?url=https://sf1-ttcdn-tos.pstatp.com/obj/"+选集地址;
+           }{
+           选集地址=选集地址;
+           }
+}else if(URL.indexOf("bbkdj")!=-1){
+      选集地址="http://jx.yparse.com/index.php?url="+选集地址;
+}else if(标题=='niux'){
+      选集地址="https://www.shenma4480.com/jx.php?id="+选集地址;
+}else if(标题=='hkm3u8'){
+      选集地址="https://pl.tcc-interiors.com/hls/"+选集地址;
+}else if(标题=='xsp1'){
+      选集地址="https://jx.api.xhfhttc.cn/jx/?type=xsp1&url="+选集地址;
+}else if(标题=='bb'){
+      选集地址="https://jx.api.xhfhttc.cn/jx/?url="+选集地址;
+}
+//结束判断
+LIST.push({title:选集,url:选集地址});
+}
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+res.data=items;
+JSON.stringify(res);
