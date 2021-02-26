@@ -1,0 +1,425 @@
+var URL=e2Rex(getVar("url"),".z2(\\\(http.*?//.*?\\\)/)");
+if(URL.indexOf("ak1080.com")!=-1){
+var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
+if(分类!=null){
+    分类=分类;
+}else{
+    分类=getVar("源码").match(/<div class="play-btn clearfix">[\s\S]*?\/div>/g);
+}
+var 线路=getVar("源码").match(/<ul class="nav nav-tabs[\s\S]*?\/ul>/)[0].match(/<li.*?><a href=".*?\/a><\/li>/g);
+if(线路!=null){
+    线路=线路;
+}else{
+    线路=["<h3>暂无资源</h3>"];
+}
+var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<a[\s\S]*?<\/a>/g);
+    var 标题=e2Rex(线路[i],".get(a).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("zhaikanys.com")!=-1||URL.indexOf("cokemv.cn")!=-1){
+var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<ul class="nav nav-tabs[\s\S]*?\/ul>/)[0].match(/<li.*?><a href=".*?\/a><\/li>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.col-pd.text-collapse.content).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(a).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("jpysvip.net")!=-1){
+var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<ul class="nav nav-tabs[\s\S]*?\/ul>/)[0].match(/<li.*?><a href=".*?\/a><\/li>/g);
+var 简介=e2Rex(getVar("源码"),".get(div[class~=.*?ui-content__detail]).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(a).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("shenma4480.com")!=-1){
+var 分类=getVar("源码").match(/<ul class="stui-content__playlist[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<span class="nore text-muted[\s\S]*?\/h3>/g);
+var 简介=e2Rex(getVar("源码"),".get(div[class~=.*?ui-content__detail]).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(h3).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("subaibai.com")!=-1){
+var 分类=getVar("源码").match(/<div class="paly_list_btn">[\s\S]*?\/div>/g);
+var 简介=e2Rex(getVar("源码"),".get(ul.moviedteail_list).t().c().get(div.yp_context).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<a[\s\S]*?<\/a>/g);
+    var 标题="在线播放";
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".t()");
+        var 选集地址=e2Rex(列表[j],".a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("zhenbuka.com")!=-1){
+var 分类=getVar("源码").match(/<ul class="stui-content__playlist[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<span class="more text-muted[\s\S]*?\/h3>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(h3).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("vip.sb")!=-1){
+var 分类=getVar("源码").match(/<ul class="stui-content__playlist[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<span class="more text-muted[\s\S]*?\/h3>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(h3).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("saohuotv.com")!=-1){
+var 分类=e2Rex(getVar("源码"),".get(ul#play_link)").match(/<li[\s\S]*?\/li>/g);
+var 线路=e2Rex(getVar("源码"),".get(ul.from_list)").match(/<li[\s\S]*?\/li>/g);
+var 简介=e2Rex(getVar("源码"),".get(p.p_txt).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<a[\s\S]*?<\/a>/g);
+    var 标题=e2Rex(线路[i],".get(li).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("edu-hb.com")!=-1){
+var 分类=getVar("源码").match(/<div class="playlist_full"[\s\S]*?\/div>/g);
+var 线路=e2Rex(getVar("源码"),".get(div.play_source_tab)").match(/<a[\s\S]*?\/a>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.content_desc.context).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(a).a(alt)");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("nfstar.net")!=-1){
+var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<a class="more sort-[\s\S]*?\/h3>/g);
+var 简介=e2Rex(getVar("源码"),".get(div[class~=.*?ui-content__detail]).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(h3).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("hdworking.top")!=-1){
+var 分类=getVar("源码").match(/<div class="playlist_full"[\s\S]*?\/div>/g);
+var 线路=e2Rex(getVar("源码"),".get(div.play_source_tab)").match(/<a[\s\S]*?\/a>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.content_desc.context).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(a).a(alt)");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("hktvyb.com")!=-1){
+var 分类=getVar("源码").match(/<ul class="stui-content__playlist[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<span class="more text-[\s\S]*?\/h3>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(h3).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("siguyy.com")!=-1){
+var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<ul class="nav nav-tabs[\s\S]*?\/ul>/)[0].match(/<li.*?><a href=".*?\/a><\/li>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.myui-content__detail).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(a).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("xwcys.com")!=-1){
+var 分类=getVar("源码").match(/<div class="playlist_full"[\s\S]*?\/div>/g);
+var 线路=e2Rex(getVar("源码"),".get(div.play_source_tab)").match(/<a[\s\S]*?\/a>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.content_desc.context).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(a).a(alt)");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("duboku.tv")!=-1){
+var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<ul class="nav nav-tabs[\s\S]*?\/ul>/)[0].match(/<li.*?><a href=".*?\/a><\/li>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.myui-content__detail).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(a).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("jhdyw.vip")!=-1){
+var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<ul class="nav nav-tabs[\s\S]*?\/ul>/)[0].match(/<li.*?><a href=".*?\/a><\/li>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.myui-content__detail).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(a).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("bde4.cc")!=-1){
+var 分类=getVar("源码").match(/<div class="info1">[\s\S]*?<\/h4>[\s\S]*?<div/g);
+var 线路=["在线播放"];
+var 简介=e2Rex(getVar("源码"),".get(div.info0).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<a[\s\S]*?<\/a>/g);
+    var 标题=e2Rex(线路[i],".t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}else if(URL.indexOf("paofans.com")!=-1){
+var 分类=getVar("源码").match(/<ul class=".*?ui-content__.*?list[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<a class="more sort-[\s\S]*?\/h3>/g);
+var 简介=e2Rex(getVar("源码"),".get(div[class~=.*?ui-content__detail]).t()");
+var res={};var items=[];var detail=[];
+for(var i=0;i<分类.length;i++){
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
+    var 标题=e2Rex(线路[i],".get(h3).t()");
+    var LIST=[];
+    for(var j=0;j<列表.length;j++){
+        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集地址=URL+e2Rex(列表[j],".get(a).a(href)");
+        LIST.push({title:选集,url:选集地址});
+    }
+var play_={};
+play_.title=标题;
+play_.list=LIST;
+items.push(play_);
+}
+detail.push({desc:简介});
+res.data=items;
+res.desc=detail;
+JSON.stringify(res);
+}

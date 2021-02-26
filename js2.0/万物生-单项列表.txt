@@ -1,0 +1,203 @@
+var URL=e2Rex(getVar("url"),".z2(\\\(http.*?//.*?\\\)/)");
+if(URL.indexOf("paofans.com")!=-1||URL.indexOf("cokemv.cn")!=-1||URL.indexOf("jhdyw.vip")!=-1||URL.indexOf("duboku.tv")!=-1||URL.indexOf("siguyy.com")!=-1||URL.indexOf("hktvyb.com")!=-1||URL.indexOf("ak1080.com")!=-1||URL.indexOf("zhaikanys.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("zhenbuka.com")!=-1||URL.indexOf("vip.sb")!=-1){
+        var res={};var items=[];
+        var 列表=getVar("源码").match(/<li class=".*?col-md-\d col-sm-4 col-xs-3"[\s\S]*?<\/li>/g);
+        var LIST=[];
+            for(var j=0;j<列表.length;j++){
+                var 标题=e2Rex(列表[j],".get(.title a).t()");
+                var 地址=URL+e2Rex(列表[j],".get(.title a).a(href)");
+                if(地址.indexOf("vodplay")!=-1){
+                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
+                }else{
+                   地址=地址;
+                }
+                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
+                var 简介=e2Rex(列表[j],".get(span.pic-text).t().c().get(p.text).t()");
+                if(标题!=null){
+                   LIST.push({title:标题,url:地址,img:图片,detail:简介});
+                }
+            }
+        var play_={};
+        play_.list=LIST;
+        items.push(play_);
+        res.data=items;
+        JSON.stringify(res);
+}else if(URL.indexOf("shenma4480.com")!=-1){
+        var res={};var items=[];
+        var 列表=getVar("源码").match(/<li class="stui-vodlist__item">[\s\S]*?<\/li>/g);
+        var LIST=[];
+            for(var j=0;j<列表.length;j++){
+                var 标题=e2Rex(列表[j],".get(.stui-vodlist__title a).t()");
+                var 地址=URL+e2Rex(列表[j],".get(.stui-vodlist__title a).a(href)");
+                if(地址.indexOf("vodplay")!=-1){
+                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
+                }else{
+                   地址=地址;
+                }
+                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
+                var 简介=e2Rex(列表[j],".get(span.pic-text).t()");
+                LIST.push({title:标题,url:地址,img:图片,detail:简介});
+            }
+        var play_={};
+        play_.list=LIST;
+        items.push(play_);
+        res.data=items;
+        JSON.stringify(res);
+}else if(URL.indexOf("subaibai.com")!=-1){
+        var res={};var items=[];
+        var 列表=getVar("源码").match(/<li><a href="[\s\S]*?<\/li>/g);
+        var LIST=[];
+            for(var j=0;j<列表.length;j++){
+                var 标题=e2Rex(列表[j],".get(h3 a).t()");
+                var 地址=e2Rex(列表[j],".get(h3 a).a(href)");
+                if(地址.indexOf("vodplay")!=-1){
+                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
+                }else{
+                   地址=地址;
+                }
+                var 图片=e2Rex(列表[j],".get(img).a(data-original)");
+                var 简介=e2Rex(列表[j],".get(div.jidi).t().c(_).get(span.qb).t()");
+                LIST.push({title:标题,url:地址,img:图片,detail:简介});
+            }
+        var play_={};
+        play_.list=LIST;
+        items.push(play_);
+        res.data=items;
+        JSON.stringify(res);
+}else if(URL.indexOf("saohuotv.com")!=-1){
+        var res={};var items=[];
+        var 列表=e2Rex(getVar("源码"),".get(ul.v_list)").match(/<li>[\s\S]*?<\/li>/g);
+        var LIST=[];
+            for(var j=0;j<列表.length;j++){
+                var 标题=e2Rex(列表[j],".get(.v_title a).t()");
+                var 地址=URL+e2Rex(列表[j],".get(.v_title a).a(href)");
+                if(地址.indexOf("vodplay")!=-1){
+                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
+                }else{
+                   地址=地址;
+                }
+                var 图片=e2Rex(列表[j],".get(img).a(data-original)");
+                var 简介=e2Rex(列表[j],".get(div.v_note).t()");
+                LIST.push({title:标题,url:地址,img:图片,detail:简介});
+            }
+        var play_={};
+        play_.list=LIST;
+        items.push(play_);
+        res.data=items;
+        JSON.stringify(res);
+}else if(URL.indexOf("edu-hb.com")!=-1){
+        var res={};var items=[];
+        var 列表=getVar("源码").match(/<li class="vodlist_item[\s\S]*?<\/li>/g);
+        var LIST=[];
+            for(var j=0;j<列表.length;j++){
+                var 标题=e2Rex(列表[j],".get(.vodlist_title a).t()");
+                var 地址=URL+e2Rex(列表[j],".get(.vodlist_title a).a(href)");
+                if(地址.indexOf("vodplay")!=-1){
+                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
+                }else{
+                   地址=地址;
+                }
+                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
+                var 简介=e2Rex(列表[j],".get(span.pic_text).t().c(_).get(p.vodlist_sub).t()");
+                LIST.push({title:标题,url:地址,img:图片,detail:简介});
+            }
+        var play_={};
+        play_.list=LIST;
+        items.push(play_);
+        res.data=items;
+        JSON.stringify(res);
+}else if(URL.indexOf("nfstar.net")!=-1){
+        var res={};var items=[];
+        var 列表=getVar("源码").match(/<li class=".*?col-md-6 col-sm-4 col-xs-3[\s\S]*?<\/li>/g);
+        var LIST=[];
+            for(var j=0;j<列表.length;j++){
+                var 标题=e2Rex(列表[j],".get(.title a).t()");
+                var 地址=URL+e2Rex(列表[j],".get(.title a).a(href)");
+                if(地址.indexOf("vodplay")!=-1){
+                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
+                }else{
+                   地址=地址;
+                }
+                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
+                var 简介=e2Rex(列表[j],".get(span.pic_text).t()");
+                LIST.push({title:标题,url:地址,img:图片,detail:简介});
+            }
+        var play_={};
+        play_.list=LIST;
+        items.push(play_);
+        res.data=items;
+        JSON.stringify(res);
+}else if(URL.indexOf("hdworking.top")!=-1){
+        var res={};var items=[];
+        var 列表=getVar("源码").match(/<li class="vodlist_item[\s\S]*?<\/li>/g);
+        var LIST=[];
+            for(var j=0;j<列表.length;j++){
+                var 标题=e2Rex(列表[j],".get(.vodlist_title a).t()");
+                var 地址=URL+e2Rex(列表[j],".get(.vodlist_title a).a(href)");
+                if(地址.indexOf("vodplay")!=-1){
+                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
+                }else{
+                   地址=地址;
+                }
+                var 图片="http:"+e2Rex(列表[j],".get(a).a(data-original)");
+                var 简介=e2Rex(列表[j],".get(span.pic_text).t().c(_).get(p.vodlist_sub).t()");
+                LIST.push({title:标题,url:地址,img:图片,detail:简介});
+            }
+        var play_={};
+        play_.list=LIST;
+        items.push(play_);
+        res.data=items;
+        JSON.stringify(res);
+}else if(URL.indexOf("xwcys.com")!=-1){
+        var res={};var items=[];
+        var 列表=getVar("源码").match(/<li class="vodlist_item[\s\S]*?<\/li>/g);
+        var LIST=[];
+            for(var j=0;j<列表.length;j++){
+                var 标题=e2Rex(列表[j],".get(.vodlist_title a).t()");
+                var 地址=URL+e2Rex(列表[j],".get(.vodlist_title a).a(href)");
+                if(地址.indexOf("vodplay")!=-1){
+                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
+                }else{
+                   地址=地址;
+                }
+                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
+                if(图片.indexOf("http")!=-1){
+                   图片=图片;
+                }else{
+                  图片=URL+图片;
+                }
+                var 简介=e2Rex(列表[j],".get(span.pic_text).t().c(_).get(p.vodlist_sub).t()");
+                LIST.push({title:标题,url:地址,img:图片,detail:简介});
+            }
+        var play_={};
+        play_.list=LIST;
+        items.push(play_);
+        res.data=items;
+        JSON.stringify(res);
+}else if(URL.indexOf("bde4.cc")!=-1){
+        var res={};var items=[];
+        var 列表=getVar("源码").match(/<div class="card">[\s\S]*?<\/div>[\s]*?<\/div>[\s]*?<\/div>/g);
+        var LIST=[];
+            for(var j=0;j<列表.length;j++){
+                var 标题=e2Rex(列表[j],".get(span.header).t()");
+                var 地址=URL+e2Rex(列表[j],".get(a).a(href)");
+                if(地址.indexOf("vodplay")!=-1){
+                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
+                }else{
+                   地址=地址;
+                }
+                var 图片=e2Rex(列表[j],".get(img).a(src)");
+                if(图片.indexOf("http")!=-1){
+                   图片=图片;
+                }else{
+                  图片=URL+图片;
+                }
+                var 简介=e2Rex(列表[j],".get(span).t().c(_).get(div.meta).t()");
+                LIST.push({title:标题,url:地址,img:图片,detail:简介});
+            }
+        var play_={};
+        play_.list=LIST;
+        items.push(play_);
+        res.data=items;
+        JSON.stringify(res);
+}
