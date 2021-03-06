@@ -69,13 +69,13 @@ if(URL.indexOf("ak1080.com")!=-1){
             }
         res.data=items;
         JSON.stringify(res);
-}else if(URL.indexOf("vip.sb")!=-1){
+}else if(URL.indexOf("bukaivip.com")!=-1){
         var res={};
         var items=[];
         var 标题=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧","纪录片"];
         var 地址=["1","2","3","4","6","7","8","9","10","11","12","13","14","15","16","20"];
         for(var j=0;j<标题.length;j++){
-            分类地址="https://vip.sb/index.php/vod/show/id/"+地址[j]+"/page/#PN#.html";
+            分类地址="https://bukaivip.com/index.php/vod/show/id/"+地址[j]+"/page/#PN#.html";
                 items.push({title:标题[j],url:分类地址});
             }
         res.data=items;
@@ -168,13 +168,13 @@ if(URL.indexOf("ak1080.com")!=-1){
             }
         res.data=items;
         JSON.stringify(res);
-}else if(URL.indexOf("duboku.tv")!=-1){
+}else if(URL.indexOf("duboku.su")!=-1){
         var res={};
         var items=[];
         var 标题=["电影","电视剧","综艺","动漫","国产剧","港台泰剧","日韩剧","英美剧"];
         var 地址=["1","2","3","4","13","14","15","16"];
         for(var j=0;j<标题.length;j++){
-            分类地址="https://www.duboku.tv/vodtype/"+地址[j]+"-#PN#.html";
+            分类地址="https://duboku.su/vodtype/"+地址[j]+"-#PN#.html";
                 items.push({title:标题[j],url:分类地址});
             }
         res.data=items;

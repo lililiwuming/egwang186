@@ -146,7 +146,7 @@ detail.push({desc:简介});
 res.data=items;
 res.desc=detail;
 JSON.stringify(res);
-}else if(URL.indexOf("vip.sb")!=-1){
+}else if(URL.indexOf("bukaivip.com")!=-1){
 var 分类=getVar("源码").match(/<ul class="stui-content__playlist[\s\S]*?\/ul>/g);
 var 线路=getVar("源码").match(/<span class="more text-muted[\s\S]*?\/h3>/g);
 var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");
@@ -330,7 +330,7 @@ detail.push({desc:简介});
 res.data=items;
 res.desc=detail;
 JSON.stringify(res);
-}else if(URL.indexOf("duboku.tv")!=-1){
+}else if(URL.indexOf("duboku.su")!=-1){
 var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
 var 线路=getVar("源码").match(/<ul class="nav nav-tabs[\s\S]*?\/ul>/)[0].match(/<li.*?><a href=".*?\/a><\/li>/g);
 var 简介=e2Rex(getVar("源码"),".get(div.myui-content__detail).t()");

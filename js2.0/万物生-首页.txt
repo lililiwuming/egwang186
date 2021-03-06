@@ -34,7 +34,7 @@
         },
         {
         "title":"VIP影院",
-        "url":"https://vip.sb",
+        "url":"https://bukaivip.com",
         "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/viplogo.png"
         },
         {
@@ -79,7 +79,7 @@
         },
         {
         "title":"独播库",
-        "url":"https://www.duboku.tv",
+        "url":"https://duboku.su",
         "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dubokulogo.png"
         },
         {
