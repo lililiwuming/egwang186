@@ -3,7 +3,7 @@ if(URL.indexOf("xunlei.fan")!=-1){
 var uu=URL.replace("at/xml/","");
 var RESP=getHttp(JSON.stringify({url:uu}));
 var res={};var items=[];
-var 初列表=RESP.match(/"vod_down_url":"([\s\S]*?)"/)[1].replace(/\\/g,"")+"#";
+var 初列表=RESP.match(/"vod_down_url":"(.*?)"/)[1].replace(/\\/g,"")+"#";
 var 列表=初列表.match(/.*?#/g);
 var 标题="xunlei";
 var LIST=[];
@@ -11,9 +11,10 @@ for(var j=0;j<列表.length;j++){
     if(列表[j].indexOf("$")!=-1){
     var 选集=列表[j].split("$")[0];
     }else{
-    var 选集=j+1;
+    var 选集=j+1; 
     }
     var 选集地址=列表[j].split("$")[1];
+LIST.push({title:选集,url:选集地址});
 }
 var play_={};
 play_.title=标题;
