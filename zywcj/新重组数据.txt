@@ -13,7 +13,7 @@ for(var j=0;j<列表.length;j++){
     }else{
     var 选集=j+1; 
     }
-    var 选集地址=列表[j].split("$")[1];
+    var 选集地址=列表[j].split("$")[1].split("#")[0];
 LIST.push({title:选集,url:选集地址});
 }
 var play_={};
