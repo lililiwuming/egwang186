@@ -1,7 +1,9 @@
 var URL=getVar("url");
 if(URL.indexOf("xunlei.fan")!=-1){
+var uu=URL.replace("at/xml/","");
+var RESP=getHttp(JSON.stringify({url:uu}));
 var res={};var items=[];
-var 初列表=getVar("源码").match(/"vod_down_url":"(.*?)"/)[1]+"#";
+var 初列表=RESP.match(/"vod_down_url":"(.*?)"/)[1]+"#";
 var 列表=初列表.match(/.*?#/g);
 var 标题="xunlei";
 var LIST=[];
