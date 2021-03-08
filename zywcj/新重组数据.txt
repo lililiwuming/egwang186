@@ -49,8 +49,8 @@ for(var j=0;j<列表.length;j++){
     }else if(标题=='bkm3u8'){
       选集地址="https://jx.wzm.kim/hls/"+选集地址+".m3u8";
     }
-}else if(URL.indexOf('baipiaozy')!=-1){
-      选集地址="https://jx.baipiaozy.com/player/?url="+选集地址;
+}else if(URL.indexOf('789pan.cn')!=-1){
+      选集地址="https://play.789pan.cn/player/tm.php?url="+选集地址;
 }else if(URL.indexOf('bowang.tv')!=-1){
       if(标题.indexOf('msp')!=-1){
       选集地址="https://titan.mgtv.com.bowang.tv/player/analysis.php?v="+选集地址;
