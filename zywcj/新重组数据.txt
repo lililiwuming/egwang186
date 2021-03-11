@@ -51,6 +51,10 @@ for(var j=0;j<列表.length;j++){
     }
 }else if(URL.indexOf('789pan.cn')!=-1){
       选集地址="https://play.789pan.cn/player/tm.php?url="+选集地址;
+}else if(URL.indexOf('kudian6.com')!=-1){
+     if(标题.indexOf('kdyx')!=-1||标题.indexOf('kdsx')!=-1){
+     选集地址="http://api.kudian6.com/jm/pdplayer.php?url="+选集地址;
+    }
 }else if(URL.indexOf('bowang.tv')!=-1){
       if(标题.indexOf('msp')!=-1){
       选集地址="https://titan.mgtv.com.bowang.tv/player/analysis.php?v="+选集地址;
