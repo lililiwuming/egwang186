@@ -5,7 +5,11 @@ var TOKEN=resp.match(/var ptoken.*?"(.*?)"/)[1].replace(/\\/g,'');
 var uuu='https://bde4.cc/god/'+TOKEN+'?sg=';
 var DATA=getHttp(JSON.stringify({url:uuu}));
 var uuuu=DATA.match(/"url":"(.*?)"/)[1];
-var playurl=uuuu.split('?rkey')[0]+new Date().getTime().toString()+'.mp4?ver=6010&rkey='+uuuu.split('rkey')[1];
+if(uuuu.indexOf("url=")!=-1){
+var playurl=uuuu.split('&url=')[1];
+}else{
+var playurl=uuuu.split('?rkey')[0]+new Date().getTime().toString()+'.mp4?ver=6010&rkey='+uuuu.split('rkey=')[1];
+}
 JSON.stringify({url:playurl});
 }else{
 JSON.stringify({web:uu});
