@@ -14,5 +14,5 @@ var playurl=uuuu.split('?rkey')[0]+new Date().getTime().toString()+'.mp4?ver=601
 JSON.stringify({url:playurl});
 }
 }else{
-JSON.stringify({web:uu});
+web:uu;
 }
