@@ -8,7 +8,7 @@ var uuuu=DATA.match(/"url":"(.*?)"/)[1];
 var cookie=DATA.match(/"cookie":"(.*?)"/)[1];
 if(uuuu.indexOf("url=")!=-1){
 var playurl=uuuu+'/'+new Date().getTime().toString()+'.mp4';
-JSON.stringify({web:playurl});
+web:playurl;
 }else{
 var playurl=uuuu.split('?rkey')[0]+new Date().getTime().toString()+'.mp4?ver=6010&rkey='+uuuu.split('rkey=')[1];
 JSON.stringify({url:playurl});
