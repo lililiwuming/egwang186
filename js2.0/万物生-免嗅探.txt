@@ -7,13 +7,11 @@ var DATA=getHttp(JSON.stringify({url:uuu}));
 var uuuu=DATA.match(/"url":"(.*?)"/)[1];
 var cookie=DATA.match(/"cookie":"(.*?)"/)[1];
 if(uuuu.indexOf("url=")!=-1){
-var playurl=uuuu.split('&url=')[1]+'/'+new Date().getTime().toString()+'.mp4';
+var playurl=uuuu+'/'+new Date().getTime().toString()+'.mp4';
 }else{
 var playurl=uuuu.split('?rkey')[0]+new Date().getTime().toString()+'.mp4?ver=6010&rkey='+uuuu.split('rkey=')[1];
 }
-var dd={url:playurl,headers:{'cookie':'FTN5K='+cookie,'user-agent':'Mozilla/5.0'}};
-alert(dd);
-JSON.stringify({url:playurl,headers:{'Cookie':'FTN5K='+cookie,'User-Agent':'Mozilla/5.0'}});
+JSON.stringify({url:playurl});
 }else{
 JSON.stringify({web:uu});
 }
