@@ -8,6 +8,7 @@ JSON.stringify({url:uu});
 }else if(uu.indexOf("https://laoya")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
 var playurl=resp.match(/http.*/)[0];
+alert(playurl);
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("juztv.com")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
