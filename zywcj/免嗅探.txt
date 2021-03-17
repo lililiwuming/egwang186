@@ -5,12 +5,6 @@ var playurl=resp.match(/播放地址[\s\S]*?url.*?'(.*?)'/)[1];
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("4kya.com")!=-1){
 JSON.stringify({url:uu});
-}else if(uu.indexOf("laoya.77")!=-1){
-var resp=getHttp(JSON.stringify({url:uu}));
-alert(resp)
-var playurl=resp.match(/http.*/)[0];
-alert(playurl);
-JSON.stringify({url:playurl});
 }else if(uu.indexOf("juztv.com")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
 var uuu='https://www.juztv.com/'+resp.match(/var u="(.*?)"/)[1];
