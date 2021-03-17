@@ -7,6 +7,7 @@ JSON.stringify({url:playurl});
 JSON.stringify({url:uu});
 }else if(uu.indexOf("https://laoya")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
+alert(resp)
 var playurl=resp.match(/http.*/)[0];
 alert(playurl);
 JSON.stringify({url:playurl});
