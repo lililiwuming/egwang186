@@ -9,7 +9,7 @@ JSON.stringify({url:uu});
 var uuu=uu.split("wd=")[1]+"8";
 var resp2=getHttp(JSON.stringify({url:uuu,head:{'Referer':'http://laoyazy.vip/static/player/dplayer.html'}}));
 var playurl=resp2.match(/http.*/)[0];
-JSON.stringify({url:playurl,headers:{'Referer':'http://laoyazy.vip/static/player/dplayer.html'}});
+JSON.stringify({url:playurl,headers:{'User-Agent':'Mozilla/5.0','Referer':'http://laoyazy.vip/static/player/dplayer.html'}});
 }else if(uu.indexOf("juztv.com")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
 var uuu='https://www.juztv.com/'+resp.match(/var u="(.*?)"/)[1];
