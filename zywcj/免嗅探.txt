@@ -7,7 +7,7 @@ JSON.stringify({url:playurl});
 JSON.stringify({url:uu});
 }else if(uu.indexOf("https://laoya.")!=-1){
 var playurl=uu+"8";
-JSON.stringify({url:playurl,"headers":{'Referer':'http://laoyazy.vip/static/player/dplayer.html'}});
+JSON.stringify({url:playurl});
 }else if(uu.indexOf("juztv.com")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
 var uuu='https://www.juztv.com/'+resp.match(/var u="(.*?)"/)[1];
