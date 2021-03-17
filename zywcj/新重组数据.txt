@@ -46,7 +46,7 @@ for(var j=0;j<列表.length;j++){
 }else if(选集地址.indexOf("alivideo.4kya.com")!=-1){
       var 选集地址=选集地址+"?_type=.mp4";
 }else if(选集地址.indexOf("https://laoya")!=-1){
-      var 选集地址=选集地址.replace("index.m3u8","1000kb/hls/index.m3u");
+      var 选集地址="https://www.baidu.com/s?wd="选集地址.replace("index.m3u8","1000kb/hls/index.m3u");
 }else if(URL.indexOf('yeyemi.com')!=-1){
     if(标题=='alizy'){
       选集地址="https://ssl.vip.cqzyw.net:11551/?url="+选集地址;
