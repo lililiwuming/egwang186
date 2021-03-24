@@ -70,7 +70,11 @@ for(var j=0;j<列表.length;j++){
        选集地址="https://ty.hjjjjhd.top/index.php?url="+选集地址;
        }
 }else if(标题.indexOf("rrm3u8")!=-1){
+      if(选集地址.indexOf("zzwc120.com")!=-1){
       选集地址="https://www.meiju11.com/ckplayerx/m3u8.php?url="+选集地址;
+      }else{
+      选集地址=选集地址;
+      }
 }else if(标题.indexOf("bbkdj")!=-1){
       选集地址="http://jx.yparse.com/index.php?url="+选集地址;
 }else if(标题=='Q4'||标题=='Q6'||标题=='Q8'){
