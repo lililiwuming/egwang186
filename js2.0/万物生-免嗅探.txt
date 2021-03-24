@@ -13,6 +13,33 @@ JSON.stringify({url:playurl});
 var playurl=uuuu.split('?rkey')[0]+new Date().getTime().toString()+'.mp4?ver=6010&rkey='+uuuu.split('rkey=')[1];
 JSON.stringify({url:playurl});
 }
+}else if(uu.indexOf("shenma4480.com")!=-1){
+var resp=getHttp(JSON.stringify({url:uu}));
+var DATA=resp.match(/var player_.*?"url":"(.*?)"/)[1];
+if(DATA.indexOf('.mp4')!=-1){
+    var uuu='https://www.juztv.com/jx.php?id='+DATA;
+    var resp2=getHttp(JSON.stringify({url:uuu,head:{'Referer':uu}}));
+    var uuuu='https://www.juztv.com/'+resp2.match(/var u="(.*?)"/)[1];
+    var resp3=getHttp(JSON.stringify({url:uuuu,head:{'Referer':uuu}}));
+    var playurl=resp3.match(/<video src="(.*?)"/)[1];
+JSON.stringify({url:playurl});
+}else{
+    var $url1=CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(DATA));
+    var $url2='';
+    for(var i=0;i<$url1.length;i++){
+        var n=$url1.charCodeAt(i);
+        $url2+=String.fromCharCode(n-1);
+    }
+    var resp2=getHttp(JSON.stringify({url:'https://www.juztv.com/wapjx/api.php',post:{'url':$url2},head:{'Referer':'https://www.juztv.com/wapjx/?url='+DATA}}));
+     var $playurl1=resp2.match(/"url":"(.*?)"/)[1];
+     var $playurl2='';
+     for(var i=0;i<$playurl1.length;i++){
+          var n=$playurl1.charCodeAt(i);
+          $playurl2 =$playurl2+String.fromCharCode(n-1);
+        }
+     var playurl=CryptoJS.enc.Base64.parse($playurl2).toString(CryptoJS.enc.Utf8);
+JSON.stringify({url:playurl});
+}
 }else{
 "web="+uu;
 }
