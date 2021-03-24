@@ -18,7 +18,7 @@ var resp=getHttp(JSON.stringify({url:uu}));
 var DATA=resp.match(/var player_.*?"url":"(.*?)"/)[1];
 if(DATA.indexOf('.mp4')!=-1){
     var uuu='https://www.juztv.com/jx.php?id='+DATA;
-    var resp2=getHttp(JSON.stringify({url:uuu,head:{'Referer':uu}}));
+    var resp2=getHttp(JSON.stringify({url:uuu}));
     var uuuu='https://www.juztv.com/'+resp2.match(/var u="(.*?)"/)[1];
     var resp3=getHttp(JSON.stringify({url:uuuu,head:{'Referer':uuu}}));
     var playurl=resp3.match(/<video src="(.*?)"/)[1];
