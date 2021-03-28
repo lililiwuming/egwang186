@@ -53,6 +53,8 @@ for(var j=0;j<列表.length;j++){
     }
 }else if(URL.indexOf('789pan.cn')!=-1){
       选集地址="https://py.789pan.cn/player/tm.php?url="+选集地址;
+}else if(URL.indexOf('zy.7kjx.com')!=-1){
+      选集地址="https://url.js.cn/?url="+选集地址;
 }else if(URL.indexOf('kudian6.com')!=-1){
      if(标题.indexOf('kdyx')!=-1||标题.indexOf('kdsx')!=-1){
      选集地址="http://api.kudian6.com/jm/pdplayer.php?url="+选集地址;
