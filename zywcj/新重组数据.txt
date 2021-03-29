@@ -39,7 +39,7 @@ for(var j=0;j<列表.length;j++){
     var 选集地址=e2Rex(列表[j],".z2(\\\(http.*?\\\)[\\$|#]).or().z2(\\$\\\(.*?\\\)[$|&|#]).or().z(.*)");
 //开始根据网址，线路判断前缀
       if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1||选集地址.indexOf("share.weiyun.")!=-1){
-      选集地址="https://egwang186.gitee.io/?url="+选集地址;
+      选集地址="http://egwang186.gitee.io/?url="+选集地址;
 }else if(选集地址.indexOf(":6688/player")!=-1){
       var hash=选集地址.split("player/")[1];
       选集地址="https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
