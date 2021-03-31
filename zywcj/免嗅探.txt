@@ -2,16 +2,16 @@ var uu=getVar("url");
 if(uu.indexOf("www.meiju11.com")!=-1){
 var resp=getHttp(JSON.stringify({url:uu,head:{'Referer':'https://www.meiju11.com'}}));
 var playurl=resp.match(/播放地址[\s\S]*?url.*?'(.*?)'/)[1];
-JSON.stringify({url:playurl});
+JSON.stringify([{url:playurl}]);
 }else if(uu.indexOf("alivideo.4kya.com")!=-1){
 var playurl=uu.split("wd=")[1]+"?_type=.mp4";
-JSON.stringify({url:playurl});
+JSON.stringify([{url:playurl}]);
 }else if(uu.indexOf("juztv.com")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
 var uuu='https://www.juztv.com/'+resp.match(/var u="(.*?)"/)[1];
 var resp2=getHttp(JSON.stringify({url:uuu,head:{'Referer':uu}}));
 var playurl=resp2.match(/<video src="(.*?)"/)[1];
-JSON.stringify({url:playurl});
+JSON.stringify([{url:playurl}]);
 }else{
 "web="+uu;
 }
