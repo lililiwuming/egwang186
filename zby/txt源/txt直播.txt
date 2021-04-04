@@ -1,3 +1,8 @@
 #网络订阅txt源
-港澳台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/港澳台.txt
+央视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/央视.txt
+香港台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/香港台.txt
+台湾台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/台湾台.txt
+虎牙轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/虎牙轮播.txt
+台湾18,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/台湾18.txt
+NewTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/NewTV.txt
 #

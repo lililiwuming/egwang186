@@ -19,3 +19,12 @@ NOW新闻台,http://xiaojun.kb19.aihost69.top/7108live/iptv/?id=16
 RTHK31,http://xiaojun.kb19.aihost69.top/7108live/iptv/?id=18
 RHTK32,http://xiaojun.kb19.aihost69.top/7108live/iptv/?id=19
 Now爆谷台,https://myun-hw-s3.myun.tv/melj80jz/0ezv7bya/1585467130841903485.m3u8
+有线新闻,http://qj.yyrjdp.cn/jiuban/daili/iptv5333.php?id=5
+中天新闻台,http://qj.yyrjdp.cn/jiuban/daili/iptv5333.php?id=32
+东森新闻台,http://qj.yyrjdp.cn/jiuban/daili/iptv5333.php?id=33
+中视新闻,http://qj.yyrjdp.cn/jiuban/daili/iptv5333.php?id=38
+TVBS新闻台,http://qj.yyrjdp.cn/jiuban/daili/iptv5333.php?id=40
+民视,http://qj.yyrjdp.cn/jiuban/daili/iptv5333.php?id=47
+台视,http://qj.yyrjdp.cn/jiuban/daili/iptv5333.php?id=48
+中视,http://qj.yyrjdp.cn/jiuban/daili/iptv5333.php?id=49
+华视,http://qj.yyrjdp.cn/jiuban/daili/iptv5333.php?id=50
