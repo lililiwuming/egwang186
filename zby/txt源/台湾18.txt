@@ -4,7 +4,7 @@ TokyoHOT,http://ub.dszhibo.xyz/kk/hstv.php?id=416?type=.m3u8
 香蕉台,http://ub.dszhibo.xyz/kk/hstv.php?id=408?type=.m3u8
 松视1台,http://ub.dszhibo.xyz/kk/hstv.php?id=402?type=.m3u8
 松视2台,http://ub.dszhibo.xyz/kk/hstv.php?id=403
-松视3台,http://ub.dszhibo.xyz/kk/hstv.php?id=404?type=.m3u8
+松视3台,http://ub.dszhibo.xyz/kk/hstv.php?id=404&type=.m3u8
 HOT,http://ub.dszhibo.xyz/kk/hstv.php?id=407?type=.m3u8
 HAPPY,http://ub.dszhibo.xyz/kk/hstv.php?id=412?type=.m3u8
 惊艳台,http://ub.dszhibo.xyz/kk/hstv.php?id=409?type=.m3u8
