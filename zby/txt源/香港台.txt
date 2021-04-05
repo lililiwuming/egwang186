@@ -1,4 +1,4 @@
-18台,http://hls2.qqdszb.com/d/yfy.php?id=44?type=.m3u8
+有线18台,http://hls2.qqdszb.com/d/yfy.php?id=44?type=.m3u8
 翡翠台1,http://hls2.qqdszb.com/d/yfy.php?id=390?type=.m3u8
 翡翠台2,http://hls2.qqdszb.com/d/yfy.php?id=1084?type=.m3u8
 明珠台,http://hls2.qqdszb.com/d/yfy.php?id=391?type=.m3u8
