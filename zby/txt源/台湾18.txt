@@ -24,11 +24,3 @@ Super One HD,http://158417cjz.xyz/12.php?id=457?type=.m3u8
 Private TV,http://158417cjz.xyz/12.php?id=453?type=.m3u8
 Passie,http://158417cjz.xyz/12.php?id=461?type=.m3u8
 Vivid Red HD,http://158417cjz.xyz/12.php?id=455?type=.m3u8
-2,http://158417cjz.xyz/12.php?id=460?type=.m3u8
-3,http://158417cjz.xyz/12.php?id=463?type=.m3u8
-4,http://158417cjz.xyz/12.php?id=464?type=.m3u8
-5,http://158417cjz.xyz/12.php?id=465?type=.m3u8
-6,http://158417cjz.xyz/12.php?id=466?type=.m3u8
-7,http://158417cjz.xyz/12.php?id=467?type=.m3u8
-8,http://158417cjz.xyz/12.php?id=468?type=.m3u8
-9,http://158417cjz.xyz/12.php?id=469?type=.m3u8
