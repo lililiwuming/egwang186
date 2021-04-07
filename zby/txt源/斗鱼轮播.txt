@@ -11,17 +11,3 @@
 狄仁杰剧场,http://tx2play1.douyucdn.cn/live/674441rCgFqTKf6Z_4000p.flv
 国产谍战剧,http://tx2play1.douyucdn.cn/live/3439096rZtFuJ70J_4000p.flv
 港剧精选,http://tx2play1.douyucdn.cn/live/4549169rOBC4q3V2_4000p.flv
-斗鱼1,http://666.stop.kim/douyu.php?id=122402&type=.m3u8
-斗鱼3,http://666.stop.kim/douyu.php?id=252802&type=.m3u8
-斗鱼4,http://666.stop.kim/douyu.php?id=20415&type=.m3u8
-斗鱼5,http://666.stop.kim/douyu.php?id=248753&type=.m3u8
-斗鱼6,http://666.stop.kim/douyu.php?id=7712894&type=.m3u8
-斗鱼7,http://666.stop.kim/douyu.php?id=36337&type=.m3u8
-斗鱼8,http://666.stop.kim/douyu.php?id=5033502&type=.m3u8
-斗鱼10,http://666.stop.kim/douyu.php?id=5581257&type=.m3u8
-斗鱼11,http://666.stop.kim/douyu.php?id=5423&type=.m3u8
-斗鱼13,http://666.stop.kim/douyu.php?id=2793084&type=.m3u8
-斗鱼14,http://666.stop.kim/douyu.php?id=1226741&type=.m3u8
-斗鱼15,http://666.stop.kim/douyu.php?id=7882691&type=.m3u8
-斗鱼16,http://666.stop.kim/douyu.php?id=7077241&type=.m3u8
-斗鱼17,http://666.stop.kim/douyu.php?id=4700&type=.m3u8
