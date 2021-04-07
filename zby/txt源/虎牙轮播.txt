@@ -11,3 +11,12 @@
 洪金宝电影,http://kuqq.tk/00/huya.php?id=11342427&type=.m3u8
 徐峥电影,http://kuqq.tk/00/huya.php?id=1160204&type=.m3u8
 酷喵云直播,https://cloud-live.kumiaocloud.com/live/hellolive.m3u8
+华视-警匪大片,http://vip.auney.cn/api/huya.php?id=23358421&type=.m3u8
+华视-喜剧大片,http://vip.auney.cn/api/huya.php?id=23352525&type=.m3u8
+华视-爱情大片,http://vip.auney.cn/api/huya.php?id=23358431&type=.m3u8
+华视-动作大片,http://vip.auney.cn/api/huya.php?id=23352535&type=.m3u8
+华视-悬疑恐怖,http://vip.auney.cn/api/huya.php?id=23358441&type=.m3u8
+华视-高分好片,http://vip.auney.cn/api/huya.php?id=23352530&type=.m3u8
+华视-猜你喜欢,http://vip.auney.cn/api/huya.php?id=23352563&type=.m3u8
+华视-小时代呀,http://vip.auney.cn/api/huya.php?id=23358457&type=.m3u8
+华视-你想要的,http://vip.auney.cn/api/huya.php?id=23358446&type=.m3u8
