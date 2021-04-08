@@ -1,4 +1,5 @@
 #网络订阅m3u源
 AdultIptv,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/AdultIptv.m3u
+albaniaIPTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/albaniaIPTV.m3u
 红灯区,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/redtraffic.m3u8
 #
