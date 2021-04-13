@@ -5,6 +5,8 @@
 台视,rtmp://59.124.75.156/sat/tv071
 中视,rtmp://59.124.75.157/sat/tv091
 华视,rtmp://59.124.75.156/sat/tv111
+好消息1台,http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch1-1.m3u8
+好消息2台,http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-1.m3u8
 GoodTV·综合台,https://dqhxk7sbp7xog.cloudfront.net/osmflivech1.m3u8
 GoodTV·卡通台,https://dqhxk7sbp7xog.cloudfront.net/osmflivech45.m3u8
 TVBS·欢乐台,https://ws.matchupstream.tuboshu.com/live/db9084224f1680449e40649d4719cdfa.flv
@@ -25,6 +27,11 @@ TVBS·新闻台,rtmp://59.124.75.156/sat/tv551
 纬来体育,rtmp://59.124.75.156/sat/tv721
 纬来日本,https://ws.matchupstream.tuboshu.com/live/04a3356547cbcf238b94726c63a96a9e.flv
 爱尔达体育一,rtmp://59.124.75.157/sat/md011
+FOX体育新闻,https://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master1280x720.m3u8
+民视台湾台,rtmp://59.124.75.157/sat/md051
+爱尔达体育3台,rtmp://59.124.75.157/sat/md011
+KiX HD,http://50.7.161.82:8278/streams/d/KiX/playlist.m3u8
+NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
 MoMo·综合台,rtmp://59.124.75.157/sat/tv761
 台视新闻·,https://ws.matchupstream.tuboshu.com/live/8f284a12632002eaa2d6cc7d565fd8bd.flv
 中视新闻·,https://ws.matchupstream.tuboshu.com/live/2a8abf470bc98035a9566a0475939669.flv
