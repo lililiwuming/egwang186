@@ -12,4 +12,5 @@
 IBIZA18(X5+VPN),https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/IBIZA18.txt
 台湾18本地,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/台湾18本地.txt
 NewTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/NewTV.txt
+MV歌曲,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/MV歌曲.txt
 #
