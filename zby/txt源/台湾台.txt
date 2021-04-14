@@ -5,5 +5,14 @@
 好消息2台,http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-1.m3u8
 GoodTV·综合台,https://dqhxk7sbp7xog.cloudfront.net/osmflivech1.m3u8
 GoodTV·卡通台,https://dqhxk7sbp7xog.cloudfront.net/osmflivech45.m3u8
-中天新闻,http://pullhls3948069e.live.126.net/live/twztxw_MTYxODM4NzgwNg/playlist.m3u8
 NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
+东森新闻台,http://cdn.wakds.xyz:25461/live/hls/live/1403.m3u8
+中天新闻,http://pullhls3948069e.live.126.net/live/twztxw_MTYxODM4NzgwNg/playlist.m3u8
+中天新闻台,http://cdn.wakds.xyz:25461/live/hls/live/1404.m3u8
+民视新闻台,http://cdn.wakds.xyz:25461/live/hls/live/1405.m3u8
+三立财经新闻iNEWS,http://cdn.wakds.xyz:25461/live/hls/live/1406.m3u8
+TVBS新闻,http://cdn.wakds.xyz:25461/live/hls/live/1407.m3u8
+东森财经新闻台,http://cdn.wakds.xyz:25461/live/hls/live/1408.m3u8
+中视新闻,http://cdn.wakds.xyz:25461/live/hls/live/1409.m3u8
+华视新闻,http://cdn.wakds.xyz:25461/live/hls/live/1410.m3u8
+寰宇新闻台,http://cdn.wakds.xyz:25461/live/hls/live/1411.m3u8
