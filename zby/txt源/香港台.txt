@@ -1,44 +1,29 @@
 凤凰中文台,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225942/1.m3u8
-凤凰中文台,rtmp://58.200.131.2:1935/livetv/fhzw
-凤凰中文台,http://117.169.124.43:6610/ysten-businessmobile/live/fhchinese/index.m3u8
-凤凰资讯台,rtmp://58.200.131.2:1935/livetv/fhzx
-凤凰资讯台,http://117.169.124.43:6610/ysten-businessmobile/live/fhzixun/index.m3u8
-凤凰资讯,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
 凤凰资讯,http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8
-凤凰香港FHD,http://live-hwcdn.utvlive.top/live/a4e8cf74196e40959485a9ef4c532d02/6286b2bbb78341cd9fa92c7b37ccc03c.m3u8
 凤凰香港,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
-凤凰香港,http://183.207.249.34/PLTV/3/224/3221226975/index.m3u8
 凤凰电影台,rtmp://58.200.131.2:1935/livetv/fhdy
-TVBS新闻台,http://pullhls3948069e.live.126.net/live/twtvbsxw_MTYxODM4MzE4Ng/playlist.m3u8
-无线新闻,http://pullhls3948069e.live.126.net/live/hkwxxw_MTYxODM4MzA2NQ/playlist.m3u8
-J2,http://pullhls3948069e.live.126.net/live/hktvbj2_MTYxODM5NDM0Ng/playlist.m3u8
-J2,http://cdn.wakds.xyz:25461/live/hls/live/1396.m3u8
-翡翠台,http://cdn.wakds.xyz:25461/live/hls/live/1390.m3u8
-明珠台,http://cdn.wakds.xyz:25461/live/hls/live/1391.m3u8
-星河台,http://cdn.wakds.xyz:25461/live/hls/live/1400.m3u8
-卫视卡式台,http://cdn.wakds.xyz:25461/live/hls/live/1401.m3u8
-壹新闻,http://cdn.wakds.xyz:25461/live/hls/live/1402.m3u8
-无线新闻,http://cdn.wakds.xyz:25461/live/hls/live/1392.m3u8
-无线财经资讯,http://cdn.wakds.xyz:25461/live/hls/live/1395.m3u8
-有线新闻台,http://liveicm12.utvlive.top/live/97609933ef744f008e19a6e0d5ef9f2b/edd34677cc9548539d36b10c1c594b94-3.m3u8
-有线财经资讯台,http://liveicm12.utvlive.top/live/add598ff3f90428da3fbebb644ba135b/2bbaa83758ba412bbdd8d08626c56eb4-3.m3u8
-有线综合娱乐台,http://liveicm12.utvlive.top/live/d4e03afe056a4f2da070d5f789f3ac9e/a5ed7598a90246199df373924de367d4-3.m3u8
-有线新闻,http://cdn.wakds.xyz:25461/live/hls/live/1393.m3u8
-有线娱乐,http://cdn.wakds.xyz:25461/live/hls/live/1398.m3u8
-有线电影,http://cdn.wakds.xyz:25461/live/hls/live/1399.m3u8
-VIUTV,http://cdn.wakds.xyz:25461/live/hls/live/1394.m3u8
-NOW新闻,http://cdn.wakds.xyz:25461/live/hls/live/1397.m3u8
-综合娱乐台,http://cdn.wakds.xyz:25461/live/hls/live/1398.m3u8
+TVB J2台,http://93.190.139.36:8278/streams/d/j2_twn/playlist.m3u8
+TVB 星河台,http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
+TVB明珠台,http://93.190.139.36:8278/streams/d/pearl_twn/playlist.m3u8
+TVB翡翠台,http://93.190.139.36:8278/streams/d/jade_twn/playlist.m3u8
+TVB新聞台,http://93.190.139.36:8278/streams/d/inews_twn/playlist.m3u8
+J2,http://93.190.139.36:8278/streams/d/j2_twn/playlist.m3u8
+J5,http://93.190.139.36:8278/streams/d/j5_twn/playlist.m3u8
+Viu,http://93.190.139.36:8278/streams/d/viu_twn/playlist.m3u8
+VIU TV1,http://93.190.139.36:8278/streams/d/viu1_twn/playlist.m3u8
+RHK 31,http://93.190.139.36:8278/streams/d/rhk31_twn/playlist.m3u8
+全佳,http://50.7.161.82:8278/streams/d/Quanjia/playlist.m3u8
+小太阳,http://50.7.161.82:8278/streams/d/Xiaotaiyang/playlist.m3u8
+HBO HD,http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
+CHC家庭影院,http://93.190.139.36:8278/streams/d/chcfamily/playlist.m3u8
+CHC高清电影,http://93.190.139.36:8278/streams/d/chchdmovie/playlist.m3u8
+CHC动作电影,http://93.190.139.36:8278/streams/d/chcaction/playlist.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-香港卫视,rtmp://zhibo.hkstv.tv/livestream/mutfysrq
 星空卫视,https://itv.ahcme.edu.cn/hls/startv.m3u8
-星空卫视,rtmp://58.200.131.2:1935/livetv/startv
 澳视澳门,http://61.244.22.5/ch1/_definst_/ch1.live/playlist.m3u8
 澳门卫星,http://61.244.22.5/ch3/_definst_/ch3.live/playlist.m3u8
 澳门资讯,http://61.244.22.5/ch5/_definst_/info_ch5.live/playlist.m3u8
 澳视葡文,http://61.244.22.4/ch2/ch2.live/index.m3u8
-澳視衛星,http://61.244.22.4/ch3/ch3.live/index.m3u8
-澳視澳門,http://61.244.22.4/ch1/ch1.live/index.m3u8
 澳亚卫视,http://mastvnet-hwcdn.utvlive.top/4rlff1m/1024/live.m3u8
 足球频道,http://ivi.bupt.edu.cn:80/hls/zqhd.m3u8
 亚旅卫视,http://hls.jingchangkan.tv/jingchangkan/156722438_0HaM/index.m3u8
