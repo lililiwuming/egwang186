@@ -8,3 +8,22 @@ GoodTV·卡通台,https://dqhxk7sbp7xog.cloudfront.net/osmflivech45.m3u8
 NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
 三立iNews新闻台,http://93.190.139.36:8278/streams/d/inews_twn/playlist.m3u8
 NBA US,http://93.190.139.36:8278/streams/d/nbausa_glo/playlist.m3u8
+中天新闻,https://flv3948069e.live.126.net/live/04d6ce290852d843f5d4f6799f142136.flv
+东森新闻,https://flv3948069e.live.126.net/live/337bc4d7169c232f38a7710ce4b3807e.flv
+东森超视,https://flv3948069e.live.126.net/live/beabd2f3bfbf0968ca284cd0b382308e.flv
+东森财经新闻,https://flv3948069e.live.126.net/live/e857c5380fd79306ed8f3f7e95ac4c1d.flv
+三立直播新闻,https://flv3948069e.live.126.net/live/db8fc6953ab8aaa3cc083629cdaa3649.flv
+纬来体育,https://flv3948069e.live.126.net/live/8432a7264b61a32075d07d601eb69a52.flv
+纬来育乐,https://flv3948069e.live.126.net/live/7a5a64571002192e917614d29467f231.flv
+纬来日本,https://flv3948069e.live.126.net/live/8e69c4c4e120f912a5389a2ba332fe15.flv
+台视新闻,https://flv3948069e.live.126.net/live/3fbe8efd2a03b1fd88aaedb72c452d3c.flv
+中视新闻,https://flv3948069e.live.126.net/live/4c3eed0a03aca665b32f9708c52a7110.flv
+华视新闻,https://flv3948069e.live.126.net/live/caa3a9514d9780c2eae95c1a78f809fc.flv
+民视新闻,https://flv3948069e.live.126.net/live/6c62e0cbed135d0a28dda1200d883aff.flv
+民视,https://flv3948069e.live.126.net/live/514ec6c58c9b986edc577e4988a2e511.flv
+台视,https://flv3948069e.live.126.net/live/c224113db7b9462a742697f409f31790.flv
+中视,https://flv3948069e.live.126.net/live/342268c1fad932434c718b519a1a4224.flv
+华视,https://flv3948069e.live.126.net/live/51c1f3293f2dc4ee3b9bbe7af45e99ff.flv
+壹新闻台,https://flv3948069e.live.126.net/live/dc9503df941184e21c4f3462e631220e.flv
+港视31台,http://93.190.139.36:8278/streams/d/rhk31_twn/playlist.m3u8
+港视32台,https://flv3948069e.live.126.net/live/22ac9e032ff471399721d48913f7830e.flv
