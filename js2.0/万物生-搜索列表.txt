@@ -141,7 +141,7 @@ var 列表=源码.match(/<li>[\s\S]*?<\/li>/g);
         JSON.stringify(res);
 }else if(baseURL.indexOf("zhenbuka.com")!=-1){
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
-var Req={url:URL};
+var Req={url:URL,head:{"Cookie":"vodSearchNeedVerify=0"}};
 var 源码=getHttp(JSON.stringify(Req));
 var 列表=源码.match(/<ul class="stui-vodlist__media[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
         var LIST=[];
