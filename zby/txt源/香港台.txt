@@ -2,34 +2,17 @@
 凤凰资讯,http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8
 凤凰香港,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
 凤凰电影台,rtmp://58.200.131.2:1935/livetv/fhdy
-有线新闻,https://flv3948069e.live.126.net/live/b554275fdc416afd878a966996abcf15.flv#http://93.190.139.36:8278/streams/d/hkcnews_twn/playlist.m3u8
-有线18台,https://flv3948069e.live.126.net/live/da81350037c274d9c9c51083dcd0ed60.flv
-有线·603,https://flv3948069e.live.126.net/live/0917b09d5da03c049307c985cdde742e.flv
-NOW·新闻台,https://flv3948069e.live.126.net/live/c3efe539765138f9588c601213042250.flv
-TVB·翡翠台,https://flv3948069e.live.126.net/live/e43f7d2cf1ab91c85f721f901499f91f.flv#http://93.190.139.36:8278/streams/d/jade_twn/playlist.m3u8
-TVB·明珠台,https://flv3948069e.live.126.net/live/0ecdbb21fc77ec9a119009c74855f5c5.flv#http://93.190.139.36:8278/streams/d/pearl_twn/playlist.m3u8
-TVB·新闻台,https://flv3948069e.live.126.net/live/bb7ccc3be2de98b4175074d8b0d1d3a3.flv#http://93.190.139.36:8278/streams/d/inews_twn/playlist.m3u8
-TVB·财经台,https://flv3948069e.live.126.net/live/ac172c125ee70e4fe90a48364470a81d.flv#http://93.190.139.36:8278/streams/d/j5_twn/playlist.m3u8
-TVB·J2,http://93.190.139.36:8278/streams/d/j2_twn/playlist.m3u8
 TVB J2台,http://93.190.139.36:8278/streams/d/j2_twn/playlist.m3u8
 TVB 星河台,http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
 TVB明珠台,http://93.190.139.36:8278/streams/d/pearl_twn/playlist.m3u8
 TVB翡翠台,http://93.190.139.36:8278/streams/d/jade_twn/playlist.m3u8
 TVB新聞台,http://93.190.139.36:8278/streams/d/inews_twn/playlist.m3u8
-J2,http://93.190.139.36:8278/streams/d/j2_twn/playlist.m3u8
-J5,http://93.190.139.36:8278/streams/d/j5_twn/playlist.m3u8
-Viu,http://93.190.139.36:8278/streams/d/viu_twn/playlist.m3u8
-VIU TV1,http://93.190.139.36:8278/streams/d/viu1_twn/playlist.m3u8
-RHK 31,http://93.190.139.36:8278/streams/d/rhk31_twn/playlist.m3u8
-全佳,http://50.7.161.82:8278/streams/d/Quanjia/playlist.m3u8
-小太阳,http://50.7.161.82:8278/streams/d/Xiaotaiyang/playlist.m3u8
 HBO HD,http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
 CHC家庭影院,http://93.190.139.36:8278/streams/d/chcfamily/playlist.m3u8
 CHC高清电影,http://93.190.139.36:8278/streams/d/chchdmovie/playlist.m3u8
 CHC动作电影,http://93.190.139.36:8278/streams/d/chcaction/playlist.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 星空卫视,https://itv.ahcme.edu.cn/hls/startv.m3u8
-澳视澳门,http://61.244.22.5/ch1/_definst_/ch1.live/playlist.m3u8
 澳门卫星,http://61.244.22.5/ch3/_definst_/ch3.live/playlist.m3u8
 澳门资讯,http://61.244.22.5/ch5/_definst_/info_ch5.live/playlist.m3u8
 澳视葡文,http://61.244.22.4/ch2/ch2.live/index.m3u8
