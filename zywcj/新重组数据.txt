@@ -54,7 +54,7 @@ for(var j=0;j<列表.length;j++){
 }else if(URL.indexOf('789pan.cn')!=-1){
       选集地址="http://nvip.789pan.cn/user/?url="+选集地址;
 }else if(URL.indexOf('languang.wfss100')!=-1){
-      选集地址="https://j.languang.wfss100.com/jx/md5.php?d="+选集地址;
+      选集地址="https://j.languang.wfss100.com/jx/md5.php?url="+选集地址;
 }else if(URL.indexOf('zy.7kjx.com')!=-1){
       选集地址="https://url.js.cn/?url="+选集地址;
 }else if(URL.indexOf('kudian6.com')!=-1){
