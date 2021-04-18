@@ -7,20 +7,12 @@ TVB 星河台,http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
 TVB明珠台,http://93.190.139.36:8278/streams/d/pearl_twn/playlist.m3u8
 TVB翡翠台,http://93.190.139.36:8278/streams/d/jade_twn/playlist.m3u8
 TVB新聞台,http://93.190.139.36:8278/streams/d/inews_twn/playlist.m3u8
-J2,http://93.190.139.36:8278/streams/d/j2_twn/playlist.m3u8
-J5,http://93.190.139.36:8278/streams/d/j5_twn/playlist.m3u8
-Viu,http://93.190.139.36:8278/streams/d/viu_twn/playlist.m3u8
-VIU TV1,http://93.190.139.36:8278/streams/d/viu1_twn/playlist.m3u8
-RHK 31,http://93.190.139.36:8278/streams/d/rhk31_twn/playlist.m3u8
-全佳,http://50.7.161.82:8278/streams/d/Quanjia/playlist.m3u8
-小太阳,http://50.7.161.82:8278/streams/d/Xiaotaiyang/playlist.m3u8
 HBO HD,http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
 CHC家庭影院,http://93.190.139.36:8278/streams/d/chcfamily/playlist.m3u8
 CHC高清电影,http://93.190.139.36:8278/streams/d/chchdmovie/playlist.m3u8
 CHC动作电影,http://93.190.139.36:8278/streams/d/chcaction/playlist.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 星空卫视,https://itv.ahcme.edu.cn/hls/startv.m3u8
-澳视澳门,http://61.244.22.5/ch1/_definst_/ch1.live/playlist.m3u8
 澳门卫星,http://61.244.22.5/ch3/_definst_/ch3.live/playlist.m3u8
 澳门资讯,http://61.244.22.5/ch5/_definst_/info_ch5.live/playlist.m3u8
 澳视葡文,http://61.244.22.4/ch2/ch2.live/index.m3u8
