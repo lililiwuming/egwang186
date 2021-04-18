@@ -36,6 +36,9 @@ var LIST=[];
 for(var j=0;j<列表.length;j++){
     if(列表[j].indexOf("$")!=-1){
     var 选集=列表[j].split("$")[0];
+    if(选集==""){
+       选集=j+1;
+       }
     }else{
     var 选集=j+1;
     }
