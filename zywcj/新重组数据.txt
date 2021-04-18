@@ -43,8 +43,10 @@ for(var j=0;j<列表.length;j++){
 }else if(选集地址.indexOf(":6688/player")!=-1){
       var hash=选集地址.split("player/")[1];
       选集地址="https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
+}else if(URL.indexOf("qbzyz.com")!=-1){
+      选集地址="http://parse.qbzyz.com/parse?resources="+选集地址;
 }else if(选集地址.indexOf("alivideo.4kya.com")!=-1){
-      var 选集地址="https://www.baidu.com/s?wd="+选集地址;
+      选集地址="https://www.baidu.com/s?wd="+选集地址;
 }else if(URL.indexOf('yeyemi.com')!=-1){
     if(标题=='alizy'){
       选集地址="https://ssl.vip.cqzyw.net:11551/?url="+选集地址;
@@ -54,7 +56,7 @@ for(var j=0;j<列表.length;j++){
 }else if(URL.indexOf('789pan.cn')!=-1){
       选集地址="http://nvip.789pan.cn/user/?url="+选集地址;
 }else if(URL.indexOf('languang.wfss100')!=-1){
-      选集地址="https://j.languang.wfss100.com/jx/md5.php?url="+选集地址;
+      选集地址="https://j.languang.wfss100.com/jx/md5.php?d="+选集地址;
 }else if(URL.indexOf('zy.7kjx.com')!=-1){
       选集地址="https://url.js.cn/?url="+选集地址;
 }else if(URL.indexOf('kudian6.com')!=-1){
