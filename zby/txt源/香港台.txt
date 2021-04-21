@@ -8,9 +8,21 @@ TVB明珠台,http://93.190.139.36:8278/streams/d/pearl_twn/playlist.m3u8
 TVB翡翠台,http://93.190.139.36:8278/streams/d/jade_twn/playlist.m3u8
 TVB新聞台,http://93.190.139.36:8278/streams/d/inews_twn/playlist.m3u8
 HBO HD,http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
-CHC家庭影院,http://93.190.139.36:8278/streams/d/chcfamily/playlist.m3u8
-CHC高清电影,http://93.190.139.36:8278/streams/d/chchdmovie/playlist.m3u8
-CHC动作电影,http://93.190.139.36:8278/streams/d/chcaction/playlist.m3u8
+CHC家庭影院,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8#http://93.190.139.36:8278/streams/d/chcfamily/playlist.m3u8
+CHC高清电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8#http://93.190.139.36:8278/streams/d/chchdmovie/playlist.m3u8
+CHC动作电影,http://125.210.152.18:9090/live/DZDYHD_H265.m3u8#http://93.190.139.36:8278/streams/d/chcaction/playlist.m3u8
+CHC蓝光电影,http://ivi.bupt.edu.cn/hls/chchd.m3u8
+欢笑剧场4K,http://39.134.39.38/PLTV/88888888/224/3221226203/index.m3u8
+亞洲影院,http://101.71.255.229:6610/zjhs/2/10052/z.m3u8?ZTEUPSTREAM=1&amp;IASHttpSessionId=SLB4328320190321203540013412&amp;m3u8_level=2&amp;ztecid=10052&amp;virtualDomain=zjhs.live_hls.zte.com&amp;ispcode=3&amp;tid=C3V7K4ET1VFDUJY6C1IASRV55G66&amp;ts=1553493153
+欧美影院,http://101.71.255.229:6610/zjhs/2/10037/z.m3u8?ZTEUPSTREAM=1&IASHttpSessionId=SLB4328320190321203540013412&m3u8_level=2&ztecid=10037&virtualDomain=zjhs.live_hls.zte.com&ispcode=3&tid=Q894B3E8EEZ3T19UG09L8B03GSWB&ts=1553493266
+BEST电影,http://101.71.255.229:6610/zjhs/2/10037/index.m3u8?virtualDomain=zjhs.live_hls.zte.com
+纪实人文FHD,http://111.12.102.68:6610/PLTV/77777777/224/3221225688/index.m3u8?
+求索动物FHD,http://39.134.66.66/PLTV/88888888/224/3221225730/index.m3u8
+求索生活FHD,http://39.134.66.66/PLTV/88888888/224/3221225715/index.m3u8
+求索一,http://39.134.65.162/PLTV/88888888/224/3221225713/index.m3u8
+求索二,http://39.134.65.162/PLTV/88888888/224/3221225715/index.m3u8
+求索三,http://39.134.65.162/PLTV/88888888/224/3221225728/index.m3u8
+求索四,http://39.134.65.162/PLTV/88888888/224/3221225730/index.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 星空卫视,https://itv.ahcme.edu.cn/hls/startv.m3u8
 澳门卫星,http://61.244.22.5/ch3/_definst_/ch3.live/playlist.m3u8
