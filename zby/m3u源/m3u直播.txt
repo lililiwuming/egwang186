@@ -3,4 +3,5 @@ AdultIptv,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u
 红灯区,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/redtraffic.m3u8
 国外18,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/国外18.m3u
 成人排行榜,https://topplay.do.am/AdultsTopPlay.m3u
+测试,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/测试.txt
 #
