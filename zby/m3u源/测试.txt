@@ -1,30 +1,30 @@
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/100.png" tvg-name="Brazzers TV",Brazzers TV
 #EXTGRP:XXX
-http://88.201.240.197:81/udp/239.239.13.5:5239
+http://88.201.240.197:81/udp/239.239.13.5:5239?type=.m3u8
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/102.png" tvg-name="XXX",XXX
 #EXTGRP:XXX
-http://tyciptv.site:8080/12241/c117f885/375
+http://tyciptv.site:8080/12241/c117f885/375?type=.m3u8
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/103.png" tvg-name="PlayBoy TV",PlayBoy TV
 #EXTGRP:XXX
-http://94.19.164.68:4022/udp/239.239.13.2:5239
+http://94.19.164.68:4022/udp/239.239.13.2:5239?type=.m3u8
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/106.png" tvg-name="FrenchLover TV",FrenchLover TV
 #EXTGRP:XXX
-http://37.235.186.113:81/udp/225.50.70.7:1234
+http://37.235.186.113:81/udp/225.50.70.7:1234?type=.m3u8
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/108.png" tvg-name="Barely Legal TV",Barely Legal TV
 #EXTGRP:XXX
-http://37.235.199.92:4022/udp/225.50.70.4:1234
+http://37.235.199.92:4022/udp/225.50.70.4:1234?type=.m3u8
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/109.png" tvg-name="Blue Hustler Europe",Blue Hustler Europe
 #EXTGRP:XXX
-http://103.136.42.168:8080/F11511/a814b516/37296
+http://103.136.42.168:8080/F11511/a814b516/37296?type=.m3u8
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/185.png" tvg-name="HOT",HOT
 #EXTGRP:XXX
-http://tyciptv.site:8080/12241/c117f885/1538
+http://tyciptv.site:8080/12241/c117f885/1538?type=.m3u8
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/187.png" tvg-name="Free X TV",Free X TV
 #EXTGRP:XXX
-http://37.235.186.113:81/udp/225.50.70.5:1234
+http://37.235.186.113:81/udp/225.50.70.5:1234?type=.m3u8
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/196.png" tvg-name="Candyman",Candyman
 #EXTGRP:XXX
-http://37.192.145.48:81/udp/239.1.20.39:1234
+http://37.192.145.48:81/udp/239.1.20.39:1234?type=.m3u8
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/197.png" tvg-name="HotClub 2 FHD Adult",HotClub 2 FHD Adult
 #EXTGRP:XXX
-http://xtn.ddns.net:8080/Alesandro/123456/18504
+http://xtn.ddns.net:8080/Alesandro/123456/18504?type=.m3u8
