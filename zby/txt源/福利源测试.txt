@@ -1,0 +1,17 @@
+Korea-59-JP-HotGirl-TV,rtmp://lm01.everyontv.net/ptv2/phd59
+Korea-61,rtmp://111.118.21.77:1935/ptv3/phd61
+Korea-63,rtmp://lm01.everyontv.net/ptv2/phd63
+Korea-64LiveTingTV,rtmp://lm01.everyontv.net/ptv2/phd64
+Korea-Pinic-TV62,rtmp://lm02.everyon.tv:1935/ptv2/phd62
+Korea-Pinic-TV62,rtmp://lm01.everyontv.net/ptv2/phd62
+Korea-redON-60,rtmp://lm01.everyontv.net/ptv2/phd60
+Korea-501,rtmp://lm02.everyontv.net/ptv/phd501
+Korea765,rtmp://lm02.everyon.tv:1935/ptv2/phd765
+Korea767HD,rtmp://lm01.everyon.tv:1935/ptv/phd767
+Korea769,rtmp://lm03.everyon.tv:1935/ptv3/phd769
+Korea771,rtmp://lm03.everyon.tv:1935/ptv3/phd771
+Lesbian,rtmp://live190.la3.origin.filmon.com:1935/live/246.high.stream
+LIVETingTV,rtmp://lm01.everyontv.net/ptv2/phd64
+LIVETingTV,rtmp://lm02.everyon.tv/ptv2/phd64
+PinkTV,rtmp://lm01.everyontv.net/ptv2/phd62
+PinkTV,rtmp://lm02.everyontv.net/ptv/phd62
