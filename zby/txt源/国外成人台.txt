@@ -1,38 +1,26 @@
 Brazzers TV,http://88.201.240.197:81/udp/239.239.13.5:5239.flv
-XXX,http://tyciptv.site:8080/12241/c117f885/375.flv
 PlayBoy TV,http://94.19.164.68:4022/udp/239.239.13.2:5239.flv
 FrenchLover TV,http://37.235.186.113:81/udp/225.50.70.7:1234.flv
 Barely Legal TV,http://37.235.199.92:4022/udp/225.50.70.4:1234.flv
-Blue Hustler Europe,http://103.136.42.168:8080/F11511/a814b516/37296.flv
-HOT,http://tyciptv.site:8080/12241/c117f885/1538.flv
 Free X TV,http://37.235.186.113:81/udp/225.50.70.5:1234.flv
-Rus tvxxx,http://37.235.200.88:81/udp/225.50.70.3:1234.flv
-Playboy,http://37.235.200.88:81/udp/225.50.70.2:1234.flv
-Brazers tv,http://37.235.200.88:81/udp/225.50.70.11:1234.flv
-Candyman,http://37.192.145.48:81/udp/239.1.20.39:1234.flv
-HotClub 2 FHD Adult,http://xtn.ddns.net:8080/Alesandro/123456/18504.flv
-LEO TV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
-Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.flv
-HustlerHD,http://51.15.0.141:88/hustlerhd/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/hustlerhd/mpegts.flv
+EXTASY HD/LEO TV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
+Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.mp4
+HustlerHD,http://51.15.0.141:88/hustlerhd/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/hustlerhd/mpegts.mp4
 Filmon TV 1 (18+),http://www.filmon.com/vr-streams/6170.high/playlist.m3u8
 Filmon TV 2 (18+),http://www.filmon.com/vr-streams/6158.high/playlist.m3u8
 Filmon TV 3 (18+),http://www.filmon.com/vr-streams/6155.high/playlist.m3u8
 Filmon TV 4 (18+),http://www.filmon.com/vr-streams/6152.high/playlist.m3u8
 Shemale Tube TV HD (18+),https://www.ast.tv/stream/1/ultra.m3u8
 Shemale Tube TV 2 HD (18+),https://www.ast.tv/stream/2/ultra.m3u8
-VISIT-X TV HD (18+),http://stream.visit-x.tv:1935/vxtv/live/playlist.m3u8
+VISIT-X TV HD (18+),rtmp://iptvcodes.blogspot.com@194.116.150.47/live/visitx.stream1
 Visit-X TV HD 720,http://194.116.150.47:1935/vxtv/live_720p/chunklist_w1156491225.m3u8
 Шелк ТВ (18+),http://live-1.otcnet.ru/shelksd/index.m3u8
 Шелк ТВ HD (18+),http://live-1.otcnet.ru/shelk/index.m3u8
-Passiionxxx,http://85.14.32.15:8800/udp/239.100.10.90:5000.flv
-Bazzerss,http://85.14.32.15:8800/udp/239.100.10.190:5000.flv
-Hustler hd,http://85.14.32.15:8800/udp/239.100.10.58:5000.flv
-Hustler,http://85.14.32.15:8800/udp/239.10.10.88:5000.flv
-Dorcel tv hd,http://85.14.32.15:8800/udp/239.10.10.155:5000.flv
-Eroxx hd,http://85.14.32.15:8800/udp/239.10.10.164:5000.flv
 Jasmin TV HD (18+),http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
 Miami TV (18+),http://59ec5453559f0.streamlock.net:1935/miamitv/smil:miamitvROKU/chunklist_b2592000.m3u8
 Miami TV Jenny For You (18+),http://59ec5453559f0.streamlock.net:1935/jennyforyou/jennyforyou/playlist.m3u8
 Miami TV Jenny Live (18+),http://59ec5453559f0.streamlock.net:1935/JennyLive/JennyLive/playlist.m3u8
 Miami TV Promo (18+),http://59ec5453559f0.streamlock.net:1935/mexicotv/smil:miamitvmexico/chunklist_b1896000.m3u8
-
+自然,http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
+海底,http://live-1.otcnet.ru/podvodoi/index.m3u8
+SOCHI,http://sochi.camera:8080/cam_359/tracks-v1a1/index.m3u8
