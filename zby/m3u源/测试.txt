@@ -1,6 +1,6 @@
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/100.png" tvg-name="Brazzers TV",Brazzers TV
 #EXTGRP:XXX
-http://88.201.240.197:81/udp/239.239.13.5:5239.m3u8
+http://88.201.240.197:81/udp/239.239.13.5:5239.MP4
 #EXTINF:-1 group-title="XXX" tvg-logo="http://iptvbarmen.tk/uploads/icon/102.png" tvg-name="XXX",XXX
 #EXTGRP:XXX
 http://tyciptv.site:8080/12241/c117f885/375?type=.m3u8
