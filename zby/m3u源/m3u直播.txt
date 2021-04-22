@@ -1,7 +1,7 @@
 #网络订阅m3u源
 AdultIptv,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/AdultIptv.m3u
 红灯区,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/redtraffic.m3u8
-国外18,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/国外18.m3u
+国外18,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/国外18.txt
 FreeBestTV,http://topplay.do.am/FreeBestTV.m3u
 3gTopPlay,http://topplay.do.am/3gTopPlay.m3u
 AdultsTopPlay,http://topplay.do.am/AdultsTopPlay.m3u
