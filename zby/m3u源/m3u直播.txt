@@ -2,6 +2,11 @@
 AdultIptv,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/AdultIptv.m3u
 红灯区,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/redtraffic.m3u8
 国外18,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/国外18.m3u
-成人排行榜,https://topplay.do.am/AdultsTopPlay.m3u
-测试,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/测试.txt
+FreeBestTV,http://topplay.do.am/FreeBestTV.m3u
+3gTopPlay,http://topplay.do.am/3gTopPlay.m3u
+AdultsTopPlay,http://topplay.do.am/AdultsTopPlay.m3u
+FreeWebCamsWorld,http://topplay.do.am/FreeWebCamsWorld.m3u
+FreeWorldTV,http://topplay.do.am/FreeWorldTV.m3u
+KinodromTopPlay,http://topplay.do.am/KinodromTopPlay.m3u
+RadioTopPlay,http://topplay.do.am/RadioTopPlay.m3u
 #
