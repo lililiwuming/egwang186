@@ -10,12 +10,28 @@ Filmon TV 1 (18+),http://www.filmon.com/vr-streams/6170.high/playlist.m3u8
 Filmon TV 2 (18+),http://www.filmon.com/vr-streams/6158.high/playlist.m3u8
 Filmon TV 3 (18+),http://www.filmon.com/vr-streams/6155.high/playlist.m3u8
 Filmon TV 4 (18+),http://www.filmon.com/vr-streams/6152.high/playlist.m3u8
-Shemale Tube TV HD (18+),https://www.ast.tv/stream/1/ultra.m3u8
-Shemale Tube TV 2 HD (18+),https://www.ast.tv/stream/2/ultra.m3u8
+Pink Erotic,http://91.212.150.248/PinkErotic1/index.m3u8
+Pink Erotic 2,http://91.212.150.248/PinkErotic2/index.m3u8
+Pink Erotic 3,http://91.212.150.248/PinkErotic3/index.m3u8
+Pink Erotic 4,http://91.212.150.248/PinkErotic4/index.m3u8
+Pink Erotic 5,http://91.212.150.248/PinkErotic5/index.m3u8
+Pink Erotic 6,http://91.212.150.248/PinkErotic6/index.m3u8
+Pink Erotic 7,http://91.212.150.248/PinkErotic7/index.m3u8
+Pink Erotic 8,http://91.212.150.248/PinkErotic8/index.m3u8
+[RU] Candy HD,http://185.52.77.67:8080/Candy/index.m3u8
+[RU] Шелк,http://194.190.78.91:8080/shelksd/index.m3u8
+[RU]Шелк HD,http://194.190.78.91:8080/shelk/index.m3u8
+[RU] Русская ночь,http://93.189.224.117:9030/russkayanoch.flv
+[FR] Frenchlover TV,http://213.59.136.29:55555/udp/239.254.2.50:1234.flv
+[GB] Hustler HD,http://213.59.136.29:55555/udp/239.254.2.232:1234.flv
+[NL] Private TV HD,http://213.59.136.29:55555/udp/239.254.2.231:1234.flv
+[NL] Redlight HD,http://213.59.136.29:55555/udp/239.254.3.93:1234.flv
+Shemale Tube TV HD (21+),https://www.ast.tv/stream/1/ultra.m3u8
+Shemale Tube TV 2 HD (21+),https://www.ast.tv/stream/2/ultra.m3u8
 VISIT-X TV HD (18+),rtmp://194.116.150.47/live/visitx.stream1
 Visit-X TV HD 720,http://194.116.150.47:1935/vxtv/live_720p/chunklist_w1156491225.m3u8
-Шелк ТВ (18+),http://live-1.otcnet.ru/shelksd/index.m3u8
-Шелк ТВ HD (18+),http://live-1.otcnet.ru/shelk/index.m3u8
+SHELK SD (18+),http://live-1.otcnet.ru/shelksd/index.m3u8
+SHELK (18+),http://live-1.otcnet.ru/shelk/index.m3u8
 Jasmin TV HD (18+),http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
 Miami TV (18+),http://59ec5453559f0.streamlock.net:1935/miamitv/smil:miamitvROKU/chunklist_b2592000.m3u8
 Miami TV Jenny For You (18+),http://59ec5453559f0.streamlock.net:1935/jennyforyou/jennyforyou/playlist.m3u8
