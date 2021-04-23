@@ -3,6 +3,10 @@ if(uu.indexOf("www.meiju11.com")!=-1){
 var resp=getHttp(JSON.stringify({url:uu,head:{'Referer':'https://www.meiju11.com'}}));
 var playurl=resp.match(/播放地址[\s\S]*?url.*?'(.*?)'/)[1];
 JSON.stringify({url:playurl});
+}else if(uu.indexOf("languang.wfss100")!=-1){
+var resp=getHttp(JSON.stringify({url:uu}));
+var playurl=resp.match(/vodurl.*?'(.*?)#/)[1].replace("https://languang","https://img");
+JSON.stringify({url:playurl});
 }else if(uu.indexOf("101.37.76.245:8183/79")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
 var playurl=JSON.parse(resp).url;
