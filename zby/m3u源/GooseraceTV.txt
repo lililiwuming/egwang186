@@ -1,5 +1,5 @@
 #EXTINF:-1,18+: X-Art
-http://gooserace.xyz:2052/ricky1/ricky1/2578198?type=.mp4
+http://gooserace.xyz:2052/ricky1/ricky1/2578198?type=.m3u8
 #EXTINF:-1,18+: WildOnCam
 http://gooserace.xyz:2052/ricky1/ricky1/2578197?type=.mp4
 #EXTINF:-1,18+: WebYoung
