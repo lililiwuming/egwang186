@@ -1,8 +1,8 @@
-Brazzers TV,http://88.201.240.197:81/udp/239.239.13.5:5239.mp4
-PlayBoy TV,http://94.19.164.68:4022/udp/239.239.13.2:5239.mp4
-FrenchLover TV,http://37.235.186.113:81/udp/225.50.70.7:1234.mp4
+Brazzers TV,http://37.235.199.92:4022/udp/239.239.13.5:5239.mp4
+PlayBoy TV,http://37.235.199.92:4022/udp/239.239.13.2:5239.mp4
+FrenchLover TV,http://37.235.199.92:4022/udp/225.50.70.7:1234.mp4
 Barely Legal TV,http://37.235.199.92:4022/udp/225.50.70.4:1234.mp4
-Free X TV,http://37.235.186.113:81/udp/225.50.70.5:1234.mp4
+Free X TV,http://37.235.199.92:4022/udp/225.50.70.5:1234.mp4
 EXTASY HD/LEO TV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
 Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.mp4
 HustlerHD,http://51.15.0.141:88/hustlerhd/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/hustlerhd/mpegts.mp4
