@@ -7,25 +7,15 @@ GoodTV·综合台,https://dqhxk7sbp7xog.cloudfront.net/osmflivech1.m3u8
 GoodTV·卡通台,https://dqhxk7sbp7xog.cloudfront.net/osmflivech45.m3u8
 求索频道,http://125.210.152.18:9090/live/QSKX_1200.m3u8
 三立iNews新闻台,http://93.190.139.36:8278/streams/d/inews_twn/playlist.m3u8
-[国语]TVBS新闻 FHD ★,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
-[国语]东森财经新闻 FHD ★,http://seb.sason.top/sc/dscjxw_fhd.m3u8
-[国语]东森新闻 FHD ★,http://seb.sason.top/sc/dsxw_fhd.m3u8
-[国语]华视新闻 FHD ★,http://seb.sason.top/sc/hsxw_fhd.m3u8
-[国语]民视新闻 FHD ★,http://seb.sason.top/sc/msxw_fhd.m3u8
-[国语]三立iNews FHD ★,http://seb.sason.top/sc/slinews_fhd.m3u8
-[国语]三立Live FHD ★,http://seb.sason.top/sc/sllive_fhd.m3u8
-[国语]台视新闻 FHD ★,http://seb.sason.top/sc/tsxw_fhd.m3u8
-[国语]中视新闻 FHD ★,http://seb.sason.top/sc/zsxw_fhd.m3u8
-[国语]中天新闻 FHD ★,http://seb.sason.top/sc/ztxw_fhd.m3u8
-[国语]TVBS新闻 HD ★,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
-[国语]东森财经新闻 HD ★,http://seb.sason.top/sc/dscjxw_fhd.m3u8
-[国语]东森新闻 HD ★,http://seb.sason.top/sc/dsxw_fhd.m3u8
-[国语]华视新闻 HD ★,http://seb.sason.top/sc/hsxw_fhd.m3u8
-[国语]民视新闻 HD ★,http://seb.sason.top/sc/msxw_fhd.m3u8
-[国语]三立iNews HD ★,http://seb.sason.top/sc/slinews_fhd.m3u8
-[国语]三立Live HD ★,http://seb.sason.top/sc/sllive_fhd.m3u8
-[国语]台视新闻 HD ★,http://seb.sason.top/sc/tsxw_fhd.m3u8
-[国语]中视新闻 HD ★,http://seb.sason.top/sc/zsxw_fhd.m3u8
-[国语]中天新闻 HD ★,http://seb.sason.top/sc/ztxw_fhd.m3u8
+TVBS新闻 FHD ★,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
+东森财经新闻 FHD ★,http://seb.sason.top/sc/dscjxw_fhd.m3u8
+东森新闻 FHD ★,http://seb.sason.top/sc/dsxw_fhd.m3u8
+华视新闻 FHD ★,http://seb.sason.top/sc/hsxw_fhd.m3u8
+民视新闻 FHD ★,http://seb.sason.top/sc/msxw_fhd.m3u8
+三立iNews FHD ★,http://seb.sason.top/sc/slinews_fhd.m3u8
+三立Live FHD ★,http://seb.sason.top/sc/sllive_fhd.m3u8
+台视新闻 FHD ★,http://seb.sason.top/sc/tsxw_fhd.m3u8
+中视新闻 FHD ★,http://seb.sason.top/sc/zsxw_fhd.m3u8
+中天新闻 FHD ★,http://seb.sason.top/sc/ztxw_fhd.m3u8
 NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
 NBA US,http://93.190.139.36:8278/streams/d/nbausa_glo/playlist.m3u8
