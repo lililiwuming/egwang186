@@ -25,7 +25,7 @@ Pink Erotic 8,http://91.212.150.248/PinkErotic8/index.m3u8
 [FR] Frenchlover TV,http://213.59.136.29:55555/udp/239.254.2.50:1234.mp4
 [GB] Hustler HD,http://213.59.136.29:55555/udp/239.254.2.232:1234.mp4
 [NL] Private TV HD,http://213.59.136.29:55555/udp/239.254.2.231:1234.mp4
-[NL] Redlight HD,http://213.59.136.29:55555/udp/239.254.3.93:1234.mp4
+[NL] Redlight HD,http://37.235.199.92:4022/udp/239.254.3.93:1234.mp4
 Shemale Tube TV HD (21+),https://www.ast.tv/stream/1/ultra.m3u8
 Shemale Tube TV 2 HD (21+),https://www.ast.tv/stream/2/ultra.m3u8
 Visit-X TV HD 720,http://194.116.150.47:1935/vxtv/live_720p/chunklist_w1156491225.m3u8
