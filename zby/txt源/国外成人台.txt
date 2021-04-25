@@ -1,8 +1,8 @@
-Brazzers TV,http://37.235.199.92:4022/udp/225.50.70.11:1234.mp4
-PlayBoy TV,http://37.235.199.92:4022/udp/225.50.70.2:1234.mp4
-FrenchLover TV,http://37.235.199.92:4022/udp/225.50.70.7:1234.mp4
-Barely Legal TV,http://37.235.199.92:4022/udp/225.50.70.4:1234.mp4
-Free X TV,http://37.235.199.92:4022/udp/225.50.70.5:1234.mp4
+Brazzers TV,http://37.235.199.92:4022/udp/225.50.70.11:1234?type=.mp4
+PlayBoy TV,http://37.235.199.92:4022/udp/225.50.70.2:1234?type=.mp4
+FrenchLover TV,http://37.235.199.92:4022/udp/225.50.70.7:1234?type=.mp4
+Barely Legal TV,http://37.235.199.92:4022/udp/225.50.70.4:1234?type=.mp4
+Free X TV,http://37.235.199.92:4022/udp/225.50.70.5:1234?type=.mp4
 EXTASY HD/LEO TV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
 Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.mp4
 HustlerHD,http://51.15.0.141:88/hustlerhd/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/hustlerhd/mpegts.mp4
@@ -22,10 +22,10 @@ Pink Erotic 8,http://91.212.150.248/PinkErotic8/index.m3u8
 [RU] Шелк,http://194.190.78.91:8080/shelksd/index.m3u8
 [RU]Шелк HD,http://194.190.78.91:8080/shelk/index.m3u8
 [RU] Русская ночь,http://93.189.224.117:9030/russkayanoch.mp4
-[FR] Frenchlover TV,http://213.59.136.29:55555/udp/239.254.2.50:1234.mp4
-[GB] Hustler HD,http://213.59.136.29:55555/udp/239.254.2.232:1234.mp4
-[NL] Private TV HD,http://213.59.136.29:55555/udp/239.254.2.231:1234.mp4
-[NL] Redlight HD,http://37.235.199.92:4022/udp/239.254.3.93:1234.mp4
+[FR] Frenchlover TV,http://213.59.136.29:55555/udp/239.254.2.50:1234?type=.mp4
+[GB] Hustler HD,http://213.59.136.29:55555/udp/239.254.2.232:1234?type=.mp4
+[NL] Private TV HD,http://213.59.136.29:55555/udp/239.254.2.231:1234?type=.mp4
+[NL] Redlight HD,http://213.59.136.29:55555/udp/239.254.3.93:1234?type=.mp4
 Shemale Tube TV HD (21+),https://www.ast.tv/stream/1/ultra.m3u8
 Shemale Tube TV 2 HD (21+),https://www.ast.tv/stream/2/ultra.m3u8
 Visit-X TV HD 720,http://194.116.150.47:1935/vxtv/live_720p/chunklist_w1156491225.m3u8
