@@ -2,6 +2,7 @@
 AdultIptv,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/AdultIptv.m3u
 红灯区,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/redtraffic.m3u8
 GooseraceTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/GooseraceTV.txt
+MyServerDns,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/MyServerDns.txt
 AdultsTopPlay,http://topplay.do.am/AdultsTopPlay.m3u
 FreeWebCamsWorld,http://topplay.do.am/FreeWebCamsWorld.m3u
 KinodromTopPlay,http://topplay.do.am/KinodromTopPlay.m3u
