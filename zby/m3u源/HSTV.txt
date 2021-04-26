@@ -1,0 +1,52 @@
+#EXTINF:-1,松視1
+http://193.160.32.112:9090/hstv.php?id=402&type=.m3u8
+#EXTINF:-1,松視2
+http://193.160.32.112:9090/hstv.php?id=403&type=.m3u8
+#EXTINF:-1,松視3
+http://193.160.32.112:9090/hstv.php?id=404&type=.m3u8
+#EXTINF:-1,香蕉台
+http://193.160.32.112:9090/hstv.php?id=408&type=.m3u8
+#EXTINF:-1,潘朵拉完美
+http://193.160.32.112:9090/hstv.php?id=410&type=.m3u8
+#EXTINF:-1,潘朵拉粉紅
+http://193.160.32.112:9090/hstv.php?id=411&type=.m3u8
+#EXTINF:-1,彩虹電影
+http://193.160.32.112:9090/hstv.php?id=413&type=.m3u8
+#EXTINF:-1,彩虹K
+http://193.160.32.112:9090/hstv.php?id=406&type=.m3u8
+#EXTINF:-1,彩虹E
+http://193.160.32.112:9090/hstv.php?id=405&type=.m3u8
+#EXTINF:-1,一本道
+http://193.160.32.112:9090/hstv.php?id=414&type=.m3u8
+#EXTINF:-1,二本道
+http://193.160.32.112:9090/hstv.php?id=415&type=.m3u8
+#EXTINF:-1,東京熱
+http://193.160.32.112:9090/hstv.php?id=416&type=.m3u8
+#EXTINF:-1,HOT
+http://193.160.32.112:9090/hstv.php?id=407&type=.m3u8
+#EXTINF:-1,happy
+http://193.160.32.112:9090/hstv.php?id=412&type=.m3u8
+#EXTINF:-1,驚豔台
+http://193.160.32.112:9090/hstv.php?id=409&type=.m3u8
+#EXTINF:-1,Erox HD
+http://193.160.32.112:9090/hstv.php?id=456&type=.m3u8
+#EXTINF:-1,Dorcel HD
+http://193.160.32.112:9090/hstv.php?id=454&type=.m3u8
+#EXTINF:-1,Babes TV HD
+http://193.160.32.112:9090/hstv.php?id=458&type=.m3u8
+#EXTINF:-1,Hustler HD
+http://193.160.32.112:9090/hstv.php?id=451&type=.m3u8
+#EXTINF:-1,SCT Classic
+http://193.160.32.112:9090/hstv.php?id=462&type=.m3u8
+#EXTINF:-1,Redlight HD
+http://193.160.32.112:9090/hstv.php?id=452&type=.m3u8
+#EXTINF:-1,SEX ATION HD
+http://193.160.32.112:9090/hstv.php?id=459&type=.m3u8
+#EXTINF:-1,Super One HD
+http://193.160.32.112:9090/hstv.php?id=457&type=.m3u8
+#EXTINF:-1,Prıvate HD
+http://193.160.32.112:9090/hstv.php?id=453&type=.m3u8
+#EXTINF:-1,Vivid Red HD
+http://193.160.32.112:9090/hstv.php?id=461&type=.m3u8
+#EXTINF:-1,Brazzers TV Europe
+http://193.160.32.112:9090/hstv.php?id=455&type=.m3u8
