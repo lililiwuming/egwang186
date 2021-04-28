@@ -6,6 +6,10 @@ HSTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/H
 MyServerDns,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/MyServerDns.txt
 AdultsTopPlay,http://topplay.do.am/AdultsTopPlay.m3u
 XXX-iptv-org,https://iptv-org.github.io/iptv/categories/xxx.m3u
+Movies-iptv-org,https://iptv-org.github.io/iptv/categories/movies.m3u
+Music-iptv-org,https://iptv-org.github.io/iptv/categories/music.m3u
+News-iptv-org,https://iptv-org.github.io/iptv/categories/news.m3u
+Sport-iptv-org,https://iptv-org.github.io/iptv/categories/sport.m3u
 FreeWebCamsWorld,http://topplay.do.am/FreeWebCamsWorld.m3u
 KinodromTopPlay,http://topplay.do.am/KinodromTopPlay.m3u
 #
