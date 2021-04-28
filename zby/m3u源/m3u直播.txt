@@ -5,6 +5,7 @@ KY-TV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/
 HSTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/HSTV.txt
 MyServerDns,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/MyServerDns.txt
 AdultsTopPlay,http://topplay.do.am/AdultsTopPlay.m3u
+XXX-iptv-org,https://iptv-org.github.io/iptv/categories/xxx.m3u
 FreeWebCamsWorld,http://topplay.do.am/FreeWebCamsWorld.m3u
 KinodromTopPlay,http://topplay.do.am/KinodromTopPlay.m3u
 #
