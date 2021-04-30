@@ -1,3 +1,12 @@
+凤凰中文,http://96.44.140.132:18006/view.php?type=.m3u8&id=sz_phcn&key=84797b799ae18d1b
+凤凰资讯,http://96.44.140.132:18006/view.php?type=.m3u8&id=sz_phzx&key=84797b799ae18d1b
+凤凰香港,http://96.44.140.132:18006/view.php?type=.m3u8&id=sz_phhk&key=84797b799ae18d1b
+翡翠台,http://96.44.140.132:18006/view.php?type=.m3u8&id=sz_1001&key=84797b799ae18d1b
+J2,http://96.44.140.132:18006/view.php?type=.m3u8&id=sz_1002&key=84797b799ae18d1b
+TVB星河频道,http://96.44.140.132:18006/view.php?type=.m3u8&id=c_58031&key=84797b799ae18d1b
+无线财经,http://96.44.140.132:18006/view.php?type=.m3u8&id=sz_1003&key=84797b799ae18d1b
+明珠台,http://96.44.140.132:18006/view.php?type=.m3u8&id=sz_1004&key=84797b799ae18d1b
+无线新闻,http://96.44.140.132:18006/view.php?type=.m3u8&id=sz_1005&key=84797b799ae18d1b
 凤凰中文台,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225942/1.m3u8
 凤凰资讯,http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8
 凤凰香港,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
