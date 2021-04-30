@@ -1,3 +1,37 @@
+ATV,http://tv.tangyuantv.cf:8080/live/test520/123456/2670.ts
+C+,http://tv.tangyuantv.cf:8080/live/test520/123456/243.ts
+爆谷台,http://tv.tangyuantv.cf:8080/live/test520/123456/230.ts
+NOW TV,http://tv.tangyuantv.cf:8080/live/test520/123456/2666.ts
+now新闻,http://tv.tangyuantv.cf:8080/live/test520/123456/236.ts
+VIU TV,http://tv.tangyuantv.cf:8080/live/test520/123456/9.ts
+凤凰卫视,http://tv.tangyuantv.cf:8080/live/test520/123456/1.ts
+凤凰资讯,http://tv.tangyuantv.cf:8080/live/test520/123456/2.ts
+凤凰香港,http://tv.tangyuantv.cf:8080/live/test520/123456/3.ts
+香港卫视,http://tv.tangyuantv.cf:8080/live/test520/123456/266.ts
+无线新闻,http://tv.tangyuantv.cf:8080/live/test520/123456/234.ts
+无线资讯,http://tv.tangyuantv.cf:8080/live/test520/123456/6.ts
+明珠台,http://tv.tangyuantv.cf:8080/live/test520/123456/7.ts
+J2,http://tv.tangyuantv.cf:8080/live/test520/123456/5.ts
+有线新闻,http://tv.tangyuantv.cf:8080/live/test520/123456/234.ts
+RTHK32,http://tv.tangyuantv.cf:8080/live/test520/123456/235.ts
+有线电影,http://tv.tangyuantv.cf:8080/live/test520/123456/10.ts
+翡翠台,http://tv.tangyuantv.cf:8080/live/test520/123456/4.ts
+tvb娱乐新闻,http://tv.tangyuantv.cf:8080/live/test520/123456/115.ts
+tvb星河,http://tv.tangyuantv.cf:8080/live/test520/123456/8.ts
+tvb星河,http://tv.tangyuantv.cf:8080/live/test520/123456/191.ts
+tvb经典台,http://tv.tangyuantv.cf:8080/live/test520/123456/229.ts
+卫视卡试台,http://tv.tangyuantv.cf:8080/live/test520/123456/233.ts
+天映经典,http://tv.tangyuantv.cf:8080/live/test520/123456/123.ts
+天映频道,http://tv.tangyuantv.cf:8080/live/test520/123456/179.ts
+ASTRO AEC,http://tv.tangyuantv.cf:8080/live/test520/123456/182.ts
+ASTRO AOD 511,http://tv.tangyuantv.cf:8080/live/test520/123456/184.ts
+ASTRO AOD HD,http://tv.tangyuantv.cf:8080/live/test520/123456/187.ts
+astro华丽台,http://tv.tangyuantv.cf:8080/live/test520/123456/183.ts
+astro全佳,http://tv.tangyuantv.cf:8080/live/test520/123456/188.ts
+astro双星,http://tv.tangyuantv.cf:8080/live/test520/123456/189.ts
+astro爱奇艺,http://tv.tangyuantv.cf:8080/live/test520/123456/186.ts
+astro欢喜台,http://tv.tangyuantv.cf:8080/live/test520/123456/185.ts
+astro小太阳,http://tv.tangyuantv.cf:8080/live/test520/123456/190.ts
 凤凰中文台,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225942/1.m3u8
 凤凰资讯,http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8
 凤凰香港,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
