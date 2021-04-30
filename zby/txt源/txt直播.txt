@@ -11,6 +11,7 @@ YY轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt�
 NewTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/NewTV.txt
 CIBN,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/CIBN.txt
 IHOT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/IHOT.txt
+广播电台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/广播电台.txt
 MV歌曲,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/MV歌曲.txt
 其他网络直播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/其他网络直播.txt
 国外成人台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/国外成人台.txt
