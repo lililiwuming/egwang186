@@ -5,24 +5,35 @@ NOW TV,http://tv.tangyuantv.cf:8080/live/test520/123456/2666.ts
 now新闻,http://tv.tangyuantv.cf:8080/live/test520/123456/236.ts
 VIU TV,http://tv.tangyuantv.cf:8080/live/test520/123456/9.ts
 凤凰卫视,http://tv.tangyuantv.cf:8080/live/test520/123456/1.ts
-凤凰资讯,http://tv.tangyuantv.cf:8080/live/test520/123456/2.ts
-凤凰香港,http://tv.tangyuantv.cf:8080/live/test520/123456/3.ts
-香港卫视,http://tv.tangyuantv.cf:8080/live/test520/123456/266.ts
+凤凰中文台,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225942/1.m3u8
+凤凰资讯,http://tv.tangyuantv.cf:8080/live/test520/123456/2.ts#http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8
+凤凰香港,http://tv.tangyuantv.cf:8080/live/test520/123456/3.ts#http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
+凤凰电影台,rtmp://58.200.131.2:1935/livetv/fhdy
+香港卫视,http://tv.tangyuantv.cf:8080/live/test520/123456/266.ts#http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 无线新闻,http://tv.tangyuantv.cf:8080/live/test520/123456/234.ts
 无线资讯,http://tv.tangyuantv.cf:8080/live/test520/123456/6.ts
-明珠台,http://tv.tangyuantv.cf:8080/live/test520/123456/7.ts
-J2,http://tv.tangyuantv.cf:8080/live/test520/123456/5.ts
+TVB J2台,http://93.190.139.36:8278/streams/d/j2_twn/playlist.m3u8#http://tv.tangyuantv.cf:8080/live/test520/123456/5.ts
+TVB 星河台,http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
+TVB明珠台,http://93.190.139.36:8278/streams/d/pearl_twn/playlist.m3u8#http://tv.tangyuantv.cf:8080/live/test520/123456/7.ts
+TVB翡翠台,http://93.190.139.36:8278/streams/d/jade_twn/playlist.m3u8#http://tv.tangyuantv.cf:8080/live/test520/123456/4.ts
+TVB新聞台,http://93.190.139.36:8278/streams/d/inews_twn/playlist.m3u8
 有线新闻,http://tv.tangyuantv.cf:8080/live/test520/123456/234.ts
 RTHK32,http://tv.tangyuantv.cf:8080/live/test520/123456/235.ts
 有线电影,http://tv.tangyuantv.cf:8080/live/test520/123456/10.ts
-翡翠台,http://tv.tangyuantv.cf:8080/live/test520/123456/4.ts
-tvb娱乐新闻,http://tv.tangyuantv.cf:8080/live/test520/123456/115.ts
-tvb星河,http://tv.tangyuantv.cf:8080/live/test520/123456/8.ts
-tvb星河,http://tv.tangyuantv.cf:8080/live/test520/123456/191.ts
-tvb经典台,http://tv.tangyuantv.cf:8080/live/test520/123456/229.ts
+TVB娱乐新闻,http://tv.tangyuantv.cf:8080/live/test520/123456/115.ts
+TVB星河,http://tv.tangyuantv.cf:8080/live/test520/123456/8.ts
+TVB星河,http://tv.tangyuantv.cf:8080/live/test520/123456/191.ts
+TVB经典台,http://tv.tangyuantv.cf:8080/live/test520/123456/229.ts
 卫视卡试台,http://tv.tangyuantv.cf:8080/live/test520/123456/233.ts
 天映经典,http://tv.tangyuantv.cf:8080/live/test520/123456/123.ts
 天映频道,http://tv.tangyuantv.cf:8080/live/test520/123456/179.ts
+星空卫视,https://itv.ahcme.edu.cn/hls/startv.m3u8
+澳门卫星,http://61.244.22.5/ch3/_definst_/ch3.live/playlist.m3u8
+澳门资讯,http://61.244.22.5/ch5/_definst_/info_ch5.live/playlist.m3u8
+澳视葡文,http://61.244.22.4/ch2/ch2.live/index.m3u8
+澳亚卫视,http://mastvnet-hwcdn.utvlive.top/4rlff1m/1024/live.m3u8
+足球频道,http://ivi.bupt.edu.cn:80/hls/zqhd.m3u8
+亚旅卫视,http://hls.jingchangkan.tv/jingchangkan/156722438_0HaM/index.m3u8
 ASTRO AEC,http://tv.tangyuantv.cf:8080/live/test520/123456/182.ts
 ASTRO AOD 511,http://tv.tangyuantv.cf:8080/live/test520/123456/184.ts
 ASTRO AOD HD,http://tv.tangyuantv.cf:8080/live/test520/123456/187.ts
@@ -32,15 +43,6 @@ astro双星,http://tv.tangyuantv.cf:8080/live/test520/123456/189.ts
 astro爱奇艺,http://tv.tangyuantv.cf:8080/live/test520/123456/186.ts
 astro欢喜台,http://tv.tangyuantv.cf:8080/live/test520/123456/185.ts
 astro小太阳,http://tv.tangyuantv.cf:8080/live/test520/123456/190.ts
-凤凰中文台,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225942/1.m3u8
-凤凰资讯,http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8
-凤凰香港,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
-凤凰电影台,rtmp://58.200.131.2:1935/livetv/fhdy
-TVB J2台,http://93.190.139.36:8278/streams/d/j2_twn/playlist.m3u8
-TVB 星河台,http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
-TVB明珠台,http://93.190.139.36:8278/streams/d/pearl_twn/playlist.m3u8
-TVB翡翠台,http://93.190.139.36:8278/streams/d/jade_twn/playlist.m3u8
-TVB新聞台,http://93.190.139.36:8278/streams/d/inews_twn/playlist.m3u8
 HBO HD,http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
 CHC家庭影院,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8#http://93.190.139.36:8278/streams/d/chcfamily/playlist.m3u8
 CHC高清电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8#http://93.190.139.36:8278/streams/d/chchdmovie/playlist.m3u8
@@ -57,11 +59,3 @@ BEST电影,http://101.71.255.229:6610/zjhs/2/10037/index.m3u8?virtualDomain=zjhs
 求索二,http://39.134.65.162/PLTV/88888888/224/3221225715/index.m3u8
 求索三,http://39.134.65.162/PLTV/88888888/224/3221225728/index.m3u8
 求索四,http://39.134.65.162/PLTV/88888888/224/3221225730/index.m3u8
-香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-星空卫视,https://itv.ahcme.edu.cn/hls/startv.m3u8
-澳门卫星,http://61.244.22.5/ch3/_definst_/ch3.live/playlist.m3u8
-澳门资讯,http://61.244.22.5/ch5/_definst_/info_ch5.live/playlist.m3u8
-澳视葡文,http://61.244.22.4/ch2/ch2.live/index.m3u8
-澳亚卫视,http://mastvnet-hwcdn.utvlive.top/4rlff1m/1024/live.m3u8
-足球频道,http://ivi.bupt.edu.cn:80/hls/zqhd.m3u8
-亚旅卫视,http://hls.jingchangkan.tv/jingchangkan/156722438_0HaM/index.m3u8
