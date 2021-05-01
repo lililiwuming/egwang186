@@ -2,6 +2,7 @@
 移动OPTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/移动OPTV.txt
 央视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/央视.txt
 卫视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/卫视.txt
+河南大象融媒,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/河南大象融媒.txt
 百事通,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/百事通.txt
 香港台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/香港台.txt
 台湾台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/台湾台.txt
