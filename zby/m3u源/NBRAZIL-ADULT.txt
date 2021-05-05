@@ -1,0 +1,52 @@
+#EXTINF:-1,CINE ADULTO
+http://nbrasil.biz:80/live/michele2021/2021michele/133971.m3u8
+#EXTINF:-1,PLAYBOY HD
+http://nbrasil.biz:80/live/michele2021/2021michele/133662.m3u8
+#EXTINF:-1,SEXTREME HD
+http://nbrasil.biz:80/live/michele2021/2021michele/133660.m3u8
+#EXTINF:-1,SEXY HOT HD
+http://nbrasil.biz:80/live/michele2021/2021michele/133661.m3u8
+#EXTINF:-1,XXX: ADULTOS 01
+http://nbrasil.biz:80/live/michele2021/2021michele/133666.m3u8
+#EXTINF:-1,XXX: ADULTOS 02
+http://nbrasil.biz:80/live/michele2021/2021michele/133667.m3u8
+#EXTINF:-1,XXX: ADULTOS 03
+http://nbrasil.biz:80/live/michele2021/2021michele/133669.m3u8
+#EXTINF:-1,XXX: ADULTOS 04
+http://nbrasil.biz:80/live/michele2021/2021michele/133681.m3u8
+#EXTINF:-1,XXX: CLUBE PRIVE
+http://nbrasil.biz:80/live/michele2021/2021michele/133674.m3u8
+#EXTINF:-1,XXX: FAKE HOSPITAL
+http://nbrasil.biz:80/live/michele2021/2021michele/133672.m3u8
+#EXTINF:-1,Amadoras
+http://nbrasil.biz:80/live/michele2021/2021michele/133671.m3u8
+#EXTINF:-1,XXX: FAMILY SINNERS
+http://nbrasil.biz:80/live/michele2021/2021michele/133670.m3u8
+#EXTINF:-1,XXX: GAY FEMININO
+http://nbrasil.biz:80/live/michele2021/2021michele/133675.m3u8
+#EXTINF:-1,XXX: GAY MASCULINO
+http://nbrasil.biz:80/live/michele2021/2021michele/133668.m3u8
+#EXTINF:-1,XXX: HENTAI
+http://nbrasil.biz:80/live/michele2021/2021michele/133676.m3u8
+#EXTINF:-1,XXX: HOT WIFE
+http://nbrasil.biz:80/live/michele2021/2021michele/133673.m3u8
+#EXTINF:-1,XXX: JASMIN TV
+http://nbrasil.biz:80/live/michele2021/2021michele/133677.m3u8
+#EXTINF:-1,XXX: MIAMI TV HD
+http://nbrasil.biz:80/live/michele2021/2021michele/133678.m3u8
+#EXTINF:-1,XXX: PLAYBOY FHD
+http://nbrasil.biz:80/live/michele2021/2021michele/133663.m3u8
+#EXTINF:-1,XXX: PLAYBOY HD
+http://nbrasil.biz:80/live/michele2021/2021michele/133679.m3u8
+#EXTINF:-1,XXX: SEX PRIVE FHD
+http://nbrasil.biz:80/live/michele2021/2021michele/133664.m3u8
+#EXTINF:-1,XXX: SEX PRIVE HD
+http://nbrasil.biz:80/live/michele2021/2021michele/133682.m3u8
+#EXTINF:-1,XXX: SEXY HOT FHD
+http://nbrasil.biz:80/live/michele2021/2021michele/133665.m3u8
+#EXTINF:-1,XXX: SEXY HOT HD
+http://nbrasil.biz:80/live/michele2021/2021michele/133684.m3u8
+#EXTINF:-1,XXX: TRANSTV 01
+http://nbrasil.biz:80/live/michele2021/2021michele/133687.m3u8
+#EXTINF:-1,XXX: TRANSTV 02
+http://nbrasil.biz:80/live/michele2021/2021michele/133686.m3u8
