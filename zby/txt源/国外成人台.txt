@@ -3,6 +3,8 @@ Free X TV,http://37.235.199.92:4022/udp/225.50.70.5:1234?type=.mp4
 EXTASY HD/LEO TV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
 Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.mp4
 HustlerHD,http://51.15.0.141:88/hustlerhd/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/hustlerhd/mpegts.mp4
+AST TV 1 HQ,https://www.ast.tv/stream/1/ultra.m3u8
+AST TV 2 HQ,https://www.ast.tv/stream/2/ultra.m3u8
 Filmon TV 1 (18+),http://www.filmon.com/vr-streams/6170.high/playlist.m3u8
 Filmon TV 2 (18+),http://www.filmon.com/vr-streams/6158.high/playlist.m3u8
 Filmon TV 3 (18+),http://www.filmon.com/vr-streams/6155.high/playlist.m3u8
