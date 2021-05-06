@@ -8,8 +8,8 @@ var resp=getHttp(JSON.stringify({url:uu}));
 var playurl=resp.match(/vodurl.*?'(.*?)#/)[1].replace("https://languang","https://img");
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("mgtv.com.byteamone.cn")!=-1){
-var playurl="https://player.byteamone.cn/m3u8/mick2458"+uu.split("url=")[1].match(/.*(\/.*)/)[1];
-JSON.stringify({url:playurl,headers:{'referer':'https://www.mgtv.com.byteamone.cn/','user-agent':'Mozilla/5.0'}});
+var playurl=uu.split("url=")[1];
+JSON.stringify({url:playurl,headers:{referer:'https://www.mgtv.com.byteamone.cn/',user-agent:'Mozilla/5.0'}});
 }else if(uu.indexOf("101.37.76.245:8183/79")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
 var playurl=JSON.parse(resp).url;
