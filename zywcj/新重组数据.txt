@@ -101,14 +101,6 @@ for(var j=0;j<列表.length;j++){
     }else{
         选集地址="https://wy.mlkioiy.cn/api/ShowVideoWy/3bb24322f78b47dfb8723c13d46d45ee/"+选集地址;
     }  
-}else if(标题=='tt10'){
-      选集地址="https://wy.mlkioiy.cn/api/GetDownUrlMu/3bb24322f78b47dfb8723c13d46d45ee/"+选集地址+".m3u8";
-}else if(标题=='ttee'){
-    if(选集地址.indexOf("https://wy.lalabqd.cn")!=-1){
-      选集地址="https://wy.mlkioiy.cn/api/ShowVideoWy/3bb24322f78b47dfb8723c13d46d45ee/"+选集地址.split("/")[6];
-    }else{
-    选集地址=选集地址;
-    }
 }else if(标题=='wekan'){
       选集地址="https://www.flvweb.com/gw/?url="+选集地址;
 }else if(URL.indexOf('yyid6080')!=-1||URL.indexOf('p4kan')!=-1){
