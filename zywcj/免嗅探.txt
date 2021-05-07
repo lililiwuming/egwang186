@@ -12,7 +12,7 @@ var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,headers:{"referer":"https://www.mgtv.com.byteamone.cn/","user-agent":"Mozilla/5.0"}});
 }else if(uu.indexOf("hjjjjhd.top")!=-1){
 var playurl=uu.split("url=")[1];
-JSON.stringify({url:playurl,headers:{"referer":"https://www.zhaikanys.com/","user-agent":"Mozilla/5.0"}});
+JSON.stringify({url:playurl,headers:{"referer":uu}});
 }else if(uu.indexOf("101.37.76.245:8183/79")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
 var playurl=JSON.parse(resp).url;
