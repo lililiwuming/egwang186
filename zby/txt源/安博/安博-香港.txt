@@ -1,3 +1,8 @@
+凤凰中文,http://sxgs88.picp.vip:9090/hstv.php?id=357&type=.m3u8
+凤凰资讯,http://sxgs88.picp.vip:9090/hstv.php?id=359&type=.m3u8
+凤凰香港,http://sxgs88.picp.vip:9090/hstv.php?id=358&type=.m3u8
+凤凰电影,http://sxgs88.picp.vip:9090/hstv.php?id=19&type=.m3u8
+HBO HD,http://sxgs88.picp.vip:9090/hstv.php?id=332&type=.m3u8
 TVB娱乐新闻,http://sxgs88.picp.vip:9090/hstv.php?id=1245&type=.m3u8
 TVB1台,http://sxgs88.picp.vip:9090/hstv.php?id=1242&type=.m3u8
 TVBJ1,http://sxgs88.picp.vip:9090/hstv.php?id=1244&type=.m3u8
