@@ -7,6 +7,7 @@ HAPPY,rtmp://161.202.204.248:1935/tv/ttv12
 01,rtmp://161.202.204.248:1935/tv/ttv01
 02,rtmp://161.202.204.248:1935/tv/ttv02
 03,rtmp://161.202.204.248:1935/tv/ttv03
+松視3台,p8p://fccs.ggboxtv.tw:9806/606943ef00074b4415d14464874a7f4a.ts
 Barely Legal TV,http://37.235.199.92:4022/udp/225.50.70.4:1234?type=.mp4
 Free X TV,http://37.235.199.92:4022/udp/225.50.70.5:1234?type=.mp4
 EXTASY HD/LEO TV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
