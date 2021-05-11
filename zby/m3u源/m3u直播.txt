@@ -2,10 +2,10 @@
 AdultIptv,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/AdultIptv.m3u
 红灯区,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/redtraffic.m3u8
 EDEM-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/EDEM-ADULT.txt
-MyServerDns,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/MyServerDns.txt
-QQTV-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/QQTV-ADULT.txt
-REBELIPTV-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/REBELIPTV-ADULT.txt
-NBRAZIL-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/NBRAZIL-ADULT.txt
+MyServerDns-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/MyServerDns.txt
+QQTV-ADULThttps://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/QQTV-ADULT.txt
+REBELIPTV-ADULThttps://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/REBELIPTV-ADULT.txt
+NBRAZIL-ADULThttps://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/NBRAZIL-ADULT.txt
 AdultsTopPlay,http://topplay.do.am/AdultsTopPlay.m3u
 XXX-iptv-org,https://iptv-org.github.io/iptv/categories/xxx.m3u
 Movies-iptv-org,https://iptv-org.github.io/iptv/categories/movies.m3u
