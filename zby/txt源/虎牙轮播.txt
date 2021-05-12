@@ -11,12 +11,6 @@
 洪金宝电影,http://kuqq.tk/00/huya.php?id=11342427&type=.m3u8
 徐峥电影,http://kuqq.tk/00/huya.php?id=1160204&type=.m3u8
 酷喵云直播,https://cloud-live.kumiaocloud.com/live/hellolive.m3u8
-华视-警匪大片,http://vip.auney.cn/api/huya.php?id=23358421&type=.m3u8
-华视-喜剧大片,http://vip.auney.cn/api/huya.php?id=23352525&type=.m3u8
-华视-爱情大片,http://vip.auney.cn/api/huya.php?id=23358431&type=.m3u8
-华视-动作大片,http://vip.auney.cn/api/huya.php?id=23352535&type=.m3u8
-华视-悬疑恐怖,http://vip.auney.cn/api/huya.php?id=23358441&type=.m3u8
-华视-高分好片,http://vip.auney.cn/api/huya.php?id=23352530&type=.m3u8
-华视-猜你喜欢,http://vip.auney.cn/api/huya.php?id=23352563&type=.m3u8
-华视-小时代呀,http://vip.auney.cn/api/huya.php?id=23358457&type=.m3u8
-华视-你想要的,http://vip.auney.cn/api/huya.php?id=23358446&type=.m3u8
+虎 牙| 蜡笔小新,http://121.12.115.156/tx.hls.huya.com/src/1423787878-1423787878-6115122372451237888-2847699212-10057-A-0-1-imgplus.m3u8
+虎 牙| 爆笑虫子,http://121.12.115.156/tx.hls.huya.com/src/98282154-98282154-422118637210435584-3465852224-10057-A-0-1.m3u8
+虎牙| 猫和老鼠,http://121.12.115.156/tx.hls.huya.com/src/1423782038-1423782038-6115097289842229248-2847687532-10057-A-0-1.m3u8
