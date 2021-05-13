@@ -63,6 +63,10 @@ for(var j=0;j<列表.length;j++){
       选集地址="http://101.37.76.245:8183/79/?url="+选集地址;
 }else if(标题.indexOf('languang')!=-1){
       选集地址="https://j.languang.wfss100.com/jx/md5.php?url="+选集地址;
+}else if(标题=="alizy"){
+      选集地址="https://ssl.vip.cqzyw.net:11551/?url="+选集地址;
+}else if(标题=="pll"){
+      选集地址="http://101.37.76.245:8183/79/?url="+选集地址;
 }else if(URL.indexOf('zy.7kjx.com')!=-1){
       选集地址="https://url.js.cn/?url="+选集地址;
 }else if(URL.indexOf('kudian6.com')!=-1){
