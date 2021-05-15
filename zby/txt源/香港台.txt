@@ -3,10 +3,10 @@
 凤凰香港 10M1080,http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228060/index.m3u8
 凤凰电影台,rtmp://58.200.131.2:1935/livetv/fhdy
 TVBJ2台,http://185.207.176.189:8080/channels/tv-82/mpeg.2ts
-TVB经典台
+TVB经典台,http://50.7.161.82:8278/streams/d/tvbjd_pye/playlist.m3u8
 TVB星河台,http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
-TVB明珠台,http://185.207.176.189:8080/channels/tv-84/mpeg.2ts
-TVB翡翠台,https://cdn.hkdtmb.com/hls/81/index.m3u8#http://185.207.176.189:8080/channels/tv-81/mpeg.2ts#http://livetv.dnsfor.me:80/channel.18.m3u8
+TVB明珠台,http://50.7.161.82:8278/streams/d/peal_pye/playlist.m3u8#http://185.207.176.189:8080/channels/tv-84/mpeg.2ts
+TVB翡翠台,https://cdn.hkdtmb.com/hls/81/index.m3u8#http://50.7.161.82:8278/streams/d/jade_pye/playlist.m3u8#http://185.207.176.189:8080/channels/tv-81/mpeg.2ts#http://livetv.dnsfor.me:80/channel.18.m3u8
 TVB新聞台,http://185.207.176.189:8080/channels/tv-83/mpeg.2ts#http://50.7.161.82:8278/streams/d/inews_twn/playlist.m3u8
 壹新聞,http://stream.nexttv.com.tw/n001/hd/live.m3u8
 NOW新闻
@@ -14,7 +14,7 @@ NOW新闻
 无线财经台,http://livetv.dnsfor.me/channel.11.m3u8
 有线18台
 有线603台
-有线新聞台,http://teslagram.com/live/channel_110.m3u8
+有线新聞台,http://50.7.161.82:8278/streams/d/hkcxw_pye/playlist.m3u8#http://teslagram.com/live/channel_110.m3u8
 香港开电视,http://livetv.dnsfor.me:80/channel.9.m3u8#http://media.fantv.hk/m3u8/archive/channel2.m3u8
 香港卫视文旅,https://myun-hw-s3.myun.tv/melj80jz/lxx27bol/1551285536499984128.m3u8
 香港C+,http://gslbmeiah.cdn.hk.chinamobile.com/livehls/MOB-U1-NO/03.m3u8
