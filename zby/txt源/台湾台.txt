@@ -10,16 +10,17 @@ GoodTV 共享觀點,https://live-350k.streamingfast.net/hls-live/goodtv/_definst
 GoodTV 真情部落,https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch3-2.m3u8
 NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
 NBA US,http://93.190.139.36:8278/streams/d/nbausa_glo/playlist.m3u8
+爆谷台,http://194.50.170.148:19080/hls/now_bg.m3u8
 中视新闻,http://www.hrcloud.tk/hls/zs_xwt.m3u8
 华视新闻,http://www.hrcloud.tk/hls/hs_xwt.m3u8
 台视新闻,http://www.hrcloud.tk/hls/ts_xwt.m3u8
 民视新闻,http://www.hrcloud.tk/hls/ms_xwt.m3u8#http://6.mms.vlog.xuite.net/hls/ftvtv/index.m3u8#http://210.61.56.23:80/hls/ftvtv/index.m3u8
-三立新闻,http://www.hrcloud.tk/hls/sl_live.m3u8
-中天新闻
-东森新闻
-东森财经
-TVBS新闻
-TVBS
+三立INEWS,http://www.hrpan.tk/hls/sl_news.m3u8
+三立LIVE新闻,http://www.hrcloud.tk/hls/sl_live.m3u8
+中天新闻,http://www.hrpan.tk/hls/zt_news.m3u8
+东森新闻,http://www.hrpan.tk/hls/ds_xwt.m3u8
+TVBS新闻,http://www.hrpan.tk/hls/tvbs_xw.m3u8
+寰宇新闻,http://www.hrpan.tk/hls/hy_xwt.m3u8
 中视
 华视
 民视
