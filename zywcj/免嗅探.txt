@@ -18,7 +18,7 @@ var resp=getHttp(JSON.stringify({url:uu}));
 var playurl=JSON.parse(resp).url;
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("alivideo.4kya.com")!=-1){
-var playurl=uu.split("wd=")[1]+"?_type=.mp4";
+var playurl=uu+"?_type=.mp4";
 JSON.stringify({url:playurl});
 }else{
 "web="+uu;
