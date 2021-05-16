@@ -1,4 +1,5 @@
 松視1,rtmp://161.202.204.248:1935/tv/ttv11
+香蕉台,http://ai7499003.va1.aihost10.top/live/j2?type=.m3u8
 HAPPY,rtmp://161.202.204.248:1935/tv/ttv12
 EXTASY HD/LEO TV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
 Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.mp4
