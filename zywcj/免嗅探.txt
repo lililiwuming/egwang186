@@ -21,7 +21,8 @@ JSON.stringify({url:playurl});
 var playurl=uu+"?_type=.mp4";
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("qq.iqiyi5.b555b.com:7777")!=-1){
-JSON.stringify({url:uu});
+var playurl=uu.split("wd=")[1];
+JSON.stringify({url:playurl});
 }else{
 "web="+uu;
 }
