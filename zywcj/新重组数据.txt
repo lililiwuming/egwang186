@@ -52,7 +52,7 @@ for(var j=0;j<列表.length;j++){
 }else if(URL.indexOf("qbzyz.com")!=-1){
       选集地址="http://parse.qbzyz.com/parse?resources="+选集地址;
 }else if(标题=="4kdym"){
-      选集地址=unescape(选集地址);
+      选集地址=decodeURIComponent(选集地址);
 }else if(URL.indexOf('yeyemi.com')!=-1){
     if(标题=='alizy'){
       选集地址="https://api.dsxys.org/?url="+选集地址;
