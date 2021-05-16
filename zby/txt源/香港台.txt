@@ -7,11 +7,11 @@ TVB经典台,http://50.7.161.82:8278/streams/d/tvbjd_pye/playlist.m3u8
 TVB星河台,http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
 TVB明珠台,http://50.7.161.82:8278/streams/d/peal_pye/playlist.m3u8#http://185.207.176.189:8080/channels/tv-84/mpeg.2ts
 TVB翡翠台,https://cdn.hkdtmb.com/hls/81/index.m3u8#http://50.7.161.82:8278/streams/d/jade_pye/playlist.m3u8#http://185.207.176.189:8080/channels/tv-81/mpeg.2ts#http://livetv.dnsfor.me:80/channel.18.m3u8
-TVB新聞台,http://185.207.176.189:8080/channels/tv-83/mpeg.2ts#http://50.7.161.82:8278/streams/d/inews_twn/playlist.m3u8
+TVB新聞台,http://50.7.161.82:8278/streams/d/inews_twn/playlist.m3u8
 壹新聞,http://stream.nexttv.com.tw/n001/hd/live.m3u8
 NOW新闻
-无线新闻台,http://livetv.dnsfor.me/channel.10.m3u8#https://bcovlive-a.akamaihd.net/92d1fb6f11854eafb1b183f2565558c9/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
-无线财经台,http://livetv.dnsfor.me/channel.11.m3u8
+无线新闻台,http://185.207.176.189:8080/channels/tv-83/mpeg.2ts#http://livetv.dnsfor.me/channel.10.m3u8#https://bcovlive-a.akamaihd.net/92d1fb6f11854eafb1b183f2565558c9/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
+无线财经台,http://185.207.176.189:8080/channels/tv-85/mpeg.2ts#http://livetv.dnsfor.me/channel.11.m3u8
 有线18台
 有线603台
 有线新聞台,http://50.7.161.82:8278/streams/d/hkcxw_pye/playlist.m3u8#http://teslagram.com/live/channel_110.m3u8
