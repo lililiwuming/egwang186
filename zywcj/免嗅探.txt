@@ -17,9 +17,7 @@ JSON.stringify({url:playurl,headers:{"referer":uu}});
 var resp=getHttp(JSON.stringify({url:uu}));
 var playurl=JSON.parse(resp).url;
 JSON.stringify({url:playurl});
-}else if(uu.indexOf("4kyima.com")!=-1){
-JSON.stringify({url:uu});
-}else if(uu.indexOf("qq.iqiyi5.b555b.com:7777")!=-1){
+}else if(uu.indexOf("https://www.baidu.com/s?wd=")!=-1){
 var playurl=uu.split("wd=")[1];
 JSON.stringify({url:playurl});
 }else{
