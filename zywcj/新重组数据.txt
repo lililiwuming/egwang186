@@ -48,7 +48,7 @@ for(var j=0;j<列表.length;j++){
       选集地址="http://egwang186.gitee.io/?url="+选集地址;
 }else if(选集地址.indexOf(":6688/player")!=-1){
       var hash=选集地址.split("player/")[1];
-      选集地址="https://qq.iqiyi5.b555b.com:7777/video/"+hash+"?type=.m3u8";
+      选集地址="https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
 }else if(URL.indexOf("qbzyz.com")!=-1){
       选集地址="http://parse.qbzyz.com/parse?resources="+选集地址;
 }else if(标题=="4kdym"){
