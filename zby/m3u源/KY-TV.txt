@@ -2472,3 +2472,9 @@ http://ky-tv.cc:25461/live/Miroslav4545/544332227/1127088.m3u8
 http://ky-tv.cc:25461/live/Miroslav4545/544332227/1138969.m3u8
 #EXTINF:-1,XXi: Not Another Happy Ending
 http://ky-tv.cc:25461/live/Miroslav4545/544332227/780479.m3u8
+#EXTINF:-1,Gay Channel
+http://ky-tv.cc:25461/live/Miroslav4545/544332227/1229219.m3u8
+#EXTINF:-1,Uncensored Japan
+http://ky-tv.cc:25461/live/Miroslav4545/544332227/1002422.m3u8
+#EXTINF:-1,Vivid Celeb
+http://ky-tv.cc:25461/live/Miroslav4545/544332227/1002423.m3u8
