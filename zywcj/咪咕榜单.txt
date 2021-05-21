@@ -69,9 +69,5 @@
 {
 	name: 'uk',
 	value: '23634298',image:'https://mcontent.migu.cn/web/fs/media/p/154/359/11447/image/20180820/1344651.jpg'
-},
-{
-	name: 'voice',
-	value: '23634314',image:'https://mcontent.migu.cn/web/fs/media/p/154/359/11447/image/20180820/1344664.jpg'
-},
+}
 ]}
