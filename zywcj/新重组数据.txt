@@ -68,7 +68,7 @@ for(var j=0;j<列表.length;j++){
 }else if(标题.indexOf('languang')!=-1){
       选集地址="https://j.languang.wfss100.com/jx/md5.php?url="+选集地址;
 }else if(标题=="alizy"){
-      选集地址="https://api.dsxys.org/?url="+选集地址;
+      选集地址="https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url="+选集地址;
 }else if(标题=="pll"){
       选集地址="http://101.37.76.245:8183/79/?url="+选集地址;
 }else if(URL.indexOf('zy.7kjx.com')!=-1){
