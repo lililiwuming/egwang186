@@ -2,16 +2,17 @@
 凤凰资讯 10M1080,http://111.20.105.60:6060/yinhe/2/ch00000090990000002187/index.m3u8?virtualDomain=yinhe.live_hls.zte.com#http://117.148.187.100/PLTV/88888888/224/3221226491/index.m3u8#http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8
 凤凰香港 10M1080,http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228060/index.m3u8
 凤凰电影台,rtmp://58.200.131.2:1935/livetv/fhdy
-TVBJ2台,https://cdn.hkdtmb.com/hls/82/index.m3u8#http://185.207.176.189:8080/channels/tv-82/mpeg.2ts
-TVB经典台,http://50.7.161.82:8278/streams/d/tvbjd_pye/playlist.m3u8
+TVBJ2台,https://cdn.hkdtmb.com/hls/82/index.m3u8#http://185.207.176.189:8080/channels/tv-82/mpeg.2ts#http://47.242.54.220/daili/ce50.php?gun=4&id=sz_1002&type=.m3u8#http://pl.laiyin.xyz/live/j29.m3u8?auth_key=1631018859-0-0-f246b745b6693f30406a308593c820a9
+TVB经典台,http://50.7.161.82:8278/streams/d/tvbjd_pye/playlist.m3u8#http://47.242.54.220/daili/ce50.php?gun=3&id=tvbjd_pye&type=.m3u8
 TVB星河台,http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
-TVB明珠台,https://cdn.hkdtmb.com/hls/84/index.m3u8#http://50.7.161.82:8278/streams/d/peal_pye/playlist.m3u8#http://185.207.176.189:8080/channels/tv-84/mpeg.2ts
-TVB翡翠台,https://cdn.hkdtmb.com/hls/81/index.m3u8#http://50.7.161.82:8278/streams/d/jade_pye/playlist.m3u8#http://185.207.176.189:8080/channels/tv-81/mpeg.2ts#http://livetv.dnsfor.me:80/channel.18.m3u8
+TVB明珠台,https://cdn.hkdtmb.com/hls/84/index.m3u8#http://50.7.161.82:8278/streams/d/peal_pye/playlist.m3u8#http://185.207.176.189:8080/channels/tv-84/mpeg.2ts#http://47.242.54.220/daili/ce50.php?gun=4&id=sz_1004&type=.m3u8#http://47.242.54.220/daili/ce50.php?gun=3&id=peal_pye&type=.m3u8
+TVB翡翠台,https://cdn.hkdtmb.com/hls/81/index.m3u8#http://50.7.161.82:8278/streams/d/jade_pye/playlist.m3u8#http://185.207.176.189:8080/channels/tv-81/mpeg.2ts#http://livetv.dnsfor.me:80/channel.18.m3u8#http://47.242.54.220/daili/ce50.php?gun=3&id=jade_pye&type=.m3u8
+HBO·综合台,http://47.242.54.220/daili/ce50.php?gun=3&id=Hbo&type=.m3u8
 壹新聞,http://stream.nexttv.com.tw/n001/hd/live.m3u8
 NOW新闻
-无线新闻台,http://185.207.176.189:8080/channels/tv-83/mpeg.2ts#http://livetv.dnsfor.me/channel.10.m3u8
-无线财经台,http://185.207.176.189:8080/channels/tv-85/mpeg.2ts#http://livetv.dnsfor.me/channel.11.m3u8
-有线18台
+无线新闻台,http://185.207.176.189:8080/channels/tv-83/mpeg.2ts#http://livetv.dnsfor.me/channel.10.m3u8#http://47.242.54.220/daili/ce50.php?gun=4&id=sz_1005&type=.m3u8
+无线财经台,http://185.207.176.189:8080/channels/tv-85/mpeg.2ts#http://livetv.dnsfor.me/channel.11.m3u8#http://47.242.54.220/daili/ce50.php?gun=4&id=sz_1003&type=.m3u8
+有线18台,rtmp://59.124.75.130/sat/hk042
 有线603台
 有线新聞台,https://ottproxy2.mott.tv/livehls/MOB-SCC/02.m3u8#http://50.7.161.82:8278/streams/d/hkcxw_pye/playlist.m3u8#http://teslagram.com/live/channel_110.m3u8
 香港开电视,https://cdn.hkdtmb.com/hls/77/index.m3u8#http://livetv.dnsfor.me:80/channel.9.m3u8#http://media.fantv.hk/m3u8/archive/channel2.m3u8
