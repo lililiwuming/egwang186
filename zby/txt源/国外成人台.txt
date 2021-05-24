@@ -4,6 +4,10 @@ EXTASY HD/LEO TV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
 Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.mp4
 HustlerHD,http://51.15.0.141:88/hustlerhd/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/hustlerhd/mpegts.mp4
 [RU]O-LA-LA,http://193.33.240.8:8080/o-la-la/index.m3u8
+REDLIGHT,http://193.33.240.8:8080/redlight/index.m3u8
+Nuart,http://193.33.240.8:8080/nuart/index.m3u8
+Hustler HD,http://193.33.240.8:8080/hustlerhd/index.m3u8
+PlayBoy,http://193.33.240.8:8080/playboytv/index.m3u8
 AST TV 1 HQ,https://www.ast.tv/stream/1/ultra.m3u8
 AST TV 2 HQ,https://www.ast.tv/stream/2/ultra.m3u8
 Filmon TV 1 (18+),http://www.filmon.com/vr-streams/6170.high/playlist.m3u8
