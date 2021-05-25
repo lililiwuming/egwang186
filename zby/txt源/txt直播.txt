@@ -6,6 +6,7 @@
 百事通,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/百事通.txt
 香港台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/香港台.txt
 台湾台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/台湾台.txt
+GoodView台湾台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/GoodView台湾台.txt
 虎牙轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/虎牙轮播.txt
 斗鱼轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/斗鱼轮播.txt
 YY轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/YY轮播.txt
