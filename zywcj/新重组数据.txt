@@ -60,7 +60,7 @@ for(var j=0;j<列表.length;j++){
       选集地址="https://jx.wzm.kim/hls/"+选集地址+".m3u8";
     }
 }else if(URL.indexOf('789pan.cn')!=-1){
-      选集地址="http://api.cxitco.cn/api/?key=9WAmmV2n380kmv8UMn&url="+选集地址;
+      选集地址="http://play.zk132.cn/m3u8.php?url="+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
       选集地址="https://jx.fqzy.cc/jx.php?url="+选集地址;
 }else if(选集地址.indexOf('wp.umao.vp6.top')!=-1){
