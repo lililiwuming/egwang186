@@ -5,7 +5,7 @@ var playurl=resp.match(/播放地址[\s\S]*?url.*?'(.*?)'/)[1];
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("languang.wfss100")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
-var playurl=resp.match(/vodurl.*?'(.*?)#/)[1].replace("https://languang","https://img");
+var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","https://img");
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("mgtv.com.byteamone.cn")!=-1){
 var playurl=uu.split("url=")[1];
