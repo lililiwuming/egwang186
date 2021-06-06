@@ -46,7 +46,7 @@
 "title":"TVB云播",
 "url":"https://www.hktvyb.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/tvblogo.png"
-},
+}
 ]
 }
 ]
