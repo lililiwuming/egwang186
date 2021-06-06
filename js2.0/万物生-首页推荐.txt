@@ -2,7 +2,7 @@ var URL=getVar("url");
 function 普通列表(列表,标题规则,地址规则,图片规则,简介规则){
 var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
-    var 标题=e2Rex(列表[j],标题规则);
+    var 标题=e2Rex(列表[j],标题规则);alert("标题");
     var 地址=e2Rex(列表[j],地址规则).indexOf("http")!=-1?e2Rex(列表[j],地址规则):URL+e2Rex(列表[j],地址规则);
     var 图片=e2Rex(列表[j],图片规则).indexOf("http")!=-1?e2Rex(列表[j],图片规则):URL+e2Rex(列表[j],图片规则);
     var 简介=e2Rex(列表[j],简介规则);
