@@ -12,7 +12,7 @@ if(URL.indexOf("cokemv.cn")!=-1||URL.indexOf("jhdyw.vip")!=-1||URL.indexOf("dubo
                 }else{
                    地址=地址;
                 }
-                var 图片=e2Rex(列表[j],测试);
+                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
                 var 简介=e2Rex(列表[j],".get(span.pic-text).t().c().get(p.text).t()");
                 if(标题!=null){
                    LIST.push({title:标题,url:地址,img:图片,detail:简介});
