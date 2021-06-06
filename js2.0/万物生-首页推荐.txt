@@ -12,7 +12,7 @@ var play_={};
 play_.list=LIST;
 items.push(play_);
 res.data=items;
-alert(res);
+alert(JSON.stringify(res));
 JSON.stringify(res);
 }
 if(URL.indexOf("cokemv.cn")!=-1||URL.indexOf("jhdyw.vip")!=-1||URL.indexOf("duboku.su")!=-1||URL.indexOf("siguyy.com")!=-1||URL.indexOf("hktvyb.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("zhenbuka2.com")!=-1||URL.indexOf("bukaivip.com")!=-1){
