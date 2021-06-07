@@ -2,7 +2,7 @@ var URL=e2Rex(getVar("url"),".z2(\\\(http.*?//.*?\\\)/)");
 function 选集列表(){
 var res={};var items=[];var detail=[];
 for(var i=0;i<分类.length;i++){
-    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);alert(列表);
+    var 列表=分类[i].match(/<li[\s\S]*?<\/li>/g);
     var 标题=e2Rex(线路[i],标题规则);
     var LIST=[];
     for(var j=0;j<列表.length;j++){
@@ -49,7 +49,7 @@ var 分类=e2Rex(getVar("源码"),".get(ul#play_link)").match(/<li[\s\S]*?\/li>/
 var 线路=e2Rex(getVar("源码"),".get(ul.from_list)").match(/<li[\s\S]*?\/li>/g);
 var 简介=e2Rex(getVar("源码"),".get(p.p_txt).t()");
 var 列表规则=/<a[\s\S]*?<\/a>/g;
-var 标题规则=e".get(li).t()";
+var 标题规则=".get(li).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("aidi.tv")!=-1){
