@@ -20,7 +20,7 @@
 {
 "title":"奈飞星影视",
 "url":"https://nfxhd.com",
-"img":"https://gitee.com/egwang186/iptv/raw/master/js2.0/nfstarlogo.png"
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nfstarlogo.png"
 },
 {
 "title":"思古影视",
