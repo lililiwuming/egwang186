@@ -30,7 +30,7 @@ var 前="/show/";var 后="--------#PN#---.html";头部导航();
 }else if(URL.indexOf("nfxhd.com")!=-1){
 var 标题=["电影","美剧","日韩"];
 var 地址=["movie","tvplay","tvshow"];var 前="/vodtype/";var 后="-#PN#/";头部导航();
-}else if(URL.indexOf("hktvyb.com")!=-1){
+}else if(URL.indexOf("tvyb02.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vod/type/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("siguyy.com")!=-1){
 var 标题=["电影","电视剧","综艺","动漫"];
