@@ -2,7 +2,6 @@ var URL=e2Rex(getVar("url"),".z2(\\\(http.*?//.*?\\\)/)");
 function 选集列表(){
 var res={};var items=[];var detail=[];
 for(var i=0;i<分类.length;i++){
-alert(列表规则);
     var 列表=分类[i].match(列表规则);alert(列表);
     var 标题=e2Rex(线路[i],标题规则);
     var LIST=[];
@@ -72,8 +71,8 @@ var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("tvyb02.com")!=-1){
 var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
 var 线路=getVar("源码").match(/<a class="more sort-[\s\S]*?\/h3>/g);
-var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");
-var 列表规则="/<li[\s\S]*?<\/li>/g";
+var 简介=e2Rex(getVar("源码"),".get(div.myui-content__detail).t()");
+var 列表规则=/<li[\s\S]*?<\/li>/g;
 var 标题规则=".get(h3).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
