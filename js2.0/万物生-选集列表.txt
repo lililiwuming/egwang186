@@ -2,7 +2,7 @@ var URL=e2Rex(getVar("url"),".z2(\\\(http.*?//.*?\\\)/)");
 function 选集列表(){
 var res={};var items=[];var detail=[];
 for(var i=0;i<分类.length;i++){
-    var 列表=分类[i].match(列表规则);
+    var 列表=分类[i].match(列表规则);alert(列表);
     var 标题=e2Rex(线路[i],标题规则);
     var LIST=[];
     for(var j=0;j<列表.length;j++){
