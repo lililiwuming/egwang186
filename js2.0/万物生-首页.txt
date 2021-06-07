@@ -13,6 +13,16 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/shlogo.png"
 },
 {
+"title":"爱迪影视",
+"url":"https://aidi.tv",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/aidilogo.png"
+},
+{
+"title":"奈飞星影视",
+"url":"https://nfxhd.com",
+"img":"https://gitee.com/egwang186/iptv/raw/master/js/nfstarlogo.png"
+},
+{
 "title":"思古影视",
 "url":"https://www.siguyy.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/sigulogo.webp"
@@ -24,7 +34,7 @@
 },
 {
 "title":"江湖阿里云",
-"url":"http://jhyun.jhdyw.vip:8090/",
+"url":"http://jhyun.jhdyw.vip:8090",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jhyslogo.png"
 },
 {
