@@ -6,7 +6,7 @@ for(var i=0;i<分类.length;i++){
     var 标题=e2Rex(线路[i],标题规则);
     var LIST=[];
     for(var j=0;j<列表.length;j++){
-        var 选集=e2Rex(列表[j],".get(a).t()");
+        var 选集=e2Rex(列表[j],选集规则);
         var 选集地址=e2Rex(列表[j],选集地址规则).indexOf("http")!=-1?e2Rex(列表[j],选集地址规则):URL+e2Rex(列表[j],选集地址规则);
         LIST.push({title:选集,url:选集地址});
     }
@@ -17,7 +17,7 @@ items.push(play_);
 }
 detail.push({desc:简介});
 res.data=items;
-res.desc=detail;
+res.desc=detail;alert(res);
 return JSON.stringify(res);
 }
 if(URL.indexOf("cokemv.cn")!=-1){
@@ -70,10 +70,10 @@ var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("tvyb02.com")!=-1){
 var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
-var 线路=getVar("源码").match(/<span class="more text-[\s\S]*?\/span>/g);
+var 线路=getVar("源码").match(/<a class="more sort-[\s\S]*?\/h3>/g);
 var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");
 var 列表规则=/<li[\s\S]*?<\/li>/g;
-var 标题规则=".get(span).t()";
+var 标题规则=".get(h3).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("siguyy.com")!=-1){
