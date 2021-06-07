@@ -72,7 +72,7 @@ var 选集地址规则=".get(a).a(href)";选集列表();
 var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
 var 线路=getVar("源码").match(/<a class="more sort-[\s\S]*?\/h3>/g);
 var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");
-var 列表规则=/<li[\s\S]*?<\/li>/g;
+var 列表规则="/<li[\s\S]*?<\/li>/g";
 var 标题规则=".get(h3).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
