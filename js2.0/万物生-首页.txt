@@ -23,8 +23,8 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dubokulogo.png"
 },
 {
-"title":"江湖视频",
-"url":"https://www.jhdyw.vip",
+"title":"江湖阿里云",
+"url":"http://jhyun.jhdyw.vip:8090/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jhyslogo.png"
 },
 {
