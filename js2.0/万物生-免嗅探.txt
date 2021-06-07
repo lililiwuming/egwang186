@@ -1,6 +1,6 @@
 var uu=getVar("url");
 if(uu.indexOf("jx.cqzyw.net:8655/analysis")!=-1){
-var playurl=JSON.parse(getCode()).url;
+var playurl=JSON.parse(getHttp(JSON.stringify({url:uu}))).url;
 JSON.stringify({url:playurl});
 }else{
 "web="+uu;
