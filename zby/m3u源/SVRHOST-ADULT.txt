@@ -1,0 +1,52 @@
+#EXTINF:-1 tvg-id="" tvg-name="Adulto XXX-1" tvg-logo="http://imgur.com/MBrwxrK.png" group-title="XXX Canais Adultos",Adulto XXX-1
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/10750.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Adulto XXX-2" tvg-logo="http://imgur.com/sox8f7u.png" group-title="XXX Canais Adultos",Adulto XXX-2
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/10751.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Adulto XXX-3" tvg-logo="http://imgur.com/rJjpbSJ.png" group-title="XXX Canais Adultos",Adulto XXX-3
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/10752.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Adulto XXX-4" tvg-logo="http://imgur.com/i384Pg8.png" group-title="XXX Canais Adultos",Adulto XXX-4
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/10753.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Adulto XXX-5" tvg-logo="http://imgur.com/QOcuQFG.png" group-title="XXX Canais Adultos",Adulto XXX-5
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/10754.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Adulto XXX-6" tvg-logo="http://imgur.com/AZob6Oi.png" group-title="XXX Canais Adultos",Adulto XXX-6
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/10755.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Adulto XXX-7" tvg-logo="http://imgur.com/ayMN3YT.png" group-title="XXX Canais Adultos",Adulto XXX-7
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/12408.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Adulto XXX-8" tvg-logo="http://imgur.com/CyEfH2b.png" group-title="XXX Canais Adultos",Adulto XXX-8
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/12409.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Adulto XXX-9" tvg-logo="http://imgur.com/V7wIPX2.png" group-title="XXX Canais Adultos",Adulto XXX-9
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/12410.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Adulto XXX-10" tvg-logo="http://imgur.com/f0CyeqK.png" group-title="XXX Canais Adultos",Adulto XXX-10
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/12411.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Brasileirinhas HD" tvg-logo="https://i.imgur.com/0SGVvjl.png" group-title="XXX Canais Adultos",Brasileirinhas HD
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/3624.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Canal ForMan HD" tvg-logo="https://i.imgur.com/7keAse3.png" group-title="XXX Canais Adultos",Canal ForMan HD
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/4655.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="Canal  Porno" tvg-logo="https://i.imgur.com/y2ZpaRn.png" group-title="XXX Canais Adultos",Canal  Porno
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/3581.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="Playboytv.br" tvg-name="Playboy TV" tvg-logo="https://i.imgur.com/D2uV2RS.png" group-title="XXX Canais Adultos",Playboy TV
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/1839.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="Playboytv.br" tvg-name="Playboy TV *" tvg-logo="https://i.imgur.com/D2uV2RS.png" group-title="XXX Canais Adultos",Playboy TV *
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/63.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="Playboytv.br" tvg-name="Playboy HD" tvg-logo="https://i.imgur.com/D2uV2RS.png" group-title="XXX Canais Adultos",Playboy HD
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/5260.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="Playboytv.br" tvg-name="Playboy HD *" tvg-logo="https://i.imgur.com/D2uV2RS.png" group-title="XXX Canais Adultos",Playboy HD *
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/11002.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="" tvg-name="PornTV" tvg-logo="https://i.imgur.com/Z0enS8i.png" group-title="XXX Canais Adultos",PornTV
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/4657.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="Sextreme.cl" tvg-name="Sextreme" tvg-logo="https://i.imgur.com/mHHKCwo.png" group-title="XXX Canais Adultos",Sextreme
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/1819.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="Sextreme.cl" tvg-name="Sextreme*" tvg-logo="https://i.imgur.com/mHHKCwo.png" group-title="XXX Canais Adultos",Sextreme*
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/43.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="Sextreme.cl" tvg-name="Sextreme HD" tvg-logo="https://i.imgur.com/mHHKCwo.png" group-title="XXX Canais Adultos",Sextreme HD
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/5255.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="Sexyhot.br" tvg-name="Sexy Hot" tvg-logo="http://i.imgur.com/jv8XhSR.png" group-title="XXX Canais Adultos",Sexy Hot
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/1818.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="Sexyhot.br" tvg-name="Sexy Hot *" tvg-logo="http://i.imgur.com/jv8XhSR.png" group-title="XXX Canais Adultos",Sexy Hot *
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/42.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="Sexyhot.br" tvg-name="Sexy Hot HD" tvg-logo="http://i.imgur.com/jv8XhSR.png" group-title="XXX Canais Adultos",Sexy Hot HD
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/5253.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="venus.pt" tvg-name="Venus" tvg-logo="https://i.imgur.com/tjlZu45.png" group-title="XXX Canais Adultos",Venus
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/3056.m3u8?tkn=1623079273
+#EXTINF:-1 tvg-id="venus.pt" tvg-name="Venus HD" tvg-logo="https://i.imgur.com/tjlZu45.png" group-title="XXX Canais Adultos",Venus HD
+http://svrhost.club/live/marcellocavallare/qvFIOGJwVB/5248.m3u8?tkn=1623079273
