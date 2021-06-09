@@ -15,7 +15,7 @@ items.push(play_);
 res.data=items;
 return JSON.stringify(res);
 }
-if(baseURL.indexOf("jpysvip.net")!=-1||baseURL.indexOf("cokemv.cn")!=-1){
+if(baseURL.indexOf("jpysvip.net")!=-1){
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
 var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=源码.match(/<ul class="myui-vodlist__media[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
@@ -23,12 +23,12 @@ var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
-}else if(baseURL.indexOf("zhenbuka2.com")!=-1){
+}else if(baseURL.indexOf("zhenbuka2.com")!=-1||baseURL.indexOf("cokemv.cn")!=-1){
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
-JSON.stringify({data:[{title:"搜索验证，点击跳转网页",url:URL}]});
+JSON.stringify({data:[{list:[{title:"搜索验证，点击跳转网页",url:URL}]}]});
 }else if(baseURL.indexOf("bukaivip.com")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY+"&limit=50";
-JSON.stringify({data:[{title:"搜索验证，点击跳转网页",url:URL}]});
+JSON.stringify({data:[{list:[{title:"搜索验证，点击跳转网页",url:URL}]}]});
 }else if(baseURL.indexOf("saohuotv.com")!=-1){
 var URL=baseURL+"/search.php?searchword="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
