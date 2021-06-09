@@ -1,8 +1,6 @@
 var KEY=getVar("KEY");
 var baseURL=e2Rex(getVar("CODE"),".json(url)");
 function 搜索列表(){
-var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=源码.match(列表规则);
 var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
    var 标题=e2Rex(列表[j],标题规则);
@@ -27,282 +25,56 @@ var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
 }else if(baseURL.indexOf("zhenbuka2.com")!=-1){
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
-var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=源码.match(/<ul class="stui-vodlist__media[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
-        var LIST=[];
-            for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".get(.title a).t()");
-                var 地址=baseURL+e2Rex(列表[j],".get(.title a).a(href)");
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
-                var 简介=e2Rex(列表[j],".get(span.pic-text).t().c().get(div.detail).t()");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
+JSON.stringify({data:[{title:"搜索验证，点击跳转网页",url:URL}]});
 }else if(baseURL.indexOf("bukaivip.com")!=-1){
-var URL=baseURL+"/index.php/ajax/suggest?mid=1&wd="+KEY+"&limit=50";
-var Req={url:URL};
-var 源码=getHttp(JSON.stringify(Req));
-var 列表=源码.match(/{"id".*?}/g);
-        var LIST=[];
-            for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".json(name)");
-                var 地址=baseURL+"/index.php/vod/detail/id/"+e2Rex(列表[j],".json(id)")+".html";
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片=e2Rex(列表[j],".json(pic)");
-                var 简介=e2Rex(列表[j],".json(name)");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
+var URL=baseURL+"/index.php/vod/search.html?wd="+KEY+"&limit=50";
+JSON.stringify({data:[{title:"搜索验证，点击跳转网页",url:URL}]});
 }else if(baseURL.indexOf("saohuotv.com")!=-1){
 var URL=baseURL+"/search.php?searchword="+KEY;
-var Req={url:URL};
-var 源码=getHttp(JSON.stringify(Req));
+var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=源码.match(/<li>[\s]*?<div class="v_img[\s\S]*?<\/li>/g);
-        var LIST=[];
-            for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".get(.v_title a).t()");
-                var 地址=baseURL+e2Rex(列表[j],".get(.v_title a).a(href)");
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片=e2Rex(列表[j],".get(img).a(data-original)");
-                var 简介=e2Rex(列表[j],".get(div.v_note).t()");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
-}else if(baseURL.indexOf("edu-hb.com")!=-1){
+var 标题规则=".get(.v_title a).t()";
+var 地址规则=".get(.v_title a).a(href)";
+var 图片规则=".get(img).a(data-original)";
+var 简介规则=".get(div.v_note).t()";搜索列表();
+}else if(baseURL.indexOf("aidi.tv")!=-1){
 var URL=baseURL+"/vsearch/-------------.html?wd="+KEY+"&submit=";
-var Req={url:URL};
-var 源码=getHttp(JSON.stringify(Req));
+var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=源码.match(/<li class="searchlist_item[\s\S]*?<\/li>/g);
-        var LIST=[];
-        for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".get(.vodlist_title a).ty(</span>).t()");
-                var 地址=baseURL+e2Rex(列表[j],".get(.vodlist_title a).a(href)");
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
-                var 简介=e2Rex(列表[j],".get(span.pic_text).t().c(_).get(p.vodlist_sub).t()");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
-}else if(baseURL.indexOf("nfstar.net")!=-1){
-var URL=baseURL+"/vodsearch/"+KEY+"----------1---.html";
-var Req={url:URL};
-var 源码=getHttp(JSON.stringify(Req));
+var 标题规则=".get(.vodlist_title a).ty(</span>).t()";
+var 地址规则=".get(.vodlist_title a).a(href)";
+var 图片规则=".get(a).a(data-original)";
+var 简介规则=".get(span.pic_text).t().c(_).get(p.vodlist_sub).t()";搜索列表();
+}else if(baseURL.indexOf("nfxhd.com")!=-1){
+var URL=baseURL+"/vodsearch/-------------/?wd="+KEY+"&submit=";
+var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=源码.match(/<ul class="myui-vodlist__media clearfix[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
-        var LIST=[];
-            for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".get(.title a).t()");
-                var 地址=baseURL+e2Rex(列表[j],".get(.title a).a(href)");
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
-                var 简介=e2Rex(列表[j],".get(span.pic-text).t().c().get(div.detail).t()");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
-}else if(baseURL.indexOf("hdworking.top")!=-1){
-var URL=baseURL+"/index.php/vod-search.html?wd="+KEY+"&submit=";
-var Req={url:URL};
-var 源码=getHttp(JSON.stringify(Req));
-var 列表=源码.match(/<li class="searchlist_item[\s\S]*?<\/li>/g);
-        var LIST=[];
-        for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".get(.vodlist_title a).ty(</span>).t()");
-                var 地址=baseURL+e2Rex(列表[j],".get(.vodlist_title a).a(href)");
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片="http:"+e2Rex(列表[j],".get(a).a(data-original)");
-                var 简介=e2Rex(列表[j],".get(span.pic_text).t().c(_).get(p.vodlist_sub).t()");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
-}else if(baseURL.indexOf("hktvyb.com")!=-1){
-var URL=baseURL+"/index.php/ajax/suggest?mid=1&wd="+KEY+"&limit=50";
-var Req={url:URL};
-var 源码=getHttp(JSON.stringify(Req));
-var 列表=源码.match(/{"id".*?}/g);
-        var LIST=[];
-            for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".json(name)");
-                var 地址=baseURL+"/vod/detail/id/"+e2Rex(列表[j],".json(id)")+".html";
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片=e2Rex(列表[j],".json(pic)");
-                var 简介=e2Rex(列表[j],".json(name)");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
+var 标题规则=".get(.title a).t()";
+var 地址规则=".get(.title a).a(href)";
+var 图片规则=".get(a).a(data-original)";
+var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
+}else if(baseURL.indexOf("tvyb02.com")!=-1){
+var URL=baseURL+"/vod/search.html?wd="+KEY+"&submit=";
+var 源码=getHttp(JSON.stringify({url:URL}));
+var 列表=源码.match(/<ul class="myui-vodlist__media clearfix[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
+var 标题规则=".get(.title a).t()";
+var 地址规则=".get(.title a).a(href)";
+var 图片规则=".get(a).a(data-original)";
+var 简介规则=".get(span.tag).t().c().get(div.detail).t()";搜索列表();
 }else if(baseURL.indexOf("siguyy.com")!=-1){
 var URL=baseURL+"/search/-------------.html?wd="+KEY+"&submit=";
-var Req={url:URL};
-var 源码=getHttp(JSON.stringify(Req));
+var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=源码.match(/<ul class="myui-vodlist__media[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
-        var LIST=[];
-            for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".get(.title a).t()");
-                var 地址=baseURL+e2Rex(列表[j],".get(.title a).a(href)");
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
-                var 简介=e2Rex(列表[j],".get(span.pic-text).t().c().get(div.detail).t()");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
-}else if(baseURL.indexOf("xwcys.com")!=-1){
-var URL=baseURL+"/index.php/vod/search.html?wd="+KEY+"&submit=";
-var Req={url:URL};
-var 源码=getHttp(JSON.stringify(Req));
-var 列表=源码.match(/<li class="searchlist_item[\s\S]*?<\/li>/g);
-        var LIST=[];
-        for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".get(.vodlist_title a).ty(</span>).t()");
-                var 地址=baseURL+e2Rex(列表[j],".get(.vodlist_title a).a(href)");
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
-                if(图片.indexOf("http")!=-1){
-                   图片=图片;
-                }else{
-                  图片=URL+图片;
-                }
-                var 简介=e2Rex(列表[j],".get(span.pic_text).t().c(_).get(p.vodlist_sub).st().t()");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
-}else if(baseURL.indexOf("duboku.su")!=-1){
-var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
-var Req={url:URL};
-var 源码=getHttp(JSON.stringify(Req));
-var 列表=源码.match(/<ul class="myui-vodlist__media[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
-        var LIST=[];
-            for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".get(.title a).t()");
-                var 地址=baseURL+e2Rex(列表[j],".get(.title a).a(href)");
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
-                var 简介=e2Rex(列表[j],".get(span.pic-text).t().c().get(div.detail).t()");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
+var 标题规则=".get(.title a).t()";
+var 地址规则=".get(.title a).a(href)";
+var 图片规则=".get(a).a(data-original)";
+var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
 }else if(baseURL.indexOf("jhdyw.vip")!=-1){
-var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
-var Req={url:URL};
-var 源码=getHttp(JSON.stringify(Req));
-var 列表=源码.match(/<ul class="myui-vodlist__media[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
-        var LIST=[];
-            for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".get(.title a).t()");
-                var 地址=baseURL+e2Rex(列表[j],".get(.title a).a(href)");
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片=e2Rex(列表[j],".get(a).a(data-original)");
-                var 简介=e2Rex(列表[j],".get(span.pic-text).t().c().get(div.detail).t()");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
-}else if(baseURL.indexOf("bde4.cc")!=-1){
-var URL=baseURL+"/search/"+KEY;
-var Req={url:URL};
-var 源码=getHttp(JSON.stringify(Req));
-var 列表=源码.match(/<div class="card">[\s\S]*?<\/div>[\s]*?<\/div>[\s]*?<\/div>/g);
-        var LIST=[];
-            for(var j=0;j<列表.length;j++){
-                var 标题=e2Rex(列表[j],".get(a.header).t()");
-                var 地址=baseURL+e2Rex(列表[j],".get(a.header).a(href)");
-                if(地址.indexOf("vodplay")!=-1){
-                   地址=地址.replace("vodplay","voddetail").replace("-1-1.html",".html");
-                }else{
-                   地址=地址;
-                }
-                var 图片=e2Rex(列表[j],".get(a).a(src)");
-                var 简介=e2Rex(列表[j],".get(span).t().c().get(div.description).t()");
-                LIST.push({title:标题,url:地址,img:图片,detail:简介});
-            }
-        var play_={};
-        play_.list=LIST;
-        items.push(play_);
-        res.data=items;
-        JSON.stringify(res);
+var URL=baseURL+"/index.php/vod/search.html?wd="+KEY+"&submit=";
+var 源码=getHttp(JSON.stringify({url:URL}));
+var 列表=源码.match(/<ul class="stui-vodlist clearfix">[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
+var 标题规则=".get(.title a).t()";
+var 地址规则=".get(.title a).a(href)";
+var 图片规则=".get(a).a(data-original)";
+var 简介规则=".t()";搜索列表();
 }
