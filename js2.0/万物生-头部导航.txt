@@ -1,4 +1,4 @@
-if(URL.indexOf("?")!=-1){
+if(getVar("url").indexOf("?")!=-1){
 var URL=e2Rex(getVar("url"),".z2(\\\(http.*?//.*?\\\)/)");
 }else{
 var URL=getVar("url");
