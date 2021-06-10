@@ -1,4 +1,8 @@
+if(URL.indexOf("?")!=-1){
+var URL=e2Rex(getVar("url"),".z2(\\\(http.*?//.*?\\\)/)");
+}else{
 var URL=getVar("url");
+}
 var 标题1=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧"];
 var 地址1=["1","2","3","4","6","7","8","9","10","11","12","13","14","15","16"];
 function 头部导航(){
@@ -37,4 +41,8 @@ var 标题=["电影","电视剧","综艺","动漫"];
 var 地址=["m","tv","va","ct"];var 前="/type/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("jhdyw.vip")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/type/id/";var 后="/page/#PN#.html";头部导航();
+}else if(URL.indexOf("api.php/app")!=-1){
+var 标题=标题1;var 地址=地址1;var 前="video?tid=";var 后="&class=&area=&lang=&year=&pg=#PN#";头部导航();
+}else if(URL.indexOf("api.php/v1.vod")!=-1){
+var 标题=标题1;var 地址=地址1;var 前="?type=";var 后="&class=&area=&lang=&year=&page=#PN#";头部导航();
 }

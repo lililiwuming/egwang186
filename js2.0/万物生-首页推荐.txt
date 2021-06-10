@@ -1,4 +1,8 @@
+if(URL.indexOf("?")!=-1){
+var URL=e2Rex(getVar("url"),".z2(\\\(http.*?//.*?\\\)/)");
+}else{
 var URL=getVar("url");
+}
 function 普通列表(){
 var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
@@ -30,4 +34,10 @@ var 标题规则=".get(.vodlist_title a).t()";var 地址规则=".get(.vodlist_ti
 }else if(URL.indexOf("nfxhd.com")!=-1){
 var 列表=getVar("源码").match(/<li class=".*?col-md-6 col-sm-4 col-xs-3[\s\S]*?<\/li>/g);
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span.tag).t().c().get(span.pic-text).t()";普通列表();
+}else if(URL.indexOf(""api.php/v1.vod)!=-1){
+var 列表=JSON.parse(getVar("源码")).data.list;
+var 标题规则=".json(vod_name)";var 地址规则=".c(detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";普通列表();
+}else if(URL.indexOf(""api.php/app)!=-1){
+var 列表=JSON.parse(getVar("源码")).list;
+var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";普通列表();
 }
