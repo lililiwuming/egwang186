@@ -8,7 +8,7 @@ var baseURL=baseURL.split("video?")[0];
 function 搜索列表(){
 var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
-   if(URL.indexOf("v1.vod")!=-1||URL.indexOf("api.php/app")!=-1){
+   if(baseURL.indexOf("v1.vod")!=-1||baseURL.indexOf("api.php/app")!=-1){
     var CODE=JSON.stringify(列表[j]);
     }else{
     var CODE=列表[j];
