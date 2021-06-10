@@ -1,6 +1,16 @@
 var uu=getVar("url");
-if(uu.indexOf("jx.cqzyw.net:8655/analysis")!=-1){
-var playurl=JSON.parse(getHttp(JSON.stringify({url:uu}))).url;
+if(uu.indexOf("baidu.com")!=-1){
+var playurl=uu.split("wd=")[1];
+JSON.stringify({url:playurl});
+}else if(uu.indexOf("languang.wfss100")!=-1){
+var id=uu.split("url=")[1];
+var uuu="https://j.languang.wfss100.com/jx/md5.php?url="+id;
+var resp=getHttp(JSON.stringify({url:uuu}));
+var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","https://img");
+JSON.stringify({url:playurl});
+}else if(uu.indexOf("=")!=-1){
+var resp=getHttp(JSON.stringify({url:uu}));
+var playurl=JSON.parse(resp).url;
 JSON.stringify({url:playurl});
 }else{
 "web="+uu;
