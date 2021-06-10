@@ -13,11 +13,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/shlogo.png"
 },
 {
-"title":"爱迪影视",
-"url":"https://aidi.tv",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/aidilogo.png"
-},
-{
 "title":"奈飞星影视",
 "url":"https://nfxhd.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nfstarlogo.png"
