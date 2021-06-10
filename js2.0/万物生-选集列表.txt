@@ -133,10 +133,10 @@ var 选集地址规则=".c(https://jx.cqzyw.net:8655/analysis/index/?uid=58&toke
 var 分类=JSON.parse(getVar("源码")).data.vod_url_with_player;
 var 列表规则=/[^"]+?\$.+?[#|"]/g;
 var 选集规则=".z2(\\\(.+?\\\)\$)";
-var 选集地址规则=".z2(\$\\\(.+?\\\)[#|"])";选集列表();
+var 选集地址规则=".z2(\$\\\(.+?\\\)[#|\"])";选集列表();
 }else if(URL.indexOf("v1.vod")!=-1){
 var 分类=JSON.parse(getVar("源码")).data.vod_play_list;
 var 列表规则=/[^"]+?\$.+?[#|"]/g;
 var 选集规则=".z2(\\\(.+?\\\)\$)";
-var 选集地址规则=".z2(\$\\\(.+?\\\)[#|"])";选集列表();
+var 选集地址规则=".z2(\$\\\(.+?\\\)[#|\"])";选集列表();
 }
