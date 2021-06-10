@@ -3,6 +3,7 @@ var NEXTPAGE=Number(getVar("PN"))+1;
 function 单项列表(){
 var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
+    var 列表[j]=JSON.stringify(列表[j]);
     var 标题=e2Rex(列表[j],标题规则);
     var 地址=e2Rex(列表[j],地址规则).indexOf("http")!=-1?e2Rex(列表[j],地址规则):URL+e2Rex(列表[j],地址规则);
     var 图片=e2Rex(列表[j],图片规则).indexOf("http")!=-1?e2Rex(列表[j],图片规则):URL+e2Rex(列表[j],图片规则);
