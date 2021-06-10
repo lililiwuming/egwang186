@@ -62,7 +62,7 @@ if(标题=="xhzy"){
 }else if(标题=="4kdym"){
       选集地址="https://www.baidu.com/s?wd="+decodeURIComponent(选集地址);
 }else if(标题=="789pan"||标题=="pll"){
-      选集地址="http://api.cxitco.cn/api/?key=OnAJKAJKdPHDdFdrR6&url="+选集地址;
+      选集地址="http://jiexi.oocoso.cn/555/?url="+选集地址;
 }else if(标题=="lekanzyw"){
       选集地址="http://player.ojbkjx.com/?url="+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
@@ -75,10 +75,6 @@ if(标题=="xhzy"){
       选集地址="https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url="+选集地址;
 }else if(URL.indexOf('zy.7kjx.com')!=-1){
       选集地址="https://url.js.cn/?url="+选集地址;
-}else if(URL.indexOf('kudian6.com')!=-1){
-     if(标题.indexOf('kdyx')!=-1||标题.indexOf('kdsx')!=-1){
-     选集地址="http://api.kudian6.com/jm/pdplayer.php?url="+选集地址;
-    }
 }else if(URL.indexOf('leduozy')!=-1){
       选集地址="https://api.leduotv.com/wp-api/glid.php?vid="+选集地址;
 }else if(标题.indexOf("rrm3u8")!=-1){
@@ -89,12 +85,6 @@ if(标题=="xhzy"){
       }
 }else if(URL.indexOf("api.yparse.com")!=-1){
       选集地址="https://jx.yparse.com/index.php?url="+选集地址;
-}else if(标题=='ppayun'||标题=='gangtiexia'){
-    if(选集地址.indexOf("http")!=-1){
-        选集地址=选集地址;
-    }else{
-        选集地址="https://wy.mlkioiy.cn/api/ShowVideoWy/3bb24322f78b47dfb8723c13d46d45ee/"+选集地址;
-    }  
 }else if(URL.indexOf("bbkdj")!=-1){
       选集地址="http://jx.yparse.com/index.php?url="+选集地址;
 }else if(标题=='niux'){
