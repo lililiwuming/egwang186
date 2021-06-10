@@ -108,12 +108,12 @@ var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".t()";搜索列表();
-}else if(URL.indexOf("api.php/v1.vod")!=-1){
+}else if(baseURL.indexOf("api.php/v1.vod")!=-1){
 var URL=baseURL+"?page=1&limit=10&wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=JSON.parse(getVar("源码")).data.list;
 var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";搜索列表();
-}else if(URL.indexOf("api.php/app")!=-1){
+}else if(baseURL.indexOf("api.php/app")!=-1){
 var URL=baseURL+"search?pg=1&text="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=JSON.parse(getVar("源码")).list;
