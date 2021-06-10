@@ -9,11 +9,11 @@ function 搜索列表(){
 var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
     if(baseURL.indexOf("api.php/v1.vod")!=-1||baseURL.indexOf("api.php/app")!=-1){
-    var CODE=JSON.stringify(列表[j]);alert(CODE);
+    var CODE=JSON.stringify(列表[j]);
     }else{
     var CODE=列表[j];
     }
-   var 标题=e2Rex(CODE,标题规则);alert(标题);
+   var 标题=e2Rex(CODE,标题规则);
    var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):baseURL+e2Rex(CODE,地址规则);
     var 图片=e2Rex(CODE,图片规则).indexOf("http")!=-1?e2Rex(CODE,图片规则):baseURL+e2Rex(CODE,图片规则);
    var 简介=e2Rex(CODE,简介规则);
