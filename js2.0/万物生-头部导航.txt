@@ -1,4 +1,4 @@
-if(getVar("url").indexOf("v1.vod?")!=-1){
+if(getVar("url").indexOf("v1.vod")!=-1){
 var URL=getVar("url").split("?")[0];
 }else if(getVar("url").indexOf("video?")!=-1){
 var URL=getVar("url").split("video?")[0];
