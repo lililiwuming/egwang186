@@ -68,6 +68,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nanfuzhuijumao.png"
 },
 {
+"title":"大熊追剧",
+"url":"http://www.dxzj88.com/mogai_api.php/v1.vod?type=&class=&area=&lang=&year=&page=1",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/daxiongzhuiju.png"
+},
+{
 "title":"氢视频",
 "url":"http://hmgdxf.com/api.php/app/video?tid=all&class=&area=&lang=&year=&pg=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qingshipin.png"
@@ -76,6 +81,11 @@
 "title":"大师兄影视",
 "url":"https://hou.lu/api.php/app/video?tid=all&class=&area=&lang=&year=&pg=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.webp"
+},
+{
+"title":"追剧达人",
+"url":"http://vipmv.tv/api.php/app/video?tid=all&class=&area=&lang=&year=&pg=1",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuijudaren.png"
 }
 ]
 }
