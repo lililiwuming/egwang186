@@ -1,12 +1,22 @@
 var KEY=getVar("KEY");
 var baseURL=e2Rex(getVar("CODE"),".json(url)");
+if(baseURL.indexOf("v1.vod")!=-1){
+var baseURL=baseURL.split("?")[0];
+}else if(baseURL.indexOf("video?")!=-1){
+var baseURL=baseURL.split("video?")[0];
+}
 function 搜索列表(){
 var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
-   var 标题=e2Rex(列表[j],标题规则);
-   var 地址=e2Rex(列表[j],地址规则).indexOf("http")!=-1?e2Rex(列表[j],地址规则):baseURL+e2Rex(列表[j],地址规则);
-    var 图片=e2Rex(列表[j],图片规则).indexOf("http")!=-1?e2Rex(列表[j],图片规则):baseURL+e2Rex(列表[j],图片规则);
-   var 简介=e2Rex(列表[j],简介规则);
+   if(URL.indexOf("api.php/v1.vod")!=-1||URL.indexOf("api.php/app")!=-1){
+    var CODE=JSON.stringify(列表[j]);
+    }else{
+    var CODE=列表[j];
+    }
+   var 标题=e2Rex(CODE,标题规则);
+   var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):baseURL+e2Rex(列表[j],地址规则);
+    var 图片=e2Rex(CODE,图片规则).indexOf("http")!=-1?e2Rex(CODE,图片规则):baseURL+e2Rex(CODE,图片规则);
+   var 简介=e2Rex(CODE,简介规则);
    LIST.push({title:标题,url:"q:播放器?url="+地址,img:图片,detail:简介});
 }
 var play_={};
@@ -98,4 +108,10 @@ var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".t()";搜索列表();
+}else if(URL.indexOf("api.php/v1.vod")!=-1){
+var 列表=JSON.parse(getVar("源码")).data.list;
+var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";搜索列表();
+}else if(URL.indexOf("api.php/app")!=-1){
+var 列表=JSON.parse(getVar("源码")).list;
+var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";搜索列表();
 }
