@@ -28,6 +28,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jhyslogo.png"
 },
 {
+"title":"TVB云播",
+"url":"http://www.tvyb02.com",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/tvblogo.png"
+},
+{
 "title":"COKEMV影视",
 "url":"https://cokemv.cn",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cokemv.png"
@@ -41,11 +46,6 @@
 "title":"真不卡影视",
 "url":"https://www.zhenbuka2.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zbklogo.png"
-},
-{
-"title":"TVB云播",
-"url":"http://www.tvyb02.com",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/tvblogo.png"
 }
 ]
 },
