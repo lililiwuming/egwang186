@@ -23,9 +23,9 @@ for(var i=0;i<分类.length;i++){
     }
     if(URL.indexOf("v1.vod")!=-1){
             if(e2Rex(分类CODE,".json(player_info).json(parse2)").indexOf("=")!=-1){
-            var 接口="http:"+e2Rex(分类CODE,".json(player_info).json(parse2)").match(/\/\/.*?url=/)[0].replace("..",".");
+            var 接口="http:"+e2Rex(分类CODE,".json(player_info).json(parse2)").match(/\/\/.*?=/)[0].replace("..",".");
             }else if(e2Rex(分类CODE,".json(player_info).json(parse)").indexOf("=")!=-1){
-            var 接口="http:"+e2Rex(分类CODE,".json(player_info).json(parse)").match(/\/\/.*?url=/)[0].replace("..",".");
+            var 接口="http:"+e2Rex(分类CODE,".json(player_info).json(parse)").match(/\/\/.*?=/)[0].replace("..",".");
             }else{
             var 接口="";
             }
