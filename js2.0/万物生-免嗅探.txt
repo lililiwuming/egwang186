@@ -18,6 +18,7 @@ JSON.stringify({url:playurl});
 "web="+uu;
 }
 }catch(e){
+alert(e);
 var uuu="http://egwang186.gitee.io/?url="+uu.split("=")[-1];
 "web="+uuu;
 }
