@@ -111,11 +111,11 @@ var 简介规则=".t()";搜索列表();
 }else if(baseURL.indexOf("v1.vod")!=-1){
 var URL=baseURL+"?page=1&limit=10&wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=JSON.parse(源码).data.list;
+var 列表=JSON.parse(源码.replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.list;
 var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";搜索列表();
 }else if(baseURL.indexOf("api.php/app")!=-1){
 var URL=baseURL+"search?pg=1&text="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=JSON.parse(源码).list;
+var 列表=JSON.parse(源码.replace(/<.*?>/g,"").replace(/[\s]*/g,"")).list;
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";搜索列表();
 }

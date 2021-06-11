@@ -44,9 +44,9 @@ var 标题规则=".get(.vodlist_title a).t()";var 地址规则=".get(.vodlist_ti
 var 列表=getVar("源码").match(/<li class=".*?col-md-6 col-sm-4 col-xs-3[\s\S]*?<\/li>/g);
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span.tag).t().c().get(span.pic-text).t()";单项列表();
 }else if(URL.indexOf("api.php/v1.vod")!=-1){
-var 列表=JSON.parse(getVar("源码")).data.list;
+var 列表=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.list;
 var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";单项列表();
 }else if(URL.indexOf("api.php/app")!=-1){
-var 列表=JSON.parse(getVar("源码")).list;
+var 列表=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).list;
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";单项列表();
 }
