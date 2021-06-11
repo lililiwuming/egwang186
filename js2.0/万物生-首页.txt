@@ -68,6 +68,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/daxiongzhuiju.png"
 },
 {
+"title":"80影视",
+"url":"http://www.ccc8.net/api.php/v1.vod?type=&class=&area=&lang=&year=&page=1",
+"img":""
+},
+{
 "title":"氢视频",
 "url":"http://hmgdxf.com/api.php/app/video?tid=all&class=&area=&lang=&year=&pg=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qingshipin.png"
