@@ -9,9 +9,18 @@ var resp=getHttp(JSON.stringify({url:uuu}));
 var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","https://img");
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("=")!=-1){
+if(getHttp(JSON.stringify({url:uu}))){
 var resp=getHttp(JSON.stringify({url:uu}));
+if(JSON.parse(resp)){
 var playurl=JSON.parse(resp).url;
 JSON.stringify({url:playurl});
+}else{
+"web="+uu;
+}
+}else{
+var uuu="http://egwang186.gitee.io/?url="+uu.split("=")[-1];
+"web="+uuu;
+}
 }else{
 "web="+uu;
 }
