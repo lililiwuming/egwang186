@@ -54,7 +54,7 @@
 "list":[
 {
 "title":"HG影视",
-"url":"http://cs.hgyx.vip/api.php/v1.vod?type=1,2,3,4&class=&area=&lang=&year=&page=1",
+"url":"http://cs.hgyx.vip/api.php/v1.vod?type=&class=&area=&lang=&year=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/HGyingshi.png"
 },
 {
