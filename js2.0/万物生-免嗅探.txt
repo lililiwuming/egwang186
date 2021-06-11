@@ -10,11 +10,12 @@ var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","ht
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("=")!=-1){
 try{
-return getHttp(JSON.stringify({url:uu}));
+getHttp(JSON.stringify({url:uu}));
 }catch(e){
 var uuu="http://egwang186.gitee.io/?url="+uu.split("=")[-1];
 "web="+uuu;
 }
+var resp=getHttp(JSON.stringify({url:uu}));
 if(JSON.parse(resp)){
 var playurl=JSON.parse(resp).url;
 JSON.stringify({url:playurl});
