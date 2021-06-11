@@ -15,7 +15,7 @@ var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","ht
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("=")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
-if(JSON.parse(resp)){
+if(JSON.parse(resp).url){
 var playurl=JSON.parse(resp).url;
 JSON.stringify({url:playurl});
 }else{
