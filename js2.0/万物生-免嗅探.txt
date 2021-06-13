@@ -19,11 +19,7 @@ if(e2Rex(resp,".json(url)")){
 var playurl=JSON.parse(resp).url;
 JSON.stringify({url:playurl});
 }else{
-var id=uu.split("url=")[1];
-var uuu="http://api.cxitco.cn/api/?key=930ys99g2M1crzLh7P&url="+id;
-var resp2=getHttp(JSON.stringify({url:uuu}));
-var playurl=JSON.parse(resp2).url;
-JSON.stringify({url:playurl});
+"web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }
 }else{
 "web="+uu;
