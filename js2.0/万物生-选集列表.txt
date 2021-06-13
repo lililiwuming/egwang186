@@ -22,10 +22,10 @@ for(var i=0;i<分类.length;i++){
     var 标题=e2Rex(分类CODE,".json(name)");
     }
     if(URL.indexOf("v1.vod")!=-1){
-            if(e2Rex(分类CODE,".json(player_info).json(parse)").indexOf("=")!=-1){
-            var 接口="http:"+e2Rex(分类CODE,".json(player_info).json(parse)").match(/\/\/[^,]*=/)[0].replace("..",".");
-            }else if(e2Rex(分类CODE,".json(player_info).json(parse2)").indexOf("=")!=-1){
-            var 接口="http:"+e2Rex(分类CODE,".json(player_info).json(parse2)").match(/\/\/[^,]*=/)[0].replace("..",".");
+            if(e2Rex(分类CODE,".json(player_info).json(parse2)").indexOf("=")!=-1){
+            var 接口="http:"+e2Rex(分类CODE,".json(player_info).json(parse2)").match(/\/\/[^,]*?url=/)[0].replace("..",".");
+            }else if(e2Rex(分类CODE,".json(player_info).json(parse)").indexOf("=")!=-1){
+            var 接口="http:"+e2Rex(分类CODE,".json(player_info).json(parse)").match(/\/\/[^,]*?url=/)[0].replace("..",".");
             }else{
             var 接口="";
             }
@@ -135,11 +135,13 @@ var 选集规则=".get(a.copy_text).t().tz($)";
 var 选集地址规则=".c(https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url=).get(a.copy_text).t().ty($)";选集列表();
 }else if(URL.indexOf("api.php/app/")!=-1){
 var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_url_with_player;
+var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_content;
 var 列表规则=/[^"]+?\$.+?[#|"]/g;
 var 选集规则=".z2(\\\(.+?\\\)\\$)";
 var 选集地址规则=".z2(\\$\\\(.+?\\\)[#|\"])";选集列表();
 }else if(URL.indexOf("v1.vod")!=-1){
 var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_play_list;
+var 简介=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_content;
 var 列表规则=/[^"]+?\$.+?[#|"]/g;
 var 选集规则=".z2(\\\(.+?\\\)\\$)";
 var 选集地址规则=".z2(\\$\\\(.+?\\\)[#|\"])";选集列表();
