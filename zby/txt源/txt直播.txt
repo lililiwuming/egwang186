@@ -20,7 +20,7 @@ MV歌曲,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt�
 国外成人台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/国外成人台.txt
 #
 #HSTV
-安博-台湾18,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/安博/安博-台湾18.txt
+安博-台湾18https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/安博/安博-台湾18.txt
 安博-电影频道,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/安博/安博-电影频道.txt
 安博-记录频道,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/安博/安博-记录频道.txt
 安博-少儿教育,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/安博/安博-少儿教育.txt
