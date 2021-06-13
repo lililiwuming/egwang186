@@ -73,6 +73,16 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/taojushe.png"
 },
 {
+"title":"优炫影视",
+"url":"http://yuntv.iyxtv.cn/mogai_api.php/v1.vod?type=&class=&area=&lang=&year=&page=1",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/youxuanyingshi.png"
+},
+{
+"title":"追剧吧影视",
+"url":"http://iapp.zhuiju8.vip/api.php/v1.vod?type=&class=&area=&lang=&year=&page=1",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuiju8.png"
+},
+{
 "title":"氢视频",
 "url":"http://hmgdxf.com/api.php/app/video?tid=all&class=&area=&lang=&year=&pg=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qingshipin.png"
