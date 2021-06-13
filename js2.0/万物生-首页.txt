@@ -53,11 +53,6 @@
 "title":"APP类",
 "list":[
 {
-"title":"九合视频",
-"url":"https://ptygx.com/api.php/v1.vod?type=&class=&area=&lang=&year=&page=1",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jiuheshipin.png"
-},
-{
 "title":"南府追剧猫",
 "url":"http://app.xkvideo.design/api.php/v1.vod?type=&class=&area=&lang=&year=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nanfuzhuijumao.png"
@@ -81,6 +76,11 @@
 "title":"追剧达人",
 "url":"http://vipmv.tv/api.php/app/video?tid=all&class=&area=&lang=&year=&pg=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuijudaren.png"
+},
+{
+"title":"九合视频",
+"url":"https://ptygx.com/api.php/app/video?tid=all&class=&area=&lang=&year=&pg=1",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jiuheshipin.png"
 }
 ]
 }
