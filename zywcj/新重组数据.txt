@@ -91,7 +91,7 @@ if(标题=="xhzy"){
       选集地址="https://www.juztv.com/jx.php?id="+选集地址;
 }else if(标题=='hkm3u8'){
       选集地址="https://pl.tcc-interiors.com/hls/"+选集地址;
-}else if(标题=='hd720'||标题=='m3yun'){
+}else if(标题=='SS'||标题=='hd720'||标题=='m3yun'){
       选集地址="https://www.baidu.com/s?wd="+选集地址;
 }
 //结束判断
