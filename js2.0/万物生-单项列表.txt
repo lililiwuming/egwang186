@@ -29,7 +29,7 @@ return JSON.stringify(res);
 }
 if(URL.indexOf("cokemv.cn")!=-1||URL.indexOf("siguyy.com")!=-1||URL.indexOf("tvyb02.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("zhenbuka2.com")!=-1||URL.indexOf("bukaivip.com")!=-1){
 var 列表=getVar("源码").match(/<li class=".*?col-md-\d col-sm-4 col-xs-3[\s\S]*?<\/li>/g);
-var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span.pic-text).t()";
+var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";
 单项列表();
 }else if(URL.indexOf("jhdyw.vip")!=-1){
 var 列表=getVar("源码").match(/<li class="clearfix">[\s\S]*?<\/li>/g);
