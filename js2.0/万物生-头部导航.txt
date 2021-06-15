@@ -21,7 +21,7 @@ var 标题=["电影","电视剧","综艺","动漫","抖音电影","大陆剧","�
 var 地址=["1","2","3","4","5","13","14","15","16"];var 前="/vodtype/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("jpysvip.net")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#.html";头部导航();
-}else if(URL.indexOf("bukaivip.com")!=-1){
+}else if(URL.indexOf("bukaivip.com")!=-1||URL.indexOf("flvwec.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("zhenbuka2.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#/";头部导航();
