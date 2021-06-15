@@ -1,12 +1,14 @@
-if(getVar("url").indexOf("v1.vod")!=-1){
-var URL=getVar("url").split("?")[0];
-}else if(getVar("url").indexOf("video?")!=-1){
-var URL=getVar("url").split("video?")[0];
+if(getVar("url").indexOf("v1.vod/vodPhbAll")!=-1){
+var URL=getVar("url").split("/vodPhbAll")[0];
+}else if(getVar("url").indexOf("api.php/app/index_video")!=-1){
+var URL=getVar("url").split("index_video?token=")[0];
 }else{
 var URL=getVar("url");
 }
 var 标题1=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧"];
 var 地址1=["1","2","3","4","6","7","8","9","10","11","12","13","14","15","16"];
+var 标题2=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","大陆剧","香港剧","台湾剧","日本剧","韩国剧","美国剧"];
+var 地址2=["1&class=&area=&lang=&year=","2&class=&area=&lang=&year=","3&class=&area=&lang=&year=","4&class=&area=&lang=&year=","1&class=动作&area=&lang=&year=","1&class=喜剧&area=&lang=&year=","1&class=爱情&area=&lang=&year=","1&class=科幻&area=&lang=&year=","1&class=恐怖&area=&lang=&year=","1&class=剧情&area=&lang=&year=","1&class=战争&area=&lang=&year=","2&class=&area=大陆&lang=&year=","2&class=&area=香港&lang=&year=","2&class=&area=台湾&lang=&year=","2&class=&area=日本&lang=&year=","2&class=&area=韩国&lang=&year=","2&class=&area=美国&lang=&year="];
 function 头部导航(){
 var res={};var items=[];
 for(var j=0;j<标题.length;j++){
@@ -44,10 +46,7 @@ var 地址=["m","tv","va","ct"];var 前="/type/";var 后="-#PN#.html";头部导�
 }else if(URL.indexOf("jhdyw.vip")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/type/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("api.php/app")!=-1){
-var 标题=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","大陆剧","香港剧","台湾剧","日本剧","韩国剧","美国剧"];
-var 地址=["1&class=&area=&lang=&year=","2&class=&area=&lang=&year=","3&class=&area=&lang=&year=","4&class=&area=&lang=&year=","1&class=动作&area=&lang=&year=","1&class=喜剧&area=&lang=&year=","1&class=爱情&area=&lang=&year=","1&class=科幻&area=&lang=&year=","1&class=恐怖&area=&lang=&year=","1&class=剧情&area=&lang=&year=","1&class=战争&area=&lang=&year=","2&class=&area=大陆&lang=&year=","2&class=&area=香港&lang=&year=","2&class=&area=台湾&lang=&year=","2&class=&area=日本&lang=&year=","2&class=&area=韩国&lang=&year=","2&class=&area=美国&lang=&year="];
-var 前="video?tid=";var 后="&pg=#PN#";头部导航();
+var 标题=标题2;var 地址=地址2;var 前="video?tid=";var 后="&pg=#PN#";头部导航();
 }else if(URL.indexOf("api.php/v1.vod")!=-1){
-var 标题=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","大陆剧","香港剧","台湾剧","日本剧","韩国剧","美国剧"];
-var 地址=["1&class=&area=&lang=&year=","2&class=&area=&lang=&year=","3&class=&area=&lang=&year=","4&class=&area=&lang=&year=","1&class=动作&area=&lang=&year=","1&class=喜剧&area=&lang=&year=","1&class=爱情&area=&lang=&year=","1&class=科幻&area=&lang=&year=","1&class=恐怖&area=&lang=&year=","1&class=剧情&area=&lang=&year=","1&class=战争&area=&lang=&year=","2&class=&area=大陆&lang=&year=","2&class=&area=香港&lang=&year=","2&class=&area=台湾&lang=&year=","2&class=&area=日本&lang=&year=","2&class=&area=韩国&lang=&year=","2&class=&area=美国&lang=&year="];var 前="?type=";var 后="&page=#PN#";头部导航();
+var 标题=标题2;var 地址=地址2;var 前="?type=";var 后="&page=#PN#";头部导航();
 }
