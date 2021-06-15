@@ -1,9 +1,9 @@
 var KEY=getVar("KEY");
 var baseURL=e2Rex(getVar("CODE"),".json(url)");
-if(baseURL.indexOf("v1.vod")!=-1){
-var baseURL=baseURL.split("?")[0];
-}else if(baseURL.indexOf("app/video?")!=-1){
-var baseURL=baseURL.split("video?")[0];
+if(baseURL.indexOf("v1.vod/vodPhbAll")!=-1){
+var baseURL=baseURL.split("/vodPhbAll")[0];
+}else if(baseURL.indexOf("app/index_video")!=-1){
+var baseURL=baseURL.split("index_video")[0];
 }
 function 搜索列表(){
 var res={};var items=[];var LIST=[];
