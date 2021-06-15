@@ -8,11 +8,7 @@ var URL=getVar("url");
 function 普通列表(){
 var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
-    if(URL.indexOf("api.php/v1.vod")!=-1||URL.indexOf("api.php/app")!=-1){
-    var CODE=JSON.stringify(列表[j]);
-    }else{
     var CODE=列表[j];
-    }
     var 标题=e2Rex(CODE,标题规则);
     var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):URL+e2Rex(CODE,地址规则);
     var 图片=e2Rex(CODE,图片规则).indexOf("http")!=-1?e2Rex(CODE,图片规则):URL+e2Rex(CODE,图片规则);
