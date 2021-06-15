@@ -1,7 +1,7 @@
-if(getVar("url").indexOf("v1.vod")!=-1){
-var URL=getVar("url").split("?")[0];
-}else if(getVar("url").indexOf("video?")!=-1){
-var URL=getVar("url").split("video?")[0];
+if(getVar("url").indexOf("v1.vod/vodPhbAll")!=-1){
+var URL=getVar("url").split("/vodPhbAll")[0];
+}else if(getVar("url").indexOf("app/index_video")!=-1){
+var URL=getVar("url").split("index_video")[0];
 }else{
 var URL=getVar("url");
 }
