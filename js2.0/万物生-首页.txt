@@ -38,6 +38,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/flvweb.png"
 },
 {
+"title":"七夕影视",
+"url":"https://ys.80tvs.cn",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qixi.png"
+},
+{
 "title":"COKEMV影视",
 "url":"https://cokemv.cn",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cokemv.png"

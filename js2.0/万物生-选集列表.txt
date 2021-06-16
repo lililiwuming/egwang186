@@ -133,6 +133,23 @@ var 列表规则=/<li[\s\S]*?<\/li>/g;
 var 标题规则=".get(h3).t()";
 var 选集规则=".get(a.copy_text).t().tz($)";
 var 选集地址规则=".c(https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url=).get(a.copy_text).t().ty($)";选集列表();
+}else if(URL.indexOf("ys.80tvs.cn")!=-1){
+if(URL.indexOf("index.php")!=-1){
+var 分类=getVar("源码").match(/<ul class="content_playlist[\s\S]*?\/ul>/g);
+var 线路=getVar("源码").match(/<a class="channelname[\s\S]*?\/a>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.desc_txt).t()");
+var 列表规则=/<li[\s\S]*?<\/li>/g;
+var 标题规则=".get(a).t()";
+var 选集规则=".get(a).t()";
+var 选集地址规则=".get(a).a(href)";选集列表();
+}else{
+var 分类=getVar("源码").match(/<iframe id="video"[\s\S]*?\/iframe>/g);
+var 简介=e2Rex(getVar("源码"),".get(div.desc_txt).t()");
+var 列表规则=/<iframe[\s\S]*?<\/iframe>/g;
+var 标题规则=".a(id)";
+var 选集规则=".a(src)";
+var 选集地址规则=".a(src)";选集列表();
+}
 }else if(URL.indexOf("api.php/app/")!=-1){
 var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_url_with_player;
 var 简介=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_content;
