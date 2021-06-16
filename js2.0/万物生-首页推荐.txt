@@ -38,7 +38,7 @@ var 标题规则=".get(.vodlist_title a).t()";var 地址规则=".get(.vodlist_ti
 var 列表=getVar("源码").match(/<li class=".*?col-md-6 col-sm-4 col-xs-3[\s\S]*?<\/li>/g);
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span.tag).t().c().get(span.pic-text).t()";普通列表();
 }else if(URL.indexOf("ys.80tvs.cn")!=-1){
-var 列表=e2Arr(getVar("源码"),".get(div[class~=pack-ykpack h.*])");
+var 列表=e2Arr(getVar("源码"),".get(li.list-width)");
 var 标题规则=".get(a.vodname).t()";var 地址规则=".get(a.vodname).a(href)";var 图片规则=".get(div.bj).a(data-original)";var 简介规则=".get(span).st().t().c().get(div.pack-subtitle).t()";普通列表();
 }else if(URL.indexOf("api.php/v1.vod")!=-1){
 var 列表=getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"").match(/\{"vod_id".*?"type_1".*?\}/g);
