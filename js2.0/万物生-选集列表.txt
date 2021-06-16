@@ -16,10 +16,8 @@ for(var i=0;i<分类.length;i++){
     var 列表=分类CODE.match(列表规则);
     if(线路){
     var 标题=e2Rex(线路[i],标题规则);
-    }else if(URL.indexOf("v1.vod")!=-1){
-    var 标题=e2Rex(分类CODE,".json(player_info).json(show)");
-    }else if(URL.indexOf("api.php/app/")!=-1){
-    var 标题=e2Rex(分类CODE,".json(name)");
+    }else{
+    var 标题=e2Rex(分类CODE,标题规则);
     }
     if(URL.indexOf("v1.vod")!=-1){
             if(e2Rex(分类CODE,".json(player_info).json(parse)").indexOf("=")!=-1){
@@ -144,12 +142,14 @@ var 选集地址规则=".get(a).a(href)";选集列表();
 var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_url_with_player;
 var 简介=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_content;
 var 列表规则=/[^"]+?\$.+?[#|"]/g;
+var 标题规则=".json(name)";
 var 选集规则=".z2(\\\(.+?\\\)\\$)";
 var 选集地址规则=".z2(\\$\\\(.+?\\\)[#|\"])";选集列表();
 }else if(URL.indexOf("v1.vod")!=-1){
 var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_play_list;
 var 简介=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_content;
 var 列表规则=/[^"]+?\$.+?[#|"]/g;
+var 标题规则=".json(player_info).json(show)";
 var 选集规则=".z2(\\\(.+?\\\)\\$)";
 var 选集地址规则=".z2(\\$\\\(.+?\\\)[#|\"])";选集列表();
 }
