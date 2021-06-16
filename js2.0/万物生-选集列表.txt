@@ -135,7 +135,7 @@ var 选集地址规则=".c(https://jx.cqzyw.net:8655/analysis/index/?uid=58&toke
 var 分类=e2Arr(getVar("源码"),".get(div.play_list_box)");
 var 简介=e2Rex(getVar("源码"),".get(div.detail-a.box).t()");
 var 列表规则=/<li[\s\S]*?<\/li>/g;
-var 标题规则=".get(div.box.player_infotip).t()";
+var 标题规则=".get(div.box.player_infotip).t().th(&.*?;##)";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("api.php/app/")!=-1){
