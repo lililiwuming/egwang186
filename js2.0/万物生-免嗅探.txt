@@ -19,6 +19,7 @@ var uuu="http://jiexi.oocoso.cn/555/?url="+id;
 "web="+uuu;
 }else if(uu.indexOf("url=")!=-1||uu.indexOf("v=")!=-1){
 var resp=JZ(JSON.stringify({url:uu}));
+alert(e2Rex(resp.code,".json(url)"));
 if(resp.code.indexOf("<html")!=-1){
 "web="+uu;
 }else{
@@ -26,7 +27,6 @@ if(e2Rex(resp.code,".json(url)")){
 var playurl=JSON.parse(resp.code).url;
 JSON.stringify({url:playurl});
 }else{
-alert(e2Rex(resp.code,".json(url)"));
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }
 }
