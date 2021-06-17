@@ -26,6 +26,7 @@ if(e2Rex(resp.code,".json(url)")){
 var playurl=JSON.parse(resp.code).url;
 JSON.stringify({url:playurl});
 }else{
+alert(e2Rex(resp.code,".json(url)"));
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }
 }
