@@ -34,7 +34,7 @@
 },
 {
 "title":"电影淘淘",
-"url":"http://flvwec.com",
+"url":"http://flvweb.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/flvweb.png"
 },
 {
