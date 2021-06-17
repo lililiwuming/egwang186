@@ -94,7 +94,7 @@
 },
 {
 "title":"氢视频",
-"url":"http://hmgdxf.com/api.php/app/index_video?token=",
+"url":"https://hmgdxf.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qingshipin.png"
 },
 {
@@ -106,6 +106,11 @@
 "title":"追剧达人",
 "url":"http://vipmv.tv/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuijudaren.png"
+},
+{
+"title":"影视工场",
+"url":"https://www.ik4.cc/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yingshigongchang.png"
 },
 {
 "title":"九合视频",

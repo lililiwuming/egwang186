@@ -63,7 +63,7 @@ JSON.stringify({data:[{list:[{title:"搜索验证，点击跳转网页",url:"q:#
 }else if(baseURL.indexOf("ys.80tvs.cn")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=e2Arr(源码,".get(ul list-width)");
+var 列表=e2Arr(源码,".get(ul li.list-width)");
 var 标题规则=".get(a.searchkey).t()";
 var 地址规则=".get(a.searchkey).a(href)";
 var 图片规则=".get(a).a(data-original)";
