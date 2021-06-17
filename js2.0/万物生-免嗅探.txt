@@ -13,17 +13,16 @@ var uuu="https://j.languang.wfss100.com/jx/md5.php?url="+id;
 var resp=getHttp(JSON.stringify({url:uuu}));
 var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","https://img");
 JSON.stringify({url:playurl});
-}else if(uu.indexOf("789pan.hd8.pw")!=-1){
+}else if(uu.indexOf("789pan.hd8.pw")!=-1||uu.indexOf("api.parwix")!=-1){
 var id=uu.split("url=")[1];
 var uuu="http://jiexi.oocoso.cn/555/?url="+id;
 "web="+uuu;
 }else if(uu.indexOf("url=")!=-1||uu.indexOf("v=")!=-1){
 var resp=JZ(JSON.stringify({url:uu}));
-alert(e2Rex(resp.code,".json(url)"));
 if(resp.code.indexOf("<html")!=-1){
 "web="+uu;
 }else{
-if(e2Rex(resp.code,".json(url)")){
+if(resp.code.indexOf("url")!=-1){
 var playurl=JSON.parse(resp.code).url;
 JSON.stringify({url:playurl});
 }else{
