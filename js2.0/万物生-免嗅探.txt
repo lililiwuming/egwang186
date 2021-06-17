@@ -22,7 +22,7 @@ var resp=JZ(JSON.stringify({url:uu}));
 if(resp.code.indexOf("<html")!=-1){
 "web="+uu;
 }else{
-if(resp.code.indexOf("url")!=-1){
+if(resp.code.length>1){
 var playurl=JSON.parse(resp.code).url;
 JSON.stringify({url:playurl});
 }else{
