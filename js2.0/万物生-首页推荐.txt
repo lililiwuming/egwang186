@@ -2,6 +2,8 @@ if(getVar("url").indexOf("v1.vod/vodPhbAll")!=-1){
 var URL=getVar("url").split("/vodPhbAll")[0];
 }else if(getVar("url").indexOf("app/index_video")!=-1){
 var URL=getVar("url").split("index_video")[0];
+}else if(getVar("url").indexOf("api.php/iptv/vod/")!=-1){
+var URL=getVar("url").split("?ac=list")[0];
 }else{
 var URL=getVar("url");
 }
@@ -46,4 +48,7 @@ var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vo
 }else if(URL.indexOf("api.php/app")!=-1){
 var 列表=getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"").match(/\{"vod_id".*?\}/g);
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";普通列表();
+}else if(URL.indexOf("api.php/iptv/vod")!=-1){
+var 列表=e2Arr(getVar("源码"),".json(data)");
+var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";普通列表();
 }
