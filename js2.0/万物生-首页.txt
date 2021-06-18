@@ -68,14 +68,9 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/HGyingshi.png"
 },
 {
-"title":"瞄乐影视",
+"title":"喵乐影视",
 "url":"http://miaoletv.com/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/miaoletv.png"
-},
-{
-"title":"追影兔",
-"url":"http://longw.xyz:91/api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuiyingtu.png"
 },
 {
 "title":"南府追剧猫",
