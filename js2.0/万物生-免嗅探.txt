@@ -22,8 +22,6 @@ if(uu.indexOf("&down=200")!=-1){
 var uu=uu.replace("&down=200","");
 }
 var resp=JZ(JSON.stringify({url:uu}));
-alert(JSON.parse(resp.code).url);
-alert(e2Rex(resp.code,".json(url)"));
 if(resp.code.indexOf("<html")!=-1){
 if(resp.code.search(/<iframe.*?src="[^"]*?http.*?"/)!=-1||resp.code.search(/<video.*?src="[^"]*?http.*?"/)!=-1){
 "web="+uu;
@@ -31,7 +29,7 @@ if(resp.code.search(/<iframe.*?src="[^"]*?http.*?"/)!=-1||resp.code.search(/<vid
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }
 }else{
-if(JSON.parse(resp.code).url){
+if(e2Rex(resp.code,".json(url)").length>1){
 var playurl=JSON.parse(resp.code).url;
 JSON.stringify({url:playurl});
 }else{
