@@ -20,7 +20,7 @@ var uuu="http://jiexi.oocoso.cn/555/?url="+id;
 }else if(uu.indexOf("url=")!=-1||uu.indexOf("v=")!=-1){
 var resp=JZ(JSON.stringify({url:uu}));
 if(resp.code.indexOf("#EXTM3U")!=-1){
-JSON.stringify({url:uu});
+JSON.stringify({url:uu+"&type=.mp4"});
 }else if(resp.code.indexOf("<html")!=-1){
 if(resp.code.search(/<iframe.*?src="[^"]*?http.*?"/)!=-1||resp.code.search(/<video.*?src="[^"]*?http.*?"/)!=-1){
 "web="+uu;
