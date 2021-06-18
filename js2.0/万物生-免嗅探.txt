@@ -18,12 +18,11 @@ var id=uu.split("url=")[1];
 var uuu="http://jiexi.oocoso.cn/555/?url="+id;
 "web="+uuu;
 }else if(uu.indexOf("url=")!=-1||uu.indexOf("v=")!=-1){
-var resp=JZ(JSON.stringify({url:uu}));
 if(uu.indexOf("&down=200")!=-1){
-JSON.stringify({url:uu.replace("&down=200","")});
-}else if(resp.code.indexOf("#EXTM3U")!=-1){
-JSON.stringify({url:uu});
-}else if(resp.code.indexOf("<html")!=-1){
+var uu=uu.replace("&down=200","");
+}
+var resp=JZ(JSON.stringify({url:uu}));
+if(resp.code.indexOf("<html")!=-1){
 if(resp.code.search(/<iframe.*?src="[^"]*?http.*?"/)!=-1||resp.code.search(/<video.*?src="[^"]*?http.*?"/)!=-1){
 "web="+uu;
 }else{
