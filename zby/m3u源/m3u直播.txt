@@ -3,9 +3,9 @@ AdultIptv,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u
 红灯区,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/redtraffic.m3u8
 EDEM-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/EDEM-ADULT.txt
 SVRHOST-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/SVRHOST-ADULT.txt
-XPRIME-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/XPRIME-ADULT.txt
-CORESYS-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/CORESYS-ADULT.txt
-Gooserace-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/Gooserace-ADULT.txt
+XPRIME-ADULThttps://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/XPRIME-ADULT.txt
+CORESYS-ADULThttps://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/CORESYS-ADULT.txt
+Gooserace-ADULThttps://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/Gooserace-ADULT.txt
 KY-TV-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/KY-TV.txt
 MyServerDns-ADULThttps://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/MyServerDns.txt
 QQTV-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/QQTV-ADULT.txt

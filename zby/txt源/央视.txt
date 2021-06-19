@@ -1,3 +1,4 @@
+CCTV4K超高清,http://117.148.179.160/PLTV/88888888/224/3221231976/index.m3u8
 CCTV1 综合,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226226/index.m3u8#http://183.207.255.190/live/program/live/cctv1hd/4000000/mnf.m3u8#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226231/1.m3u8#http://121.31.30.91:8085/ysten-business/live/cctv-1/1.m3u8#http://scgctvshow.sctv.com/hdlive/cctv1/1.m3u8#rtmp://58.200.131.2:1935/livetv/cctv1hd
 CCTV2 财经,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226230/index.m3u8#rtsp://183.252.176.54:554/PLTV/88888888/224/3221226655/40417429.smil#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226195/1.m3u8#http://121.31.30.87:8085/ysten-business/live/cctv-2/1.m3u8#rtmp://58.200.131.2:1935/livetv/cctv2hd
 CCTV3 综艺,http://183.207.255.190/live/program/live/cctv3hd/4000000/mnf.m3u8#http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226471/index.m3u8#http://111.63.117.13:6060/030000001000/CCTV-3/CCTV-3.m3u8#http://121.31.30.91:8085/ysten-business/live/cctv-3/1.m3u8
@@ -21,7 +22,6 @@ CCTV·老故事台,http://183.207.248.71/gitv/live1/G_LAOGUSHI/G_LAOGUSHI#http:/
 CCTV·新科动漫,http://cctvtxyh5ca.liveplay.myqcloud.com/live/xinkedongman_2/index.m3u8
 CCTV·发现之旅,http://39.134.24.202/PLTV/88888888/224/3221225879/index.m3u8#http://183.207.248.71/gitv/live1/G_FAXIANZL/G_FAXIANZL#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226235/1.m3u8
 CETV·教育一台,http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226494/index.m3u8#http://39.130.215.168:6610/gitv_live/G_CETV-1-HD/G_CETV-1-HD.m3u8#http://39.134.39.38/PLTV/88888888/224/3221226282/index.m3u8#http://39.135.138.6:6610/PLTV/88888888/224/3221225917/2/index.m3u8?fmt=ts2hls#rtmp://58.200.131.2:1935/livetv/cetv1hd
-CCTV·4K超高清,http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229683/index.m3u8
 CCTV·怀旧剧场,rtmp://58.200.131.2:1935/livetv/hjjctv
 CCTV·第一剧场,rtmp://58.200.131.2:1935/livetv/dyjctv
 CCTV·风云足球,rtmp://58.200.131.2:1935/livetv/fyzqtv
