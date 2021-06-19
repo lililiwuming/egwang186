@@ -61,7 +61,7 @@ res.data=items;
 res.desc=detail;
 return JSON.stringify(res);
 }
-if(URL.indexOf("cokemv.cn")!=-1){
+if(URL.indexOf("cokemv.cn")!=-1||URL.indexOf("9ehao.com")!=-1){
 var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
 var 线路=getVar("源码").match(/<ul class="nav nav-tabs[\s\S]*?\/ul>/)[0].match(/<li.*?><a href=".*?\/a><\/li>/g);
 var 简介=e2Rex(getVar("源码"),".get(div.col-pd.text-collapse.content).t()");

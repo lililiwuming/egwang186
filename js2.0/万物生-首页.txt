@@ -23,6 +23,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/sigulogo.webp"
 },
 {
+"title":"9亿看看",
+"url":"https://www.9ehao.com",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/9ehao.png"
+},
+{
 "title":"江湖阿里云",
 "url":"http://jhyun.jhdyw.vip:8090",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jhyslogo.png"
