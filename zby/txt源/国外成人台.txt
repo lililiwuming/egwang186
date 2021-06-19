@@ -1,5 +1,7 @@
 松視1,rtmp://161.202.204.248:1935/tv/ttv11
 HAPPY,rtmp://161.202.204.248:1935/tv/ttv12
+Barely Legal TV,http://37.235.199.92:4022/udp/225.50.70.4:1234?type=.mp4
+Free X TV,http://37.235.199.92:4022/udp/225.50.70.5:1234?type=.mp4
 EXTASY HD/LEO TV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
 Super One HD,http://185.96.176.139:8080/superone/index.m3u8
 Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.mp4

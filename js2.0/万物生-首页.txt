@@ -13,9 +13,9 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/shlogo.png"
 },
 {
-"title":"奈飞星影视",
-"url":"https://nfxhd.com",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nfstarlogo.png"
+"title":"闪电影视",
+"url":"https://www.ak1080.com",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ak1080.png"
 },
 {
 "title":"思古影视",
