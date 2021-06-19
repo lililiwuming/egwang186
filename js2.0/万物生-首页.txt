@@ -128,6 +128,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yingshigongchang.png"
 },
 {
+"title":"哔嘀影视9080ysw",
+"url":"https://app.9080ysw.com/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/9080ysw.png"
+},
+{
 "title":"九合视频",
 "url":"https://ptygx.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jiuheshipin.png"
