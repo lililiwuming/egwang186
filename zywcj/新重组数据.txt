@@ -78,11 +78,7 @@ if(标题=="xhzy"){
 }else if(URL.indexOf('leduozy')!=-1){
       选集地址="https://api.leduotv.com/wp-api/glid.php?vid="+选集地址;
 }else if(标题.indexOf("rrm3u8")!=-1){
-      if(选集地址.indexOf("zzwc120.com")!=-1){
-      选集地址="https://www.meiju11.com/ckplayerx/m3u8.php?url="+选集地址;
-      }else{
-      选集地址=选集地址;
-      }
+  选集地址="https://www.meiju11.com/ckplayerx/m3u8.php?url="+选集地址;
 }else if(URL.indexOf("api.yparse.com")!=-1){
       选集地址="https://jx.yparse.com/index.php?url="+选集地址;
 }else if(URL.indexOf("bbkdj")!=-1){
