@@ -1,15 +1,3 @@
-#EXTINF:-1,Elephant Cam
-http://evolved.host:8080/live/micjordan25@yahoo.com/9GkRE44kUm/236340.m3u8
-#EXTINF:-1,Giant Panda Cam
-http://evolved.host:8080/live/micjordan25@yahoo.com/9GkRE44kUm/236338.m3u8
-#EXTINF:-1,Giant Panda Cam 2
-http://evolved.host:8080/live/micjordan25@yahoo.com/9GkRE44kUm/236339.m3u8
-#EXTINF:-1,Lion Cam
-http://evolved.host:8080/live/micjordan25@yahoo.com/9GkRE44kUm/236337.m3u8
-#EXTINF:-1,Naked Mole-rat Cam 1
-http://evolved.host:8080/live/micjordan25@yahoo.com/9GkRE44kUm/236335.m3u8
-#EXTINF:-1,Naked Mole-rat Cam 2
-http://evolved.host:8080/live/micjordan25@yahoo.com/9GkRE44kUm/236336.m3u8
 #EXTINF:-1,21 Sextury
 http://evolved.host:8080/live/micjordan25@yahoo.com/9GkRE44kUm/259856.m3u8
 #EXTINF:-1,Adult Time
