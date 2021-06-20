@@ -15,10 +15,25 @@ for(var j=0;j<列表.length;j++){
     }else{
     var CODE=列表[j];
     }
-   var 标题=e2Rex(CODE,标题规则);
    var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):baseURL+e2Rex(CODE,地址规则);
-    var 图片=e2Rex(CODE,图片规则).indexOf("http")!=-1?e2Rex(CODE,图片规则):baseURL+e2Rex(CODE,图片规则);
+   if(标题规则==""){
+   var resp=getHttp(JSON.stringify({url:地址}));
+   }
+   if(标题规则==""){
+   var 标题=e2Rex(resp,".get(h1).t()");
+   }else{
+   var 标题=e2Rex(CODE,标题规则);
+   }
+   if(图片规则==""){
+   var 图片=e2Rex(resp,".get(a.stui-vodlist__thumb img).a(data-original)");
+   }else{
+   var 图片=e2Rex(CODE,图片规则).indexOf("http")!=-1?e2Rex(CODE,图片规则):baseURL+e2Rex(CODE,图片规则);
+   }
+   if(简介规则==""){
+   var 图片=e2Rex(resp,".get(div.stui-content__detail).t()");
+   else{
    var 简介=e2Rex(CODE,简介规则);
+   }
    LIST.push({title:标题,url:"q:播放器?url="+地址,img:图片,detail:简介});
 }
 var play_={};
@@ -37,20 +52,41 @@ var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
 }else if(baseURL.indexOf("zhenbuka2.com")!=-1){
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
-var 源码=getHttp(JSON.stringify({url:URL}));
-if(源码.indexOf("stui-vodlist__media")!=-1){
-var 列表=源码.match(/<ul class="stui-vodlist__media[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
-var 标题规则=".get(.title a).t()";
-var 地址规则=".get(.title a).a(href)";
-var 图片规则=".get(a).a(data-original)";
-var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
+var RSS=baseURL+"/rss?wd="+KEY;
+var 源码=getHttp(JSON.stringify({url:RSS}));
+if(源码.indexOf("<url>")!=-1){
+var 列表=e2Arr(源码,".xml(url)");
+var 地址规则=".xml(loc).t()";var 标题规则="";var 图片规则="";var 简介规则="";搜索列表();
 }else{
-JSON.stringify({data:[{list:[{title:"搜索验证，点击跳转网页",url:"q:#浏览框?url="+URL}]}]});
+JSON.stringify({data:[{list:[{title:"无搜索结果",url:"q:#浏览框?url="+URL}]}]});
 }
 }else if(baseURL.indexOf("cokemv.cn")!=-1){
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
-JSON.stringify({data:[{list:[{title:"搜索验证，点击跳转网页",url:"q:#浏览框?url="+URL}]}]});
-}else if(baseURL.indexOf("bukaivip.com")!=-1||baseURL.indexOf("flvweb.com")!=-1){
+var RSS=baseURL+"/rss?wd="+KEY;
+var 源码=getHttp(JSON.stringify({url:RSS}));
+if(源码.indexOf("<item>")!=-1){
+var 列表=e2Arr(源码,".xml(item)");
+var 标题规则=".xml(title).t()";
+var 地址规则=".xml(link).t().th(https://##)";
+var 图片规则=".get(a).a(data-original)";
+var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";搜索列表();
+}else{
+JSON.stringify({data:[{list:[{title:"无搜索结果",url:"q:#浏览框?url="+URL}]}]});
+}
+}else if(baseURL.indexOf("bukaivip.com")!=-1){
+var URL=baseURL+"/index.php/vod/search.html?wd="+KEY+"&submit=";
+var RSS=baseURL+"/rss?wd="+KEY;
+var 源码=getHttp(JSON.stringify({url:RSS}));
+if(源码.indexOf("<item>")!=-1){
+var 列表=e2Arr(源码,".xml(item)");
+var 标题规则=".xml(title).t()";
+var 地址规则=".xml(link).t()";
+var 图片规则=".get(a).a(data-original)";
+var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";搜索列表();
+}else{
+JSON.stringify({data:[{list:[{title:"无搜索结果",url:"q:#浏览框?url="+URL}]}]});
+}
+}else if(baseURL.indexOf("flvweb.com")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY+"&submit=";
 var 源码=getHttp(JSON.stringify({url:URL}));
 if(源码.indexOf("ui-vodlist__media")!=-1){
@@ -60,7 +96,7 @@ var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
 }else{
-JSON.stringify({data:[{list:[{title:"搜索验证，点击跳转网页",url:"q:#浏览框?url="+URL}]}]});
+JSON.stringify({data:[{list:[{title:"无搜索结果",url:"q:#浏览框?url="+URL}]}]});
 }
 }else if(baseURL.indexOf("ak1080.com")!=-1){
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY;
@@ -72,7 +108,7 @@ var 地址规则=".get(h1 a).a(href)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span).t().c().get(li).st().t()";搜索列表();
 }else{
-JSON.stringify({data:[{list:[{title:"搜索验证，点击跳转网页",url:"q:#浏览框?url="+URL}]}]});
+JSON.stringify({data:[{list:[{title:"无搜索结果",url:"q:#浏览框?url="+URL}]}]});
 }
 }else if(baseURL.indexOf("ys.80tvs.cn")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
