@@ -23,7 +23,7 @@ var uu=uu.replace("&down=200","");
 }
 var resp=JZ(JSON.stringify({url:uu}));
 if(resp.code.indexOf("<html")!=-1){
-if(resp.code.search(/<iframe.*?src="[^"]*?http.*?"/)!=-1||resp.code.search(/<video.*?src="[^"]*?http.*?"/)!=-1){
+if(resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe.*?src="[^"]*?http.*?"/)!=-1||resp.code.search(/<video.*?src="[^"]*?http.*?"/)!=-1){
 "web="+uu;
 }else{
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
