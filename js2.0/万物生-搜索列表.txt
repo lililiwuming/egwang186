@@ -148,7 +148,7 @@ var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
 }else if(baseURL.indexOf("tvyb02.com")!=-1||baseURL.indexOf("9ehao.com")!=-1){
 var URL=baseURL+"/vod/search.html?wd="+KEY+"&submit=";
-var 总源码=JZ(JSON.stringify({url:URL}));
+var 总源码=JZ(JSON.stringify({url:URL,head:{"user-agent":UA,"charset":"UTF-8"}}));
 var 源码=总源码.code;
 if(源码.indexOf("ui-vodlist__media")!=-1){
 var 列表=e2Arr(源码,".get(ul.myui-vodlist__media li)");
