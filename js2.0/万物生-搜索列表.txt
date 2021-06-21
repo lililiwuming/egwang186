@@ -148,12 +148,17 @@ var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
 }else if(baseURL.indexOf("tvyb02.com")!=-1||baseURL.indexOf("9ehao.com")!=-1){
 var URL=baseURL+"/vod/search.html?wd="+KEY+"&submit=";
-var 源码=getHttp(JSON.stringify({url:URL}));
+var 总源码=JZ(JSON.stringify({url:URL}));
+var 源码=总源码.code;
+if(源码.indexOf("ui-vodlist__media")!=-1){
 var 列表=e2Arr(源码,".get(ul.myui-vodlist__media li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span).st().t().c().get(div.detail).t()";搜索列表();
+}else{
+JSON.stringify({data:[{list:[{title:总源码.msg,url:"q:#浏览框?url="+URL}]}]});
+}
 }else if(baseURL.indexOf("siguyy.com")!=-1){
 var URL=baseURL+"/search/-------------.html?wd="+KEY+"&submit=";
 var 源码=getHttp(JSON.stringify({url:URL}));
