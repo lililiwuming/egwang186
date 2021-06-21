@@ -9,7 +9,7 @@ var baseURL=baseURL.split("?ac=list")[0];
 }
 function 搜索列表(){
 var res={};var items=[];var LIST=[];
-if(baseURL.indexOf("zhenbuka2.com")!=-1{
+if(baseURL.indexOf("zhenbuka2.com")!=-1){
 if(列表.length>10){
 var LIMIT=10;
 }else{
