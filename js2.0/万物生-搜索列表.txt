@@ -27,20 +27,12 @@ for(var j=0;j<LIMIT;j++){
    var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):baseURL+e2Rex(CODE,地址规则);
    if(标题规则==""){
    var resp=getHttp(JSON.stringify({url:地址}));
-   }
-   if(标题规则==""){
    var 标题=e2Rex(resp,".get(h1).t()");
-   }else{
-   var 标题=e2Rex(CODE,标题规则);
-   }
-   if(图片规则==""){
    var 图片=e2Rex(resp,".get(a.stui-vodlist__thumb img).a(data-original)");
-   }else{
-   var 图片=e2Rex(CODE,图片规则).indexOf("http")!=-1?e2Rex(CODE,图片规则):baseURL+e2Rex(CODE,图片规则);
-   }
-   if(简介规则==""){
    var 简介=e2Rex(resp,".get(div.stui-content__detail).t()");
    }else{
+   var 标题=e2Rex(CODE,标题规则);
+   var 图片=e2Rex(CODE,图片规则).indexOf("http")!=-1?e2Rex(CODE,图片规则):baseURL+e2Rex(CODE,图片规则);
    var 简介=e2Rex(CODE,简介规则);
    }
    LIST.push({title:标题,url:"q:播放器?url="+地址,img:图片,detail:简介});
@@ -96,7 +88,7 @@ var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";�
 JSON.stringify({data:[{list:[{title:"无搜索结果",url:"q:#浏览框?url="+URL}]}]});
 }
 }else if(baseURL.indexOf("flvweb.com")!=-1){
-var URL=baseURL+"/index.php/vod/search.html?wd="+KEY+"&submit=";
+var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
 if(源码.indexOf("ui-vodlist__media")!=-1){
 var 列表=源码.match(/<ul class=".*?ui-vodlist__media[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
