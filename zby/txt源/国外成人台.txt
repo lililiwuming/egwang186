@@ -1,6 +1,14 @@
 松視1,rtmp://161.202.204.248:1935/tv/ttv11
 HAPPY,rtmp://161.202.204.248:1935/tv/ttv12
 Barely Legal TV,http://37.235.199.92:4022/udp/225.50.70.4:1234?type=.mp4
+Blue Hustler TV (18+),http://re.strah.video:1234/play/bluehustler/index.m3u8
+Dorcel HD,http://re.strah.video:1234/play/dorcelhd/index.m3u8
+EXTASY HD (18+),http://re.strah.video:1234/play/extasyhd/index.m3u8
+Erox (18+),http://re.strah.video:1234/play/erox/index.m3u8
+KinoXXX (18+),http://re.strah.video:1234/play/kinoxxx/index.m3u8
+Кино 18+ HD,http://re.strah.video:1234/play/kino18plushd/index.m3u8
+ОХ-АХ HD (18+),http://re.strah.video:1234/play/ohahhd/index.m3u8
+Шалун (18+),http://re.strah.video:1234/play/shalun/index.m3u8
 Free X TV,http://37.235.199.92:4022/udp/225.50.70.5:1234?type=.mp4
 EXTASY HD/LEO TV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
 Super One HD,http://185.96.176.139:8080/superone/index.m3u8
