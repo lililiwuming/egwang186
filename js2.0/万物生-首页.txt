@@ -10,7 +10,7 @@
 {
 "title":"骚火电影",
 "url":"http://saohuotv.com",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/shlogo.png"
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/saohuotv.png"
 },
 {
 "title":"闪电影视",
