@@ -31,6 +31,8 @@ var 地址=["1","2","3","4","5","13","14","15","16"];var 前="/vodtype/";var 后
 var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("bukaivip.com")!=-1||URL.indexOf("flvweb.com")!=-1||URL.indexOf("ys.80tvs.cn")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
+}else if(URL.indexOf("jxry.cc")!=-1){
+var 标题=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧","福利短视频"];var 地址=["1","2","3","4","6","7","8","9","10","11","12","13","14","15","16","23"];;var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("zhenbuka2.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#/";头部导航();
 }else if(URL.indexOf("saohuotv.com")!=-1){

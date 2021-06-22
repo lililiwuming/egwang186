@@ -48,6 +48,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qixi.png"
 },
 {
+"title":"吉祥如意",
+"url":"http://www.jxry.cc",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jxry.png"
+},
+{
 "title":"COKEMV影视",
 "url":"https://cokemv.cn",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cokemv.png"
