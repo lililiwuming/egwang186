@@ -186,7 +186,7 @@ var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=源码.match(/<ul class="stui-vodlist clearfix">[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
-var 图片规则=".get(a).a(data-original)";
+var 图片规则=".c(https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jhyslogo.png).get(a).a(data-original)";
 var 简介规则=".t()";搜索列表();
 }else if(baseURL.indexOf("v1.vod")!=-1){
 var URL=baseURL+"?page=1&limit=10&wd="+KEY;
