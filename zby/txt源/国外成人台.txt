@@ -1,5 +1,8 @@
 松視1,rtmp://161.202.204.248:1935/tv/ttv11
 HAPPY,rtmp://161.202.204.248:1935/tv/ttv12
+Playboy TV,http://p2p.casaplay.cf:80/live/sidnei/102030/3720.m3u8
+XXX - Sextreme,http://p2p.casaplay.cf:80/live/sidnei/102030/4962.m3u8
+XXX - Sexy Hot,http://p2p.casaplay.cf:80/live/sidnei/102030/4965.m3u8
 Barely Legal TV,http://37.235.199.92:4022/udp/225.50.70.4:1234?type=.mp4
 Blue Hustler TV (18+),http://re.strah.video:1234/play/bluehustler/index.m3u8
 Dorcel HD,http://re.strah.video:1234/play/dorcelhd/index.m3u8

@@ -1,0 +1,44 @@
+﻿#EXTINF:0,Blacked 2
+http://directtv1.xyz:80/live/18501/18501/57424.m3u8
+#EXTINF:0,BlackedRAW
+http://directtv1.xyz:80/live/18501/18501/57425.m3u8
+#EXTINF:0,BrazzersExtra
+http://directtv1.xyz:80/live/18501/18501/57426.m3u8
+#EXTINF:0,Brazzers 1
+http://directtv1.xyz:80/live/18501/18501/57427.m3u8
+#EXTINF:0,XXX | Dorcel TV
+http://directtv1.xyz:80/live/18501/18501/92211.m3u8
+#EXTINF:0,XXX | Dusk!
+http://directtv1.xyz:80/live/18501/18501/92212.m3u8
+#EXTINF:0,XXX | Hustler TV
+http://directtv1.xyz:80/live/18501/18501/92213.m3u8
+#EXTINF:0,XXX | Meiden van Holland Hard
+http://directtv1.xyz:80/live/18501/18501/92214.m3u8
+#EXTINF:0,XXX | Brazzers TV
+http://directtv1.xyz:80/live/18501/18501/92216.m3u8
+#EXTINF:0,XXX | Penthouse
+http://directtv1.xyz:80/live/18501/18501/92937.m3u8
+#EXTINF:0,XXX | Deeper
+http://directtv1.xyz:80/live/18501/18501/103959.m3u8
+#EXTINF:0,XXX | DeepThroatSirens
+http://directtv1.xyz:80/live/18501/18501/103960.m3u8
+#EXTINF:0,REDBOX ADULTS 10
+http://directtv1.xyz:80/live/18501/18501/145102.m3u8
+#EXTINF:0,REDBOX ADULTS 9
+http://directtv1.xyz:80/live/18501/18501/145103.m3u8
+#EXTINF:0,REDBOX ADULTS 8
+http://directtv1.xyz:80/live/18501/18501/145104.m3u8
+#EXTINF:0,REDBOX ADULTS 7
+http://directtv1.xyz:80/live/18501/18501/145105.m3u8
+#EXTINF:0,REDBOX ADULTS 6
+http://directtv1.xyz:80/live/18501/18501/145106.m3u8
+#EXTINF:0,REDBOX ADULTS 5
+http://directtv1.xyz:80/live/18501/18501/145107.m3u8
+#EXTINF:0,REDBOX ADULTS 4
+http://directtv1.xyz:80/live/18501/18501/145108.m3u8
+#EXTINF:0,REDBOX ADULTS 3
+http://directtv1.xyz:80/live/18501/18501/145109.m3u8
+#EXTINF:0,REDBOX ADULTS 2
+http://directtv1.xyz:80/live/18501/18501/145110.m3u8
+#EXTINF:0,REDBOX ADULTS 1
+http://directtv1.xyz:80/live/18501/18501/145111.m3u8

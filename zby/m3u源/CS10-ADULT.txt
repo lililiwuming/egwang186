@@ -1,0 +1,38 @@
+﻿#EXTINF:0,XXX: PLAYBOY TV FHD
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/7656.m3u8
+#EXTINF:0,XXX: PLAYBOY TV HD
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/2203.m3u8
+#EXTINF:0,XXX: PLAYBOY TV SD
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/3762.m3u8
+#EXTINF:0,XXX: SEXY HOT
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/2204.m3u8
+#EXTINF:0,XXX: BRAZZERS 1
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/11682.m3u8
+#EXTINF:0,XXX: BRAZZERS 2
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/11985.m3u8
+#EXTINF:0,XXX: BRAZZERS 3
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/11986.m3u8
+#EXTINF:0,XXX: BRAZZERS
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/3717.m3u8
+#EXTINF:0,XXX: SEXTREME
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/2206.m3u8
+#EXTINF:0,XXX: PENHOUSE
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/2216.m3u8
+#EXTINF:0,XXX: PRIVATE
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/3716.m3u8
+#EXTINF:0,XXX: EROTIC 2
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/2219.m3u8
+#EXTINF:0,XXX: REDLIGHT
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/2210.m3u8
+#EXTINF:0,XXX: JASMIN
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/2218.m3u8
+#EXTINF:0,XXX: VENUS
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/2212.m3u8
+#EXTINF:0,XXX: PLAYBOY H265
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/11265.m3u8
+#EXTINF:0,XXX: SEX HOT H265
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/11266.m3u8
+#EXTINF:0,XXX: SEXTREME H265
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/11267.m3u8
+#EXTINF:0,XXX: VENUS H265
+http://tv1.cs10.tv:80/live/leopoldo/leopoldo/11246.m3u8

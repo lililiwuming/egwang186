@@ -1,0 +1,44 @@
+﻿#EXTINF:0,DORCEL
+http://my.streamerstv.com:25461/live/Rod/Rod/837.m3u8
+#EXTINF:0,EROX
+http://my.streamerstv.com:25461/live/Rod/Rod/839.m3u8
+#EXTINF:0,PASSIE XXX
+http://my.streamerstv.com:25461/live/Rod/Rod/844.m3u8
+#EXTINF:0,EVIL ANGEL
+http://my.streamerstv.com:25461/live/Rod/Rod/840.m3u8
+#EXTINF:0,HUSTLER
+http://my.streamerstv.com:25461/live/Rod/Rod/841.m3u8
+#EXTINF:0,HUSTLER TV
+http://my.streamerstv.com:25461/live/Rod/Rod/842.m3u8
+#EXTINF:0,O LA LA TV
+http://my.streamerstv.com:25461/live/Rod/Rod/843.m3u8
+#EXTINF:0,Private
+http://my.streamerstv.com:25461/live/Rod/Rod/853.m3u8
+#EXTINF:0,BRAZZERS
+http://my.streamerstv.com:25461/live/Rod/Rod/835.m3u8
+#EXTINF:0,BRAZZERS TV EUROPE
+http://my.streamerstv.com:25461/live/Rod/Rod/836.m3u8
+#EXTINF:0,PASSION XXX
+http://my.streamerstv.com:25461/live/Rod/Rod/845.m3u8
+#EXTINF:0,PENTHOUSE BLACK
+http://my.streamerstv.com:25461/live/Rod/Rod/846.m3u8
+#EXTINF:0,PENTHOUSE GOLD
+http://my.streamerstv.com:25461/live/Rod/Rod/847.m3u8
+#EXTINF:0,PENTHOUSE PASSION
+http://my.streamerstv.com:25461/live/Rod/Rod/848.m3u8
+#EXTINF:0,PENTHOUSE QUICKIES
+http://my.streamerstv.com:25461/live/Rod/Rod/849.m3u8
+#EXTINF:0,PINK EROTIC
+http://my.streamerstv.com:25461/live/Rod/Rod/850.m3u8
+#EXTINF:0,PLAYBOY
+http://my.streamerstv.com:25461/live/Rod/Rod/851.m3u8
+#EXTINF:0,PLAYHOUSE
+http://my.streamerstv.com:25461/live/Rod/Rod/852.m3u8
+#EXTINF:0,REDLIGHT
+http://my.streamerstv.com:25461/live/Rod/Rod/854.m3u8
+#EXTINF:0,SEXTREME
+http://my.streamerstv.com:25461/live/Rod/Rod/855.m3u8
+#EXTINF:0,VIVID RED
+http://my.streamerstv.com:25461/live/Rod/Rod/856.m3u8
+#EXTINF:0,XXX: BLACK TV
+http://my.streamerstv.com:25461/live/Rod/Rod/2826.m3u8

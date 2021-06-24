@@ -1,5 +1,3 @@
-#EXTINF:-1,Искушение HD orig
-http://185.183.34.118/iptv/F59KKDMP2GN7ZB/9006/index.m3u8
 #EXTINF:-1,Dorcel HD orig
 http://185.183.34.118/iptv/F59KKDMP2GN7ZB/9064/index.m3u8
 #EXTINF:-1,Hustler HD orig
