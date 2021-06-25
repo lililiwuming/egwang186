@@ -123,6 +123,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/1080PTV.png"
 },
 {
+"title":"飞捷影视",
+"url":"http://www.fj6080.com/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/fj6080.png"
+},
+{
 "title":"氢视频",
 "url":"https://hmgdxf.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qingshipin.png"
