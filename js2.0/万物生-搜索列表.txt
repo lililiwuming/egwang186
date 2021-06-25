@@ -174,8 +174,8 @@ var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表(
 var URL=baseURL+"/vod/search.html?wd="+KEY+"&submit=";
 var 总源码=JZ(JSON.stringify({url:URL,head:{'user-agent':UA}}));
 var 源码=总源码.code;
-if(源码.indexOf("ui-vodlist__media")!=-1){
-var 列表=e2Arr(源码,".get(ul.myui-vodlist__media li)");
+if(源码.indexOf("searchList")!=-1){
+var 列表=e2Arr(源码,".get(ul#searchList li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
