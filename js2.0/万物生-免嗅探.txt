@@ -26,7 +26,7 @@ var uu=uu.replace("&down=200","");
 }
 var resp=JZ(JSON.stringify({url:uu}));
 if(resp.code.indexOf("<html")!=-1){
-if(resp.code.search(/id="player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1){
+if(resp.code.search(/id="[^"]*?player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1){
 "web="+uu;
 }else{
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
