@@ -44,8 +44,6 @@ for(var i=0;i<分类.length;i++){
            }else{
            var 选集地址=接口+选集地址;
            }
-        }else if(选集地址.indexOf("wp.umao.vp6.top")!=-1){
-        var 选集地址="http://u.umao.vp6.top/?url="+选集地址.replace("wp.umao.vp6.top","umao.v.vp8.top");
         }else if(选集地址.indexOf("http")!=-1){
         var 选集地址=选集地址;
         }else{

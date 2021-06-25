@@ -7,6 +7,9 @@ JSON.stringify({url:playurl});
 }else if(uu.indexOf("baidu.com")!=-1){
 var playurl=uu.split("wd=")[1];
 JSON.stringify({url:playurl});
+}else if(uu.indexOf("wp.umao.vp6.top")!=-1){
+var uuu="http://u.umao.vp6.top/?url="+uu.replace("wp.umao.vp6.top","umao.v.vp8.top");
+JSON.stringify({url:uuu});
 }else if(uu.indexOf("languang.wfss100")!=-1){
 var id=uu.split("url=")[1];
 var uuu="https://j.languang.wfss100.com/jx/md5.php?url="+id;
