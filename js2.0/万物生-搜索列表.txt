@@ -33,13 +33,13 @@ for(var j=0;j<LIMIT;j++){
    var 简介=e2Rex(resp,".get(div.stui-content__detail).t()");
    }else{
    var 标题=e2Rex(CODE,标题规则);
-   var 图片=e2Rex(CODE,图片规则);
-    if(图片.indexOf("http")!=-1){
-    var 图片=图片;
-    }else if(图片.indexOf("mac://")!=-1){
-    var 图片=图片.replace("mac:","http:");
+   var 预图片=e2Rex(CODE,图片规则);
+    if(预图片.indexOf("/mac:")!=-1){
+    var 图片="http:"+预图片.split("mac:")[1];
+    }else if(预图片.indexOf("http")!=-1){
+    var 图片=预图片;
     }else{
-    var 图片=URL+图片;
+    var 图片=URL+预图片;
     }
    var 简介=e2Rex(CODE,简介规则);
    }
