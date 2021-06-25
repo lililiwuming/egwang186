@@ -118,6 +118,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuiju8.png"
 },
 {
+"title":"1080P影视",
+"url":"http://1080p.tv/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/1080PTV.png"
+},
+{
 "title":"氢视频",
 "url":"https://hmgdxf.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qingshipin.png"
