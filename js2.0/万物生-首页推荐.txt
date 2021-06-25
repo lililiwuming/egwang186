@@ -13,13 +13,13 @@ for(var j=0;j<列表.length;j++){
     var CODE=列表[j];
     var 标题=e2Rex(CODE,标题规则);
     var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):URL+e2Rex(CODE,地址规则);
-    var 图片=e2Rex(CODE,图片规则);
+    var 预图片=e2Rex(CODE,图片规则);
     if(图片.indexOf("http")!=-1){
-    var 图片=图片;
+    var 图片=预图片;
     }else if(图片.indexOf("mac:")==1){
-    var 图片=图片.replace("mac:","http:");
+    var 图片=预图片.replace("mac:","http:");
     }else{
-    var 图片=URL+图片;
+    var 图片=URL+预图片;
     }
     var 简介=e2Rex(CODE,简介规则);
     LIST.push({title:标题,url:地址,img:图片,detail:简介});
