@@ -16,8 +16,8 @@ for(var j=0;j<列表.length;j++){
     var 预图片=e2Rex(CODE,图片规则);
     if(预图片.indexOf("http")!=-1){
     var 图片=预图片;
-    }else if(预图片.indexOf("mac://")!=-1){
-    var 图片=预图片.replace("mac:","http:");
+    }else if(预图片.indexOf("/mac://")!=-1){
+    var 图片=预图片.replace("/mac:","http:");
     }else{
     var 图片=URL+预图片;
     }
