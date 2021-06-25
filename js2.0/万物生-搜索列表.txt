@@ -100,11 +100,11 @@ var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";�
 JSON.stringify({data:[{list:[{title:"无搜索结果",url:"q:#浏览框?url="+URL}]}]});
 }
 }else if(baseURL.indexOf("flvweb.com")!=-1){
-var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
+var URL=baseURL+"http://www.flvweb.com/index.php/vod/search/page/1/wd/"+KEY+".html";
 var 总源码=JZ(JSON.stringify({url:URL,head:{'user-agent':UA}}));
 var 源码=总源码.code;
-if(源码.indexOf("ui-vodlist__media")!=-1){
-var 列表=e2Arr(源码,".get(ul.myui-vodlist__media li)");
+if(源码.indexOf("searchList")!=-1){
+var 列表=e2Arr(源码,".get(ul#searchList li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
