@@ -1,6 +1,6 @@
 {"data":[
 {
-"title":"网页类 6.19更新:https://pasteme.cn/131572",
+"title":"网页类",
 "list":[
 {
 "title":"极品影视",
