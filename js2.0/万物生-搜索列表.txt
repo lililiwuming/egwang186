@@ -10,12 +10,29 @@ var baseURL=baseURL.split("?ac=list")[0];
 var UA="Mozilla/5.0";
 function 搜索列表(){
 var res={};var items=[];var LIST=[];
-if(baseURL.indexOf("zhenbuka2.com")!=-1){
+var LIMIT=列表.length;
+for(var j=0;j<LIMIT;j++){
+    if(baseURL.indexOf("api.php/v1.vod")!=-1||baseURL.indexOf("api.php/app")!=-1){
+    var CODE=JSON.stringify(列表[j]);
+    }else{
+    var CODE=列表[j];
+    }
+   var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):baseURL+e2Rex(CODE,地址规则);
+   var 标题=e2Rex(CODE,标题规则);
+   var 图片=e2Rex(CODE,图片规则).indexOf("http")!=-1?e2Rex(CODE,图片规则):baseURL+e2Rex(CODE,图片规则);
+   var 简介=e2Rex(CODE,简介规则);
+   LIST.push({title:标题,url:"q:播放器?url="+地址,img:图片,detail:简介});
+}
+var play_={};
+play_.list=LIST;
+items.push(play_);
+res.data=items;
+return JSON.stringify(res);
+}
+function 真不卡搜索列表(){
+var res={};var items=[];var LIST=[];
 if(列表.length>10){
 var LIMIT=10;
-}else{
-var LIMIT=列表.length;
-}
 }else{
 var LIMIT=列表.length;
 }
@@ -26,16 +43,10 @@ for(var j=0;j<LIMIT;j++){
     var CODE=列表[j];
     }
    var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):baseURL+e2Rex(CODE,地址规则);
-   if(baseURL.indexOf("zhenbuka2.com")!=-1){
    var resp=getHttp(JSON.stringify({url:地址}));
    var 标题=e2Rex(resp,".get(h1).t()");
    var 图片=e2Rex(resp,".get(a.stui-vodlist__thumb img).a(data-original)");
    var 简介=e2Rex(resp,".get(div.stui-content__detail).t()");
-   }else{
-   var 标题=e2Rex(CODE,标题规则);
-   var 图片=e2Rex(CODE,图片规则).indexOf("http")!=-1?e2Rex(CODE,图片规则):baseURL+e2Rex(CODE,图片规则);
-   var 简介=e2Rex(CODE,简介规则);
-   }
    LIST.push({title:标题,url:"q:播放器?url="+地址,img:图片,detail:简介});
 }
 var play_={};
@@ -58,7 +69,7 @@ var RSS=baseURL+"/rss?wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:RSS}));
 if(源码.indexOf("<url>")!=-1){
 var 列表=e2Arr(源码,".xml(url)");
-var 地址规则=".xml(loc).t().z(\\S+)";搜索列表();
+var 地址规则=".xml(loc).t().z(\\S+)";真不卡搜索列表();
 }else{
 JSON.stringify({data:[{list:[{title:"无搜索结果",url:"q:#浏览框?url="+URL}]}]});
 }
