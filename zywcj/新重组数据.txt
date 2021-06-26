@@ -62,7 +62,7 @@ if(标题=="xhzy"){
 }else if(标题=="4kdym"){
       选集地址="https://www.baidu.com/s?wd="+decodeURIComponent(选集地址);
 }else if(标题=="789pan"||标题=="pll"){
-      选集地址="http://jiexi.oocoso.cn/555/?url="+选集地址;
+      选集地址="http://api.cxitco.cn/api/?key=zFQTsLecKYd8g0yWNN&url="+选集地址;
 }else if(标题=="lekanzyw"){
       选集地址="http://player.ojbkjx.com/?url="+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
