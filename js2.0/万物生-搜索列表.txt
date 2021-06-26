@@ -56,7 +56,7 @@ return JSON.stringify(res);
 if(baseURL.indexOf("jpysvip.net")!=-1){
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
 var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=e2Arr(源码,".get(ul[class~=.*?ui-vodlist__media] li)");
+var 列表=e2Arr(源码,".get(ul[class~=ui-vodlist__media] li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
@@ -168,7 +168,7 @@ JSON.stringify({data:[{list:[{title:总源码.msg,url:"q:#浏览框?url="+URL}]}
 }else if(baseURL.indexOf("siguyy.com")!=-1){
 var URL=baseURL+"/search/-------------.html?wd="+KEY+"&submit=";
 var 源码=getHttp(JSON.stringify({url:URL,head:{'user-agent':UA}}));
-var 列表=e2Arr(源码,".get(ul[class~=.*?ui-vodlist__media] li)");
+var 列表=e2Arr(源码,".get(ul[class~=ui-vodlist__media] li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
