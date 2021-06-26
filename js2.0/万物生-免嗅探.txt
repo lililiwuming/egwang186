@@ -18,7 +18,7 @@ var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","ht
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("789pan.hd8.pw")!=-1||uu.indexOf("api.parwix")!=-1){
 var id=uu.split("url=")[1];
-var uuu="http://jiexi.oocoso.cn/555/?url="+id;
+var uuu="http://api.cxitco.cn/api/?key=zFQTsLecKYd8g0yWNN&url="+id;
 "web="+uuu;
 }else if(uu.indexOf("url=")!=-1||uu.indexOf("v=")!=-1){
 if(uu.indexOf("&down=200")!=-1){
