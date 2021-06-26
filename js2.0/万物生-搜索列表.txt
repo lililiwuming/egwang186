@@ -56,7 +56,7 @@ return JSON.stringify(res);
 if(baseURL.indexOf("jpysvip.net")!=-1){
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
 var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=源码.match(/<ul class="myui-vodlist__media[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
+var 列表=e2Arr(源码,".get(ul[class~=.*?ui-vodlist__media] li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
@@ -152,22 +152,6 @@ var 标题规则=".get(.v_title a).t()";
 var 地址规则=".get(.v_title a).a(href)";
 var 图片规则=".get(img).a(data-original)";
 var 简介规则=".get(div.v_note).t()";搜索列表();
-}else if(baseURL.indexOf("aidi.tv")!=-1){
-var URL=baseURL+"/vsearch/-------------.html?wd="+KEY+"&submit=";
-var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=源码.match(/<li class="searchlist_item[\s\S]*?<\/li>/g);
-var 标题规则=".get(.vodlist_title a).ty(</span>).t()";
-var 地址规则=".get(.vodlist_title a).a(href)";
-var 图片规则=".get(a).a(data-original)";
-var 简介规则=".get(span.pic_text).t().c(_).get(p.vodlist_sub).t()";搜索列表();
-}else if(baseURL.indexOf("nfxhd.com")!=-1){
-var URL=baseURL+"/vodsearch/-------------/?wd="+KEY+"&submit=";
-var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=源码.match(/<ul class="myui-vodlist__media clearfix[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
-var 标题规则=".get(.title a).t()";
-var 地址规则=".get(.title a).a(href)";
-var 图片规则=".get(a).a(data-original)";
-var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
 }else if(baseURL.indexOf("tvyb02.com")!=-1||baseURL.indexOf("9ehao.com")!=-1){
 var URL=baseURL+"/vod/search.html?wd="+KEY+"&submit=";
 var 总源码=JZ(JSON.stringify({url:URL,head:{'user-agent':UA}}));
@@ -184,7 +168,7 @@ JSON.stringify({data:[{list:[{title:总源码.msg,url:"q:#浏览框?url="+URL}]}
 }else if(baseURL.indexOf("siguyy.com")!=-1){
 var URL=baseURL+"/search/-------------.html?wd="+KEY+"&submit=";
 var 源码=getHttp(JSON.stringify({url:URL,head:{'user-agent':UA}}));
-var 列表=源码.match(/<ul class="myui-vodlist__media[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
+var 列表=e2Arr(源码,".get(ul[class~=.*?ui-vodlist__media] li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
@@ -192,7 +176,7 @@ var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表(
 }else if(baseURL.indexOf("jhdyw.vip")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY+"&submit=";
 var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=源码.match(/<ul class="stui-vodlist clearfix">[\s\S]*?<\/ul>/g)[0].match(/<li[\s\S]*?<\/li>/g);
+var 列表=e2Arr(源码,".get(ul[class~=stui-vodlist clearfix] li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".c(https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jhyslogo.png).get(a).a(data-original)";
