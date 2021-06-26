@@ -19,7 +19,7 @@ JSON.stringify({url:playurl});
 }else if(uu.indexOf("789pan.hd8.pw")!=-1||uu.indexOf("api.parwix")!=-1){
 var id=uu.split("url=")[1];
 var uuu="http://api.cxitco.cn/api/?key=zFQTsLecKYd8g0yWNN&url="+id;
-var resp=getHttp(JSON.stringify({url:uuu}));
+var resp=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp.code).url;
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("url=")!=-1||uu.indexOf("v=")!=-1){
