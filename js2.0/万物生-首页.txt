@@ -176,6 +176,11 @@
 "title":"聚多影视",
 "url":"http://jdys.chxjon.cn/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/juduo.png"
+},
+{
+"title":"流星雨影视",
+"url":"http://phoebe.cf/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/liuxingyu.png"
 }
 ]
 }
