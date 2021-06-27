@@ -9,8 +9,6 @@ TVALT-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m
 XTRASTV-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/XTRASTV-ADULT.txt
 DIRECTTV-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/DIRECTTV-ADULT.txt
 MAINS-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/MAINS-ADULT.txt
-STREAMERSTV-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/STREAMERSTV-ADULT.txt
-MNEPRO-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/MNEPRO-ADULT.txt
 163172-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/163172-ADULT.txt
 OQAB-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/OQAB-ADULT.txt
 CS10-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/CS10-ADULT.txt
