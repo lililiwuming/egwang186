@@ -57,8 +57,8 @@ if(标题=="xhzy"){
       }else{
       选集地址="http://parse.qbzyz.com/parse?resources="+选集地址;
       }
-}else if(标题=="msp"){
-      选集地址="https://jx.51wujin.net/analysis/json/?uid=579&my=egjsBEHIKNTVY04567&url="+选集地址;
+}else if(标题=="mysp"){
+      选集地址="http://player.sxmj.wang/m3u8.php?url="+选集地址;
 }else if(标题=="4kdym"){
       选集地址="https://www.baidu.com/s?wd="+decodeURIComponent(选集地址);
 }else if(标题=="789pan"||标题=="pll"){
