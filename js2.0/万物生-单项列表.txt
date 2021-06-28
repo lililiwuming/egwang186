@@ -64,7 +64,7 @@ var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vo
 }else if(URL.indexOf("api.php/app")!=-1){
 var 列表=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).list;
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";单项列表();
-}else if(URL.indexOf("api.php/iptv/vod")!=-1){
+}else if(URL.indexOf("api.php/iptv/vod")!=-1||URL.indexOf("api.php/lh/vod")!=-1){
 var 列表=e2Arr(getVar("源码"),".json(data)");
 var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";单项列表();
 }
