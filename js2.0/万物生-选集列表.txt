@@ -171,7 +171,7 @@ var 标题规则=".json(player_info).json(show)";
 var 选集规则=".z2(\\\(.+?\\\)\\$)";
 var 选集地址规则=".z2(\\$\\\(.+?\\\)[#|\"])";选集列表();
 }else if(URL.indexOf("api.php/iptv/vod")!=-1||URL.indexOf("api.php/lh/vod")!=-1){
-var 分类=e2Arr(getVar("源码"),".json(videolist).z(\"[\\s\\S]*?\\])");
+var 分类=e2Arr(getVar("源码"),".json(videolist).z(\".*?\\])");alert(JSON.stringify(分类));
 var 简介=e2Arr(getVar("源码"),".json(intro)");
 var 列表规则=".z(\\{.*?\\})";
 var 标题规则=".z2(\"\\(.*?\\)\")";
