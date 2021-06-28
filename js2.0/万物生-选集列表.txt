@@ -22,10 +22,12 @@ for(var i=0;i<分类.length;i++){
     var 标题=e2Rex(分类CODE,标题规则);
     }
     if(URL.indexOf("v1.vod")!=-1){
-            if(e2Rex(分类CODE,".json(player_info).json(parse)").indexOf("=")!=-1&&e2Rex(分类CODE,".json(player_info).json(parse)").indexOf("jx.huimaojia.com/player")==-1&&e2Rex(分类CODE,".json(player_info).json(parse)").indexOf("py.789pan.cn/player/tm.php?url=")==-1){
-            var 接口="http:"+e2Rex(分类CODE,".json(player_info).json(parse)").match(/\/\/[^,]*?[u|v]r?l?=/)[0].replace("..",".");
-            }else if(e2Rex(分类CODE,".json(player_info).json(parse2)").indexOf("=")!=-1){
-            var 接口="http:"+e2Rex(分类CODE,".json(player_info).json(parse2)").match(/\/\/[^,]*?[u|v]r?l?=/)[0].replace("..",".");
+       var PARSE=e2Rex(分类CODE,".json(player_info).json(parse)");
+       var PARSE2=e2Rex(分类CODE,".json(player_info).json(parse2)");
+            if(PARSE.indexOf("=")!=-1&&PARSE.indexOf("jx.huimaojia.com/player")==-1&&PARSE.indexOf("py.789pan.cn/player/tm.php?url=")==-1&&PARSE.indexOf("ztys.waruanzy.com/player/?url=")==-1){
+            var 接口="http:"+PARSE.match(/\/\/[^,]*?[u|v]r?l?=/)[0].replace("..",".");
+            }else if(PARSE2.indexOf("=")!=-1){
+            var 接口="http:"+PARSE2.match(/\/\/[^,]*?[u|v]r?l?=/)[0].replace("..",".");
             }else{
             var 接口="";
             }
