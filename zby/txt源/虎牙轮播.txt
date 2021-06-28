@@ -10,7 +10,6 @@
 吴京电影,http://106.53.212.251/daili/huya.php?id=11602045&type=.m3u8
 洪金宝电影,http://106.53.212.251/daili/huya.php?id=11342427&type=.m3u8
 徐峥电影,http://106.53.212.251/daili/huya.php?id=1160204&type=.m3u8
-酷喵云直播,https://cloud-live.kumiaocloud.com/live/hellolive.m3u8
 虎牙| 郭德纲&于谦,http://106.53.212.251/daili/huya.php?id=11352948&type=.m3u8
 虎牙| 庆余年,http://106.53.212.251/daili/huya.php?id=11352960&type=.m3u8
 虎牙| 鬼吹灯,http://106.53.212.251/daili/huya.php?id=11352871&type=.m3u8
