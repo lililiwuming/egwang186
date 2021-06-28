@@ -2,7 +2,7 @@ if(getVar("url").indexOf("v1.vod")!=-1){
 var URL=getVar("url").split("/detail?")[0];
 }else if(getVar("url").indexOf("api.php/app/")!=-1){
 var URL=getVar("url").split("video_detail?")[0];
-}else if(getVar("url").indexOf("api.php/iptv/vod")!=-1){
+}else if(getVar("url").indexOf("api.php/iptv/vod")!=-1||getVar("url").indexOf("api.php/lh/vod")!=-1){
 var URL=getVar("url").split("?")[0];
 }else{
 var URL=e2Rex(getVar("url"),".z2(\\\(http.*?//.*?\\\)/)");
