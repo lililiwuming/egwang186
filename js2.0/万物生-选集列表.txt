@@ -162,7 +162,7 @@ var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("qianoo.cn")!=-1){
 if(getVar("源码").search(/class="paly_list_btn"/)!=-1){
-var 分类=e2Arr(getVar("源码"),".get(div.mi_ne_kd)");
+var 分类=e2Arr(getVar("源码"),".get(div.mi_paly_box)");
 var 简介=e2Rex(getVar("源码"),".get(ul.moviedteail_list).t().c().get(div.yp_context).t()");
 var 列表规则=".get(div.paly_list_btn)";
 var 标题规则=".get(span).t()";
