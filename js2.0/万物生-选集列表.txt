@@ -27,7 +27,11 @@ for(var i=0;i<分类.length;i++){
             if(PARSE.indexOf("=")!=-1&&PARSE.indexOf("jx.huimaojia.com/player")==-1&&PARSE.indexOf("py.789pan.cn/player/tm.php?url=")==-1&&PARSE.indexOf("ztys.waruanzy.com/player/?url=")==-1&&PARSE.indexOf("yingshi.waruanzy.com/789pan/?url=")==-1){
             var 接口="http:"+PARSE.match(/\/\/[^,]*?[u|v]r?l?=/)[0].replace("..",".");
             }else if(PARSE2.indexOf("=")!=-1){
-            var 接口="http:"+PARSE2.match(/\/\/[^,]*?[u|v]r?l?=/)[0].replace("..",".");
+               if(PARSE2.indexOf("url=")!=-1||PARSE2.indexOf("v=")!=-1){
+               var 接口="http:"+PARSE2.match(/\/\/[^,]*?[u|v]r?l?=/)[0].replace("..",".");
+               }else if(PARSE2.indexOf("vid=")!=-1){
+               var 接口="http:"+PARSE2.match(/\/\/[^,]*?vid=/)[0].replace("..",".");
+               }
             }else{
             var 接口="";
             }
