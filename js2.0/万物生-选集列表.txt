@@ -164,14 +164,14 @@ var 选集地址规则=".get(a).a(href)";选集列表();
 if(getVar("源码").search(/class="paly_list_btn"/)!=-1){
 var 分类=e2Arr(getVar("源码"),".get(div.mi_paly_box)");
 var 简介=e2Rex(getVar("源码"),".get(ul.moviedteail_list).t().c().get(div.yp_context).t()");
-var 列表规则=".get(div.paly_list_btn)";
+var 列表规则=".get(div.paly_list_btn a)";
 var 标题规则=".get(span).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
 }else{
 var 分类=e2Arr(getVar("源码"),".get(div.juji_box)");
 var 简介=e2Rex(getVar("源码"),".get(div.paycon.mi_ne_kd).t()");
-var 列表规则=".get(div.juji_list)";
+var 列表规则=".get(div.juji_list a)";
 var 标题规则=".get(h3).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
