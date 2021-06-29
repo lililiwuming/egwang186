@@ -133,6 +133,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/kuaibo8.png"
 },
 {
+"title":"好看剧",
+"url":"http://v.0719.me/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/haokanju.png"
+},
+{
 "title":"氢视频",
 "url":"https://hmgdxf.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qingshipin.png"
