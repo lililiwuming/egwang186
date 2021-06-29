@@ -52,6 +52,8 @@ var 标题=标题1;var 地址=地址1;var 前="/vod/type/id/";var 后="/page/#PN
 var 标题=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","大陆剧","香港剧","台湾剧","日本剧","韩国剧","美国剧"];var 地址=["m--------","tv--------","va--------","ct--------","m---动作-----","m---喜剧-----","m---爱情-----","m---科幻-----","m---恐怖-----","m---剧情-----","m---战争-----","tv-中国大陆-------","tv-香港-------","tv-台湾-------","tv-日本-------","tv-韩国-------","tv-美国-------"];var 前="/show/";var 后="#PN#---.html";头部导航();
 }else if(URL.indexOf("9ehao.com")!=-1){
 var 标题=标题4;var 地址=地址4;var 前="/vodshow/";var 后="/page/#PN#.html";头部导航();
+}else if(URL.indexOf("qianoo.cn")!=-1){
+var 标题=["电影","电视剧","动漫","豆瓣TOP","最新电影","欧美电影","韩国电影","国产剧","美剧","韩剧","日剧"];var 地址=["movie_bt/movie_bt_series/dyy","movie_bt/movie_bt_series/dianshiju","dm","dbtop250","zuixindianying","movie_bt/movie_bt_series/meiguodianying","movie_bt/movie_bt_series/hanguodianying","gcj","movie_bt/movie_bt_series/mj","movie_bt/movie_bt_series/hj","movie_bt/movie_bt_series/rj"];var 前="/";var 后="/page/#PN#";头部导航();
 }else if(URL.indexOf("jhdyw.vip")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/type/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("api.php/app")!=-1){

@@ -160,6 +160,22 @@ var 列表规则=".get(li)";
 var 标题规则=".get(li).t().th(&.*?;##)";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
+}else if(URL.indexOf("qianoo.cn")!=-1){
+if(getVar("源码").search(/class="paly_list_btn"/)!=-1){
+var 分类=e2Arr(getVar("源码"),".get(div.mi_ne_kd)");
+var 简介=e2Rex(getVar("源码"),".get(ul.moviedteail_list).t().c().get(div.yp_context).t()");
+var 列表规则=".get(div.paly_list_btn)";
+var 标题规则=".get(span).t()";
+var 选集规则=".get(a).t()";
+var 选集地址规则=".get(a).a(href)";选集列表();
+}else{
+var 分类=e2Arr(getVar("源码"),".get(div.juji_box)");
+var 简介=e2Rex(getVar("源码"),".get(div.paycon.mi_ne_kd).t()");
+var 列表规则=".get(div.juji_list)";
+var 标题规则=".get(h3).t()";
+var 选集规则=".get(a).t()";
+var 选集地址规则=".get(a).a(href)";选集列表();
+}
 }else if(URL.indexOf("api.php/app/")!=-1){
 var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_url_with_player;
 var 简介=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_content;

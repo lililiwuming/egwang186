@@ -175,6 +175,14 @@ var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
+}else if(baseURL.indexOf("qianoo.cn")!=-1){
+var URL=baseURL+"/search/-------------.html?wd="+KEY+"&submit=";
+var 源码=getHttp(JSON.stringify({url:URL,head:{'user-agent':UA}}));
+var 列表=e2Arr(源码,".get(div.bt_img li)");
+var 标题规则=".get(h3 a).t()";
+var 地址规则=".get(h3 a).a(href)";
+var 图片规则=".get(img).a(data-original)";
+var 简介规则=".get(span).st().t().c().get(p).t()";搜索列表();
 }else if(baseURL.indexOf("jhdyw.vip")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY+"&submit=";
 var 源码=getHttp(JSON.stringify({url:URL}));

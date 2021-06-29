@@ -23,6 +23,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/siguyy.png"
 },
 {
+"title":"厂长资源",
+"url":"https://www.qianoo.cn",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/changzhang.png"
+},
+{
 "title":"9亿看看",
 "url":"https://www.9ehao.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/9ehao.png"
