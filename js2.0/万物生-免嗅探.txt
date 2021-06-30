@@ -46,7 +46,7 @@ if(uu.split("url=")[1].indexOf("alizy-")!=-1){
 var id=uu.split("url=")[1];
 var uuu="https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
-//var playurl=JSON.parse(resp.code).url;
+var playurl=JSON.parse(resp.code).url;
 JSON.stringify({url:resp.code});
 }else if(uu.split("url=")[1].indexOf("http")!=-1){
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
@@ -72,7 +72,9 @@ JSON.stringify({url:playurl});
 var id=uu.split("url=")[1];
 var uuu="https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
-var playurl=JSON.parse(resp.code).url;
+alert(resp.code);
+//var playurl=JSON.parse(resp.code).url;
+JSON.stringify({url:resp.code});
 }else if(uu.split("url=")[1].indexOf("http")!=-1){
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }else{
