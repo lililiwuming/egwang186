@@ -29,7 +29,7 @@ JSON.stringify({url:playurl});
 var id=uu.split("url=")[1];
 var uuu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
-var playurl=JSON.parse(resp.code).url;
+var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("?u=http")!=-1||uu.indexOf("url=")!=-1||uu.indexOf("v=")!=-1){
 if(uu.indexOf("&down=200")!=-1){
@@ -46,7 +46,7 @@ if(uu.split("url=")[1].indexOf("alizy-")!=-1){
 var id=uu.split("url=")[1];
 var uuu="https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
-var playurl=JSON.parse(resp.code).url;
+var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
 JSON.stringify({url:resp.code});
 }else if(uu.split("url=")[1].indexOf("http")!=-1){
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
@@ -54,7 +54,7 @@ JSON.stringify({url:resp.code});
 var id=uu.split("url=")[1];
 var uuu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
-var playurl=JSON.parse(resp.code).url;
+var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
 JSON.stringify({url:playurl});
 }
 }
@@ -72,19 +72,15 @@ JSON.stringify({url:playurl});
 var id=uu.split("url=")[1];
 var uuu="https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
-if(e2Rex(resp.code,".json(url)").length>1){
-var playurl=JSON.parse(resp.code).url;
+var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
 JSON.stringify({url:playurl});
-}else{
-JSON.stringify({url:JSON.parse(resp.code).msg});
-}
 }else if(uu.split("url=")[1].indexOf("http")!=-1){
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }else{
 var id=uu.split("url=")[1];
 var uuu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
-var playurl=JSON.parse(resp.code).url;
+var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
 JSON.stringify({url:playurl});
 }
 }
