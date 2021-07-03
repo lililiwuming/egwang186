@@ -27,7 +27,7 @@ var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","ht
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("789pan.hd8.pw")!=-1||uu.indexOf("api.parwix")!=-1){
 var id=uu.split("url=")[1];
-var uuu="http://user.cxitco.cn/home/api?type=ys&uid=14553&key=ahotuwBDEIJKMNOQR4&url="+id;
+var uuu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp.code).url;
 JSON.stringify({url:playurl});
@@ -52,7 +52,7 @@ JSON.stringify({url:resp.code});
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }else{
 var id=uu.split("url=")[1];
-var uuu="http://api.cxitco.cn/api/?key=zFQTsLecKYd8g0yWNN&url="+id;
+var uuu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp.code).url;
 JSON.stringify({url:playurl});
@@ -82,7 +82,7 @@ JSON.stringify({url:JSON.parse(resp.code).msg});
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }else{
 var id=uu.split("url=")[1];
-var uuu="http://api.cxitco.cn/api/?key=zFQTsLecKYd8g0yWNN&url="+id;
+var uuu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp.code).url;
 JSON.stringify({url:playurl});
