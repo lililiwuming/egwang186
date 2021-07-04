@@ -43,7 +43,7 @@ var 列表=e2Arr(getVar("源码"),".get(li[class~=mo-cols-xs4 mo-cols-sm3])");
 var 标题规则=".get(a.mo-situ-name).t()";var 地址规则=".get(a.mo-situ-name).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";
 普通列表();
 }else if(URL.indexOf("jhdyw.vip")!=-1){
-var 列表=e2Arr(getVar("源码"),".get(li.clearfix)");
+var 列表=e2Arr(getVar("源码"),".get(li[class=clearfix])");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".c(https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jhyslogo.png).get(a).a(data-original)";var 简介规则=".get(span).st().t()";普通列表();
 }else if(URL.indexOf("saohuotv.com")!=-1){
 var 列表=getVar("源码").match(/<li>[\s]*?<div class="v_img"[\s\S]*?<\/li>/g);
