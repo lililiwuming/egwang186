@@ -176,6 +176,13 @@ var 标题规则=".get(h3).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
 }
+}else if(URL.indexOf("1090ys2.com")!=-1){
+var 分类=e2Arr(getVar("源码"),".get(div.stui-pannel-box.b.playlist)");
+var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");
+var 列表规则=".get(ul li)";
+var 标题规则=".get(h3).t()";
+var 选集规则=".get(a).t()";
+var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("api.php/app/")!=-1){
 var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_url_with_player;
 var 简介=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_content;

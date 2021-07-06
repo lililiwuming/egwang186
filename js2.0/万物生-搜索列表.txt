@@ -183,6 +183,19 @@ var 标题规则=".get(h3 a).t()";
 var 地址规则=".get(h3 a).a(href)";
 var 图片规则=".get(img).a(data-original)";
 var 简介规则=".get(span).st().t().c().get(p).t()";搜索列表();
+}else if(baseURL.indexOf("1090ys2.com")!=-1){
+var URL=baseURL+"/search.html?wd="+KEY+"&submit=";
+var RSS=baseURL+"/index.php/rss/index.xml?wd="+KEY;
+var 源码=getHttp(JSON.stringify({url:RSS}));
+if(源码.indexOf("<item>")!=-1){
+var 列表=e2Arr(源码,".xml(item)");
+var 标题规则=".xml(title).t()";
+var 地址规则=".xml(link).t().z(\\S+)";
+var 图片规则=".get(a).a(data-original)";
+var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";搜索列表();
+}else{
+JSON.stringify({data:[{list:[{title:"无搜索结果",url:"q:#浏览框?url="+URL}]}]});
+}
 }else if(baseURL.indexOf("jhdyw.vip")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY+"&submit=";
 var 源码=getHttp(JSON.stringify({url:URL}));

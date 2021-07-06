@@ -71,6 +71,11 @@
 "title":"真不卡影视",
 "url":"https://www.zhenbuka2.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhenbukalogo.png"
+},
+{
+"title":"1090影视",
+"url":"http://1090ys2.com",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/1090ys.png"
 }
 ]
 },
