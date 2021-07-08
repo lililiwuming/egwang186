@@ -208,9 +208,9 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/liuxingyu.png"
 },
 {
-"title":"西门影视",
-"url":"https://ximenys.com/api.php/lh/vod/?ac=list&class=&start=&area=&type=&page=1",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ximen.png"
+"title":"聚多影视",
+"url":"http://jdys.chxjon.cn/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/juduo.png"
 }
 ]
 }
