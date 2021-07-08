@@ -1,11 +1,19 @@
 var uu=getVar("url");
+if(uu.indexOf("languang.wfss100")!=-1){
+var id=uu.split("url=")[1];
+var uu="https://j.languang.wfss100.com/jx/md5.php?url="+id;
+}else if(uu.indexOf("&down=200")!=-1){
+var uu=uu.replace("&down=200","");
+}else if(uu.indexOf("789pan.hd8.pw")!=-1||uu.indexOf("api.parwix")!=-1){
+var id=uu.split("url=")[1];
+var uu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
+}
+var resp=JZ(JSON.stringify({url:uu}));
 if(uu.indexOf("cokemv.cn")!=-1){
-var resp=getHttp(JSON.stringify({url:uu}));
-var DATA=e2Rex(resp,".ty(player_aaaa=).json(url)");
+var DATA=e2Rex(resp.code,".ty(player_aaaa=).json(url)");
 var playurl ='https://cokemv.cn'+DATA;
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("qianoo.cn")!=-1){
-var resp=JZ(JSON.stringify({url:uu}));
 if(resp.code.indexOf("<iframe")!=-1){
 var uuu=e2Rex(resp.code,".get(iframe).a(src)");
 var playurl=e2Rex(JZ(JSON.stringify({url:uuu})).code,".z2(sources:[\\s\\S]*?'\\(.*?\\)')")+"?type=.m3u8";
@@ -20,34 +28,24 @@ JSON.stringify({url:playurl});
 var uuu="http://u.umao.vp6.top/?url="+uu.replace("wp.umao.vp6.top","umao.v.vp8.top");
 "web="+uuu;
 }else if(uu.indexOf("languang.wfss100")!=-1){
-var id=uu.split("url=")[1];
-var uuu="https://j.languang.wfss100.com/jx/md5.php?url="+id;
-var resp=getHttp(JSON.stringify({url:uuu}));
-var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","https://img");
+var playurl=resp.code.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","https://img");
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("789pan.hd8.pw")!=-1||uu.indexOf("api.parwix")!=-1){
-var id=uu.split("url=")[1];
-var uuu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
-var resp=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
 JSON.stringify({url:playurl});
-}else if(uu.indexOf("?u=http")!=-1||uu.indexOf("url=")!=-1||uu.indexOf("v=")!=-1){
-if(uu.indexOf("&down=200")!=-1){
-var uu=uu.replace("&down=200","");
-}
-var resp=JZ(JSON.stringify({url:uu}));
-if(resp.code.indexOf("<html")!=-1){
+}else if(uu.indexOf("?u=http")!=-1||uu.indexOf("url=")!=-1||uu.indexOf("v=http")!=-1){
+if(uu.split("url=")[1].indexOf("index.php?v=")!=-1){
+JSON.stringify({url:uu.split("url=")[1]});
+}else if(resp.code.indexOf("<html")!=-1){
 if(resp.code.search(/<div id="video"/)!=-1||resp.code.search(/<div id="[^"]*?player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1){
 "web="+uu;
-}else if(uu.split("url=")[1].indexOf("index.php?v=")!=-1){
-JSON.stringify({url:uu.split("url=")[1]});
 }else{
 if(uu.split("url=")[1].indexOf("alizy-")!=-1){
 var id=uu.split("url=")[1];
 var uuu="https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url="+id;
-var resp=JZ(JSON.stringify({url:uuu}));
-var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
-JSON.stringify({url:resp.code});
+var resp2=JZ(JSON.stringify({url:uuu}));
+var playurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
+JSON.stringify({url:playurl});
 }else if(uu.split("url=")[1].indexOf("http")!=-1){
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }else{
@@ -71,16 +69,16 @@ JSON.stringify({url:playurl});
 }else if(uu.split("url=")[1].indexOf("alizy-")!=-1){
 var id=uu.split("url=")[1];
 var uuu="https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url="+id;
-var resp=JZ(JSON.stringify({url:uuu}));
-var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
+var resp2=JZ(JSON.stringify({url:uuu}));
+var playurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
 JSON.stringify({url:playurl});
 }else if(uu.split("url=")[1].indexOf("http")!=-1){
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }else{
 var id=uu.split("url=")[1];
 var uuu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
-var resp=JZ(JSON.stringify({url:uuu}));
-var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
+var resp2=JZ(JSON.stringify({url:uuu}));
+var playurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
 JSON.stringify({url:playurl});
 }
 }
