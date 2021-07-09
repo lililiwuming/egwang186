@@ -64,7 +64,7 @@ JSON.stringify({url:uu+"?type=.m3u8"});
 if(e2Rex(resp.code,".json(url)").length>1){
 var playurl=JSON.parse(resp.code).url;
 if(playurl.indexOf("bilivideo.com")!=-1){
-JSON.stringify({url:playurl,header:{"referer":"https://www.bilibili.com"}});
+JSON.stringify({url:playurl,header:{"user-agent":"Mozilla/5.0"}});
 }else{
 JSON.stringify({url:playurl});
 }
