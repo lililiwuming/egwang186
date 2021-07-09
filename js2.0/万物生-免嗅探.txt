@@ -63,11 +63,7 @@ JSON.stringify({url:uu+"?type=.m3u8"});
 }else{
 if(e2Rex(resp.code,".json(url)").length>1){
 var playurl=JSON.parse(resp.code).url;
-if(playurl.indexOf("bilivideo.com")!=-1){
-JSON.stringify({url:playurl,head:{"user-agent":"Mozilla/5.0"}});
-}else{
 JSON.stringify({url:playurl});
-}
 }else if(uu.split("url=")[1].indexOf("alizy-")!=-1){
 var id=uu.split("url=")[1];
 var uuu="https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url="+id;
