@@ -153,7 +153,7 @@ var 列表=e2Arr(源码,".get(div.module-search-item)");
 var 标题规则=".get(h3 a).t()";
 var 地址规则=".get(h3 a).a(href)";
 var 图片规则=".get(img).a(data-src)";
-var 简介规则=".get(div.video-info-header).t().c()..get(div.video-info-main).t().c().get(div.video-info-items).t()";搜索列表();
+var 简介规则=".get(div.video-info-header).t().c().get(div.video-info-main).t().c().get(div.video-info-items).t()";搜索列表();
 }else if(baseURL.indexOf("saohuotv.com")!=-1){
 var URL=baseURL+"/search.php?searchword="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
