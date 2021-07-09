@@ -58,6 +58,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jxry.png"
 },
 {
+"title":"知心影视",
+"url":"https://cms.7a11l.cn",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhixinys.png"
+},
+{
 "title":"COKEMV影视",
 "url":"https://cokemv.cn",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cokemv.png"

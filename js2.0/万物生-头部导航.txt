@@ -15,6 +15,8 @@ var 标题3=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱
 var 地址3=["movie&start=&area=&type=","tvplay&start=&area=&type=","tvshow&start=&area=&type=","comic&start=&area=&type=","movie&start=&area=&type=动作","movie&start=&area=&type=喜剧","movie&start=&area=&type=爱情","movie&start=&area=&type=科幻","movie&start=&area=&type=恐怖","movie&start=&area=&type=剧情","movie&start=&area=&type=战争","tvplay&start=&area=大陆&type=","tvplay&start=&area=香港&type=","tvplay&start=&area=台湾&type=","tvplay&start=&area=日本&type=","tvplay&start=&area=韩国&type=","tvplay&start=&area=美国&type="];
 var 标题4=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国语配音韩剧","最近热播剧","热播美剧","国产剧","港台剧","日韩剧","欧美剧"];
 var 地址4=["dianying","lianxuju","zongyi","dongman","dongzuopian","xijupian","aiqingpian","kehuanpian","kongbupian","juqingpian","zhanzhengpian","guoyupeiyinhanju","zuijinrebodianshiju","rebomeiju","guochanju","gangtaiju","rihanju","oumeiju"];
+var 标题5=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港剧","台剧","日剧","韩剧","美剧"];
+var 地址5=["SCCCCS","qCCCCS","xCCCCS","ICCCCS","SCCCCS/class/动作","SCCCCS/class/喜剧","SCCCCS/class/爱情","SCCCCS/class/科幻","SCCCCS/class/恐怖","SCCCCS/class/剧情","SCCCCS/class/战争","qCCCCS/area/内地","qCCCCS/area/香港","qCCCCS/area/台湾","qCCCCS/area/日本","qCCCCS/area/韩国","qCCCCS/area/美国"];
 function 头部导航(){
 var res={};var items=[];
 for(var j=0;j<标题.length;j++){
@@ -31,6 +33,8 @@ var 地址=["1","2","3","4","5","13","14","15","16"];var 前="/vodtype/";var 后
 var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("bukaivip.com")!=-1||URL.indexOf("flvweb.com")!=-1||URL.indexOf("ys.80tvs.cn")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
+}else if(URL.indexOf("cms.7a11l.cn")!=-1){
+var 标题=标题5;var 地址=地址5;var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("jxry.cc")!=-1){
 var 标题=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧","福利短视频"];var 地址=["1","2","3","4","6","7","8","9","10","11","12","13","14","15","16","23"];;var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("zhenbuka2.com")!=-1){
