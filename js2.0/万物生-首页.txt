@@ -164,7 +164,7 @@
 },
 {
 "title":"龙虾影视",
-"url":"https://api.lxys.xyz:2020/api.php/app/index_video?token=",
+"url":"http://api.lxys.xyz:2020/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/lxys.png"
 },
 {
