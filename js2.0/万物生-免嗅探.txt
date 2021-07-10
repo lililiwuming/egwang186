@@ -6,7 +6,7 @@ var uu="https://j.languang.wfss100.com/jx/md5.php?url="+id;
 var uu=uu.replace("&down=200","");
 }else if(uu.indexOf("789pan.hd8.pw")!=-1||uu.indexOf("api.parwix")!=-1){
 var id=uu.split("url=")[1];
-var uu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
+var uu="http://vip.gaotian.love/api/?key=930ys99g2M1crzLh7P&url="+id;
 }
 var resp=JZ(JSON.stringify({url:uu}));
 if(uu.indexOf("cokemv.cn")!=-1){
@@ -30,9 +30,6 @@ var uuu="http://u.umao.vp6.top/?url="+uu.replace("wp.umao.vp6.top","umao.v.vp8.t
 }else if(uu.indexOf("languang.wfss100")!=-1){
 var playurl=resp.code.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","https://img");
 JSON.stringify({url:playurl});
-}else if(uu.indexOf("789pan.hd8.pw")!=-1||uu.indexOf("api.parwix")!=-1){
-var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
-JSON.stringify({url:playurl});
 }else if(uu.indexOf("?u=http")!=-1||uu.indexOf("url=")!=-1||uu.indexOf("v=http")!=-1){
 if(resp.code.indexOf("<html")!=-1){
 if(resp.code.search(/<div id="video"/)!=-1||resp.code.search(/<div id="[^"]*?player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1){
@@ -48,7 +45,7 @@ JSON.stringify({url:playurl});
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }else{
 var id=uu.split("url=")[1];
-var uuu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
+var uuu="http://vip.gaotian.love/api/?key=930ys99g2M1crzLh7P&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
 JSON.stringify({url:playurl});
@@ -74,7 +71,7 @@ JSON.stringify({url:playurl});
 "web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }else{
 var id=uu.split("url=")[1];
-var uuu="http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url="+id;
+var uuu="http://vip.gaotian.love/api/?key=930ys99g2M1crzLh7P&url="+id;
 var resp2=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
 JSON.stringify({url:playurl});

@@ -13,7 +13,7 @@ JSON.stringify({url:playurl,headers:{"referer":"https://www.mgtv.com.byteamone.c
 }else if(uu.indexOf("hjjjjhd.top")!=-1){
 var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,headers:{"referer":uu}});
-}else if(uu.indexOf("http://host.q-q.wang/api/?key=40Ca4FLUhuS2rTHMHI&url=")!=-1||uu.indexOf("jx.51wujin.net/analysis/json")!=-1||uu.indexOf("jx.cqzyw.net:8655/")!=-1){
+}else if(uu.indexOf("vip.gaotian.love/api/?key=")!=-1||uu.indexOf("jx.51wujin.net/analysis/json")!=-1||uu.indexOf("jx.cqzyw.net:8655/")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
 var playurl=JSON.parse(resp).url;
 JSON.stringify({url:playurl});
