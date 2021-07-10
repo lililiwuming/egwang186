@@ -163,9 +163,9 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xiaoqingting.png"
 },
 {
-"title":"大师兄影视",
+"title":"龙虾影视",
 "url":"https://hou.lu/api.php/app/index_video?token=",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.webp"
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
 },
 {
 "title":"追剧达人",
