@@ -163,11 +163,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xiaoqingting.png"
 },
 {
-"title":"龙虾影视",
-"url":"http://api.lxys.xyz:2020/api.php/app/index_video?token=",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/lxys.png"
-},
-{
 "title":"大师兄影视",
 "url":"https://hou.lu/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
