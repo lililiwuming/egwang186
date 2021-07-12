@@ -64,7 +64,7 @@ var 列表=e2Arr(getVar("源码"),".get(li.leo-video-item)");
 var 标题规则=".get(a.leo-show).a(title)";var 地址规则=".get(a.leo-show).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(div.leo-video-tips).t().c().get(div.leo-video-remark).t()";单项列表();
 }else if(URL.indexOf("qianoo.cn")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(div.bt_img li)");
-var 标题规则=".get(h3 a).a(title)";var 地址规则=".get(h3 a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";单项列表();
+var 标题规则=".get(h3 a).t()";var 地址规则=".get(h3 a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";单项列表();
 }else if(URL.indexOf("1090ys2.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-\\d col-xs-3])");
 var 标题规则=".get(.title a).a(title)";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";单项列表();
