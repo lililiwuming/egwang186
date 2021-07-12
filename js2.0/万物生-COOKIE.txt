@@ -1,6 +1,6 @@
 var u=getVar("url");
 if(u.indexOf("flvweb.com")!=-1){
-"yyyy";
+"";
 }else{
 "";
 }
