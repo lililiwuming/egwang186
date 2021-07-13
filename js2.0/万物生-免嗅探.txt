@@ -9,7 +9,7 @@ var id=uu.split("url=")[1];
 var uu="http://vip.gaotian.love/api/?key=930ys99g2M1crzLh7P&url="+id;
 }
 if(uu.indexOf("42.51.48.17/?url=")!=-1){
-JSON.stringify({url:uu+"&_type=.mp4"});
+"web="+uu;
 }else{
 var resp=JZ(JSON.stringify({url:uu}));
 if(uu.indexOf("cokemv.cn")!=-1){
