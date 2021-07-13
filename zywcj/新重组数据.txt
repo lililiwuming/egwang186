@@ -29,7 +29,7 @@ JSON.stringify(res);
 var 分类=getVar("源码").match(/<dd[\s\S]*?\/dd>/g);
 var res={};var items=[];
 for(var i=0;i<分类.length;i++){
-var 初列表=分类[i].match(/CDATA\[([\s\S]*?)[#]*?\]/)[1].replace(/\s/g,"")+"#";
+var 初列表=分类[i].match(/CDATA\[([\s\S]*?)[#]*?\]/)[1]+"#";
 var 列表=初列表.match(/.*?#/g);
 var 标题=e2Rex(分类[i],".a(flag)");
 var LIST=[];
