@@ -29,8 +29,8 @@ JSON.stringify(res);
 var 分类=getVar("源码").match(/<dd[\s\S]*?\/dd>/g);
 var res={};var items=[];
 for(var i=0;i<分类.length;i++){
-var 初列表=分类[i].match(/CDATA\[([\s\S]*?)[#]*?\]/)[1]+"#";
-var 列表=初列表.match(/[\S]*?#/g);
+var 初列表=分类[i].match(/CDATA\[([\s\S]*?)[#]*?\]/)[1].replace(/\s/g,"")+"#";
+var 列表=初列表.match(/.*?#/g);
 var 标题=e2Rex(分类[i],".a(flag)");
 var LIST=[];
 for(var j=0;j<列表.length;j++){
@@ -42,7 +42,7 @@ for(var j=0;j<列表.length;j++){
     }else{
     var 选集=j+1;
     }
-    var 选集地址=e2Rex(列表[j],".z2(\\\(http.*?\\\)[\\$|#]).or().z2(\\$\\\(.*?\\\)[$|&|#]).or().z(.*)");
+    var 选集地址=e2Rex(列表[j],".z2(\\(http.*?\\)[\\$|#]).or().z2(\\$\\(.*?\\)[$|&|#]).or().z(.*)");
 //开始根据网址，线路判断前缀
 if(标题=="xhzy"){
       选集地址=选集地址;
