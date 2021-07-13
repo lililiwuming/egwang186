@@ -8,9 +8,6 @@ var uu=uu.replace("&down=200","");
 var id=uu.split("url=")[1];
 var uu="http://vip.gaotian.love/api/?key=930ys99g2M1crzLh7P&url="+id;
 }
-if(uu.indexOf("42.51.48.17/?url=")!=-1){
-JSON.stringify([{name:"播放不了请切换mp4源",url:uu+"&_type=.m3u8"},{name:"mp4",url:uu+"&_type=.mp4"}]);
-}else{
 var resp=JZ(JSON.stringify({url:uu}));
 if(uu.indexOf("cokemv.cn")!=-1){
 var DATA=e2Rex(resp.code,".ty(player_aaaa=).json(url)");
@@ -26,7 +23,11 @@ JSON.stringify({url:playurl});
 }
 }else if(uu.indexOf("baidu.com")!=-1){
 var playurl=uu.split("wd=")[1];
+if(playurl.indexOf("42.51.48.17/?url=")!=-1){
+JSON.stringify([{name:"播放不了请切换mp4源",url:playurl+"&_type=.m3u8"},{name:"mp4",url:playurl+"&_type=.mp4"}]);
+}else{
 JSON.stringify({url:playurl});
+}
 }else if(uu.indexOf("wp.umao.vp6.top")!=-1){
 var uuu="http://u.umao.vp6.top/?url="+uu.replace("wp.umao.vp6.top","umao.v.vp8.top");
 "web="+uuu;
@@ -82,5 +83,4 @@ JSON.stringify({url:playurl});
 }
 }else{
 "web="+uu;
-}
 }
