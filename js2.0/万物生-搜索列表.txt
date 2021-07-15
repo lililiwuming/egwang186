@@ -43,7 +43,7 @@ for(var j=0;j<LIMIT;j++){
     }else if(预图片==""){
     var 图片="https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/kongbai.png";
     }else{
-    var 图片=URL+预图片;
+    var 图片=baseURL+预图片;
     }
     var 简介=e2Rex(CODE,简介规则);
    }
