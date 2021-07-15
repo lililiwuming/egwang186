@@ -73,7 +73,6 @@ var 地址规则=".xml(loc).t().z(\\S+)";搜索列表();
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
 var RSS=baseURL+"/rss?wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:RSS}));
-
 var 列表=e2Arr(源码,".xml(item)");
 var 标题规则=".xml(title).t()";
 var 地址规则=".xml(link).t().z(\\S+).th(https://##)";
@@ -92,7 +91,6 @@ var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";�
 var URL=baseURL+"/index.php/vod/search/page/1/wd/"+KEY+".html";
 var 总源码=JZ(JSON.stringify({url:URL,head:{'Cookie':'ccccc'}}));
 var 源码=总源码.code;
-
 var 列表=e2Arr(源码,".get(ul#searchList li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
@@ -125,7 +123,11 @@ var 地址规则=".get(div.leo-po-ab a).a(href)";
 var 图片规则=".get(img).a(src)";
 var 简介规则=".get(div.leo-detail-media).t()";搜索列表();
 }else if(baseURL.indexOf("cms.7a11l.cn")!=-1||baseURL.indexOf("moyuyingshi.com")!=-1){
+if(baseURL.indexOf("cms.7a11l.cn")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
+}else if(baseURL.indexOf("moyuyingshi.com")!=-1){
+var URL=baseURL+"/vodsearch/-------------/?wd="+KEY;
+}
 var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=e2Arr(源码,".get(div.module-search-item)");
 var 标题规则=".get(h3 a).t()";
