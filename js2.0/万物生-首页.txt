@@ -63,6 +63,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhixinys.png"
 },
 {
+"title":"墨鱼影视",
+"url":"http://www.moyuyingshi.com",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/moyuyingshi.png"
+},
+{
 "title":"COKEMV影视",
 "url":"https://cokemv.cn",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cokemv.png"
