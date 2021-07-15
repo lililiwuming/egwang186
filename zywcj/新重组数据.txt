@@ -67,6 +67,8 @@ if(标题=="xhzy"){
       选集地址="http://vip.gaotian.love/api/?key=930ys99g2M1crzLh7P&url="+选集地址;
 }else if(标题=="lekanzyw"){
       选集地址="http://player.ojbkjx.com/?url="+选集地址;
+}else if(标题=="wolong"){
+      选集地址="https://jx.wolongcdn.com/?url="+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
       选集地址="https://jx.fqzy.cc/jx.php?url="+选集地址;
 }else if(选集地址.indexOf('wp.umao.vp6.top')!=-1){
