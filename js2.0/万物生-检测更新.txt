@@ -1,4 +1,4 @@
-<a class="版本">20210716</a>
+<a class="版本">20210717</a>
 <ul class="默认提示">
 <li title="已是最新版，如有BUG可点此反馈"><font color="blue"><b>已是最新版，如有BUG可点此反馈</b></font>
 <p>http://wpa.qq.com/msgrd?v=3&uin=1260957445&site=qq&menu=yes</p>
