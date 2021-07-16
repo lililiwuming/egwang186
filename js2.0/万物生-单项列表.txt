@@ -27,6 +27,8 @@ for(var j=0;j<列表.length;j++){
     var 图片=预图片;
     }else if(预图片==""){
     var 图片="https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/kongbai.png";
+    }else if(预图片.indexOf("//")!=-1){
+    var 图片="http:"+预图片;
     }else{
     var 图片=URL+预图片;
     }
