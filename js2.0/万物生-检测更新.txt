@@ -1,7 +1,7 @@
 <a class="版本">20210717</a>
 <ul class="默认提示">
 <li title="已是最新版，如有BUG可点此反馈"><font color="blue"><b>已是最新版，如有BUG可点此反馈</b></font>
-<p>http://wpa.qq.com/msgrd?v=3&uin=1260957445&site=qq&menu=yes</p>
+<p>mqqwpa://im/chat?chat_type=wpa&uin=1260957445</p>
 </li></ul>
 <ul class="更新提示">
 <li><font color="red"><b>有新版本!!! 点击安装更新  1. 单一搜索版本</b></font>
