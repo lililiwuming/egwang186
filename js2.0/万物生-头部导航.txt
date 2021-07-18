@@ -37,6 +37,8 @@ var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/show/id/";var 后=
 var 标题=标题5;var 地址=地址5;var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("moyuyingshi.com")!=-1){
 var 标题=标题4;var 地址=地址4;var 前="/vodtype/";var 后="-#PN#/";头部导航();
+}else if(URL.indexOf("jiujiuyc.com")!=-1){
+var 标题=["电影","电视剧","综艺","动漫"];var 地址=["1","2","3","4"];var 前="/type/";var 后="/#PN#.html";头部导航();
 }else if(URL.indexOf("vdxj.net")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vodshow/";var 后="--------#PN#---.html";头部导航();
 }else if(URL.indexOf("jxry.cc")!=-1){
