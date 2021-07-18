@@ -1,6 +1,6 @@
 var u=getVar("url");
 if(u.indexOf("flvweb.com")!=-1){
-var cookie=JZ(JSON.string({url:u})).head['Set-Cookie'];
+var cookie=JZ(JSON.stringify({url:u})).head['Set-Cookie'];
 if(cookie.indexOf("guard=")==-1){
 "";
 }else{
