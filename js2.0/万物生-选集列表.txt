@@ -33,9 +33,12 @@ for(var i=0;i<分类.length;i++){
                                                return regex.test(text);
                                                });
                               });
-alert(JSON.stringify(可用接口));
        if(可用接口[0].indexOf("=")!=-1){
-       var 接口="http:"+可用接口[0].match(/\/\/.*=/)[0].replace("..",".");
+          if(可用接口[0].indexOf("http")!=-1){
+          var 接口=可用接口[0].match(/.*(url|v|vid)=/)[0].replace("..",".");
+          }else{
+          var 接口="http:"+可用接口[0].match(/\/\/.*(url|v|vid)=/)[0].replace("..",".");
+          }
        }else{
        var 接口="";
        }
