@@ -29,7 +29,7 @@ for(var i=0;i<分类.length;i++){
             }else if(PARSE2.indexOf("=")!=-1){
                if(PARSE2.indexOf("url=")!=-1||PARSE2.indexOf("v=")!=-1){
                   if(PARSE2.match(/\/\/[^,]*?[u|v]r?l?=/)[0].indexOf("vip.parwix.com:4433/player/?url=")!=-1){
-                  var 接口="http:"+PARSE2.match(/\/\/[^,]*?[u|v]r?l?=/)[1];
+                  var 接口="http:"+PARSE2.split(",")[1].match(/\/\/[^,]*?[u|v]r?l?=/)[0].replace("..",".");
                   }else{
                   var 接口="http:"+PARSE2.match(/\/\/[^,]*?[u|v]r?l?=/)[0].replace("..",".");
                   }
