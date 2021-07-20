@@ -133,6 +133,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/fenfenyingshi.png"
 },
 {
+"title":"麻瓜影院",
+"url":"http://myapp.maguays.cc/mogai_api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/maguays.png"
+},
+{
 "title":"淘剧社",
 "url":"http://app.shuhai99.com/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/taojushe.png"
