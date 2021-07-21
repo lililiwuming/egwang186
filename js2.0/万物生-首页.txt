@@ -18,11 +18,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ak1080.png"
 },
 {
-"title":"思古影视",
-"url":"https://www.siguyy.com",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/siguyy.png"
-},
-{
 "title":"厂长资源",
 "url":"https://www.qianoo.cn",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/changzhang.png"
