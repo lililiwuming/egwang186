@@ -62,7 +62,7 @@ var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(hre
 }else if(URL.indexOf("ys.80tvs.cn")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.list-width)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(div.lazy).a(data-original)";var 简介规则=".get(span).st().t().c().get(div.bt).t()";普通列表();
-}else if(URL.indexOf("jxry.cc")!=-1){
+}else if(URL.indexOf("jxry.cc")!=-1||URL.indexOf("cjt521.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.leo-video-item)");
 var 标题规则=".get(a.leo-show).a(title)";var 地址规则=".get(a.leo-show).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(div.leo-video-tips).t().c().get(div.leo-video-remark).t()";普通列表();
 }else if(URL.indexOf("qianoo.cn")!=-1){
