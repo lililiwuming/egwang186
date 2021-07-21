@@ -28,12 +28,8 @@ for(var i=0;i<分类.length;i++){
        var 过滤规则=[
 /jx\.huimaojia\.com\/player/,/py\.789pan\.cn\/player\/tm\.php\?url=/,/ztys\.waruanzy\.com\/player\/\?url=/,/yingshi\.waruanzy\.com\/789pan\/\?url=/,/vip\.parwix\.com:4433\/player\/\?url=/
 ];
-       var 可用接口=总接口.filter(function (text) {
-                              return !过滤规则.some(function (regex) {
-                                               return regex.test(text);
-                                               });
-                              });
-       if(可用接口[0].indexOf("=")!=-1){
+       var 可用接口=总接口.filter(function (text) {return !过滤规则.some(function (regex) {return regex.test(text);});});
+       if(JSON.stringify(可用接口).indexOf("=")!=-1){
           if(可用接口[0].indexOf("http")!=-1){
           var 接口=可用接口[0].match(/.*(url|v|vid)=/)[0].replace("..",".");
           }else{
