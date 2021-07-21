@@ -43,6 +43,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/tvblogo.png"
 },
 {
+"title":"耐看点播",
+"url":"https://www.nkvod.com",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nkvod.png"
+},
+{
 "title":"七夕影视",
 "url":"https://ys.80tvs.cn",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qixi.png"
