@@ -14,9 +14,9 @@ var 地址2=["1&class=&area=&lang=&year=","2&class=&area=&lang=&year=","3&class=
 var 标题3=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","大陆剧","香港剧","台湾剧","日本剧","韩国剧","美国剧"];
 var 地址3=["movie&start=&area=&type=","tvplay&start=&area=&type=","tvshow&start=&area=&type=","comic&start=&area=&type=","movie&start=&area=&type=动作","movie&start=&area=&type=喜剧","movie&start=&area=&type=爱情","movie&start=&area=&type=科幻","movie&start=&area=&type=恐怖","movie&start=&area=&type=剧情","movie&start=&area=&type=战争","tvplay&start=&area=大陆&type=","tvplay&start=&area=香港&type=","tvplay&start=&area=台湾&type=","tvplay&start=&area=日本&type=","tvplay&start=&area=韩国&type=","tvplay&start=&area=美国&type="];
 var 标题4=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国语配音韩剧","最近热播剧","热播美剧","国产剧","港台剧","日韩剧","欧美剧"];
-var 标题4-1=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧"];
+var 标题41=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧"];
 var 地址4=["dianying","lianxuju","zongyi","dongman","dongzuopian","xijupian","aiqingpian","kehuanpian","kongbupian","juqingpian","zhanzhengpian","guoyupeiyinhanju","zuijinrebodianshiju","rebomeiju","guochanju","gangtaiju","rihanju","oumeiju"];
-var 地址4-1=["dianying","lianxuju","zongyi","dongman","dongzuopian","xijupian","aiqingpian","kehuanpian","kongbupian","juqingpian","zhanzhengpian","guochanju","gangtaiju","rihanju","oumeiju"];
+var 地址41=["dianying","lianxuju","zongyi","dongman","dongzuopian","xijupian","aiqingpian","kehuanpian","kongbupian","juqingpian","zhanzhengpian","guochanju","gangtaiju","rihanju","oumeiju"];
 var 标题5=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港剧","台剧","日剧","韩剧","美剧"];
 var 地址5=["SCCCCS","qCCCCS","xCCCCS","ICCCCS","SCCCCS/class/动作","SCCCCS/class/喜剧","SCCCCS/class/爱情","SCCCCS/class/科幻","SCCCCS/class/恐怖","SCCCCS/class/剧情","SCCCCS/class/战争","qCCCCS/area/内地","qCCCCS/area/香港","qCCCCS/area/台湾","qCCCCS/area/日本","qCCCCS/area/韩国","qCCCCS/area/美国"];
 function 头部导航(){
@@ -38,7 +38,7 @@ var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/show/id/";var 后=
 }else if(URL.indexOf("cms.7a11l.cn")!=-1){
 var 标题=标题5;var 地址=地址5;var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("moyuyingshi.com")!=-1){
-var 标题=标题4-1;var 地址=地址4-1;var 前="/vodtype/";var 后="-#PN#/";头部导航();
+var 标题=标题41;var 地址=地址41;var 前="/vodtype/";var 后="-#PN#/";头部导航();
 }else if(URL.indexOf("nkvod.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#/";头部导航();
 }else if(URL.indexOf("jiujiuyc.com")!=-1){
