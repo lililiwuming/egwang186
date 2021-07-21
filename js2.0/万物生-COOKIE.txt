@@ -1,13 +1,6 @@
 var u=getVar("url");
 if(u.indexOf("flvweb.com")!=-1){
-var cookie=JZ(JSON.stringify({url:u})).head['Set-Cookie'];
-if(cookie.indexOf("guard=")==-1){
 "";
-}else{
-var guard=cookie.match(/guard=(.*?);/)[1];
-var time=cookie.match(/;.*/)[0];
-var _0x92c9x7=guard.substr(0,8);var _0x92c9x8=guard.substr(12);var _0x92c9x9=CryptoJS.enc.Latin1.parse(CryptoJS.MD5(_0x92c9x7).toString());var _0x92c9xa=CryptoJS.AES.decrypt(_0x92c9x8,_0x92c9x9,{iv:_0x92c9x9});var _0x92c9xb=parseInt(_0x92c9xa.toString(CryptoJS.enc.Utf8));var _0x92c9xc=_0x92c9xb+10;var _0x92c9xd=CryptoJS.AES.encrypt(_0x92c9xc.toString(),_0x92c9x9,{iv:_0x92c9x9});var _0x92c9xe=_0x92c9xd.toString();"guard="+guard+";guardret="+_0x92c9xe;
-}
 }else{
 "";
 }
