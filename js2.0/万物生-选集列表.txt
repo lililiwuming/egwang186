@@ -76,18 +76,10 @@ res.data=items;
 res.desc=detail;
 return JSON.stringify(res);
 }
-if(URL.indexOf("cokemv.cn")!=-1||URL.indexOf("9ehao.com")!=-1){
-var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
-var 线路=getVar("源码").match(/<ul class="nav nav-tabs[\s\S]*?\/ul>/)[0].match(/<li.*?><a href=".*?\/a><\/li>/g);
+if(URL.indexOf("siguyy.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("cokemv.cn")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1){
+var 分类=e2Arr(getVar("源码"),".get(ul.myui-content__list)");
+var 线路=e2Arr(getVar("源码"),".get(ul.nav.nav-tabs li)");
 var 简介=e2Rex(getVar("源码"),".get(div.col-pd.text-collapse.content)");
-var 列表规则=".get(li)";
-var 标题规则=".get(a).t()";
-var 选集规则=".get(a).t()";
-var 选集地址规则=".get(a).a(href)";选集列表();
-}else if(URL.indexOf("jpysvip.net")!=-1){
-var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
-var 线路=getVar("源码").match(/<ul class="nav nav-tabs[\s\S]*?\/ul>/)[0].match(/<li.*?><a href=".*?\/a><\/li>/g);
-var 简介=e2Rex(getVar("源码"),".get(div[class~=.*?ui-content__detail])");
 var 列表规则=".get(li)";
 var 标题规则=".get(a).t()";
 var 选集规则=".get(a).t()";
@@ -122,14 +114,6 @@ var 线路=getVar("源码").match(/<span class="more text-[\s\S]*?\/span>/g);
 var 简介=e2Rex(getVar("源码"),".get(div.myui-content__detail)");
 var 列表规则=".get(li)";
 var 标题规则=".get(span).t()";
-var 选集规则=".get(a).t()";
-var 选集地址规则=".get(a).a(href)";选集列表();
-}else if(URL.indexOf("siguyy.com")!=-1){
-var 分类=getVar("源码").match(/<ul class="myui-content__list[\s\S]*?\/ul>/g);
-var 线路=getVar("源码").match(/<ul class="nav nav-tabs[\s\S]*?\/ul>/)[0].match(/<li.*?><a href=".*?\/a><\/li>/g);
-var 简介=e2Rex(getVar("源码"),".get(div.myui-content__detail)");
-var 列表规则=".get(li)";
-var 标题规则=".get(a).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("ak1080.com")!=-1){

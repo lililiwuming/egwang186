@@ -7,7 +7,6 @@ var baseURL=baseURL.split("index_video")[0];
 }else if(baseURL.indexOf("api.php/iptv/vod")!=-1){
 var baseURL=baseURL.split("?ac=list")[0];
 }
-var UA="Mozilla/5.0";
 function 搜索列表(){
 var res={};var items=[];var LIST=[];
 if(baseURL.indexOf("zhenbuka2.com")!=-1){
@@ -91,7 +90,7 @@ var 图片规则=".get(a).a(data-original)";
 var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";搜索列表();
 }else if(baseURL.indexOf("flvweb.com")!=-1){
 var URL=baseURL+"/index.php/vod/search/page/1/wd/"+KEY+".html";
-var 总源码=JZ(JSON.stringify({url:URL,head:{'Cookie':'ccccc'}}));
+var 总源码=JZ(JSON.stringify({url:URL}));
 var 源码=总源码.code;
 var 列表=e2Arr(源码,".get(ul#searchList li)");
 var 标题规则=".get(.title a).t()";
@@ -100,7 +99,7 @@ var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
 }else if(baseURL.indexOf("ak1080.com")!=-1){
 var URL=baseURL+"/vodsearch/"+KEY+"----------1---.html";
-var 总源码=JZ(JSON.stringify({url:URL,head:{'user-agent':UA}}));
+var 总源码=JZ(JSON.stringify({url:URL}));
 var 源码=总源码.code;
 var 列表=e2Arr(源码,".get(dl.mo-deta-info.mo-cols-rows)");
 var 标题规则=".get(h1 a).t()";
@@ -150,16 +149,16 @@ var 图片规则=".get(img).a(data-original)";
 var 简介规则=".get(div.v_note).t()";搜索列表();
 }else if(baseURL.indexOf("tvyb02.com")!=-1||baseURL.indexOf("9ehao.com")!=-1){
 var URL=baseURL+"/vod/search.html?wd="+KEY+"&submit=";
-var 总源码=JZ(JSON.stringify({url:URL,head:{'user-agent':UA}}));
+var 总源码=JZ(JSON.stringify({url:URL}));
 var 源码=总源码.code;
 var 列表=e2Arr(源码,".get(ul#searchList li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span).st().t().c().get(div.detail).t()";搜索列表();
-}else if(baseURL.indexOf("siguyy.com")!=-1){
-var URL=baseURL+"/search/-------------.html?wd="+KEY+"&submit=";
-var 源码=getHttp(JSON.stringify({url:URL,head:{'user-agent':UA}}));
+}else if(baseURL.indexOf("dijiaxia.com")!=-1){
+var URL=baseURL+"/index.php/vod/search.html?wd="+KEY+"&submit=";
+var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=e2Arr(源码,".get(ul[class~=ui-vodlist__media] li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
