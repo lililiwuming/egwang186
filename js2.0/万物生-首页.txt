@@ -78,6 +78,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dijiaxia.png"
 },
 {
+"title":"不二追剧",
+"url":"https://wlchx.com",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/wlchx.png"
+},
+{
 "title":"久久影视",
 "url":"https://www.jiujiuyc.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jiujiuyc.png"
