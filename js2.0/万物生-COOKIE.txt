@@ -1,6 +1,0 @@
-var u=getVar("url");
-if(u.indexOf("flvweb.com")!=-1){
-"";
-}else{
-"";
-}
