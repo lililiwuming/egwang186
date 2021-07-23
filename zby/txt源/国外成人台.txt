@@ -1,7 +1,7 @@
 Barely Legal TV,http://37.235.199.92:4022/udp/225.50.70.4:1234?type=.mp4
 Free X TV,http://37.235.199.92:4022/udp/225.50.70.5:1234?type=.mp4
 Super One HD,http://185.96.176.139:8080/superone/index.m3u8
-Extasy,http://185.96.176.139:8080/extasy/index.m3u8
+Extasy 4K,http://185.183.34.118/iptv/F59KKDMP2GN7ZB/5014/index.m3u8
 Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.mp4
 HustlerHD,http://51.15.0.141:88/hustlerhd/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/hustlerhd/mpegts.mp4
 EROX HD,http://185.97.150.19:8082/live/158.mp4
