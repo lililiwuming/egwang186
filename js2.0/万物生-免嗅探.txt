@@ -46,7 +46,7 @@ var resp2=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
 JSON.stringify({url:playurl});
 }else if(uu.split("url=")[1].indexOf("http")!=-1){
-"web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
+"web=https://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }else{
 var id=uu.split("url=")[1];
 var uuu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
@@ -72,7 +72,7 @@ var resp2=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
 JSON.stringify({url:playurl});
 }else if(uu.split("url=")[1].indexOf("http")!=-1){
-"web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
+"web=https://egwang186.gitee.io/?url="+uu.split("url=")[1];
 }else{
 var id=uu.split("url=")[1];
 var uuu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
