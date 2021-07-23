@@ -1,20 +1,19 @@
-Playboy TV,http://p2p.casaplay.cf:80/live/sidnei/102030/3720.m3u8
-XXX - Sextreme,http://p2p.casaplay.cf:80/live/sidnei/102030/4962.m3u8
-XXX - Sexy Hot,http://p2p.casaplay.cf:80/live/sidnei/102030/4965.m3u8
 Barely Legal TV,http://37.235.199.92:4022/udp/225.50.70.4:1234?type=.mp4
 Free X TV,http://37.235.199.92:4022/udp/225.50.70.5:1234?type=.mp4
-EXTASY HD/LEO TV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
 Super One HD,http://185.96.176.139:8080/superone/index.m3u8
+Extasy,http://185.96.176.139:8080/extasy/index.m3u8
 Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.mp4
 HustlerHD,http://51.15.0.141:88/hustlerhd/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/hustlerhd/mpegts.mp4
-EROX HD,http://185.97.150.19:8082/live/158.m3u8
-Miss Russian night,http://185.97.150.19:8082/live/159.m3u8
-XXL,http://185.97.150.19:8082/live/360.m3u8
-O-La-La,http://185.97.150.19:8082/live/361.m3u8
-ERO XXX HD,http://185.97.150.19:8082/live/362.m3u8
-Brazzers TV Europe,http://185.97.150.19:8082/live/364.m3u8
-Redlight HD,http://185.97.150.19:8082/live/365.m3u8
-Private HD,http://185.97.150.19:8082/live/366.m3u8
+EROX HD,http://185.97.150.19:8082/live/158.mp4
+Miss Russian night,http://185.97.150.19:8082/live/159.mp4
+XXL,http://185.97.150.19:8082/live/360.mp4
+O-La-La,http://185.97.150.19:8082/live/361.mp4
+ERO XXX HD,http://185.97.150.19:8082/live/362.mp4
+Brazzers TV Europe,http://185.97.150.19:8082/live/364.mp4
+Redlight HD,http://185.97.150.19:8082/live/365.mp4
+Private HD,http://185.97.150.19:8082/live/366.mp4
+A3Bikini TV,https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/seglist_720p.m3u8?fluxustv.m3u8
+FTV Midnight Secrets (UHD),http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
 AST TV 1 HQ,https://www.ast.tv/stream/1/ultra.m3u8
 AST TV 2 HQ,https://www.ast.tv/stream/2/ultra.m3u8
 Filmon TV 1 (18+),http://www.filmon.com/vr-streams/6170.high/playlist.m3u8
@@ -26,7 +25,6 @@ Pink Erotic 2,http://91.212.150.248/PinkErotic2/index.m3u8
 [RU]Шелк HD,http://194.190.78.91:8080/shelk/index.m3u8
 Shemale Tube TV HD (21+),https://www.ast.tv/stream/1/ultra.m3u8
 Shemale Tube TV 2 HD (21+),https://www.ast.tv/stream/2/ultra.m3u8
-Visit-X TV HD 720,http://194.116.150.47:1935/vxtv/live_720p/chunklist_w1156491225.m3u8
 SHELK SD (18+),http://live-1.otcnet.ru/shelksd/index.m3u8
 SHELK (18+),http://live-1.otcnet.ru/shelk/index.m3u8
 Jasmin TV HD (18+),http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
@@ -34,6 +32,7 @@ Miami TV (18+),http://59ec5453559f0.streamlock.net:1935/miamitv/smil:miamitvROKU
 Miami TV Jenny For You (18+),http://59ec5453559f0.streamlock.net:1935/jennyforyou/jennyforyou/playlist.m3u8
 Miami TV Jenny Live (18+),http://59ec5453559f0.streamlock.net:1935/JennyLive/JennyLive/playlist.m3u8
 Miami TV Promo (18+),http://59ec5453559f0.streamlock.net:1935/mexicotv/smil:miamitvmexico/chunklist_b1896000.m3u8
+Miami TV Latino,https://59ec5453559f0.streamlock.net/canal18/smil:canal18/chunklist_w577650521_b2592000.m3u8
 自然,http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 海底,http://live-1.otcnet.ru/podvodoi/index.m3u8
 SOCHI,http://sochi.camera:8080/cam_359/tracks-v1a1/index.m3u8
