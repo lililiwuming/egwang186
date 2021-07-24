@@ -57,9 +57,9 @@ var 前="/list/";var 后="-#PN#.html";头部导航();
 var 标题=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","传记","国产剧","美剧","港台剧","韩剧","日剧","英剧","泰剧","内地综艺","港台综艺","韩国综艺","欧美综艺","日韩动漫","国产动漫","欧美动漫","动漫电影"];
 var 地址=["dianying","lianxuju","zongyi","dongman","dongzuopian","xijupian","aiqingpian","kehuanpian","kongbupian","juqingpian","zhanzhengpian","zhuanji","guochanju","meiju","gangtaiju","hanju","riju","yingju","taiju","zdzy","gtzy","variety","oumeizongyi","rihan","guoman","oumei","catoon"];
 var 前="/show/";var 后="--------#PN#---.html";头部导航();
-}else if(URL.indexOf("nfxhd.com")!=-1){
-var 标题=["电影","美剧","日韩"];
-var 地址=["movie","tvplay","tvshow"];var 前="/vodtype/";var 后="-#PN#/";头部导航();
+}else if(URL.indexOf("zxzj.me")!=-1){
+var 标题=["电影","美剧","韩剧","日剧","泰剧","动漫"];
+var 地址=["1","2","3","4","5","6"];var 前="/list/";var 后="-#PN#.html/";头部导航();
 }else if(URL.indexOf("tvyb02.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vod/type/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("siguyy.com")!=-1){
