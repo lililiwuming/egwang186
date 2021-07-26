@@ -70,7 +70,7 @@ if(标题=="xhzy"){
 }else if(标题=="789pan"||标题=="pll"){
       选集地址="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+选集地址;
 }else if(标题=="lekanzyw"){
-      选集地址="http://player.ojbkjx.com/?url="+选集地址;
+      选集地址="https://dd.ojbkjx.com/player4/m3u8.php?url=l"+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
       选集地址="https://jx.fqzy.cc/jx.php?url="+选集地址;
 }else if(选集地址.indexOf('wp.umao.vp6.top')!=-1){
