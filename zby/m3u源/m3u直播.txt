@@ -5,7 +5,6 @@ EDEM-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3
 IPTVSTREAM-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/IPTVSTREAM-ADULT.txt
 SVRHOST-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/SVRHOST-ADULT.txt
 EVOLVED-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/EVOLVED-ADULT.txt
-MAINS-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/MAINS-ADULT.txt
 VITVABC-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/VITVABC-ADULT.txt
 AdultsTopPlay,http://topplay.do.am/AdultsTopPlay.m3u
 XXX-iptv-org,https://iptv-org.github.io/iptv/categories/xxx.m3u
