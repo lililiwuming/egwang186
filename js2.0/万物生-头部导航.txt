@@ -29,7 +29,7 @@ for(var j=0;j<标题.length;j++){
 res.data=items;
 return JSON.stringify(res);
 }
-if(URL.indexOf("cokemv.cn")!=-1){
+if(URL.indexOf("cokemv.co")!=-1){
 var 标题=["电影","电视剧","综艺","动漫","抖音电影","大陆剧","港剧","韩剧","欧美剧"];
 var 地址=["1","2","3","4","5","13","14","15","16"];var 前="/vodtype/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("jpysvip.net")!=-1||URL.indexOf("ak1080.com")!=-1){
