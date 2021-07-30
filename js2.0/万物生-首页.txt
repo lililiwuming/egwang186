@@ -99,7 +99,7 @@
 },
 {
 "title":"COKEMV影视",
-"url":"https://cokemv.cn",
+"url":"https://cokemv.co",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cokemv.png"
 },
 {
