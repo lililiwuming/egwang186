@@ -148,6 +148,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/meinaikang.png"
 },
 {
+"title":"初心影视",
+"url":"https://www.18mv.club/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/18mv.png"
+},
+{
 "title":"大熊追剧",
 "url":"http://www.dxzj88.com/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/daxiongzhuiju.png"
