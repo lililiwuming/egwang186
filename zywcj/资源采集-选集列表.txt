@@ -1,3 +1,4 @@
+var URL=getVar("url");
 function 选集列表(){
 var res={};var items=[];var detail=[];
 for(var i=0;i<分类.length;i++){
