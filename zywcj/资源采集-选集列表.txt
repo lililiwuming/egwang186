@@ -89,7 +89,7 @@ return JSON.stringify(res);
 }
 if(getVar("源码").indexOf("<rss")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(dd)");
-var 简介=e2Rex(getVar("源码"),".get(des).t()");
+var 简介=e2Rex(getVar("源码"),".c(类型:).xml(type).c(<br>演员表:).xml(actor).c(<br>简介:).xml(des)");
 var 列表规则=".z2(CDATA\\[\\([\\s\\S]*?\\)[#]*?\\]).ct(#).z(.*?#)";
 var 标题规则=".a(flag)";
 var 选集规则=".tz($)";
