@@ -30,7 +30,7 @@ var play_={};
 play_.list=LIST;
 items.push(play_);
 res.data=items;
-if(getVar("前")){
+if(getVar("前")!=null){
 res.nextpage=getVar("前")+NEXTPAGE+getVar("后");
 }else{
 res.nextpage=getVar("Url")+"?ac=显示&pg="+NEXTPAGE;
