@@ -1,3 +1,4 @@
+var NEXTPAGE=Number(getVar("PN"))+1;
 function 通用列表(){
 var res={};var items=[];var LIST=[];
 var LIMIT=列表.length;
@@ -29,6 +30,7 @@ var play_={};
 play_.list=LIST;
 items.push(play_);
 res.data=items;
+res.nextpage=getVar("前")+NEXTPAGE+getVar("后");
 return JSON.stringify(res);
 }
 var 源码=getVar("源码");
