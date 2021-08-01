@@ -1,0 +1,21 @@
+var URL=getVar("url");
+function 头部导航(){
+var res={};var items=[];
+for(var j=0;j<列表.length;j++){
+     var 标题=e2Arr(列表[j],标题规则);
+     var 地址=e2Arr(列表[j],地址规则);
+     分类地址=URL+前+地址+后;
+     items.push({title:标题,url:分类地址});
+}
+res.data=items;
+return JSON.stringify(res);
+}
+var 源码=getCode();
+if(源码.indexOf("<rss")!=-1){
+var 列表=e2Arr(源码,".xml(class ty)");
+var 标题规则=".t()";
+var 地址规则=".a(id)";var 前="?ac=显示&pg=#PN#&t=";var 后="";头部导航();
+}else{
+var 列表=e2Arr(源码,".json(class)");
+var 标题=".json(type_name)";var 地址=".json(type_id)";var 前="?ac=显示&pg=#PN#&t=";var 后="";头部导航();
+}
