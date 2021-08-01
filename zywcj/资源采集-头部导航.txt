@@ -17,5 +17,5 @@ var 标题规则=".t()";
 var 地址规则=".a(id)";var 前="?ac=显示&pg=#PN#&t=";var 后="";头部导航();
 }else{
 var 列表=e2Arr(源码,".json(class)");
-var 标题=".json(type_name)";var 地址=".json(type_id)";var 前="?ac=显示&pg=#PN#&t=";var 后="";头部导航();
+var 标题规则=".json(type_name)";var 地址规则=".json(type_id)";var 前="?ac=显示&pg=#PN#&t=";var 后="";头部导航();
 }
