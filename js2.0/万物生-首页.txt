@@ -18,11 +18,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ak1080.png"
 },
 {
-"title":"思古影院",
-"url":"http://www.siguyy.com",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/siguyy.png"
-},
-{
 "title":"陈家影视",
 "url":"https://www.cjt521.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cjt521.png"

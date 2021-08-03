@@ -33,8 +33,11 @@ var URL=getVar("Url")+"?wd="+getVar("KEY");
 var 源码=getHttp(JSON.stringify({url:URL}));
 if(源码.indexOf("<rss")!=-1){
 var 列表=e2Arr(源码,".xml(video)");
-var 标题规则=".xml(name).ty(CDATA).tz2(])";var 地址规则=".c(?ac=videolist&ids=).xml(id).z(\\d+)
-";var 图片规则=".xml(pic).t().z(http.*\\S).th( ##%20)";var 简介规则=".c(<font color="#0997F7"><b>).xml(dt).t().c(</b></font><br>).xml(last).t()";var 作者规则=".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\">).xml(note).t().ct(</font></p>)";搜索列表();
+var 标题规则=".xml(name).ty(CDATA).tz2(])";
+var 地址规则=".c(?ac=videolist&ids=).xml(id).z(\\d+)";
+var 图片规则=".xml(pic).t().z(http.*\\S).th( ##%20)";
+var 简介规则=".c(<font color=\"#0997F7\"><b>).xml(dt).t().c(</b></font><br>).xml(last).t()";
+var 作者规则=".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\">).xml(note).t().ct(</font></p>)";搜索列表();
 }else{
 var 列表=e2Arr(源码,".json(list)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(?ac=videolist&ids=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(type_name).c().json(vod_time).c().json(vod_remarks)";var 作者规则=".json(vod_play_from)";搜索列表();
