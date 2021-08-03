@@ -9,7 +9,6 @@ GoodTV 愛旅行台,https://live-350k.streamingfast.net/hls-live/goodtv/_definst
 GoodTV 共享觀點,https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch19-2.m3u8
 GoodTV 真情部落,https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch3-2.m3u8
 NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
-爆谷台,http://194.50.170.148:19080/hls/now_bg.m3u8
 中视新闻,http://seb.sason.top/sc/zsxw_fhd.m3u8
 华视新闻,http://seb.sason.top/sc/hsxw_fhd.m3u8
 台视新闻,http://seb.sason.top/sc/tsxw_fhd.m3u8
@@ -18,34 +17,15 @@ NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.
 三立台湾,http://198.16.106.62:8278/streams/d/sanlitaiwan/playlist.m3u8
 三立INEWS,http://seb.sason.top/sc/slinews_fhd.m3u8
 三立LIVE新闻,http://seb.sason.top/sc/sllive_fhd.m3u8
-中天新闻,http://198.16.106.62:8278/streams/d/ctinews/playlist.m3u8#http://seb.sason.top/sc/ztxw_fhd.m3u8
-中天娱乐,http://198.16.106.62:8278/streams/d/ctient/playlist.m3u8
+中天新闻,http://seb.sason.top/sc/ztxw_fhd.m3u8
 中天综合,http://198.16.106.62:8278/streams/d/ctizhonghe/playlist.m3u8
 东森新闻,http://seb.sason.top/sc/dsxw_fhd.m3u8
 TVBS新闻,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
-寰宇新闻,http://www.hrpan.tk/hls/hy_xwt.m3u8
-中视,rtmp://59.124.75.130/sat/tv091
-华视,rtmp://59.124.75.130/sat/tv111
-台视,rtmp://59.124.75.130/sat/tv071
-民视,rtmp://59.124.75.130/sat/tv051#http://198.16.106.62:8278/streams/d/ftvhd_taiwan/playlist.m3u8
+民视,http://198.16.106.62:8278/streams/d/ftvhd_taiwan/playlist.m3u8
 民视台湾台,http://198.16.106.62:8278/streams/d/ftvtaiwan_twn/playlist.m3u8
 TVBS,http://198.16.106.62:8278/streams/d/tvbs/playlist.m3u8
-TVBS·欢乐台,rtmp://59.124.75.130/sat/tv422#http://198.16.106.62:8278/streams/d/tvbsgbk_twn/playlist.m3u8
-TVBS·新闻台,rtmp://59.124.75.130/sat/tv552#http://198.16.106.62:8278/streams/d/tvbs_n/playlist.m3u8
-纬来体育,rtmp://59.124.75.130/sat/tv721
-纬来育乐,rtmp://59.124.75.157/sat/tv701
+TVBS·欢乐台,http://198.16.106.62:8278/streams/d/tvbsgbk_twn/playlist.m3u8
+TVBS·新闻台,http://198.16.106.62:8278/streams/d/tvbs_n/playlist.m3u8
 纬来电影台,http://198.16.106.62:8278/streams/d/videolandmovie_zero/playlist.m3u8
-纬来日本,rtmp://59.124.75.130:1935/sat/tv521
-纬来精采,https://usb.bozztv.com/ttvbHD/index.m3u8
 天映电影,http://50.7.161.82:8277/streams/d/celestial_pye/playlist.m3u8
 天映经典,http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8
-爱尔达体育一,rtmp://59.124.75.157/sat/md011
-东森超视,rtmp://59.124.75.130/sat/tv772
-博斯魅力,rtmp://59.124.75.130/sat/md042
-东森财经新闻,rtmp://59.124.75.130:1935/sat/tv571
-MoMo综合台,rtmp://59.124.75.157/sat/tv761
-TVBS欢乐,rtmp://59.124.75.130:1935/sat/tv421
-TVBS新闻,rtmp://59.124.75.130:1935/sat/tv551
-Mono综合,rtmp://59.124.75.130:1935/sat/tv761
-FOX体育,rtmp://59.124.75.130:1935/sat/tv731
-FOX2体育,rtmp://59.124.75.130:1935/sat/tv741
