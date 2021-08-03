@@ -30,6 +30,8 @@ if(标题=="xhzy"){
       选集地址="https://www.baidu.com/s?wd=https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
 }else if(标题=="wolong"){
       选集地址="https://jx.wolongcdn.com/?url="+选集地址;
+}else if(URL.indexOf("api.yunboys.cn")!=-1){
+      选集地址="https://jx.yunboys.cn/?url="+选集地址;
 }else if(选集地址.indexOf(".m3u8")!=-1||选集地址.indexOf(".mp4")!=-1){
       选集地址="https://www.baidu.com/s?wd="+选集地址;
 }else if(URL.indexOf("qbzyz.com")!=-1){
