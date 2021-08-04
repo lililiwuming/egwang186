@@ -36,7 +36,7 @@ for(var i=0;i<分类.length;i++){
           var 接口="http:"+可用接口[0].match(/\/\/.*(url|v|vid)=/)[0].replace("..",".");
           }
        }else{
-       var 接口="";
+       var 接口="http://egwang186.gitee.io/?url=";
        }
     }else if(URL.indexOf("api.php/app/")!=-1){
     var 接口=e2Rex(分类CODE,".json(parse_api)");
