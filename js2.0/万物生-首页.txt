@@ -158,6 +158,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dikotv.png"
 },
 {
+"title":"颖家影院",
+"url":"http://zly.xjqxz.top/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zly.png"
+},
+{
 "title":"大熊追剧",
 "url":"http://www.dxzj88.com/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/daxiongzhuiju.png"
