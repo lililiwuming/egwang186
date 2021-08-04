@@ -168,6 +168,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/maguays.png"
 },
 {
+"title":"元芳影视",
+"url":"http://yfys1122.com/mogai_api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yfys.png"
+},
+{
 "title":"淘剧社",
 "url":"http://app.shuhai99.com/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/taojushe.png"
