@@ -218,6 +218,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/1080PTV.png"
 },
 {
+"title":"78影院",
+"url":"http://tv.78tv.cc/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/78tv.png"
+},
+{
 "title":"大师兄影视",
 "url":"https://hou.lu/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
