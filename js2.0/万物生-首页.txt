@@ -94,7 +94,7 @@
 },
 {
 "title":"久久影视",
-"url":"https://www.jiujiuyc.com",
+"url":"https://www.jiujiuyingshi.xyz",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jiujiuyc.png"
 },
 {
