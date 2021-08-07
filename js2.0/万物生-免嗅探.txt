@@ -35,6 +35,8 @@ JSON.stringify({url:playurl});
 var playurl=uu.split("wd=")[1];
 if(playurl.indexOf("42.51.48.17/?url=")!=-1){
 JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8"},{name:"mp4",url:playurl+"&_type=.mp4"}]);
+}else if(playurl.indexOf("cat.wkfile.com")!=-1){
+JSON.stringify({url:playurl,head:{"referer":"https://fkplayer.wkfile.com/"}});
 }else{
 JSON.stringify({url:playurl});
 }
