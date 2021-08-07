@@ -1,7 +1,7 @@
 if(getVar("url").indexOf("v1.vod/vodPhbAll")!=-1){
 var URL=getVar("url").split("/vodPhbAll")[0];
-}else if(getVar("url").indexOf("api.php/app/index_video")!=-1){
-var URL=getVar("url").split("index_video?token=")[0];
+}else if(getVar("url").indexOf("api.php/app/")!=-1){
+var URL=getVar("url").match(/http.*\//)[0];
 }else if(getVar("url").indexOf("api.php/iptv/vod")!=-1){
 var URL=getVar("url").split("?ac=list")[0];
 }else{
