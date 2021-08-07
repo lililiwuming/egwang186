@@ -2,8 +2,8 @@ var KEY=getVar("KEY");
 var baseURL=e2Rex(getVar("CODE"),".json(url)");
 if(baseURL.indexOf("v1.vod/vodPhbAll")!=-1){
 var baseURL=baseURL.split("/vodPhbAll")[0];
-}else if(baseURL.indexOf("app/index_video")!=-1){
-var baseURL=baseURL.split("index_video")[0];
+}else if(baseURL.indexOf("api.php/app/")!=-1){
+var baseURL=baseURL..match(/http.*\//)[0];
 }else if(baseURL.indexOf("api.php/iptv/vod")!=-1){
 var baseURL=baseURL.split("?ac=list")[0];
 }
