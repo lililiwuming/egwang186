@@ -4,7 +4,7 @@ var id=uu.split("url=")[1];
 var uu="https://j.languang.wfss100.com/jx/md5.php?url="+id;
 }else if(uu.indexOf("&down=200")!=-1){
 var uu=uu.replace("&down=200","");
-}else if(uu.indexOf("789pan.hd8.pw")!=-1||uu.indexOf("api.parwix")!=-1){
+}else if(uu.indexOf("789pan.hd8.pw")!=-1){
 var id=uu.split("url=")[1];
 var uu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
 }
