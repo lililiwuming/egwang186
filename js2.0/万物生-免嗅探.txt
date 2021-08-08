@@ -7,6 +7,9 @@ var uu=uu.replace("&down=200","");
 }else if(uu.indexOf("789pan.hd8.pw")!=-1){
 var id=uu.split("url=")[1];
 var uu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
+}else if(uu.indexOf("uid=1735&my=abghmpqtwBGIKLOW24&url=")!=-1){
+var id=uu.split("url=")[1];
+var uu="https://api.parwix.com:4433/analysis/json/?uid=1735&my=bfgnqrstuINQRWZ034&url="+id;
 }
 var resp=JZ(JSON.stringify({url:uu}));
 if(uu.indexOf("cokemv.cn")!=-1){
