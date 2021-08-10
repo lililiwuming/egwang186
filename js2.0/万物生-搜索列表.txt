@@ -3,7 +3,7 @@ var baseURL=e2Rex(getVar("CODE"),".json(url)");
 if(baseURL.indexOf("v1.vod/vodPhbAll")!=-1){
 var baseURL=baseURL.split("/vodPhbAll")[0];
 }else if(baseURL.indexOf("api.php/app/")!=-1){
-var baseURL=baseURL..match(/http.*\//)[0];
+var baseURL=baseURL.match(/http.*\//)[0];
 }else if(baseURL.indexOf("api.php/iptv/vod")!=-1){
 var baseURL=baseURL.split("?ac=list")[0];
 }
@@ -56,7 +56,7 @@ items.push(play_);
 res.data=items;
 return JSON.stringify(res);
 }
-if(baseURL.indexOf("jpysvip.net")!=-1||baseURL.indexOf("zxzj.me")!=-1||baseURL.indexOf("siguyy.com")!=-1){
+if(baseURL.indexOf("jpysvip.net")!=-1||baseURL.indexOf("zxzj.me")!=-1||baseURL.indexOf("447k.com")!=-1){
 if(baseURL.indexOf("447k.com")!=-1){
 var URL=baseURL+"/search/-------------.html?wd="+KEY+"&submit=";
 }else{

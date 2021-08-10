@@ -19,7 +19,7 @@
 },
 {
 "title":"思古影视",
-"url":"https://447k.com",
+"url":"https://siguyy.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/siguyy.png"
 },
 {
