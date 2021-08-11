@@ -63,7 +63,7 @@ var URL=baseURL+"/search/-------------.html?wd="+KEY+"&submit=";
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
 }
 var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=e2Arr(源码,".get(ul[class~=ui-vodlist__media] li)");
+var 列表=e2Arr(源码,".get(ul[class~=ui-vodlist] li)");
 var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
