@@ -19,7 +19,7 @@
 },
 {
 "title":"思古影视",
-"url":"https://447k.com",
+"url":"https://siguyy.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/siguyy.png"
 },
 {
@@ -81,11 +81,6 @@
 "title":"墨鱼影视",
 "url":"http://www.moyuyingshi.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/moyuyingshi.png"
-},
-{
-"title":"璇玑视频",
-"url":"https://www.vdxj.net",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/vdxj.png"
 },
 {
 "title":"海艺影院",

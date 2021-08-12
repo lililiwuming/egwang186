@@ -18,7 +18,7 @@ var playurl ='https://cokemv.cn'+DATA;
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("zxzj.me")!=-1){
 var DATA=e2Rex(resp.code,".ty(player_data=).json(url)");
-if(DATA.indexOf("http")!=-1){
+if(DATA.indexOf(".m3u8")!=-1||DATA.indexOf(".mp4")!=-1){
 JSON.stringify({url:DATA});
 }else{
 var code=JZ(JSON.stringify({url:DATA,head:{'referer':uu}})).code.match(/var url.*?'(.*?)'/)[1];
