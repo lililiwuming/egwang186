@@ -56,7 +56,7 @@ items.push(play_);
 res.data=items;
 return JSON.stringify(res);
 }
-if(baseURL.indexOf("jpysvip.net")!=-1||baseURL.indexOf("zxzj.me")!=-1||baseURL.indexOf("447k.com")!=-1){
+if(baseURL.indexOf("jpysvip.net")!=-1||baseURL.indexOf("zxzj.me")!=-1||baseURL.indexOf("447k.com")!=-1||baseURL.indexOf("unss.net")!=-1){
 if(baseURL.indexOf("447k.com")!=-1){
 var URL=baseURL+"/search/-------------.html?wd="+KEY+"&submit=";
 }else{
