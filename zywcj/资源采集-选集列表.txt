@@ -59,7 +59,7 @@ if(标题=="xhzy"){
 }else if(标题.indexOf('languang')!=-1){
       选集地址="https://j.languang.wfss100.com/jx/md5.php?url="+选集地址;
 }else if(标题=="alizy"){
-      选集地址="https://jx.cqzyw.net:8655/analysis/index/?uid=58&token=gmsuvyzGMQTWXZ2346&url="+选集地址;
+      选集地址="https://api.jhdyw.vip/?url="+选集地址;
 }else if(URL.indexOf('zy.7kjx.com')!=-1){
       选集地址="https://jx.xmflv.vip/?url="+选集地址;
 }else if(标题.indexOf('leduo')!=-1){
