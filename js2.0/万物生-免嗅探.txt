@@ -14,7 +14,7 @@ var uu="https://api.parwix.com:4433/analysis/json/?uid=1735&my=bfgnqrstuINQRWZ03
 var resp=JZ(JSON.stringify({url:uu}));
 if(uu.indexOf("cokemv.co")!=-1){
 var DATA=e2Rex(resp.code,".ty(player_aaaa=).json(url)");
-var playurl ='https://cokemv.cn'+DATA;
+var playurl ='https://cokemv.co'+DATA;
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("zxzj.me")!=-1){
 var DATA=e2Rex(resp.code,".ty(player_data=).json(url)");
