@@ -11,7 +11,12 @@ var uu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
 var id=uu.split("url=")[1];
 var uu="https://api.parwix.com:4433/analysis/json/?uid=1735&my=bfgnqrstuINQRWZ034&url="+id;
 }
-var resp=JZ(JSON.stringify({url:uu}));
+if(uu.indexOf("nfmovies.com")!=-1){
+var UA="okhttp";
+}else{
+var UA="";
+}
+var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA}}));
 if(uu.indexOf("cokemv.co")!=-1){
 var DATA=e2Rex(resp.code,".ty(player_aaaa=).json(url)");
 var playurl ='https://cokemv.co'+DATA;
