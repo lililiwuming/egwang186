@@ -78,7 +78,7 @@ res.data=items;
 res.desc=detail;
 return JSON.stringify(res);
 }
-if(URL.indexOf("447k.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("cokemv.co")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("unss.net")!=-1){
+if(URL.indexOf("447k.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("cokemv.co")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("unss.net")!=-1||URL.indexOf("nfmovies.com")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(ul.myui-content__list)");
 var 线路=e2Arr(getVar("源码"),".get(ul.nav.nav-tabs li)");
 var 简介=e2Rex(getVar("源码"),".get(div[class~=.*?ui-content__detail]).c().get(div.col-pd.text-collapse.content)");

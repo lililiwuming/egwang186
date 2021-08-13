@@ -28,6 +28,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/flvweb.png"
 },
 {
+"title":"奈菲影视",
+"url":"https://www.nfmovies.com",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nfmovies.png"
+},
+{
 "title":"陈家影视",
 "url":"https://www.cjt521.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cjt521.png"
