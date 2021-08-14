@@ -49,7 +49,11 @@ eval(script);JSON.stringify({url:now,head:{"Referer":"https://www.nfmovies.com/j
 }else if(uu.indexOf("baidu.com")!=-1){
 var playurl=uu.split("wd=")[1];
 if(playurl.indexOf("vip.19jx.vip/api/?type=app")!=-1||playurl.indexOf("42.51.48.17/?url=")!=-1){
+if(playurl.indexOf("www.mgtv.com")!=-1){
+JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com/"}},{name:"mp4",url:playurl+"&_type=.mp4",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com/"}}]);
+}else{
 JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8"},{name:"mp4",url:playurl+"&_type=.mp4"}]);
+}
 }else if(playurl.indexOf("cat.wkfile.com")!=-1){
 JSON.stringify({url:playurl,head:{"Referer":"https://fkplayer.wkfile.com/"}});
 }else{
