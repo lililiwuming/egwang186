@@ -14,7 +14,7 @@ var uu="https://api.parwix.com:4433/analysis/json/?uid=1735&my=bfgnqrstuINQRWZ03
 if(uu.indexOf("nfmovies.com")!=-1){
 var UA="okhttp";
 }else{
-var UA="";
+var UA="Mozilla/5.0";
 }
 var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA}}));
 if(uu.indexOf("cokemv.co")!=-1){

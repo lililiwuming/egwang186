@@ -10,7 +10,7 @@ var baseURL=baseURL.split("?ac=list")[0];
 if(baseURL.indexOf("nfmovies.com")!=-1){
 var UA="okhttp";
 }else{
-var UA="";
+var UA="Mozilla/5.0";
 }
 function 搜索列表(){
 var res={};var items=[];var LIST=[];
@@ -69,7 +69,11 @@ var URL=baseURL+"/search.php?searchword="+KEY;
 }else{
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
 }
+if(baseURL.indexOf("nfmovies.com")!=-1){
 var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":UA}}));
+}else{
+var 源码=getHttp(JSON.stringify({url:URL}));
+}
 if(baseURL.indexOf("zxzj.me")!=-1){
 var 列表=e2Arr(源码,".get(ul[class~=ui-vodlist] li)");
 }else{
