@@ -60,7 +60,7 @@ var 地址=["dianying","lianxuju","zongyi","dongman","dongzuopian","xijupian","a
 var 前="/show/";var 后="--------#PN#---.html";头部导航();
 }else if(URL.indexOf("zxzj.me")!=-1){
 var 标题=["电影","美剧","韩剧","日剧","泰剧","动漫"];
-var 地址=["1","2","3","4","5","6"];var 前="/list/";var 后="-#PN#.html/";头部导航();
+var 地址=["1","2","3","4","5","6"];var 前="/list/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("tvyb02.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vod/type/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("447k.com")!=-1){

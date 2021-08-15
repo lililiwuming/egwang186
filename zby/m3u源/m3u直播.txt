@@ -6,6 +6,7 @@ QQTV-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3
 HBOX-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/HBOX-ADULT.txt
 CYS-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/CYS-ADULT.txt
 IPTVSTREAM-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/IPTVSTREAM-ADULT.txt
+REDIRECTME-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/REDIRECTME-ADULT.txt
 SVRHOST-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/SVRHOST-ADULT.txt
 EVOLVED-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/EVOLVED-ADULT.txt
 VITVABC-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/VITVABC-ADULT.txt
