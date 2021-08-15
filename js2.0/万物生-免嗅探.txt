@@ -28,6 +28,7 @@ JSON.stringify({url:DATA});
 }else{
 var code=JZ(JSON.stringify({url:DATA,head:{'referer':uu}})).code.match(/var url.*?'(.*?)'/)[1];
 code=code.split('').reverse().join('');
+alert(code.toString(CryptoJS.enc.Utf8));
 let temp="";
 for (let i = 0x0; i < code.length; i = i + 0x2) {
 temp += String.fromCharCode(parseInt(code[i] + code[i + 0x1], 0x10))
