@@ -9,9 +9,8 @@ var URL=getVar("url");
 }
 var 标题1=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧"];
 var 地址1=["1","2","3","4","6","7","8","9","10","11","12","13","14","15","16"];
-var 标题2=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","大陆剧","香港剧","台湾剧","日本剧","韩国剧","美国剧",""];
-var 标题2=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","大陆剧","香港剧","台湾剧","日本剧","韩国剧","美国剧","福利(片多)","纪录片(大熊)","电视直播(大熊)"];
-var 地址2=["1&class=&area=&lang=&year=","2&class=&area=&lang=&year=","3&class=&area=&lang=&year=","4&class=&area=&lang=&year=","1&class=动作&area=&lang=&year=","1&class=喜剧&area=&lang=&year=","1&class=爱情&area=&lang=&year=","1&class=科幻&area=&lang=&year=","1&class=恐怖&area=&lang=&year=","1&class=剧情&area=&lang=&year=","1&class=战争&area=&lang=&year=","2&class=&area=大陆&lang=&year=","2&class=&area=香港&lang=&year=","2&class=&area=台湾&lang=&year=","2&class=&area=日本&lang=&year=","2&class=&area=韩国&lang=&year=","2&class=&area=美国&lang=&year=","29&class=&area=&lang=&year=","31&class=&area=&lang=&year=","33&class=&area=&lang=&year="];
+var 标题2=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","大陆剧","香港剧","台湾剧","日本剧","韩国剧","美国剧"];
+var 地址2=["1&class=&area=","2&class=&area=","3&class=&area=","4&class=&area=","1&class=动作&area=","1&class=喜剧&area=","1&class=爱情&area=","1&class=科幻&area=","1&class=恐怖&area=","1&class=剧情&area=","1&class=战争&area=","2&class=&area=大陆","2&class=&area=香港","2&class=&area=台湾","2&class=&area=日本","2&class=&area=韩国","2&class=&area=美国"];
 var 标题3=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","大陆剧","香港剧","台湾剧","日本剧","韩国剧","美国剧"];
 var 地址3=["movie&start=&area=&type=","tvplay&start=&area=&type=","tvshow&start=&area=&type=","comic&start=&area=&type=","movie&start=&area=&type=动作","movie&start=&area=&type=喜剧","movie&start=&area=&type=爱情","movie&start=&area=&type=科幻","movie&start=&area=&type=恐怖","movie&start=&area=&type=剧情","movie&start=&area=&type=战争","tvplay&start=&area=大陆&type=","tvplay&start=&area=香港&type=","tvplay&start=&area=台湾&type=","tvplay&start=&area=日本&type=","tvplay&start=&area=韩国&type=","tvplay&start=&area=美国&type="];
 var 标题4=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国语配音韩剧","最近热播剧","热播美剧","国产剧","港台剧","日韩剧","欧美剧"];
@@ -76,9 +75,23 @@ var 标题=["电影","电视剧","综艺","动漫","动作片","喜剧片","爱�
 }else if(URL.indexOf("jhyun.jhdyw.vip")!=-1||URL.indexOf("zjuba.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/type/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("api.php/app")!=-1){
-var 标题=标题2;var 地址=地址2;var 前="video?tid=";var 后="&pg=#PN#";头部导航();
+var 标题=标题2;var 地址=地址2;var 前="video?tid=";var 后="&lang=&year=&pg=#PN#";头部导航();
 }else if(URL.indexOf("api.php/v1.vod")!=-1){
-var 标题=标题2;var 地址=地址2;var 前="?type=";var 后="&page=#PN#";头部导航();
+var 标题=标题2;var 地址=地址2;var 前="?type=";var 后="&lang=&year=&page=#PN#";
+if(URL.indexOf("dxzj88.com")!=-1){
+标题.push("纪录片","电视直播");地址.push("31&class=&area=","33&class=&area=");
+}else if(URL.indexOf("meinaikang.com")!=-1){
+标题.push("福利");地址.push("29&class=&area=");
+}else if(URL.indexOf("znyy666.top")!=-1){
+标题.push("福利");地址.push("36&class=&area=");
+}else if(URL.indexOf("huangguays.com")!=-1){
+标题.push("追番");地址.push("30&class=&area=");
+}else if(URL.indexOf("snailkya.xyz")!=-1){
+标题.push("腾讯热门");地址.push("20&class=&area=");
+}else if(URL.indexOf("miaoletv.com")!=-1){
+标题.push("电视直播","新番");地址.push("39&class=&area=","47&class=&area=");
+}
+头部导航();
 }else if(URL.indexOf("api.php/iptv/vod")!=-1||URL.indexOf("api.php/lh/vod")!=-1){
 var 标题=标题3;var 地址=地址3;var 前="?ac=list&class=";var 后="&page=#PN#";头部导航();
 }
