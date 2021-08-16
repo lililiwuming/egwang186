@@ -33,7 +33,7 @@ for (let i = 0x0; i < code.length; i = i + 0x2) {
 temp += String.fromCharCode(parseInt(code[i] + code[i + 0x1], 0x10))
 }
 var playurl=temp.substring(0x0, (temp.length - 0x6) / 0x2) + temp.substring((temp.length - 0x6) / 0x2 + 0x6);
-JSON.stringify({url:playurl,head:{"User-Agent":"Mozilla/5.0","Accept-Encoding":"identity","Connection":"Keep-Alive"}});
+JSON.stringify({url:playurl.replace(/%25/g,'%'),head:{"User-Agent":"Mozilla/5.0"}});
 }
 }else if(uu.indexOf("qianoo.cn")!=-1){
 if(resp.code.indexOf("<iframe")!=-1){
