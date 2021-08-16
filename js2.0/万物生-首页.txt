@@ -88,6 +88,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/moyuyingshi.png"
 },
 {
+"title":"璇玑视频",
+"url":"https://www.vdxj.net",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/vdxj.png"
+},
+{
 "title":"海艺影院",
 "url":"http://www.hszbj.net",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/hszbj.png"
