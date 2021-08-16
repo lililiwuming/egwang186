@@ -3,7 +3,7 @@ function 选集列表(){
 var res={};var items=[];var detail=[];
 for(var i=0;i<分类.length;i++){
     var 分类CODE=分类[i];
-    var 列表=e2Arr(分类CODE,列表规则);
+    var 列表=e2Arr(分类CODE,列表规则).filter(Boolean);
     if(线路){
     var 标题=e2Rex(线路[i],标题规则);
     }else{
