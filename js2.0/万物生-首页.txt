@@ -318,11 +318,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/293.png"
 },
 {
-"title":"聚多影视",
-"url":"http://jdys.chxjon.cn/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/juduo.png"
-},
-{
 "title":"19影视",
 "url":"http://ysiptv.19jx.vip/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/19jx.png"
