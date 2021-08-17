@@ -1,0 +1,7 @@
+var u=getVar("url");
+var 今日=getVar("TIME_Y-M-D");
+if(u.indexOf("nfmovies.com")!=-1){
+"last_browse_app="+今日;
+}else{
+"";
+}
