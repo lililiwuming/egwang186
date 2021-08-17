@@ -78,7 +78,7 @@ var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
 if(baseURL.indexOf("nfmovies.com")!=-1){
 var 源码=JZ(JSON.stringify({url:URL,head:{"User-Agent":UA,"Cookie":COOKIE}}));
 if(源码.code.indexOf("ui-vodlist__media")==-1){
-var setcookie=源码.head['Set-Cookie'];
+var setcookie=源码.head['set-cookie'];
 var 源码=JZ(JSON.stringify({url:URL,head:{"User-Agent":UA,"Cookie":COOKIE+";"+setcookie}})).code;
 }
 }else{
