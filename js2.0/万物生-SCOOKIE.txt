@@ -1,4 +1,4 @@
-var u=getVar("url");
+var u=e2Rex(getVar("CODE"),".json(url)");
 var TODAY=new Date();
 var 年=TODAY.getFullYear();
 var 月=TODAY.getMonth()+1<10?"0"+(TODAY.getMonth() + 1):TODAY.getMonth()+1;
