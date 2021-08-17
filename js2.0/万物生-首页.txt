@@ -48,11 +48,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/9ehao.png"
 },
 {
-"title":"江湖阿里云",
-"url":"http://jhyun.jhdyw.vip:8090",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jhyslogo.png"
-},
-{
 "title":"TVB云播",
 "url":"http://www.tvyb02.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/tvblogo.png"
@@ -61,11 +56,6 @@
 "title":"九州影院",
 "url":"http://www.unss.net",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/unss.png"
-},
-{
-"title":"耐看点播",
-"url":"http://www.nkvod.com",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nkvod.png"
 },
 {
 "title":"七夕影视",
@@ -86,11 +76,6 @@
 "title":"墨鱼影视",
 "url":"http://www.moyuyingshi.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/moyuyingshi.png"
-},
-{
-"title":"璇玑视频",
-"url":"https://www.vdxj.net",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/vdxj.png"
 },
 {
 "title":"海艺影院",
