@@ -1,5 +1,6 @@
 var u=getVar("url");
-var 今日=getVar("TIME_Y-M-D");
+var TODAY=new Date();
+var 今日=getVar("TIME_yy-mm-dd");
 if(u.indexOf("nfmovies.com")!=-1){
 "last_browse_app="+今日;
 }else{
