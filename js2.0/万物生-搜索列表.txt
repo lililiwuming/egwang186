@@ -7,10 +7,13 @@ var baseURL=baseURL.match(/http.*\//)[0];
 }else if(baseURL.indexOf("api.php/iptv/vod")!=-1){
 var baseURL=baseURL.split("?ac=list")[0];
 }
+var 今日=getVar("TIME_Y-M-D");
 if(baseURL.indexOf("nfmovies.com")!=-1){
 var UA="okhttp";
+var COOKIE="last_browse_app="+今日;
 }else{
 var UA="Mozilla/5.0";
+var COOKIE="";
 }
 function 搜索列表(){
 var res={};var items=[];var LIST=[];
@@ -70,7 +73,7 @@ var URL=baseURL+"/search.php?searchword="+KEY;
 var URL=baseURL+"/vodsearch/-------------.html?wd="+KEY+"&submit=";
 }
 if(baseURL.indexOf("nfmovies.com")!=-1){
-var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":UA}}));
+var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":UA,"Cookie":COOKIE}}));
 }else{
 var 源码=getHttp(JSON.stringify({url:URL}));
 }
