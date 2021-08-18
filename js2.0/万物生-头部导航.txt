@@ -31,12 +31,12 @@ res.data=items;
 return JSON.stringify(res);
 }
 function TB(){
-var Arr = [...arguments];
+var Arr=Array.from(arguments);
 var Newd = Arr.map(i => 总标题[i]);
 return Newd;
 }
 function TT(){
-var Arr = [...arguments];
+var Arr=Array.from(arguments);
 var Newd = Arr.map(i => 总地址[i]);
 return Newd;
 }
