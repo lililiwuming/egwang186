@@ -187,7 +187,7 @@ var 图片规则=".get(img).a(data-original)";
 var 简介规则=".get(div.v_note).t()";搜索列表();
 }else if(baseURL.indexOf("tvyb02.com")!=-1||baseURL.indexOf("9ehao.com")!=-1){
 if(baseURL.indexOf("9ehao.com")!=-1){
-var URL=baseURL+"/soso9e.html?wd="+KEY+"&submit=";
+var URL=baseURL+"/soso9e9e.html?wd="+KEY+"&submit=";
 }else{
 var URL=baseURL+"/vod/search.html?wd="+KEY+"&submit=";
 }
