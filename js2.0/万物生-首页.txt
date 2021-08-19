@@ -18,6 +18,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ak1080.png"
 },
 {
+"title":"爱看影视",
+"url":"https://ikan6.vip",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ikan6.png"
+},
+{
 "title":"思古影视",
 "url":"https://siguyy.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/siguyy.png"
