@@ -165,13 +165,15 @@ var 标题规则=".get(h1).t()";
 var 地址规则=".get(div.leo-po-ab a).a(href)";
 var 图片规则=".get(img).a(src)";
 var 简介规则=".get(div.leo-detail-media).t()";搜索列表();
-}else if(baseURL.indexOf("cms.7a11l.cn")!=-1||baseURL.indexOf("moyuyingshi.com")!=-1||baseURL.indexOf("vdxj.net")!=-1||baseURL.indexOf("jiujiuyingshi.xyz")!=-1||baseURL.indexOf("hszbj.net")!=-1){
+}else if(baseURL.indexOf("cms.7a11l.cn")!=-1||baseURL.indexOf("moyuyingshi.com")!=-1||baseURL.indexOf("vdxj.net")!=-1||baseURL.indexOf("jiujiuyingshi.xyz")!=-1||baseURL.indexOf("hszbj.net")!=-1||baseURL.indexOf("dcds.ml")!=-1){
 if(baseURL.indexOf("cms.7a11l.cn")!=-1||baseURL.indexOf("hszbj.net")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
 }else if(baseURL.indexOf("moyuyingshi.com")!=-1||baseURL.indexOf("vdxj.net")!=-1){
 var URL=baseURL+"/vodsearch/-------------/?wd="+KEY;
 }else if(baseURL.indexOf("jiujiuyingshi.xyz")!=-1){
 var URL=baseURL+"/search?wd="+KEY;
+}else if(baseURL.indexOf("dcds.ml")!=-1){
+var URL=baseURL+"/vodsearch/1.html?wd="+KEY;
 }
 var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=e2Arr(源码,".get(div.module-search-item)");
