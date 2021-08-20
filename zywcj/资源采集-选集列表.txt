@@ -51,7 +51,7 @@ if(标题=="xhzy"){
 }else if(标题=="789pan"||标题=="pll"){
       选集地址="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+选集地址;
 }else if(标题=="lekanzyw"){
-      选集地址="https://dd.ojbkjx.com/player4/m3u8.php?url="+选集地址;
+      选集地址="https://bfq.ikan6.vip/m3u8.php?url="+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
       选集地址="https://jx.fqzy.cc/jx.php?url="+选集地址;
 }else if(选集地址.indexOf('wp.umao.vp6.top')!=-1){
@@ -63,7 +63,7 @@ if(标题=="xhzy"){
 }else if(URL.indexOf('zy.7kjx.com')!=-1){
       选集地址="https://jx.xmflv.vip/?url="+选集地址;
 }else if(标题.indexOf('leduo')!=-1){
-      选集地址="https://api.leduotv.com/wp-api/getvodurlm3u8.php?vid="+选集地址;
+      选集地址="https://api.xxctzy.com/1.php?vid="+选集地址;
 }else if(URL.indexOf("api.yparse.com")!=-1){
       选集地址="https://jx.yparse.com/index.php?url="+选集地址;
 }else if(URL.indexOf("bbkdj")!=-1){
@@ -96,7 +96,7 @@ var 简介=e2Rex(getVar("源码"),".c(类型:).xml(type).c(<br>演员表:).xml(a
 var 列表规则=".z2(CDATA\\[\\([\\s\\S]*?\\)[#]*?\\]).fg(#)";
 var 标题规则=".a(flag)";
 var 选集规则=".tz($)";
-var 选集地址规则=".z2(\\$\\(.*\\)[\\$|&]*).or().z(.*)";选集列表();
+var 选集地址规则=".z2(\\$\\([^\$|&]*\\)).or().z(.*)";选集列表();
 }else{
 if(URL.indexOf("xunlei.fan")!=-1){
 var 分类=e2Arr(getVar("源码"),".json(list).json(vod_down_url).fg(\\$\\$\\$)");
