@@ -5,7 +5,7 @@ var 月=TODAY.getMonth()+1<10?"0"+(TODAY.getMonth() + 1):TODAY.getMonth()+1;
 var 日=TODAY.getDate()<10?"0"+TODAY.getDate():TODAY.getDate();
 if(u.indexOf("nfmovies.com")!=-1){
 var resp=JZ(JSON.stringify({url:"https://nfmovies.com/search.php"}));
-resp.head["set-cookie"];
+resp.head['set-cookie'];
 }else{
 "";
 }
