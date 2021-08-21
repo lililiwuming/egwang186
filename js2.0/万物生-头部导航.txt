@@ -59,7 +59,7 @@ var 标题=TB(1,2,3,4);var 地址=TT(1,2,3,4);var 前="/type/";var 后="/#PN#.ht
 var 标题=标题1;var 地址=地址1;var 前="/vodshow/";var 后="--------#PN#---.html";头部导航();
 }else if(URL.indexOf("jxry.cc")!=-1||URL.indexOf("cjt521.com")!=-1){
 var 标题=TB(1,2,3,4,6,7,8,9,11,12,13,14,16,17,18,33);var 地址=TT(1,2,3,4,6,7,8,9,10,11,12,13,14,15,16,23);var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
-}else if(URL.indexOf("zhenbuka2.com")!=-1){
+}else if(URL.indexOf("zhenbuka3.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#/";头部导航();
 }else if(URL.indexOf("saohuotv.com")!=-1){
 var 标题=TB(1,2,4,6,7,8,9,11,12,13,19,21,22,23,24,26,39,41,42,43,44,46,47,48);
