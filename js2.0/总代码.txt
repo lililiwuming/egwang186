@@ -633,7 +633,7 @@ var 年=TODAY.getFullYear();
 var 月=TODAY.getMonth()+1<10?"0"+(TODAY.getMonth() + 1):TODAY.getMonth()+1;
 var 日=TODAY.getDate()<10?"0"+TODAY.getDate():TODAY.getDate();
 if(u.indexOf("nfmovies.com")!=-1){
-getVar("NFCOOKIE");
+eval(getVar("NFCOOKIE"));
 }else{
 "";
 }
