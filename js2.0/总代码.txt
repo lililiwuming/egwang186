@@ -283,7 +283,11 @@ JSON.stringify({url:playurl});
 }
 }else if(resp.code.indexOf("#EXTINF")!=-1){
 if(uu.indexOf("?")!=-1){
+if(uu.indexOf("www.mgtv.com")!=-1){
+JSON.stringify([{name:"播放不了请切换mp4",url:uu+"&_type=.m3u8",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com/"}},{name:"mp4",url:uu+"&_type=.mp4",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com/"}}]);
+}else{
 JSON.stringify({url:uu+"&_type=.m3u8"});
+}
 }else{
 JSON.stringify({url:uu+"?type=.m3u8"});
 }
@@ -291,7 +295,7 @@ JSON.stringify({url:uu+"?type=.m3u8"});
 if(e2Rex(resp.code,".json(url)").length>1){
 var playurl=JSON.parse(resp.code).url;
 if(playurl.indexOf("pcvideotestws.titan.mgtv.com")!=-1){
-JSON.stringify({url:playurl,head:{"Referer":"https://www.mgtv.com/"}});
+JSON.stringify({url:playurl,head:{"User-Agent":UA,"Referer":"https://www.mgtv.com/"}});
 }else{
 JSON.stringify({url:playurl});
 }
