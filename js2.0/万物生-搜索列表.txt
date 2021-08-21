@@ -13,7 +13,8 @@ var 月=TODAY.getMonth()+1<10?"0"+(TODAY.getMonth() + 1):TODAY.getMonth()+1;
 var 日=TODAY.getDate()<10?"0"+TODAY.getDate():TODAY.getDate();
 if(baseURL.indexOf("nfmovies.com")!=-1){
 var UA="Mozilla/5.0 Android";
-var COOKIE="last_browse_app="+年+"-"+月+"-"+日;
+var resp=JZ(JSON.stringify({url:"https://nfmovies.com/search.php",head:{"User-Agent":"Mozilla/5.0"}}));
+var COOKIE=resp.head['set-cookie'];
 }else{
 var UA="Mozilla/5.0 Android";
 var COOKIE="";
