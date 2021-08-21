@@ -119,7 +119,7 @@
 },
 {
 "title":"真不卡影视",
-"url":"https://www.zhenbuka2.com",
+"url":"https://www.zhenbuka3.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhenbukalogo.png"
 },
 {

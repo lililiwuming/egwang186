@@ -36,7 +36,7 @@ for(var j=0;j<LIMIT;j++){
     var CODE=列表[j];
     }
    var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):baseURL+e2Rex(CODE,地址规则);
-   if(baseURL.indexOf("zhenbuka2.com")!=-1){
+   if(baseURL.indexOf("zhenbuka3.com")!=-1){
    var resp=getHttp(JSON.stringify({url:地址}));
    var 标题=e2Rex(resp,".get(h1).t()");
    var 图片=e2Rex(resp,".get(a.stui-vodlist__thumb img).a(data-original)");
