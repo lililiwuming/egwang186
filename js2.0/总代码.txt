@@ -208,7 +208,7 @@ if(uu.indexOf("nfmovies.com")!=-1){
 var UA="Mozilla/5.0";
 var COOKIE=getVar("COOKIE");
 }else{
-var UA="Mozilla/5.0";
+var UA="Mozilla/5.0 Android";
 var COOKIE="";
 }
 var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA,"Cookie":COOKIE}}));
