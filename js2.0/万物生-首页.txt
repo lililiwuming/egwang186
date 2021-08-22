@@ -23,6 +23,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ikan6.png"
 },
 {
+"title":"独播库",
+"url":"https://duboku.fun",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/duboku.png"
+},
+{
 "title":"思古影视",
 "url":"https://siguyy.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/siguyy.png"
