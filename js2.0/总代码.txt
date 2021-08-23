@@ -371,6 +371,15 @@ for(var i=0;i<分类.length;i++){
     }else{
     var 接口=URL;
     }
+    if(接口.indexOf("svip.jhyun.jx.cn:1234")!=-1){
+    if(标题.indexOf("人人")!=-1){
+        接口="http://jhdyw.vip/jiexi/rr.php?url=";
+    }else if(标题.indexOf("番茄")!=-1){
+        接口="http://jhdyw.vip/jiexi/fq.php?url=";
+    }else{
+        接口="http://jhdyw.vip/jiexi/?url=";
+    }
+    }
     var LIST=[];
     for(var j=0;j<列表.length;j++){
         var 选集=e2Rex(列表[j],选集规则);
