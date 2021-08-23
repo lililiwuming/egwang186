@@ -244,9 +244,9 @@ var script=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
 eval(script);JSON.stringify({url:now,head:{"User-Agent":UA,"Referer":"https://www.nfmovies.com/js/player/m3u8.html"}});
 }else if(uu.indexOf("baidu.com")!=-1){
 var playurl=uu.split("wd=")[1];
-if(playurl.indexOf("vip.19jx.vip/api/?type=app")!=-1||playurl.indexOf("42.51.48.17/?url=")!=-1){
+if(playurl.indexOf("www.ppzhu.vip")!=-1||playurl.indexOf("vip.19jx.vip/api/?type=app")!=-1||playurl.indexOf("42.51.48.17/?url=")!=-1){
 if(playurl.indexOf("www.mgtv.com")!=-1){
-JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com/"}},{name:"mp4",url:playurl+"&_type=.mp4",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com/"}}]);
+JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com"}},{name:"mp4",url:playurl+"&_type=.mp4",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com"}}]);
 }else{
 JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8"},{name:"mp4",url:playurl+"&_type=.mp4"}]);
 }
@@ -285,7 +285,7 @@ JSON.stringify({url:playurl});
 }else if(resp.code.indexOf("#EXTINF")!=-1){
 if(uu.indexOf("?")!=-1){
 if(uu.indexOf("www.mgtv.com")!=-1){
-JSON.stringify([{name:"播放不了请切换mp4",url:uu+"&_type=.m3u8",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com/"}},{name:"mp4",url:uu+"&_type=.mp4",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com/"}}]);
+JSON.stringify([{name:"播放不了请切换mp4",url:uu+"&_type=.m3u8",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com"}},{name:"mp4",url:uu+"&_type=.mp4",head:{"User-Agent":UA,"Referer":"https://www.mgtv.com"}}]);
 }else{
 JSON.stringify({url:uu+"&_type=.m3u8"});
 }
@@ -386,7 +386,7 @@ for(var i=0;i<分类.length;i++){
            }
         }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
          if(URL.indexOf("ppzhu.vip")!=-1){
-           var 选集地址=选集地址+"&app=10003&account=272775028&password=qq272775028";
+           var 选集地址="https://www.baidu.com/s?wd="+选集地址+"&app=10003&account=272775028&password=qq272775028";
          }else{
            if(选集地址.indexOf("vip.19jx.vip/api/?type=app")!=-1||选集地址.indexOf("42.51.48.17/?url=")!=-1||选集地址.indexOf(".m3u8")>20||选集地址.indexOf(".mp4")!=-1||选集地址.indexOf("/obj/tos")!=-1){
            var 选集地址="https://www.baidu.com/s?wd="+选集地址;
