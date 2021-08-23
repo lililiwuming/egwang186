@@ -124,7 +124,7 @@
 },
 {
 "title":"COKEMV影视",
-"url":"https://cokemv.co",
+"url":"https://cokemv.me/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cokemv.png"
 },
 {
@@ -303,6 +303,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/haidanys.png"
 },
 {
+"title":"555电影",
+"url":"http://www.o8tv.com/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/o8tv.png"
+},
+{
 "title":"京广航影视",
 "url":"https://www.jingguanghang.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jingguanghang.png"
@@ -336,6 +341,11 @@
 "title":"19影视",
 "url":"http://ysiptv.19jx.vip/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/19jx.png"
+},
+{
+"title":"PPZhu影视",
+"url":"http://www.ppzhu.vip/api.php/Chengcheng/vod/?ac=list&class=&start=&area=&type=&page=1",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ppzhu.png"
 }
 ]
 }
