@@ -3,6 +3,7 @@ AdultIptv,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u
 红灯区,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/redtraffic.m3u8
 EDEM-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/EDEM-ADULT.txt
 OTT-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/OTT-ADULT.txt
+IPTVTREE-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/IPTVTREE-ADULT.txt
 CYS-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/CYS-ADULT.txt
 IPTVSTREAM-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/IPTVSTREAM-ADULT.txt
 REDIRECTME-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/REDIRECTME-ADULT.txt
