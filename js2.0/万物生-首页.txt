@@ -53,11 +53,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dcds.png"
 },
 {
-"title":"厂长资源",
-"url":"https://www.qianoo.cn",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/changzhang.png"
-},
-{
 "title":"在线之家",
 "url":"https://www.zxzj.me",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zxzj.png"
