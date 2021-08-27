@@ -801,14 +801,14 @@ var 地址规则=".get(.title a).a(href)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span.pic-text).t().c().get(div.detail).t()";搜索列表();
 }else if(baseURL.indexOf("ak1080.me")!=-1){
-var URL=baseURL+"/vodsearch/"+KEY+"----------1---.html";
+var URL=baseURL+"/index.php/ajax/suggest?mid=1&wd="+KEY;
 var 总源码=JZ(JSON.stringify({url:URL}));
 var 源码=总源码.code;
-var 列表=e2Arr(源码,".get(dl.mo-deta-info.mo-cols-rows)");
-var 标题规则=".get(h1 a).t()";
-var 地址规则=".get(h1 a).a(href)";
-var 图片规则=".get(a).a(data-original)";
-var 简介规则=".get(span).t().c().get(li).st().t()";搜索列表();
+var 列表=e2Arr(源码,".json(list)");
+var 标题规则=".json(name)";
+var 地址规则=".c(https://www.ak1080.me/voddetail/).json(id).ct(.html)";
+var 图片规则=".json(pic)";
+var 简介规则=".json(name)";搜索列表();
 }else if(baseURL.indexOf("ys.80tvs.cn")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
