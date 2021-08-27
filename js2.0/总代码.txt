@@ -16,7 +16,7 @@ var Newd = Arr.map(i => 总地址[i]);
 return Newd;
 }
 var 总标题=["0","电影","电视剧","综艺","动漫","5","动作片","喜剧片","爱情片","科幻片","10","恐怖片","剧情片","战争片","国产剧","15","港台剧","日韩剧","欧美剧","大陆剧","20","香港剧","台湾剧","日本剧","韩国剧","25","美国剧","泰国剧","国语配音韩剧","最近热播剧","30","热播美剧","抖音电影","福利短视频","豆瓣TOP","35","最新电影","欧美电影","韩国电影","脱口秀","40","真人秀","选秀","美食","旅游","45","访谈","纪实","搞笑","纪录片","50","台泰剧"];
-var 总地址=["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","1&class=&area=","2&class=&area=","3&class=&area=","40","4&class=&area=","1&class=动作&area=","1&class=喜剧&area=","1&class=爱情&area=","45","1&class=科幻&area=","1&class=恐怖&area=","1&class=剧情&area=","1&class=战争&area=","50","2&class=&area=大陆","2&class=&area=香港","2&class=&area=台湾","2&class=&area=日本","55","2&class=&area=韩国","2&class=&area=美国","movie&start=&area=&type=","tvplay&start=&area=&type=","60","tvshow&start=&area=&type=","comic&start=&area=&type=","movie&start=&area=&type=动作","movie&start=&area=&type=喜剧","65","movie&start=&area=&type=爱情","movie&start=&area=&type=科幻","movie&start=&area=&type=恐怖","movie&start=&area=&type=剧情","70","movie&start=&area=&type=战争","tvplay&start=&area=大陆&type=","tvplay&start=&area=香港&type=","tvplay&start=&area=台湾&type=","75","tvplay&start=&area=日本&type=","tvplay&start=&area=韩国&type=","tvplay&start=&area=美国&type=","dianying","80","lianxuju","zongyi","dongman","dongzuopian","85","xijupian","aiqingpian","kehuanpian","kongbupian","90","juqingpian","zhanzhengpian","guoyupeiyinhanju","zuijinrebodianshiju","95","rebomeiju","guochanju","gangtaiju","rihanju","100","oumeiju","SCCCCS","qCCCCS","xCCCCS","105","ICCCCS","SCCCCS/class/动作","SCCCCS/class/喜剧","SCCCCS/class/爱情","110","SCCCCS/class/科幻","SCCCCS/class/恐怖","SCCCCS/class/剧情","SCCCCS/class/战争","115","qCCCCS/area/内地","qCCCCS/area/香港","qCCCCS/area/台湾","qCCCCS/area/日本","120","qCCCCS/area/韩国","qCCCCS/area/美国"];
+var 总地址=["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","1&class=&area=","2&class=&area=","3&class=&area=","40","4&class=&area=","1&class=动作&area=","1&class=喜剧&area=","1&class=爱情&area=","45","1&class=科幻&area=","1&class=恐怖&area=","1&class=剧情&area=","1&class=战争&area=","50","2&class=&area=大陆","2&class=&area=香港","2&class=&area=台湾","2&class=&area=日本","55","2&class=&area=韩国","2&class=&area=美国","movie&start=&area=&type=","tvplay&start=&area=&type=","60","tvshow&start=&area=&type=","comic&start=&area=&type=","movie&start=&area=&type=动作","movie&start=&area=&type=喜剧","65","movie&start=&area=&type=爱情","movie&start=&area=&type=科幻","movie&start=&area=&type=恐怖","movie&start=&area=&type=剧情","70","movie&start=&area=&type=战争","tvplay&start=&area=大陆&type=","tvplay&start=&area=香港&type=","tvplay&start=&area=台湾&type=","75","tvplay&start=&area=日本&type=","tvplay&start=&area=韩国&type=","tvplay&start=&area=美国&type=","dianying","80","lianxuju","zongyi","dongman","dongzuopian","85","xijupian","aiqingpian","kehuanpian","kongbupian","90","juqingpian","zhanzhengpian","guoyupeiyinhanju","zuijinrebodianshiju","95","rebomeiju","guochanju","gangtaiju","rihanju","100","oumeiju","SCCCCS","qCCCCS","xCCCCS","105","ICCCCS","SCCCCS/class/动作","SCCCCS/class/喜剧","SCCCCS/class/爱情","110","SCCCCS/class/科幻","SCCCCS/class/恐怖","SCCCCS/class/剧情","SCCCCS/class/战争","115","qCCCCS/area/内地","qCCCCS/area/香港","qCCCCS/area/台湾","qCCCCS/area/日本","120","qCCCCS/area/韩国","qCCCCS/area/美国","1/class/动作","1/class/喜剧","125","1/class/爱情","1/class/科幻","1/class/恐怖","1/class/剧情","130","1/class/战争","2/area/大陆","2/area/香港","2/area/台湾","135","2/area/日本","2/area/韩国","2/area/美国"];
 var 标题1=TB(1,2,3,4,6,7,8,9,11,12,13,14,16,17,18);
 var 地址1=TT(1,2,3,4,6,7,8,9,10,11,12,13,14,15,16);
 var 标题2=TB(1,2,3,4,6,7,8,9,11,12,13,19,21,22,23,24,26);
@@ -47,6 +47,8 @@ var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#.html";�
 var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("cms.7a11l.cn")!=-1){
 var 标题=标题5;var 地址=地址5;var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
+}else if(URL.indexOf("susou.tv")!=-1){
+var 标题=TB(1,2,3,4,49,6,7,8,9,11,12,13,19,21,22,23,24,26);var 地址=TT(1,2,3,4,21,123,124,126,127,128,129,131,132,133,134,136,37,138);var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("moyuyingshi.com")!=-1){
 var 标题=标题41;var 地址=地址41;var 前="/vodtype/";var 后="-#PN#/";头部导航();
 }else if(URL.indexOf("ikan6.vip")!=-1||URL.indexOf("nkvod.com")!=-1){
@@ -160,7 +162,7 @@ var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";
 }else if(URL.indexOf("saohuotv.com")!=-1){
 var 列表=getVar("源码").match(/<li>[\s]*?<div class="v_img"[\s\S]*?<\/li>/g);
 var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(div.v_note).t()";单项列表();
-}else if(URL.indexOf("ys.80tvs.cn")!=-1){
+}else if(URL.indexOf("ys.80tvs.cn")!=-1||URL.indexOf("susou.tv")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.list-width)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(div.lazy).a(data-original)";var 简介规则=".get(span).st().t().c().get(div.bt).t()";单项列表();
 }else if(URL.indexOf("jxry.cc")!=-1||URL.indexOf("cjt521.com")!=-1){
@@ -533,6 +535,14 @@ var 列表规则=".get(a.fed-btns-info)";
 var 标题规则=".get(a).t()";
 var 选集规则=".t()";
 var 选集地址规则=".a(href)";选集列表();
+}else if(URL.indexOf("susou.tv")!=-1){
+var 分类=e2Arr(getVar("源码"),".get(ul.content_playlist)");
+var 简介=e2Rex(getVar("源码"),".get(div.dt-info-box).t()");
+var 线路=e2Arr(getVar("源码"),".get(div#tag a)");
+var 列表规则=".get(li)";
+var 标题规则=".get(a).t()";
+var 选集规则=".get(a).t()";
+var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("api.php/app/")!=-1){
 var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_url_with_player;
 var 简介=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_content;
@@ -610,7 +620,7 @@ var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";
 }else if(URL.indexOf("saohuotv.com")!=-1){
 var 列表=getVar("源码").match(/<li>[\s]*?<div class="v_img"[\s\S]*?<\/li>/g);
 var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(div.v_note).t()";普通列表();
-}else if(URL.indexOf("ys.80tvs.cn")!=-1){
+}else if(URL.indexOf("ys.80tvs.cn")!=-1||URL.indexOf("susou.tv")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.list-width)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(div.lazy).a(data-original)";var 简介规则=".get(span).st().t().c().get(div.bt).t()";普通列表();
 }else if(URL.indexOf("jxry.cc")!=-1||URL.indexOf("cjt521.com")!=-1){
@@ -807,7 +817,7 @@ var 标题规则=".json(name)";
 var 地址规则=".c(https://www.ak1080.me/voddetail/).json(id).ct(.html)";
 var 图片规则=".json(pic)";
 var 简介规则=".json(name)";搜索列表();
-}else if(baseURL.indexOf("ys.80tvs.cn")!=-1){
+}else if(baseURL.indexOf("ys.80tvs.cn")!=-1||baseURL.indexOf("susou.tv")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=e2Arr(源码,".get(ul li.list-width)");
