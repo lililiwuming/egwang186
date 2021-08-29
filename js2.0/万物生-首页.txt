@@ -83,11 +83,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qixi.png"
 },
 {
-"title":"速搜影院",
-"url":"https://www.susou.tv/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/susou.png"
-},
-{
 "title":"吉祥如意",
 "url":"http://www.jxry.cc/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jxry.png"
