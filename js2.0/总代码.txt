@@ -138,7 +138,7 @@ for(var j=0;j<列表.length;j++){
     }else{
     var 图片=URL+预图片;
         if(URL.indexOf("1090ys2.com")!=-1){
-        var 图片=图片+"@{'referer':'http://1090ys2.com/'}";
+        var 图片=图片+'@{"referer":"http://1090ys2.com/"}';
         }
     }
     var 简介=e2Rex(CODE,简介规则);
@@ -612,7 +612,7 @@ for(var j=0;j<列表.length;j++){
     }else{
     var 图片=URL+预图片;
         if(URL.indexOf("1090ys2.com")!=-1){
-        var 图片=图片+"@{'referer':'http://1090ys2.com/'}";
+        var 图片=图片+'@{"referer":"http://1090ys2.com/"}';
         }
     }
     var 简介=e2Rex(CODE,简介规则);
@@ -761,7 +761,7 @@ for(var j=0;j<LIMIT;j++){
     }else{
     var 图片=baseURL+预图片;
         if(URL.indexOf("1090ys2.com")!=-1){
-        var 图片=图片+"@{'referer':'http://1090ys2.com/'}";
+        var 图片=图片+'@{"referer":"http://1090ys2.com/"}';
         }
     }
     var 简介=e2Rex(CODE,简介规则);
