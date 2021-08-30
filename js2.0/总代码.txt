@@ -370,7 +370,7 @@ for(var i=0;i<分类.length;i++){
     }else if(URL.indexOf("api.php/app/")!=-1){
       var 接口=e2Rex(分类CODE,".json(parse_api)");
       if(接口.indexOf("jpg.hou.lu/jm/za/index.php")!=-1){
-      var 接口="http://egwang186.gitee.io/?url=";
+      var 接口="http://vip.mengx.vip/home/api?type=ys&uid=3249696&key=aefqrtuwxyEFHKNOQY&url=";
       }
     }else{
     var 接口=URL;
