@@ -48,7 +48,7 @@ var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/show/id/";var 后=
 }else if(URL.indexOf("cms.7a11l.cn")!=-1){
 var 标题=标题5;var 地址=地址5;var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("susou.tv")!=-1){
-var 标题=TB(1,2,3,4,49,6,7,8,9,11,12,13,19,21,22,23,24,26);var 地址=TT(1,2,3,4,21,123,124,126,127,128,129,131,132,133,134,136,37,138);var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
+var 标题=TB(1,2,3,4,49,6,7,8,9,11,12,13,19,21,22,23,24,26);var 地址=TT(1,2,3,4,21,123,124,126,127,128,129,131,132,133,134,136,137,138);var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("moyuyingshi.com")!=-1){
 var 标题=标题41;var 地址=地址41;var 前="/vodtype/";var 后="-#PN#/";头部导航();
 }else if(URL.indexOf("ikan6.vip")!=-1||URL.indexOf("nkvod.com")!=-1){
