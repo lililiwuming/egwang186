@@ -202,9 +202,6 @@ var id=uu.split("url=")[1];
 var uu="https://j.languang.wfss100.com/jx/md5.php?url="+id;
 }else if(uu.indexOf("&down=200")!=-1){
 var uu=uu.replace("&down=200","");
-}else if(uu.indexOf("jpg.hou.lu/jm/za/index.php")!=-1){
-var id=uu.split("url=")[1];
-var uu="http://egwang186.gitee.io/?url="+id;
 }else if(uu.indexOf("789pan.hd8.pw")!=-1){
 var id=uu.split("url=")[1];
 var uu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
@@ -268,8 +265,6 @@ JSON.stringify({url:playurl});
 }else if(uu.indexOf("wp.umao.vp6.top")!=-1){
 var uuu="http://u.umao.vp6.top/?url="+uu.replace("wp.umao.vp6.top","umao.v.vp8.top");
 "web="+uuu;
-}else if(uu.indexOf("egwang186.gitee.io")!=-1){
-"web="+uu;
 }else if(uu.indexOf("languang.wfss100")!=-1){
 var playurl=resp.code.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","https://img");
 JSON.stringify({url:playurl});
@@ -373,7 +368,10 @@ for(var i=0;i<分类.length;i++){
        var 接口="http://egwang186.gitee.io/?url=";
        }
     }else if(URL.indexOf("api.php/app/")!=-1){
-    var 接口=e2Rex(分类CODE,".json(parse_api)");
+      var 接口=e2Rex(分类CODE,".json(parse_api)");
+      if(接口.indexOf("jpg.hou.lu/jm/za/index.php")!=-1){
+      var 接口="http://egwang186.gitee.io/?url=";
+      }
     }else{
     var 接口=URL;
     }
