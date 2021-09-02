@@ -354,7 +354,7 @@ for(var i=0;i<分类.length;i++){
     if(URL.indexOf("v1.vod")!=-1){
        var PARSE=e2Rex(分类CODE,".json(player_info).json(parse)").split(",");
        var PARSE2=e2Rex(分类CODE,".json(player_info).json(parse2)").split(",");
-       var 总接口=PARSE.concat(PARSE2).filter(Boolean).filter(item => item.indexOf('=')==-1);
+       var 总接口=PARSE.concat(PARSE2).filter(Boolean).filter(item => item.indexOf('=')!=-1);
        var 过滤规则=[
 /jx\.+huimaojia\.+com\/player/,/py\.+789pan\.+cn\/player\/tm\.php\?url=/,/ztys\.+waruanzy\.+com\/player\/\?url=/,/yingshi\.+waruanzy\.+com\/789pan\/\?url=/,/vip\.+parwix\.+com:4433\/player\/\?url=/,/api\.+cxitco\.+cn/,/\/vip\.+renrenmi.cc/,/yanbing\.+parwix\.+com:4433\/player/,/json\.+cantin\.+cc\/apijson\.php/,/ffdm\.+miaoletv\.+com\/\?url=/,/vip\.+sylwl\.+cn\/api\/\?key=/,/jx\.+dikotv\.+com\/\?url=/,/zly\.+xjqxz\.+top\/player\/\?url=/,/5znn\.+xyz\/m3u8\.+php/,/保佑/
 ];
