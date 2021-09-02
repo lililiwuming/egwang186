@@ -84,7 +84,7 @@ var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/type/id/";var 后=
 var 标题=标题2;var 地址=地址2;var 前="video?tid=";var 后="&lang=&year=&pg=#PN#";头部导航();
 }else if(URL.indexOf("api.php/v1.vod")!=-1){
 var 标题=标题2;var 地址=地址2;var 前="?type=";var 后="&lang=&year=&page=#PN#";
-if(URL.indexOf("dxzj88.com")!=-1){
+if(URL.indexOf("dxzj88.com")!=-1||URL.indexOf("ytys1122.com")!=-1){
 标题.push("纪录片","电视直播");地址.push("31&class=&area=","33&class=&area=");
 }else if(URL.indexOf("meinaikang.com")!=-1){
 标题.push("福利");地址.push("29&class=&area=");
