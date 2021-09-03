@@ -511,7 +511,7 @@ var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("moyuyingshi.com")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukp.com")!=-1||URL.indexOf("nkvod.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(div.sort-item)");
-if(分类.length<1){
+if(分类[0].length<1){
 var 分类=e2Arr(getVar("源码"),".get(div.module-list.module-player-list)");
 }
 var 简介=e2Rex(getVar("源码"),".get(div.video-info)");
