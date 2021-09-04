@@ -144,6 +144,8 @@ if(标题=="xhzy"){
       选集地址="https://jx.xmflv.vip/?url="+选集地址;
 }else if(标题.indexOf('leduo')!=-1){
       选集地址="https://api.xxctzy.com/1.php?vid="+选集地址;
+}else if(标题.indexOf('duoduozy')!=-1){
+      选集地址="https://player.duoduozy.com/ddplay/?url="+选集地址;
 }else if(URL.indexOf("api.yparse.com")!=-1){
       选集地址="https://jx.yparse.com/index.php?url="+选集地址;
 }else if(URL.indexOf("bbkdj")!=-1){
