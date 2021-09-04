@@ -112,6 +112,8 @@ if(标题=="xhzy"){
       选集地址="https://jx.yunboys.cn/?url="+选集地址;
 }else if(标题.indexOf("rrm3u8")!=-1){
   选集地址="https://www.meiju11.com/ckplayerx/m3u8.php?url="+选集地址;
+}else if(标题.indexOf('duoduozy')!=-1){
+      选集地址="https://player.duoduozy.com/ddplay/?url="+选集地址;
 }else if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
       选集地址="https://www.baidu.com/s?wd="+选集地址;
 }else if(URL.indexOf("qbzyz.com")!=-1){
@@ -144,8 +146,6 @@ if(标题=="xhzy"){
       选集地址="https://jx.xmflv.vip/?url="+选集地址;
 }else if(标题.indexOf('leduo')!=-1){
       选集地址="https://api.xxctzy.com/1.php?vid="+选集地址;
-}else if(标题.indexOf('duoduozy')!=-1){
-      选集地址="https://player.duoduozy.com/ddplay/?url="+选集地址;
 }else if(URL.indexOf("api.yparse.com")!=-1){
       选集地址="https://jx.yparse.com/index.php?url="+选集地址;
 }else if(URL.indexOf("bbkdj")!=-1){
