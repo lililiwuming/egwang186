@@ -169,10 +169,10 @@ var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";
 }else if(URL.indexOf("saohuotv.com")!=-1){
 var 列表=getVar("源码").match(/<li>[\s]*?<div class="v_img"[\s\S]*?<\/li>/g);
 var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(div.v_note).t()";单项列表();
-}else if(URL.indexOf("ys.80tvs.cn")!=-1||URL.indexOf("susou.tv")!=-1){
+}else if(URL.indexOf("ys.80tvs.cn")!=-1||URL.indexOf("susou.tv")!=-1||URL.indexOf("cjt521.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.list-width)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(div.lazy).a(data-original)";var 简介规则=".get(span).st().t().c().get(div.bt).t()";单项列表();
-}else if(URL.indexOf("jxry.cc")!=-1||URL.indexOf("cjt521.com")!=-1){
+}else if(URL.indexOf("jxry.cc")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.leo-video-item)");
 var 标题规则=".get(a.leo-show).a(title)";var 地址规则=".get(a.leo-show).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(div.leo-video-tips).t().c().get(div.leo-video-remark).t()";单项列表();
 }else if(URL.indexOf("zjuba.com")!=-1){
@@ -494,14 +494,14 @@ var 列表规则=".get(li)";
 var 标题规则=".get(h3).t()";
 var 选集规则=".get(a.copy_text).t().tz($)";
 var 选集地址规则=".c(https://api.jhdyw.vip/?url=).get(a.copy_text).t().ty($)";选集列表();
-}else if(URL.indexOf("ys.80tvs.cn")!=-1){
+}else if(URL.indexOf("ys.80tvs.cn")!=-1||URL.indexOf("cjt521.com")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(div.play_list_box)");
 var 简介=e2Rex(getVar("源码"),".get(div.detail-a.box)");
 var 列表规则=".get(li)";
 var 标题规则=".get(div.box.player_infotip).t().th(&.*?;##)";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
-}else if(URL.indexOf("jxry.cc")!=-1||URL.indexOf("cjt521.com")!=-1){
+}else if(URL.indexOf("jxry.cc")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(ul.leo-play-num)");
 var 简介=e2Rex(getVar("源码"),".get(div.leo-detail-media).c().get(div#leo-detail-info)");
 var 线路=e2Arr(getVar("源码"),".get(ul.leo-source-cho li)");
@@ -647,10 +647,10 @@ var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";
 }else if(URL.indexOf("saohuotv.com")!=-1){
 var 列表=getVar("源码").match(/<li>[\s]*?<div class="v_img"[\s\S]*?<\/li>/g);
 var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(div.v_note).t()";普通列表();
-}else if(URL.indexOf("ys.80tvs.cn")!=-1||URL.indexOf("susou.tv")!=-1){
+}else if(URL.indexOf("ys.80tvs.cn")!=-1||URL.indexOf("susou.tv")!=-1||URL.indexOf("cjt521.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.list-width)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(div.lazy).a(data-original)";var 简介规则=".get(span).st().t().c().get(div.bt).t()";普通列表();
-}else if(URL.indexOf("jxry.cc")!=-1||URL.indexOf("cjt521.com")!=-1){
+}else if(URL.indexOf("jxry.cc")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.leo-video-item)");
 var 标题规则=".get(a.leo-show).a(title)";var 地址规则=".get(a.leo-show).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(div.leo-video-tips).t().c().get(div.leo-video-remark).t()";普通列表();
 }else if(URL.indexOf("zjuba.com")!=-1){
@@ -852,7 +852,7 @@ var 标题规则=".json(name)";
 var 地址规则=".c(/voddetail/).json(id).ct(.html)";
 var 图片规则=".json(pic)";
 var 简介规则=".json(name)";搜索列表();
-}else if(baseURL.indexOf("ys.80tvs.cn")!=-1||baseURL.indexOf("susou.tv")!=-1){
+}else if(baseURL.indexOf("ys.80tvs.cn")!=-1||baseURL.indexOf("susou.tv")!=-1||baseURL.indexOf("cjt521.com")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=e2Arr(源码,".get(ul li.list-width)");
@@ -868,7 +868,7 @@ var 标题规则=".get(h1 a).t()";
 var 地址规则=".get(h1 a).a(href)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span).st().t().c().get(dd.fed-deta-content).t()";搜索列表();
-}else if(baseURL.indexOf("jxry.cc")!=-1||baseURL.indexOf("cjt521.com")!=-1){
+}else if(baseURL.indexOf("jxry.cc")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
 var 总源码=JZ(JSON.stringify({url:URL}));
 var 源码=总源码.code;
