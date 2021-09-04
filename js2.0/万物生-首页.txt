@@ -233,11 +233,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/fj6080.png"
 },
 {
-"title":"好看剧",
-"url":"http://v.0719.me/api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/haokanju.png"
-},
-{
 "title":"暖光影视",
 "url":"https://app.bl210.com/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nuanguang.png"
