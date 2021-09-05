@@ -256,7 +256,12 @@ var script=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
 eval(script);JSON.stringify({url:now,head:{"User-Agent":UA,"Referer":"https://www.nfmovies.com/js/player/m3u8.html"}});
 }else if(uu.indexOf("baidu.com")!=-1){
 var playurl=uu.split("wd=")[1];
-if(playurl.indexOf("www.ppzhu.vip")!=-1||playurl.indexOf("vip.19jx.vip/api/?type=app")!=-1||playurl.indexOf("42.51.48.17/?url=")!=-1){
+if(playurl.indexOf("duoduozy.com")!=-1){
+var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
+var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
+var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
+JSON.stringify({url:uuuu});
+}else if(playurl.indexOf("www.ppzhu.vip")!=-1||playurl.indexOf("vip.19jx.vip/api/?type=app")!=-1||playurl.indexOf("42.51.48.17/?url=")!=-1){
 if(playurl.indexOf("www.mgtv.com")!=-1){
 JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8",head:{"User-Agent":"Mozilla/5.0","Origin":"https://www.mgtv.com"}},{name:"mp4",url:playurl+"&_type=.mp4",head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.mgtv.com"}}]);
 }else{
