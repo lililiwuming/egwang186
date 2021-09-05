@@ -210,9 +210,6 @@ var uu=uu.replace("&down=200","");
 }else if(uu.indexOf("789pan.hd8.pw")!=-1){
 var id=uu.split("url=")[1];
 var uu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
-}else if(uu.indexOf("uid=1735&my=abghmpqtwBGIKLOW24&url=")!=-1){
-var id=uu.split("url=")[1];
-var uu="https://api.parwix.com:4433/analysis/json/?uid=1735&my=bfgnqrstuINQRWZ034&url="+id;
 }
 if(uu.indexOf("nfmovies.com")!=-1){
 var UA="Mozilla/5.0";
@@ -363,7 +360,7 @@ for(var i=0;i<分类.length;i++){
        var PARSE2=e2Rex(分类CODE,".json(player_info).json(parse2)").split(",");
        var 总接口=PARSE.concat(PARSE2).filter(Boolean).filter(item => item.indexOf('=')!=-1);
        var 过滤规则=[
-/jx\.+huimaojia\.+com\/player/,/py\.+789pan\.+cn\/player\/tm\.php\?url=/,/ztys\.+waruanzy\.+com\/player\/\?url=/,/yingshi\.+waruanzy\.+com\/789pan\/\?url=/,/vip\.+parwix\.+com:4433\/player\/\?url=/,/api\.+cxitco\.+cn/,/\/vip\.+renrenmi.cc/,/yanbing\.+parwix\.+com:4433\/player/,/json\.+cantin\.+cc\/apijson\.php/,/ffdm\.+miaoletv\.+com\/\?url=/,/vip\.+sylwl\.+cn\/api\/\?key=/,/jx\.+dikotv\.+com\/\?url=/,/zly\.+xjqxz\.+top\/player\/\?url=/,/5znn\.+xyz\/m3u8\.+php/,/保佑/
+/jx\.+huimaojia\.+com\/player/,/py\.+789pan\.+cn\/player\/tm\.php\?url=/,/ztys\.+waruanzy\.+com\/player\/\?url=/,/yingshi\.+waruanzy\.+com\/789pan\/\?url=/,/vip\.+parwix\.+com:4433\/player\/\?url=/,/api\.+cxitco\.+cn/,/\/vip\.+renrenmi.cc/,/yanbing\.+parwix\.+com:4433\/player/,/json\.+cantin\.+cc\/apijson\.php/,/ffdm\.+miaoletv\.+com\/\?url=/,/vip\.+sylwl\.+cn\/api\/\?key=/,/jx\.+dikotv\.+com\/\?url=/,/zly\.+xjqxz\.+top\/player\/\?url=/,/5znn\.+xyz\/m3u8\.+php/,/uid=1735&my=abghmpqtwBGIKLOW24&url=/,/保佑/
 ];
        var 可用接口=总接口.filter(function (text) {return !过滤规则.some(function (regex) {return regex.test(text);});});
        if(JSON.stringify(可用接口).indexOf("=")!=-1){
@@ -395,8 +392,6 @@ for(var i=0;i<分类.length;i++){
     }
     }else if(接口.indexOf("jhsj.manduhu.com")!=-1){
        接口="https://api.jhdyw.vip/jiexi/?url=";
-    }else if(接口.indexOf("uid=1735&my=abghmpqtwBGIKLOW24&url=")!=-1){
-       接口="https://api.parwix.com:4433/analysis/json/?uid=1735&my=behkmnryDFGIJQVW02&url=";
     }
     var LIST=[];
     for(var j=0;j<列表.length;j++){
