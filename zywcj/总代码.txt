@@ -144,8 +144,6 @@ if(标题=="xhzy"){
       选集地址="https://jx.xmflv.vip/?url="+选集地址;
 }else if(标题.indexOf('leduo')!=-1){
       选集地址="https://api.xxctzy.com/1.php?vid="+选集地址;
-}else if(标题.indexOf('duoduozy')!=-1){
-      选集地址="https://player.duoduozy.com/ddplay/?url="+选集地址;
 }else if(URL.indexOf("api.yparse.com")!=-1){
       选集地址="https://jx.yparse.com/index.php?url="+选集地址;
 }else if(URL.indexOf("bbkdj")!=-1){
@@ -274,7 +272,14 @@ var playurl=JSON.parse(resp).url;
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("https://www.baidu.com/s?wd=")!=-1){
 var playurl=uu.split("wd=")[1];
+if(playurl.indexOf("duoduozy.com")!=-1){
+var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
+var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
+var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
+JSON.stringify({url:uuuu});
+}else{
 JSON.stringify({url:playurl});
+}
 }else if(uu.indexOf("juztv.com/jx.php")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
 var uuu='https://www.juztv.com/'+resp.match(/var u="(.*?)"/)[1];
