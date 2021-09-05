@@ -225,7 +225,7 @@ var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA,"Cookie":COOKIE}}));
 if(uu.indexOf("cokemv.me")!=-1){
 var DATA=e2Rex(resp.code,".ty(player_aaaa=).json(url)");
 var playurl =DATA;
-JSON.stringify({url:playurl});
+JSON.stringify({url:playurl,head:{"origin":"https://cokemv.me/","user-agent":"Mozilla/5.0"}});
 }else if(uu.indexOf("zxzj.me")!=-1){
 var DATA=e2Rex(resp.code,".ty(player_data=).json(url)");
 if(DATA.indexOf(".m3u8")!=-1||DATA.indexOf(".mp4")!=-1){
