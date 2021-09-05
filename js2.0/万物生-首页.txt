@@ -53,6 +53,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/meijuchong.png"
 },
 {
+"title":"孤单影院",
+"url":"http://hanmiys.com/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/hanmiys.png"
+},
+{
 "title":"陈家影视",
 "url":"https://www.cjt521.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cjt521.png"
