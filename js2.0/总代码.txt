@@ -396,7 +396,7 @@ for(var i=0;i<分类.length;i++){
     }else if(接口.indexOf("jhsj.manduhu.com")!=-1){
        接口="https://api.jhdyw.vip/jiexi/?url=";
     }else if(接口.indexOf("uid=1735&my=abghmpqtwBGIKLOW24&url=")!=-1){
-       接口="https://api.parwix.com:4433/analysis/json/?uid=1735&my=bfgnqrstuINQRWZ034&url=";
+       接口="https://api.parwix.com:4433/analysis/json/?uid=1735&my=behkmnryDFGIJQVW02&url=";
     }
     var LIST=[];
     for(var j=0;j<列表.length;j++){
