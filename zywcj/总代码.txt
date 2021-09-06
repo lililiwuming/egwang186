@@ -101,6 +101,12 @@ for(var i=0;i<分类.length;i++){
 //开始根据网址，线路判断前缀
 if(标题=="xhzy"){
       选集地址=选集地址;
+}else if(URL.indexOf("api.yunboys.cn")!=-1){
+      选集地址="https://jx.yunboys.cn/?url="+选集地址;
+}else if(URL.indexOf("ycccyk.cn")!=-1){
+      选集地址="http://m.ynnyk.cc/api/?key=YF8YhLcAQyPiR0RYsh&url="+选集地址;
+}else if(URL.indexOf("ujuba.com")!=-1){
+      选集地址="https://zy.ujuba.com/play.php?url="+选集地址;
 }else if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1||选集地址.indexOf("share.weiyun.")!=-1){
       选集地址="http://egwang186.gitee.io/?url="+选集地址;
 }else if(选集地址.indexOf(":6688/player")!=-1){
@@ -108,12 +114,6 @@ if(标题=="xhzy"){
       选集地址="https://www.baidu.com/s?wd=https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
 }else if(标题=="wolong"){
       选集地址="https://jx.wolongcdn.com/?url="+选集地址;
-}else if(URL.indexOf("api.yunboys.cn")!=-1){
-      选集地址="https://jx.yunboys.cn/?url="+选集地址;
-}else if(URL.indexOf("ycccyk.cn")!=-1){
-      选集地址="http://m.ynnyk.cc/api/?key=YF8YhLcAQyPiR0RYsh&url="+选集地址;
-}else if(URL.indexOf("ujuba.com")!=-1){
-      选集地址="https://zy.ujuba.com/play.php?url="+选集地址;
 }else if(标题.indexOf("rrm3u8")!=-1){
   选集地址="https://www.meiju11.com/ckplayerx/m3u8.php?url="+选集地址;
 }else if(标题.indexOf("miaoparty")!=-1){
