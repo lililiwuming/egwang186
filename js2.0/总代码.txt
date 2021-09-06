@@ -244,7 +244,7 @@ JSON.stringify({url:playurl,head:{"User-Agent":"Mozilla/5.0"}});
 if(resp.code.indexOf("<iframe")!=-1){
 var uuu=e2Rex(resp.code,".get(iframe).a(src)");
 var playurl=e2Rex(JZ(JSON.stringify({url:uuu})).code,".z2(sources:[\\s\\S]*?'\\(.*?\\)')");
-JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8"},{name:"mp4",url:playurl+"&_type=.mp4"}]);
+JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"?_type=.m3u8"},{name:"mp4",url:playurl+"?_type=.mp4"}]);
 }else{
 "web="+uu;
 }
