@@ -298,6 +298,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
 },
 {
+"title":"阿姨追剧",
+"url":"http://app.yiciyuan.me/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yiciyuan.png"
+},
+{
 "title":"追剧达人",
 "url":"http://vipmv.tv/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuijudaren.png"
