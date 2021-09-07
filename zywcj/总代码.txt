@@ -135,7 +135,7 @@ if(标题=="xhzy"){
 }else if(标题=="789pan"||标题=="pll"){
       选集地址="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+选集地址;
 }else if(标题=="lekanzyw"){
-      选集地址="https://bfq.ikan6.vip/m3u8.php?url="+选集地址;
+      选集地址="https://bfq.ikan6.vip/m3u8.php?url="+选集地址+'@{"referer":"https://ikan6.vip/"}';
 }else if(标题=="renrenmi"){
       选集地址="https://www.80k.tv/rr/?url="+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
