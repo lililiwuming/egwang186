@@ -128,6 +128,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/hszbj.png"
 },
 {
+"title":"龙腾资源",
+"url":"https://longtengzy.cn/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/longteng.png"
+},
+{
 "title":"瓜皮TV",
 "url":"https://dijiaxia.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dijiaxia.png"
