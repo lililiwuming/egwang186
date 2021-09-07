@@ -63,6 +63,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/hanmiys.png"
 },
 {
+"title":"剧迷TV",
+"url":"https://jumi.tv/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jumi.png"
+},
+{
 "title":"陈家影视",
 "url":"https://www.cjt521.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cjt521.png"
