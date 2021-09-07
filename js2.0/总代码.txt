@@ -184,7 +184,7 @@ var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(hre
 var 列表=e2Arr(getVar("源码"),".get(li.list-width)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(div.lazy).a(data-original)";var 简介规则=".get(span).st().t().c().get(div.bt).t()";单项列表();
 }else if(URL.indexOf("susou.tv")!=-1){
-var 列表=e2Arr(源码,".get(ul li.list-width)");var 标题规则=".get(a.searchkey).t()";var 地址规则=".get(a.searchkey).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).st().t()";单项列表();
+var 列表=e2Arr(getVar("源码"),".get(ul li.list-width)");var 标题规则=".get(a.searchkey).t()";var 地址规则=".get(a.searchkey).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).st().t()";单项列表();
 }else if(URL.indexOf("jxry.cc")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.leo-video-item)");
 var 标题规则=".get(a.leo-show).a(title)";var 地址规则=".get(a.leo-show).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(div.leo-video-tips).t().c().get(div.leo-video-remark).t()";单项列表();
