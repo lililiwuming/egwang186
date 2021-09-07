@@ -523,7 +523,7 @@ if(分类[0].length<1){
 var 分类=e2Arr(getVar("源码"),".get(div.module-list.module-player-list)");
 }
 var 简介=e2Rex(getVar("源码"),".get(div.video-info)");
-var 线路=e2Arr(getVar("源码"),".get(div.module-tab-item.tab-item)");
+var 线路=e2Arr(getVar("源码"),".get(.module-tab-item.tab-item)");
 var 列表规则=".get(a)";
 var 标题规则=".t()";
 var 选集规则=".t()";
