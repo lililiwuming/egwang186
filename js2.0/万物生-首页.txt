@@ -108,9 +108,9 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jxry.png"
 },
 {
-"title":"知心影视",
-"url":"https://cms.7a11l.cn/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhixinys.png"
+"title":"外剧迷",
+"url":"http://waijumi.com/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/waijumi.png"
 },
 {
 "title":"墨鱼影视",
