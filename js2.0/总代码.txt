@@ -260,7 +260,7 @@ JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"?_type=.m3u8"},{na
 }
 }else if(uu.indexOf("susou.tv")!=-1){
 var script=e2Rex(resp.code,".get(div#bofang_box script).t()");
-eval(script);JSON.stringify({url:"https://vip.susou.tv"+player_aaaa.url});
+eval(script);JSON.stringify({url:"https://vip.susou.tv"+unescape(player_aaaa.url)});
 }else if(uu.indexOf("nfmovies.com")!=-1){
 var script=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
 eval(script);JSON.stringify({url:now,head:{"User-Agent":UA,"Referer":"https://www.nfmovies.com/js/player/m3u8.html"}});
