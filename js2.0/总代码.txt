@@ -396,6 +396,13 @@ for(var i=0;i<分类.length;i++){
     var 接口=URL;
     }
     if(接口.indexOf("svip.jhyun.jx.cn:1234")!=-1||接口.indexOf("svip.jhdyw.vip:3456")!=-1){
+        if(标题.indexOf("人人")!=-1){
+            接口="https://api.gaotian.love/lgjson.php?url=";
+        }else if(标题.indexOf("番茄")!=-1){
+            接口="https://api.gaotian.love/lgjson.php?url=";
+        }else{
+            接口="https://api.jhdyw.vip/?url=";
+        }
        接口="https://api.jhdyw.vip/jiexi/?url=";
     }else if(接口.indexOf("jhsj.manduhu.com")!=-1){
        接口="https://api.jhdyw.vip/jiexi/?url=";
