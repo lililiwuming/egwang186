@@ -323,6 +323,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jiuheshipin.png"
 },
 {
+"title":"极乐阁",
+"url":"http://vip.wuqcms.com/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/wuqcms.png"
+},
+{
 "title":"琳琅影院",
 "url":"https://www.u23c.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/linlang.png"
