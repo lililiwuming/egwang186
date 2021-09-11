@@ -73,11 +73,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cjt521.png"
 },
 {
-"title":"清风影视",
-"url":"https://www.dcds.ml/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dcds.png"
-},
-{
 "title":"在线之家",
 "url":"https://www.zxzj.me/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zxzj.png"
