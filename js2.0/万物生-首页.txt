@@ -129,7 +129,7 @@
 },
 {
 "title":"喵点影视",
-"url":"https://www.msdv.cn/",
+"url":"https://neenl.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/neenl.png"
 },
 {
