@@ -11,14 +11,17 @@ GoodTV 真情部落,https://live-350k.streamingfast.net/hls-live/goodtv/_definst
 NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
 年代新闻,http://107.167.5.66/mylive/102/2050/index.m3u8
 东森新闻,http://107.167.5.66/mylive/102/2051/index.m3u8
+民视FHD,http://107.167.5.66/mylive/102/2006/index.m3u8
+民视新闻台FHD,http://107.167.5.66/mylive/102/2053/index.m3u8
 中天新闻,http://107.167.5.66/mylive/102/2052/index.m3u8
-民视新闻,http://107.167.5.66/mylive/102/2053/index.m3u8
 HBO,http://107.167.5.66/mylive/102/2065/index.m3u8
 TVBS新闻台,http://107.167.5.66/mylive/102/2055/index.m3u8
 TVBS,http://107.167.5.66/mylive/102/2056/index.m3u8
 东森财经新闻,http://107.167.5.66/mylive/102/2057/index.m3u8
 非凡新闻,http://107.167.5.66/mylive/102/2058/index.m3u8
 卫视电影台,http://107.167.5.66/mylive/102/2061/index.m3u8
+HBO FHD,http://107.167.5.66/mylive/102/2065/index.m3u8
+HBO GO FHD,http://107.167.5.66/mylive/102/2070/index.m3u8
 中视新闻,http://seb.sason.top/sc/zsxw_fhd.m3u8
 华视新闻,http://seb.sason.top/sc/hsxw_fhd.m3u8
 台视新闻,http://seb.sason.top/sc/tsxw_fhd.m3u8

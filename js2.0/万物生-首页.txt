@@ -128,6 +128,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yingkuya.png"
 },
 {
+"title":"喵点影视",
+"url":"https://www.msdv.cn/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/neenl.png"
+},
+{
 "title":"瓜皮TV",
 "url":"https://dijiaxia.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dijiaxia.png"
