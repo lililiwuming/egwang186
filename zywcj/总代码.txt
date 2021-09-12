@@ -20,7 +20,13 @@ var 列表=e2Arr(源码,".json(list)");
 var 标题规则=".json(list_name).th( ##)";var 地址规则=".json(list_id)";var 前="?ac=videolist&pg=#PN#&t=";var 后="";头部导航();
 }else{
 var 列表=e2Arr(源码,".json(class)");
-var 标题规则=".json(type_name)";var 地址规则=".json(type_id)";var 前="?ac=videolist&pg=#PN#&t=";var 后="";头部导航();
+var 标题规则=".json(type_name)";var 地址规则=".json(type_id)";
+if(URL.indexOf("mygzycj.com")!=-1){
+var 前="?ac=jsonvideolist&pg=#PN#&t=";
+}else{
+var 前="?ac=videolist&pg=#PN#&t=";
+}
+var 后="";头部导航();
 }
 ######通用列表
 var baseURL=getVar("url").split("?")[0];
@@ -73,7 +79,13 @@ var 列表=e2Arr(源码,".json(data)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(?ac=videolist&ids=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".c(<font color=\"#0997F7\"><b>).json(vod_play_from).ct(</b></font><br>)";var 图片底部规则=".json(vod_addtime)";var 左上规则=".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\" size=\"40px\">).json(type_name).ct(</font></p>)";var 右上规则=".tx(<p style=\"background-color:#CC00FF\"><font color=\"#FFFFFF\">).json(vod_type).ct(</font></p>)";通用列表();
 }else{
 var 列表=e2Arr(源码,".json(list)");
-var 标题规则=".json(vod_name)";var 地址规则=".c(?ac=videolist&ids=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".c(<font color=\"#0997F7\"><b>).json(vod_play_from).ct(</b></font><br>)";var 图片底部规则=".json(vod_time)";var 左上规则=".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\" size=\"40px\">).json(type_name).ct(</font></p>)";var 右上规则=".tx(<p style=\"background-color:#CC00FF\"><font color=\"#FFFFFF\">).json(vod_remarks).ct(</font></p>)";通用列表();
+var 标题规则=".json(vod_name)";
+if(baseURL.indexOf("mygzycj.com")!=-1){
+var 地址规则=".c(?ac=jsonvideolist&ids=).json(vod_id)";
+}else{
+var 地址规则=".c(?ac=videolist&ids=).json(vod_id)";
+}
+var 图片规则=".json(vod_pic)";var 简介规则=".c(<font color=\"#0997F7\"><b>).json(vod_play_from).ct(</b></font><br>)";var 图片底部规则=".json(vod_time)";var 左上规则=".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\" size=\"40px\">).json(type_name).ct(</font></p>)";var 右上规则=".tx(<p style=\"background-color:#CC00FF\"><font color=\"#FFFFFF\">).json(vod_remarks).ct(</font></p>)";通用列表();
 }
 ######选集列表
 var URL=getVar("url");
@@ -246,7 +258,11 @@ items.push(play_);
 res.data=items;
 return JSON.stringify(res);
 }
+if(getVar("Url").indexOf("mygzycj.com")!=-1){
+var URL=getVar("Url")+"?ac=jsonvideolist&wd="+getVar("KEY");
+}else{
 var URL=getVar("Url")+"?ac=videolist&wd="+getVar("KEY");
+}
 var 源码=getHttp(JSON.stringify({url:URL}));
 if(源码.indexOf("<rss")!=-1){
 var 列表=e2Arr(源码,".xml(video)");
@@ -260,7 +276,13 @@ var 列表=e2Arr(源码,".json(data)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(?ac=videolist&ids=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(type_name).c().json(vod_addtime).c().json(vod_type)";var 作者规则=".json(vod_play_from)";搜索列表();
 }else{
 var 列表=e2Arr(源码,".json(list)");
-var 标题规则=".json(vod_name)";var 地址规则=".c(?ac=videolist&ids=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(type_name).c().json(vod_time).c().json(vod_remarks)";var 作者规则=".json(vod_play_from)";搜索列表();
+var 标题规则=".json(vod_name)";
+if(URL.indexOf("mygzycj.com")!=-1){
+var 地址规则=".c(?ac=jsonvideolist&ids=).json(vod_id)";
+}else{
+var 地址规则=".c(?ac=videolist&ids=).json(vod_id)";
+}
+var 图片规则=".json(vod_pic)";var 简介规则=".json(type_name).c().json(vod_time).c().json(vod_remarks)";var 作者规则=".json(vod_play_from)";搜索列表();
 }
 ######免嗅探
 var uu=getVar("url");
