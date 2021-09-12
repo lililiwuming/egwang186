@@ -193,11 +193,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yss6080.png"
 },
 {
-"title":"片多儿影视",
-"url":"http://meinaikang.com/api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/meinaikang.png"
-},
-{
 "title":"初心影视",
 "url":"https://www.18mv.club/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/18mv.png"
