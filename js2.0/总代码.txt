@@ -53,7 +53,7 @@ var 标题=标题5;var 地址=地址5;var 前="/index.php/vod/show/id/";var 后=
 }else if(URL.indexOf("longtengzy.cn")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/type/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("susou.tv")!=-1){
-var 标题=TB(1,2,3,4,49,6,7,8,9,11,12,13,19,21,22,23,24,26);var 地址=["class/电影","class/电视剧","class/综艺","class/动漫","class/纪录片","class/动作","class/喜剧","class/爱情","class/科幻","class/恐怖","class/剧情","class/战争","area/中国大陆","area/香港","area/台湾","area/日本","area/韩国","area/美国"];var 前="/so-------------/";var 后="/page/#PN#/";头部导航();
+var 标题=TB(1,2,3,4,49,6,7,8,9,11,12,13,19,21,22,23,24,26);var 地址=["1","2","3","4","21","1/class/动作","1/class/喜剧","1/class/爱情","1/class/科幻","1/class/恐怖","1/class/剧情","1/class/战争","2/area/中国大陆","2/area/香港","2/area/台湾","2/area/日本","2/area/韩国","2/area/美国"];var 前="/vodshow-";var 后="/page/#PN#/";头部导航();
 }else if(URL.indexOf("moyuyingshi.com")!=-1){
 var 标题=标题41;var 地址=地址41;var 前="/vodtype/";var 后="-#PN#/";头部导航();
 }else if(URL.indexOf("ikan6.vip")!=-1||URL.indexOf("nkvods.com")!=-1){
