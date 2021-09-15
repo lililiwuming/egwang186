@@ -28,9 +28,9 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ikan6.png"
 },
 {
-"title":"思古影视",
-"url":"https://siguyy.com/api.php/app/index_video?token=",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/siguyy.png"
+"title":"蜻蜓影视",
+"url":"https://cvcv.tv/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cvcv.png"
 },
 {
 "title":"厂长资源",
