@@ -889,7 +889,7 @@ var 地址规则=".get(a.searchkey).a(href)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".get(span).st().t().c().get(p).st().t()";搜索列表();
 }else if(baseURL.indexOf("susou.tv")!=-1){
-var URL=baseURL+"/so-------------/?wd="+KEY;
+var URL=baseURL+"/so/?wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
 var 列表=e2Arr(源码,".get(ul li.list-width)");
 var 标题规则=".get(a.searchkey).t()";
