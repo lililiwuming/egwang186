@@ -167,7 +167,7 @@ if(标题=="xhzy"){
       选集地址="https://www.baidu.com/s?wd="+选集地址;
       }else if(标题=='yunbo'){
       var playurl="https://www.mayigq.com/vodzip/player.php?vid="+选集地址;
-      选集地址=playurl+'@{"referer":"'+playurl+'"}';     
+      选集地址="https://www.baidu.com/s?wd="+playurl;
       }
 }
 //结束判断
@@ -290,6 +290,12 @@ var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
 JSON.stringify({url:uuuu});
+}else if(playurl.indexOf("mayigq.com/vodzip/player.php?vid=")!=-1){
+var resp1=getHttp(JSON.stringify({url:playurl,head:{'Referer':'https://www.mayigq.com'}}));
+var menudata=e2Rex(resp1,".get(#player_swf).a(lovevod)");
+var resp2=getHttp(JSON.stringify({url:"https://www.mayigq.com/vodzip/config/token.php",post:{'menudata':menudata},head:{'Referer':playurl,'x-requested-with':'XMLHttpRequest'}}));
+var realurl="https://www.mayigq.com/vodzip/"+e2Rex(resp2,".z2(var url.*?\"\\(.*?\\)\")");
+JSON.stringify({url:realurl,head:{"referer":playurl}});
 }else{
 JSON.stringify({url:playurl});
 }
