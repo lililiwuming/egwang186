@@ -41,9 +41,12 @@ return JSON.stringify(res);
 if(URL.indexOf("cokemv.me")!=-1){
 var 标题=TB(1,2,3,4,32,19,21,24,18);
 var 地址=TT(1,2,3,4,5,13,14,15,16);var 前="/vodtype/";var 后="-#PN#.html";头部导航();
-}else if(URL.indexOf("hanmiys.com")!=-1||URL.indexOf("cvcv.tv")!=-1){
+}else if(URL.indexOf("hanmiys.com")!=-1){
 var 标题=标题2;
 var 地址=["1---","2---","3---","4---","1---动作","1---喜剧","1---爱情","1---科幻","1---恐怖","1---剧情","1---战争","2-内地--","2-香港--","2-台湾--","2-日本--","2-韩国--","2-美国--"];var 前="/vodshow/";var 后="-----#PN#---.html";头部导航();
+}else if(URL.indexOf("cvcv.tv")!=-1){
+var 标题=标题2;
+var 地址=["1---","6---","8---","9---","1---动作","1---喜剧","1---爱情","1---科幻","1---恐怖","1---剧情","1---战争","6-大陆--","6-香港--","6-台湾--","6-日本--","6-韩国--","6-美国--"];var 前="/vodshow/";var 后="-----#PN#---.html";头部导航();
 }else if(URL.indexOf("jpysvip.net")!=-1||URL.indexOf("ak1080.me")!=-1||URL.indexOf("unss.net")!=-1||URL.indexOf("dcds.ml")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("bukaivip.com")!=-1||URL.indexOf("flvweb.com")!=-1||URL.indexOf("ys.80tvs.cn")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("neenl.com")!=-1){
