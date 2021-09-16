@@ -167,7 +167,7 @@ if(标题=="xhzy"){
       选集地址="https://www.baidu.com/s?wd="+选集地址;
       }else if(标题=='yunbo'){
       var playurl="https://www.mayigq.com/vodzip/player.php?vid="+选集地址;
-      选集地址="https://www.baidu.com/s?wd="+playurl;
+      选集地址="https://www.baidu.com/s?wd="+playurl+'@{"referer":'+playurl+',"user-agent":"Mozilla/5.0 Android","cookie":"UM_distinctid=17bec702e265b-0a8accf2de9d0f-1b3f0a2f-62b80-17bec702e28423;CNZZDATA1280244498=92899598-1631759379-%7C1631759379"}';
       }
 }
 //结束判断
@@ -296,7 +296,7 @@ var menudata=e2Rex(resp1,".get(#player_swf).a(lovevod)");
 var resp2=getHttp(JSON.stringify({url:"https://www.mayigq.com/vodzip/config/token.php",post:{'menudata':menudata},head:{'Referer':playurl,'x-requested-with':'XMLHttpRequest'}}));
 var realurl="https://www.mayigq.com/vodzip/"+e2Rex(resp2,".z2(var url.*?\"\\(.*?\\)\")");
 //JSON.stringify({url:realurl,head:{"referer":playurl,"user-agent":"Mozilla/5.0 Android","cookie":"UM_distinctid=17bec702e265b-0a8accf2de9d0f-1b3f0a2f-62b80-17bec702e28423;CNZZDATA1280244498=92899598-1631759379-%7C1631759379"}});
-"web="+realurl+'@{"referer":'+playurl+',"user-agent":"Mozilla/5.0 Android","cookie":"UM_distinctid=17bec702e265b-0a8accf2de9d0f-1b3f0a2f-62b80-17bec702e28423;CNZZDATA1280244498=92899598-1631759379-%7C1631759379"}';
+"web="+realurl;
 }else{
 JSON.stringify({url:playurl});
 }
