@@ -339,7 +339,6 @@ var playurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
 JSON.stringify({url:playurl});
 }
 }
-}
 }else if(uu.indexOf("https://www.baidu.com/s?wd=")!=-1){
 var playurl=uu.split("wd=")[1];
 if(playurl.indexOf("duoduozy.com")!=-1){
