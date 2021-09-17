@@ -135,11 +135,7 @@ var NEXTPAGE=Number(getVar("PN"))+1;
 function 单项列表(){
 var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
-    if(URL.indexOf("api.php/v1.vod")!=-1||URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
-    var CODE=JSON.stringify(列表[j]);
-    }else{
     var CODE=列表[j];
-    }
     var 标题=e2Rex(CODE,标题规则);
     var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):URL+e2Rex(CODE,地址规则);
     var 预图片=e2Rex(CODE,图片规则);
@@ -211,13 +207,13 @@ var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";
 var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-\\d col-xs-3])");
 var 标题规则=".get(.title a).a(title)";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";单项列表();
 }else if(URL.indexOf("api.php/v1.vod")!=-1){
-var 列表=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.list;
+var 列表=e2Arr(getVar("源码"),".json(data).json(list)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";单项列表();
 }else if(URL.indexOf("api.php/app")!=-1){
-var 列表=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).list;
+var 列表=e2Arr(getVar("源码"),".json(list)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";单项列表();
 }else if(URL.indexOf("xgapp.php/v1")!=-1){
-var 列表=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data;
+var 列表=e2Arr(getVar("源码"),".json(data)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";单项列表();
 }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
 var 列表=e2Arr(getVar("源码"),".json(data)");
@@ -372,11 +368,7 @@ var URL=getVar("url").match(/https?:\/\/[^\/]*/)[0];
 function 选集列表(){
 var res={};var items=[];var detail=[];
 for(var i=0;i<分类.length;i++){
-    if(URL.indexOf("api.php/v1.vod")!=-1||URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
-    var 分类CODE=JSON.stringify(分类[i]);
-    }else{
     var 分类CODE=分类[i];
-    }
     var 列表=e2Arr(分类CODE,列表规则);
     if(线路){
     var 标题=e2Rex(线路[i],标题规则);
@@ -600,22 +592,22 @@ var 标题规则=".a(title)";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("api.php/app/")!=-1){
-var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_url_with_player;
-var 简介=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_content;
+var 分类=e2Arr(getVar("源码"),".json(data).json(vod_url_with_player)");
+var 简介=e2Rex(getVar("源码"),".json(data).json(vod_content)");
 var 列表规则=".json(url).ct(#).z(.*?\\$.*?#)";
 var 标题规则=".json(name)";
 var 选集规则=".z2(\\\(.+?\\\)\\$)";
 var 选集地址规则=".z2(\\$\\\(.+?\\\)[#|\"])";选集列表();
 }else if(URL.indexOf("xgapp.php/v1/")!=-1){
-var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_info.vod_url_with_player;
-var 简介=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_info.vod_content;
+var 分类=e2Arr(getVar("源码"),".json(data).json(vod_info).json(vod_url_with_player)");
+var 简介=e2Rex(getVar("源码"),".json(data).json(vod_info).json(vod_content)");
 var 列表规则=".json(url).ct(#).z(.*?\\$.*?#)";
 var 标题规则=".json(name)";
 var 选集规则=".z2(\\\(.+?\\\)\\$)";
 var 选集地址规则=".z2(\\$\\\(.+?\\\)[#|\"])";选集列表();
 }else if(URL.indexOf("v1.vod")!=-1){
-var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_play_list;
-var 简介=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_content;
+var 分类=e2Arr(getVar("源码"),".json(data).json(vod_play_list)");
+var 简介=e2Rex(getVar("源码"),".json(data).json(vod_content)");
 var 列表规则=".json(url).ct(#).z(.*?\\$.*?#)";
 var 标题规则=".json(player_info).json(show)";
 var 选集规则=".z2(\\\(.+?\\\)\\$)";
@@ -782,11 +774,7 @@ var LIMIT=列表.length;
 var LIMIT=列表.length;
 }
 for(var j=0;j<LIMIT;j++){
-    if(baseURL.indexOf("api.php/v1.vod")!=-1||baseURL.indexOf("api.php/app")!=-1){
-    var CODE=JSON.stringify(列表[j]);
-    }else{
-    var CODE=列表[j];
-    }
+   var CODE=列表[j];
    var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):baseURL+e2Rex(CODE,地址规则);
    if(baseURL.indexOf("zhenbuka3.com")!=-1){
    var resp=getHttp(JSON.stringify({url:地址}));
@@ -1009,7 +997,7 @@ var 简介规则=".t()";搜索列表();
 }else if(baseURL.indexOf("v1.vod")!=-1){
 var URL=baseURL+"?page=1&limit=10&wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL,head:{"user-agent":"okhttp/4.1.0"}}));
-var 列表=JSON.parse(源码.replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.list;
+var 列表=e2Arr(源码,".json(data).json(list)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";搜索列表();
 }else if(baseURL.indexOf("api.php/app")!=-1){
 var URL=baseURL+"search?pg=1&text="+KEY;
@@ -1018,7 +1006,7 @@ if(源码.indexOf("跳转中")!=-1){
 var URL=baseURL+e2Rex(源码,".z(/api\\.php/app[^\"]*).ty(api.php/app/)");
 var 源码=getHttp(JSON.stringify({url:URL}));
 }
-var 列表=JSON.parse(源码.replace(/<.*?>/g,"").replace(/[\s]*/g,"")).list;
+var 列表=e2Arr(源码,".json(list)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";搜索列表();
 }else if(baseURL.indexOf("xgapp.php/v1")!=-1){
 var URL=baseURL+"search?pg=1&text="+KEY;
@@ -1027,7 +1015,7 @@ if(源码.indexOf("跳转中")!=-1){
 var URL=baseURL+e2Rex(源码,".z(/xgapp\\.php/v1[^\"]*).ty(xgapp.php/v1/)");
 var 源码=getHttp(JSON.stringify({url:URL}));
 }
-var 列表=JSON.parse(源码.replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data;
+var 列表=e2Arr(源码,".json(data)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";搜索列表();
 }else if(baseURL.search(/api\.php\/.*?\/vod/)!=-1){
 var URL=baseURL+"?ac=list&page=1&wd="+KEY;
