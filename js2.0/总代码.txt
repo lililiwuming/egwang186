@@ -372,7 +372,7 @@ var URL=getVar("url").match(/https?:\/\/[^\/]*/)[0];
 function 选集列表(){
 var res={};var items=[];var detail=[];
 for(var i=0;i<分类.length;i++){
-    if(URL.indexOf("api.php/v1.vod")!=-1||URL.indexOf("api.php/app")!=-1){
+    if(URL.indexOf("api.php/v1.vod")!=-1||URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     var 分类CODE=JSON.stringify(分类[i]);
     }else{
     var 分类CODE=分类[i];
