@@ -135,7 +135,7 @@ var NEXTPAGE=Number(getVar("PN"))+1;
 function 单项列表(){
 var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
-    if(URL.indexOf("api.php/v1.vod")!=-1||URL.indexOf("api.php/app")!=-1){
+    if(URL.indexOf("api.php/v1.vod")!=-1||URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     var CODE=JSON.stringify(列表[j]);
     }else{
     var CODE=列表[j];
