@@ -1,6 +1,6 @@
 if(getVar("url").indexOf("v1.vod/vodPhbAll")!=-1){
 var URL=getVar("url").split("/vodPhbAll")[0];
-}else if(getVar("url").search(/api\.php\/.*?\/vod/)!=-1||getVar("url").indexOf("api.php/app/")!=-1){
+}else if(getVar("url").search(/api\.php\/.*?\/vod/)!=-1||getVar("url").indexOf("api.php/app/")!=-1||getVar("url").indexOf("xgapp.php/v1/")!=-1){
 var URL=getVar("url").match(/http.*\//)[0];
 }else{
 var URL=getVar("url").match(/https?:\/\/[^\/]*/)[0];
@@ -126,7 +126,7 @@ var 标题=标题3;var 地址=地址3;var 前="?ac=list&class=";var 后="&page=#
 ######单项列表
 if(getVar("url").indexOf("v1.vod")!=-1){
 var URL=getVar("url").split("?")[0];
-}else if(getVar("url").search(/api\.php\/.*?\/vod/)!=-1||getVar("url").indexOf("api.php/app/")!=-1){
+}else if(getVar("url").search(/api\.php\/.*?\/vod/)!=-1||getVar("url").indexOf("api.php/app/")!=-1||getVar("url").indexOf("xgapp.php/v1/")!=-1){
 var URL=getVar("url").match(/http.*\//)[0];
 }else{
 var URL=getVar("url").match(/https?:\/\/[^\/]*/)[0];
@@ -364,7 +364,7 @@ JSON.stringify({url:playurl});
 ######选集列表
 if(getVar("url").indexOf("v1.vod")!=-1){
 var URL=getVar("url").split("/detail?")[0];
-}else if(getVar("url").search(/api\.php\/.*?\/vod/)!=-1||getVar("url").indexOf("api.php/app/")!=-1){
+}else if(getVar("url").search(/api\.php\/.*?\/vod/)!=-1||getVar("url").indexOf("api.php/app/")!=-1||getVar("url").indexOf("xgapp.php/v1/")!=-1){
 var URL=getVar("url").match(/http.*\//)[0];
 }else{
 var URL=getVar("url").match(/https?:\/\/[^\/]*/)[0];
@@ -624,7 +624,7 @@ var 选集地址规则=".json(url)";选集列表();
 ######首页推荐
 if(getVar("url").indexOf("v1.vod/vodPhbAll")!=-1){
 var URL=getVar("url").split("/vodPhbAll")[0];
-}else if(getVar("url").search(/api\.php\/.*?\/vod/)!=-1||getVar("url").indexOf("api.php/app/")!=-1){
+}else if(getVar("url").search(/api\.php\/.*?\/vod/)!=-1||getVar("url").indexOf("api.php/app/")!=-1||getVar("url").indexOf("xgapp.php/v1/")!=-1){
 var URL=getVar("url").match(/http.*\//)[0];
 }else{
 var URL=getVar("url").match(/https?:\/\/[^\/]*/)[0];
@@ -747,7 +747,7 @@ var KEY=getVar("KEY");
 var baseURL=e2Rex(getVar("CODE"),".json(url)");
 if(baseURL.indexOf("v1.vod/vodPhbAll")!=-1){
 var baseURL=baseURL.split("/vodPhbAll")[0];
-}else if(baseURL.search(/api\.php\/.*?\/vod/)!=-1||baseURL.indexOf("api.php/app/")!=-1){
+}else if(baseURL.search(/api\.php\/.*?\/vod/)!=-1||baseURL.indexOf("api.php/app/")!=-1||baseURL.indexOf("xgapp.php/v1/")!=-1){
 var baseURL=baseURL.match(/http.*\//)[0];
 }else{
 var baseURL=baseURL.match(/https?:\/\/[^\/]*/)[0];
