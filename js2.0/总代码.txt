@@ -102,7 +102,7 @@ var 标题=TB(1,2,19,21,24,26,23,3,6,7,8,9,11,12);var 地址=["1","2","2/area/�
 var 标题=TB(1,2,3,4,6,7,8,9,11,12,13,49,14,16,17,18);var 地址=TT(1,2,3,4,5,10,6,7,8,12,9,11,13,14,16,15);var 前="/list/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("jhyun.jhdyw.vip")!=-1||URL.indexOf("zjuba.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/type/id/";var 后="/page/#PN#.html";头部导航();
-}else if(URL.indexOf("api.php/app")!=-1){
+}else if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1/")!=-1){
 var 标题=标题2;var 地址=地址2;var 前="video?tid=";var 后="&lang=&year=&pg=#PN#";头部导航();
 }else if(URL.indexOf("api.php/v1.vod")!=-1){
 var 标题=标题2;var 地址=地址2;var 前="?type=";var 后="&lang=&year=&page=#PN#";
@@ -215,6 +215,9 @@ var 列表=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")
 var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";单项列表();
 }else if(URL.indexOf("api.php/app")!=-1){
 var 列表=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).list;
+var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";单项列表();
+}else if(URL.indexOf("xgapp.php/v1")!=-1){
+var 列表=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data;
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";单项列表();
 }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
 var 列表=e2Arr(getVar("源码"),".json(data)");
@@ -399,7 +402,7 @@ for(var i=0;i<分类.length;i++){
        }else{
        var 接口="http://egwang186.gitee.io/?url=";
        }
-    }else if(URL.indexOf("api.php/app/")!=-1){
+    }else if(URL.indexOf("api.php/app/")!=-1||URL.indexOf("xgapp.php/v1/")!=-1){
       var 接口=e2Rex(分类CODE,".json(parse_api)");
       if(接口.indexOf("jpg.hou.lu/jm/za/index.php")!=-1){
       var 接口="http://vip.mengx.vip/home/api?type=ys&uid=3249696&key=aefqrtuwxyEFHKNOQY&url=";
@@ -423,7 +426,7 @@ for(var i=0;i<分类.length;i++){
     for(var j=0;j<列表.length;j++){
         var 选集=e2Rex(列表[j],选集规则);
         var 选集地址=e2Rex(列表[j],选集地址规则);
-        if(URL.indexOf("api.php/app/")!=-1||URL.indexOf("v1.vod")!=-1){
+        if(URL.indexOf("xgapp.php/v1/")!=-1||URL.indexOf("api.php/app/")!=-1||URL.indexOf("v1.vod")!=-1){
            if(选集地址.indexOf("42.51.48.17/?url=")!=-1||选集地址.indexOf(".m3u8")>20||选集地址.indexOf(".mp4")!=-1||选集地址.indexOf("/obj/tos")!=-1){
            var 选集地址="https://www.baidu.com/s?wd="+选集地址;
            }else{
@@ -596,7 +599,7 @@ var 列表规则=".get(li)";
 var 标题规则=".a(title)";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
-}else if(URL.indexOf("api.php/app/")!=-1){
+}else if(URL.indexOf("api.php/app/")!=-1||URL.indexOf("xgapp.php/v1/")!=-1){
 var 分类=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_url_with_player;
 var 简介=JSON.parse(getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data.vod_content;
 var 列表规则=".json(url).ct(#).z(.*?\\$.*?#)";
@@ -704,7 +707,7 @@ var 标题规则=".get(.title a).a(title)";var 地址规则=".get(.title a).a(hr
 }else if(URL.indexOf("api.php/v1.vod")!=-1){
 var 列表=getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"").match(/\{[^\{]*"vod_id".*?"type_1".*?\}/g);
 var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";普通列表();
-}else if(URL.indexOf("api.php/app")!=-1){
+}else if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
 var 列表=getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"").match(/\{"vod_id".*?\}/g);
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";普通列表();
 }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
@@ -1009,6 +1012,15 @@ var URL=baseURL+e2Rex(源码,".z(/api\\.php/app[^\"]*).ty(api.php/app/)");
 var 源码=getHttp(JSON.stringify({url:URL}));
 }
 var 列表=JSON.parse(源码.replace(/<.*?>/g,"").replace(/[\s]*/g,"")).list;
+var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";搜索列表();
+}else if(baseURL.indexOf("xgapp.php/v1")!=-1){
+var URL=baseURL+"search?pg=1&text="+KEY;
+var 源码=getHttp(JSON.stringify({url:URL,head:{"user-agent":"okhttp/4.1.0"}}));
+if(源码.indexOf("跳转中")!=-1){
+var URL=baseURL+e2Rex(源码,".z(/xgapp\\.php/v1[^\"]*).ty(xgapp.php/v1/)");
+var 源码=getHttp(JSON.stringify({url:URL}));
+}
+var 列表=JSON.parse(源码.replace(/<.*?>/g,"").replace(/[\s]*/g,"")).data;
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";搜索列表();
 }else if(baseURL.search(/api\.php\/.*?\/vod/)!=-1){
 var URL=baseURL+"?ac=list&page=1&wd="+KEY;
