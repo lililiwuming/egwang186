@@ -288,11 +288,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ytys1122.png"
 },
 {
-"title":"大师兄影视",
-"url":"https://hou.lu/api.php/app/index_video?token=",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
-},
-{
 "title":"追剧达人",
 "url":"http://vipmv.tv/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuijudaren.png"
@@ -346,6 +341,11 @@
 "title":"江湖影视",
 "url":"http://app.jhdyw.vip:1234/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jhdywvip.png"
+},
+{
+"title":"大师兄影视",
+"url":"http://dsxtv.tv.ci/api.php/dsx/vod/?ac=list&class=&start=&area=&type=&page=1",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
 },
 {
 "title":"流星雨影视",
