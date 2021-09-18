@@ -419,10 +419,14 @@ for(var i=0;i<分类.length;i++){
         var 选集=e2Rex(列表[j],选集规则);
         var 选集地址=e2Rex(列表[j],选集地址规则);
         if(URL.indexOf("xgapp.php/v1/")!=-1||URL.indexOf("api.php/app/")!=-1||URL.indexOf("v1.vod")!=-1){
-           if(选集地址.indexOf("42.51.48.17/?url=")!=-1||选集地址.indexOf(".m3u8")>20||选集地址.indexOf(".mp4")!=-1||选集地址.indexOf("/obj/tos")!=-1){
+           if(选集地址.indexOf(".m3u8")>20||选集地址.indexOf(".mp4")!=-1||选集地址.indexOf("/obj/tos")!=-1){
            var 选集地址="https://www.baidu.com/s?wd="+选集地址;
            }else{
-           var 选集地址=接口+选集地址;
+               if(接口.indexOf("/api/?type=app")!=-1||接口.indexOf("42.51.48.17/?url=")!=-1){
+               var 选集地址="https://www.baidu.com/s?wd="+接口+选集地址;
+               }else{
+               var 选集地址=接口+选集地址;
+               }
            }
         }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
          if(URL.indexOf("ppzhu.vip")!=-1){
@@ -434,7 +438,7 @@ for(var i=0;i<分类.length;i++){
            var 选集地址="http://egwang186.gitee.io/?url="+选集地址;
            }else{
            var 选集地址=选集地址;
-          }
+           }
          }
         }else if(选集地址.indexOf("http")!=-1){
         var 选集地址=选集地址;
