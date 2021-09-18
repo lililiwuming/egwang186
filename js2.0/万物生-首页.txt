@@ -283,11 +283,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/26ys.png"
 },
 {
-"title":"懒猫电影",
-"url":"https://007.lanmaody.com/api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/lanmaody.png"
-},
-{
 "title":"杨桃影视",
 "url":"http://ytys1122.com/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ytys1122.png"
