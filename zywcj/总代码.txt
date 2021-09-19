@@ -109,7 +109,7 @@ if(标题=="xhzy"){
      if(URL.indexOf("ycccyk.cn")!=-1){
       选集地址="http://m.ynnyk.cc/home/api?type=ys&uid=45109&key=abfhipqxyDFIKS0238&url="+选集地址;
       }else if(URL.indexOf("107.150.5.146")!=-1){
-      选集地址="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url="+选集地址;
+      选集地址="https://www.baidu.com/s?wd=https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url="+选集地址;
       }else{
       选集地址="http://egwang186.gitee.io/?url="+选集地址;
       }
@@ -285,6 +285,34 @@ JSON.stringify({url:playurl,headers:{"referer":"https://www.mgtv.com.byteamone.c
 }else if(uu.indexOf("hjjjjhd.top")!=-1){
 var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,headers:{"referer":uu}});
+}else if(uu.indexOf("https://www.baidu.com/s?wd=")!=-1){
+var playurl=uu.split("wd=")[1];
+if(playurl.indexOf("duoduozy.com")!=-1){
+var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
+var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
+var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
+JSON.stringify({url:uuuu});
+}else if(playurl.indexOf("mayigq.com/vodzip/player.php?vid=")!=-1){
+var resp1=getHttp(JSON.stringify({url:playurl,head:{'Referer':'https://www.mayigq.com'}}));
+var menudata=e2Rex(resp1,".get(#player_swf).a(lovevod)");
+var resp2=getHttp(JSON.stringify({url:"https://www.mayigq.com/vodzip/config/token.php",post:{'menudata':menudata},head:{'Referer':playurl,'x-requested-with':'XMLHttpRequest'}}));
+var realurl="https://www.mayigq.com/vodzip/"+e2Rex(resp2,".z2(var url.*?\"\\(.*?\\)\")");
+JSON.stringify({url:realurl,redirect:false,head:{"Referer":playurl,"User-Agent":"Mozilla/5.0 Android","Cookie":"UM_distinctid=17bed9f3ec1239-0e52198f3410a6-1b3f0a2f-62b80-17bed9f3ec243a"}});
+}else if(playurl.indexOf("api.m3u8.tv:5678")!=-1){
+var resp=JZ(JSON.stringify({url:playurl,head:{"User-Agent":UA,"Cookie":COOKIE}}));
+if(e2Rex(resp.code,".json(url)").length>1){
+var realurl=JSON.parse(resp.code).url;
+if(playurl.indexOf("pcvideotestws.titan.mgtv.com")!=-1){
+JSON.stringify({url:realurl,head:{"User-Agent":UA,"Referer":"https://www.mgtv.com/"}});
+}else{
+JSON.stringify({url:realurl});
+}
+}else{
+"web=http://egwang186.gitee.io/?url="+playurl.split("url=")[1];
+}
+}else{
+JSON.stringify({url:playurl});
+}
 }else if(uu.indexOf("?u=http")!=-1||uu.indexOf("url=")!=-1||uu.indexOf("v=http")!=-1||uu.indexOf("json.php?id=")!=-1){
 var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA,"Cookie":COOKIE}}));
 if(resp.code.indexOf("<html")!=-1){
@@ -340,22 +368,6 @@ var resp2=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
 JSON.stringify({url:playurl});
 }
-}
-}else if(uu.indexOf("https://www.baidu.com/s?wd=")!=-1){
-var playurl=uu.split("wd=")[1];
-if(playurl.indexOf("duoduozy.com")!=-1){
-var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
-var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
-var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
-JSON.stringify({url:uuuu});
-}else if(playurl.indexOf("mayigq.com/vodzip/player.php?vid=")!=-1){
-var resp1=getHttp(JSON.stringify({url:playurl,head:{'Referer':'https://www.mayigq.com'}}));
-var menudata=e2Rex(resp1,".get(#player_swf).a(lovevod)");
-var resp2=getHttp(JSON.stringify({url:"https://www.mayigq.com/vodzip/config/token.php",post:{'menudata':menudata},head:{'Referer':playurl,'x-requested-with':'XMLHttpRequest'}}));
-var realurl="https://www.mayigq.com/vodzip/"+e2Rex(resp2,".z2(var url.*?\"\\(.*?\\)\")");
-JSON.stringify({url:realurl,redirect:false,head:{"Referer":playurl,"User-Agent":"Mozilla/5.0 Android","Cookie":"UM_distinctid=17bed9f3ec1239-0e52198f3410a6-1b3f0a2f-62b80-17bed9f3ec243a"}});
-}else{
-JSON.stringify({url:playurl});
 }
 }else if(uu.indexOf("juztv.com/jx.php")!=-1){
 var resp=getHttp(JSON.stringify({url:uu}));
