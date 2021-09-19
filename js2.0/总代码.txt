@@ -410,11 +410,10 @@ for(var i=0;i<分类.length;i++){
         }else if(标题.indexOf("番茄")!=-1){
             接口="https://api.gaotian.love/lgjson.php?url=";
         }else{
-            接口="https://api.jhdyw.vip/?url=";
+            接口="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
         }
-       接口="https://api.jhdyw.vip/jiexi/?url=";
     }else if(接口.indexOf("jhsj.manduhu.com")!=-1){
-       接口="https://api.jhdyw.vip/jiexi/?url=";
+       接口="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
     }
     var LIST=[];
     for(var j=0;j<列表.length;j++){
@@ -437,7 +436,7 @@ for(var i=0;i<分类.length;i++){
            if(选集地址.indexOf("/api/?type=app")!=-1||选集地址.indexOf("42.51.48.17/?url=")!=-1||选集地址.indexOf(".m3u8")>20||选集地址.indexOf(".mp4")!=-1||选集地址.indexOf("/obj/tos")!=-1){
            var 选集地址="https://www.baidu.com/s?wd="+选集地址;
            }else if(选集地址.indexOf("=")==-1){
-           var 选集地址="http://egwang186.gitee.io/?url="+选集地址;
+           var 选集地址="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url="+选集地址;
            }else{
            var 选集地址=选集地址;
            }
