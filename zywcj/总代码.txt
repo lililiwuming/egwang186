@@ -269,7 +269,7 @@ var 标题规则=".json(vod_name)";var 地址规则=".c(?ac=videolist&ids=).json
 }
 ######免嗅探
 var uu=getVar("url");
-var UA="Mozilla/5.0 Android";
+var UA="Mozilla/5.0";
 var COOKIE="";
 if(uu.indexOf("www.meiju11.com")!=-1){
 var resp=getHttp(JSON.stringify({url:uu,head:{'Referer':'https://www.meiju11.com'}}));
