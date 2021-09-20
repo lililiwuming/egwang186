@@ -284,7 +284,7 @@ var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
 JSON.stringify({url:uuuu});
 }else if(playurl.indexOf("www.ppzhu.vip")!=-1||playurl.indexOf("/api/?type=app")!=-1||playurl.indexOf("42.51.48.17/?url=")!=-1){
 if(playurl.indexOf("www.mgtv.com")!=-1){
-JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8",head:{"User-Agent":"Mozilla/5.0","Origin":"https://www.mgtv.com"}},{name:"mp4",url:playurl+"&_type=.mp4",head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.mgtv.com"}}]);
+JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8",head:{"User-Agent":"Mozilla/5.0","Referer":""}},{name:"mp4",url:playurl+"&_type=.mp4",head:{"User-Agent":"Mozilla/5.0","Referer":""}}]);
 }else{
 JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8"},{name:"mp4",url:playurl+"&_type=.mp4"}]);
 }
