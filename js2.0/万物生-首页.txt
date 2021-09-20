@@ -363,6 +363,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
 },
 {
+"title":"冷月影视",
+"url":"https://tv.521x5.com/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/521x5.png"
+},
+{
 "title":"流星雨影视",
 "url":"http://phoebe.cf/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/liuxingyu.png"
