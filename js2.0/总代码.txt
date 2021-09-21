@@ -292,6 +292,18 @@ JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"&_type=.m3u8"},{na
 }
 }else if(playurl.indexOf("cat.wkfile.com")!=-1){
 JSON.stringify({url:playurl,head:{"Referer":"https://fkplayer.wkfile.com/"}});
+}else if(playurl.indexOf("api.m3u8.tv:5678")!=-1){
+var resp=JZ(JSON.stringify({url:playurl,head:{"User-Agent":UA,"Cookie":COOKIE}}));
+if(e2Rex(resp.code,".json(url)").length>1){
+var realurl=JSON.parse(resp.code).url;
+if(playurl.indexOf("mgtv.com")!=-1){
+JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
+}else{
+JSON.stringify({url:realurl});
+}
+}else{
+"web=http://egwang186.gitee.io/?url="+playurl.split("url=")[1];
+}
 }else{
 JSON.stringify({url:playurl});
 }
@@ -408,14 +420,14 @@ for(var i=0;i<分类.length;i++){
     }
     if(接口.indexOf("svip.jhyun.jx.cn:1234")!=-1||接口.indexOf("svip.jhdyw.vip:3456")!=-1){
         if(标题.indexOf("人人")!=-1){
-            接口="https://api.gaotian.love/lgjson.php?url=";
+            接口="https://www.1080kan.cc/jiexi/rrmi.php?url=";
         }else if(标题.indexOf("番茄")!=-1){
             接口="https://api.gaotian.love/lgjson.php?url=";
         }else{
-            接口="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
+            接口="https://www.baidu.com/s?wd=https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
         }
     }else if(接口.indexOf("jhsj.manduhu.com")!=-1){
-       接口="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
+       接口="https://www.baidu.com/s?wd=https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
     }
     var LIST=[];
     for(var j=0;j<列表.length;j++){
@@ -438,7 +450,7 @@ for(var i=0;i<分类.length;i++){
            if(选集地址.indexOf("/api/?type=app")!=-1||选集地址.indexOf("42.51.48.17/?url=")!=-1||选集地址.indexOf(".m3u8")>20||选集地址.indexOf(".mp4")!=-1||选集地址.indexOf("/obj/tos")!=-1){
            var 选集地址="https://www.baidu.com/s?wd="+选集地址;
            }else if(选集地址.indexOf("=")==-1){
-           var 选集地址="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url="+选集地址;
+           var 选集地址="https://www.baidu.com/s?wd=https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url="+选集地址;
            }else{
            var 选集地址=选集地址;
            }
