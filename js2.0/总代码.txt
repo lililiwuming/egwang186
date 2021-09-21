@@ -422,7 +422,7 @@ for(var i=0;i<分类.length;i++){
         if(标题.indexOf("人人")!=-1){
             接口="https://www.1080kan.cc/jiexi/rrmi.php?url=";
         }else if(标题.indexOf("番茄")!=-1){
-            接口="https://api.gaotian.love/lgjson.php?url=";
+            接口="http://vip.vipmv.tv/mp4/fqjson.php/?url=";
         }else{
             接口="https://www.baidu.com/s?wd=https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
         }
