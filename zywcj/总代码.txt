@@ -281,7 +281,7 @@ var playurl=resp.match(/vodurl.*?'(.*?)[#|']/)[1].replace("https://languang","ht
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("mgtv.com.byteamone.cn")!=-1){
 var playurl=uu.split("url=")[1];
-JSON.stringify({url:playurl,headers:{"referer":"https://www.mgtv.com.byteamone.cn/","user-agent":"Mozilla/5.0"}});
+JSON.stringify({url:playurl,headers:{"referer":"","user-agent":"Mozilla/5.0"}});
 }else if(uu.indexOf("hjjjjhd.top")!=-1){
 var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,headers:{"referer":uu}});
@@ -296,14 +296,14 @@ JSON.stringify({url:uuuu});
 var resp1=getHttp(JSON.stringify({url:playurl,head:{'Referer':'https://www.mayigq.com'}}));
 var menudata=e2Rex(resp1,".get(#player_swf).a(lovevod)");
 var resp2=getHttp(JSON.stringify({url:"https://www.mayigq.com/vodzip/config/token.php",post:{'menudata':menudata},head:{'Referer':playurl,'x-requested-with':'XMLHttpRequest'}}));
-var realurl="https://www.mayigq.com/vodzip/"+e2Rex(resp2,".z2(var url.*?\"\\(.*?\\)\")");
+var realurl="https://www.mayigq.com/vodzip/"+e2Rex(resp2,".z2(var url.*?\"\\(.*?\\)\").ty(/)");
 JSON.stringify({url:realurl,redirect:false,head:{"Referer":playurl,"User-Agent":"Mozilla/5.0 Android","Cookie":"UM_distinctid=17bed9f3ec1239-0e52198f3410a6-1b3f0a2f-62b80-17bed9f3ec243a"}});
 }else if(playurl.indexOf("api.m3u8.tv:5678")!=-1){
 var resp=JZ(JSON.stringify({url:playurl,head:{"User-Agent":UA,"Cookie":COOKIE}}));
 if(e2Rex(resp.code,".json(url)").length>1){
 var realurl=JSON.parse(resp.code).url;
 if(playurl.indexOf("mgtv.com")!=-1){
-JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0"}});
+JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
 }else{
 JSON.stringify({url:realurl});
 }
@@ -338,7 +338,7 @@ JSON.stringify({url:playurl});
 }else if(resp.code.indexOf("#EXTINF")!=-1){
 if(uu.indexOf("?")!=-1){
 if(uu.indexOf("www.mgtv.com")!=-1){
-JSON.stringify([{name:"播放不了请切换mp4",url:uu+"&_type=.m3u8",head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.mgtv.com"}},{name:"mp4",url:uu+"&_type=.mp4",head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.mgtv.com"}}]);
+JSON.stringify([{name:"播放不了请切换mp4",url:uu+"&_type=.m3u8",head:{"User-Agent":"Mozilla/5.0","Referer":""}},{name:"mp4",url:uu+"&_type=.mp4",head:{"User-Agent":"Mozilla/5.0","Referer":""}}]);
 }else{
 JSON.stringify({url:uu+"&_type=.m3u8"});
 }
@@ -348,8 +348,8 @@ JSON.stringify({url:uu+"?type=.m3u8"});
 }else{
 if(e2Rex(resp.code,".json(url)").length>1){
 var playurl=JSON.parse(resp.code).url;
-if(playurl.indexOf("pcvideotestws.titan.mgtv.com")!=-1){
-JSON.stringify({url:playurl,head:{"User-Agent":UA,"Referer":"https://www.mgtv.com/"}});
+if(playurl.indexOf(".titan.mgtv.com")!=-1){
+JSON.stringify({url:playurl,head:{"User-Agent":UA,"Referer":""}});
 }else{
 JSON.stringify({url:playurl});
 }
