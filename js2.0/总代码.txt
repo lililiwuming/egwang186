@@ -238,7 +238,9 @@ var UA="Mozilla/5.0 Android";
 var COOKIE="";
 }
 var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA,"Cookie":COOKIE}}));
-if(uu.indexOf("cokemv.me")!=-1||uu.indexOf("hanmiys.com")!=-1){
+if(uu.indexOf("1080kan.cc/jiexi/")!=-1){
+"web="+uu+'@{"Referer":"https://www.1080kan.cc/"}';
+}else if(uu.indexOf("cokemv.me")!=-1||uu.indexOf("hanmiys.com")!=-1){
 var DATA=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
 eval(DATA);
 JSON.stringify({url:player_aaaa.url+"&next="+player_aaaa.link_next,head:{"referer":uu,"user-agent":"Mozilla/5.0 Android"}});
