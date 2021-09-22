@@ -302,6 +302,8 @@ while(a.head.location){
       var a=JZ(JSON.stringify({url:a.head.location,redirect:false,head:{"Referer":playurl,"User-Agent":"Mozilla/5.0 Android","Cookie":"UM_distinctid=17bed9f3ec1239-0e52198f3410a6-1b3f0a2f-62b80-17bed9f3ec243a"}}));
 }
 JSON.stringify({url:a.head.location});
+}else if(playurl.indexOf("cat.wkfile.com")!=-1){
+JSON.stringify({url:playurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://qian.wkfile.com/"}});
 }else if(playurl.indexOf("api.m3u8.tv:5678")!=-1){
 var resp=JZ(JSON.stringify({url:playurl,head:{"User-Agent":UA,"Cookie":COOKIE}}));
 if(e2Rex(resp.code,".json(url)").length>1){
