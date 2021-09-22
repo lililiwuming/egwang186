@@ -223,6 +223,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/daxiongzhuiju.png"
 },
 {
+"title":"手指影视",
+"url":"http://szys3355.com/mogai_api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/szys.png"
+},
+{
 "title":"粉粉影视",
 "url":"http://huluxiaindex.huimaojia.com:30130/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/fenfenyingshi.png"
