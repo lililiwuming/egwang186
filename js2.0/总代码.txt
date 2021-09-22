@@ -458,7 +458,11 @@ for(var i=0;i<分类.length;i++){
         }else if(选集地址.indexOf("http")!=-1){
         var 选集地址=选集地址;
         }else{
-        var 选集地址=接口+选集地址+'@{"Referer":"'+接口+'"}';
+            if(URL.indexOf("jumi.tv")!=-1){
+                var 选集地址=接口+选集地址+'@{"Referer":"'+接口+'"}';
+            }else{
+                var 选集地址=接口+选集地址;
+            }
         }
         LIST.push({title:选集,url:选集地址});
     }
