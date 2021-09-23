@@ -299,6 +299,7 @@ var resp2=getHttp(JSON.stringify({url:"https://www.mayigq.com/vodzip/config/toke
 var realurl="https://www.mayigq.com/vodzip/"+e2Rex(resp2,".z2(var url.*?\"\\(.*?\\)\").ty(/)");
 var a=JZ(JSON.stringify({url:realurl,redirect:false,head:{"Referer":playurl,"User-Agent":"Mozilla/5.0 Android","Cookie":"UM_distinctid=17bed9f3ec1239-0e52198f3410a6-1b3f0a2f-62b80-17bed9f3ec243a"}}));
 while(a.head.location){
+      alert(a.head.location);
       var a=JZ(JSON.stringify({url:a.head.location,redirect:false,head:{"Referer":playurl,"User-Agent":"Mozilla/5.0 Android","Cookie":"UM_distinctid=17bed9f3ec1239-0e52198f3410a6-1b3f0a2f-62b80-17bed9f3ec243a"}}));
 }
 JSON.stringify({url:a.head.location});
