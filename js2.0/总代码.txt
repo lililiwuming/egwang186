@@ -883,7 +883,7 @@ var RSS=baseURL+"/index.php/rss/index.xml?wd="+KEY;
 var RSS=baseURL+"/rss.xml?wd="+KEY;
 }
 var 源码=getHttp(JSON.stringify({url:RSS}));
-if(源码.indeXOf("跳转中")!=-1){
+if(源码.indexOf("跳转中")!=-1){
     eval(e2Rex(源码,".get(script).t()"));
     RSS=baseURL+window.location.href;
     var 源码=getHttp(JSON.stringify({url:RSS}));
