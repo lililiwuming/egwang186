@@ -883,6 +883,11 @@ var RSS=baseURL+"/index.php/rss/index.xml?wd="+KEY;
 var RSS=baseURL+"/rss.xml?wd="+KEY;
 }
 var 源码=getHttp(JSON.stringify({url:RSS}));
+if(源码.indeXOf("跳转中")!=-1){
+    eval(e2Rex(源码,".get(script).t()"));
+    RSS=baseURL+window.location.href;
+    var 源码=getHttp(JSON.stringify({url:RSS}));
+}
 var 列表=e2Arr(源码,".xml(item)");
 var 标题规则=".xml(title).t()";
 var 地址规则=".xml(link).t().z(\\S+)";
