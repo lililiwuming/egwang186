@@ -418,11 +418,13 @@ for(var i=0;i<分类.length;i++){
     }else{
     var 接口=URL;
     }
-    if(接口.indexOf("svip.jhyun.jx.cn:1234")!=-1||接口.indexOf("svip.jhdyw.vip:3456")!=-1){
-        if(标题.indexOf("人人")!=-1){
+    if(接口.indexOf("svip.jhyun.jx.cn")!=-1||接口.indexOf("svip.jhdyw.vip")!=-1){
+        if(标题.indexOf("人人迷")!=-1){
             接口="https://www.1080kan.cc/jiexi/rrmi.php?url=";
+        }else if(标题.indexOf("人人")!=-1){
+            接口="http://www.1080kan.cc/jiexi/rr.php?url=";
         }else if(标题.indexOf("番茄")!=-1){
-            接口="http://vip.vipmv.tv/mp4/fqjson.php/?url=";
+            接口="http://www.1080kan.cc/jiexi/fq.php?url=";
         }else{
             接口="https://www.baidu.com/s?wd=https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
         }
