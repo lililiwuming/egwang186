@@ -884,8 +884,8 @@ var RSS=baseURL+"/rss.xml?wd="+KEY;
 }
 var 源码=getHttp(JSON.stringify({url:RSS}));
 if(源码.indexOf("跳转中")!=-1){
-    eval(e2Rex(源码,".get(script).t()"));
-    RSS=baseURL+window.location.href;
+    href=e2Rex(源码,".get(script).z2(\"\\(.+?\\)\")");
+    RSS=baseURL+href;
     var 源码=getHttp(JSON.stringify({url:RSS}));
 }
 var 列表=e2Arr(源码,".xml(item)");
