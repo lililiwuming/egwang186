@@ -44,7 +44,7 @@
 },
 {
 "title":"厂长资源",
-"url":"http://www.czspp.com/",
+"url":"https://www.czspp.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/changzhang.png"
 },
 {
