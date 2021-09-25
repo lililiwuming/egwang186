@@ -230,7 +230,7 @@ var COOKIE="";
 }
 var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":UA,"Cookie":COOKIE}}));
 if(uu.indexOf("1080kan.cc/jiexi/")!=-1){
-"web="+uu+'@{"Referer":"http://www.1080kan.cc/"}';
+"web="+uu.split("wd=")[1]+'@{"Referer":"http://www.1080kan.cc/"}';
 }else if(uu.indexOf("cokemv.me")!=-1||uu.indexOf("hanmiys.com")!=-1){
     var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA,"Cookie":COOKIE}}));
     var DATA=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
@@ -389,10 +389,10 @@ for(var i=0;i<分类.length;i++){
         }else if(标题.indexOf("番茄")!=-1){
             接口="http://www.1080kan.cc/jiexi/fq.php?url=";
         }else{
-            接口="https://www.baidu.com/s?wd=https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
+            接口="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
         }
     }else if(接口.indexOf("jhsj.manduhu.com")!=-1){
-       接口="https://www.baidu.com/s?wd=https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
+       接口="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
     }
     var LIST=[];
     for(var j=0;j<列表.length;j++){
