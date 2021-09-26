@@ -90,6 +90,9 @@ var 前="/list/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("zxzj.me")!=-1){
 var 标题=TB(1,26,23,24,27,4);
 var 地址=TT(1,2,3,4,5,6);var 前="/list/";var 后="-#PN#.html";头部导航();
+}else if(URL.indexOf("auete.com")!=-1){
+var 标题=标题2;
+var 地址=["Movie","Tv","Zy","Dm","Movie/dzp","Movie/xjp","Movie/aqp","Movie/khp","Movie/kbp","Movie/jqp","Movie/zzp","Tv/neidi","Tv/tvbgj","Tv/taiju","Tv/riju","Tv/hanju","Tv/oumei"];var 前="/";var 后="/index.html";头部导航();
 }else if(URL.indexOf("tvyb02.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vod/type/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("9ehao.com")!=-1){
@@ -133,7 +136,11 @@ var URL=getVar("url").match(/http.*\//)[0];
 }else{
 var URL=getVar("url").match(/https?:\/\/[^\/]*/)[0];
 }
-var NEXTPAGE=Number(getVar("PN"))+1;
+if(URL.indexOf("auete.com")!=-1){
+    var NEXTPAGE=URL+e2Rex(getVar("源码"),".get(ul.pagination).ty(active).get(li a).a(href)");
+}else{
+    var NEXTPAGE=Number(getVar("PN"))+1;
+}
 function 单项列表(){
 var res={};var items=[];var LIST=[];
 for(var j=0;j<列表.length;j++){
@@ -164,7 +171,11 @@ var play_={};
 play_.list=LIST;
 items.push(play_);
 res.data=items;
+if(URL.indexOf("auete.com")!=-1){
+res.nextpage=NEXTPAGE;
+}else{
 res.nextpage=getVar("前")+NEXTPAGE+getVar("后");
+}
 return JSON.stringify(res);
 }
 if(URL.indexOf("duboku.fun")!=-1||URL.indexOf("ikan6.vip")!=-1||URL.indexOf("cokemv.me")!=-1||URL.indexOf("447k.com")!=-1||URL.indexOf("tvyb02.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("zhenbuka3.com")!=-1||URL.indexOf("bukaivip.com")!=-1||URL.indexOf("flvweb.com")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("unss.net")!=-1||URL.indexOf("nfmovies.com")!=-1||URL.indexOf("meijuchong.com")!=-1||URL.indexOf("hanmiys.com")!=-1||URL.indexOf("cvcv.tv")!=-1||URL.indexOf("jumi.tv")!=-1||URL.indexOf("yingkuya.com")!=-1){
@@ -205,6 +216,9 @@ var 标题规则=".get(h3 a).t()";var 地址规则=".get(h3 a).a(href)";var 图�
 }else if(URL.indexOf("zxzj.me")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";单项列表();
+}else if(URL.indexOf("auete.com")!=-1){
+var 列表=e2Arr(getVar("源码"),".get(ul.threadlist li)");
+var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(button).st().t().c().get(p).t()";单项列表();
 }else if(URL.indexOf("1090ys2.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-\\d col-xs-3])");
 var 标题规则=".get(.title a).a(title)";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";单项列表();
@@ -499,6 +513,13 @@ var 列表规则=".get(li)";
 var 标题规则=".get(h3).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
+}else if(URL.indexOf("auete.com")!=-1){
+var 分类=e2Arr(getVar("源码"),".get(div#player_list)");
+var 简介=e2Rex(getVar("源码"),".get(div.message).t()");
+var 列表规则=".get(ul li)";
+var 标题规则=".get(h2).t()";
+var 选集规则=".get(a).t()";
+var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("ak1080.me")!=-1||URL.indexOf("waijumi.com")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(ul.mo-movs-item)");
 var 线路=e2Arr(getVar("源码"),".get(a.mo-movs-btns)");
@@ -698,6 +719,9 @@ var 标题规则=".get(h3 a).t()";var 地址规则=".get(h3 a).a(href)";var 图�
 }else if(URL.indexOf("zxzj.me")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";普通列表();
+}else if(URL.indexOf("auete.com")!=-1){
+var 列表=e2Arr(getVar("源码"),".get(ul.threadlist li)");
+var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(button).st().t().c().get(p).t()";单项列表();
 }else if(URL.indexOf("1090ys2.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-\\d col-xs-3])");
 var 标题规则=".get(.title a).a(title)";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";普通列表();
@@ -975,6 +999,14 @@ var 标题规则=".get(h3 a).t()";
 var 地址规则=".get(h3 a).a(href)";
 var 图片规则=".get(img).a(data-original)";
 var 简介规则=".get(span).st().t().c().get(p).t()";搜索列表();
+}else if(baseURL.indexOf("auete.com")!=-1){
+var URL=baseURL+"/search.php?searchword="+KEY;
+var 源码=getHttp(JSON.stringify({url:URL}));
+var 列表=e2Arr(源码,".get(ul.threadlist li)");
+var 标题规则=".get(a).t()";
+var 地址规则=".get(a).a(href)";
+var 图片规则=".get(img).a(data-original)";
+var 简介规则=".get(span).st().t()";搜索列表();
 }else if(baseURL.indexOf("1090ys2.com")!=-1){
 var URL=baseURL+"/search.html?wd="+KEY+"&submit=";
 var RSS=baseURL+"/index.php/rss/index.xml?wd="+KEY;
