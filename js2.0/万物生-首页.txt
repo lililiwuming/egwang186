@@ -9,7 +9,7 @@
 },
 {
 "title":"骚火电影",
-"url":"http://saohuotv.com/",
+"url":"https://saohuotv.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/saohuotv.png"
 },
 {
@@ -19,7 +19,7 @@
 },
 {
 "title":"顶空影视",
-"url":"http://dikotv.com/",
+"url":"https://dikotv.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dikotv.png"
 },
 {

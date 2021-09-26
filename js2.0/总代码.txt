@@ -139,7 +139,7 @@ var URL=getVar("url").match(/https?:\/\/[^\/]*/)[0];
 if(URL.indexOf("auete.com")!=-1){
     var NEXTPAGE=URL+e2Rex(getVar("源码"),".get(ul.pagination).ty(active).get(li a).a(href)");
 }else{
-    var NEXTPAGE=Number(getVar("PN"))+1;
+    var NEXTPAGE=Number(getVar("PN"))+2;
 }
 function 单项列表(){
 var res={};var items=[];var LIST=[];
