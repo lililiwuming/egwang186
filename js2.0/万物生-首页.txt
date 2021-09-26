@@ -19,7 +19,7 @@
 },
 {
 "title":"顶空影视",
-"url":"https://dikotv.com/",
+"url":"https://www.dikotv.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dikotv.png"
 },
 {
