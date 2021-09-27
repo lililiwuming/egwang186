@@ -969,7 +969,7 @@ var 简介规则=".get(span).st().t().c().get(dd.fed-deta-content).t()";搜索�
 }else if(baseURL.indexOf("waijumi.com")!=-1){
 var URL=baseURL+"/vs/search.html?wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=e2Arr(源码,".get(dl.mo-deta-info)");
+var 列表=e2Arr(源码,".get(dl.mo-deta-info.mo-cols-rows)");
 var 标题规则=".get(h1 a).t()";
 var 地址规则=".get(h1 a).a(href)";
 var 图片规则=".get(a).a(data-original)";
