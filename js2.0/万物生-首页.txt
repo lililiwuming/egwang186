@@ -333,6 +333,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/linzhiyuan.png"
 },
 {
+"title":"嘀哩嘀哩影视",
+"url":"https://diliktv.xyz/xgapp.php/v1/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/diliktv.png"
+},
+{
 "title":"追剧达人",
 "url":"http://vipmv.tv/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuijudaren.png"
@@ -401,11 +406,6 @@
 "title":"宅看影视",
 "url":"http://www.zhaikanys.xyz/api.php/iptv1/vod/?ac=list&class=&start=&area=&type=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhaikanys.png"
-},
-{
-"title":"嘀哩嘀哩影视",
-"url":"https://api.diliktv.xyz/api.php/Chengcheng/vod/?ac=list&class=&start=&area=&type=&page=1",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/diliktv.png"
 },
 {
 "title":"流星雨影视",
