@@ -334,7 +334,16 @@ JSON.stringify({url:playurl});
 }else if(playurl.indexOf("=")!=-1){
     var resp=JZ(JSON.stringify({url:playurl,redirect:false,head:{"User-Agent":UA,"Cookie":COOKIE}}));
     if(resp.head.location){
-        var realurl=resp.head.location;
+           var a=resp;
+           while(a.head.location){
+            var finalurl=a.head.location;
+            if(finalurl.indexOf(".mp4")>30){
+                var a="";
+            }else{
+                var a=JZ(JSON.stringify({url:finalurl,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
+            }
+           }
+           var realurl=finalurl;
         if(realurl.indexOf("=http")!=-1){
             "web="+realurl;
         }else{
