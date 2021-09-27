@@ -335,8 +335,8 @@ JSON.stringify({url:playurl});
     var resp=JZ(JSON.stringify({url:playurl,redirect:false,head:{"User-Agent":UA,"Cookie":COOKIE}}));
     if(resp.head.location||resp.head.Location){
            var a=resp;
-           while(a.head.location||resp.head.Location){
-            var finalurl=a.head.location||resp.head.Location;
+           while(a.head.location||a.head.Location){
+            var finalurl=a.head.location||a.head.Location;
             if(finalurl.indexOf(".mp4")>30){
                 var a="";
             }else{
@@ -348,7 +348,7 @@ JSON.stringify({url:playurl});
             "web="+realurl;
         }else{
             if(playurl.indexOf("www.mgtv.com")!=-1){
-               JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}}); 
+            JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}}); 
             }else{
             JSON.stringify({url:realurl});
             }
