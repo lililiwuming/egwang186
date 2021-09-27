@@ -307,12 +307,17 @@ if(pn=="i8i"){
 JSON.stringify({url:now,head:{"referer":"https://auete.com/js/player/i8i.html","user-agent":"Mozilla/5.0"}});
 }else if(pn=="m3u8hd"){
 if(now.indexOf("9yun")!=-1){
-    var realurl="https://auete.com/api/9yun.php?url="+now.split("9yun")[0];
-    var a=JZ(JSON.stringify({url:realurl,redirect:false,head:{"User-Agent":"Mozilla/5.0"}}));
-    var finalurl=a.head.location||a.head.Location;
-      var a=JZ(JSON.stringify({url:finalurl,redirect:false,head:{"User-Agent":"Mozilla/5.0"}}));
-      var finalurl=a.head.location||a.head.Location;
-    JSON.stringify({url:finalurl,head:{"User-Agent":"Lavf/58.12.100"}});
+    var b="https://auete.com/api/9yun.php?url="+now.split("9yun")[0];
+    var a=JZ(JSON.stringify({url:b,redirect:false,head:{"User-Agent":"Mozilla/5.0"}}));
+            while(a.head.location||a.head.Location){
+             var finalurl=a.head.location||a.head.Location;
+             if(finalurl.indexOf(".mp4")>40){
+                var a="";
+             }else{
+                var a=JZ(JSON.stringify({url:finalurl,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
+             }
+            }
+    JSON.stringify({url:finalurl});
 }else{
     "web="+uu;
 }
