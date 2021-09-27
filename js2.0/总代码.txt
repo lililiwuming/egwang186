@@ -300,6 +300,7 @@ function base64decode(str){
   return e2Rex(str,".dn64()")
 }
 eval(script);
+alert(now)
 if(pn=="i8i"){
 JSON.stringify({url:now,head:{"referer":"https://auete.com/js/player/i8i.html","user-agent":"Mozilla/5.0"}});
 }else if(pn=="m3u8hd"){
