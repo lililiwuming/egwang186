@@ -333,10 +333,10 @@ JSON.stringify({url:playurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://
 JSON.stringify({url:playurl});
 }else if(playurl.indexOf("=")!=-1){
     var resp=JZ(JSON.stringify({url:playurl,redirect:false,head:{"User-Agent":UA,"Cookie":COOKIE}}));
-    if(resp.head.location){
+    if(resp.head.location||resp.head.Location){
            var a=resp;
-           while(a.head.location){
-            var finalurl=a.head.location;
+           while(a.head.location||resp.head.Location){
+            var finalurl=a.head.location||resp.head.Location;
             if(finalurl.indexOf(".mp4")>30){
                 var a="";
             }else{
