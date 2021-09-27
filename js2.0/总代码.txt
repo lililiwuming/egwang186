@@ -294,6 +294,28 @@ JSON.stringify({url:player_aaaa.url,head:{"referer":"https://jxplayer.4kcz.com/"
 }else{
 "web="+uu;
 }
+}else if(uu.indexOf("auete.com")!=-1){
+var script=e2Rex(resp.code,".get(div#player script).t()");
+function base64decode(str){
+  return e2Rex(str,".dn64()")
+}
+eval(script);
+if(pn=="i8i"){
+JSON.stringify({url:now,head:{"referer":"https://auete.com/js/player/i8i.html","user-agent":"Mozilla/5.0"}});
+}else if(pn=="m3u8hd"){
+if(now.indexOf("9yun")!=-1){
+    var realurl="https://auete.com/api/9yun.php?url="+now.split("9yun")[0];
+    var a=JZ(JSON.stringify({url:realurl,redirect:false,head:{"User-Agent":"Mozilla/5.0"}}));
+    var finalurl="";
+      while(a.head.location){
+      var finalurl=a.head.location;
+      var a=JZ(JSON.stringify({url:finalurl,redirect:false,head:{"User-Agent":"Mozilla/5.0"}}));
+      }
+    JSON.stringify({url:finalurl,head:{"User-Agent":"Mozilla/5.0"}});
+}else{
+    "web="+uu;
+}
+}
 }else if(uu.indexOf("nfmovies.com")!=-1){
 var script=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
 eval(script);JSON.stringify({url:now,head:{"User-Agent":UA,"Referer":"https://www.nfmovies.com/js/player/m3u8.html"}});
