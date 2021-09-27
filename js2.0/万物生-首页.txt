@@ -323,6 +323,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
 },
 {
+"title":"007影视",
+"url":"https://www.007ts.cc/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/007ts.png"
+},
+{
 "title":"追剧达人",
 "url":"http://vipmv.tv/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuijudaren.png"
