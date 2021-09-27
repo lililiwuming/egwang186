@@ -312,7 +312,7 @@ if(now.indexOf("9yun")!=-1){
             while(a.head.location||a.head.Location){
              var finalurl=a.head.location||a.head.Location;
              if(finalurl.indexOf(".mp4")>40){
-                var a="";
+                var a={"head":{"cookie":"ccccc"}};
              }else{
                 var a=JZ(JSON.stringify({url:finalurl,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
              }
@@ -343,7 +343,7 @@ JSON.stringify({url:playurl});
            while(a.head.location||a.head.Location){
             var finalurl=a.head.location||a.head.Location;
             if(finalurl.indexOf(".mp4")>30){
-                var a="";
+                var a={"head":{"cookie":"ccccc"}};
             }else{
                 var a=JZ(JSON.stringify({url:finalurl,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
             }
