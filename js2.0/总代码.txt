@@ -306,9 +306,10 @@ JSON.stringify({url:now,head:{"referer":"https://auete.com/js/player/i8i.html","
 if(now.indexOf("9yun")!=-1){
     var realurl="https://auete.com/api/9yun.php?url="+now.split("9yun")[0];
     var a=JZ(JSON.stringify({url:realurl,redirect:false,head:{"User-Agent":"Mozilla/5.0"}}));
-    var finalurl="";
+    var finalurl=a.head.location;
       while(a.head.location){
       var finalurl=a.head.location;
+      alert(finalurl)
       var a=JZ(JSON.stringify({url:finalurl,redirect:false,head:{"User-Agent":"Mozilla/5.0"}}));
       }
     JSON.stringify({url:finalurl,head:{"User-Agent":"Mozilla/5.0"}});
