@@ -349,8 +349,19 @@ JSON.stringify({url:playurl.match(/.*(http.*)/)[1]});
             }
            }
            var realurl=finalurl;
-        if(realurl.indexOf("=http")!=-1){
-            "web="+realurl;
+        if(realurl.indexOf("=http")!=-1||realurl.indexOf("url=")!=-1){
+            if(a.code.indexOf("<html")!=-1){
+                "web="+realurl;
+            }else{
+                var ppurl=JSON.parse(a.code).url;
+                if(realurl.indexOf("mgtv.com")!=-1){
+                    JSON.stringify({url:ppurl,head:{"User-Agent":"Mozilla/5.0 Windows 10","Referer":""}});
+                }else if(realurl.indexOf("bilibili.com")!=-1){
+                    JSON.stringify({url:ppurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.bilibili.com/"}});
+                }else{
+                    JSON.stringify({url:ppurl});
+                }
+            }
         }else{
             if(playurl.indexOf("www.mgtv.com")!=-1){
             JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}}); 
