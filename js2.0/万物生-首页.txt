@@ -143,6 +143,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/longteng.png"
 },
 {
+"title":"创意影视",
+"url":"https://www.30dian.cn",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/30dian.png"
+},
+{
 "title":"影库鸭",
 "url":"http://www.yingkuya.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yingkuya.png"
