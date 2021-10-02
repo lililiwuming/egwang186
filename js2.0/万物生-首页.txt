@@ -399,7 +399,7 @@
 },
 {
 "title":"饭团影视",
-"url":"http://fantuan.wkfile.com/api.php/app/video?tid=all&class=&area=&lang=&year=&pg=1",
+"url":"https://fantuan.wkfile.com/api.php/app/video?tid=all&class=&area=&lang=&year=&pg=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/fantuan.png"
 },
 {
