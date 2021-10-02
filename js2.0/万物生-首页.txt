@@ -79,7 +79,7 @@
 },
 {
 "title":"剧迷TV",
-"url":"https://jumi.tv/",
+"url":"https://gimy.app/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jumi.png"
 },
 {
