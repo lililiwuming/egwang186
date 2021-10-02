@@ -504,7 +504,7 @@ for(var i=0;i<分类.length;i++){
         var 选集地址=选集地址;
         }else{
             if(URL.indexOf("gimy.app")!=-1){
-                var 选集地址=接口+选集地址+'@{"Referer":"'+接口+'"}';
+                var 选集地址=接口+选集地址+'@{"user-agent":"Mozilla/5.0 Windows10","Referer":"'+接口+'"}';
             }else{
                 var 选集地址=接口+选集地址;
             }
