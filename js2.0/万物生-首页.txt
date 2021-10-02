@@ -148,6 +148,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/30dian.png"
 },
 {
+"title":"348电影网",
+"url":"https://www.348z.com",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/348z.png"
+},
+{
 "title":"影库鸭",
 "url":"http://www.yingkuya.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yingkuya.png"
