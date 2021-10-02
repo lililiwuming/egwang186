@@ -59,7 +59,7 @@
 },
 {
 "title":"耐看点播",
-"url":"http://www.nkvods.com/",
+"url":"https://www.nkvods.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nkvod.png"
 },
 {
