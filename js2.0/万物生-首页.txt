@@ -119,7 +119,7 @@
 },
 {
 "title":"外剧迷",
-"url":"https://waijumi.com/",
+"url":"http://www.waijumi.com",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/waijumi.png"
 },
 {
