@@ -102,7 +102,7 @@ var 标题=标题4;var 地址=地址4;var 前="/vodshow/";var 后="/page/#PN#.ht
 }else if(URL.indexOf("dikotv.com")!=-1){
 var 标题=标题2;var 地址=TT(79,81,82,83,139,141,142,143,144,146,147,148,149,151,152,153,154);var 前="/vodshow/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("czspp.com")!=-1){
-var 标题=TB(1,2,4,34,36,37,38,19,26,24,23);var 地址=["movie_bt/movie_bt_series/dyy","movie_bt/movie_bt_series/dianshiju","dm","dbtop250","zuixindianying","movie_bt/movie_bt_series/meiguodianying","movie_bt/movie_bt_series/hanguodianying","gcj","movie_bt/movie_bt_series/mj","movie_bt/movie_bt_series/hj","movie_bt/movie_bt_series/rj"];var 前="/";var 后="/page/#PN#";头部导航();
+var 标题=TB(1,2,4,34,36,37,38,19,26,24,23);var 地址=["movie_bt/movie_bt_series/dyy","movie_bt/movie_bt_series/dianshiju","dm","dbtop250","zuixindianying","movie_bt/movie_bt_series/meiguodianying","movie_bt/movie_bt_series/hanguodianying","gcj","movie_bt/movie_bt_series/mj","movie_bt/movie_bt_series/hj","movie_bt/movie_bt_series/rj"];var 前="/";var 后="#PN#";头部导航();
 }else if(URL.indexOf("1090ys2.com")!=-1){
 var 标题=TB(1,2,19,21,24,26,23,3,6,7,8,9,11,12);var 地址=["1","2","2/area/中国大陆","2/area/中国香港","3","4","5","22","1/class/动作","1/class/喜剧","1/class/爱情","1/class/科幻","1/class/恐怖","1/class/剧情"];var 前="/whole/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("nfmovies.com")!=-1){
@@ -140,6 +140,8 @@ var URL=getVar("url").match(/https?:\/\/[^\/]*/)[0];
 }
 if(URL.indexOf("auete.com")!=-1){
     var NEXTPAGE=URL+e2Rex(getVar("源码"),".get(ul.pagination).ty(active).get(li a).a(href)");
+}else if(URL.indexOf("czspp.com")!=-1){
+    var NEXTPAGE=e2Rex(getVar("源码"),".get(div.pagenavi_txt).ty(current).get(a).a(href)");
 }else{
     if(Number(getVar("PN"))==-1){
     var NEXTPAGE=Number(getVar("PN"))+3;
@@ -177,7 +179,7 @@ var play_={};
 play_.list=LIST;
 items.push(play_);
 res.data=items;
-if(URL.indexOf("auete.com")!=-1){
+if(URL.indexOf("auete.com")!=-1||URL.indexOf("czspp.com")!=-1){
 res.nextpage=NEXTPAGE;
 }else{
 res.nextpage=getVar("前")+NEXTPAGE+getVar("后");
