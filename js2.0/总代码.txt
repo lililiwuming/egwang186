@@ -189,8 +189,10 @@ return JSON.stringify(res);
 if(URL.indexOf("duboku.fun")!=-1||URL.indexOf("ikan6.vip")!=-1||URL.indexOf("cokemv.me")!=-1||URL.indexOf("447k.com")!=-1||URL.indexOf("tvyb02.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("zhenbuka3.com")!=-1||URL.indexOf("bukaivip.com")!=-1||URL.indexOf("flvweb.com")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("unss.net")!=-1||URL.indexOf("nfmovies.com")!=-1||URL.indexOf("meijuchong.com")!=-1||URL.indexOf("hanmiys.com")!=-1||URL.indexOf("cvcv.tv")!=-1||URL.indexOf("gimy.app")!=-1||URL.indexOf("30dian.cn")!=-1){
     if(URL.indexOf("yingkuya.com")!=-1){
     var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");
+    }else if(URL.indexOf("gimy.app")!=-1){
+    var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-3 col-xs-4])");
     }else{
-    var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-[34] col-xs-[34]])");
+    var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-4 col-xs-3])");
     }
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";单项列表();
 }else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukp.com")!=-1||URL.indexOf("nkvods.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1||URL.indexOf("longtengzy.cn")!=-1||URL.indexOf("neenl.com")!=-1||URL.indexOf("dd520.cc")!=-1||URL.indexOf("yingkuya.com")!=-1){
@@ -753,8 +755,10 @@ return JSON.stringify(res);
 if(URL.indexOf("duboku.fun")!=-1||URL.indexOf("ikan6.vip")!=-1||URL.indexOf("cokemv.me")!=-1||URL.indexOf("447k.com")!=-1||URL.indexOf("tvyb02.com")!=-1||URL.indexOf("jpysvip.net")!=-1||URL.indexOf("zhenbuka3.com")!=-1||URL.indexOf("bukaivip.com")!=-1||URL.indexOf("flvweb.com")!=-1||URL.indexOf("9ehao.com")!=-1||URL.indexOf("dijiaxia.com")!=-1||URL.indexOf("unss.net")!=-1||URL.indexOf("nfmovies.com")!=-1||URL.indexOf("meijuchong.com")!=-1||URL.indexOf("hanmiys.com")!=-1||URL.indexOf("cvcv.tv")!=-1||URL.indexOf("gimy.app")!=-1||URL.indexOf("30dian.cn")!=-1){
     if(URL.indexOf("yingkuya.com")!=-1){
     var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");
+    }else if(URL.indexOf("gimy.app")!=-1){
+    var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-3 col-xs-4])");
     }else{
-    var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-[34] col-xs-[34]])");
+    var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-4 col-xs-3])");
     }
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";
 普通列表();
