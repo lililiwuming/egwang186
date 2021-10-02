@@ -133,6 +133,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/hszbj.png"
 },
 {
+"title":"苗点影视",
+"url":"https://www.msdv.cn/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/neenl.png"
+},
+{
 "title":"龙腾资源",
 "url":"https://longtengzy.cn/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/longteng.png"
