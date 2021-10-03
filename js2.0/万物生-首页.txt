@@ -58,6 +58,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/changzhang.png"
 },
 {
+"title":"电影淘淘",
+"url":"http://flvweb.com/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/flvweb.png"
+},
+{
 "title":"耐看点播",
 "url":"https://www.nkvods.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nkvod.png"
