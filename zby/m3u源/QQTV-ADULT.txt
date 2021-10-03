@@ -1,5 +1,5 @@
 #EXTINF:-1,REDLIGHT HD
-http://qqtv.nl:8080/live/65055/65055/15193.m3u8
+http://qqtv.nl:8080/live/cammie/cammie/15193.m3u8
 #EXTINF:-1,HOTCLUB LADYBOY 1 FHD
 http://qqtv.nl:8080/live/65055/65055/15172.m3u8
 #EXTINF:-1,Playboy EUROPE
