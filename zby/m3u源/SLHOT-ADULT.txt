@@ -1,213 +1,253 @@
 #EXTINF:-1 tvg-id="" tvg-name="▬ For Adults [18+] ▬" tvg-logo="https://picon-13398.kxcdn.com/onlyadults.jpg" group-title="Live: For Adults",▬ For Adults [18+] ▬
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/16509
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/16509.m3u8
 #EXTINF:-1 tvg-id="PenthouseGold.us" tvg-name="Penthouse Gold HD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/penthousegoldus.jpg" group-title="Live: For Adults",Penthouse Gold HD (18+) US
 http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15890.m3u8
 #EXTINF:-1 tvg-id="PenthouseQuickies.us" tvg-name="Penthouse Quickies HD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/penthousequickiesus.jpg" group-title="Live: For Adults",Penthouse Quickies HD (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15891
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15891.m3u8
 #EXTINF:-1 tvg-id="Redlight.pl" tvg-name="Redlight HD (18+) IT" tvg-logo="https://picon-13398.kxcdn.com/redlighthd.jpg" group-title="Live: For Adults",Redlight HD (18+) IT
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15882
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15882.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Hustler HD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/hustlerhd.jpg" group-title="Live: For Adults",Hustler HD (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15879
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15879.m3u8
 #EXTINF:-1 tvg-id="HustlerTV.fr" tvg-name="Hustler TV (18+) US" tvg-logo="https://picon-13398.kxcdn.com/hustler.jpg" group-title="Live: For Adults",Hustler TV (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15897
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15897.m3u8
 #EXTINF:-1 tvg-id="BeateUhseTV.de" tvg-name="Beate Uhse TV (18+) DE" tvg-logo="https://picon-13398.kxcdn.com/beateuhsetv.jpg" group-title="Live: For Adults",Beate Uhse TV (18+) DE
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15888
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15888.m3u8
 #EXTINF:-1 tvg-id="DorcelTV.fr" tvg-name="Dorcel TV FHD (18+) NL" tvg-logo="https://picon-13398.kxcdn.com/dorcel.jpg" group-title="Live: For Adults",Dorcel TV FHD (18+) NL
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15914
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15914.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Brazzers TV (18+) US" tvg-logo="https://picon-13398.kxcdn.com/brazzerstv.jpg" group-title="Live: For Adults",Brazzers TV (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15913
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15913.m3u8
 #EXTINF:-1 tvg-id="PrivateTV.fr" tvg-name="Private TV (18+) NL" tvg-logo="https://picon-13398.kxcdn.com/privatetv.jpg" group-title="Live: For Adults",Private TV (18+) NL
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15915
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15915.m3u8
 #EXTINF:-1 tvg-id="PrivateTV.fr" tvg-name="Private TV HD (18+) NL" tvg-logo="https://picon-13398.kxcdn.com/privatetv.jpg" group-title="Live: For Adults",Private TV HD (18+) NL
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/21687
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/21687.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="JapanHDV (18+)" tvg-logo="https://picon-13398.kxcdn.com/japanhdv.jpg" group-title="Live: For Adults",JapanHDV (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/38045
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/38045.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="JapanHDV Anal (18+)" tvg-logo="https://picon-13398.kxcdn.com/japanhdv.jpg" group-title="Live: For Adults",JapanHDV Anal (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/37954
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/37954.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="JapanHDV Creampie (18+)" tvg-logo="https://picon-13398.kxcdn.com/japanhdv.jpg" group-title="Live: For Adults",JapanHDV Creampie (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/37947
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/37947.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="JapanHDV Group (18+) " tvg-logo="https://picon-13398.kxcdn.com/japanhdv.jpg" group-title="Live: For Adults",JapanHDV Group (18+) 
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/37945
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/37945.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Evil Angel Trans 4K (18+) US" tvg-logo="https://picon-13398.kxcdn.com/evilangeltv.jpg" group-title="Live: For Adults",Evil Angel Trans 4K (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/37941
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/37941.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Deep Lush (18+) US" tvg-logo="https://picon-13398.kxcdn.com/deeplush.jpg" group-title="Live: For Adults",Deep Lush (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/40157
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/40157.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Moms Teach Sex (18+)" tvg-logo="https://picon-13398.kxcdn.com/momsteachsex.jpg" group-title="Live: For Adults",Moms Teach Sex (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/46984
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/46984.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nubiles Porn (18+)" tvg-logo="https://picon-13398.kxcdn.com/nubilesporn.jpg" group-title="Live: For Adults",Nubiles Porn (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/49349
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/49349.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bad Teens Punished (18+)" tvg-logo="https://picon-13398.kxcdn.com/badteenspunished.jpg" group-title="Live: For Adults",Bad Teens Punished (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/49351
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/49351.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nubiles Casting (18+)" tvg-logo="https://picon-13398.kxcdn.com/nubilescasting.jpg" group-title="Live: For Adults",Nubiles Casting (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/49353
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/49353.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Step Siblings Caught (18+)" tvg-logo="https://picon-13398.kxcdn.com/stepsiblingscaught.jpg" group-title="Live: For Adults",Step Siblings Caught (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/49355
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/49355.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Princess Cum (18+)" tvg-logo="https://picon-13398.kxcdn.com/18plus.jpg" group-title="Live: For Adults",Princess Cum (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/49357
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/49357.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Family Pies (18+)" tvg-logo="https://picon-13398.kxcdn.com/familypies.jpg" group-title="Live: For Adults",Family Pies (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/49359
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/49359.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Teacher Fucks Teens (18+)" tvg-logo="https://picon-13398.kxcdn.com/teacherfucksteen.jpg" group-title="Live: For Adults",Teacher Fucks Teens (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/49361
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/49361.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Girls Love Girls (18+) US" tvg-logo="https://picon-13398.kxcdn.com/18plus.jpg" group-title="Live: For Adults",Girls Love Girls (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/37937
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/37937.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Girls Love Girls 2 (18+) US" tvg-logo="https://picon-13398.kxcdn.com/18plus.jpg" group-title="Live: For Adults",Girls Love Girls 2 (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/37943
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/37943.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Teens (18+) US" tvg-logo="https://picon-13398.kxcdn.com/18plus.jpg" group-title="Live: For Adults",Teens (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/37942
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/37942.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Blacked X1 (18+) US" tvg-logo="https://picon-13398.kxcdn.com/blacked.jpg" group-title="Live: For Adults",Blacked X1 (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/39810
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/39810.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Blacked X2 (18+) US" tvg-logo="https://picon-13398.kxcdn.com/blacked.jpg" group-title="Live: For Adults",Blacked X2 (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/39811
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/39811.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tushy (18+) Us" tvg-logo="https://picon-13398.kxcdn.com/tushy.jpg" group-title="Live: For Adults",Tushy (18+) Us
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/39812
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/39812.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Digital Playground (18+) US" tvg-logo="https://picon-13398.kxcdn.com/digitalplayground.jpg" group-title="Live: For Adults",Digital Playground (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/39813
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/39813.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Reality Kings TV (18+) US" tvg-logo="https://picon-13398.kxcdn.com/realitykings.jpg" group-title="Live: For Adults",Reality Kings TV (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15899
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15899.m3u8
 #EXTINF:-1 tvg-id="EvilAngel.us" tvg-name="Evil Angel TV (18+) US" tvg-logo="https://picon-13398.kxcdn.com/evilangeltv.jpg" group-title="Live: For Adults",Evil Angel TV (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15885
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15885.m3u8
 #EXTINF:-1 tvg-id="Dusk.nl" tvg-name="Dusk TV (18+) NL" tvg-logo="https://picon-13398.kxcdn.com/dusk.jpg" group-title="Live: For Adults",Dusk TV (18+) NL
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15878
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15878.m3u8
 #EXTINF:-1 tvg-id="Venus.ar" tvg-name="Venus (18+) AR" tvg-logo="https://picon-13398.kxcdn.com/venus.jpg" group-title="Live: For Adults",Venus (18+) AR
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15895
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15895.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sexto Senso (18+) IT" tvg-logo="https://picon-13398.kxcdn.com/sextosenso.jpg" group-title="Live: For Adults",Sexto Senso (18+) IT
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15886
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15886.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Taboo (18+) IT" tvg-logo="https://picon-13398.kxcdn.com/tabooit.jpg" group-title="Live: For Adults",Taboo (18+) IT
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15877
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15877.m3u8
 #EXTINF:-1 tvg-id="Hot.pt" tvg-name="HOT TV (18+) PT" tvg-logo="https://picon-13398.kxcdn.com/hottv.jpg" group-title="Live: For Adults",HOT TV (18+) PT
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15894
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15894.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Pink' o TV (18+) IT" tvg-logo="https://picon-13398.kxcdn.com/pinkotv.jpg" group-title="Live: For Adults",Pink' o TV (18+) IT
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15881
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15881.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PASSION XXX (18+) IT" tvg-logo="https://picon-13398.kxcdn.com/passionxxx.jpg" group-title="Live: For Adults",PASSION XXX (18+) IT
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15880
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15880.m3u8
 #EXTINF:-1 tvg-id="SuperOneHD.hu" tvg-name="SuperOne (18+) HU" tvg-logo="https://picon-13398.kxcdn.com/superone.jpg" group-title="Live: For Adults",SuperOne (18+) HU
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15900
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15900.m3u8
 #EXTINF:-1 tvg-id="Leo.cz" tvg-name="Leo TV (18+) CZ" tvg-logo="https://picon-13398.kxcdn.com/leotv.jpg" group-title="Live: For Adults",Leo TV (18+) CZ
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/14301
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/14301.m3u8
 #EXTINF:-1 tvg-id="PlayboyTV.de" tvg-name="Playboy TV (18+) ES" tvg-logo="https://picon-13398.kxcdn.com/playboy.jpg" group-title="Live: For Adults",Playboy TV (18+) ES
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15911
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15911.m3u8
 #EXTINF:-1 tvg-id="PlayboyTV.de" tvg-name="Playboy TV FHD (18+) ES" tvg-logo="https://picon-13398.kxcdn.com/playboy.jpg" group-title="Live: For Adults",Playboy TV FHD (18+) ES
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/15912
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/15912.m3u8
 #EXTINF:-1 tvg-id="BeateUhseTV.de" tvg-name="Vivid TV Europe (18+) US" tvg-logo="https://picon-13398.kxcdn.com/vivid.jpg" group-title="Live: For Adults",Vivid TV Europe (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/16580
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/16580.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Vivid Red HD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/vivid.jpg" group-title="Live: For Adults",Vivid Red HD (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/23418
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/23418.m3u8
 #EXTINF:-1 tvg-id="PinkErotic.rs" tvg-name="Pink Erotic (18+) RS" tvg-logo="https://picon-13398.kxcdn.com/pinkeroticrs.jpg" group-title="Live: For Adults",Pink Erotic (18+) RS
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/17423
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/17423.m3u8
 #EXTINF:-1 tvg-id="PinkErotic2.rs" tvg-name="Pink Erotic 2 (18+) RS" tvg-logo="https://picon-13398.kxcdn.com/pinkerotic2rs.jpg" group-title="Live: For Adults",Pink Erotic 2 (18+) RS
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/17424
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/17424.m3u8
 #EXTINF:-1 tvg-id="PinkErotic3.rs" tvg-name="Pink Erotic 3 (18+) RS" tvg-logo="https://picon-13398.kxcdn.com/pinkerotic3rs.jpg" group-title="Live: For Adults",Pink Erotic 3 (18+) RS
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/17425
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/17425.m3u8
 #EXTINF:-1 tvg-id="PinkErotic4.rs" tvg-name="Pink Erotic 4 (18+) RS" tvg-logo="https://picon-13398.kxcdn.com/pinkerotic4rs.jpg" group-title="Live: For Adults",Pink Erotic 4 (18+) RS
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/17426
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/17426.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Balkan Erotik (18+) RS" tvg-logo="https://picon-13398.kxcdn.com/balkaneroticrs.jpg" group-title="Live: For Adults",Balkan Erotik (18+) RS
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/19024
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/19024.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Dorcel XXX FHD (18+) NL" tvg-logo="https://picon-13398.kxcdn.com/dorcelxxxnl.jpg" group-title="Live: For Adults",Dorcel XXX FHD (18+) NL
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/19026
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/19026.m3u8
 #EXTINF:-1 tvg-id="Eroxxx.pl" tvg-name="EroXXX FHD (18+) NL" tvg-logo="https://picon-13398.kxcdn.com/eroxxx.jpg" group-title="Live: For Adults",EroXXX FHD (18+) NL
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/19025
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/19025.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Blue Hustler Europe (18+) US" tvg-logo="https://picon-13398.kxcdn.com/bluehustler.jpg" group-title="Live: For Adults",Blue Hustler Europe (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/24905
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/24905.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fake Agent HD (18+) CZ" tvg-logo="https://picon-13398.kxcdn.com/femalefaketaxi.jpg" group-title="Live: For Adults",Fake Agent HD (18+) CZ
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/25851
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/25851.m3u8
 #EXTINF:-1 tvg-id="Erox.pl" tvg-name="Erox HD (18+) NL" tvg-logo="https://picon-13398.kxcdn.com/eroxnl.jpg" group-title="Live: For Adults",Erox HD (18+) NL
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/27187
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/27187.m3u8
 #EXTINF:-1 tvg-id="PlayboyTV.pt" tvg-name="Playboy TV (18+) PT" tvg-logo="https://picon-13398.kxcdn.com/playboy.jpg" group-title="Live: For Adults",Playboy TV (18+) PT
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/27800
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/27800.m3u8
 #EXTINF:-1 tvg-id="PinkErotic5.rs" tvg-name="Pink Erotic 5 (18+) RS" tvg-logo="https://picon-13398.kxcdn.com/pinkerotic5rs.jpg" group-title="Live: For Adults",Pink Erotic 5 (18+) RS
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28050
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28050.m3u8
 #EXTINF:-1 tvg-id="PinkErotic6.rs" tvg-name="Pink Erotic 6 (18+) RS" tvg-logo="https://picon-13398.kxcdn.com/pinkerotic6rs.jpg" group-title="Live: For Adults",Pink Erotic 6 (18+) RS
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28051
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28051.m3u8
 #EXTINF:-1 tvg-id="PinkErotic7.rs" tvg-name="Pink Erotic 7 (18+) RS" tvg-logo="https://picon-13398.kxcdn.com/pinkerotic7rs.jpg" group-title="Live: For Adults",Pink Erotic 7 (18+) RS
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28052
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28052.m3u8
 #EXTINF:-1 tvg-id="PinkErotic8.rs" tvg-name="Pink Erotic 8 (18+) RS" tvg-logo="https://picon-13398.kxcdn.com/pinkerotic8rs.jpg" group-title="Live: For Adults",Pink Erotic 8 (18+) RS
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28053
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28053.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Visit-X TV (18+) DE" tvg-logo="https://picon-13398.kxcdn.com/visitxtvnl.jpg" group-title="Live: For Adults",Visit-X TV (18+) DE
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28229
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28229.m3u8
 #EXTINF:-1 tvg-id="BrazzersTVEurope.nl" tvg-name="Brazzers TV Europe HD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/brazzerstveurope.jpg" group-title="Live: For Adults",Brazzers TV Europe HD (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/18325
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/18325.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Shalun (18+) RU" tvg-logo="https://picon-13398.kxcdn.com/shalunru.jpg" group-title="Live: For Adults",Shalun (18+) RU
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/19023
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/19023.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Meiden van Holland Hard (18+) NL" tvg-logo="https://picon-13398.kxcdn.com/meidenvanhollandhard.jpg" group-title="Live: For Adults",Meiden van Holland Hard (18+) NL
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/21521
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/21521.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Oldtimer (18+) US" tvg-logo="https://picon-13398.kxcdn.com/oldtimerus.jpg" group-title="Live: For Adults",Oldtimer (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28851
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28851.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Babes TV HD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/babestvus.jpg" group-title="Live: For Adults",Babes TV HD (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28852
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28852.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SeXation HD (18+) SI" tvg-logo="https://picon-13398.kxcdn.com/sexationtvsi.jpg" group-title="Live: For Adults",SeXation HD (18+) SI
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28853
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28853.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="XY Plus HD (18+) UK" tvg-logo="https://picon-13398.kxcdn.com/xyplusuk.jpg" group-title="Live: For Adults",XY Plus HD (18+) UK
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28854
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28854.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="XY Max HD (18+) UK" tvg-logo="https://picon-13398.kxcdn.com/xymaxuk.jpg" group-title="Live: For Adults",XY Max HD (18+) UK
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28855
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28855.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="XY Mix HD (18+) UK" tvg-logo="https://picon-13398.kxcdn.com/xymixuk.jpg" group-title="Live: For Adults",XY Mix HD (18+) UK
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28856
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28856.m3u8
 #EXTINF:-1 tvg-id="XXL.fr" tvg-name="XXL HD (18+) FR" tvg-logo="https://picon-13398.kxcdn.com/xxlfr.jpg" group-title="Live: For Adults",XXL HD (18+) FR
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28858
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28858.m3u8
 #EXTINF:-1 tvg-id="PassieXXX.nl" tvg-name="Passie XXX (18+) IT" tvg-logo="https://picon-13398.kxcdn.com/passionxxxit.jpg" group-title="Live: For Adults",Passie XXX (18+) IT
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28859
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28859.m3u8
 #EXTINF:-1 tvg-id="Sextreme.pt" tvg-name="Sextreme (18+) BR" tvg-logo="https://picon-13398.kxcdn.com/sextremebr.jpg" group-title="Live: For Adults",Sextreme (18+) BR
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28860
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28860.m3u8
 #EXTINF:-1 tvg-id="SexyHot.br" tvg-name="Sexy Hot (18+) BR" tvg-logo="https://picon-13398.kxcdn.com/sexyhotbr.jpg" group-title="Live: For Adults",Sexy Hot (18+) BR
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28861
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28861.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="VeraPorn Group Sex (18+) " tvg-logo="https://picon-13398.kxcdn.com/x1al.jpg" group-title="Live: For Adults",VeraPorn Group Sex (18+) 
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28863
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28863.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BangerZ (18+) US" tvg-logo="https://picon-13398.kxcdn.com/bangerzus.jpg" group-title="Live: For Adults",BangerZ (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28868
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28868.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Net XX (18+) US" tvg-logo="https://picon-13398.kxcdn.com/netxxus.jpg" group-title="Live: For Adults",Net XX (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28869
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28869.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Playhouse (18+) BG" tvg-logo="https://picon-13398.kxcdn.com/playhousebe.jpg" group-title="Live: For Adults",Playhouse (18+) BG
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28870
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28870.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Hot Pleasure (18+) SI" tvg-logo="https://picon-13398.kxcdn.com/hotpleasuresi.jpg" group-title="Live: For Adults",Hot Pleasure (18+) SI
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28871
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28871.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Milf TV (18+) US" tvg-logo="https://picon-13398.kxcdn.com/milftvus.jpg" group-title="Live: For Adults",Milf TV (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28872
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28872.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Red XXX (18+) US" tvg-logo="https://picon-13398.kxcdn.com/redxxxus.jpg" group-title="Live: For Adults",Red XXX (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28873
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28873.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Extreme (18+) DE" tvg-logo="https://picon-13398.kxcdn.com/extremede.jpg" group-title="Live: For Adults",Extreme (18+) DE
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28874
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28874.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bang U (18+) US" tvg-logo="https://picon-13398.kxcdn.com/banguus.jpg" group-title="Live: For Adults",Bang U (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28875
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28875.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Lesbian Affair (18+) US" tvg-logo="https://picon-13398.kxcdn.com/lesbianaffairus.jpg" group-title="Live: For Adults",Lesbian Affair (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28876
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28876.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Emanuelle (18+) FR" tvg-logo="https://picon-13398.kxcdn.com/emanuellefr.jpg" group-title="Live: For Adults",Emanuelle (18+) FR
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28877
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28877.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="French Lover (18+) FR" tvg-logo="https://picon-13398.kxcdn.com/frenchloverfr.jpg" group-title="Live: For Adults",French Lover (18+) FR
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28878
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28878.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Barely Legal TV (18+) US" tvg-logo="https://picon-13398.kxcdn.com/barelylegalus.jpg" group-title="Live: For Adults",Barely Legal TV (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28879
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28879.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Russian Night (18+) RU" tvg-logo="https://picon-13398.kxcdn.com/russiannightru.jpg" group-title="Live: For Adults",Russian Night (18+) RU
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28880
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28880.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Olala (18+) RU" tvg-logo="https://picon-13398.kxcdn.com/olalaru.jpg" group-title="Live: For Adults",Olala (18+) RU
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28881
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28881.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nuart TV (18+) RU" tvg-logo="https://picon-13398.kxcdn.com/nuarttvru.jpg" group-title="Live: For Adults",Nuart TV (18+) RU
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28882
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28882.m3u8
 #EXTINF:-1 tvg-id="SecretCircle.nl" tvg-name="Secret Circle (18+) NL" tvg-logo="https://picon-13398.kxcdn.com/secretcirclenl.jpg" group-title="Live: For Adults",Secret Circle (18+) NL
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28883
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28883.m3u8
 #EXTINF:-1 tvg-id="XMO.nl" tvg-name="X-MO (Gay Men) (18+) NL" tvg-logo="https://picon-13398.kxcdn.com/xmonl.jpg" group-title="Live: For Adults",X-MO (Gay Men) (18+) NL
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28887
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28887.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Jasmin TV HD (18+) LU" tvg-logo="https://picon-13398.kxcdn.com/jasmintvlu.jpg" group-title="Live: For Adults",Jasmin TV HD (18+) LU
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28888
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28888.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Hot XXL (18+) FR" tvg-logo="https://picon-13398.kxcdn.com/hotxxltv.jpg" group-title="Live: For Adults",Hot XXL (18+) FR
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/38046
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/38046.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Brazzers TV Europe (18+) RU" tvg-logo="https://picon-13398.kxcdn.com/brazzerstveurope.jpg" group-title="Live: For Adults",Brazzers TV Europe (18+) RU
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/38047
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/38047.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bang U Europe (18+) US" tvg-logo="https://picon-13398.kxcdn.com/banguus.jpg" group-title="Live: For Adults",Bang U Europe (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/38048
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/38048.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Candy TV (18+) RU" tvg-logo="https://picon-13398.kxcdn.com/candytvru.jpg" group-title="Live: For Adults",Candy TV (18+) RU
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/38050
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/38050.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Balkan Hot 1 (18+) RS" tvg-logo="https://picon-13398.kxcdn.com/balkanhotrs.jpg" group-title="Live: For Adults",Balkan Hot 1 (18+) RS
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/38051
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/38051.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Balkan Hot 2 (18+) RS" tvg-logo="https://picon-13398.kxcdn.com/balkanhotrs.jpg" group-title="Live: For Adults",Balkan Hot 2 (18+) RS
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/38052
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/38052.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Just 89 (18+) IT" tvg-logo="https://picon-13398.kxcdn.com/just89it.jpg" group-title="Live: For Adults",Just 89 (18+) IT
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/38053
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/38053.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Free X TV 2 (18+) US" tvg-logo="https://picon-13398.kxcdn.com/freextv2us.jpg" group-title="Live: For Adults",Free X TV 2 (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/38054
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/38054.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Exxxotica HD (18+) RU" tvg-logo="https://picon-13398.kxcdn.com/exxxoticaru.jpg" group-title="Live: For Adults",Exxxotica HD (18+) RU
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/38055
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/38055.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fast Boyz (Gay Men) (18+) US" tvg-logo="https://picon-13398.kxcdn.com/fastboyzus.jpg" group-title="Live: For Adults",Fast Boyz (Gay Men) (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/28886
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/28886.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="VeraPorn 4K UHD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/porn4k.jpg" group-title="Live: For Adults",VeraPorn 4K UHD (18+) US
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60028.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Fake Taxi FHD (18+) CZ" tvg-logo="https://picon-13398.kxcdn.com/faketaxi.jpg" group-title="Live: For Adults",Fake Taxi FHD (18+) CZ
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60029.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Extasy 4K UHD (18+) US" tvg-logo="" group-title="Live: For Adults",Extasy 4K UHD (18+) US
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60030.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Blacked FHD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/blacked.jpg" group-title="Live: For Adults",Blacked FHD (18+) US
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60031.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Vivid Touch (18+) US" tvg-logo="" group-title="Live: For Adults",Vivid Touch (18+) US
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60032.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Vixen FHD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/vixen%281%29.jpg" group-title="Live: For Adults",Vixen FHD (18+) US
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60033.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Alba XXX1 (18+)" tvg-logo="https://picon-13398.kxcdn.com/albaxxx1.jpg" group-title="Live: For Adults",Alba XXX1 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60035.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Alba XXX2 (18+)" tvg-logo="https://picon-13398.kxcdn.com/albaxxx2.jpg" group-title="Live: For Adults",Alba XXX2 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60036.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Alba XXX5 (18+)" tvg-logo="https://picon-13398.kxcdn.com/albaxxx3.jpg" group-title="Live: For Adults",Alba XXX5 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60037.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Alba XXX3 (18+)" tvg-logo="https://picon-13398.kxcdn.com/albaxxx3.jpg" group-title="Live: For Adults",Alba XXX3 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60038.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 1 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 1 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60039.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 2 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 2 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60040.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 3 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 3 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60041.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 4 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 4 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60042.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 5 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 5 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60043.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 6 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 6 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60044.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 7 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 7 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60045.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 8 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 8 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60046.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 9 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 9 (18+)
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60047.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="VeraPorn Anal FHD (18+) " tvg-logo="" group-title="Live: For Adults",VeraPorn Anal FHD (18+) 
+http://85.203.33.88:80/live/xMcdUv0Q771u51/8CtEKU04/60076.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="I AM RILEY 4K [Adult-2020]" tvg-logo="https://images02-evilangel.gammacdn.com/movies/77801/77801_i_am_riley_front_400x625.jpg" group-title="Movie: For Adults",I AM RILEY 4K [Adult-2020]
 http://85.203.33.88:80/movie/xMcdUv0Q771u51/8CtEKU04/37783.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Addicted to Black Cocks [Adult-2018]" tvg-logo="https://images02-evilangel.gammacdn.com/movies/77801/77801_i_am_riley_front_400x625.jpg" group-title="Movie: For Adults",Addicted to Black Cocks [Adult-2018]
@@ -706,43 +746,4 @@ http://85.203.33.88:80/movie/xMcdUv0Q771u51/8CtEKU04/54803.mp4
 http://85.203.33.88:80/movie/xMcdUv0Q771u51/8CtEKU04/54804.mp4
 #EXTINF:-1 tvg-id="" tvg-name="When Girls Play -  Veronica Rodriguez, Honey Gold [ES] [2019]" tvg-logo="https://images02-evilangel.gammacdn.com/movies/77801/77801_i_am_riley_front_400x625.jpg" group-title="Movie: For Adults",When Girls Play -  Veronica Rodriguez, Honey Gold [ES] [2019]
 http://85.203.33.88:80/movie/xMcdUv0Q771u51/8CtEKU04/54805.mp4
-#EXTINF:-1 tvg-id="" tvg-name="VeraPorn 4K UHD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/porn4k.jpg" group-title="Live: For Adults",VeraPorn 4K UHD (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60028
-#EXTINF:-1 tvg-id="" tvg-name="Fake Taxi FHD (18+) CZ" tvg-logo="https://picon-13398.kxcdn.com/faketaxi.jpg" group-title="Live: For Adults",Fake Taxi FHD (18+) CZ
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60029
-#EXTINF:-1 tvg-id="" tvg-name="Extasy 4K UHD (18+) US" tvg-logo="" group-title="Live: For Adults",Extasy 4K UHD (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60030
-#EXTINF:-1 tvg-id="" tvg-name="Blacked FHD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/blacked.jpg" group-title="Live: For Adults",Blacked FHD (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60031
-#EXTINF:-1 tvg-id="" tvg-name="Vivid Touch (18+) US" tvg-logo="" group-title="Live: For Adults",Vivid Touch (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60032
-#EXTINF:-1 tvg-id="" tvg-name="Vixen FHD (18+) US" tvg-logo="https://picon-13398.kxcdn.com/vixen%281%29.jpg" group-title="Live: For Adults",Vixen FHD (18+) US
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60033
-#EXTINF:-1 tvg-id="" tvg-name="Alba XXX1 (18+)" tvg-logo="https://picon-13398.kxcdn.com/albaxxx1.jpg" group-title="Live: For Adults",Alba XXX1 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60035
-#EXTINF:-1 tvg-id="" tvg-name="Alba XXX2 (18+)" tvg-logo="https://picon-13398.kxcdn.com/albaxxx2.jpg" group-title="Live: For Adults",Alba XXX2 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60036
-#EXTINF:-1 tvg-id="" tvg-name="Alba XXX5 (18+)" tvg-logo="https://picon-13398.kxcdn.com/albaxxx3.jpg" group-title="Live: For Adults",Alba XXX5 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60037
-#EXTINF:-1 tvg-id="" tvg-name="Alba XXX3 (18+)" tvg-logo="https://picon-13398.kxcdn.com/albaxxx3.jpg" group-title="Live: For Adults",Alba XXX3 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60038
-#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 1 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 1 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60039
-#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 2 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 2 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60040
-#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 3 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 3 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60041
-#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 4 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 4 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60042
-#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 5 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 5 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60043
-#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 6 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 6 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60044
-#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 7 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 7 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60045
-#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 8 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 8 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60046
-#EXTINF:-1 tvg-id="" tvg-name="SL Hot HD 9 (18+)" tvg-logo="https://picon-13398.kxcdn.com/slhotadult.jpg" group-title="Live: For Adults",SL Hot HD 9 (18+)
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60047
-#EXTINF:-1 tvg-id="" tvg-name="VeraPorn Anal FHD (18+) " tvg-logo="" group-title="Live: For Adults",VeraPorn Anal FHD (18+) 
-http://85.203.33.88:80/xMcdUv0Q771u51/8CtEKU04/60076
+
