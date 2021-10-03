@@ -113,9 +113,9 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/unss.png"
 },
 {
-"title":"七夕影视",
-"url":"https://ys.80tvs.cn/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qixi.png"
+"title":"糖果影视",
+"url":"https://tgys.tv/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/tgys.png"
 },
 {
 "title":"速搜影院",
