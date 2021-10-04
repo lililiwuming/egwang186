@@ -333,7 +333,7 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/snailkya.png"
 },
 {
-"title":"小草影视",
+"title":"小草影院",
 "url":"http://ygapp.xcys63.com/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xcys63.png"
 },
