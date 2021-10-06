@@ -7,6 +7,7 @@
 香港台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/香港台.txt
 台湾台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/台湾台.txt
 虎牙轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/虎牙轮播.txt
+新虎牙轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/新虎牙.txt
 斗鱼轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/斗鱼轮播.txt
 乐视轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/乐视轮播.txt
 NewTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/NewTV.txt
