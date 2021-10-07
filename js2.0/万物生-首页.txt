@@ -338,6 +338,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xcys63.png"
 },
 {
+"title":"百讯视频",
+"url":"https://z.iopenyun.com/app_api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/iopenyun.png"
+},
+{
 "title":"大师兄影视",
 "url":"https://hou.lu/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
