@@ -353,6 +353,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/linzhiyuan.png"
 },
 {
+"title":"星空影视",
+"url":"https://xkys.tv/xgapp.php/v1/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xkys.png"
+},
+{
 "title":"嘀哩嘀哩影视",
 "url":"https://diliktv.xyz/xgapp.php/v1/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/diliktv.png"
