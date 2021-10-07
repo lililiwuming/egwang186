@@ -138,7 +138,7 @@ var 标题=标题3;var 地址=地址3;var 前="?ac=list&class=";var 后="&page=#
 }
 ######单项列表
 if(getVar("url").search(/api\.php\/.+?\.vod/)!=-1){
-    if(URL.indexOf("iopenyun.com")!=-1){
+    if(getVar("url").indexOf("iopenyun.com")!=-1){
     var URL=getVar("url").split("/list")[0];
     }else{
     var URL=getVar("url").split("?")[0];
