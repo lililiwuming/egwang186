@@ -109,7 +109,7 @@ if(标题=="xhzy"){
      if(URL.indexOf("ycccyk.cn")!=-1||URL.indexOf("107.150.5.146")!=-1){
       选集地址="https://www.baidu.com/s?wd=https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url="+选集地址;
       }else{
-      选集地址="http://egwang186.gitee.io/?url="+选集地址;
+      选集地址="https://www.baidu.com/s?wd=http://107.150.5.146:39000/jiexi.php?url="+选集地址;
       }
 }else if(选集地址.indexOf(":6688/player")!=-1){
       var hash=选集地址.split("player/")[1];
@@ -287,7 +287,9 @@ var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,headers:{"referer":uu}});
 }else if(uu.indexOf("https://www.baidu.com/s?wd=")!=-1){
 var playurl=uu.split("wd=")[1];
-if(playurl.indexOf("duoduozy.com")!=-1){
+if(playurl.indexOf("http://107.150.5.146:39000/jiexi.php?url=")!=-1){
+getHttp(JSON.stringify({url:playurl}));
+}else if(playurl.indexOf("duoduozy.com")!=-1){
 var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
