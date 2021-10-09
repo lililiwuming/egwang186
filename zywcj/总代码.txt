@@ -289,7 +289,7 @@ JSON.stringify({url:playurl,headers:{"referer":uu}});
 var playurl=uu.split("wd=")[1];
 if(playurl.indexOf("http://107.150.5.146:39000/jiexi.php?url=")!=-1){
 var resp=JZ(JSON.stringify({url:playurl}));
-JSON.stringify(resp.code);
+resp.code;
 }else if(playurl.indexOf("duoduozy.com")!=-1){
 var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
