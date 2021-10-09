@@ -288,7 +288,8 @@ JSON.stringify({url:playurl,headers:{"referer":uu}});
 }else if(uu.indexOf("https://www.baidu.com/s?wd=")!=-1){
 var playurl=uu.split("wd=")[1];
 if(playurl.indexOf("http://107.150.5.146:39000/jiexi.php?url=")!=-1){
-getHttp(JSON.stringify({url:playurl}));
+var resp=getHttp(JSON.stringify({url:playurl}));
+resp;
 }else if(playurl.indexOf("duoduozy.com")!=-1){
 var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
