@@ -74,12 +74,13 @@ function 选集列表(){
 var res={};var detail=[];
 detail.push({desc:简介});
 res.desc=detail;
+alert(JSON.stringify(res));
 return JSON.stringify(res);
 }
 if(URL.indexOf("/art/json")!=-1){
-var 简介=e2Rex(getVar("源码"),".json(data).i(0).json(news_content)");选集列表();
+var 简介=e2Rex(getVar("源码"),".json(data).json(news_content)");选集列表();
 }else{
-var 简介=e2Rex(getVar("源码"),".json(list).i(0).json(art_content)");选集列表();
+var 简介=e2Rex(getVar("源码"),".json(list).json(art_content)");选集列表();
 }
 ######搜索列表
 function 搜索列表(){
