@@ -19,7 +19,7 @@ var 地址规则=".a(id)";var 前="?ac=videolist&pg=#PN#&t=";var 后="";头部�
 var 列表=e2Arr(源码,".json(list)");
 var 标题规则=".json(list_name).th( ##)";var 地址规则=".json(list_id)";var 前="?ac=videolist&pg=#PN#&t=";var 后="";头部导航();
 }else{
-var 列表=e2Arr(源码,".json(class)");
+var 列表=e2Arr(源码.replace(/<.*?>/g,""),".json(class)");
 var 标题规则=".json(type_name)";var 标题规则1=".json(type_title)";var 地址规则=".json(type_id)";var 前="?ac=videolist&pg=#PN#&t=";var 后="";头部导航();
 }
 ######通用列表
