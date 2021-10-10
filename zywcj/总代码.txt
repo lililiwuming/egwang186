@@ -72,7 +72,7 @@ var 标题规则=".xml(name).ty(CDATA).tz2(])";var 地址规则=".c(?ac=videolis
 var 列表=e2Arr(源码,".json(data)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(?ac=videolist&ids=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".c(<font color=\"#0997F7\"><b>).json(vod_play_from).ct(</b></font><br>)";var 图片底部规则=".json(vod_addtime)";var 左上规则=".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\" size=\"40px\">).json(type_name).ct(</font></p>)";var 右上规则=".tx(<p style=\"background-color:#CC00FF\"><font color=\"#FFFFFF\">).json(vod_type).ct(</font></p>)";通用列表();
 }else{
-var 列表=e2Arr(源码,".json(list)");
+var 列表=e2Arr(源码.replace(/<.*?>/,''),".json(list)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(?ac=videolist&ids=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".c(<font color=\"#0997F7\"><b>).json(vod_play_from).ct(</b></font><br>)";var 图片底部规则=".json(vod_time)";var 左上规则=".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\" size=\"40px\">).json(type_name).ct(</font></p>)";var 右上规则=".tx(<p style=\"background-color:#CC00FF\"><font color=\"#FFFFFF\">).json(vod_remarks).ct(</font></p>)";通用列表();
 }
 ######选集列表
