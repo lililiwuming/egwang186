@@ -71,10 +71,8 @@ var 标题规则=".json(art_name)";var 地址规则=".c(?ac=detail&ids=).json(ar
 ######选集列表
 var URL=getVar("url");
 function 选集列表(){
-var res={};var detail=[];
-detail.push({desc:简介});
-res.desc=detail;
-alert(JSON.stringify(res));
+var res={};
+res.desc=简介;
 return JSON.stringify(res);
 }
 if(URL.indexOf("/art/json")!=-1){
