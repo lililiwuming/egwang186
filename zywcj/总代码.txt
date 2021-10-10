@@ -199,7 +199,7 @@ if(URL.indexOf("/vod/json")!=-1){
 var 分类=e2Arr(getVar("源码"),".json(data).json(vod_play_url).fg(\\$\\$\\$)");
 var 线路=e2Arr(getVar("源码"),".json(data).json(vod_play_from).fg(\\$\\$\\$)");
 var 选集地址规则=".z2(\\$\\(.*\\)).or().z(.*)";
-var 简介=e2Arr(getVar("源码"),".c(演员表:).json(data).json(vod_actor).c(<br>简介:).json(data).json(vod_content)");
+var 简介=e2Rex(getVar("源码"),".c(演员表:).json(data).json(vod_actor).c(<br>简介:).json(data).json(vod_content)");
 var 列表规则=".fg(#)";
 var 标题规则=".t()";
 var 选集规则=".tz($)";选集列表();
@@ -213,7 +213,7 @@ var 分类=e2Arr(getVar("源码"),".json(list).json(vod_play_url).fg(\\$\\$\\$)"
 var 线路=e2Arr(getVar("源码"),".json(list).json(vod_play_from).fg(\\$\\$\\$)");
 var 选集地址规则=".z2(\\$\\(.*\\)).or().z(.*)";
 }
-var 简介=e2Arr(getVar("源码"),".c(演员表:).json(list).json(vod_actor).c(<br>简介:).json(list).json(vod_content)");
+var 简介=e2Rex(getVar("源码"),".c(演员表:).json(list).json(vod_actor).c(<br>简介:).json(list).json(vod_content)");
 var 列表规则=".fg(#)";
 var 标题规则=".t()";
 var 选集规则=".tz($)";选集列表();
