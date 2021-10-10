@@ -2,7 +2,7 @@ var URL=getVar("url");
 function 头部导航(){
 var res={};var items=[];
 for(var j=0;j<列表.length;j++){
-     var 标题=e2Arr(列表[j],标题规则)||e2Arr(列表[j],标题规则1);
+     var 标题=e2Arr(列表[j],标题规则)?e2Arr(列表[j],标题规则):e2Arr(列表[j],标题规则1);
      var 地址=e2Arr(列表[j],地址规则);
      分类地址=URL+前+地址+后;
      items.push({title:标题,url:分类地址});
