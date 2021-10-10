@@ -1,358 +1,358 @@
 #EXTINF:-1,Dorcel HD orig
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/9064/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/9064/index.m3u8
 #EXTINF:-1,Hustler HD orig
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/9065/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/9065/index.m3u8
 #EXTINF:-1,Redlight HD orig
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/9066/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/9066/index.m3u8
 #EXTINF:-1,Passion XXX orig
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/9067/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/9067/index.m3u8
 #EXTINF:-1,Satisfaction HD orig
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/9068/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/9068/index.m3u8
 #EXTINF:-1,Ню Арт HD orig
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/9071/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/9071/index.m3u8
 #EXTINF:-1,Нюарт TV (Nuart)
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/2057/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/2057/index.m3u8
 #EXTINF:-1,FrenchLover
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/2160/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/2160/index.m3u8
 #EXTINF:-1,O-la-la
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/2161/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/2161/index.m3u8
 #EXTINF:-1,Vivid Red HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/2162/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/2162/index.m3u8
 #EXTINF:-1,Exxxotica HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/2397/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/2397/index.m3u8
 #EXTINF:-1,XXL
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/5009/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/5009/index.m3u8
 #EXTINF:-1,Penthouse Passion
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/5010/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/5010/index.m3u8
 #EXTINF:-1,Penthouse Gold HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/5011/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/5011/index.m3u8
 #EXTINF:-1,Penthouse Quickies 1300k
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/5012/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/5012/index.m3u8
 #EXTINF:-1,Penthouse Quickies HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/5013/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/5013/index.m3u8
 #EXTINF:-1,Extasy 4K
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/5014/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/5014/index.m3u8
 #EXTINF:-1,Eroxxx HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/5015/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/5015/index.m3u8
 #EXTINF:-1,21 Sextury
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6164/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6164/index.m3u8
 #EXTINF:-1,A3 Bikini
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6165/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6165/index.m3u8
 #EXTINF:-1,Adult Time
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6166/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6166/index.m3u8
 #EXTINF:-1,Anal Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6167/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6167/index.m3u8
 #EXTINF:-1,Analized HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6168/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6168/index.m3u8
 #EXTINF:-1,AST TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6169/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6169/index.m3u8
 #EXTINF:-1,AST TV 2
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6170/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6170/index.m3u8
 #EXTINF:-1,Babes HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6171/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6171/index.m3u8
 #EXTINF:-1,Babes TV HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6172/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6172/index.m3u8
 #EXTINF:-1,Bang Bros HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6173/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6173/index.m3u8
 #EXTINF:-1,Bang!
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6174/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6174/index.m3u8
 #EXTINF:-1,Big Ass Adult TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6175/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6175/index.m3u8
 #EXTINF:-1,Big Dick Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6176/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6176/index.m3u8
 #EXTINF:-1,Big Tits Adult TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6177/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6177/index.m3u8
 #EXTINF:-1,Blacked HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6178/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6178/index.m3u8
 #EXTINF:-1,Blonde Adult TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6179/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6179/index.m3u8
 #EXTINF:-1,Blowjob Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6180/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6180/index.m3u8
 #EXTINF:-1,Brazzers eXXtra
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6181/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6181/index.m3u8
 #EXTINF:-1,Brazzers HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6182/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6182/index.m3u8
 #EXTINF:-1,Brunette Adult TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6183/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6183/index.m3u8
 #EXTINF:-1,cento x cento
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6184/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6184/index.m3u8
 #EXTINF:-1,Cherry Pimps
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6185/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6185/index.m3u8
 #EXTINF:-1,Club 17
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6186/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6186/index.m3u8
 #EXTINF:-1,Compilation Adult TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6187/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6187/index.m3u8
 #EXTINF:-1,Cuckold Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6188/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6188/index.m3u8
 #EXTINF:-1,Cum Louder
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6189/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6189/index.m3u8
 #EXTINF:-1,Cum4k
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6190/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6190/index.m3u8
 #EXTINF:-1,Daughter Swap
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6191/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6191/index.m3u8
 #EXTINF:-1,Day with a Pornstar
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6192/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6192/index.m3u8
 #EXTINF:-1,DDF Busty
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6193/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6193/index.m3u8
 #EXTINF:-1,DDF Network
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6194/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6194/index.m3u8
 #EXTINF:-1,Digital Desire HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6195/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6195/index.m3u8
 #EXTINF:-1,Digital Playground HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6196/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6196/index.m3u8
 #EXTINF:-1,Dorcel Club
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6197/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6197/index.m3u8
 #EXTINF:-1,Dusk
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6198/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6198/index.m3u8
 #EXTINF:-1,Evil Angel HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6199/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6199/index.m3u8
 #EXTINF:-1,Evolved Fights
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6200/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6200/index.m3u8
 #EXTINF:-1,Extasy HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6201/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6201/index.m3u8
 #EXTINF:-1,Fake Taxi HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6202/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6202/index.m3u8
 #EXTINF:-1,Fap TV 2
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6203/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6203/index.m3u8
 #EXTINF:-1,Fap TV 3
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6204/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6204/index.m3u8
 #EXTINF:-1,Fap TV 4
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6205/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6205/index.m3u8
 #EXTINF:-1,Fap TV Anal
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6206/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6206/index.m3u8
 #EXTINF:-1,Fap TV BBW
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6207/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6207/index.m3u8
 #EXTINF:-1,Fap TV Compilation
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6208/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6208/index.m3u8
 #EXTINF:-1,Fap TV Lesbian
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6209/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6209/index.m3u8
 #EXTINF:-1,Fap TV Parody
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6210/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6210/index.m3u8
 #EXTINF:-1,Fap TV Teens
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6211/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6211/index.m3u8
 #EXTINF:-1,FemJoy
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6212/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6212/index.m3u8
 #EXTINF:-1,Fetish Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6213/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6213/index.m3u8
 #EXTINF:-1,Gangbang Adult TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6214/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6214/index.m3u8
 #EXTINF:-1,Gay Adult TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6215/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6215/index.m3u8
 #EXTINF:-1,Got MYLF
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6216/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6216/index.m3u8
 #EXTINF:-1,Hands on Hardcore
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6217/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6217/index.m3u8
 #EXTINF:-1,Hard X
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6218/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6218/index.m3u8
 #EXTINF:-1,Hardcore Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6219/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6219/index.m3u8
 #EXTINF:-1,Hitzefrei HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6220/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6220/index.m3u8
 #EXTINF:-1,Holed
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6221/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6221/index.m3u8
 #EXTINF:-1,Hot and Mean
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6222/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6222/index.m3u8
 #EXTINF:-1,Hot Guys Fuck
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6223/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6223/index.m3u8
 #EXTINF:-1,Interracial Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6224/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6224/index.m3u8
 #EXTINF:-1,Japan HDV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6225/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6225/index.m3u8
 #EXTINF:-1,Latina Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6226/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6226/index.m3u8
 #EXTINF:-1,Lesbea
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6227/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6227/index.m3u8
 #EXTINF:-1,Lesbian Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6228/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6228/index.m3u8
 #EXTINF:-1,Lethal Hardcore
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6229/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6229/index.m3u8
 #EXTINF:-1,Little Asians HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6230/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6230/index.m3u8
 #EXTINF:-1,Live Cams Adult TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6231/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6231/index.m3u8
 #EXTINF:-1,Lust Cinema
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6232/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6232/index.m3u8
 #EXTINF:-1,MetArt HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6233/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6233/index.m3u8
 #EXTINF:-1,MILF Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6234/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6234/index.m3u8
 #EXTINF:-1,Monsters of Cock
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6235/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6235/index.m3u8
 #EXTINF:-1,MYLF TV HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6236/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6236/index.m3u8
 #EXTINF:-1,Naughty America
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6237/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6237/index.m3u8
 #EXTINF:-1,Nubiles TV HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6238/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6238/index.m3u8
 #EXTINF:-1,ox-ax HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6239/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6239/index.m3u8
 #EXTINF:-1,Pink Erotic 3
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6240/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6240/index.m3u8
 #EXTINF:-1,Pink Erotic 4
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6241/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6241/index.m3u8
 #EXTINF:-1,Playboy Plus
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6242/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6242/index.m3u8
 #EXTINF:-1,Pornstar Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6243/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6243/index.m3u8
 #EXTINF:-1,POV Adult TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6244/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6244/index.m3u8
 #EXTINF:-1,Private HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6245/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6245/index.m3u8
 #EXTINF:-1,Public Agent
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6246/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6246/index.m3u8
 #EXTINF:-1,Reality Kings HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6247/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6247/index.m3u8
 #EXTINF:-1,RK Prime
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6248/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6248/index.m3u8
 #EXTINF:-1,RK TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6249/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6249/index.m3u8
 #EXTINF:-1,Rough Adult TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6250/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6250/index.m3u8
 #EXTINF:-1,Russian Adult TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6251/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6251/index.m3u8
 #EXTINF:-1,Sex With Muslims
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6252/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6252/index.m3u8
 #EXTINF:-1,SexArt
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6253/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6253/index.m3u8
 #EXTINF:-1,sext 6 senso
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6254/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6254/index.m3u8
 #EXTINF:-1,SINematica
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6255/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6255/index.m3u8
 #EXTINF:-1,Teen Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6256/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6256/index.m3u8
 #EXTINF:-1,Threesome Red TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6257/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6257/index.m3u8
 #EXTINF:-1,Tiny4K
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6258/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6258/index.m3u8
 #EXTINF:-1,Trans Angels
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6259/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6259/index.m3u8
 #EXTINF:-1,True Amateurs
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6260/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6260/index.m3u8
 #EXTINF:-1,Tushy HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6261/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6261/index.m3u8
 #EXTINF:-1,TushyRAW
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6262/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6262/index.m3u8
 #EXTINF:-1,Visit-X TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6263/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6263/index.m3u8
 #EXTINF:-1,Vivid TV Europe
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6264/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6264/index.m3u8
 #EXTINF:-1,Vixen HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6265/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6265/index.m3u8
 #EXTINF:-1,We Live Together
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6266/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6266/index.m3u8
 #EXTINF:-1,White Boxxx
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6267/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6267/index.m3u8
 #EXTINF:-1,Wicked
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6268/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6268/index.m3u8
 #EXTINF:-1,Xpanded TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6269/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6269/index.m3u8
 #EXTINF:-1,Balkan Erotic
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6270/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6270/index.m3u8
 #EXTINF:-1,Bangerz
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6271/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6271/index.m3u8
 #EXTINF:-1,Emanuelle HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6272/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6272/index.m3u8
 #EXTINF:-1,Extreme
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6273/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6273/index.m3u8
 #EXTINF:-1,Fast Boyz
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6274/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6274/index.m3u8
 #EXTINF:-1,HOT
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6275/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6275/index.m3u8
 #EXTINF:-1,HOT XXL HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6276/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6276/index.m3u8
 #EXTINF:-1,Hot Pleasure
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6277/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6277/index.m3u8
 #EXTINF:-1,Lesbian Affair
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6278/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6278/index.m3u8
 #EXTINF:-1,Oldtimer
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6279/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6279/index.m3u8
 #EXTINF:-1,Playboy LA
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6280/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6280/index.m3u8
 #EXTINF:-1,Red XXX
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6281/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6281/index.m3u8
 #EXTINF:-1,Sexy Hot
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6282/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6282/index.m3u8
 #EXTINF:-1,Taboo
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6283/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6283/index.m3u8
 #EXTINF:-1,Venus
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6284/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6284/index.m3u8
 #EXTINF:-1,X-MO
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6285/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6285/index.m3u8
 #EXTINF:-1,XY Max HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6286/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6286/index.m3u8
 #EXTINF:-1,XY Mix HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6287/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6287/index.m3u8
 #EXTINF:-1,XY Plus HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6288/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6288/index.m3u8
 #EXTINF:-1,Erotic
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6289/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6289/index.m3u8
 #EXTINF:-1,Erotic 2
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6290/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6290/index.m3u8
 #EXTINF:-1,Erotic 3
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6291/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6291/index.m3u8
 #EXTINF:-1,Erotic 4
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6292/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6292/index.m3u8
 #EXTINF:-1,Erotic 6
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6293/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6293/index.m3u8
 #EXTINF:-1,Erotic 7
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6294/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6294/index.m3u8
 #EXTINF:-1,Erotic 8
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6295/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6295/index.m3u8
 #EXTINF:-1,Erox HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6296/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6296/index.m3u8
 #EXTINF:-1,MvH Hard
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6297/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6297/index.m3u8
 #EXTINF:-1,SuperOne HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6298/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6298/index.m3u8
 #EXTINF:-1,Искушение HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6300/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6300/index.m3u8
 #EXTINF:-1,Ню Арт HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/6307/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/6307/index.m3u8
 #EXTINF:-1,[PT] HOT
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/105/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/105/index.m3u8
 #EXTINF:-1,[GB] Blue Hustler
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/1064/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/1064/index.m3u8
 #EXTINF:-1,[US] Penthouse TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/1073/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/1073/index.m3u8
 #EXTINF:-1,[RU] Русская Ночь
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/147/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/147/index.m3u8
 #EXTINF:-1,[NL] Redlight HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/242/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/242/index.m3u8
 #EXTINF:-1,[NL] Private TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/243/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/243/index.m3u8
 #EXTINF:-1,[GB] Hustler HD Europe
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/244/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/244/index.m3u8
 #EXTINF:-1,[NL] Dorcel TV HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/245/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/245/index.m3u8
 #EXTINF:-1,[GB] Playboy UK
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/527/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/527/index.m3u8
 #EXTINF:-1,Baby TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/807/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/807/index.m3u8
 #EXTINF:-1,[US] EroX HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/813/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/813/index.m3u8
 #EXTINF:-1,[US] Barely Legal
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/871/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/871/index.m3u8
 #EXTINF:-1,[US] Brazzers TV Europe 2
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/872/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/872/index.m3u8
 #EXTINF:-1,[NL] Dusk TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/873/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/873/index.m3u8
 #EXTINF:-1,[IT] Pink'o TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/874/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/874/index.m3u8
 #EXTINF:-1,[IT] Sexto Senso
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/875/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/875/index.m3u8
 #EXTINF:-1,[US] Satisfaction Channel SCT
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/876/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/876/index.m3u8
 #EXTINF:-1,[IT] Privé TV
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/877/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/877/index.m3u8
 #EXTINF:-1,[NL] Passion XXX
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/878/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/878/index.m3u8
 #EXTINF:-1,[18+] Xmuvi
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/879/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/879/index.m3u8
 #EXTINF:-1,[US] Brazzers TV Europe
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/910/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/910/index.m3u8
 #EXTINF:-1,[RU] Искушение HD
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/919/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/919/index.m3u8
 #EXTINF:-1,[RU] Шалун
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/922/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/922/index.m3u8
 #EXTINF:-1,[RU] Candy
-http://89.248.160.57/iptv/K2VY5Y28QM5E3N/923/index.m3u8
+http://89.248.160.57/iptv/URFPS4QVV53QPF/923/index.m3u8
