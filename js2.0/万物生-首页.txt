@@ -113,6 +113,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/tgys.png"
 },
 {
+"title":"牛马TV",
+"url":"http://www.niumatv.com/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/niumatv.png"
+},
+{
 "title":"速搜影院",
 "url":"https://www.susou.tv/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/susou.png"
