@@ -1,5 +1,6 @@
 #网络订阅txt源
 移动OPTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/移动OPTV.txt
+清华大学IPTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/清华大学IPTV.txt
 央视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/央视.txt
 卫视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/卫视.txt
 河南大象融媒,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/河南大象融媒.txt
