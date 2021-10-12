@@ -95,7 +95,7 @@ var 地址=TT(1,2,4,9,6,7,10,8,15,11,20,21,26,24,22,23,28,29,30,31,32,34,35,36);
 var 前="/list/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("zxzj.me")!=-1){
 var 标题=TB(1,26,23,24,27,4);
-var 地址=TT(1,2,3,4,5,6);var 前="/list/";var 后="-#PN#.html";头部导航();
+var 地址=TT(1,2,4,3,5,6);var 前="/list/";var 后="-#PN#.html";头部导航();
 }else if(URL.indexOf("auete.com")!=-1){
 var 标题=标题2;
 var 地址=["Movie","Tv","Zy","Dm","Movie/dzp","Movie/xjp","Movie/aqp","Movie/khp","Movie/kbp","Movie/jqp","Movie/zzp","Tv/neidi","Tv/tvbgj","Tv/taiju","Tv/riju","Tv/hanju","Tv/oumei"];var 前="/";var 后="/index.html";头部导航();
