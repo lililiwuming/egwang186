@@ -285,6 +285,8 @@ JSON.stringify({url:playurl,headers:{"referer":"","user-agent":"Mozilla/5.0"}});
 }else if(uu.indexOf("hjjjjhd.top")!=-1){
 var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,headers:{"referer":uu}});
+}else if(uu.indexOf("www.1080kan.cc/jiexi/")!=-1){
+"web="+uu;
 }else if(uu.indexOf("https://www.baidu.com/s?wd=")!=-1){
 var playurl=uu.split("wd=")[1];
 if(playurl.indexOf("http://107.150.5.146:39000/jiexi.php?url=")!=-1){
