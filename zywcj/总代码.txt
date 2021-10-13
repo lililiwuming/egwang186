@@ -141,7 +141,7 @@ if(标题=="xhzy"){
 }else if(标题.indexOf("mx771")!=-1){
   选集地址="https://vip.byteamone.cn/api/?key=vpO0packXeAp4XYCnA&url="+选集地址;
 }else if(标题=="renrenmi"){
-      选集地址="https://www.1080kan.cc/jiexi/rrmi.php?url="+选集地址+'@{"Referer":"https://www.1080kan.cc/"}';
+      选集地址="http://www.1080kan.cc/jiexi/rrmi.php?url="+选集地址+'@{"Referer":"http://www.1080kan.cc/"}';
 }else if(URL.indexOf('fqzy.cc')!=-1){
       选集地址="https://jx.fqzy.cc/jx.php?url="+选集地址;
 }else if(选集地址.indexOf('wp.umao.vp6.top')!=-1){
