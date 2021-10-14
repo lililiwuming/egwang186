@@ -48,11 +48,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/siguyy.png"
 },
 {
-"title":"蜻蜓影视",
-"url":"https://cvcv.tv/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cvcv.png"
-},
-{
 "title":"厂长资源",
 "url":"https://www.czspp.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/changzhang.png"
@@ -66,11 +61,6 @@
 "title":"耐看点播",
 "url":"https://www.nkvob.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nkvod.png"
-},
-{
-"title":"奈菲影视",
-"url":"https://www.nfmovies.com/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nfmovies.png"
 },
 {
 "title":"美剧虫",
