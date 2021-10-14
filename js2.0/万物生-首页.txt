@@ -343,6 +343,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xkys.png"
 },
 {
+"title":"迷你库(人人迷蓝光)",
+"url":"http://www.miniku.cc/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/miniku.png"
+},
+{
 "title":"嘀哩嘀哩影视",
 "url":"https://diliktv.xyz/xgapp.php/v1/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/diliktv.png"
