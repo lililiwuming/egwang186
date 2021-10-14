@@ -289,7 +289,7 @@
 },
 {
 "title":"我爱电影",
-"url":"http://app.5imv.cc/api.php/v1.vod/vodPhbAll",
+"url":"http://ys.5imv.cc/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/5imv.png"
 },
 {
@@ -311,11 +311,6 @@
 "title":"片多儿影视",
 "url":"http://221.236.18.12:665/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/meinaikang.png"
-},
-{
-"title":"蜗牛看鸭",
-"url":"http://movie.wokewu.cn/api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/snailkya.png"
 },
 {
 "title":"小草影院",
