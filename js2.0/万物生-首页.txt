@@ -198,8 +198,13 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xiaoysw.png"
 },
 {
-"title":"南府追剧猫",
+"title":"南府追剧",
 "url":"http://app.xkvideo.design/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nanfuzhuijumao.png"
+},
+{
+"title":"新南府影视",
+"url":"https://nfuxsapp.xkvideo.club/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nanfuzhuijumao.png"
 },
 {
@@ -326,6 +331,11 @@
 "title":"百讯视频",
 "url":"https://z.iopenyun.com:99/app_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/iopenyun.png"
+},
+{
+"title":"核桃影视",
+"url":"http://app.hetaoys.vip/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/hetaoys.png"
 },
 {
 "title":"大师兄影视",
