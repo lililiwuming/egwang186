@@ -411,7 +411,7 @@ JSON.stringify({url:playurl.match(/.*(http.*)/)[1]});
         }
     }else{
         if(resp.code.indexOf("<html")!=-1){
-            if(resp.code.search(/player=new/)!=-1||/<div id="video"/)!=-1||resp.code.search(/<div id="[^"]*?player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1){
+            if(resp.code.search(/player=new/)!=-1||resp.code.search(/<div id="video"/)!=-1||resp.code.search(/<div id="[^"]*?player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1){
                "web="+playurl;
             }else{
                if(playurl.split("url=")[1].indexOf("http")!=-1){
