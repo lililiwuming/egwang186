@@ -397,7 +397,7 @@ JSON.stringify({url:playurl.match(/.*(http.*)/)[1]});
                 if(realurl.indexOf("mgtv.com")!=-1){
                     JSON.stringify({url:ppurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
                 }else if(realurl.indexOf("bilibili.com")!=-1){
-                    JSON.stringify({url:ppurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.bilibili.com/"}});
+                    JSON.stringify({url:ppurl});
                 }else{
                     JSON.stringify({url:ppurl});
                 }
@@ -433,7 +433,7 @@ JSON.stringify({url:playurl.match(/.*(http.*)/)[1]});
                 if(playurl.indexOf("mgtv.com")!=-1){
                     JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
                 }else if(playurl.indexOf("bilibili.com")!=-1){
-                    JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.bilibili.com/"}});
+                    JSON.stringify({url:realurl});
                 }else{
                     JSON.stringify({url:realurl});
                 }
