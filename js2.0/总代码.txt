@@ -278,7 +278,7 @@ var COOKIE=getVar("COOKIE");
 var UA="Mozilla/5.0 Android";
 var COOKIE="";
 }
-var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":UA,"Cookie":COOKIE}}));
+var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":UA}}));
 if(uu.indexOf("1080kan.cc/jiexi/")!=-1){
 "web="+uu.split("wd=")[1]+'@{"Referer":"http://www.1080kan.cc/"}';
 }else if(uu.indexOf("cokemv.me")!=-1||uu.indexOf("hanmiys.com")!=-1){
@@ -377,7 +377,7 @@ JSON.stringify({url:JSON.parse(cccc.code).url,head:{"Referer":"https://ysgc.cc"}
 JSON.stringify({url:playurl.match(/.*(http.*)/)[1]});
 }
 }else if(playurl.indexOf("=")!=-1){
-    var resp=JZ(JSON.stringify({url:playurl,redirect:false,head:{"User-Agent":UA,"Cookie":COOKIE}}));
+    var resp=JZ(JSON.stringify({url:playurl,redirect:false,head:{"User-Agent":UA}}));
     if(resp.head.location||resp.head.Location){
            var a=resp;
            while(a.head.location||a.head.Location){
