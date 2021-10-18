@@ -264,7 +264,7 @@
 },
 {
 "title":"我爱电影",
-"url":"http://ys.5imv.cc/api.php/v1.vod/vodPhbAll",
+"url":"http://ys.5imv.cc/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/5imv.png"
 },
 {
