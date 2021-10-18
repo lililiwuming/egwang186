@@ -106,7 +106,11 @@ if(标题=="xhzy"){
 }else if(URL.indexOf("ujuba.com")!=-1){
       选集地址="https://zy.ujuba.com/play.php?url="+选集地址;
 }else if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1||选集地址.indexOf("share.weiyun.")!=-1){
+      if(URL.indexOf("ycccyk.cn")!=-1){
+      选集地址="http://m.auuyruyc.com/json/1194447576.php/?url="+选集地址;     
+      }else{
       选集地址="https://www.baidu.com/s?wd=http://1.117.152.239:39000/jiexi.php?url="+选集地址;
+      }
 }else if(选集地址.indexOf(":6688/player")!=-1){
       var hash=选集地址.split("player/")[1];
       选集地址="https://www.baidu.com/s?wd=https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
