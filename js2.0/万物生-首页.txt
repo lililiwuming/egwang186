@@ -238,16 +238,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yfys.png"
 },
 {
-"title":"淘剧社",
-"url":"http://app.shuhai99.com/api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/taojushe.png"
-},
-{
-"title":"优炫影视",
-"url":"http://yuntv.iyxtv.cn/mogai_api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/youxuanyingshi.png"
-},
-{
 "title":"飞捷影视",
 "url":"https://www.fj6080.com/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/fj6080.png"
