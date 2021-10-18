@@ -73,11 +73,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jumi.png"
 },
 {
-"title":"陈家影视",
-"url":"https://www.cjt521.com/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/cjt521.png"
-},
-{
 "title":"在线之家",
 "url":"https://www.zxzj.me/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zxzj.png"
