@@ -361,7 +361,11 @@ var playurl=JSON.parse(resp.code).url;
 if(playurl.indexOf(".titan.mgtv.com")!=-1){
 JSON.stringify({url:playurl,head:{"User-Agent":UA,"Referer":""}});
 }else{
-JSON.stringify({url:playurl});
+      if(playurl.indexOf("auuyruyc.com")!=-1){
+      JSON.stringify({url:playurl+"&type=.m3u8"});
+      }else{
+      JSON.stringify({url:playurl});
+      }
 }
 }else if(uu.split("url=")[1].indexOf("alizy-")!=-1){
 var id=uu.split("url=")[1];
