@@ -51,9 +51,9 @@ for(var j=0;j<LIMIT;j++){
     }else{
     var 图片=getVar("url").match(/https?:\/\/.+?\//)[0]+预图片;
     }
-    /*if(baseURL.indexOf("ycccyk.cn")!=-1){
-    var 图片=图片+'@{"Referer":"'+图片+'"}';
-    }*/
+    if(baseURL.indexOf("ycccyk.cn")!=-1){
+    var 图片=图片+'@{"User-Agent":"Mozilla/5.0","Referer":"'+图片+'"}';
+    }
     var 简介=e2Rex(CODE,简介规则);
     var 图片底部=e2Rex(CODE,图片底部规则);
     var 左上=e2Rex(CODE,左上规则);
