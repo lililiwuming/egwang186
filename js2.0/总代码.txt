@@ -295,7 +295,8 @@ var DATA=e2Rex(resp.code,".ty(player_data=).json(url)");
 if(DATA.indexOf(".m3u8")!=-1||DATA.indexOf(".mp4")!=-1){
 JSON.stringify({url:DATA});
 }else if(DATA.indexOf("zxh.la/zxzj.php?vid=")!=-1){
-JSON.stringify({url:DATA+"&type=.mp4"});
+var code=JZ(JSON.stringify({url:DATA,redirect:false}));
+JSON.stringify({url:code.head.locaion});
 }else{
 var code=JZ(JSON.stringify({url:DATA,head:{'referer':uu}})).code.match(/var url.*?'(.*?)'/)[1];
 code=code.split('').reverse().join('');
