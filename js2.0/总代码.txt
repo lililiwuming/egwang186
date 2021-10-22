@@ -350,7 +350,7 @@ JSON.stringify({url:player_aaaa.url,head:{"referer":"https://tgys.tv/static/play
 "web="+uu;
 }
 }else if(uu.indexOf("auete.com")!=-1){
-var script=e2Rex(resp.code,".get(div#player script).t()");
+var script=e2Rex(resp.code,".get(div#video script).t()");
 function base64decode(str){
   return e2Rex(str,".dn64()")
 }
