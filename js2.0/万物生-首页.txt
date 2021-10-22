@@ -18,11 +18,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ak1080.png"
 },
 {
-"title":"爱看影视",
-"url":"https://ikan6.vip/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ikan6.png"
-},
-{
 "title":"多多电影网",
 "url":"https://dd520.cc/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dd520.png"
