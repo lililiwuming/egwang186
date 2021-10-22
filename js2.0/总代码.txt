@@ -1114,11 +1114,11 @@ var 简介规则=".get(span).st().t().c().get(dd.fed-deta-content).t()";搜索�
 }else if(baseURL.indexOf("waijumi.com")!=-1){
 var URL=baseURL+"/vs/search.html?wd="+KEY;
 var 源码=getHttp(JSON.stringify({url:URL}));
-var 列表=e2Arr(源码,".get(dl.mo-deta-info.mo-cols-rows)");
-var 标题规则=".get(h1 a).t()";
-var 地址规则=".get(h1 a).a(href)";
+var 列表=e2Arr(源码,".get(li.hl-list-item)");
+var 标题规则=".get(a).a(title)";
+var 地址规则=".get(a).a(href)";
 var 图片规则=".get(a).a(data-original)";
-var 简介规则=".t()";搜索列表();
+var 简介规则=".get(a).t().c().get(p.hl-item-sub).t()";搜索列表();
 }else if(baseURL.indexOf("jxry.cc")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
 var 总源码=JZ(JSON.stringify({url:URL}));
@@ -1128,6 +1128,15 @@ var 标题规则=".get(h1).t()";
 var 地址规则=".get(div.leo-po-ab a).a(href)";
 var 图片规则=".get(img).a(src)";
 var 简介规则=".get(div.leo-detail-media).t()";搜索列表();
+}else if(baseURL.indexOf("yingkuya.com")!=-1){
+var URL=baseURL+"/vodsearch/-------------/";
+var 总源码=JZ(JSON.stringify({url:URL,post:{'wd':KEY}}));
+var 源码=总源码.code;
+var 列表=e2Arr(源码,".get(div.show_list li)");
+var 标题规则=".get(a).a(title)";
+var 地址规则=".get(a).a(href)";
+var 图片规则=".get(img).a(lay-src)";
+var 简介规则=".get(span).st().t()";搜索列表();
 }else if(baseURL.indexOf("moyuyingshi.com")!=-1){
 var URL=baseURL+"/vodsearch/-------------/?wd="+KEY;
 var 总源码=JZ(JSON.stringify({url:URL}));
@@ -1137,10 +1146,10 @@ var 标题规则=".get(a.dc-bold).t()";
 var 地址规则=".get(a.dc-bold).a(href)";
 var 图片规则=".get(img).a(data-src)";
 var 简介规则=".get(span).st().t()";搜索列表();
-}else if(baseURL.indexOf("cms.7a11l.cn")!=-1||baseURL.indexOf("vdxj.net")!=-1||baseURL.indexOf("jiujiukanju.com")!=-1||baseURL.indexOf("hszbj.net")!=-1||baseURL.indexOf("dcds.ml")!=-1||baseURL.indexOf("longtengzy.cn")!=-1||baseURL.indexOf("msdv.cn")!=-1||baseURL.indexOf("yingkuya.com")!=-1){
+}else if(baseURL.indexOf("cms.7a11l.cn")!=-1||baseURL.indexOf("vdxj.net")!=-1||baseURL.indexOf("jiujiukanju.com")!=-1||baseURL.indexOf("hszbj.net")!=-1||baseURL.indexOf("dcds.ml")!=-1||baseURL.indexOf("longtengzy.cn")!=-1||baseURL.indexOf("msdv.cn")!=-1){
 if(baseURL.indexOf("cms.7a11l.cn")!=-1||baseURL.indexOf("hszbj.net")!=-1||baseURL.indexOf("longtengzy.cn")!=-1||baseURL.indexOf("msdv.cn")!=-1){
 var URL=baseURL+"/index.php/vod/search.html?wd="+KEY;
-}else if(baseURL.indexOf("vdxj.net")!=-1||baseURL.indexOf("yingkuya.com")!=-1){
+}else if(baseURL.indexOf("vdxj.net")!=-1){
 var URL=baseURL+"/vodsearch/-------------/?wd="+KEY;
 }else if(baseURL.indexOf("jiujiukanju.com")!=-1){
 var URL=baseURL+"/search?wd="+KEY;
