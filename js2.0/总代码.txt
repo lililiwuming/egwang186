@@ -330,7 +330,7 @@ var script=e2Rex(resp.code,".get(div#bofang_box script).t()");
 eval(script);
 if(unescape(player_aaaa.url).indexOf(".m3u8")!=-1){
 JSON.stringify({url:unescape(player_aaaa.url)});
-}else if(unescape(player_aaaa.from).indexOf("zizhi2")!=-1){
+}else if(unescape(player_aaaa.from).indexOf("zizhi")!=-1){
     var playurl="http://jx.socos.vip/api.php?id="+unescape(player_aaaa.url).replace(/&.+?&/,"&");
     JSON.stringify([{url:playurl+"&type=.mp4"},{url:playurl+"&type=.m3u8"}]);
 }else{
