@@ -119,7 +119,7 @@
 },
 {
 "title":"影库鸭",
-"url":"http://www.yingkuya.com/",
+"url":"https://www.yingkuya.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yingkuya.png"
 },
 {
