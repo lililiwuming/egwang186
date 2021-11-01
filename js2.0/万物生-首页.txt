@@ -318,6 +318,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/shoujikandianying.png"
 },
 {
+"title":"抹茶猪",
+"url":"https://www.mczdyw.com/xgapp.php/v1/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/mczdyw.png"
+},
+{
 "title":"嘀哩嘀哩影视",
 "url":"https://diliktv.xyz/xgapp.php/v1/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/diliktv.png"
