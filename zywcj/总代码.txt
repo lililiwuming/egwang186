@@ -160,8 +160,8 @@ if(标题=="xhzy"){
       选集地址="https://api.xxctzy.com/1.php?vid="+选集地址;
 }else if(标题.indexOf("mengxin")!=-1){
       选集地址="https://jx3.bifenvip.com/?url="+选集地址;
-}else if(URL.indexOf("bbkdj")!=-1){
-      选集地址="http://jx.yparse.com/index.php?url="+选集地址;
+}else if(标题.indexOf("aly")!=-1){
+      选集地址="https://aly.178du.com/"+选集地址;
 }else if(标题=='niux'){
       选集地址="https://www.juztv.com/jx.php?id="+选集地址;
 }else if(标题=='u'){
