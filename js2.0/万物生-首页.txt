@@ -348,6 +348,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yingshigongchang.png"
 },
 {
+"title":"BD电影",
+"url":"https://www.bddysf.org/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/bddysf.png"
+},
+{
 "title":"九合视频",
 "url":"https://ptygx.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jiuheshipin.png"
