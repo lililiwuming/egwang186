@@ -381,6 +381,8 @@ if(now.indexOf("9yun")!=-1){
 }else{
     "web="+uu;
 }
+}else if{
+    "web="+uu;
 }
 }else if(uu.indexOf("nfmovies.com")!=-1){
 var script=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
