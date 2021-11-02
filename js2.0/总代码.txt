@@ -358,7 +358,7 @@ if(player_aaaa.url.indexOf(".m3u8")>20||player_aaaa.url.indexOf(".mp4")>20){
 "web="+uu;
 }
 }else if(uu.indexOf("auete.com")!=-1){
-var script=e2Rex(resp.code,".get(div#video script).t()");
+var script=e2Rex(resp.code,".get(div#video script).t().or().get(div#player script).t()");
 function base64decode(str){
   return e2Rex(str,".dn64()")
 }
