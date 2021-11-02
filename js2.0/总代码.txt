@@ -343,7 +343,7 @@ JSON.stringify({url:player_aaaa.url,head:{"referer":"https://jxplayer.4kcz.com/"
 "web="+uu;
 }
 }else if(uu.indexOf("tgys.tv")!=-1){
-var script=e2Rex(resp.code,".get(div#bofang_box script).t()");
+var script=e2Rex(resp.code,".get(div.player_video.embed-responsive script).t()");
 eval(script);
 if(player_aaaa.url.indexOf(".m3u8")>20||player_aaaa.url.indexOf(".mp4")>20){
     if(player_aaaa.from=='duoduozy'){
