@@ -223,7 +223,7 @@ var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图�
 var 列表=e2Arr(getVar("源码"),".get(li[class~=dc-pa-5 dc-col-4 dc-col-sm3])");
 var 标题规则=".get(a.dc-clamp).t()";var 地址规则=".get(a.dc-clamp).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".get(span).st().t().c().get(p).t()";单项列表();
 }else if(URL.indexOf("yingkuya.com")!=-1){
-var 列表=e2Arr(getVar("源码"),".get(li.p2.m1)");
+var 列表=e2Arr(getVar("源码"),".get(li[class~=p\\d m1])");
 var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(span).st().t().c()";单项列表();
 }else if(URL.indexOf("jhyun.jhdyw.vip")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li[class=clearfix])");
@@ -861,7 +861,7 @@ var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图�
 var 列表=e2Arr(getVar("源码"),".get(li[class~=dc-pa-5 dc-col-4 dc-col-sm3])");
 var 标题规则=".get(a.dc-clamp).t()";var 地址规则=".get(a.dc-clamp).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".get(span).st().t().c().get(p).t()";普通列表();
 }else if(URL.indexOf("yingkuya.com")!=-1){
-var 列表=e2Arr(getVar("源码"),".get(li.p2.m1)");
+var 列表=e2Arr(getVar("源码"),".get(li[class~=p\\d m1])");
 var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(span).st().t().c()";普通列表();
 }else if(URL.indexOf("jhyun.jhdyw.vip")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li[class=clearfix])");
