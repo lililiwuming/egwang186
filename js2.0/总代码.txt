@@ -930,7 +930,7 @@ var u=getVar("url");
 if(u.indexOf("nfmovies.com")!=-1||u.indexOf("jiujiukanju.com")!=-1){
 "Mozilla/5.0";
 }else if(u.indexOf("hou.lu")!=-1){
-"Dart/2.13 (dart:io)";
+"Dart/2.13(dart:io)";
 }else{
 "Mozilla/5.0 Android";
 }
@@ -1299,6 +1299,8 @@ var setcookie=resp.head['set-cookie'];
 var u=e2Rex(getVar("CODE"),".json(url)");
 if(u.indexOf("nfmovies.com")!=-1||u.indexOf("jiujiukanju.com")!=-1){
 "Mozilla/5.0";
+}else if(u.indexOf("hou.lu")!=-1){
+"Dart/2.13(dart:io)";
 }else{
 "Mozilla/5.0 Android";
 }
