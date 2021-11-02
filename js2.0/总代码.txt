@@ -1153,11 +1153,11 @@ var 简介规则=".get(div.leo-detail-media).t()";搜索列表();
 var URL=baseURL+"/vodsearch/-------------/";
 var 总源码=JZ(JSON.stringify({url:URL,post:{'wd':KEY}}));
 var 源码=总源码.code;
-var 列表=e2Arr(源码,".get(div.show_list li)");
+var 列表=e2Arr(源码,".get(li.p1.m1)");
 var 标题规则=".get(a).a(title)";
 var 地址规则=".get(a).a(href)";
-var 图片规则=".get(img).a(lay-src)";
-var 简介规则=".get(span).st().t()";搜索列表();
+var 图片规则=".get(img).a(src)";
+var 简介规则=".get(span).st().t().c().get(p).st().t()";搜索列表();
 }else if(baseURL.indexOf("moyuyingshi.com")!=-1){
 var URL=baseURL+"/vodsearch/-------------/?wd="+KEY;
 var 总源码=JZ(JSON.stringify({url:URL}));
