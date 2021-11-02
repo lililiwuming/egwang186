@@ -1074,7 +1074,7 @@ if(源码.indexOf("跳转中")!=-1){
 }
 var 列表=e2Arr(源码,".xml(item)");
 var 标题规则=".xml(title).t()";
-var 地址规则=".xml(link).t().z(\\S+).th(http://www\.dd520\.cc##https://dd520.cc)";
+var 地址规则=".xml(link).t().z(\\S+).th(http://www\.dd520\.cc##https://dd520.cc).th(http://www\.nkvob\.com##https://www.nkvob.com)";
 var 图片规则=".get(a).a(data-original)";
 var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";搜索列表();
 }else if(baseURL.indexOf("ak1080.me")!=-1||baseURL.indexOf("dikotv.com")!=-1||baseURL.indexOf("jpysvip.net")!=-1||baseURL.indexOf("cokemv.me")!=-1){
