@@ -1,10 +1,9 @@
 #网络订阅txt源
 移动OPTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/移动OPTV.txt
-清华大学IPTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/清华大学IPTV.txt
 央视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/央视.txt
 卫视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/卫视.txt
-河南大象融媒,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/河南大象融媒.txt
-百事通,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/百事通.txt
+山东,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/山东电视台.txt
+Bestv百事通,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/百事通.txt
 香港台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/香港台.txt
 台湾台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/台湾台.txt
 虎牙轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/虎牙轮播.txt
@@ -12,9 +11,9 @@
 斗鱼轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/斗鱼轮播.txt
 乐视轮播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/乐视轮播.txt
 NewTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/NewTV.txt
-CIBN,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/CIBN.txt
-IHOT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/IHOT.txt
-广播电台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/广播电台.txt
+CHC影视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/CHC影视.txt
+iHot,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/iHot频道.txt
+蜻蜓音乐电台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/广播电台.txt
 MV歌曲,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/MV歌曲.txt
 其他网络直播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/其他网络直播.txt
 ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/国外成人台.txt

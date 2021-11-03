@@ -2,6 +2,8 @@ BesTV 4K,http://112.17.40.140/PLTV/88888888/224/3221226718/index.m3u8#http://117
 纯享4K,http://39.135.138.59:18890/PLTV/88888910/224/3221225786/index.m3u8#http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8#http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226825/1.m3u8#http://111.12.102.68:6610/PLTV/77777777/224/3221225726/index.m3u8?
 爱上4k,http://39.134.24.220/PLTV/88888888/224/3221226005/index.m3u8#http://111.20.105.60:6060/yinhe/2/ch00000090990000001709/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 美丽中国4K,https://hls.cntv.baishancdnx.cn/asp/hls/8000/0303000a/3/default/9891cea600df4e8a83851b1b1ce23194/8000.m3u8
+弈坛春秋,http://223.110.241.137:6610/gitv/live1/G_YITANCQ/G_YITANCQ/?type=.m3u8 
+置业频道,http://223.110.241.137:6610/gitv/live1/G_ZHIYE/G_ZHIYE/?type=.m3u8
 CHC高清电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/1.m3u8#http://ivi.bupt.edu.cn/hls/chchd.m3u8               
 CHC动作电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/1.m3u8
 CHC家庭影院,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/1.m3u8#http://pili-live-hls.fssh.tianma3600.com/fssh/fsds.m3u8
