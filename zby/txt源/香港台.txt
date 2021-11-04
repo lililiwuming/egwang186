@@ -1,5 +1,5 @@
-凤凰中文 10M1080,http://223.110.235.3/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8#http://223.110.245.139/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8#http://zb.ios.ifeng.com:80/live/05QGDA0CIRK/index.m3u8
-凤凰资讯 10M1080,http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8#http://zb.ios.ifeng.com:80/live/05QGCOB3T34/index.m3u8
+凤凰中文 10M1080,http://zb.ios.ifeng.com:80/live/05QGDA0CIRK/index.m3u8#http://223.110.235.3/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8#http://223.110.245.139/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8
+凤凰资讯 10M1080,http://zb.ios.ifeng.com:80/live/05QGCOB3T34/index.m3u8#http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8
 凤凰香港 10M1080,http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228060/index.m3u8
 TVBJ2台,https://cdn.hkdtmb.com/hls/82/index.m3u8
 TVB星河台,http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
