@@ -130,7 +130,7 @@ if(标题=="xhzy"){
       选集地址="http://parse.qbzyz.com/parse?resources="+选集地址;
       }
 }else if(标题=="mysp"||标题=="xmzy"||标题=="ttck"){
-      选集地址="http://player.sxmj.wang/m3u8.php?url="+选集地址;
+      选集地址="http://player.sxmj.wang/m3u8.php?url="+选集地址+'@{"Referer":"http://www.moyuyingshi.com"}';
 }else if(标题=="mao"){
       选集地址="http://app.sxmj.wang/player.php?url="+选集地址;
 }else if(标题=="4kdym"||标题=="8kvod"){
@@ -140,7 +140,7 @@ if(标题=="xhzy"){
 }else if(标题=="lekanzyw"){
       选集地址="https://bfq.ikan6.vip/m3u8.php?url="+选集地址+'@{"Referer":"https://ikan6.vip/"}';
 }else if(标题.indexOf("miaoparty")!=-1){
-  选集地址="https://jiemi.jiexi.one/api/?key=zJQvr5baYHz7vpNSy9&url="+选集地址;
+  选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
 }else if(标题.indexOf("mx771")!=-1){
   选集地址="http://vip.mengx.vip/home/api?type=ys&uid=1797360&key=bjkluyzFGILNSWYZ16&url="+选集地址;
 }else if(标题=="renrenmi"){
