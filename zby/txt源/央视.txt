@@ -1,4 +1,4 @@
-CCTV4K超高清,http://117.148.179.160/PLTV/88888888/224/3221231976/index.m3u8
+CCTV4K高清[1920*1080],http://121.18.168.210/livetestcdn.cctv.cn/hls/4KHD/playlist.m3u8#http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 CCTV1 综合,http://111.63.117.13:6060/030000001000/CCTV-1-HD/CCTV-1-HD.m3u8
 CCTV2 财经,http://111.63.117.13:6060/030000001000/G_CCTV-2/G_CCTV-2.m3u8
 CCTV3 综艺,http://111.63.117.13:6060/030000001000/CCTV-3/CCTV-3.m3u8
@@ -15,7 +15,7 @@ CCTV12 社会,http://111.63.117.13:6060/030000001000/CCTV-12/CCTV-12.m3u8
 CCTV13 新闻,http://111.63.117.13:6060/030000001000/CCTV-13/CCTV_13.m3u8
 CCTV14 少儿,http://111.63.117.13:6060/030000001000/G_CCTV-14/G_CCTV_14.m3u8
 CCTV15 音乐,http://111.63.117.13:6060/030000001000/G_CCTV-15/G_CCTV-15.m3u8
-CCTV16-4K,http://121.18.168.210/livetestcdn.cctv.cn/hls/CCTV16HD/playlist.m3u8
+CCTV16-4K,http://121.18.168.210/livetestcdn.cctv.cn/hls/CCTV16HD/playlist.m3u8#https://cctvalih5ca.v.myalicdn.com/live/cctv16_2/index.m3u8
 CCTV17 农业,http://111.63.117.13:6060/030000001000/G_CCTV-17/G_CCTV-17.m3u8
 CCTV-1HD,http://223.110.241.137:6610/gitv/live1/G_CCTV-1-HQ/G_CCTV-1-HQ/.m3u8
 CCTV-2HD,http://223.110.241.137:6610/gitv/live1/G_CCTV-2/G_CCTV-2/.m3u8
@@ -34,3 +34,43 @@ CCTV-13HD,http://223.110.241.137:6610/gitv/live1/G_CCTV-13-HQ/G_CCTV-13-HQ/.m3u8
 CCTV-14HD,http://223.110.241.137:6610/gitv/live1/G_CCTV-14/G_CCTV-14/.m3u8
 CCTV-15HD,http://223.110.241.137:6610/gitv/live1/G_CCTV-15/G_CCTV-15/.m3u8
 CCTV-17HD,http://223.110.241.137:6610/gitv/live1/G_CCTV-17/G_CCTV-17/.m3u8
+CCTV1 高清[1920*1080],http://39.135.138.58:18890/PLTV/88888888/224/3221225642/index.m3u8
+CCTV1 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225777/index.m3u8?fmt=ts2hls
+CCTV2 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225706/index.m3u8?fmt=ts2hls
+CCTV3 高清[1920*1080],http://39.135.138.58:18890/PLTV/88888888/224/3221225634/index.m3u8
+CCTV3 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8?fmt=ts2hls
+CCTV4 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225779/index.m3u8?fmt=ts2hls
+CCTV5+ 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226128/index.m3u8?fmt=ts2hls
+CCTV5 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226024/index.m3u8?fmt=ts2hls
+CCTV6 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8?fmt=ts2hls
+CCTV7 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225745/index.m3u8?fmt=ts2hls
+CCTV8 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226005/index.m3u8?fmt=ts2hls
+CCTV9 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226031/index.m3u8?fmt=ts2hls
+CCTV10 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8?fmt=ts2hls
+CCTV11 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225746/index.m3u8?fmt=ts2hls
+CCTV12 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225747/index.m3u8?fmt=ts2hls
+CCTV13 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225748/index.m3u8?fmt=ts2hls
+CCTV14 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225727/index.m3u8?fmt=ts2hls
+CCTV17 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226027/index.m3u8?fmt=ts2hls
+CCTV1 8M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226247/index.m3u8
+CCTV2 8M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226220/index.m3u8
+CCTV5 4M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226146/index.m3u8
+CCTV5 4M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226151/index.m3u8
+CCTV5 8M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226224/index.m3u8
+CCTV5+ 8M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226253/index.m3u8
+CCTV6 4M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226148/index.m3u8
+CCTV6 8M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226226/index.m3u8
+CCTV8 4M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226150/index.m3u8
+CCTV8 8M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226257/index.m3u8
+CCTV10 4M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226164/index.m3u8
+CCTV14 4M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226166/index.m3u8
+IPTV5+ 8M1080[1920*1080],http://39.134.39.39/PLTV/88888888/224/3221226273/index.m3u8
+CCTV综艺娱乐[1920*1080],https://p4.weizan.cn/1228393605/270303707572166290/live.m3u8
+世界地理高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226071/index.m3u8?fmt=ts2hls
+第一剧场高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8?fmt=ts2hls
+怀旧剧场高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226097/index.m3u8?fmt=ts2hls
+风云剧场高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226107/index.m3u8?fmt=ts2hls
+风云足球高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226153/index.m3u8?fmt=ts2hls
+风云音乐高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226083/index.m3u8?fmt=ts2hls
+兵器科技高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226111/index.m3u8?fmt=ts2hls
+央视台球高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226156/index.m3u8?fmt=ts2hls
