@@ -4,7 +4,7 @@ AdultIptv,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u
 QQTV-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/QQTV-ADULT.txt
 EDEM-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/EDEM-ADULT.txt
 IPTVSTREAM-ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/m3u源/IPTVSTREAM-ADULT.txt
-AdultsTopPlay,http://topplay.do.am/AdultsTopPlay.m3u
+AdultsTopPlay,https://topplay.do.am/AdultsTopPlay.m3u
 XXX-iptv-org,https://iptv-org.github.io/iptv/categories/xxx.m3u
 Movies-iptv-org,https://iptv-org.github.io/iptv/categories/movies.m3u
 Music-iptv-org,https://iptv-org.github.io/iptv/categories/music.m3u
@@ -13,5 +13,5 @@ Sport-iptv-org,https://iptv-org.github.io/iptv/categories/sports.m3u
 HongKong-iptv-org,https://iptv-org.github.io/iptv/countries/hk.m3u
 TaiWan-iptv-org,https://iptv-org.github.io/iptv/countries/tw.m3u
 China-iptv-org,https://iptv-org.github.io/iptv/countries/cn.m3u
-FreeWebCamsWorld,http://topplay.do.am/FreeWebCamsWorld.m3u
+FreeWebCamsWorld,https://topplay.do.am/FreeWebCamsWorld.m3u
 #
