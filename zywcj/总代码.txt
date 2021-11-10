@@ -142,7 +142,7 @@ if(标题=="xhzy"){
 }else if(标题.indexOf("miaoparty")!=-1){
   选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
 }else if(标题.indexOf("mx771")!=-1){
-  选集地址="http://vip.mengx.vip/home/api?type=ys&uid=1797360&key=bjkluyzFGILNSWYZ16&url="+选集地址;
+  选集地址="https://vip.mengx.vip/home/api?type=ys&uid=2117076&key=abghklvyDEIJLNT025&url="+选集地址;
 }else if(标题=="renrenmi"){
       //选集地址="http://www.1080kan.cc/jiexi/rrmi.php?url="+选集地址+'@{"Referer":"http://www.1080kan.cc/"}';
       选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
