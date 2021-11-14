@@ -1,6 +1,9 @@
-Barely Legal TV,http://37.235.199.92:4022/udp/225.50.70.4:1234?type=.mp4
-Free X TV,http://37.235.199.92:4022/udp/225.50.70.5:1234?type=.mp4
-Extasy 4K,http://185.183.34.118/iptv/N8RG6LD442U365/5014/index.m3u8
+Extasy / LeoTV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
+Super One HD,http://185.96.176.139:8080/superone/index.m3u8
+O-La-La RU,http://193.33.240.8:8080/o-la-la/index.m3u8
+Sextream,http://200.4.96.35:8004/play/a0em/index.m3u8
+Sexyhot,http://200.4.96.35:8004/play/a0e7/index.m3u8
+Venus tv,http://200.4.96.35:8004/play/a0ei/index.m3u8
 Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.mp4
 HustlerHD,http://51.15.0.141:88/hustlerhd/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/hustlerhd/mpegts.mp4
 A3Bikini TV,https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/seglist_720p.m3u8?fluxustv.m3u8
