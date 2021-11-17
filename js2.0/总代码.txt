@@ -382,7 +382,12 @@ if(now.indexOf("9yun")!=-1){
     "web="+uu;
 }
 }else{
-JSON.stringify({url:now,head:{"referer":"https://auete.com/js/player/i8i.html","user-agent":"Mozilla/5.0"}});
+    if(now.indexOf("http")!=-1){
+    JSON.stringify({url:now,head:{"referer":"https://auete.com/js/player/i8i.html","user-agent":"Mozilla/5.0"}});
+    }else{
+    JSON.stringify({url:"https://auete.com"+now,head:{"referer":"https://auete.com/js/player/i8i.html","user-agent":"Mozilla/5.0"}});
+    }
+
 }
 }else if(uu.indexOf("nfmovies.com")!=-1){
 var script=e2Rex(resp.code,".get(div.embed-responsive.clearfix script).t()");
