@@ -346,6 +346,15 @@ JSON.stringify({url:player_aaaa.url,head:{"referer":"https://jxplayer.4kcz.com/"
 }else{
 "web="+uu;
 }
+}else if(uu.indexOf("ekvod.com")!=-1){
+var script=e2Rex(resp.code,".get(div.stui-player__video.embed-responsive script).t()");
+eval(script);
+if(player_aaaa.from=='lekanzyw'){
+    var id=e2Rex(player_aaaa.url,".dn64().dn(utf8)");
+    "web=https://bfq.ikan6.vip/m3u8.php?url="+id+'@{"Referer":"https://ikan6.vip/","User-Agent":"Mozilla/5.0 Android"}';
+}else{
+    "web="+uu;
+}
 }else if(uu.indexOf("tgys.tv")!=-1){
 var script=e2Rex(resp.code,".get(div.player_video.embed-responsive script).t()");
 eval(script);
