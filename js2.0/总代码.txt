@@ -318,7 +318,11 @@ if(resp.code.indexOf("<iframe")!=-1){
     "web="+uu;
     }else{
     var playurl=e2Rex(JZ(JSON.stringify({url:uuu})).code,".z2(sources:[\\s\\S]*?'\\(.*?\\)')");
+    if(playurl.indexOf(".mp4")!=-1){
+        JSON.stringify({name:"mp4",url:playurl});
+    }else{
     JSON.stringify([{name:"播放不了请切换mp4",url:playurl+"?_type=.m3u8"},{name:"mp4",url:playurl+"?_type=.mp4"}]);
+    }
     }
 }else{
 "web="+uu;
