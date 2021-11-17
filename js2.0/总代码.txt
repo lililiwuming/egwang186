@@ -83,7 +83,7 @@ var 标题=TB(1,2,3,4,6,7,8,9,11,12,13,14,16,17,18,33);var 地址=TT(1,2,3,4,6,7
 var 标题=TB(1,2,3,4,6,7,8,9,11,12,13,19,21,22,23,24,26,53);var 地址=TT(1,2,3,4,123,124,126,127,128,129,131,132,133,134,136,137,138,156);var 前="/index.php/vod/show/id/";var 后="/page/#PN#.html";头部导航();
 }else if(URL.indexOf("zhenbuka3.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vodtype/";var 后="-#PN#/";头部导航();
-}else if(URL.indexOf("yingkuya.com")!=-1){
+}else if(URL.indexOf("yingkuya.com")!=-1||URL.indexOf("ekvod.com")!=-1){
 var 标题=标题1;var 地址=地址1;var 前="/vodshow/";var 后="--------#PN#---/";头部导航();
 }else if(URL.indexOf("meijuchong.com")!=-1){
 var 标题=TB(18,17,52,1);var 地址=TT(1,2,3,4);var 前="/vodtype/";var 后="-#PN#/";头部导航();
@@ -249,7 +249,7 @@ var 标题规则=".get(h3 a).t()";var 地址规则=".get(h3 a).a(href)";var 图�
 }else if(URL.indexOf("niumatv.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(div.lists-content li)");
 var 标题规则=".get(h2 a).t()";var 地址规则=".get(h2 a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";单项列表();
-}else if(URL.indexOf("zxzj.fun")!=-1){
+}else if(URL.indexOf("zxzj.fun")!=-1||URL.indexOf("ekvod.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";单项列表();
 }else if(URL.indexOf("auete.com")!=-1){
@@ -746,6 +746,13 @@ var 列表规则=".get(ul li)";
 var 标题规则=".get(h3).t()";
 var 选集规则=".get(a).t()";
 var 选集地址规则=".get(a).a(href)";选集列表();
+}else if(URL.indexOf("ekvod.com")!=-1){
+var 分类=e2Arr(getVar("源码"),".get(div.stui-pannel-box.b.playlist)");
+var 简介=e2Rex(getVar("源码"),".get(div.video-info-main)");
+var 列表规则=".get(ul li)";
+var 标题规则=".get(h3).t()";
+var 选集规则=".get(a).t()";
+var 选集地址规则=".get(a).a(href)";选集列表();
 }else if(URL.indexOf("zjuba.com")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(div.fed-play-item)");
 var 简介=e2Rex(getVar("源码"),".get(dd.fed-deta-content)");
@@ -898,7 +905,7 @@ var 标题规则=".get(h3 a).t()";var 地址规则=".get(h3 a).a(href)";var 图�
 }else if(URL.indexOf("niumatv.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(div.lists-content li)");
 var 标题规则=".get(h2 a).t()";var 地址规则=".get(h2 a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";普通列表();
-}else if(URL.indexOf("zxzj.fun")!=-1){
+}else if(URL.indexOf("zxzj.fun")!=-1||URL.indexOf("ekvod.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";普通列表();
 }else if(URL.indexOf("auete.com")!=-1){
@@ -1167,6 +1174,15 @@ var 标题规则=".get(a).a(title)";
 var 地址规则=".get(a).a(href)";
 var 图片规则=".get(img).a(src)";
 var 简介规则=".get(span).st().t().c().get(p).st().t()";搜索列表();
+}else if(baseURL.indexOf("ekvod.com")!=-1){
+var URL=baseURL+"/vodsearch/-------------/";
+var 总源码=JZ(JSON.stringify({url:URL,post:{'wd':KEY}}));
+var 源码=总源码.code;
+var 列表=e2Arr(源码,".get(ul.stui-vodlist li)");
+var 标题规则=".get(.title a).t()";
+var 地址规则=".get(.title a).a(href)";
+var 图片规则=".get(a).a(data-original)";
+var 简介规则=".get(span).st().t()";搜索列表();
 }else if(baseURL.indexOf("moyuyingshi.com")!=-1){
 var URL=baseURL+"/vodsearch/-------------/?wd="+KEY;
 var 总源码=JZ(JSON.stringify({url:URL}));

@@ -33,6 +33,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/auete.png"
 },
 {
+"title":"易看影视",
+"url":"https://www.ekvod.com/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ekvod.png"
+},
+{
 "title":"思古影视",
 "url":"https://app.siguyy.com/xgapp.php/v1/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/siguyy.png"
