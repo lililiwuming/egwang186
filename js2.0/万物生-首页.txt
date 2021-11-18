@@ -178,11 +178,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nanfuzhuijumao.png"
 },
 {
-"title":"新南府影视",
-"url":"https://nfuxsapp.xkvideo.club/api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nanfuzhuijumao.png"
-},
-{
 "title":"侦探影视",
 "url":"http://ys.huangguay.com/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhentanys.png"
@@ -341,11 +336,6 @@
 "title":"影视工场",
 "url":"https://www.ik4.cc/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yingshigongchang.png"
-},
-{
-"title":"BD电影",
-"url":"https://www.bddysf.org/api.php/app/index_video?token=",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/bddysf.png"
 },
 {
 "title":"火箭影视",
