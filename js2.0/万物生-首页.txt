@@ -398,11 +398,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/521x5.png"
 },
 {
-"title":"尘梓TV",
-"url":"http://cztv.vip:83/api.php/chenziystv/vod/?ac=list&class=&start=&area=&type=&page=1",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/czys.png"
-},
-{
 "title":"小极TV",
 "url":"http://api.8d8q.com/mmv/api.php/Chengcheng/vod/?ac=list&class=&start=&area=&type=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/8d8q.png"
