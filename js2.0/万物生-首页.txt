@@ -239,7 +239,7 @@
 },
 {
 "title":"宅男影院",
-"url":"https://www.znyy666.top/api.php/v1.vod/vodPhbAll",
+"url":"http://www.sexyy.top/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/znyy666.png"
 },
 {
