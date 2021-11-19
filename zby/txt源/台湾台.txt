@@ -13,7 +13,7 @@ NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.
 三立台湾,http://50.7.61.148:30080/Entry/settw-?type=.m3u8
 三立Live新闻,http://seb.sason.top/sc/sllive_fhd.m3u8
 三立iNews新闻,http://seb.sason.top/sc/slinews_fhd.m3u8
-中天新闻,http://seb.sason.top/sc/ztxw_fhd.m3u8
+中天新闻,http://seb.sason.top/sc/ztxw_fhd.m3u8#https://cn9.9cxz.com/1/qq/hls/index.m3u8
 华視新闻,http://seb.sason.top/sc/hsxw_fhd.m3u8
 华視新聞資訊 HD,http://seb.sason.top/sc/hsxw_fhd.m3u8
 华视CTS,http://50.7.61.147:30080/Entry/cts?type=.m3u8
@@ -28,11 +28,11 @@ NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.
 民視新聞台,http://seb.sason.top/sc/msxw_fhd.m3u8#http://50.7.61.148:30080/Entry/ftvnews?type=.m3u8
 民視綜藝台,http://seb.sason.top/ptv/ftv.php?id=zy&type=.m3u8
 民視影劇台,http://seb.sason.top/ptv/ftv.php?id=yj&type=.m3u8
-東森新闻,http://seb.sason.top/sc/dsxw_fhd.m3u8
+東森新闻,http://seb.sason.top/sc/dsxw_fhd.m3u8#https://cn9.9cxz.com/1/dsxw/hls/index.m3u8
 東森財經新聞台,http://seb.sason.top/sc/dscjxw_fhd.m3u8
 JET综合,http://50.7.61.147:30080/Entry/jet?type=.m3u8
 壹新闻,http://50.7.61.147:30080/Entry/etv?type=.m3u8
-TVBS,http://50.7.61.148:30080/Entry/tvbs?type=.m3u8
+TVBS,http://50.7.61.148:30080/Entry/tvbs?type=.m3u8#https://cn9.9cxz.com/1/tvbs56/index.m3u8
 TVBS新闻,http://50.7.61.148:30080/Entry/tvbsnews?type=.m3u8#http://seb.sason.top/sc/tvbsxw_fhd.m3u8
 華藏衛視,http://118.163.88.61:1935/hwazanlivetv/live.stream/playlist.m3u8 
 卫视中文台,http://50.7.61.148:30080/Entry/starchinese?type=.m3u8
