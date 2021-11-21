@@ -243,11 +243,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/26ys.png"
 },
 {
-"title":"杨桃影视",
-"url":"http://ytys1122.com/mogai_api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ytys1122.png"
-},
-{
 "title":"蜗牛看鸭",
 "url":"http://movie.96keji.cn/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/snailkya.png"
@@ -371,11 +366,6 @@
 "title":"京广航影视",
 "url":"https://www.jingguanhang.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jingguanghang.png"
-},
-{
-"title":"饭团影视",
-"url":"https://fantuan.tv/api.php/app/video?tid=all&class=&area=&lang=&year=&pg=1",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/fantuan.png"
 },
 {
 "title":"大师兄TV",
