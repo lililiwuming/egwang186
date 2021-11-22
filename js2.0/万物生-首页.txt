@@ -178,6 +178,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xiaoysw.png"
 },
 {
+"title":"雪人资源",
+"url":"https://zy.qd234.cn/mogai_api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qd234.png"
+},
+{
 "title":"南府追剧",
 "url":"http://nfapi.xkvideo.club/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nanfuzhuijumao.png"
