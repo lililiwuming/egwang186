@@ -296,7 +296,7 @@ var _token_iv = CryptoJS.enc.Utf8.parse(bt_token);
 var key_token = CryptoJS.enc.Utf8.parse("G8ad2WUbKPaO55mx");
 var 加密链接=resp.code.match(/getVideoInfo.+?"(.+?)"/)[1];
 var realurl=getVideoInfo(加密链接);
-JSON.stringify({url:realurl,head:{'User-Agent':'Mozilla/5.0','Origin':'https://play.ekvod.com','Referer':''}});
+JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Origin":"https://play.ekvod.com","Referer":""}});
 }else if(uu.indexOf("mgtv.com.byteamone.cn")!=-1){
 var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,headers:{"referer":"","user-agent":"Mozilla/5.0"}});
