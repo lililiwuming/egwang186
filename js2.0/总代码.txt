@@ -353,7 +353,22 @@ var script=e2Rex(resp.code,".get(div.stui-player__video.embed-responsive script)
 eval(script);
 if(player_aaaa.from=='lekanzyw'){
     var id=e2Rex(player_aaaa.url,".dn64().dn(utf8)");
-    "web=https://bfq.ikan6.vip/m3u8.php?url="+id+'@{"Referer":"https://ikan6.vip/","User-Agent":"Mozilla/5.0 Android"}';
+    var resp=JZ(JSON.stringify({url:'https://play.ekvod.com/play/?url='+id}));
+    function v_decrypt(data,token_key,token_iv) {
+    return CryptoJS.AES.decrypt(data, token_key, {iv: token_iv}).toString(CryptoJS.enc.Utf8);
+    }
+    function getVideoInfo(url){
+    return v_decrypt(url,_token_key,_token_iv);
+    }
+    var bt_token=resp.code.match(/var le_token.+?"(.+?)"/)[1];
+var _token_key = CryptoJS.enc.Utf8.parse("OJBKYANGOJBKYANG");
+//定义IV偏移
+var _token_iv = CryptoJS.enc.Utf8.parse(bt_token);
+//定义IV偏移
+var key_token = CryptoJS.enc.Utf8.parse("G8ad2WUbKPaO55mx");
+var 加密链接=resp.code.match(/getVideoInfo.+?"(.+?)"/)[1];
+var realurl=getVideoInfo(加密链接);
+JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Origin":"https://play.ekvod.com"}});
 }else{
     "web="+uu;
 }
