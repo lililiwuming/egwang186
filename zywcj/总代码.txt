@@ -281,7 +281,7 @@ var COOKIE="";
 if(uu.indexOf("www.meiju11.com")!=-1){
 'web='+uu+'@{"Referer":"https://www.meiju11.com/"}';
 }else if(uu.indexOf("play.ekvod.com/play")!=-1){
-var resp=getHttp(JSON.stringify({url:uu}));
+var resp=JZ(JSON.stringify({url:uu}));
 function v_decrypt(data,token_key,token_iv) {
     return CryptoJS.AES.decrypt(data, token_key, {iv: token_iv}).toString(CryptoJS.enc.Utf8);
     }
