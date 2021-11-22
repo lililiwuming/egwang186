@@ -295,15 +295,12 @@ if(playurl.indexOf("http://1.117.152.239:39000/jiexi.php?url=")!=-1){
 var resp=JZ(JSON.stringify({url:playurl}));
 resp.code;
 }else if(playurl.indexOf("https://www.baidu.com")!=-1){
-function v_encrypt(data,token_key,token_iv) {
-    return CryptoJS.AES.encrypt(data, token_key, {iv: token_iv, mode: CryptoJS.mode.CBC}).toString();
-}
 //解密
 function v_decrypt(data,token_key,token_iv) {
     return CryptoJS.AES.decrypt(data, token_key, {iv: token_iv}).toString(CryptoJS.enc.Utf8);
 }
 function getVideoInfo(url){
-    return v_encrypt(v_decrypt(url,_token_key,_token_iv),_token_key,key_token);
+    return v_decrypt(url,_token_key,_token_iv);
 }
 var resp=JZ(JSON.stringify({url:playurl}));
 var bt_token=resp.code.match(/var bt_token.+?"(.+?)"/)[1];
