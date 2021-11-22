@@ -140,7 +140,8 @@ if(标题=="xhzy"){
 }else if(标题=="zbkplayer"){
       选集地址="http://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+选集地址;
 }else if(标题=="lekanzyw"){
-      选集地址="https://bfq.ikan6.vip/m3u8.php?url="+选集地址+'@{"Referer":"https://ikan6.vip/","User-Agent":"Mozilla/5.0 Android"}';
+      //选集地址="https://bfq.ikan6.vip/m3u8.php?url="+选集地址+'@{"Referer":"https://ikan6.vip/","User-Agent":"Mozilla/5.0 Android"}';
+      选集地址='https://play.ekvod.com/play/?url='+选集地址;
 }else if(标题.indexOf("miaoparty")!=-1){
   选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
 }else if(标题.indexOf("mx771")!=-1){
