@@ -193,6 +193,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nanfuzhuijumao.png"
 },
 {
+"title":"奈菲迷",
+"url":"https://app.netflixmi.com/api.php/tv.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/naifeimi.png"
+},
+{
 "title":"侦探影视",
 "url":"http://ys.huangguay.com/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhentanys.png"
