@@ -1,4 +1,5 @@
 CCTV4K高清[1920*1080],http://121.18.168.210/livetestcdn.cctv.cn/hls/4KHD/playlist.m3u8#http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
+CCTV-18成人,http://pullhls3948069e.live.126.net/live/ea7f77bf68254477b2a29793cf65f55a/playlist.m3u8
 CCTV1 综合,http://218.204.171.201/gitv_live/G_CCTV-1-HQ/G_CCTV-1-HQ.m3u8?p=GITV&area=GD_CMCC
 CCTV2 财*,http://218.204.171.201/gitv_live/G_CCTV-2-HQ/G_CCTV-2-HQ.m3u8?p=GITV&area=GD_CMCC
 CCTV3 综艺,http://218.204.171.201/gitv_live/G_CCTV-3-HQ/G_CCTV-3-HQ.m3u8?p=GITV&area=GD_CMCC
