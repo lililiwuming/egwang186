@@ -439,7 +439,7 @@ JSON.stringify({url:uuuu});
         var resp=JZ(JSON.stringify({url:uu}));
         JSON.stringify({url:JSON.parse(resp.code).url});
     }else{
-    "web="+playurl+'@{"Referer":"https://user.iopenyun.com:520/user/video"}';
+    "web="+playurl+'@{"Referer":"https://user.iopenyun.com:520/user/video","User-Agent":"Mozilla/5.0 Windows10"}';
     }
 }else if(playurl.indexOf("cat.wkfile.com")!=-1){
 JSON.stringify({url:playurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://qian.wkfile.com/"}});
