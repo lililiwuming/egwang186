@@ -434,7 +434,13 @@ var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.c
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
 JSON.stringify({url:uuuu});
 }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
-"web="+playurl+'@{"Referer":"https://user.iopenyun.com:520/user/video"}';
+    if(playurl.indexOf(".html")!=-1){
+        var new="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url="+playurl.split("=")[1];
+        var resp=JZ(JSON.stringify({url:new}));
+        JSON.stringify({url:resp.code.url});
+    }else{
+    "web="+playurl+'@{"Referer":"https://user.iopenyun.com:520/user/video"}';
+    }
 }else if(playurl.indexOf("cat.wkfile.com")!=-1){
 JSON.stringify({url:playurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://qian.wkfile.com/"}});
 }else if(playurl.indexOf("=")==-1&&playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
@@ -579,10 +585,10 @@ for(var i=0;i<分类.length;i++){
         }else if(标题.indexOf("番茄")!=-1){
             接口="http://www.1080kan.cc/jiexi/fq.php?url=";
         }else{
-            接口="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
+            接口="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url=";
         }
     }else if(接口.indexOf("jhsj.manduhu.com")!=-1){
-       接口="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
+       接口="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url=";
     }
     var LIST=[];
     for(var j=0;j<列表.length;j++){
