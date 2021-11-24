@@ -329,8 +329,8 @@ function decrypt(str, key, iv) {
 }
 var $ds = playurl.split('|');
 var str = decrypt($ds[2], $ds[1], $ds[0]);
-alert(str);
 var urlObj = JSON.parse(str);
+JSON.stringify({url:urlObj.url});
 }else if(playurl.indexOf("https://www.baidu.com")!=-1){
 //解密
 function v_decrypt(data,token_key,token_iv) {
