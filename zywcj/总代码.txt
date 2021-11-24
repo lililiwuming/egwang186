@@ -18,12 +18,15 @@ var 地址规则=".a(id)";var 前="?ac=videolist&pg=#PN#&t=";var 后="";头部�
 }else if(URL.indexOf("/vod/json")!=-1){
 var 列表=e2Arr(源码,".json(list)");
 var 标题规则=".json(list_name).th( ##)";var 地址规则=".json(list_id)";var 前="?ac=videolist&pg=#PN#&t=";var 后="";头部导航();
+}else if(URL.indexOf("?")!=-1){
+var 列表=e2Arr(源码,".json(class)");
+var 标题规则=".json(type_name)";var 地址规则=".json(type_id)";var 前="&ac=videolist&pg=#PN#&t=";var 后="";头部导航();      
 }else{
 var 列表=e2Arr(源码.replace(/<.*?>/g,""),".json(class)");
 var 标题规则=".json(type_name)";var 标题规则1=".json(type_title)";var 地址规则=".json(type_id)";var 前="?ac=videolist&pg=#PN#&t=";var 后="";头部导航();
 }
 ######通用列表
-var baseURL=getVar("url").split("?")[0];
+var baseURL=getVar("url").split(/[?&]ac=videolist/)[0];
 var NEXTPAGE=Number(getVar("PN"))+1;
 function 通用列表(){
 var res={};var items=[];var LIST=[];
@@ -74,6 +77,9 @@ var 标题规则=".xml(name).ty(CDATA).tz2(])";var 地址规则=".c(?ac=videolis
 }else if(baseURL.indexOf("/vod/json")!=-1){
 var 列表=e2Arr(源码,".json(data)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(?ac=videolist&ids=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".c(<font color=\"#0997F7\"><b>).json(vod_play_from).ct(</b></font><br>)";var 图片底部规则=".json(vod_addtime)";var 左上规则=".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\" size=\"40px\">).json(type_name).ct(</font></p>)";var 右上规则=".tx(<p style=\"background-color:#CC00FF\"><font color=\"#FFFFFF\">).json(vod_type).ct(</font></p>)";通用列表();
+}else if(baseURL.indexOf("?")!=-1){
+var 列表=e2Arr(源码.replace(/<.*?>/g,""),".json(list)");
+var 标题规则=".json(vod_name)";var 地址规则=".c(&ac=videolist&ids=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".c(<font color=\"#0997F7\"><b>).json(vod_play_from).ct(</b></font><br>)";var 图片底部规则=".json(vod_time)";var 左上规则=".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\" size=\"40px\">).json(type_name).ct(</font></p>)";var 右上规则=".tx(<p style=\"background-color:#CC00FF\"><font color=\"#FFFFFF\">).json(vod_remarks).ct(</font></p>)";通用列表();
 }else{
 var 列表=e2Arr(源码.replace(/<.*?>/g,""),".json(list)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(?ac=videolist&ids=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".c(<font color=\"#0997F7\"><b>).json(vod_play_from).ct(</b></font><br>)";var 图片底部规则=".json(vod_time)";var 左上规则=".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\" size=\"40px\">).json(type_name).ct(</font></p>)";var 右上规则=".tx(<p style=\"background-color:#CC00FF\"><font color=\"#FFFFFF\">).json(vod_remarks).ct(</font></p>)";通用列表();
@@ -108,6 +114,8 @@ if(标题=="xhzy"){
       选集地址="https://jx.yunboys.cn/?url="+选集地址;
 }else if(URL.indexOf("ttky8.com")!=-1){
       选集地址="https://www.baidu.com/s?wd="+选集地址;
+}else if(标题.indexOf("Tcm3u8")!=-1){
+      选集地址="https://api.iopenyun.com:88/vip/?url="+选集地址+'@{"Referer":"https://user.iopenyun.com:520/user/video"}';
 }else if(URL.indexOf("ujuba.com")!=-1){
       选集地址="https://zy.ujuba.com/play.php?url="+选集地址;
 }else if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1||选集地址.indexOf("share.weiyun.")!=-1){
@@ -264,7 +272,11 @@ items.push(play_);
 res.data=items;
 return JSON.stringify(res);
 }
-var URL=getVar("Url")+"?ac=videolist&wd="+getVar("KEY");
+if(getVar("Url").indexOf("?")!=-1){
+var URL=getVar("Url")+"&ac=videolist&wd="+getVar("KEY");
+}else{
+var URL=getVar("Url")+"?ac=videolist&wd="+getVar("KEY"); 
+}
 var 源码=getHttp(JSON.stringify({url:URL}));
 if(源码.indexOf("<rss")!=-1){
 var 列表=e2Arr(源码,".xml(video)");
