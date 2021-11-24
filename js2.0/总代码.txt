@@ -434,9 +434,10 @@ var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.c
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
 JSON.stringify({url:uuuu});
 }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
-    if(playurl.indexOf(".html")!=-1){
-        var new="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url="+playurl.split("=")[1];
-        var resp=JZ(JSON.stringify({url:new}));
+    if(playurl.indexOf("html")!=-1){
+        var uu="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url="+playurl.split("=")[1];
+        var resp=JZ(JSON.stringify({url:uu}));
+        alert(resp.code);
         JSON.stringify({url:resp.code.url});
     }else{
     "web="+playurl+'@{"Referer":"https://user.iopenyun.com:520/user/video"}';
