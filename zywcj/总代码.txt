@@ -327,7 +327,7 @@ function decrypt(str, key, iv) {
     });
     return decrypted.toString(CryptoJS.enc.Utf8);
 }
-var $ds = url.split('|');
+var $ds = playurl.split('|');
 var str = decrypt($ds[2], $ds[1], $ds[0]);
 alert(str);
 var urlObj = JSON.parse(str);
