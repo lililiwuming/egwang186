@@ -1,27 +1,4 @@
 CCTV4K高清[1920*1080],http://121.18.168.210/livetestcdn.cctv.cn/hls/4KHD/playlist.m3u8#http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
-CCTV-18成人,http://pullhls3948069e.live.126.net/live/ea7f77bf68254477b2a29793cf65f55a/playlist.m3u8
-CCTV1 综合,http://218.204.171.201/gitv_live/G_CCTV-1-HQ/G_CCTV-1-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV2 财*,http://218.204.171.201/gitv_live/G_CCTV-2-HQ/G_CCTV-2-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV3 综艺,http://218.204.171.201/gitv_live/G_CCTV-3-HQ/G_CCTV-3-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV4 中文国际,http://218.204.171.201/gitv_live/G_CCTV-4-HQ/G_CCTV-4-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV5 体育,http://218.204.171.201/gitv_live/G_CCTV-5-HQ/G_CCTV-5-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV5+ 体育赛事,http://218.204.171.201/gitv_live/G_CCTV-5PLUS-HQ/G_CCTV-5PLUS-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV6 电影,http://218.204.171.201/gitv_live/G_CCTV-6-HQ/G_CCTV-6-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV7 国防军事,http://218.204.171.201/gitv_live/G_CCTV-7-HQ/G_CCTV-7-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV8 电视剧,http://218.204.171.201/gitv_live/G_CCTV-8-HQ/G_CCTV-8-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV9 纪录片,http://218.204.171.201/gitv_live/G_CCTV-9-HQ/G_CCTV-9-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV10 科教,http://218.204.171.201/gitv_live/G_CCTV-10-HQ/G_CCTV-10-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV11 戏曲,http://218.204.171.201/gitv_live/G_CCTV-11-HQ/G_CCTV-11-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV12 社会与法,http://218.204.171.201/gitv_live/G_CCTV-12-HQ/G_CCTV-12-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV13 新闻,http://218.204.171.201/gitv_live/G_CCTV-13-HQ/G_CCTV-13-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV14 少儿,http://218.204.171.201/gitv_live/G_CCTV-14-HQ/G_CCTV-14-HQ.m3u8?p=GITV&area=GD_CMCC
-CCTV15 音乐,http://218.204.171.201/gitv_live/G_CCTV-15/G_CCTV-15.m3u8?p=GITV&area=GD_CMCC
-CCTV16 奥林匹克,http://218.204.171.201/gitv_live/G_CCTV-16-CQ/G_CCTV-16-CQ.m3u8?p=GITV&area=GD_CMCC
-CCTV17 农业农村,http://218.204.171.201/gitv_live/G_CCTV-17-HQ/G_CCTV-17-HQ.m3u8?p=GITV&area=GD_CMCC
-中国教育1套,http://218.204.171.201/gitv_live/G_CETV-1-HQ/G_CETV-1-HQ.m3u8?p=GITV&area=GD_CMCC
-中国教育2套,http://218.204.171.201/gitv_live/G_CETV-2/G_CETV-2.m3u8?p=GITV&area=GD_CMCC
-中国教育3套,http://218.204.171.201/gitv_live/G_CETV-3/G_CETV-3.m3u8?p=GITV&area=GD_CMCC
-中国教育4套,http://218.204.171.201/gitv_live/G_CETV-4/G_CETV-4.m3u8?p=GITV&area=GD_CMCC
 CCTV1 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225777/index.m3u8?fmt=ts2hls
 CCTV2 高清[1920*1080],http://39.136.18.77/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225706/index.m3u8?fmt=ts2hls
 CCTV3 高清[1920*1080],http://39.135.138.58:18890/PLTV/88888888/224/3221225634/index.m3u8
