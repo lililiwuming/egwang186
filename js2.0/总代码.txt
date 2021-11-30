@@ -175,6 +175,9 @@ for(var j=0;j<列表.length;j++){
     var CODE=列表[j];
     var 标题=e2Rex(CODE,标题规则);
     var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):URL+e2Rex(CODE,地址规则);
+    if(地址.indexOf("vodplay")!=-1){
+        var 地址=地址.replace(/vodplay/,"voddetail").replace(/-1-1.html/,'.html');
+    }
     var 预图片=e2Rex(CODE,图片规则);
     if(预图片.indexOf("/mac:")!=-1){
     var 图片="http:"+预图片.split("mac:")[1];
@@ -874,6 +877,9 @@ for(var j=0;j<列表.length;j++){
     var CODE=列表[j];
     var 标题=e2Rex(CODE,标题规则);
     var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):URL+e2Rex(CODE,地址规则);
+    if(地址.indexOf("vodplay")!=-1){
+        var 地址=地址.replace(/vodplay/,"voddetail").replace(/-1-1.html/,'.html');
+    }
     var 预图片=e2Rex(CODE,图片规则);
     if(预图片.indexOf("/mac:")!=-1){
     var 图片="http:"+预图片.split("mac:")[1];
