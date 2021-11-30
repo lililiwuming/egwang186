@@ -18,9 +18,9 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ak1080.png"
 },
 {
-"title":"多多电影网",
+"title":"555电影网",
 "url":"https://www.555dy.me/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dd520.png"
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/555dy.png"
 },
 {
 "title":"船长放映室",
