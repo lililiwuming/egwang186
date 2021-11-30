@@ -19,7 +19,7 @@
 },
 {
 "title":"555电影网",
-"url":"https://www.555dy.me/",
+"url":"https://www.555dy1.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/555dy.png"
 },
 {
