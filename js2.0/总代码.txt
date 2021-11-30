@@ -724,7 +724,7 @@ var 列表规则=".get(li)";
 var 标题规则=".get(h3).t()";
 var 选集规则=".get(a.copy_text).t().tz($)";
 var 选集地址规则=".c(https://api.jhdyw.vip/?url=).get(a.copy_text).t().ty($)";选集列表();
-}else if(URL.indexOf("ys.80tvs.cn")!=-1||URL.indexOf("cjt521.com")!=-1||URL.indexOf("348z.com")!=-1||baseURL.indexOf("moyuyingshi.com")!=-1){
+}else if(URL.indexOf("ys.80tvs.cn")!=-1||URL.indexOf("cjt521.com")!=-1||URL.indexOf("348z.com")!=-1||URL.indexOf("moyuyingshi.com")!=-1){
 var 分类=e2Arr(getVar("源码"),".get(div.play_list_box)");
 var 简介=e2Rex(getVar("源码"),".get(div.detail-a.box)");
 var 线路=e2Arr(getVar("源码"),".get(div#tag a)");
