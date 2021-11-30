@@ -258,7 +258,7 @@ var 列表=e2Arr(getVar("源码"),".get(div.lists-content li)");
 var 标题规则=".get(h2 a).t()";var 地址规则=".get(h2 a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";单项列表();
 }else if(URL.indexOf("zxzj.fun")!=-1||URL.indexOf("ekvod.com")!=-1||URL.indexOf("kkju.cc")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");
-var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";单项列表();
+var 标题规则=".get(a).a(title).or().get(a).a(alt)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";单项列表();
 }else if(URL.indexOf("auete.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(ul.threadlist li)");
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(button).st().t().c().get(p).t()";单项列表();
