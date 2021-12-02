@@ -4,6 +4,7 @@
 央视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/央视.txt
 卫视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/卫视.txt
 4K电视台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/4K电视台.txt
+央视卫视稳定,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/央视卫视稳定.txt
 山东,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/山东电视台.txt
 Bestv百事通,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/百事通.txt
 香港台,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/香港台.txt
