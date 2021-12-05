@@ -440,7 +440,7 @@ JSON.stringify({url:uuuu});
     }
 }else if(playurl.indexOf("cat.wkfile.com")!=-1){
 var resp=JZ(JSON.stringify({url:playurl,redirect:false,head:{"User-Agent":"Lavf/58.12.100","Referer":"referer:wkfile.com"}}));
-alert(resp.head);
+alert(JSON.stringify(resp));
 JSON.stringify({url:resp.head.Location+"&type=.m3u8",head:{"User-Agent":"Lavf/58.12.100","Referer":"referer:wkfile.com"}});
 }else if(playurl.indexOf("=")==-1&&playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
 if(playurl.indexOf("hsl.ysgc.xyz")!=-1){
