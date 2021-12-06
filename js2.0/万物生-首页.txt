@@ -358,6 +358,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jiuheshipin.png"
 },
 {
+"title":"我爱电影",
+"url":"http://xg.5imv.net/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/5imv.png"
+},
+{
 "title":"极乐阁",
 "url":"http://vip.wuqcms.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/wuqcms.png"
