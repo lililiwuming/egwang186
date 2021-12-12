@@ -319,7 +319,7 @@
 },
 {
 "title":"抹茶猪",
-"url":"https://www.mczdyw.com/xgapp.php/v1/index_video?token=",
+"url":"https://www.mczdyw.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/mczdyw.png"
 },
 {
