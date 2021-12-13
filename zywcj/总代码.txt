@@ -154,6 +154,8 @@ if(标题=="xhzy"){
   选集地址="https://vip.mengx.vip/home/api?type=ys&uid=2117076&key=abghklvyDEIJLNT025&url="+选集地址;
 }else if(标题.indexOf("taiyi")!=-1){
   选集地址="https://jx.cyu0.cn/?url="+选集地址;
+}else if(标题.indexOf("x1play")!=-1){
+  选集地址="https://play.xing1.club/dm.php?url="+选集地址;
 }else if(标题.indexOf("xfyun")!=-1){
   选集地址="https://www.2692222.com/?url="+选集地址;
 }else if(标题=="renrenmi"){
