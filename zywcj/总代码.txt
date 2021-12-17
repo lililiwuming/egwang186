@@ -160,7 +160,8 @@ if(标题=="xhzy"){
   选集地址="https://www.2692222.com/?url="+选集地址;
 }else if(标题=="renrenmi"){
       //选集地址="http://www.1080kan.cc/jiexi/rrmi.php?url="+选集地址+'@{"Referer":"http://www.1080kan.cc/"}';
-      选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
+      //选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
+      选集地址="https://sudu.renrenmi.cc:2021/ku/?url="+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
       选集地址="https://jx.fqzy.cc/jx.php?url="+选集地址;
 }else if(标题=='dym3'){
