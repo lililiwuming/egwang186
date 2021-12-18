@@ -127,6 +127,8 @@ if(标题=="xhzy"){
       选集地址="https://yparse.jn1.cc/index.php?url="+选集地址;
 }else if(标题.indexOf("rrm3u8")!=-1){
   选集地址="https://www.meiju11.com/ckplayerx/m3u8.php?url="+选集地址;
+}else if(标题.indexOf("ltnb")!=-1){
+  选集地址="https://jx.jxbdzyw.com/m3u8/?url="+选集地址;
 }else if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
       选集地址="https://www.baidu.com/s?wd="+选集地址;
 }else if(URL.indexOf("qbzyz.com")!=-1){
@@ -371,6 +373,9 @@ var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
 JSON.stringify({url:uuuu});
+}else if(playurl.indexOf("api.cultureplus.shop/play/")!=-1){
+var referer="https://jx.jxbdzyw.com/m3u8/?url="+playurl;
+JSON.stringify({url:playurl,head:{"Referer":referer}});
 }else if(playurl.indexOf("mayigq.com/vodzip/player.php?vid=")!=-1){
 var resp1=getHttp(JSON.stringify({url:playurl,head:{'Referer':'https://www.mayigq.com'}}));
 var menudata=e2Rex(resp1,".get(#player_swf).a(lovevod)");
