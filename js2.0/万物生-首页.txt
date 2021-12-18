@@ -283,6 +283,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ruifeng.png"
 },
 {
+"title":"苍蓝4K",
+"url":"https://vip.ruifenglb.com:4433/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ruifeng.png"
+},
+{
 "title":"大师兄影视",
 "url":"https://hou.lu/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
