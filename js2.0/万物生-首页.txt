@@ -204,7 +204,7 @@
 },
 {
 "title":"大熊影视",
-"url":"https://dxys3355.com/mogai_api.php/v1.vod/vodPhbAll",
+"url":"https://dxys2233.com/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/daxiongzhuiju.png"
 },
 {
