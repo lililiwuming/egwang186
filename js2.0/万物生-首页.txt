@@ -263,6 +263,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ruifeng.png"
 },
 {
+"title":"看365",
+"url":"https://www.kan365.xyz/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/kan365.png"
+},
+{
 "title":"007影视",
 "url":"https://www.007ts.cc/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/007ts.png"
