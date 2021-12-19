@@ -224,7 +224,7 @@ var 标题规则=".get(div.video-name a).t()";var 地址规则=".get(div.video-n
 var 列表=e2Arr(getVar("源码"),".get(li.hl-list-item)");
 var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c()";单项列表();
 }else if(URL.indexOf("1090p.tk")!=-1){
-var 列表=e2Arr(getVar("源码"),".get(div.pack-ykpack])");
+var 列表=e2Arr(getVar("源码"),".get(div.pack-ykpack)");
 var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(div.eclazy).a(data-original)";var 简介规则=".get(span).st().t()";单项列表();
 }else if(URL.indexOf("jhyun.jhdyw.vip")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li[class=clearfix])");
@@ -892,7 +892,7 @@ var 标题规则=".get(div.video-name a).t()";var 地址规则=".get(div.video-n
 var 列表=e2Arr(getVar("源码"),".get(li.hl-list-item)");
 var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c()";普通列表();
 }else if(URL.indexOf("1090p.tk")!=-1){
-var 列表=e2Arr(getVar("源码"),".get(div.pack-ykpack])");
+var 列表=e2Arr(getVar("源码"),".get(div.pack-ykpack)");
 var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(div.eclazy).a(data-original)";var 简介规则=".get(span).st().t()";普通列表();
 }else if(URL.indexOf("jhyun.jhdyw.vip")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li[class=clearfix])");
