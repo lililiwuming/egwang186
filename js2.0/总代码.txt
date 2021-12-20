@@ -332,7 +332,7 @@ if(resp.code.indexOf("<iframe")!=-1){
 var script=e2Rex(resp.code,".get(div#bofang_box script).t()");
 eval(script);
 if(player_aaaa.url.indexOf(".m3u8")>10||player_aaaa.url.indexOf(".mp4")>10){
-JSON.stringify({url:id,head:{"Referer":"https://jxplayer.4kcz.com/","user-agent":"Mozilla/5.0"}});
+JSON.stringify({url:player_aaaa.url,head:{"Referer":"https://jxplayer.4kcz.com/","user-agent":"Mozilla/5.0"}});
 }else{
 "web="+uu;
 }
@@ -341,7 +341,7 @@ var script=e2Rex(resp.code,".get(div#bofang_box script).t()");
 eval(script);
 var id=e2Rex(player_aaaa.url,".dn64().dn(utf8)");
 if(id.indexOf(".m3u8")>10||id.indexOf(".mp4")>10){
-JSON.stringify({url:player_aaaa.url,head:{"Referer":uu,"user-agent":"Mozilla/5.0"}});
+JSON.stringify({url:id,head:{"Referer":uu,"user-agent":"Mozilla/5.0"}});
 }else{
 "web="+uu;
 }
