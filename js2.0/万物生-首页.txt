@@ -373,6 +373,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
 },
 {
+"title":"爱西西TV",
+"url":"http://tv.aixixi.vip/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/aixixi.png"
+},
+{
 "title":"冷月影视",
 "url":"https://tv.521x5.com/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/521x5.png"
