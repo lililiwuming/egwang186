@@ -288,6 +288,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xkys.png"
 },
 {
+"title":"独播社",
+"url":"http://35ys.cc/api.php/v1.vod/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/35ys.png"
+},
+{
 "title":"饭团影视",
 "url":"http://television.wkfile.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/fantuan.png"
@@ -366,6 +371,11 @@
 "title":"京广航影视",
 "url":"https://www.jingguanhang.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jingguanghang.png"
+},
+{
+"title":"大鱼TV",
+"url":"https://www.dytv123.com/api.php/app/index_video?token=",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dytv.png"
 },
 {
 "title":"大师兄TV",
