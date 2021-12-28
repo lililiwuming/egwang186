@@ -9,6 +9,10 @@ GoodTV 愛旅行台,https://live-350k.streamingfast.net/hls-live/goodtv/_definst
 GoodTV 共享觀點,https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch19-2.m3u8
 GoodTV 真情部落,https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch3-2.m3u8
 NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
+中天新聞台,http://211.23.114.106:8541/http/60.251.39.91:8081/hls/78/80/ch63max.m3u8
+东森新聞台,http://211.23.114.106:8540/http/60.251.39.91:8081/hls/63/805/ch10.m3u8
+东森財經台,http://211.23.114.106:8546/http/116.50.42.19:8081/hls/63/805/ch11.m3u8
+民视新聞台,http://211.23.114.106:8542/http/60.251.39.91:8081/hls/73/815/ch51.m3u8
 寰宇新聞台,http://seb.sason.top/sc/hyxw.m3u8#http://58.99.33.16:1935/liveedge17/live_163_3.stream/chunklist.m3u8
 三立台湾,http://50.7.61.148:30080/Entry/settw-?type=.m3u8
 三立Live新闻,http://seb.sason.top/sc/sllive_fhd.m3u8
