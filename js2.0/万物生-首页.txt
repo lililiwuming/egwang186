@@ -263,6 +263,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ruifeng.png"
 },
 {
+"title":"独播社",
+"url":"http://35ys.cc/api.php/v1.vod/vodPhbAll",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/35ys.png"
+},
+{
 "title":"苍蓝4K",
 "url":"https://vip.ruifenglb.com:4433/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ruifeng.png"
@@ -286,11 +291,6 @@
 "title":"星空影视",
 "url":"https://xkys.tv/xgapp.php/v1/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xkys.png"
-},
-{
-"title":"独播社",
-"url":"http://35ys.cc/api.php/v1.vod/index_video?token=",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/35ys.png"
 },
 {
 "title":"饭团影视",
