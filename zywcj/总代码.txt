@@ -379,7 +379,7 @@ JSON.stringify({url:playurl,head:{"Referer":referer}});
 }else if(playurl.indexOf("mayigq.com/vodzip/player.php?vid=")!=-1){
 var resp1=getHttp(JSON.stringify({url:playurl,head:{'Referer':'https://www.mayigq.com'}}));
 var menudata=e2Rex(resp1,".get(#player_swf).a(lovevod)");
-var resp2=getHttp(JSON.stringify({url:"https://www.mayigq.com/vodzip/config/token.php",post:{'menudata':menudata},head:{'content-type':'application/x-www-form-urlencoded;charset=UTF-8','Referer':playurl,'x-requested-with':'XMLHttpRequest'}}));
+var resp2=getHttp(JSON.stringify({url:"https://www.mayigq.com/vodzip/config/token.php",post:{'menudata':menudata},head:{'User-Agent':'Mozilla/5.0 Android','content-type':'application/x-www-form-urlencoded;charset=UTF-8','Referer':playurl,'x-requested-with':'XMLHttpRequest'}}));
 alert(resp2);
 var realurl="https://www.mayigq.com/vodzip/"+e2Rex(resp2,".z2(var url.*?\"\\(.*?\\)\").ty(/)");
 alert(realurl);
