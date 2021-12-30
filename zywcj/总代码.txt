@@ -151,7 +151,7 @@ if(标题=="xhzy"){
       //选集地址="https://bfq.ikan6.vip/m3u8.php?url="+选集地址+'@{"Referer":"https://ikan6.vip/","User-Agent":"Mozilla/5.0 Android"}';
       选集地址='https://play.ekvod.com/play/?url='+选集地址;
 }else if(标题.indexOf("miaoparty2")!=-1){
-  选集地址="https://sudu.renrenmi.cc:2021/ku/?url="+选集地址;
+  选集地址="https://vip5.jiexi.one?url="+选集地址;
 }else if(标题.indexOf("miaoparty")!=-1){
   选集地址="https://jx.yingciyuan.cn/?url="+选集地址;
 }else if(标题.indexOf("mx771")!=-1||标题.indexOf("mengxin886")!=-1){
