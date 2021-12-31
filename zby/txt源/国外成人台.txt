@@ -8,6 +8,8 @@
 红松8,http://195.154.231.101:8080/live/pi2021001/456321/367.m3u8
 红松9,http://195.154.231.101:8080/live/pi2021001/456321/368.m3u8
 红松10,http://195.154.231.101:8080/live/pi2021001/456321/369.m3u8
+松视2台,https://flv3948069e.live.126.net/live/sytv_56830b3d6e8464f8479dde69be773622.flv
+松视3台,https://flv3948069e.live.126.net/live/sytv_ca330b8dfe8461e4b3bdde39ce773e83.flv
 Penthouse Gold,https://iptvm3u.do.am/load/0-0-1-44-20?type=.m3u8
 Extasy / LeoTV,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
 Super One HD,http://185.96.176.139:8080/superone/index.m3u8
