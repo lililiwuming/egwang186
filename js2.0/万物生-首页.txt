@@ -169,7 +169,7 @@
 },
 {
 "title":"南府追剧",
-"url":"http://nfapi.xkvideo.club/mogai_api.php/v1.vod/vodPhbAll",
+"url":"http://app.nfuxs.club/nfuxsapp.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nanfuzhuijumao.png"
 },
 {
