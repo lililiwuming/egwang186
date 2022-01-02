@@ -1,4 +1,4 @@
-if(getVar("url").search(/api\.php\/.+?\.vod/)!=-1){
+if(getVar("url").search(/\.php\/.+?\.vod/)!=-1){
 var URL=getVar("url").split("/vodPhbAll")[0];
 }else if(getVar("url").search(/api\.php\/.*?\/vod/)!=-1||getVar("url").indexOf("api.php/app/")!=-1||getVar("url").indexOf("xgapp.php/v1/")!=-1){
 var URL=getVar("url").match(/http.*\//)[0];
@@ -123,7 +123,7 @@ var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/type/id/";var 后=
     }else{
     var 标题=标题2;var 地址=地址2;var 前="video?tid=";var 后="&lang=&year=&pg=#PN#";头部导航();
     }
-}else if(URL.search(/api\.php\/.+?\.vod/)!=-1){
+}else if(URL.search(/\.php\/.+?\.vod/)!=-1){
     if(URL.indexOf("iopenyun.com")!=-1){
       var 标题=标题2;var 地址=地址2;var 前="/list?type=";var 后="&lang=&year=&page=#PN#";
     }else{
@@ -147,7 +147,7 @@ if(URL.indexOf("dxzj88.com")!=-1||URL.indexOf("ytys1122.com")!=-1){
 var 标题=标题3;var 地址=地址3;var 前="?ac=list&class=";var 后="&page=#PN#";头部导航();
 }
 ######单项列表
-if(getVar("url").search(/api\.php\/.+?\.vod/)!=-1){
+if(getVar("url").search(/\.php\/.+?\.vod/)!=-1){
     if(getVar("url").indexOf("iopenyun.com")!=-1){
     var URL=getVar("url").split("/list")[0];
     }else{
@@ -274,7 +274,7 @@ var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(v
 }else if(URL.indexOf("xgapp.php/v1")!=-1){
 var 列表=e2Arr(getVar("源码"),".json(data)");
 var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";单项列表();
-}else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
+}else if(URL.search(/\.php\/.*?\/vod/)!=-1){
 var 列表=e2Arr(getVar("源码"),".json(data)");
 var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";单项列表();
 }
@@ -528,7 +528,7 @@ JSON.stringify({url:playurl});
 "web="+uu;
 }
 ######选集列表
-if(getVar("url").search(/api\.php\/.+?\.vod/)!=-1){
+if(getVar("url").search(/\.php\/.+?\.vod/)!=-1){
 var URL=getVar("url").split("/detail")[0];
 }else if(getVar("url").search(/api\.php\/.*?\/vod/)!=-1||getVar("url").indexOf("api.php/app/")!=-1||getVar("url").indexOf("xgapp.php/v1/")!=-1){
 var URL=getVar("url").match(/http.*\//)[0];
@@ -545,7 +545,7 @@ for(var i=0;i<分类.length;i++){
     }else{
     var 标题=e2Rex(分类CODE,标题规则);
     }
-    if(URL.search(/api\.php\/.+?\.vod/)!=-1){
+    if(URL.search(/\.php\/.+?\.vod/)!=-1){
        var PARSE=e2Rex(分类CODE,".json(player_info).json(parse)").split(",");
        var PARSE2=e2Rex(分类CODE,".json(player_info).json(parse2)").split(",");
        var 总接口=PARSE.concat(PARSE2).filter(item => item.search(/\/.+\?.+=/)!=-1);
@@ -817,7 +817,7 @@ var 列表规则=".json(url).ct(#).z(.*?\\$.*?#)";
 var 标题规则=".json(name)";
 var 选集规则=".z2(\\\(.+?\\\)\\$)";
 var 选集地址规则=".z2(\\$\\\(.+?\\\)[#|\"])";选集列表();
-}else if(URL.search(/api\.php\/.+?\.vod/)!=-1){
+}else if(URL.search(/\.php\/.+?\.vod/)!=-1){
 var 分类=e2Arr(getVar("源码"),".json(data).json(vod_play_list)");
 var 简介=e2Rex(getVar("源码"),".json(data).json(vod_content)");
 var 列表规则=".json(url).ct(#).z(.*?\\$.*?#)";
@@ -833,7 +833,7 @@ var 选集规则=".json(title)";
 var 选集地址规则=".json(url)";选集列表();
 }
 ######首页推荐
-if(getVar("url").search(/api\.php\/.+?\.vod/)!=-1){
+if(getVar("url").search(/\.php\/.+?\.vod/)!=-1){
 var URL=getVar("url").split("/vodPhbAll")[0];
 }else if(getVar("url").search(/api\.php\/.*?\/vod/)!=-1||getVar("url").indexOf("api.php/app/")!=-1||getVar("url").indexOf("xgapp.php/v1/")!=-1){
 var URL=getVar("url").match(/http.*\//)[0];
@@ -926,7 +926,7 @@ var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";
 }else if(URL.indexOf("1090ys2.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-\\d col-xs-3])");
 var 标题规则=".get(.title a).a(title)";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";普通列表();
-}else if(URL.search(/api\.php\/.+?\.vod/)!=-1){
+}else if(URL.search(/\.php\/.+?\.vod/)!=-1){
 var 列表=getVar("源码").replace(/<.*?>/g,"").replace(/[\s]*/g,"").match(/\{[^\{]*"vod_id".*?"type_1".*?\}/g);
 var 标题规则=".json(vod_name)";
 if(URL.indexOf("iopenyun.com")!=-1){
@@ -973,7 +973,7 @@ var setcookie=resp.head['set-cookie'];
 ######搜索列表
 var KEY=getVar("KEY");
 var baseURL=e2Rex(getVar("CODE"),".json(url)");
-if(baseURL.search(/api\.php\/.+?\.vod/)!=-1){
+if(baseURL.search(/\.php\/.+?\.vod/)!=-1){
 var baseURL=baseURL.split("/vodPhbAll")[0];
 }else if(baseURL.search(/api\.php\/.*?\/vod/)!=-1||baseURL.indexOf("api.php/app/")!=-1||baseURL.indexOf("xgapp.php/v1/")!=-1){
 var baseURL=baseURL.match(/http.*\//)[0];
@@ -1289,7 +1289,7 @@ var 标题规则=".get(.title a).t()";
 var 地址规则=".get(.title a).a(href)";
 var 图片规则=".c(https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jhyslogo.png).get(a).a(data-original)";
 var 简介规则=".t()";搜索列表();
-}else if(baseURL.search(/api\.php\/.+?\.vod/)!=-1){
+}else if(baseURL.search(/\.php\/.+?\.vod/)!=-1){
 if(baseURL.indexOf("iopenyun.com")!=-1){
 var URL=baseURL+"/list?page=1&limit=10&wd="+KEY;
 }else{
