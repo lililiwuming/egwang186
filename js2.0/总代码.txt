@@ -424,7 +424,7 @@ eval(script);JSON.stringify({url:now,head:{"User-Agent":UA,"Referer":"https://ww
 }else if(uu.indexOf("baidu.com")!=-1){
 var playurl=uu.split("wd=")[1];
 if(playurl.indexOf("duoduozy.com")!=-1){
-var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
+var uuu="https://player.duoduozy.com/ddplay/play.php?url="+playurl;
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
 JSON.stringify({url:uuuu});
