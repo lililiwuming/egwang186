@@ -370,7 +370,7 @@ var 加密链接=resp.code.match(/getVideoInfo.+?"(.+?)"/)[1];
 var realurl=getVideoInfo(加密链接);
 JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.juhaokan.cc/"}});
 }else if(playurl.indexOf("duoduozy.com")!=-1){
-var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
+var uuu="https://bo.movie06.com/ddplay/play.php?url="+playurl;
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
 JSON.stringify({url:uuuu});
