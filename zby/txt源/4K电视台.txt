@@ -1,5 +1,21 @@
 CCTV4K高清[1920*1080],http://121.18.168.210/livetestcdn.cctv.cn/hls/4KHD/playlist.m3u8#http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 CCTV16-4K,http://121.18.168.210/livetestcdn.cctv.cn/hls/CCTV16HD/playlist.m3u8#https://cctvalih5ca.v.myalicdn.com/live/cctv16_2/index.m3u8
+4K超高清电影,http://yinhe-live.yinhe.vs.rxip.sc96655.com/live/emdy4k_8000.m3u8
+CCTV-4K,http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
+CCTV-4K,http://121.18.168.210/livetestcdn.cctv.cn/hls/4KHD/playlist.m3u8
+CCTV4K FHD,https://newcntv.qcloudcdn.com/asp/hls/8000/0303000a/3/default/124579183c154b209959b6d878891752/8000.m3u8
+4K修复[3840*2160],http://39.134.71.75/ott.js.chinamobile.com/PLTV/3/224/3221228141/index.m3u8
+纯享4K[3840*2160],http://39.134.71.75/ott.js.chinamobile.com/PLTV/3/224/3221228242/index.m3u8
+4K电影[3840*2144],http://39.134.71.75/ott.js.chinamobile.com/PLTV/3/224/3221228113/index.m3u8
+CCTV16UHD50FPS,http://223.110.236.4/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8
+CCTV16UHD50FPS,http://223.110.236.5/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8
+CCTV16UHD50FPS,http://223.110.235.24/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8
+CCTV16UHD50FPS,http://223.110.235.25/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8
+CCTV16UHD50FPS,http://223.110.241.23/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8
+CCTV16UHD50FPS,http://223.110.242.32/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8
+CCTV16UHD50FPS,http://223.110.242.33/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8
+CCTV16UHD50FPS,http://223.110.242.38/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8
+CCTV16UHD50FPS,http://223.110.242.39/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8
 IPTV4K,http://39.134.134.85/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226550/1.m3u8
 咪咕4k,http://117.136.154.98/PLTV/88888888/224/3221225833/index.m3u8
 江苏4k,http://223.110.236.3/ott.js.chinamobile.com/PLTV/3/224/3221228113/index.m3u8
