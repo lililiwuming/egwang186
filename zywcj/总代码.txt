@@ -119,7 +119,7 @@ if(标题=="xhzy"){
 }else if(URL.indexOf("ujuba.com")!=-1){
       选集地址="https://zy.ujuba.com/play.php?url="+选集地址;
 }else if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1||选集地址.indexOf("share.weiyun.")!=-1){
-      选集地址="http://egwang186.gitee.io/?url="+选集地址;
+      选集地址="http://1.117.152.239:39000/?url="+选集地址;
 }else if(选集地址.indexOf(":6688/player")!=-1){
       var hash=选集地址.split("player/")[1];
       选集地址="https://www.baidu.com/s?wd=https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
@@ -404,7 +404,7 @@ JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
 JSON.stringify({url:realurl});
 }
 }else{
-"web=http://egwang186.gitee.io/?url="+playurl.split("url=")[1];
+"web=http://1.117.152.239:39000/?url="+playurl.split("url=")[1];
 }
 }else{
 JSON.stringify({url:playurl});
@@ -422,7 +422,7 @@ var resp2=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
 JSON.stringify({url:playurl});
 }else if(uu.split("url=")[1].indexOf("http")!=-1){
-"web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
+"web=http://1.117.152.239:39000/?url="+uu.split("url=")[1];
 }else{
 var id=uu.split("url=")[1];
 var uuu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
@@ -460,7 +460,7 @@ var resp2=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
 JSON.stringify({url:playurl});
 }else if(uu.split("url=")[1].indexOf("http")!=-1){
-"web=http://egwang186.gitee.io/?url="+uu.split("url=")[1];
+"web=http://1.117.152.239:39000/?url="+uu.split("url=")[1];
 }else{
 var id=uu.split("url=")[1];
 var uuu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
