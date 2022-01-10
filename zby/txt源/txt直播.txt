@@ -1,6 +1,5 @@
 #网络订阅txt源
 移动OPTV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/移动OPTV.txt
-银河TV,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/银河TV.txt
 TVFIX综合直播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/TVFIX综合直播.txt
 央视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/央视.txt
 卫视,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/卫视.txt
