@@ -21,7 +21,7 @@ Sexyhot,http://200.4.96.35:8004/play/a0e7/index.m3u8
 Venus tv,http://200.4.96.35:8004/play/a0ei/index.m3u8
 Redlight TV,http://51.15.0.141:88/redlightHD/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/redlightHD/mpegts.mp4
 HustlerHD,http://51.15.0.141:88/hustlerhd/tracks-v1a1/mono.m3u8#http://51.15.0.141:88/hustlerhd/mpegts.mp4
-A3Bikini TV,https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/seglist_720p.m3u8?fluxustv.m3u8
+A3 Bikini (18+),https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/seglist_720p.m3u8
 FTV Midnight Secrets (UHD),http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
 AST TV 1 HQ,https://www.ast.tv/stream/1/ultra.m3u8
 AST TV 2 HQ,https://www.ast.tv/stream/2/ultra.m3u8
