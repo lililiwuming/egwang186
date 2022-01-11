@@ -1,3 +1,21 @@
+CNR 华夏之声,http://ls.qingting.fm/live/392.m3u8
+CNR 经典音乐广播 101.8,http://ls.qingting.fm/live/389.m3u8
+CNR 经济之声,http://ls.qingting.fm/live/387.m3u8
+CNR 老年之声,http://ls.qingting.fm/live/396.m3u8
+CNR 神州之声,http://ls.qingting.fm/live/391.m3u8
+CNR 文艺之声,http://ls.qingting.fm/live/395.m3u8
+CNR 香港之声,http://ls.qingting.fm/live/4986.m3u8
+CNR 音乐之声,http://ls.qingting.fm/live/388.m3u8
+CNR 娱乐广播,http://ls.qingting.fm/live/398.m3u8
+CNR 中国交通广播,http://ls.qingting.fm/live/4985.m3u8
+CNR 中国乡村之声,http://ls.qingting.fm/live/5039.m3u8
+CNR 中国之声,http://ls.qingting.fm/live/386.m3u8
+CNR 中华之声,http://ls.qingting.fm/live/390.m3u8
+CRI 海峡飞虹,http://ls.qingting.fm/live/1734855.m3u8
+CRI 环球资讯广播 FM90.5,http://ls.qingting.fm/live/24035.m3u8
+CRI 南海之声,http://ls.qingting.fm/live/62624.m3u8
+CRI 轻松调频 FM91.5,http://ls.qingting.fm/live/1006.m3u8
+CRI 中文环球广播,http://ls.qingting.fm/live/4995.m3u8
 CNR经典音乐,http://ngcdn004.cnr.cn/live/dszs/index.m3u8
 怀集音乐台,http://live.xmcdn.com:80/live/966/64.m3u8
 高清音乐台,http://live.xmcdn.com:80/live/1427/64.m3u8
