@@ -158,7 +158,7 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/HGyingshi.png"
 },
 {
-"title":"雪人资源",
+"title":"雪人",
 "url":"https://zy.qd234.cn/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qd234.png"
 },
