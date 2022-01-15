@@ -178,7 +178,7 @@ if(标题=="xhzy"){
 }else if(URL.indexOf('zy.7kjx.com')!=-1){
       选集地址="https://jx.xmflv.vip/?url="+选集地址;
 }else if(标题.indexOf('leduo')!=-1){
-      选集地址="https://api.xxctzy.com/1.php?vid="+选集地址;
+      选集地址="https://api.ldjx.cc/wp-api/ifr.php?vid="+选集地址;
 }else if(标题.indexOf("mengxin")!=-1){
       选集地址="https://jx3.bifenvip.com/?url="+选集地址;
 }else if(标题.indexOf("aly")!=-1){
