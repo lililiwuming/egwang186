@@ -13,11 +13,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/saohuotv.png"
 },
 {
-"title":"闪电影视",
-"url":"https://www.ak1080.me/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ak1080.png"
-},
-{
 "title":"555电影网",
 "url":"https://www.555dy1.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/555dy.png"
