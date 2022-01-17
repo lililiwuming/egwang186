@@ -347,8 +347,8 @@ JSON.stringify({url:id,head:{"Referer":uu}});
 }else{
 "web="+uu;
 }
-}else if(uu.indexOf("xxxxx.com")!=-1){
-var script=e2Rex(resp.code,".get(div.stui-player__video.embed-responsive script).t()");
+}else if(uu.indexOf("ekvod.com")!=-1){
+var script=e2Rex(resp.code,".get(div.player-wrapper script).t()");
 eval(script);
 if(player_aaaa.from=='lekanzyw'){
     var id=e2Rex(player_aaaa.url,".dn64().dn(utf8)");
