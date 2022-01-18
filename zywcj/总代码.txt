@@ -409,7 +409,7 @@ JSON.stringify({url:realurl});
 "web=http://1.117.152.239:39000/?url="+playurl.split("url=")[1];
 }
 }else{
-JSON.stringify({url:playurl});
+JSON.stringify({url:playurl,head:{"User-Agent":"Lavf/58.12.100","Connection":"close"}});
 }
 }else if(uu.indexOf("?u=http")!=-1||uu.indexOf("url=")!=-1||uu.indexOf("v=http")!=-1||uu.indexOf("json.php?id=")!=-1){
 var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA,"Cookie":COOKIE}}));
