@@ -33,6 +33,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ekvod.png"
 },
 {
+"title":"哔嘀影视",
+"url":"https://bidiys.cc/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/bidiys.png"
+},
+{
 "title":"看看影视",
 "url":"https://www.kkju.cc/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/kkju.png"
