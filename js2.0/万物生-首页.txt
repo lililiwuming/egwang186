@@ -213,11 +213,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/meinaikang.png"
 },
 {
-"title":"百讯视频",
-"url":"https://z.iopenyun.com:99/app_api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/iopenyun.png"
-},
-{
 "title":"瑞丰资源",
 "url":"https://tv.yjhan.com:4433/ruifenglb_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ruifeng.png"
