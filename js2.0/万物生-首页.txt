@@ -279,7 +279,7 @@
 },
 {
 "title":"影视工场",
-"url":"https://www.ik4.cc/api.php/app/index_video?token=",
+"url":"https://www.ysgc.cc/xgapp.php/v1/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yingshigongchang.png"
 },
 {
