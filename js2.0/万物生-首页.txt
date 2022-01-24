@@ -213,13 +213,8 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/meinaikang.png"
 },
 {
-"title":"百讯视频",
-"url":"https://z.iopenyun.com:99/app_api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/iopenyun.png"
-},
-{
 "title":"瑞丰资源",
-"url":"https://ts.yjhan.com:4433/ruifenglb_api.php/v1.vod/vodPhbAll",
+"url":"https://tv.yjhan.com:4433/ruifenglb_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ruifeng.png"
 },
 {
@@ -308,8 +303,8 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
 },
 {
-"title":"爱西西TV",
-"url":"http://tv.aixixi.vip/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
+"title":"爱西西",
+"url":"https://myaixixi.com/api.php/app/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/aixixi.png"
 },
 {
