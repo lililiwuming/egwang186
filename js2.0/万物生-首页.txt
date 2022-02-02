@@ -228,16 +228,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/kan365.png"
 },
 {
-"title":"5060影院",
-"url":"https://app.linzhiyuan.xyz/xgapp.php/v1/index_video?token=",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/linzhiyuan.png"
-},
-{
-"title":"LOVETV影院",
-"url":"https://app.lovetv.online/xgapp.php/v1/index_video?token=",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/lovetv.png"
-},
-{
 "title":"星空影视",
 "url":"https://xkys.tv/xgapp.php/v1/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/xkys.png"
@@ -249,7 +239,7 @@
 },
 {
 "title":"天空影视",
-"url":"https://www.tkys.tv/api.php/app/index_video?token=",
+"url":"https://www.tkys.tv/xgapp.php/v2/index_video?token=",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/tkys.png"
 },
 {
