@@ -131,7 +131,11 @@ var 标题=标题1;var 地址=地址1;var 前="/index.php/vod/type/id/";var 后=
     if(URL.indexOf("iopenyun.com")!=-1){
       var 标题=标题2;var 地址=地址2;var 前="/list?type=";var 后="&lang=&year=&page=#PN#";
     }else{
+    if(URL.indexOf("007ts.cc")!=-1){
+    var 标题=标题2;var 地址=["1&class=&area=","2&class=&area=","3&class=&area=","4&class=&area=","1&class=动作&area=","1&class=喜剧&area=","1&class=爱情&area=","1&class=科幻&area=","1&class=恐怖&area=","1&class=剧情&area=","1&class=战争&area=","2&class=&area=大陆","2&class=&area=香港","2&class=&area=台湾","2&class=&area=日本","2&class=&area=韩国","2&class=&area=美国"];var 前="?type=";var 后="&lang=&year=&pg=#PN#";
+    }else{
       var 标题=标题2;var 地址=地址2;var 前="?type=";var 后="&lang=&year=&page=#PN#";
+    }
     }
 if(URL.indexOf("dxzj88.com")!=-1||URL.indexOf("ytys1122.com")!=-1){
 标题.push("纪录片","电视直播");地址.push("31&class=&area=","33&class=&area=");
