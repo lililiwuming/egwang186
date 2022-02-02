@@ -273,11 +273,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/o8tv.png"
 },
 {
-"title":"京广航影视",
-"url":"https://www.jingguanhang.com/api.php/app/index_video?token=",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jingguanghang.png"
-},
-{
 "title":"大师兄TV",
 "url":"http://dsxtv.tv.ci/api.php/dsx/vod/?ac=list&class=&start=&area=&type=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/dashixiong.png"
@@ -291,11 +286,6 @@
 "title":"小极TV",
 "url":"http://api.8d8q.com/mmv/api.php/Chengcheng/vod/?ac=list&class=&start=&area=&type=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/8d8q.png"
-},
-{
-"title":"流星雨影视",
-"url":"http://phoebe.cf/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/liuxingyu.png"
 },
 {
 "title":"聚多影视",
