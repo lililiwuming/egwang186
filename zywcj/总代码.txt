@@ -372,10 +372,11 @@ var 加密链接=resp.code.match(/getVideoInfo.+?"(.+?)"/)[1];
 var realurl=getVideoInfo(加密链接);
 JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://www.juhaokan.cc/"}});
 }else if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("m3u8.cache.suoyo.cc")!=-1){
-var uuu="https://bo.movie06.com/ddplay/play.php?url="+playurl;
+/*var uuu="https://bo.movie06.com/ddplay/play.php?url="+playurl;
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
-JSON.stringify({url:uuuu});
+JSON.stringify({url:uuuu});*/
+"web=https://jhpc.manduhu.com/duoduo/?url="+playurl;
 }else if(playurl.indexOf("api.cultureplus.shop/play/")!=-1){
 var referer="https://jx.jxbdzyw.com/m3u8/?url="+playurl;
 JSON.stringify({url:playurl,head:{"Referer":referer}});
