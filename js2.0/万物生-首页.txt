@@ -203,11 +203,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/1080PTV.png"
 },
 {
-"title":"影视热剧",
-"url":"http://lb.26ys.cn/api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/26ys.png"
-},
-{
 "title":"片多儿影视",
 "url":"http://221.236.18.12:665/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/meinaikang.png"
