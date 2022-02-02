@@ -188,11 +188,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/18mv.png"
 },
 {
-"title":"追鸭影视",
-"url":"https://ys.zhuiya.vip/xgapp.php/v1/index_video?token=",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhuiju8.png"
-},
-{
 "title":"大熊影视",
 "url":"https://dxys2233.com/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/daxiongzhuiju.png"
