@@ -288,6 +288,9 @@ var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规
 }
 ######免嗅探
 var uu=getVar("url");
+if(uu.indexOf("tv.hfys8.vip/")!=-1){
+    uu="https://jx.hfkj.ltd/hfwlo.php?url="+uu.split("?url=")[1];
+}
 if(uu.indexOf("nfmovies.com")!=-1){
 var UA="Mozilla/5.0";
 var COOKIE=getVar("COOKIE");
