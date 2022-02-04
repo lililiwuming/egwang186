@@ -28,11 +28,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/auete.png"
 },
 {
-"title":"易看影视",
-"url":"https://www.ekvod.com/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ekvod.png"
-},
-{
 "title":"哔嘀影视",
 "url":"https://bidiys.cc/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/bidiys.png"
