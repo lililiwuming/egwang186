@@ -47,7 +47,7 @@ items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
 }
 JSON.stringify(items);
 ######历史记录
-e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()');
+eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
 var filename='阿里云历史记录.txt';
 var 记录=[];
 var title=getVar("name");
@@ -60,7 +60,7 @@ var 新记录=记录;
 }
 _.write(JSON.stringify(新记录),filename);
 ######读取历史
-e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()');
+eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
 var filename='阿里云历史记录.txt';
 _.read(filename);
 ######alicookie
