@@ -81,6 +81,7 @@ var 过滤=JSON.parse(getVar("目录重组数据")).filter(item=>item.category==
 JSON.stringify(过滤);
 ######视频地址
 var access_token=JSON.parse(getVar("alicookie")).access_token;
+alert(access_token)
 var share_id=getVar("url").split("?wd=")[1].split("$$")[1];
 alert(share_id)
 var file_id=getVar("url").split("?wd=")[1].split("$$")[2];
