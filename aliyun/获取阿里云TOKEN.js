@@ -13,7 +13,7 @@ if (l!=null) {
   var refresh_token = t.refresh_token;
   setCookie('access_token', access_token, 30);
   setCookie('refresh_token', refresh_token, 30);
-  alert('COOKIE获取成功 注意:如果不包含access_token请刷新几次'+document.cookie);
+  alert('COOKIE获取成功 注意:如果不包含access_token请刷新几次\r\n'+document.cookie);
 }
 
 function setCookie(name, value, day) {
