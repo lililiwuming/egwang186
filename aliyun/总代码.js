@@ -72,7 +72,7 @@ var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
 var Alicookie={};
 Alicookie.access_token=access_token;
 Alicookie.refresh_token=refresh_token;
-JSON.stringify(Alicookie);
+alert(JSON.stringify(Alicookie));
 }else{
 alert("请重新登陆阿里云盘网页");
 }
