@@ -53,8 +53,8 @@ var 记录=[];
 var title=getVar("name");
 var url="https://www.aliyundrive.com/s/"+getVar("分享码");
 记录.push({title:title,url:url});
-if(JSON.parse(_.read(filename)).length>0){
-var 新记录=记录.concat(JSON.parse(_.read(filename)));
+if(_.read(filename)){
+var 新记录=记录.concat(JSON.parse(_.read(filename)||[]));
 }else{
 var 新记录=记录;
 }
