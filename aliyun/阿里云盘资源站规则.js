@@ -5,7 +5,7 @@
     "rule":{
         "分类":"影视,https://pan.3636360.com/api/v3/thread.list?perPage=10&page=#PN#&filter[categoryids][0]=1&filter[essence]=排序$$动漫,https://pan.3636360.com/api/v3/thread.list?perPage=10&page=#PN#&filter[categoryids][0]=7&filter[essence]=排序$$音乐,https://pan.3636360.com/api/v3/thread.list?perPage=10&page=#PN#&filter[categoryids][0]=2&filter[essence]=排序",
         "筛选":"排序+全部=0&filter[attention]=0&filter[sort]=1&scope=0+推荐=0&filter[attention]=0&filter[sort]=1&scope=1+精华=1&filter[attention]=0&filter[sort]=1&scope=0+评论时间=0&filter[attention]=0&filter[sort]=2&scope=0+热门内容=0&filter[attention]=0&filter[sort]=3&scope=0",
-        "列表规则":'var 列表=e2Arr(getVar("源码"),".json(Data).json(pageData)");var 地址规则=".json(threadId)";var 标题规则=".json(title)";var 图片规则=".json(user).json(avatar)";var 简介规则=".json(content).json(text)";',
+        "列表规则":'var 列表=e2Arr(getCode(),".json(Data).json(pageData)");var 地址规则=".json(threadId)";var 标题规则=".json(title)";var 图片规则=".json(user).json(avatar)";var 简介规则=".json(content).json(text)";',
         "详情规则":'var 列表'
     }
 }
