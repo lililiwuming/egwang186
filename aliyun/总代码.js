@@ -31,7 +31,7 @@ if(xxx_id.indexOf("share_id")!=-1){
     var HEAD=JSON.stringify({"Authorization":access_token});
     var data=JSON.stringify({drive_id:xxx_id.split("-")[1],parent_file_id:file_id,limit: 100,image_thumbnail_process:"image/resize,w_160/format,jpeg",image_url_process:"image/resize,w_1920/format,jpeg",video_thumbnail_process:"video/snapshot,t_1000,f_jpg,ar_auto,w_300",order_by:"name",order_direction:"ASC"});
 }
-var 目录数据=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/adrive/v3/file/list",head:JSON.parse(HEAD),postJson:JSON.parse(data)}));
+var 目录数据=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/adrive/v3/file/list",head:JSON.parse(HEAD),postJson:data}));
 var items=JSON.parse(目录数据).items;
 if(xxx_id.indexOf("share_id")!=-1){
     for(var i in items){
