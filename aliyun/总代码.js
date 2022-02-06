@@ -11,7 +11,7 @@ if(getVar("url").split(".com/s/")[1].length>3||getVar("url").split("$$")[0].inde
 if(getVar("url").split(".com/s/")[1].length>3){
     var xxx_id="share_id-"+getVar("url").split(".com/s/")[1];
     var file_id="root";
-}else if(getVar("url").indexOf("$$")!=-1){
+}else if(getVar("url").indexOf("share_id")!=-1){
     var xxx_id=getVar("url").split("$$")[0];
     var file_id=getVar("url").split("$$")[1];
 }else{
@@ -29,7 +29,8 @@ if(xxx_id.indexOf("share_id")!=-1){
 }else if(xxx_id.indexOf("drive_id")!=-1){
     var HEAD=JSON.stringify({"Authorization":access_token});
 }
-var 目录数据=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/adrive/v3/file/list",head:HEAD,postJson:JSON.stringify({xxx_id.split("-")[0]:xxx_id.split("-")[1],parent_file_id:file_id,limit: 100,image_thumbnail_process:"image/resize,w_160/format,jpeg",image_url_process:"image/resize,w_1920/format,jpeg",video_thumbnail_process:"video/snapshot,t_1000,f_jpg,ar_auto,w_300",order_by:"name",order_direction:"ASC"})}));
+var key=xxx_id.split("-")[0];var value=xxx_id.split("-")[1];
+var 目录数据=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/adrive/v3/file/list",head:HEAD,postJson:JSON.stringify({key:value,parent_file_id:file_id,limit: 100,image_thumbnail_process:"image/resize,w_160/format,jpeg",image_url_process:"image/resize,w_1920/format,jpeg",video_thumbnail_process:"video/snapshot,t_1000,f_jpg,ar_auto,w_300",order_by:"name",order_direction:"ASC"})}));
 var items=JSON.parse(目录数据).items;
 if(xxx_id.indexOf("share_id")!=-1){
     for(var i in items){
