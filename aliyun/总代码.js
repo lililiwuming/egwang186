@@ -65,6 +65,7 @@ JSON.stringify(items);
 eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
 var filename='阿里云历史记录.txt';
 var 记录=[];
+if(getVar("name")){
 var title=getVar("name");
 var url="q:root?url="+getVar("url");
 记录.push({title:title,url:url});
@@ -74,6 +75,7 @@ var 新记录=记录.concat(JSON.parse(_.read(filename)||[]));
 var 新记录=记录;
 }
 _.write(JSON.stringify(新记录),filename);
+}
 ######读取历史4
 eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
 var filename='阿里云历史记录.txt';
