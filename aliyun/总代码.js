@@ -1,5 +1,5 @@
 ######share_token1
-if(getVar("url").split(".com/s/")[1].length>3||getVar("url").split("$$")[0].indexOf("share_id")!=-1){
+if(getVar("url").indexOf(".com/s/")!=-1||getVar("url").indexOf("share_id-")!=-1){
     var share_id=getVar("url").split(".com/s/")[1]||getVar("url").split("$$")[0].split("-")[1];
     JSON.parse(getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/share_link/get_share_token",postJson:JSON.stringify({share_pwd:"",share_id:share_id})}))).share_token;
 }else if(getVar("url").indexOf("$$")!=-1){
@@ -8,7 +8,7 @@ if(getVar("url").split(".com/s/")[1].length>3||getVar("url").split("$$")[0].inde
     alert("请输入完整的阿里云盘分享链接,比如https://www.aliyundrive.com/s/wUFXj7116uS");
 }
 ######目录重组数据root2
-if(getVar("url").split(".com/s/")[1].length>3){
+if(getVar("url").indexOf(".com/s/")!=-1){
     var xxx_id="share_id-"+getVar("url").split(".com/s/")[1];
     var file_id="root";
 }else if(getVar("url").indexOf("share_id")!=-1){
