@@ -11,8 +11,10 @@ if (l!=null) {
   let t=JSON.parse(l)
   var access_token = t.access_token;
   var refresh_token = t.refresh_token;
+  var default_drive_id=t.default_drive_id;
   setCookie('access_token', access_token, 30);
   setCookie('refresh_token', refresh_token, 30);
+  setCookie('default_drive_id',default_drive_id,30);
   alert('COOKIE获取成功 注意:如果不包含access_token请刷新几次\r\n'+document.cookie);
 }
 
