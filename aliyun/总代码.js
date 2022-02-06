@@ -40,7 +40,7 @@ if(xxx_id.indexOf("share_id")!=-1){
        items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
        }else if(items[i].type=="folder"){
         items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
-        items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
+        items[i].name="[文件夹]"+items[i].name;
        }else{
        items[i].url="q:video?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
        items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
@@ -53,7 +53,7 @@ if(xxx_id.indexOf("share_id")!=-1){
         items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
         }else if(items[i].type=="folder"){
             items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
-            items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
+            items[i].name="[文件夹]"+items[i].name;
         }else{
         items[i].url="q:video?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
         items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
@@ -128,7 +128,14 @@ alert("请重新登陆阿里云盘网页");
 }
 var xxx_id=getVar("url").split("$$")[0];
 var file_id=getVar("url").split("$$")[1];
-var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_office_preview_url",head:{"Authorization":access_token,"X-Share-Token":getVar("share_token")},postJson:JSON.stringify({xxx_id.split("-")[0]:xxx_id.split("-")[1],file_id:file_id})}));
+if(xxx_id.indexOf("share_id")!=-1){
+    var HEAD=JSON.stringify({"Authorization":access_token,"X-Share-Token":getVar("share_token")});
+    var data=JSON.stringify({share_id:xxx_id.split("-")[1],file_id:file_id});
+}else if(xxx_id.indexOf("drive_id")!=-1){
+    var HEAD=JSON.stringify({"Authorization":access_token});
+    var data=JSON.stringify({drive_id:xxx_id.split("-")[1],file_id:file_id});
+}
+var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_office_preview_url",head:JSON.parse(HEAD),postJson:data}));
 if(JSON.parse(code).code){
 alert("登陆已过期，请重新在m浏览器登陆")
 }
