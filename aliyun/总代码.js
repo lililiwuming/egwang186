@@ -65,7 +65,7 @@ JSON.stringify(items);
 eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
 var filename='阿里云历史记录.txt';
 var 记录=[];
-if(getVar("name")){
+if(getVar("name")!=null){
 var title=getVar("name");
 var url="q:root?url="+getVar("url");
 记录.push({title:title,url:url});
