@@ -24,7 +24,6 @@ function 通用列表(){
        items.push({title:标题,url:地址,img:图片,detail:简介});
     }
     res.data=items;
-    res.nextpage=getVar("前")+NEXTPAGE+getVar("后");
     return JSON.stringify(res);
 }
 eval(getVar("列表规则"));通用列表();
