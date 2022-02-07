@@ -136,12 +136,12 @@ if(getVar("url").indexOf("$$")!=-1){
     var resp=JZ(JSON.stringify({url:JSON.parse(code).download_url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
     if(type=="rmvb"){
         _.download({
-            url: unescape(resp.head.location),
+            url: resp.head.location,
             header: { referer: 'https://www.aliyundrive.com/' },
             setpath: '/storage/emulated/0/Android/data/cn.nr19.mbrowser/files/download',
           });
     }else{
-    JSON.stringify({url:unescape(resp.head.location),head:{"Referer":"https://www.aliyundrive.com/"}});
+    JSON.stringify({url:resp.head.location,head:{"Referer":"https://www.aliyundrive.com/"}});
     }
 }else{
     var u=getVar("url").split("?wd=")[1];
