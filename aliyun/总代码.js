@@ -112,7 +112,7 @@ JSON.stringify(Alicookie);
 alert("请重新登陆阿里云盘网页");
 }
 ######过滤非视频6
-var 过滤=JSON.parse(getVar("目录重组数据")).filter(item=>item.category=="video");
+var 过滤=JSON.parse(getVar("目录重组数据")).filter(item=>item.category=="video"||item.category=="audio");
 for(var i in 过滤){
 if(过滤[i].download_url){
     过滤[i].url="https://www.baidu.com/s?wd="+过滤[i].download_url;
