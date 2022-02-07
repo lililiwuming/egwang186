@@ -8,12 +8,14 @@ if(getVar("url").indexOf(".com/s/")!=-1||getVar("url").indexOf("share_id-")!=-1)
     alert("请输入完整的阿里云盘分享链接,比如https://www.aliyundrive.com/s/wUFXj7116uS");
 }
 ######目录重组数据root2
+if(getVar("url")){
 if(getVar("url").indexOf(".com/s/")!=-1){
     var xxx_id="share_id-"+getVar("url").split(".com/s/")[1];
     var file_id="root";
-}else if(getVar("url").indexOf("share_id")!=-1){
+}else if(getVar("url").indexOf("$$")!=-1){
     var xxx_id=getVar("url").split("$$")[0];
     var file_id=getVar("url").split("$$")[1];
+}
 }else{
     var cm=android.webkit.CookieManager.getInstance();
     var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
