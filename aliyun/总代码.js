@@ -158,3 +158,9 @@ alert("登陆已过期，请重新在m浏览器登陆")
 var url=JSON.parse(code).preview_url+"??"+JSON.parse(code).access_token;
 var name=getVar("name");
 JSON.stringify([{name:name,url:url}]);
+######搜索链接9
+[
+    {"title":"阿里盘搜","url":"https://www.alipansou.com/search?k="},
+    {"title":"UP云搜","url":"https://www.upyunso.com/search.html?page=1&keyword="},
+    {"title":"云盘资源站","url":"https://www.yunpanziyuan.com/fontsearch.htm?fontname="}
+]
