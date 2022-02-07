@@ -1,5 +1,6 @@
 ######share_token1
 if(getVar("url")){
+  alert(getVar("url"))
 if(getVar("url").indexOf(".com/s/")!=-1||getVar("url").indexOf("share_id-")!=-1){
     var share_id=getVar("url").split(".com/s/")[1]||getVar("url").split("$$")[0].split("-")[1];
     JSON.parse(getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/share_link/get_share_token",postJson:JSON.stringify({share_pwd:"",share_id:share_id})}))).share_token;
