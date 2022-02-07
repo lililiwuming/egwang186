@@ -110,7 +110,7 @@ alert("请重新登陆阿里云盘网页");
 ######过滤非视频6
 var 过滤=JSON.parse(getVar("目录重组数据")).filter(item=>item.category=="video");
 for(var i in 过滤){
-if(过滤.download_url){
+if(过滤[i].download_url){
     过滤[i].url="https://www.baidu.com/s?wd="+过滤[i].download_url;
 }else{
     过滤[i].url="https://www.baidu.com/s?wd="+过滤[i].thumbnail+"$$"+过滤[i].share_id+"$$"+过滤[i].file_id;
@@ -118,7 +118,7 @@ if(过滤.download_url){
 }
 JSON.stringify(过滤);
 ######视频地址7
-if(getVar("url").indexOf("$$")!=-1){
+if(getVar("url").indexOf("share$$")!=-1){
     var access_token=JSON.parse(getVar("alicookie")).access_token;
     var share_id=getVar("url").split("?wd=")[1].split("$$")[1];
     var file_id=getVar("url").split("?wd=")[1].split("$$")[2];
