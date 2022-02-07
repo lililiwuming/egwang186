@@ -121,7 +121,7 @@ for(var i in 过滤){
 if(过滤[i].download_url){
     过滤[i].url="https://www.baidu.com/s?wd="+过滤[i].download_url;
 }else{
-    过滤[i].url="https://www.baidu.com/s?wd="+过滤[i].thumbnail+"$$"+过滤[i].share_id+"$$"+过滤[i].file_id;
+    过滤[i].url="https://www.baidu.com/s?wd="+过滤[i].thumbnail+"$$"+过滤[i].share_id+"$$"+过滤[i].file_id+"$$"+过滤[i].file_extension+"$$"+过滤[i].category;
 }
 }
 JSON.stringify(过滤);
@@ -131,15 +131,20 @@ if(getVar("url").indexOf("$$")!=-1){
     var access_token=JSON.parse(getVar("alicookie")).access_token;
     var share_id=getVar("url").split("?wd=")[1].split("$$")[1];
     var file_id=getVar("url").split("?wd=")[1].split("$$")[2];
-    var type=getVar("url").split("?wd=")[1].split("$$")[3];
+    var 后缀=getVar("url").split("?wd=")[1].split("$$")[3];
+    var 类型=getVar("url").split("?wd=")[1].split("$$")[4];
     var u=getVar("url").split("?wd=")[1].split("$$")[0];
+    if(类型=="audio"){
+    var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_share_link_download_url",head:{"Authorization":access_token,"X-Share-Token":getVar("share_token")},postJson:JSON.stringify({share_id:share_id,get_audio_play_info:true,file_id:file_id})}));
+    }else{
     var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_share_link_download_url",head:{"Authorization":access_token,"X-Share-Token":getVar("share_token")},postJson:JSON.stringify({share_id:share_id,file_id:file_id,expire_sec:600})}));
+    }
     if(JSON.parse(code).code){
         alert("登陆已过期，请重新在m浏览器登陆");
     }
     if(JSON.parse(code).audio_template_list){
         var resp=JZ(JSON.stringify({url:JSON.parse(code).audio_template_list[JSON.parse(code).audio_template_list.length-1].url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
-        JSON.stringify({url:resp.head.location.replace(/%2F/g,"/"),head:{"Referer":"https://www.aliyundrive.com/"}});
+        JSON.stringify({url:resp.head.location,head:{"Referer":"https://www.aliyundrive.com/"}});
     }else{
     var resp=JZ(JSON.stringify({url:JSON.parse(code).url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
     if(type=="rmvb"){
