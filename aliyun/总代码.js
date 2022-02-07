@@ -12,7 +12,7 @@ if(getVar("url").indexOf(".com/s/")!=-1||getVar("url").indexOf("share_id-")!=-1)
   "";
 }
 ######目录重组数据root2
-if(getVar("url")){
+if(getVar("url")!="null"){
 if(getVar("url").indexOf(".com/s/")!=-1){
     var xxx_id="share_id-"+getVar("url").split(".com/s/")[1];
     var file_id="root";
