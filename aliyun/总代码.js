@@ -147,7 +147,7 @@ if(getVar("url").indexOf("$$")!=-1){
         JSON.stringify({url:resp.head.location,head:{"Referer":"https://www.aliyundrive.com/"}});
     }else{
     var resp=JZ(JSON.stringify({url:JSON.parse(code).url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
-    if(type=="rmvb"){
+    if(后缀=="rmvb"){
         _.download({
             url: resp.head.location,
             header: { referer: 'https://www.aliyundrive.com/' },
