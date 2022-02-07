@@ -139,7 +139,7 @@ if(getVar("url").indexOf("$$")!=-1){
     }
     if(JSON.parse(code).audio_template_list){
         var resp=JZ(JSON.stringify({url:JSON.parse(code).audio_template_list[JSON.parse(code).audio_template_list.length-1].url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
-        JSON.stringify({url:unescape(resp.head.location),head:{"Referer":"https://www.aliyundrive.com/"}});
+        JSON.stringify({url:resp.head.location.replace(/%2F/g,"/"),head:{"Referer":"https://www.aliyundrive.com/"}});
     }else{
     var resp=JZ(JSON.stringify({url:JSON.parse(code).url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
     if(type=="rmvb"){
