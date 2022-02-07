@@ -1,7 +1,7 @@
 ######share_token1
 if(getVar("url")!="null"){
-if(getVar("url").indexOf(".com/s/")!=-1||getVar("url").indexOf("share_id-")!=-1){
-    var share_id=getVar("url").split(".com/s/")[1]||getVar("url").split("$$")[0].split("-")[1];
+if(getVar("url").indexOf("aliyundrive.com/s/")!=-1||getVar("url").indexOf("share_id-")!=-1){
+    var share_id=getVar("url").match(/\.com\/s\/([0-9a-zA-Z]+)/)[1]||getVar("url").split("$$")[0].split("-")[1];
     JSON.parse(getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/share_link/get_share_token",postJson:JSON.stringify({share_pwd:"",share_id:share_id})}))).share_token;
 }else if(getVar("url").indexOf("$$")!=-1){
     "";
@@ -13,8 +13,8 @@ if(getVar("url").indexOf(".com/s/")!=-1||getVar("url").indexOf("share_id-")!=-1)
 }
 ######目录重组数据root2
 if(getVar("url")!="null"){
-if(getVar("url").indexOf(".com/s/")!=-1){
-    var xxx_id="share_id-"+getVar("url").split(".com/s/")[1];
+if(getVar("url").indexOf("aliyundrive.com/s/")!=-1){
+    var xxx_id="share_id-"+getVar("url").match(/\.com\/s\/([0-9a-zA-Z]+)/)[1];
     var file_id="root";
 }else if(getVar("url").indexOf("$$")!=-1){
     var xxx_id=getVar("url").split("$$")[0];
@@ -122,6 +122,7 @@ if(过滤[i].download_url){
 }
 JSON.stringify(过滤);
 ######视频地址7
+eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
 if(getVar("url").indexOf("$$")!=-1){
     var access_token=JSON.parse(getVar("alicookie")).access_token;
     var share_id=getVar("url").split("?wd=")[1].split("$$")[1];
@@ -133,7 +134,15 @@ if(getVar("url").indexOf("$$")!=-1){
         alert("登陆已过期，请重新在m浏览器登陆");
     }
     var resp=JZ(JSON.stringify({url:JSON.parse(code).download_url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
+    if(type=="rmvb"){
+        _.download({
+            url: resp.head.location,
+            header: { referer: 'https://www.aliyundrive.com/' },
+            setpath: '/storage/emulated/0/Android/data/cn.nr19.mbrowser/files/download',
+          });
+    }else{
     JSON.stringify({url:resp.head.location,head:{"Referer":"https://www.aliyundrive.com/"}});
+    }
 }else{
     var u=getVar("url").split("?wd=")[1];
     JSON.stringify({url:u,head:{"Referer":"https://www.aliyundrive.com/"}});
