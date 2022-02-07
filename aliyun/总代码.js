@@ -47,34 +47,38 @@ if(xxx_id.indexOf("share_id")!=-1){
 }
 var 目录数据=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/adrive/v3/file/list",head:JSON.parse(HEAD),postJson:data}));
 var items=JSON.parse(目录数据).items;
-if(xxx_id.indexOf("share_id")!=-1){
-    for(var i in items){
-       if(items[i].category=="video"||items[i].category=="doc"){
-       items[i].url="q:"+items[i].category+"?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
-       items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
-       }else if(items[i].type=="folder"){
-        items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
-        items[i].name="[文件夹]"+items[i].name;
-       }else{
-       items[i].url="q:video?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
-       items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
-    }
-    }
-}else if(xxx_id.indexOf("drive_id")!=-1){
-    for(var i in items){
-        if(items[i].category=="video"||items[i].category=="doc"){
-        items[i].url="q:"+items[i].category+"?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
-        items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
-        }else if(items[i].type=="folder"){
-            items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
+if(JSON.parse(目录数据).items){
+    if(xxx_id.indexOf("share_id")!=-1){
+        for(var i in items){
+           if(items[i].category=="video"||items[i].category=="doc"){
+           items[i].url="q:"+items[i].category+"?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
+           items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
+           }else if(items[i].type=="folder"){
+            items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
             items[i].name="[文件夹]"+items[i].name;
-        }else{
-        items[i].url="q:video?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
-        items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
+           }else{
+           items[i].url="q:video?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
+           items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
+        }
+        }
+    }else if(xxx_id.indexOf("drive_id")!=-1){
+        for(var i in items){
+            if(items[i].category=="video"||items[i].category=="doc"){
+            items[i].url="q:"+items[i].category+"?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
+            items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
+            }else if(items[i].type=="folder"){
+                items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
+                items[i].name="[文件夹]"+items[i].name;
+            }else{
+            items[i].url="q:video?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
+            items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
+            }
         }
     }
+    JSON.stringify(items);
+}else if(JSON.parse(目录数据).code=="ShareLinkTokenInvalid"){
+    alert("来晚了，该分享已失效");
 }
-JSON.stringify(items);
 ######历史记录3
 eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
 var filename='阿里云历史记录.txt';
