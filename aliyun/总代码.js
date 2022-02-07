@@ -1,4 +1,5 @@
 ######share_token1
+if(getVar("url")){
 if(getVar("url").indexOf(".com/s/")!=-1||getVar("url").indexOf("share_id-")!=-1){
     var share_id=getVar("url").split(".com/s/")[1]||getVar("url").split("$$")[0].split("-")[1];
     JSON.parse(getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/share_link/get_share_token",postJson:JSON.stringify({share_pwd:"",share_id:share_id})}))).share_token;
@@ -6,6 +7,9 @@ if(getVar("url").indexOf(".com/s/")!=-1||getVar("url").indexOf("share_id-")!=-1)
     "";
 }else{
     alert("请输入完整的阿里云盘分享链接,比如https://www.aliyundrive.com/s/wUFXj7116uS");
+}
+}else{
+  "";
 }
 ######目录重组数据root2
 if(getVar("url")){
