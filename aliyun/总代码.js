@@ -118,7 +118,7 @@ if(过滤[i].download_url){
 }
 JSON.stringify(过滤);
 ######视频地址7
-if(getVar("url").indexOf("share$$")!=-1){
+if(getVar("url").indexOf("$$")!=-1){
     var access_token=JSON.parse(getVar("alicookie")).access_token;
     var share_id=getVar("url").split("?wd=")[1].split("$$")[1];
     var file_id=getVar("url").split("?wd=")[1].split("$$")[2];
