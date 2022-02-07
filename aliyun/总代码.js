@@ -26,6 +26,7 @@ if(getVar("url").indexOf(".com/s/")!=-1){
     if(ALICOOKIE.indexOf("access_token")!=-1){
     var access_token=ALICOOKIE.match(/access_token=(.*?)[\s;]/)[1];
     var xxx_id="drive_id-"+ALICOOKIE.match(/drive_id=(.*?)[\s;]/)[1];
+    alert(xxx_id)
     }else{
     alert("请登陆阿里云盘网页获取COOKIE");
     } 
