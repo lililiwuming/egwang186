@@ -19,6 +19,13 @@ if(getVar("url").indexOf(".com/s/")!=-1){
 }else if(getVar("url").indexOf("$$")!=-1){
     var xxx_id=getVar("url").split("$$")[0];
     var file_id=getVar("url").split("$$")[1];
+    var cm = android.webkit.CookieManager.getInstance();
+    var ALICOOKIE = cm.getCookie("www.aliyundrive.com");
+    if(ALICOOKIE.indexOf("access_token") != -1){
+      var access_token = ALICOOKIE.match(/access_token=(.*?)[\s;]/)[1];
+    }else{
+         alert("请登陆阿里云盘网页获取COOKIE");
+    }
 }
 }else{
     var cm=android.webkit.CookieManager.getInstance();
