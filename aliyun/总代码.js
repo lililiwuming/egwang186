@@ -23,24 +23,30 @@ if(getVar("url").indexOf("aliyundrive.com/s/")!=-1){
 }else if(getVar("url").indexOf("$$")!=-1){
     var xxx_id=getVar("url").split("$$")[0];
     var file_id=getVar("url").split("$$")[1];
-    var cm = android.webkit.CookieManager.getInstance();
-    var ALICOOKIE = cm.getCookie("www.aliyundrive.com");
-    if(ALICOOKIE.indexOf("access_token") != -1){
-      var access_token = ALICOOKIE.match(/access_token=(.*?)[\s;]/)[1];
-    }else{
-         alert("请登陆阿里云盘网页获取COOKIE");
-    }
+    var cm=android.webkit.CookieManager.getInstance();
+var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
+if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
+var access_token=ALICOOKIE.match(/access_token=(.*?)[\s;]/)[1];
+var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
+var code=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
+var access_token=JSON.parse(code).access_token;
+}else{
+alert("请重新登陆阿里云盘网页");
+}
 }
 }else{
-    var cm=android.webkit.CookieManager.getInstance();
-    var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
-    if(ALICOOKIE.indexOf("access_token")!=-1){
-    var access_token=ALICOOKIE.match(/access_token=(.*?)[\s;]/)[1];
-    var xxx_id="drive_id-"+ALICOOKIE.match(/drive_id=(.*?)[\s;]/)[1];
-    var file_id="root";
-    }else{
-    alert("请登陆阿里云盘网页获取COOKIE");
-    } 
+var cm=android.webkit.CookieManager.getInstance();
+var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
+if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
+var access_token=ALICOOKIE.match(/access_token=(.*?)[\s;]/)[1];
+var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
+var code=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
+var access_token=JSON.parse(code).access_token;
+var xxx_id="drive_id-"+ALICOOKIE.match(/drive_id=(.*?)[\s;]/)[1];
+var file_id="root";
+}else{
+alert("请重新登陆阿里云盘网页");
+}
 }
 if(xxx_id.indexOf("share_id")!=-1){
     var HEAD=JSON.stringify({"X-Share-Token":getVar("share_token")});
@@ -105,8 +111,8 @@ _.read(filename);
 ######alicookie5
 var cm=android.webkit.CookieManager.getInstance();
 var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
-if(ALICOOKIE.indexOf("access_token")!=-1){
-//var access_token=ALICOOKIE.match(/access_token=(.*?)[\s;]/)[1];
+if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
+var access_token=ALICOOKIE.match(/access_token=(.*?)[\s;]/)[1];
 var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
 var code=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
 var access_token=JSON.parse(code).access_token;
