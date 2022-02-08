@@ -106,8 +106,10 @@ _.read(filename);
 var cm=android.webkit.CookieManager.getInstance();
 var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
 if(ALICOOKIE.indexOf("access_token")!=-1){
-var access_token=ALICOOKIE.match(/access_token=(.*?)[\s;]/)[1];
+//var access_token=ALICOOKIE.match(/access_token=(.*?)[\s;]/)[1];
 var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
+var code=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
+var access_token=JSON.parse(code).access_token;
 var Alicookie={};
 Alicookie.access_token=access_token;
 Alicookie.refresh_token=refresh_token;
