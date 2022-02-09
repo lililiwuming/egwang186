@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name 获取阿里云盘token
-// @version 1
+// @version 2
 // @run-at end
 // @match https://www.aliyundrive.com
 
@@ -11,13 +11,7 @@ if (l!=null) {
 let t=JSON.parse(l);
 var expires = 30 * 24 * 60 * 60 * 1000;
 var date = new Date(+ new Date() + expires);
-var y=date.getFullYear();
-var m=date.getMonth() +1;m=m<10?('0'+ m):m;
-var d=date.getDate();d=d<10?('0'+d):d;
-var h =date.getHours();h=h<10?('0'+ h):h;
-var minute =date.getMinutes();minute=minute<10?('0'+minute):minute;
-var second=date.getSeconds();second=second<10?('0'+second):second;
-var dateformat=y+'-'+m+'-'+d+'T'+h+':'+minute+':'+second+'Z';
+var dateformat=date.toISOString();
 var access_token = t.access_token;
 var refresh_token = t.refresh_token;
 var default_drive_id=t.default_drive_id;
