@@ -73,26 +73,26 @@ if(JSON.parse(目录数据).items){
         for(var i in items){
            if(items[i].category=="video"||items[i].category=="doc"){
            items[i].url="q:"+items[i].category+"?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
-           items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
+           items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
            }else if(items[i].type=="folder"){
             items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
             items[i].name="[文件夹]"+items[i].name;
            }else{
            items[i].url="q:video?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
-           items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
+           items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
         }
         }
     }else if(xxx_id.indexOf("drive_id")!=-1){
         for(var i in items){
             if(items[i].category=="video"||items[i].category=="doc"){
             items[i].url="q:"+items[i].category+"?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
-            items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
+            items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
             }else if(items[i].type=="folder"){
                 items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
                 items[i].name="[文件夹]"+items[i].name;
             }else{
             items[i].url="q:video?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
-            items[i].name="["+items[i].file_extension+"资源文件]"+items[i].name;
+            items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
             }
         }
     }
