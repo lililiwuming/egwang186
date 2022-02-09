@@ -6,7 +6,11 @@ if(getVar("url").indexOf("aliyundrive.com/s/")!=-1||getVar("url").indexOf("share
     }else if(getVar("url").indexOf("share_id-")!=-1){
     var share_id=getVar("url").split("$$")[0].split("-")[1];
     }
-    var pwd=getVar("pwd")||"";
+    if(getVar("pwd")!="null"){
+        var pwd=getVar("pwd");
+    }else{
+        var pwd="";
+    }
     JSON.parse(getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/share_link/get_share_token",postJson:JSON.stringify({share_pwd:pwd,share_id:share_id})}))).share_token;
 }else if(getVar("url").indexOf("$$")!=-1){
     "";
