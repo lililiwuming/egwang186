@@ -9,7 +9,11 @@ if(getVar("url").indexOf("aliyundrive.com/s/")!=-1||getVar("url").indexOf("share
     if(getVar("pwd")!="null"){
         var pwd=getVar("pwd");
     }else{
+        if(getVar("url").split("$$")[2]){
+            var pwd=getVar("url").split("$$")[2];
+        }else{
         var pwd="";
+        }
     }
     JSON.parse(getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/share_link/get_share_token",postJson:JSON.stringify({share_pwd:pwd,share_id:share_id})}))).share_token;
 }else if(getVar("url").indexOf("$$")!=-1){
@@ -28,21 +32,18 @@ if(getVar("url").indexOf("aliyundrive.com/s/")!=-1){
 }else if(getVar("url").indexOf("$$")!=-1){
     var xxx_id=getVar("url").split("$$")[0];
     var file_id=getVar("url").split("$$")[1];
-    var cm=android.webkit.CookieManager.getInstance();
-var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
-if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
-var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
-var code=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
-if(JSON.parse(code).access_token){
-var access_token=JSON.parse(code).access_token;
+}
+if(getVar("pwd")!="null"){
+    var pwd=getVar("pwd");
 }else{
-    alert("登陆已过期，请重新在m浏览器登陆");
+    if(getVar("url").split("$$")[2]){
+        var pwd=getVar("url").split("$$")[2];
+    }else{
+    var pwd="";
+    }
 }
 }else{
-alert("请重新登陆阿里云盘网页");
-}
-}
-}else{
+    //我的云盘
 var cm=android.webkit.CookieManager.getInstance();
 var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
 if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
@@ -63,6 +64,19 @@ if(xxx_id.indexOf("share_id")!=-1){
     var HEAD=JSON.stringify({"X-Share-Token":getVar("share_token")});
     var data=JSON.stringify({share_id:xxx_id.split("-")[1],parent_file_id:file_id,limit: 100,image_thumbnail_process:"image/resize,w_160/format,jpeg",image_url_process:"image/resize,w_1920/format,jpeg",video_thumbnail_process:"video/snapshot,t_1000,f_jpg,ar_auto,w_300",order_by:"name",order_direction:"ASC"});
 }else if(xxx_id.indexOf("drive_id")!=-1){
+    var cm=android.webkit.CookieManager.getInstance();
+var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
+if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
+var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
+var code=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
+if(JSON.parse(code).access_token){
+var access_token=JSON.parse(code).access_token;
+}else{
+    alert("登陆已过期，请重新在m浏览器登陆");
+}
+}else{
+alert("请重新登陆阿里云盘网页");
+}
     var HEAD=JSON.stringify({"Authorization":access_token});
     var data=JSON.stringify({drive_id:xxx_id.split("-")[1],parent_file_id:file_id,limit: 100,image_thumbnail_process:"image/resize,w_160/format,jpeg",image_url_process:"image/resize,w_1920/format,jpeg",video_thumbnail_process:"video/snapshot,t_1000,f_jpg,ar_auto,w_300",order_by:"name",order_direction:"ASC"});
 }
@@ -72,13 +86,13 @@ if(JSON.parse(目录数据).items){
     if(xxx_id.indexOf("share_id")!=-1){
         for(var i in items){
            if(items[i].category=="video"||items[i].category=="doc"){
-           items[i].url="q:"+items[i].category+"?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
+           items[i].url="q:"+items[i].category+"?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd;
            items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
            }else if(items[i].type=="folder"){
-            items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
+            items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd;
             items[i].name="[文件夹]"+items[i].name;
            }else{
-           items[i].url="q:video?url=share_id-"+items[i].share_id+"$$"+items[i].file_id;
+           items[i].url="q:video?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd;
            items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
         }
         }
