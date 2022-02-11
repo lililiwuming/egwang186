@@ -141,7 +141,7 @@ for(var i in 过滤){
 if(过滤[i].download_url){
     过滤[i].url="https://www.baidu.com/s?wd="+过滤[i].download_url;
 }else{
-    过滤[i].url="https://www.baidu.com/s?wd="+过滤[i].thumbnail+"$$"+过滤[i].share_id+"$$"+过滤[i].file_id+"$$"+过滤[i].file_extension+"$$"+过滤[i].category;
+    过滤[i].url="https://www.baidu.com/s?wd="+过滤[i].thumbnail+"$$"+过滤[i].share_id+"$$"+过滤[i].file_id+"$$"+过滤[i].file_extension+"$$"+过滤[i].category+"$$"+getVar("url").split("$$")[2];
 }
 }
 JSON.stringify(过滤);
@@ -151,25 +151,51 @@ if(getVar("url").indexOf("$$")!=-1){
     var cm=android.webkit.CookieManager.getInstance();
     var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
     if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
+        //
+        var pwd=getVar("url").split("?wd=")[1].split("$$")[5];
+        var share_id=getVar("url").split("?wd=")[1].split("$$")[1];
         var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
-        var Acode=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
+        var d = [];
+        var A=JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})});
+        var S=JSON.stringify({url:"https://api.aliyundrive.com/v2/share_link/get_share_token",postJson:JSON.stringify({share_pwd:pwd,share_id:share_id})});
+        var urls = []; //网址列表
+        urls[0]=A;urls[1]=S;
+        for (let index = 0; index < urls.length; index++) {
+          function fn(i) {
+            return function () {
+                 //这里改成你想要进行的操作
+               var code = getHttp(urls[i]);
+               return code //这里改成你自己想要的返回 没有返回删掉这行就行
+            };
+          }
+          d.push(fn(index));
+        }
+        var result = []; //result为每个线程运行后返回的结果集
+        var s = _.submit(d, 2); //n 改为你想开启的线程数
+        for (let i = 0; i < s.length; i++) {
+          for (let z of s[i].get()) {
+            result.push(z);
+          }
+        }
+        //
+        var Acode=result[0];var Scode=result[1];
+        var share_token=JSON.parse(Scode).share_token;
         if(JSON.parse(Acode).access_token){
            var access_token=JSON.parse(Acode).access_token;
         }else{
             alert("登陆已过期，请重新在m浏览器登陆");
         }
     }else{
-        alert("请重新登陆阿里云盘网页");
+        alert("COOKIE被清除了,请重新登陆阿里云盘网页");
     }
-    var share_id=getVar("url").split("?wd=")[1].split("$$")[1];
     var file_id=getVar("url").split("?wd=")[1].split("$$")[2];
     var 后缀=getVar("url").split("?wd=")[1].split("$$")[3];
     var 类型=getVar("url").split("?wd=")[1].split("$$")[4];
     var u=getVar("url").split("?wd=")[1].split("$$")[0];
     if(类型=="audio"){
-    var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_share_link_download_url",head:{"Authorization":access_token,"X-Share-Token":getVar("share_token")},postJson:JSON.stringify({share_id:share_id,get_audio_play_info:true,file_id:file_id})}));
+    var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_share_link_download_url",head:{"Authorization":access_token,"X-Share-Token":share_token},postJson:JSON.stringify({share_id:share_id,get_audio_play_info:true,file_id:file_id})}));
     }else{
-    var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_share_link_download_url",head:{"Authorization":access_token,"X-Share-Token":getVar("share_token")},postJson:JSON.stringify({share_id:share_id,file_id:file_id,expire_sec:600})}));
+    var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_share_link_download_url",head:{"Authorization":access_token,"X-Share-Token":share_token},postJson:JSON.stringify({share_id:share_id,file_id:file_id,expire_sec:600})}));
     }
     if(JSON.parse(code).code){
         alert("登陆已过期，请重新在m浏览器登陆");
