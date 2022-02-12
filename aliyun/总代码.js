@@ -4,7 +4,7 @@ if(getVar("url").indexOf("aliyundrive.com/s/")!=-1||getVar("url").indexOf("share
     if(getVar("url").indexOf("aliyundrive.com/s/")!=-1){
     var share_id=getVar("url").match(/\.com\/s\/([0-9a-zA-Z]+)/)[1];
     }else if(getVar("url").indexOf("share_id-")!=-1){
-    var share_id=getVar("url").split("$$")[0].split("-")[1];
+    var share_id=getVar("url").split("$$")[0].split("share_id-")[1];
     }
     if(getVar("pwd")!="null"){
         var pwd=getVar("pwd");
@@ -15,7 +15,11 @@ if(getVar("url").indexOf("aliyundrive.com/s/")!=-1||getVar("url").indexOf("share
         var pwd="";
         }
     }
+    if(getVar("share_token")!="null"){
+    getVar("share_token");
+    }else{
     JSON.parse(getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/share_link/get_share_token",postJson:JSON.stringify({share_pwd:pwd,share_id:share_id})}))).share_token;
+    }
 }else if(getVar("url").indexOf("$$")!=-1){
     "";
 }else{
@@ -257,3 +261,28 @@ JSON.stringify([{name:name,url:url}]);
     {"title":"UP云搜","url":"https://www.upyunso.com/search.html?page=1&keyword="},
     {"title":"云盘资源站","url":"https://www.yunpanziyuan.com/fontsearch.htm?fontname="}
 ]
+######多链接10
+if(getVar("url")!="null"){
+if(getVar("url").indeOf("aliyundrive.com/s/")!=-1){
+var list=getVar("url").match(/[\S][\s\S]*?https:\/\/www\.aliyundrive\.com\/s\/.*/g);
+var items=[];
+for(var i in list){
+    var title=list[i].split("https://")[0];
+    var share_id=list[i].match(/aliyundrive\.com\/s\/([0-9a-zA-Z]+)/)[1];
+    if(list[i].indexOf("提取码")!=-1){
+        var pwd=list[i].match(/提取码.*?([0-9a-zA-Z]+)/)[1];
+    }else if(list[i].indexOf("密码")!=-1){
+        var pwd=list[i].match(/密码.*?([0-9a-zA-Z]+)/)[1];
+    }else{
+        var pwd="";
+    }
+    var url="q:root?url=share_id-"+share_id+"$$root$$"+pwd;
+    items.push({title:title,url:url,detail:url});
+}
+JSON.stringify(items);
+}else{
+    alert("请输入完整阿里云盘分享链接");
+}
+}else{
+    alert("请输入阿里云盘分享链接");
+}
