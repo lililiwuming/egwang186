@@ -263,7 +263,7 @@ JSON.stringify([{name:name,url:url}]);
 ]
 ######多链接10
 if(getVar("url")!="null"){
-if(getVar("url").indeOf("aliyundrive.com/s/")!=-1){
+if(getVar("url").indexOf("aliyundrive.com/s/")!=-1){
 var list=getVar("url").match(/[\S][\s\S]*?https:\/\/www\.aliyundrive\.com\/s\/.*/g);
 var items=[];
 for(var i in list){
