@@ -267,7 +267,7 @@ if(getVar("url").indexOf("aliyundrive.com/s/")!=-1){
 var list=getVar("url").match(/[\S][\s\S]*?https:\/\/www\.aliyundrive\.com\/s\/.*/g);
 var items=[];
 for(var i in list){
-    var title=list[i].split("https://")[0];
+    var title=list[i].replace(/\s/g,"").split("https://")[0];
     var share_id=list[i].match(/aliyundrive\.com\/s\/([0-9a-zA-Z]+)/)[1];
     if(list[i].indexOf("提取码")!=-1){
         var pwd=list[i].match(/提取码.*?([0-9a-zA-Z]+)/)[1];
