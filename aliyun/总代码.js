@@ -258,8 +258,13 @@ JSON.stringify([{name:name,url:url}]);
 ######搜索链接9
 [
     {"title":"阿里盘搜","url":"https://www.alipansou.com/search?k="},
+    {"title":"奈斯搜索","url":"https://www.niceso.fun/search/?q="},
     {"title":"UP云搜","url":"https://www.upyunso.com/search.html?page=1&keyword="},
-    {"title":"云盘资源站","url":"https://www.yunpanziyuan.com/fontsearch.htm?fontname="}
+    {"title":"云盘资源网","url":"https://www.yunpanziyuan.com/fontsearch.htm?fontname="},
+    {"title":"云盘资源分享社区","url":"https://alyunpan.com/?q="},
+    {"title":"霸王龙影库","url":"https://t-rex.tzfile.com/?s="},
+    {"title":"我的小站","url":"https://pan.wuenci.com/?q="},
+    {"title":"网盘小站","url":"https://wpxz.org/?q="}
 ]
 ######多链接10
 if(getVar("url")!="null"){
