@@ -263,9 +263,7 @@ JSON.stringify([{name:name,url:url}]);
     {"title":"云盘资源网","url":"https://www.yunpanziyuan.com/fontsearch.htm?fontname="},
     {"title":"云盘资源分享社区","url":"https://alyunpan.com/?q="},
     {"title":"霸王龙影库","url":"https://t-rex.tzfile.com/?s="},
-    {"title":"我的小站","url":"https://pan.wuenci.com/?q="},
-    {"title":"小纸条","url":"https://u.gitcafe.net/?wd="},
-    {"title":"网盘小站","url":"https://wpxz.org/?q="}
+    {"title":"小纸条","url":"https://u.gitcafe.net/?wd="}
 ]
 ######多链接10
 if(getVar("url")!="null"){
