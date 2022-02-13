@@ -9,7 +9,7 @@
 },{
     "title":"阿里小纸条",
     "rule":{
-        "分类":'var a=JSON.parse(getHttp(JSON.stringify({url:"https://yunluo.oss-cn-shanghai.aliyuncs.com/alipaper/data.json"})));for(var i in a){var a[i].title=a[i].info.name+a[i].info.cat_num;var a[i].url=a[i].info.code;}JSON.stringify(a);',
+        "分类":'var a=JSON.parse(getHttp(JSON.stringify({url:"https://yunluo.oss-cn-shanghai.aliyuncs.com/alipaper/data.json"}))).data;for(var i in a){var a[i].title=a[i].info.name+a[i].info.cat_num;var a[i].url=a[i].info.code;}JSON.stringify(a);',
         "列表规则":'var 列表=e2Arr(getVar("CODE"),".json(data)");var 地址规则=".json(key)";var 标题规则=".json(title)";var 图片规则=".json(tok)";var 简介规则=".json(des)";',
         "详情规则":'var 正文=e2Rex(getVar("CODE"),".json(title).c(链接:https://www.aliyundrive.com/s/).json(key)");'
     }
