@@ -304,12 +304,12 @@ var xxx_id=getVar("url").split("$$")[0];
 var file_id=getVar("url").split("$$")[1];
 if(xxx_id.indexOf("share_id")!=-1){
     var HEAD=JSON.stringify({"Authorization":access_token,"X-Share-Token":getVar("share_token")});
-    var data=JSON.stringify({share_id:xxx_id.split("-")[1],file_id:file_id});
+    var data=JSON.stringify({share_id:xxx_id.split("-")[1],file_id:file_id,expire_sec:600});
 }else if(xxx_id.indexOf("drive_id")!=-1){
     var HEAD=JSON.stringify({"Authorization":access_token});
-    var data=JSON.stringify({drive_id:xxx_id.split("-")[1],file_id:file_id});
+    var data=JSON.stringify({drive_id:xxx_id.split("-")[1],file_id:file_id,expire_sec:600});
 }
-var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_office_preview_url",head:JSON.parse(HEAD),postJson:data}));
+var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_share_link_download_url",head:JSON.parse(HEAD),postJson:data}));
 if(JSON.parse(code).code){
 alert("登陆已过期，请重新在m浏览器登陆")
 }else{
