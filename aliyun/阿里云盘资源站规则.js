@@ -44,6 +44,7 @@ for(var i in list){
     var url="q:ROOT?url=share_id-"+share_id+"$$root$$"+pwd;
     items.push({name:title,url:url,detail:url});
 }
+alert(JSON.stringify(items))
 JSON.stringify(items);
 }
 eval(getVar("详情规则"));正文处理();
