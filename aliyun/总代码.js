@@ -89,7 +89,7 @@ var items=JSON.parse(目录数据).items;
 if(JSON.parse(目录数据).items){
     if(xxx_id.indexOf("share_id")!=-1){
         for(var i in items){
-           if(items[i].category=="video"||items[i].category=="doc"){
+           if(items[i].category=="video"||items[i].category=="doc"||items[i].category=="image"){
            items[i].url="q:"+items[i].category+"?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd;
            items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
            }else if(items[i].type=="folder"){
@@ -102,12 +102,12 @@ if(JSON.parse(目录数据).items){
         }
     }else if(xxx_id.indexOf("drive_id")!=-1){
         for(var i in items){
-            if(items[i].category=="video"||items[i].category=="doc"){
+            if(items[i].category=="video"||items[i].category=="doc"||items[i].category=="image"){
             items[i].url="q:"+items[i].category+"?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
             items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
             }else if(items[i].type=="folder"){
-                items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
-                items[i].name="[文件夹]"+items[i].name;
+            items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
+            items[i].name="[文件夹]"+items[i].name;
             }else{
             items[i].url="q:video?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
             items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
@@ -285,4 +285,34 @@ JSON.stringify(items);
 }
 }else{
     alert("请输入阿里云盘分享链接");
+}
+######图片预览11
+var cm=android.webkit.CookieManager.getInstance();
+    var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
+    if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
+        var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
+        var Acode=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
+        if(JSON.parse(Acode).access_token){
+           var access_token=JSON.parse(Acode).access_token;
+        }else{
+            alert("登陆已过期，请重新在m浏览器登陆");
+        }
+    }else{
+        alert("请重新登陆阿里云盘网页");
+    }
+var xxx_id=getVar("url").split("$$")[0];
+var file_id=getVar("url").split("$$")[1];
+if(xxx_id.indexOf("share_id")!=-1){
+    var HEAD=JSON.stringify({"Authorization":access_token,"X-Share-Token":getVar("share_token")});
+    var data=JSON.stringify({share_id:xxx_id.split("-")[1],file_id:file_id});
+}else if(xxx_id.indexOf("drive_id")!=-1){
+    var HEAD=JSON.stringify({"Authorization":access_token});
+    var data=JSON.stringify({drive_id:xxx_id.split("-")[1],file_id:file_id});
+}
+var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_office_preview_url",head:JSON.parse(HEAD),postJson:data}));
+if(JSON.parse(code).code){
+alert("登陆已过期，请重新在m浏览器登陆")
+}else{
+var url=JSON.parse(code).download_url+'@{"Referer":"https://www.aliyundrive.com/"}';
+JSON.stringify([{url:url}]);
 }
