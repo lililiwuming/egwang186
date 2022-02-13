@@ -33,6 +33,9 @@ function 正文处理(){
 var items=[];
 for(var i in list){
     var title=list[i].replace(/\s/g,"").replace(/<.+?>/g,"").split("https://")[0]||"没获取到标题，去看原文吧";
+    if(title.length>60){
+        title=title.substr(title.length-60);
+    }
     var share_id=list[i].match(/aliyundrive\.com\/s\/([0-9a-zA-Z]+)/)[1];
     if(list[i].indexOf("提取码")!=-1){
         var pwd=list[i].match(/提取码.*?([0-9a-zA-Z]+)/)[1];
