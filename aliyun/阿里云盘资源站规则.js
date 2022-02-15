@@ -3,7 +3,7 @@
     "title":"阿里大站",
     "rule":{
         "分类":'var a="影视$https://pan.3636360.com/api/v3/thread.list?perPage=10&page=#PN#&filter[categoryids][0]=1&filter[essence]=$$动漫$https://pan.3636360.com/api/v3/thread.list?perPage=10&page=#PN#&filter[categoryids][0]=7&filter[essence]=$$音乐$https://pan.3636360.com/api/v3/thread.list?perPage=10&page=#PN#&filter[categoryids][0]=2&filter[essence]=";var b="全部$0&filter[attention]=0&filter[sort]=1&scope=0$$推荐$0&filter[attention]=0&filter[sort]=1&scope=1$$精华$1&filter[attention]=0&filter[sort]=1&scope=0$$评论时间$0&filter[attention]=0&filter[sort]=2&scope=0$$热门内容$0&filter[attention]=0&filter[sort]=3&scope=0";a=a.split("$$");b=b.split("$$");var items=[];for(var i in a){var az=a[i].split("$")[0];var ay=a[i].split("$")[1];for(var j in b){var bz=b[j].split("$")[0];var by=b[j].split("$")[1];items.push({title:az+"-"+bz,url:ay+by});}}JSON.stringify(items);',
-        "列表规则":'var 列表=e2Arr(getCode(),".json(Data).json(pageData)");var 地址规则=".json(threadId)";var 标题规则=".json(updatedAt).c(更新于).json(diffTime).c(标题:).json(title)";var 图片规则=".json(user).json(avatar)";var 简介规则=".json(content).json(text)";',
+        "列表规则":'var 列表=e2Arr(getCode(),".json(Data).json(pageData)");var 地址规则=".json(threadId)";var 标题规则=".json(updatedAt).c(更新于).json(diffTime).c(标题:).json(title)";var 图片规则=".json(user).json(avatar)";var 简介规则=".json(content).json(text)";if(Number(getVar("PN"))==-1){var page=Number(getVar("PN"))+3;var NEXTPAGE=getVar("前")+page+getVar("后");}else{var page=Number(getVar("PN"))+1;var NEXTPAGE=getVar("前")+page+getVar("后");}',
         "详情规则":'var 正文=e2Rex(getVar("CODE"),".json(detail)");'
     }
 },{
@@ -13,11 +13,17 @@
         "列表规则":'var 列表=e2Arr(getVar("CODE"),".json(data)");var 地址规则=".json(key)";var 标题规则=".json(title)";var 图片规则=".json(tok)";var 简介规则=".json(des)";',
         "详情规则":'var 正文=e2Rex(getVar("CODE"),".json(title).c(链接:https://www.aliyundrive.com/s/).json(url).c().json(detail)");'
     }
+},{
+    "title":"TG群组",
+    "rule":{
+        "分类":'var a="阿里云盘资源发布$https://tx.me/s/sharesliyun#PN#$$阿里云盘盘$https://tx.me/s/yunpanpan#PN#";var a=a.split("$$");var items=[];for(var i in a){var title=a[i].split("$")[0];var url=a[i].split("$")[1];items.push({title:title,url:url}JSON.stringify(items);',
+        "列表规则":'var 列表=e2Arr(getCode(),".get(div.tgme_widget_message_buddle)");var 地址规则=".get(a.tgme_widget_message_photo_wrap).a(href)";var 标题规则=".get(div.tgme_widget_message_photo_text).z(.+).t()";var 图片规则=".get(a.tgme_widget_message_photo_wrap).a(style).z2(\'\\(.+?\\)\')";var 简介规则=".get(div.tgme_widget_message_photo_text).t()";var NEXTPAGE="https://tx.me"+getCode().match(/rel="canonical" href="(.+?)"/)[1];var PREPAGE="https://tx.me"+getCode().match(/rel="prev" href="(.+?)"/)[1];',
+        "详情规则":'var 正文=getVar("msg");'
+    }
 }
 ]
 }
 ######普通列表
-var NEXTPAGE=Number(getVar("PN"))+1;
 function 通用列表(){
     var res={};var items=[];
     var LIMIT=列表.length;
@@ -30,7 +36,12 @@ function 通用列表(){
        items.push({title:标题,url:地址,img:图片,detail:简介});
     }
     res.data=items;
-    res.nextpage=getVar("前")+NEXTPAGE+getVar("后");
+    if(NEXTPAGE){
+        res.nextpage=NEXTPAGE;
+    }
+    if(PREPAGE){
+        res.prepage=PREPAGE;
+    }
     return JSON.stringify(res);
 }
 eval(getVar("列表规则"));通用列表();
