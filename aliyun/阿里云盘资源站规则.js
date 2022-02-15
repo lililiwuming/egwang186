@@ -51,7 +51,7 @@ for(var i in list){
     }else{
         var pwd="";
     }
-    var url="q:ROOT?url=share_id-"+share_id+"$$root$$"+pwd;
+    var url="q:root?url=share_id-"+share_id+"$$root$$"+pwd;
     items.push({name:title,url:url,detail:url});
 }
 return JSON.stringify(items);
