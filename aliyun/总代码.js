@@ -232,8 +232,6 @@ var cm=android.webkit.CookieManager.getInstance();
         var Acode=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
         if(JSON.parse(Acode).access_token){
            var access_token=JSON.parse(Acode).access_token;
-        }else if(JSON.parse(Acode).code=="NotSupportedFileType"){
-          alert("此文档格式不支持预览");
         }else{
             alert("登陆已过期，请重新在m浏览器登陆");
         }
