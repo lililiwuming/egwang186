@@ -143,9 +143,9 @@ alert("快去首页安装新版吧");
 var 过滤=JSON.parse(getVar("目录重组数据")).filter(item=>item.category=="video"||item.category=="audio");
 for(var i in 过滤){
 if(过滤[i].download_url){
-    过滤[i].url="https://www.baidu.com/s?wd="+过滤[i].download_url;
+    过滤[i].url="http://ip111.cn/?wd="+过滤[i].download_url;
 }else{
-    过滤[i].url="https://www.baidu.com/s?wd="+过滤[i].thumbnail+"$$"+过滤[i].share_id+"$$"+过滤[i].file_id+"$$"+过滤[i].file_extension+"$$"+过滤[i].category+"$$"+getVar("url").split("$$")[2];
+    过滤[i].url="http://ip111.cn/?wd="+过滤[i].thumbnail+"$$"+过滤[i].share_id+"$$"+过滤[i].file_id+"$$"+过滤[i].file_extension+"$$"+过滤[i].category+"$$"+getVar("url").split("$$")[2];
 }
 }
 JSON.stringify(过滤);
