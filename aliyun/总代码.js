@@ -270,6 +270,9 @@ JSON.stringify([{name:name,url:url}]);
     {"title":"TG_云盘资源发布","url":"https://tx.me/s/sharealiyun?q="},
     {"title":"TG_云盘盘","url":"https://tx.me/s/yunpanpan?q="},
     {"title":"TG_云盘影视共享","url":"https://tx.me/s/alypysgx?q="},
+    {"title":"TG_V云盘","url":"https://tx.me/s/aliyun69?q="},
+    {"title":"TG_云盘资源共享","url":"https://tx.me/s/aliyunziyuanfenxiang?q="},
+    {"title":"TG_WAYOU资源","url":"https://tx.me/s/wayouziyuan?q="},
     {"title":"小纸条","url":"https://u.gitcafe.net/?wd="}
 ]
 ######多链接10
