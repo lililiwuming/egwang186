@@ -316,15 +316,20 @@ var file_id=getVar("url").split("$$")[1];
 if(xxx_id.indexOf("share_id")!=-1){
     var HEAD=JSON.stringify({"Authorization":access_token,"X-Share-Token":getVar("share_token")});
     var data=JSON.stringify({share_id:xxx_id.split("-")[1],file_id:file_id,expire_sec:600});
-}else if(xxx_id.indexOf("drive_id")!=-1){
-    var HEAD=JSON.stringify({"Authorization":access_token});
-    var data=JSON.stringify({drive_id:xxx_id.split("-")[1],file_id:file_id,expire_sec:600});
-}
-var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_share_link_download_url",head:JSON.parse(HEAD),postJson:data}));
+    var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_share_link_download_url",head:JSON.parse(HEAD),postJson:data}));
 if(JSON.parse(code).code){
 alert(JSON.parse(code).code)
 }else{
 var resp=JZ(JSON.stringify({url:JSON.parse(code).download_url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
 var url=resp.head.location+'@{"Referer":"https://www.aliyundrive.com/"}';
 JSON.stringify([{url:url}]);
+}
+}else if(xxx_id.indexOf("drive_id")!=-1){
+    var 过滤=JSON.parse(getVar("目录重组数据")).filter(item=>item.category=="image");
+    var items=[];
+for(var i in 过滤){
+    var url=过滤[i].download_url+'@{"Referer":"https://www.aliyundrive.com/"}';
+    items.push({url:url});
+}
+JSON.stringify(items);
 }
