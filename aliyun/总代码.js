@@ -266,6 +266,7 @@ JSON.stringify([{name:name,url:url}]);
     {"title":"UP云搜","url":"https://www.upyunso.com/search.html?page=1&keyword="},
     {"title":"云盘资源网","url":"https://www.yunpanziyuan.com/fontsearch.htm?fontname="},
     {"title":"云盘资源分享社区","url":"https://alyunpan.com/?q="},
+    {"title":"阿里小站","url":"https://www.pan666.cn/?q="},
     {"title":"霸王龙影库","url":"https://t-rex.tzfile.com/?s="},
     {"title":"TG_云盘资源发布","url":"https://tx.me/s/sharealiyun?q="},
     {"title":"TG_云盘盘","url":"https://tx.me/s/yunpanpan?q="},
