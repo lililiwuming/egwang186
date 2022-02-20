@@ -37,7 +37,7 @@ if(getVar("url").indexOf("aliyundrive.com/s/")!=-1){
     var xxx_id=getVar("url").split("$$")[0];
     var file_id=getVar("url").split("$$")[1];
 }
-if(getVar("pwd")!="null"){
+if(getVar("pwd")!="null"&&getVar("pwd").length>1){
     var pwd=getVar("pwd");
 }else{
     if(getVar("url").split("$$")[2]){
