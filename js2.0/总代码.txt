@@ -440,7 +440,7 @@ if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("m3u8.cache.suoyo.cc")!=
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
 JSON.stringify({url:uuuu});*/
-"web=https://jhpc.manduhu.com/duoduo/?url="+playurl;
+"web=https://jhpc.manduhu.com/duoduo/?url="+playurl+'@{"Referer":"https://555dy3.com"}';
 }else if(playurl.indexOf("ruifenglb.com")!=-1){
     "web="+playurl;
 }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
