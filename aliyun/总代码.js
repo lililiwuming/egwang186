@@ -206,7 +206,7 @@ if(getVar("url").indexOf("$$")!=-1){
     }else{
     if(JSON.parse(code).audio_template_list){
         var resp=JZ(JSON.stringify({url:JSON.parse(code).audio_template_list[JSON.parse(code).audio_template_list.length-1].url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
-        JSON.stringify({url:resp.head.location,head:{"User-Agent":"Lavf/58.12.100","Connection":"close","Referer":"https://www.aliyundrive.com/"}});
+        JSON.stringify({url:resp.head.location,head:{"User-Agent":"Lavf/58.12.100","Connection":"keep-alive","Referer":"https://www.aliyundrive.com/"}});
     }else{
     var resp=JZ(JSON.stringify({url:JSON.parse(code).download_url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
        if(后缀=="rmvb"){
@@ -216,13 +216,13 @@ if(getVar("url").indexOf("$$")!=-1){
             setpath: '/storage/emulated/0/Android/data/cn.nr19.mbrowser/files/download',
           });
         }else{
-        JSON.stringify({url:resp.head.location,head:{"User-Agent":"Lavf/58.12.100","Connection":"close","Referer":"https://www.aliyundrive.com/"}});
+        JSON.stringify({url:resp.head.location,head:{"User-Agent":"Lavf/58.12.100","Connection":"keep-alive","Referer":"https://www.aliyundrive.com/"}});
         }
     }
     }
 }else{
     var u=getVar("url").split("?wd=")[1];
-    JSON.stringify({url:u,head:{"User-Agent":"Lavf/58.12.100","Connection":"close","Referer":"https://www.aliyundrive.com/"}});
+    JSON.stringify({url:u,head:{"User-Agent":"Lavf/58.12.100","Connection":"keep-alive","Referer":"https://www.aliyundrive.com/"}});
 }
 ######文档预览8
 var cm=android.webkit.CookieManager.getInstance();
