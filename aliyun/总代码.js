@@ -6,7 +6,7 @@ if(getVar("url").indexOf("aliyundrive.com/s/")!=-1||getVar("url").indexOf("share
     }else if(getVar("url").indexOf("share_id-")!=-1){
     var share_id=getVar("url").split("$$")[0].split("share_id-")[1];
     }
-    if(getVar("pwd")!="null"){
+    if(getVar("pwd")!="null"&&getVar("pwd").length>1){
         var pwd=getVar("pwd");
     }else{
         if(getVar("url").split("$$")[2]){
