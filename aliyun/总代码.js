@@ -274,6 +274,7 @@ JSON.stringify([{name:name,url:url}]);
     {"title":"TG_V云盘","url":"https://tx.me/s/aliyun69?q="},
     {"title":"TG_云盘资源共享","url":"https://tx.me/s/aliyunziyuanfenxiang?q="},
     {"title":"TG_WAYOU资源","url":"https://tx.me/s/wayouziyuan?q="},
+    {"title":"TG_影视必应阁","url":"https://tx.me/s/moviebyg?q="},
     {"title":"小纸条","url":"https://u.gitcafe.net/?wd="}
 ]
 ######多链接10
