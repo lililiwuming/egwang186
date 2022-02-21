@@ -263,6 +263,7 @@ JSON.stringify([{name:name,url:url}]);
 [
     {"title":"阿里盘搜","url":"https://www.alipansou.com/search?k="},
     {"title":"奈斯搜索","url":"https://www.niceso.fun/search/?q="},
+    {"title":"阿里云搜","url":"https://aliyunso.cn/search?page=1&type=&keyword="},
     {"title":"UP云搜","url":"https://www.upyunso.com/search.html?page=1&keyword="},
     {"title":"云盘资源网","url":"https://www.yunpanziyuan.com/fontsearch.htm?fontname="},
     {"title":"云盘资源分享社区","url":"https://alyunpan.com/?q="},
