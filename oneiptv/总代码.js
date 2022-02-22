@@ -29,7 +29,7 @@ var 新记录=记录;
 }
 var a=getVar("sort")+","+getVar("sort")+'.txt';
 var item=[];item.push(a);
-alert(JSON.stringify(item))
+alert(_.read(indexname))
 if(_.read(indexname).length>1){
 var 旧索引=_.read(indexname).match(/.+?,.+/g);
 alert(JSON.stringify(旧索引))
