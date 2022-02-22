@@ -20,18 +20,21 @@ eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/mast
 var indexname='一个直播本地索引.txt';
 if(getVar("text")!='null'&&getVar("text").indexOf(",")>1&&getVar("sort")!='null'&&getVar("sort").length>1){
 var filename=getVar("sort")+'.txt';
-var 记录=getVar("text").match(/.+?,http.+/g);
+var 记录=getVar("text").match(/.+?,.+/g);
 if(_.read(filename).length>1){
-var 旧记录=_.read(filename).match(/.+?,http.+/g);
+var 旧记录=_.read(filename).match(/.+?,.+/g);
 var 新记录=记录.concat(旧记录);
 }else{
 var 新记录=记录;
 }
 var a=getVar("sort")+","+getVar("sort")+'.txt';
 var item=[];item.push(a);
+alert(JSON.stringify(item))
 if(_.read(indexname).length>1){
 var 旧索引=_.read(indexname).match(/.+?,.+/g);
+alert(JSON.stringify(旧索引))
 var 新索引=item.concat(旧索引.filter(u=>u!=a));
+alert(JSON.stringify(新索引))
 _.write(新索引.join("\n"),indexname);
 }else{
 _.write(item.join("\n"),indexname);
