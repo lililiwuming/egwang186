@@ -102,8 +102,8 @@ if(code.indexOf("#genre#")!=-1){
     var 线路=code.match(/.+?#genre#.*/g);
     var 列表规则=".z(.+?,.+)";
     var 标题规则=".tz(#genre#)";
-    var 选集地址规则=".ty(,)";
-    var 选集规则=".c(http://ip111.cn/?wd=).tz(,)";选集列表();
+    var 选集地址规则=".c(http://ip111.cn/?wd=).ty(,)";
+    var 选集规则=".tz(,)";选集列表();
 }else if(code.indexOf("#EXTINF:")!=-1){
     var code=code.match(/#EXTINF:.+[\s]+?.+/g);
     var head=[];head.push(getVar("name")+"#genre#");
