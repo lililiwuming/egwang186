@@ -2,9 +2,9 @@
 {"data":[{
     "title":"六维TV",
     "rule":{
-        "分类":'var a=getHttp(JSON.stringify({url:"http://www.liuweidianshi.ml/m.php"}));for(var i in a){a[i].title=a[i].info.name+a[i].info.cat_num;a[i].url="http://ip111.cn/?pg=#PN#";}JSON.stringify(a);',
-        "选集规则":'var 列表=e2Arr(getVar("CODE"),".json(data)");var 地址规则=".json(key)";var 标题规则=".json(title)";var 图片规则=".json(tok)";var 简介规则=".json(des)";var NEXTPAGE="";var PREPAGE="";',
-        "免嗅探规则":'var 正文=e2Rex(getVar("CODE"),".json(title).c(链接:https://www.aliyundrive.com/s/).json(url).c().json(detail)");'
+        "分类":'var a=e2Arr(getHttp(JSON.stringify({url:"http://www.liuweidianshi.ml/m.php"})),".get(section.module-boxA)");var items=[];for(var i in a){var title=e2Rex(a[i],".get(h3).t()");var ul=a[i];var url="q:播放器?url="+title;items.push({title:title,ul:ul,url:url});}JSON.stringify(items);',
+        "选集规则":'var 分类=e2Arr(getVar("CODE"),".json(ul).get(section)");var 列表规则=".get(ul li)";var 标题规则=".get(h3).t()";var 选集规则=".get(a).t()";var 选集地址规则=".c(http://ip111.cn/?wd=http://www.liuweidianshi.ml/).get(a).a(href)";',
+        "免嗅探规则":'var u=e2Rex(getHttp(getVar("url").split("?wd=")[1]),".get(video).a(src)");JSON.stringify({url:u});'
     }
 }
 ]
