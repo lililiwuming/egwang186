@@ -4,7 +4,7 @@ var filename='一个直播远程索引.txt';
 var 记录="";
 if(getVar("rurl")!='null'&&getVar("rurl").indexOf(",http")>1){
 记录=getVar("rurl").match(/.+?,http.+/g);
-if(_.read(filename).length>1){
+if(_.read(filename)){
 var 旧记录=_.read(filename).match(/.+?,http.+/g);
 var 新记录=记录.concat(旧记录);
 }else{
