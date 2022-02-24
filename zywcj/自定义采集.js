@@ -22,7 +22,7 @@ var code = _.read(filename).match(/.+?,.+/g);
 var items = [];
 for (var i in code) {
   var title = code[i].split(",")[0];
-  var url = "q:单一搜索?url=远程$$" + code[i].split(",")[1];
+  var url = "q:资源采集首页?url=远程$$" + code[i].split(",")[1];
   items.push({ title: title, url: url });
 }
 JSON.stringify(items);
