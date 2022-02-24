@@ -249,11 +249,11 @@ if(xxx_id.indexOf("share_id")!=-1){
 }
 var code=getHttp(JSON.stringify({url:"https://api.aliyundrive.com/v2/file/get_office_preview_url",head:JSON.parse(HEAD),postJson:data}));
 if(JSON.parse(code).code){
-  if (JSON.parse(code).code == "NotSupportedFileType") {
+  if(JSON.parse(code).code=="NotSupportedFileType"){
     alert("此文档格式不支持预览");
   }else{
-alert("登陆已过期，请重新在m浏览器登陆")
-}
+    alert("登陆已过期，请重新在m浏览器登陆");
+  }
 }else{
 var url=JSON.parse(code).preview_url+"??"+JSON.parse(code).access_token;
 var name=getVar("name");
