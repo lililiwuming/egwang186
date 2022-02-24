@@ -22,7 +22,29 @@ var code = _.read(filename).match(/.+?,.+/g);
 var items = [];
 for (var i in code) {
   var title = code[i].split(",")[0];
+  var url = "q:单一搜索?url=远程$$" + code[i].split(",")[1];
+  items.push({ title: title, url: url });
+}
+JSON.stringify(items);
+######单一搜索读取远程订阅3
+eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'), '.dn64()'));
+var filename = '资源采集远程索引.txt';
+var code = _.read(filename).match(/.+?,.+/g);
+var items = [];
+for (var i in code) {
+  var title = code[i].split(",")[0];
   var url = "q:资源采集首页?url=远程$$" + code[i].split(",")[1];
+  items.push({ title: title, url: url });
+}
+JSON.stringify(items);
+######侧边栏搜索读取远程订阅4
+eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'), '.dn64()'));
+var filename = '资源采集远程索引.txt';
+var code = _.read(filename).match(/.+?,.+/g);
+var items = [];
+for (var i in code) {
+  var title = code[i].split(",")[0];
+  var url = "q:侧边栏引导?url=远程$$" + code[i].split(",")[1];
   items.push({ title: title, url: url });
 }
 JSON.stringify(items);
