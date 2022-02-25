@@ -48,3 +48,14 @@ for (var i in code) {
   items.push({ title: title, url: url });
 }
 JSON.stringify(items);
+######管理订阅5
+eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+var filename='资源采集远程索引.txt';
+var code=_.read(filename).match(/.+?,.+/g);
+var items=[];
+for(var i in code){
+var title=code[i].split(",")[0];
+var url="q:管理订阅按钮?url="+code[i];
+items.push({title:title,url:url});
+}
+JSON.stringify(items);
