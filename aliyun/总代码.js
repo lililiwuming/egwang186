@@ -91,36 +91,36 @@ if(JSON.parse(目录数据).items){
         for(var i in items){
            if(items[i].category=="video"||items[i].category=="doc"||items[i].category=="image"){
            items[i].url="q:"+items[i].category+"?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd+"$$"+getVar("url").split("$$")[3];
-           items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
+           items[i].文件类型="<font color='red'><b>["+items[i].file_extension+"文件]</b></font>";
            }else if(items[i].type=="folder"){
             if(file_id=="root"){
                 FNAME=";";
             }else{
                 FNAME=getVar("url").split("$$")[3];
             }
-            items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd+"$$"+FNAME+items[i].name;
-            items[i].name="[文件夹]"+items[i].name;
+            items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd+"$$"+FNAME+";"+items[i].name;
+            items[i].文件类型="<font color='red'><b>[文件夹]</b></font>";
            }else{
            items[i].url="q:video?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd;
-           items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
+           items[i].文件类型="<font color='red'><b>["+items[i].file_extension+"文件]</b></font>";
         }
         }
     }else if(xxx_id.indexOf("drive_id")!=-1){
         for(var i in items){
             if(items[i].category=="video"||items[i].category=="doc"||items[i].category=="image"){
             items[i].url="q:"+items[i].category+"?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id+"$$"+getVar("url").split("$$")[2];
-            items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
+            items[i].文件类型="<font color='red'><b>["+items[i].file_extension+"文件]</b></font>";
             }else if(items[i].type=="folder"){
                 if(file_id=="root"){
                     FNAME=";";
                 }else{
                     FNAME=getVar("url").split("$$")[2];
                 }
-            items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id+"$$"+FNAME+items[i].name;
-            items[i].name="[文件夹]"+items[i].name;
+            items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id+"$$"+FNAME+";"+items[i].name;
+            items[i].文件类型="<font color='red'><b>[文件夹]</b></font>";
             }else{
             items[i].url="q:video?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
-            items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
+            items[i].文件类型="<font color='red'><b>["+items[i].file_extension+"文件]</b></font>";
             }
         }
     }
@@ -229,6 +229,7 @@ if(getVar("url").indexOf("$$")!=-1){
             var file_data={};
             var 最后文件夹名=e2Rex(getVar("url").split("?wd=")[1].split("$$")[6],".ty2(;)");
             file_data.parent_name=getVar("url").split("?wd=")[1].split("$$")[6]+";"+最后文件夹名;
+            alert(file_data.parent_name)
             file_data.folder_id=getVar("url").split("?wd=")[1].split("$$")[7];
             file_data.file_id=file_id;file_data.share_id=share_id;file_data.share_pwd=pwd;file_data.expiration="";
             file_data.file_name=getVar("url").split("?wd=")[1].split("$$")[8];
