@@ -227,9 +227,9 @@ if(getVar("url").indexOf("$$")!=-1){
           });
         }else{
             var file_data={};
-            var 最后文件夹名=e2Rex(getVar("url").split("?wd=")[1].split("$$")[6],".ty2(;).ty2(;)");
-            file_data.parent_name=getVar("url").split("?wd=")[1].split("$$")[6]+";"+最后文件夹名;
-            alert(getVar("url").split("?wd=")[1].split("$$")[6]+";"+最后文件夹名)
+            var 路径=getVar("url").split("?wd=")[1].split("$$")[6];
+            var 最后文件夹名=路径.split(";")[路径.split(';').length-2];
+            file_data.parent_name=路径+最后文件夹名;
             file_data.folder_id=getVar("url").split("?wd=")[1].split("$$")[7];
             file_data.file_id=file_id;file_data.share_id=share_id;file_data.share_pwd=pwd;file_data.expiration="";
             file_data.file_name=getVar("url").split("?wd=")[1].split("$$")[8];
