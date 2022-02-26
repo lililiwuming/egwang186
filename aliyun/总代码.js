@@ -98,7 +98,7 @@ if(JSON.parse(目录数据).items){
             }else{
                 FNAME=getVar("url").split("$$")[3];
             }
-            items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd+"$$"+FNAME+";"+items[i].name;
+            items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd+"$$"+FNAME+items[i].name+";";
             items[i].文件类型="<font color='red'><b>[文件夹]</b></font>";
            }else{
            items[i].url="q:video?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd;
@@ -116,7 +116,7 @@ if(JSON.parse(目录数据).items){
                 }else{
                     FNAME=getVar("url").split("$$")[2];
                 }
-            items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id+"$$"+FNAME+";"+items[i].name;
+            items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id+"$$"+FNAME+items[i].name+";";
             items[i].文件类型="<font color='red'><b>[文件夹]</b></font>";
             }else{
             items[i].url="q:video?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
