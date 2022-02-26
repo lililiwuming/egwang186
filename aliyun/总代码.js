@@ -90,10 +90,15 @@ if(JSON.parse(目录数据).items){
     if(xxx_id.indexOf("share_id")!=-1){
         for(var i in items){
            if(items[i].category=="video"||items[i].category=="doc"||items[i].category=="image"){
-           items[i].url="q:"+items[i].category+"?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd;
+           items[i].url="q:"+items[i].category+"?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd+"$$"+getVar("url").split("$$")[3];
            items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
            }else if(items[i].type=="folder"){
-            items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd;
+            if(file_id=="root"){
+                FNAME=";";
+            }else{
+                FNAME=getVar("url").split("$$")[3];
+            }
+            items[i].url="q:root?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd+"$$"+FNAME+items[i].name;
             items[i].name="[文件夹]"+items[i].name;
            }else{
            items[i].url="q:video?url=share_id-"+items[i].share_id+"$$"+items[i].file_id+"$$"+pwd;
@@ -103,10 +108,15 @@ if(JSON.parse(目录数据).items){
     }else if(xxx_id.indexOf("drive_id")!=-1){
         for(var i in items){
             if(items[i].category=="video"||items[i].category=="doc"||items[i].category=="image"){
-            items[i].url="q:"+items[i].category+"?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
+            items[i].url="q:"+items[i].category+"?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id+"$$"+getVar("url").split("$$")[2];
             items[i].name="["+items[i].file_extension+"文件]"+items[i].name;
             }else if(items[i].type=="folder"){
-            items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
+                if(file_id=="root"){
+                    FNAME=";";
+                }else{
+                    FNAME=getVar("url").split("$$")[2];
+                }
+            items[i].url="q:root?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id+"$$"+FNAME+items[i].name;
             items[i].name="[文件夹]"+items[i].name;
             }else{
             items[i].url="q:video?url=drive_id-"+items[i].drive_id+"$$"+items[i].file_id;
@@ -143,9 +153,9 @@ alert("快去首页安装新版吧");
 var 过滤=JSON.parse(getVar("目录重组数据")).filter(item=>item.category=="video"||item.category=="audio");
 for(var i in 过滤){
 if(过滤[i].download_url){
-    过滤[i].url="http://ip111.cn/?wd="+过滤[i].download_url;
+    过滤[i].url="http://ip111.cn/?wd="+过滤[i].download_url+"###"+过滤[i].drive_id+"###"+过滤[i].file_id;
 }else{
-    过滤[i].url="http://ip111.cn/?wd="+过滤[i].thumbnail+"$$"+过滤[i].share_id+"$$"+过滤[i].file_id+"$$"+过滤[i].file_extension+"$$"+过滤[i].category+"$$"+getVar("url").split("$$")[2];
+    过滤[i].url="http://ip111.cn/?wd="+过滤[i].thumbnail+"$$"+过滤[i].share_id+"$$"+过滤[i].file_id+"$$"+过滤[i].file_extension+"$$"+过滤[i].category+"$$"+getVar("url").split("$$")[2]+"$$"+getVar("url").split("$$")[3]+"$$"+过滤[i].parent_file_id+"$$"+过滤[i].name;
 }
 }
 JSON.stringify(过滤);
@@ -216,13 +226,36 @@ if(getVar("url").indexOf("$$")!=-1){
             setpath: '/storage/emulated/0/Android/data/cn.nr19.mbrowser/files/download',
           });
         }else{
-        JSON.stringify({url:resp.head.location,head:{"User-Agent":"Lavf/58.12.100","Connection":"keep-alive","Referer":"https://www.aliyundrive.com/"}});
+            var file_data={};
+            file_data.parent_name=getVar("url").split("?wd=")[1].split("$$")[6];
+            file_data.folder_id=getVar("url").split("?wd=")[1].split("$$")[7];
+            file_data.file_id=file_id;file_data.share_id=share_id;file_data.share_pwd=pwd;file_data.expiration="";
+            file_data.file_name=getVar("url").split("?wd=")[1].split("$$")[8];
+            var _d=e2Rex(JSON.stringify(file_data),".en(utf8).en64()");
+            var 转码链接='http://116.85.31.19:3000/apis/yun-play/'+_d+'/'+access_token+'/'+share_token+'/FHD/index.m3u8';
+        JSON.stringify([{name:"原始文件播放",url:resp.head.location,head:{"User-Agent":"Lavf/58.12.100","Connection":"keep-alive","Referer":"https://www.aliyundrive.com/"}},{name:"转码m3u8可投屏",url:转码链接}]);
         }
     }
     }
 }else{
-    var u=getVar("url").split("?wd=")[1];
-    JSON.stringify({url:u,head:{"User-Agent":"Lavf/58.12.100","Connection":"keep-alive","Referer":"https://www.aliyundrive.com/"}});
+var cm=android.webkit.CookieManager.getInstance();
+var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
+if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
+var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
+var code=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
+if(JSON.parse(code).access_token){
+var access_token=JSON.parse(code).access_token;
+}else{
+    alert("登陆已过期，请重新在m浏览器登陆");
+}
+}else{
+alert("请重新登陆阿里云盘网页");
+}
+    var file_id=getVar("url").split("?wd=")[1].split("###")[2];
+    var drive_id=getVar("url").split("?wd=")[1].split("###")[1];
+    var u=getVar("url").split("?wd=")[1].split("###")[0];
+    var 转码链接='http://116.85.31.19:3000/apis/yun-play/'+file_id+'/'+drive_id+'/'+access_token+'/FHD/index.m3u8';
+    JSON.stringify([{name:"原始文件播放",url:u,head:{"User-Agent":"Lavf/58.12.100","Connection":"keep-alive","Referer":"https://www.aliyundrive.com/"}},{name:"转码m3u8可投屏",url:转码链接}]);
 }
 ######文档预览8
 var cm=android.webkit.CookieManager.getInstance();
