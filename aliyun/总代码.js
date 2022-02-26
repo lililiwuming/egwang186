@@ -232,7 +232,7 @@ if(getVar("url").indexOf("$$")!=-1){
             file_data.folder_id=getVar("url").split("?wd=")[1].split("$$")[7];
             file_data.file_id=file_id;file_data.share_id=share_id;file_data.share_pwd=pwd;file_data.expiration="";
             file_data.file_name=getVar("url").split("?wd=")[1].split("$$")[8];
-            var _d=e2Rex(JSON.stringify(file_data),".en(utf8).en64()");
+            var _d=e2Rex(JSON.stringify(file_data),".en(utf8).en64()").replace(/\//g,"$");
             var 转码链接='http://116.85.31.19:3000/apis/yun-play/'+_d+'/'+access_token+'/'+share_token+'/FHD/index.m3u8';
         JSON.stringify([{name:"原始文件播放",url:resp.head.location,head:{"User-Agent":"Lavf/58.12.100","Connection":"keep-alive","Referer":"https://www.aliyundrive.com/"}},{name:"转码m3u8可投屏",url:转码链接,head:{"Referer":"https://www.aliyundrive.com/"}}]);
         }
@@ -255,7 +255,7 @@ alert("请重新登陆阿里云盘网页");
     var file_id=getVar("url").split("?wd=")[1].split("###")[2];
     var drive_id=getVar("url").split("?wd=")[1].split("###")[1];
     var u=getVar("url").split("?wd=")[1].split("###")[0];
-    var 转码链接='http://116.85.31.19:3000/apis/yun-play/'+file_id+'/'+drive_id+'/'+access_token+'/FHD/index.m3u8';
+    var 转码链接='http://116.85.31.19:3000/apis/my-yun-play/'+file_id+'/'+drive_id+'/'+access_token+'/FHD/index.m3u8';
     JSON.stringify([{name:"原始文件播放",url:u,head:{"User-Agent":"Lavf/58.12.100","Connection":"keep-alive","Referer":"https://www.aliyundrive.com/"}},{name:"转码m3u8可投屏",url:转码链接,head:{"Referer":"https://www.aliyundrive.com/"}}]);
 }
 ######文档预览8
