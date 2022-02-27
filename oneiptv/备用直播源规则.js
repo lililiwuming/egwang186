@@ -12,7 +12,7 @@
         "title":"佚名(116.62.110.252)",
         "rule":{
             "分类":'var a=e2Arr(getHttp(JSON.stringify({url:"http://116.62.110.252/ds.html"})),".z(#[^,#]+?头#[\\\\s\\\\S]+?#[^,#]+?尾#)");var items=[];for(var i in a){var title=e2Rex(a[i],".z2(#\\\\([^,#]+?\\\\)头#)");var ul=a[i];var url="q:播放器?url="+title;items.push({title:title,ul:ul,url:url});}JSON.stringify(items);',
-            "选集规则":'var 分类=e2Arr(getVar("CODE"),".json(ul)");var 列表规则=".z(.+?,.+)";var 线路="";var 标题规则=".ty(#).tz(头)";var 选集规则=".tz(,)";var 选集地址规则=".c(http://ip111.cn/?wd=http://www.liuweidianshi.ml/).ty(,)";',
+            "选集规则":'var 分类=e2Arr(getVar("CODE"),".json(ul)");var 列表规则=".z(.+?,.+)";var 线路="";var 标题规则=".ty(#).tz(头)";var 选集规则=".tz(,)";var 选集地址规则=".c(http://ip111.cn/?wd=).ty(,)";',
             "免嗅探规则":'var urls=getVar("url").split("?wd=")[1].split("#").filter(Boolean);var items=[];for(var i in urls){if(urls[i].indexOf("huya.php")!=-1){var u=JZ(JSON.stringify({url:urls[i],redirect:false})).head.Location;}else{var u=urls[i];}items.push({url:u});}JSON.stringify(items);'
         }
     }
