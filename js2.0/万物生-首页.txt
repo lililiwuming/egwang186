@@ -3,11 +3,6 @@
 "title":"网页类",
 "list":[
 {
-"title":"极品影视",
-"url":"https://www.jpysvip.net/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jpyslogo.png"
-},
-{
 "title":"骚火电影",
 "url":"https://saohuotv.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/saohuotv.png"
@@ -49,7 +44,7 @@
 },
 {
 "title":"耐看点播",
-"url":"https://www.nkvob.com/",
+"url":"https://www.lkvob.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nkvod.png"
 },
 {
@@ -138,11 +133,6 @@
 "title":"APP类",
 "list":[
 {
-"title":"HG影视",
-"url":"http://hgyx.vip/api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/HGyingshi.png"
-},
-{
 "title":"雪人",
 "url":"https://zy.qd234.cn/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qd234.png"
@@ -161,11 +151,6 @@
 "title":"饭后电影",
 "url":"http://summ.vip/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/summ.png"
-},
-{
-"title":"侦探影视",
-"url":"http://ys.huangguay.com/mogai_api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zhentanys.png"
 },
 {
 "title":"益达影院",
