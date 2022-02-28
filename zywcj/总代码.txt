@@ -171,7 +171,7 @@ if(标题=="xhzy"){
       //选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
       //选集地址="https://sudu.renrenmi.cc:2021/ku/?url="+选集地址;
       //选集地址="https://jiexi.astv.vip/home/api?type=ys&uid=1&key=free&url="+选集地址;
-      选集地址="https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+选集地址;
+      选集地址="https://jx.blbo.cc:4433/?url="+选集地址;
 }else if(URL.indexOf('fqzy.cc')!=-1){
       选集地址="https://jx.fqzy.cc/jx.php?url="+选集地址;
 }else if(标题=='dym3'){
