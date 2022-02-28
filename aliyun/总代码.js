@@ -218,7 +218,7 @@ if(getVar("url").indexOf("$$")!=-1){
         var resp=JZ(JSON.stringify({url:JSON.parse(code).audio_template_list[JSON.parse(code).audio_template_list.length-1].url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
         JSON.stringify({url:resp.head.location,head:{"User-Agent":"Lavf/58.12.100","Connection":"keep-alive","Referer":"https://www.aliyundrive.com/"}});
     }else{
-    var resp=JZ(JSON.stringify({url:JSON.parse(code).url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
+    //var resp=JZ(JSON.stringify({url:JSON.parse(code).download_url,redirect:false,head:{"Referer":"https://www.aliyundrive.com/"}}));
             var file_data={};
             var 路径=getVar("url").split("?wd=")[1].split("$$")[6];
             var 最后文件夹名=路径.split(";")[路径.split(';').length-2];
@@ -228,7 +228,7 @@ if(getVar("url").indexOf("$$")!=-1){
             file_data.file_name=getVar("url").split("?wd=")[1].split("$$")[8];
             var _d=e2Rex(encodeURI(JSON.stringify(file_data)),".en64()").replace(/\//g,"$");
             var 转码链接='http://116.85.31.19:3000/apis/yun-play/'+_d+'/'+access_token+'/'+share_token+'/FHD/index.m3u8';
-        JSON.stringify([{name:"原始文件播放",url:resp.head.location,head:{"Referer":"https://www.aliyundrive.com/"}},{name:"转码m3u8可投屏",url:转码链接,head:{"Referer":"https://www.aliyundrive.com/"}}]);
+        JSON.stringify([{name:"原始文件播放",url:JSON.parse(code).download_url,head:{"Referer":"https://www.aliyundrive.com/"}},{name:"转码m3u8可投屏",url:转码链接,head:{"Referer":"https://www.aliyundrive.com/"}}]);
     }
     }
 }else{
