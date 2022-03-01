@@ -24,7 +24,7 @@
     "title":"星火资源[qq文档]",
     "rule":{
         "分类":'var a="影视音乐$tab=ppx5bp&subId=ppx5bp&startrow=33#PN#$$电视剧,纪录片$tab=qvnx1e&subId=qvnx1e&startrow=33#PN#$$动漫漫画$tab=kwi9g7&subId=kwi9g7&startrow=33#PN#$$小说.电子书.图片$tab=1nylx9&subId=1nylx9&startrow=33#PN#$$教程.课程.软件$tab=BB08J2&subId=BB08J2&startrow=33#PN#";var a=a.split("$$");var padId="300000000$TzIVdaOubWOP";var items=[];for(var i in a){var title=a[i].split("$")[0];var url="https://docs.qq.com/dop-api/get/sheet?"+a[i].split("$")[1]+"&padId="+padId+"&outformat=1";items.push({title:title,url:url});}JSON.stringify(items);',
-        "列表规则":'var 原始=JSON.parse(getCode()).data.initialAttributedText.text[0][0][0].c[1].filter(item=>items[\'2\']);var 列表=[];for(var i=0;i<原始.length;i=i+3){var title=原始[i][\'2\'][1]+原始[i+1][\'2\'][1];var url=原始[i][\'2\'][1];var detail=title+原始[i+2][\'2\'][1];列表.push({title:title,url:url,detail:detail});}var 地址规则=".json(url)";var 标题规则=".json(url)";var 图片规则=".json(url)";var 简介规则=".json(detail)";var NEXTPAGE="";var PREPAGE="";',
+        "列表规则":'var 原始=JSON.parse(getCode()).data.initialAttributedText.text[0][0][0].c[1].filter(item=>item[\'2\']);var 列表=[];for(var i=0;i<原始.length;i=i+3){var title=原始[i][\'2\'][1]+原始[i+1][\'2\'][1];var url=原始[i][\'2\'][1];var detail=title+原始[i+2][\'2\'][1];列表.push({title:title,url:url,detail:detail});}var 地址规则=".json(url)";var 标题规则=".json(url)";var 图片规则=".json(url)";var 简介规则=".json(detail)";var NEXTPAGE="";var PREPAGE="";',
         "详情规则":'var 正文=getVar("msg");'
     }
 }
