@@ -18,7 +18,13 @@ if (getVar("rurl") != 'null' && getVar("rurl").indexOf(",http") > 1) {
 ######读取远程订阅2
 eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'), '.dn64()'));
 var filename = '资源采集远程索引.txt';
-var code = _.read(filename).match(/.+?,.+/g);
+if (_.read(filename)) {
+  var code = _.read(filename).match(/.+?,.+/g);
+} else {
+  var data = "内置,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zywcj/资源网采集.txt";
+  _.write(data, filename);
+  var code = _.read(filename).match(/.+?,.+/g);
+}
 var items = [];
 for (var i in code) {
   var title = code[i].split(",")[0];
