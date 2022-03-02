@@ -148,7 +148,14 @@ for(var i=0;i<urls.length;i++){
 }
 JSON.stringify(items);
 }else{
-JSON.stringify({url:uu});
+    if(uu.indexOf("huya.php")!=-1){
+        var u=JZ(JSON.stringify({url:uu,redirect:false})).head.Location;
+    }else if(uu.indexOf(".mp4")==-1&&uu.indexOf(".m3u8")==-1&&uu.indexOf("?")==-1){
+        var u=uu+"?type=.m3u8";
+    }else{
+        var u=uu;
+    }
+JSON.stringify({url:u});
 }
 ######管理订阅7
 eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
