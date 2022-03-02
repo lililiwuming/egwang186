@@ -113,6 +113,13 @@ if(code.indexOf("#genre#")!=-1){
     var 标题规则=".tz(#genre#)";
     var 选集规则=".z(.+).ty(,)";
     var 选集地址规则=".c(http://ip111.cn/?wd=).z2(,.+[\\s]+?\\(.+\\))";选集列表();
+}else if(code.search(/\$c_start.+?\$c_end/)!=-1){
+    var 分类=code.split(/\$c_start.+?\$c_end/).filter(item=>item.indexOf("://")!=-1);
+    var 线路=code.match(/\$c_start.+?\$c_end/g);
+    var 列表规则=".z(.+?,.+)";
+    var 标题规则=".ty(c_start).tz($c_end)";
+    var 选集地址规则=".c(http://ip111.cn/?wd=).ty(,)";
+    var 选集规则=".tz(,)";选集列表();
 }else{
     var code=code.match(/.+?,.+/g);
     var head=[];head.push(getVar("name")+"#genre#");
