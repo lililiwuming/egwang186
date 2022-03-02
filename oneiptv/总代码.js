@@ -139,7 +139,7 @@ var items=[];
 for(var i=0;i<urls.length;i++){
     if(urls[i].indexOf("huya.php")!=-1){
         var u=JZ(JSON.stringify({url:urls[i],redirect:false})).head.Location;
-    }else if(urls[i].indexOf(".mp4")==-1&&urls[i].indexOf(".m3u8")==-1&&urls[i].indexOf("?")==-1){
+    }else if(urls[i].split(/.+\//)[1].indexOf(".")==-1&&urls[i].indexOf("?")==-1){
         var u=urls[i]+"?type=.m3u8";
     }else{
         var u=urls[i];
@@ -150,7 +150,7 @@ JSON.stringify(items);
 }else{
     if(uu.indexOf("huya.php")!=-1){
         var u=JZ(JSON.stringify({url:uu,redirect:false})).head.Location;
-    }else if(uu.indexOf(".mp4")==-1&&uu.indexOf(".m3u8")==-1&&uu.indexOf("?")==-1){
+    }else if(uu.split(/.+\//)[1].indexOf(".")==-1&&uu.indexOf("?")==-1){
         var u=uu+"?type=.m3u8";
     }else{
         var u=uu;
