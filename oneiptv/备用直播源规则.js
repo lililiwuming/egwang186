@@ -1,11 +1,11 @@
 ######备用数据1
 {"data":[
     {
-       "title":"六维TV",
+       "title":"推荐订阅",
        "rule":{
-            "分类":'var a=e2Arr(getHttp(JSON.stringify({url:"http://www.liuweidianshi.ml/m.php"})),".get(section.module-boxA)");var items=[];for(var i in a){var title=e2Rex(a[i],".get(h3).t()");var ul=a[i];var url="q:播放器?url="+title;items.push({title:title,ul:ul,url:url});}JSON.stringify(items);',
-            "选集规则":'var 分类=e2Arr(getVar("CODE"),".json(ul).get(section)");var 列表规则=".get(ul li)";var 线路="";var 标题规则=".get(h3).t()";var 选集规则=".get(a).t()";var 选集地址规则=".c(http://ip111.cn/?wd=http://www.liuweidianshi.ml/).get(a).a(href)";',
-            "免嗅探规则":'var u=e2Rex(getHttp(getVar("url").split("?wd=")[1]),".get(video).a(src)");if(u.indexOf("huya.php")!=-1){u=JZ(JSON.stringify({url:u,redirect:false})).head.Location;}JSON.stringify({url:u});'
+            "分类":'var a="央卫0$https://cdn.jsdelivr.net/gh/wudongdefeng/za@master/wind/0.txt$$地方iptv$https://cdn.jsdelivr.net/gh/wudongdefeng/za@master/wind/iptv.txt$$六维综合$https://cdn.jsdelivr.net/gh/wudongdefeng/za@master/wind/liuwei.txt$$综合直播$http://139.9.166.60/iptv/CR.txt";var a=a.split("$$");var items=[];for(var i in a){var title=a[i].split("$")[0];var url=a[i].split("$")[1];items.push({title:title,url:"q:自定义播放器?url=远程$$"+url});}JSON.stringify(items);',
+            "选集规则":'',
+            "免嗅探规则":''
        }
     },
     {
