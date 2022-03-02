@@ -97,7 +97,7 @@ function 选集列表(){
     return JSON.stringify(res);
 }
 if(code.indexOf("#genre#")!=-1){
-    var 分类=code.split(/.+?#genre#.*/).filter(Boolean);
+    var 分类=code.split(/.+?#genre#.*/).filter(item=>item.indexOf("://")!=-1);
     var 线路=code.match(/.+?#genre#.*/g);
     var 列表规则=".z(.+?,.+)";
     var 标题规则=".tz(#genre#)";
