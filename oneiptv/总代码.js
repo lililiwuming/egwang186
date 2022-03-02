@@ -132,16 +132,23 @@ if(code.indexOf("#genre#")!=-1){
     var 选集地址规则=".c(http://ip111.cn/?wd=).ty(,)";选集列表();
 }
 ######免嗅探6
-var u=getVar("url").split("/?wd=")[1];
-if(u.indexOf("#")!=-1){
-var list=u.split("#");
+var uu=getVar("url").split("/?wd=")[1];
+if(uu.indexOf("#")!=-1){
+var urls=uu.split("#");
 var items=[];
-for(var i=0;i<list.length;i++){
-items.push({url:list[i]});
+for(var i=0;i<urls.length;i++){
+    if(urls[i].indexOf("huya.php")!=-1){
+        var u=JZ(JSON.stringify({url:urls[i],redirect:false})).head.Location;
+    }else if(urls[i].indexOf(".mp4")==-1&&urls[i].indexOf(".m3u8")==-1&&urls[i].indexOf("?")==-1){
+        var u=urls[i]+"?type=.m3u8";
+    }else{
+        var u=urls[i];
+    }
+    items.push({url:u}); 
 }
 JSON.stringify(items);
 }else{
-JSON.stringify({url:u});
+JSON.stringify({url:uu});
 }
 ######管理订阅7
 eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
