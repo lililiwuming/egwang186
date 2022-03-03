@@ -293,6 +293,8 @@ var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规
 var uu=getVar("url");
 if(uu.indexOf("tv.hfys8.vip/")!=-1){
     uu="https://jx.hfkj.ltd/hfwlo.php?url="+uu.split("?url=")[1];
+}else if(uu.indexOf("1080p.one/mogai_api.php/v1.api/index?list=")!=-1){
+    uu="https://zy.youhuima.vip/?url="+uu.split("?url=")[1];
 }
 if(uu.indexOf("nfmovies.com")!=-1){
 var UA="Mozilla/5.0";
