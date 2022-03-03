@@ -3,11 +3,6 @@
 "title":"网页类",
 "list":[
 {
-"title":"极品影视",
-"url":"https://www.jpysvip.net/",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jpyslogo.png"
-},
-{
 "title":"骚火电影",
 "url":"https://saohuotv.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/saohuotv.png"
