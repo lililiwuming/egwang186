@@ -44,7 +44,7 @@
 },
 {
 "title":"耐看点播",
-"url":"https://www.lkvob.com/",
+"url":"https://www.lkvod.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nkvod.png"
 },
 {
