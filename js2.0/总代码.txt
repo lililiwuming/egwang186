@@ -293,8 +293,6 @@ var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规
 var uu=getVar("url");
 if(uu.indexOf("tv.hfys8.vip/")!=-1){
     uu="https://jx.hfkj.ltd/hfwlo.php?url="+uu.split("?url=")[1];
-}else if(uu.indexOf("1080p.one/mogai_api.php/v1.api/index?list=")!=-1){
-    uu="https://zy.youhuima.vip/?url="+uu.split("?url=")[1];
 }
 if(uu.indexOf("nfmovies.com")!=-1){
 var UA="Mozilla/5.0";
@@ -446,6 +444,9 @@ var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.c
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
 JSON.stringify({url:uuuu});*/
 "web=https://jhpc.manduhu.com/duoduo/?url="+playurl+'@{"Referer":"https://555dy3.com"}';
+}else if(playurl.indexOf("1080p.one/mogai_api.php/v1.api/Index?list=")!=-1){
+    uu="https://zy.youhuima.vip/?url="+playurl.split("url=")[1];
+    "web="+uu;
 }else if(playurl.indexOf("ruifenglb.com")!=-1){
     "web="+playurl;
 }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
