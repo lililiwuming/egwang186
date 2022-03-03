@@ -938,7 +938,8 @@ var 标题规则=".json(vod_name)";
 if(URL.indexOf("iopenyun.com")!=-1){
 var 地址规则=".c(/detailID?vod_id=).json(vod_id)"; 
 }else{
-var 地址规则=".c(/detail?vod_id=).json(vod_id)";
+    var 日期=e2Rex(getVar("TIME_"),".time(MMdd)");
+var 地址规则=".c(/detail?vod_id=).json(vod_id)"+"&key="+日期;
 }
 var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";普通列表();
 }else if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v")!=-1){
