@@ -193,11 +193,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/meinaikang.png"
 },
 {
-"title":"瑞丰资源",
-"url":"https://tv.yjhan.com:4433/api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ruifeng.png"
-},
-{
 "title":"独播社",
 "url":"http://35ys.cc/api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/35ys.png"
