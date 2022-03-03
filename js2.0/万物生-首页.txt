@@ -184,7 +184,7 @@
 },
 {
 "title":"1080P影视",
-"url":"https://1080p.tv/api.php/v1.vod/vodPhbAll",
+"url":"https://1080p.one/mogai_api.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/1080PTV.png"
 },
 {
