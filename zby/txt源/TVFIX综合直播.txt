@@ -1,3 +1,4 @@
+央视,#genre#
 CCTV-4K超高清,http://iptv.tvfix.org/hls/cctv4k.m3u8
 CCTV-1高清,http://iptv.tvfix.org/hls/cctv1hd.m3u8
 CCTV-1HK版高清,http://iptv.tvfix.org/hls/cctv1hdhk.m3u8
@@ -24,6 +25,7 @@ CGTN法语高清,http://iptv.tvfix.org/hls/cgtnfhd.m3u8
 CGTN俄语高清,http://iptv.tvfix.org/hls/cgtnehd.m3u8
 CGTN阿拉伯语高清,http://iptv.tvfix.org/hls/cgtnahd.m3u8
 CGTN西班牙语高清,http://iptv.tvfix.org/hls/cgtnxhd.m3u8
+卫视,#genre#
 北京卫视高清,http://iptv.tvfix.org/hls/brtv1hd.m3u8
 湖南卫视高清,http://iptv.tvfix.org/hls/hunanhd.m3u8
 浙江卫视高清,http://iptv.tvfix.org/hls/zjhd.m3u8
@@ -49,6 +51,7 @@ CGTN西班牙语高清,http://iptv.tvfix.org/hls/cgtnxhd.m3u8
 中国教育电视台1高清,http://iptv.tvfix.org/hls/cetv1hd.m3u8
 海南卫视高清,http://iptv.tvfix.org/hls/lyhd.m3u8
 贵州卫视高清,http://iptv.tvfix.org/hls/gzhd.m3u8
+地方,#genre#
 北京文艺高清,http://iptv.tvfix.org/hls/brtv2hd.m3u8
 北京科教高清,http://iptv.tvfix.org/hls/brtv3hd.m3u8
 北京影视高清,http://iptv.tvfix.org/hls/brtv4hd.m3u8
@@ -78,6 +81,7 @@ CHC动作电影,http://iptv.tvfix.org/hls/chcatv.m3u8
 优漫卡通,http://iptv.tvfix.org/hls/ymkttv.m3u8
 新动漫,http://iptv.tvfix.org/hls/xdmtv.m3u8
 足球频道,http://iptv.tvfix.org/hls/zqhd.m3u8
+香港,#genre#
 翡翠台(第1声道繁体),http://iptv.tvfix.org/hls/jade.m3u8
 翡翠台(第2声道简体),http://iptv.tvfix.org/hls/jade2.m3u8
 翡翠台海外版(粤语繁体),http://iptv.tvfix.org/hls/jadenhk.m3u8
