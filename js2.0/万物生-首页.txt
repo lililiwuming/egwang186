@@ -248,11 +248,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/aixixi.png"
 },
 {
-"title":"小极TV",
-"url":"http://api.8d8q.com/mmv/api.php/Chengcheng/vod/?ac=list&class=&start=&area=&type=&page=1",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/8d8q.png"
-},
-{
 "title":"聚多影视",
 "url":"http://jdyy.weetai.cn/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/juduo.png"
