@@ -143,11 +143,6 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/baipiaoys.png"
 },
 {
-"title":"雪人",
-"url":"https://zy.qd234.cn/mogai_api.php/v1.vod/vodPhbAll",
-"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/qd234.png"
-},
-{
 "title":"南府追剧",
 "url":"http://iapp.nfuxs.club/dnmb.php/v1.vod/vodPhbAll",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/nanfuzhuijumao.png"
