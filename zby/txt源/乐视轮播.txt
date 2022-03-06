@@ -1,7 +1,3 @@
-乐视_动作电影,http://api.idianshijia.com/gslb/live?stream_id=lsloop_dongwu&type=.m3u8
-乐视_经典电影,http://api.idianshijia.com/gslb/live?stream_id=lsloop_dianying&type=.m3u8
-乐视_综艺节目,http://api.idianshijia.com/gslb/live?stream_id=lsloop_zongyi&type=.m3u8
-乐视_喜剧电影,http://api.idianshijia.com/gslb/live?stream_id=lsloop_xiju&type=.m3u8
 〈企鹅国外影院〉,http://111.6.232.36/txpcdn.liveplay.egame.qq.com/live/3954_382971876.m3u8
 〈企鹅国内影院〉,http://111.6.232.36/txpcdn.liveplay.egame.qq.com/live/3954_199681168.m3u8
 〈企鹅恐怖影院〉,http://111.6.232.36/txpcdn.liveplay.egame.qq.com/live/3954_363783415.m3u8
