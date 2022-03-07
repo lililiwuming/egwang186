@@ -333,7 +333,7 @@ var _token_key = CryptoJS.enc.Utf8.parse("A42EAC0C2B408472");
 var _token_iv = CryptoJS.enc.Utf8.parse(le_token);
 var 解密地址=CryptoJS.AES.decrypt(加密地址,_token_key,{'iv':_token_iv}).toString(CryptoJS.enc.Utf8);
 var UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36";
-JSON.stringify({url:解密地址,head:{"Referer":"https://www.xing1.vip","User-Agent":UA}});
+JSON.stringify({url:解密地址+"&type=.mp4",head:{"Referer":"https://www.xing1.vip","User-Agent":UA}});
 }else if(uu.indexOf("mgtv.com.byteamone.cn")!=-1){
 var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,head:{"Referer":"","User-Agent":"Mozilla/5.0"}});
