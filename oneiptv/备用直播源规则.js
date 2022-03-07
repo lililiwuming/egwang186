@@ -13,7 +13,7 @@
         "rule":{
              "分类":'var a=e2Arr(getHttp(JSON.stringify({url:"http://jiekou.cf/m.php"})),".get(section.module-boxA)");var items=[];for(var i in a){var title=e2Rex(a[i],".get(h3).t()");var ul=a[i];var url="q:播放器?url="+title;items.push({title:title,ul:ul,url:url});}JSON.stringify(items);',
              "选集规则":'var 分类=e2Arr(getVar("CODE"),".json(ul).get(section)");var 列表规则=".get(ul li)";var 线路="";var 标题规则=".get(h3).t()";var 选集规则=".get(a).t()";var 选集地址规则=".c(http://ip111.cn/?wd=http://jiekou.cf/).get(a).a(href)";',
-             "免嗅探规则":'var u=e2Rex(getHttp(getVar("url").split("?wd=")[1]),".get(video).a(src)");if(u.indexOf(".php")!=-1){u=JZ(JSON.stringify({url:u,redirect:false})).head.Location;}JSON.stringify({url:u});'
+             "免嗅探规则":'var u=e2Rex(getHttp(getVar("url").split("?wd=")[1]),".get(video).a(src)");var uu=u;while(uu.indexOf(".php")!=-1){var resp=JZ(JSON.stringify({url:uu,redirect:false}));var uu=resp.head.Location||resp.head.location;}JSON.stringify({url:uu});'
         }
     },
     {
