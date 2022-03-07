@@ -58,6 +58,11 @@
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/jumi.png"
 },
 {
+"title":"在线之家",
+"url":"https://www.zxzjtv.com/",
+"img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/zxzj.png"
+},
+{
 "title":"TVB云播",
 "url":"http://www.tvyb02.com/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/tvblogo.png"
