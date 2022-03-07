@@ -163,6 +163,7 @@ if(标题=="xhzy"){
 }else if(标题.indexOf("taiyi")!=-1){
   选集地址="https://jx.cyu0.cn/?url="+选集地址;
 }else if(标题.indexOf("x1play")!=-1){
+      //选集地址="https://www.xing1.vip/player/dp/?url="+选集地址;
   选集地址="https://play.xing1.club/dm.php?url="+选集地址;
 }else if(标题.indexOf("xfyun")!=-1){
   选集地址="https://www.baidu.com/s?wd=https://www.ml0513.com/?url="+选集地址;
