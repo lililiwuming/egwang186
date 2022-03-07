@@ -113,16 +113,16 @@ if(标题=="xhzy"){
 }else if(URL.indexOf("api.yunboys.cn")!=-1){
       选集地址="https://jx.yunboys.cn/?url="+选集地址;
 }else if(URL.indexOf("ttky8.com")!=-1){
-      选集地址="https://www.baidu.com/s?wd="+选集地址;
+      选集地址="http://ip111.cn/?wd="+选集地址;
 }else if(标题.indexOf("Tcm3u8")!=-1){
-      选集地址="https://www.baidu.com/s?wd=https://api.iopenyun.com:88/vips/?url="+选集地址;
+      选集地址="http://ip111.cn/?wd=https://api.iopenyun.com:88/vips/?url="+选集地址;
 }else if(URL.indexOf("ujuba.com")!=-1){
       选集地址="https://www.dmplay.xyz/j0?url="+选集地址;
 }else if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1||选集地址.indexOf("share.weiyun.")!=-1){
       选集地址="http://1.117.152.239:39000/?url="+选集地址;
 }else if(选集地址.indexOf(":6688/player")!=-1){
       var hash=选集地址.split("player/")[1];
-      选集地址="https://www.baidu.com/s?wd=https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
+      选集地址="http://ip111.cn/?wd=https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
 }else if(URL.indexOf("api.yparse.com")!=-1){
       选集地址="https://yparse.jn1.cc/index.php?url="+选集地址;
 }else if(标题.indexOf("rrm3u8")!=-1){
@@ -134,7 +134,7 @@ if(标题=="xhzy"){
   //选集地址="http://jx.yinliub.cn/home/api?type=ys&uid=51213&key=chiprvyFHJNOTUVZ39&url="+选集地址;
   选集地址="https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+选集地址;
 }else if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
-      选集地址="https://www.baidu.com/s?wd="+选集地址;
+      选集地址="http://ip111.cn/?wd="+选集地址;
 }else if(URL.indexOf("qbzyz.com")!=-1){
       if(选集地址.indexOf("//")!=-1){
       选集地址="http:"+选集地址;
@@ -146,7 +146,7 @@ if(标题=="xhzy"){
 }else if(标题=="mao"){
       选集地址="http://app.sxmj.wang/player.php?url="+选集地址;
 }else if(标题=="4kdym"||标题=="8kvod"){
-      选集地址="https://www.baidu.com/s?wd="+decodeURIComponent(选集地址);
+      选集地址="http://ip111.cn/?wd="+decodeURIComponent(选集地址);
 }else if(标题=="789pan"||标题=="pll"){
       选集地址="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+选集地址;
 }else if(标题=="zbkplayer"){
@@ -163,10 +163,9 @@ if(标题=="xhzy"){
 }else if(标题.indexOf("taiyi")!=-1){
   选集地址="https://jx.cyu0.cn/?url="+选集地址;
 }else if(标题.indexOf("x1play")!=-1){
-  选集地址="https://www.xing1.vip/player/dp/?url="+选集地址;
-  //选集地址="https://play.xing1.club/dm.php?url="+选集地址;
+  选集地址="http://ip111.cn/?wd=https://www.xing1.vip/player/dp/?url="+选集地址;
 }else if(标题.indexOf("xfyun")!=-1){
-  选集地址="https://www.baidu.com/s?wd=https://www.ml0513.com/?url="+选集地址;
+  选集地址="http://ip111.cn/?wd=https://www.ml0513.com/?url="+选集地址;
 }else if(标题=="renrenmi"){
       //选集地址="http://www.1080kan.cc/jiexi/rrmi.php?url="+选集地址+'@{"Referer":"http://www.1080kan.cc/"}';
       //选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
@@ -176,7 +175,7 @@ if(标题=="xhzy"){
 }else if(URL.indexOf('fqzy.cc')!=-1){
       选集地址="https://jx.fqzy.cc/jx.php?url="+选集地址;
 }else if(标题=='dym3'){
-      选集地址="https://www.baidu.com/s?wd=https://1.m3u8.shop/m3u8.php?url="+选集地址;
+      选集地址="http://ip111.cn/?wd=https://1.m3u8.shop/m3u8.php?url="+选集地址;
 }else if(标题=="rx"){
       选集地址="https://jx8.2692222.com/?url="+选集地址;
 }else if(URL.indexOf('zy.7kjx.com')!=-1){
@@ -197,10 +196,10 @@ if(标题=="xhzy"){
       if(标题=='hkm3u8'){
       选集地址="https://jxn.dxsdkw.cn/jm/x2.php?id="+选集地址+'@{"referer":"http://www.tvyb02.com/"}';
       }else if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
-      选集地址="https://www.baidu.com/s?wd="+选集地址;
+      选集地址="http://ip111.cn/?wd="+选集地址;
       }else if(标题=='banyun'||标题=='yunbo'){
       var playurl="https://www.mayigq.com/vodzip/player.php?vid="+选集地址;
-      选集地址="https://www.baidu.com/s?wd="+playurl;
+      选集地址="http://ip111.cn/?wd="+playurl;
       }
 }
 //结束判断
@@ -325,22 +324,13 @@ var realurl=getVideoInfo(加密链接);
 JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Origin":"https://play.ekvod.com","Referer":""}});
 }else if(uu.indexOf("yparse.jn1.cc/index.php")!=-1||uu.indexOf("dmplay.xyz/j0?url=")!=-1){
 "web="+uu;
-}else if(uu.indexOf("xing1.vip/player")!=-1){
-var resp=getHttp(uu);
-var le_token=resp.match(/le_token.+?"(.+?)"/)[1];
-var 加密地址=resp.match(/var config[\s\S]*?"url".*?"(.*?)"/)[1];
-var _token_key = CryptoJS.enc.Utf8.parse("A42EAC0C2B408472");
-var _token_iv = CryptoJS.enc.Utf8.parse(le_token);
-var 解密地址=CryptoJS.AES.decrypt(加密地址,_token_key,{'iv':_token_iv}).toString(CryptoJS.enc.Utf8);
-var UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36";
-JSON.stringify({url:解密地址+"&type=.mp4",head:{"Referer":"https://www.xing1.vip","User-Agent":UA}});
 }else if(uu.indexOf("mgtv.com.byteamone.cn")!=-1){
 var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,head:{"Referer":"","User-Agent":"Mozilla/5.0"}});
 }else if(uu.indexOf("hjjjjhd.top")!=-1){
 var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,head:{"Referer":uu}});
-}else if(uu.indexOf("https://www.baidu.com/s?wd=")!=-1){
+}else if(uu.indexOf("http://ip111.cn/?wd=")!=-1){
 var playurl=uu.split("wd=")[1];
 if(playurl.indexOf("http://1.117.152.239:39000/jiexi.php?url=")!=-1){
 var resp=JZ(JSON.stringify({url:playurl}));
@@ -349,6 +339,15 @@ resp.code;
 var RF="https://www.psinu.com/static/player/aliplayer.html";
 var real=decodeURI(playurl);
 JSON.stringify({url:real,head:{"Referer":RF,"User-Agent":"Mozilla/5.0 Windows NT 10.0"}});
+}else if(playurl.indexOf("xing1.vip/player")!=-1){
+var resp=getHttp(playurl);
+var le_token=resp.match(/le_token.+?"(.+?)"/)[1];
+var 加密地址=resp.match(/var config[\s\S]*?"url".*?"(.*?)"/)[1];
+var _token_key = CryptoJS.enc.Utf8.parse("A42EAC0C2B408472");
+var _token_iv = CryptoJS.enc.Utf8.parse(le_token);
+var 解密地址=CryptoJS.AES.decrypt(加密地址,_token_key,{'iv':_token_iv}).toString(CryptoJS.enc.Utf8);
+var UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36";
+JSON.stringify({url:解密地址+"&type=.mp4",head:{"Referer":"","User-Agent":UA}});
 }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
 "web="+playurl;
 }else if(playurl.indexOf("SSPLUS_SSPLUS_SS")!=-1){
