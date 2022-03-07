@@ -338,7 +338,7 @@ var resp=JZ(JSON.stringify({url:playurl}));
 resp.code;
 }else if(playurl.indexOf("dxcc.meitutt.top")!=-1){
 var RF="https://www.psinu.com/static/player/aliplayer.html";
-JSON.stringify({url:playurl,head:{"Referer":RF}});  
+JSON.stringify({url:playurl,head:{"Referer":RF,"User-Agent":"Mozilla/5.0"}});  
 }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
 "web="+playurl;
 }else if(playurl.indexOf("SSPLUS_SSPLUS_SS")!=-1){
