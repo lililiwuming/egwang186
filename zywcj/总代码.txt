@@ -54,8 +54,8 @@ for(var j=0;j<LIMIT;j++){
     }else{
     var 图片=getVar("url").match(/https?:\/\/.+?\//)[0]+预图片;
     }
-    if(baseURL.indexOf("ycccyk.cn")!=-1){
-    var 图片=图片+'@{"user-Agent":"Mozilla/5.0","referer":"http://m.yccyk.cn"}';
+    if(图片.indexOf("puui.qpic.cn/")!=-1){
+    var 图片=图片+'@{"Referer":"https://v.qq.com/"}';
     }
     var 简介=e2Rex(CODE,简介规则);
     var 图片底部=e2Rex(CODE,图片底部规则);
