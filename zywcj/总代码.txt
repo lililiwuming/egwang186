@@ -327,7 +327,7 @@ JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Origin":"https://p
 "web="+uu;
 }else if(uu.indexOf("mgtv.com.byteamone.cn")!=-1){
 var playurl=uu.split("url=")[1];
-JSON.stringify({url:playurl,headers:{"referer":"","user-agent":"Mozilla/5.0"}});
+JSON.stringify({url:playurl,head:{"Referer":"","User-Agent":"Mozilla/5.0"}});
 }else if(uu.indexOf("hjjjjhd.top")!=-1){
 var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,head:{"Referer":uu}});
@@ -338,7 +338,7 @@ var resp=JZ(JSON.stringify({url:playurl}));
 resp.code;
 }else if(playurl.indexOf("dxcc.meitutt.top")!=-1){
 var RF="https://www.psinu.com/static/player/aliplayer.html";
-JSON.stringify({url:playurl,head:{"Referer":RF,"User-Agent":"Mozilla/5.0"}});  
+JSON.stringify({url:unescape(playurl),head:{"Referer":RF,"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36"}});  
 }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
 "web="+playurl;
 }else if(playurl.indexOf("SSPLUS_SSPLUS_SS")!=-1){
