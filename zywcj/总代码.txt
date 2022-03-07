@@ -177,7 +177,7 @@ if(标题=="xhzy"){
 }else if(标题=='dym3'){
       选集地址="http://ip111.cn/?wd=https://1.m3u8.shop/m3u8.php?url="+选集地址;
 }else if(标题=="rx"){
-      选集地址="https://tc.yuanmajs.cn/jxplayer.php?v="+选集地址;
+      选集地址="http://ip111.cn/?wd=https://tc.yuanmajs.cn/jxplayer.php?v="+选集地址;
 }else if(URL.indexOf('zy.7kjx.com')!=-1){
       选集地址="https://jx.xmflv.vip/?url="+选集地址;
 }else if(标题.indexOf('leduo')!=-1){
@@ -339,6 +339,11 @@ resp.code;
 var RF="https://www.psinu.com/static/player/aliplayer.html";
 var real=decodeURI(playurl);
 JSON.stringify({url:real,head:{"Referer":RF,"User-Agent":"Mozilla/5.0 Windows NT 10.0"}});
+}else if(playurl.indexOf("tc.yuanmajs.cn/jxplayer.php")!=-1){
+var resp=getHttp(playurl);
+var realurl=e2Rex(resp,".get(video).a(src)");
+var UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36";
+JSON.stringify({url:realurl,head:{"Origin":"https://tc.yuanmajs.cn","User-Agent":UA}});
 }else if(playurl.indexOf("xing1.vip/player")!=-1){
 var resp=getHttp(playurl);
 var le_token=resp.match(/le_token.+?"(.+?)"/)[1];
