@@ -316,7 +316,7 @@ JSON.stringify({url:DATA});
 }else if(DATA.indexOf("zxh.la/zxzj.php?vid=")!=-1){
 var code=JZ(JSON.stringify({url:DATA,redirect:false}));
 JSON.stringify({url:code.head.location});
-}else{
+}else if(DATA.indexOf("http")!=-1){
 var code=JZ(JSON.stringify({url:DATA,head:{'referer':uu}})).code.match(/var url.*?'(.*?)'/)[1];
 code=code.split('').reverse().join('');
 let temp="";
@@ -325,6 +325,8 @@ temp += String.fromCharCode(parseInt(code[i] + code[i + 0x1], 0x10))
 }
 var playurl=temp.substring(0x0, (temp.length - 0x6) / 0x2) + temp.substring((temp.length - 0x6) / 0x2 + 0x6);
 JSON.stringify({url:playurl,head:{"User-Agent":"Mozilla/5.0"}});
+}else{
+"web="+uu;
 }
 }else if(uu.indexOf("czspp.com")!=-1){
 if(resp.code.indexOf("<iframe")!=-1){
