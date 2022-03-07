@@ -117,7 +117,7 @@ if(标题=="xhzy"){
 }else if(标题.indexOf("Tcm3u8")!=-1){
       选集地址="https://www.baidu.com/s?wd=https://api.iopenyun.com:88/vips/?url="+选集地址;
 }else if(URL.indexOf("ujuba.com")!=-1){
-      选集地址="https://zy.ujuba.com/play.php?url="+选集地址;
+      选集地址="https://www.dmplay.xyz/j0?url="+选集地址;
 }else if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1||选集地址.indexOf("share.weiyun.")!=-1){
       选集地址="http://1.117.152.239:39000/?url="+选集地址;
 }else if(选集地址.indexOf(":6688/player")!=-1){
@@ -330,12 +330,15 @@ var playurl=uu.split("url=")[1];
 JSON.stringify({url:playurl,headers:{"referer":"","user-agent":"Mozilla/5.0"}});
 }else if(uu.indexOf("hjjjjhd.top")!=-1){
 var playurl=uu.split("url=")[1];
-JSON.stringify({url:playurl,headers:{"referer":uu}});
+JSON.stringify({url:playurl,head:{"Referer":uu}});
 }else if(uu.indexOf("https://www.baidu.com/s?wd=")!=-1){
 var playurl=uu.split("wd=")[1];
 if(playurl.indexOf("http://1.117.152.239:39000/jiexi.php?url=")!=-1){
 var resp=JZ(JSON.stringify({url:playurl}));
 resp.code;
+}else if(playurl.indexOf("dxcc.meitutt.top")!=-1){
+var RF="https://www.psinu.com/static/player/aliplayer.html";
+JSON.stringify({url:playurl,head:{"Referer":RF}});  
 }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
 "web="+playurl;
 }else if(playurl.indexOf("SSPLUS_SSPLUS_SS")!=-1){
