@@ -339,7 +339,7 @@ resp.code;
 }else if(playurl.indexOf("dxcc.meitutt.top")!=-1){
 var RF="https://www.psinu.com/static/player/aliplayer.html";
 var real=decodeURI(playurl);alert(real);
-JSON.stringify({url:real,head:{"Referer":RF,"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36"}});
+JSON.stringify({url:real,head:{"Referer":RF,"User-Agent":"Mozilla/5.0 Windows NT 10.0"}});
 }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
 "web="+playurl;
 }else if(playurl.indexOf("SSPLUS_SSPLUS_SS")!=-1){
