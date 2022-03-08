@@ -69,7 +69,7 @@
 },
 {
 "title":"牛马TV",
-"url":"http://www.niumatv.com/",
+"url":"https://www.jubaibai.cc/",
 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/niumatv.png"
 },
 {
