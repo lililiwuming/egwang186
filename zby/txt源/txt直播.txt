@@ -20,6 +20,7 @@ iHot,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/i
 MV歌曲,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/MV歌曲.txt
 其他网络直播,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/其他网络直播.txt
 ADULT,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/国外成人台.txt
+Geniuses-Line,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/Geniuses-Line.txt
 #
 HSTV
 安博-台湾18https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zby/txt源/安博/安博-台湾18.txt
