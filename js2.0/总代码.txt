@@ -911,7 +911,7 @@ var 标题规则=".get(div.video-name a).t()";var 地址规则=".get(div.video-n
 }else if(URL.indexOf("1080mi.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");
 var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";
-单项列表();
+普通列表();
 }else if(URL.indexOf("waijumi.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.hl-list-item)");
 var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c()";普通列表();
