@@ -227,9 +227,13 @@ if(URL.indexOf("duboku.fun")!=-1||URL.indexOf("ikan6.vip")!=-1||URL.indexOf("cok
     var 列表=e2Arr(getVar("源码"),".get(li[class~=col-md-\\d col-sm-4 col-xs-3])");
     }
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";单项列表();
-}else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukanju.com")!=-1||URL.indexOf("lkvod.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1||URL.indexOf("longtengzy.cn")!=-1||URL.indexOf("msdv.cn")!=-1||URL.indexOf("1080mi.com")!=-1||URL.indexOf("kutv.cc")!=-1||URL.indexOf("ekvod.com")!=-1||URL.indexOf("bidiys.cc")!=-1){
+}else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukanju.com")!=-1||URL.indexOf("lkvod.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1||URL.indexOf("longtengzy.cn")!=-1||URL.indexOf("msdv.cn")!=-1||URL.indexOf("kutv.cc")!=-1||URL.indexOf("ekvod.com")!=-1||URL.indexOf("bidiys.cc")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(div.module-item)");
 var 标题规则=".get(div.video-name a).t()";var 地址规则=".get(div.video-name a).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".get(div.module-item-text).t().c().get(span).st().t()";
+单项列表();
+}else if(URL.indexOf("1080mi.com")!=-1){
+var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");
+var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";
 单项列表();
 }else if(URL.indexOf("waijumi.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.hl-list-item)");
@@ -900,10 +904,14 @@ if(URL.indexOf("duboku.fun")!=-1||URL.indexOf("ikan6.vip")!=-1||URL.indexOf("cok
     }
 var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";
 普通列表();
-}else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukanju.com")!=-1||URL.indexOf("lkvod.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1||URL.indexOf("longtengzy.cn")!=-1||URL.indexOf("msdv.cn")!=-1||URL.indexOf("1080mi.com")!=-1||URL.indexOf("kutv.cc")!=-1||URL.indexOf("ekvod.com")!=-1||URL.indexOf("bidiys.cc")!=-1){
+}else if(URL.indexOf("cms.7a11l.cn")!=-1||URL.indexOf("vdxj.net")!=-1||URL.indexOf("jiujiukanju.com")!=-1||URL.indexOf("lkvod.com")!=-1||URL.indexOf("hszbj.net")!=-1||URL.indexOf("dcds.ml")!=-1||URL.indexOf("longtengzy.cn")!=-1||URL.indexOf("msdv.cn")!=-1||URL.indexOf("kutv.cc")!=-1||URL.indexOf("ekvod.com")!=-1||URL.indexOf("bidiys.cc")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(div.module-item)");
 var 标题规则=".get(div.video-name a).t()";var 地址规则=".get(div.video-name a).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".get(div.module-item-text).t().c().get(span).st().t()";
 普通列表();
+}else if(URL.indexOf("1080mi.com")!=-1){
+var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");
+var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";
+单项列表();
 }else if(URL.indexOf("waijumi.com")!=-1){
 var 列表=e2Arr(getVar("源码"),".get(li.hl-list-item)");
 var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c()";普通列表();
