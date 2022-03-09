@@ -5,7 +5,7 @@
             {
                 "title":"骚火电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/saohuotv.png",
-                "分类地址":"https://saohuotv.com/list/#分类#-#PN#.html",
+                "分类地址":"https://saohuotv.com/list/分类-#PN#.html",
                 "首页地址":"https://saohuotv.com/",
                 "baseURL":"https://saohuotv.com",
                 "rule":{
