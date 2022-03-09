@@ -54,7 +54,7 @@
                 "首页地址":"https://www.1080mi.com/",
                 "baseURL":"https://www.1080mi.com",
                 "rule":{
-                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original).ct(@{\\"Referer\\":\\"https://www.1080mi.com/\\"})";var 简介规则=".t()";var NEXTPAGE="";var PREPAGE="";',
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'分类+电影=1+电视剧=2+综艺=3+动漫=4+动作片=6+喜剧片=7+爱情片=8+科幻片=9+恐怖片=10+剧情片=11+国产剧=13+港台剧=14+日韩剧=15+欧美剧=16',
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var NEXTPAGE="";var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div.module-play-list)");var 简介=e2Rex(getVar("源码"),".get(div.module-info-main)");var 线路=e2Arr(getVar("源码"),".get(.module-tab-item.tab-item)");var 列表规则=".get(a)";var 标题规则=".t()";var 选集规则=".t()";var 选集地址规则=".a(href)";',
@@ -84,7 +84,7 @@
                 "首页地址":"https://www.zxzjtv.com/",
                 "baseURL":"https://www.zxzjtv.com",
                 "rule":{
-                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original).ct(@{\\"Referer\\":\\"https://www.zxzjtv.com/\\"})";var 简介规则=".get(span).st().t()";var NEXTPAGE="";var PREPAGE="";',
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'分类+电影=1+动漫=6+韩剧=3+美剧=2+日剧=4+泰剧=5',
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";var NEXTPAGE=baseURL+e2Rex(getVar("源码"),".get(ul.stui-page__item).byt(下一页).a(href)");var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".get(ul.stui-content__playlist)");var 线路=e2Arr(getVar("源码"),".get(div.stui-vodlist__head)");var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");var 列表规则=".get(li)";var 标题规则=".get(h3).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
