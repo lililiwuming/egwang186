@@ -80,7 +80,7 @@ function 选集列表(){
             var 选集=e2Rex(列表[j],选集规则);
             var 选集地址=e2Rex(列表[j],选集地址规则);
             if(baseURL.indexOf("xgapp.php/v")!=-1||baseURL.indexOf("api.php/app/")!=-1||baseURL.search(/\.php\/.+?\.vod/)!=-1){
-               if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
+               if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
                    if(选集地址.indexOf(".ruifenglb.com")!=-1){
                        var 选集地址="http://ip111.cn/?wd=https://tv.yjhan.com:4433/CL4K/?url="+选集地址;
                    }else{
@@ -93,7 +93,7 @@ function 选集列表(){
                 if(baseURL.indexOf("ppzhu.vip")!=-1||baseURL.indexOf("api.8d8q.com")!=-1){
                     var 选集地址="http://ip111.cn/?wd="+选集地址+"&app=10003&account=272775028&password=qq272775028";
                 }else{
-                   if(选集地址.indexOf("=")!=-1||选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
+                   if(选集地址.indexOf("=")!=-1||选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
                         var 选集地址="http://ip111.cn/?wd="+选集地址;
                    }else if(选集地址.indexOf("html")||选集地址.indexOf("www.bilibili.com")){
                         var 选集地址="http://ip111.cn/?wd=https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url="+选集地址;
@@ -132,4 +132,99 @@ if(u.indexOf("hou.lu")!=-1||u.indexOf("dxys2233.com")!=-1){
 "okhttp/4.1.0";
 }else{
 "Mozilla/5.0 Android";
+}
+######通用免嗅探4
+var uu=getVar("url");
+if(uu.indexOf("ip111.cn/?wd=")!=-1){
+var playurl=uu.split("ip111.cn/?wd=")[1];
+    if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("m3u8.cache.suoyo.cc")!=-1){
+    /*var uuu="https://bo.movie06.com/ddplay/play.php?url="+playurl;
+    var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
+    var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
+    JSON.stringify({url:uuuu});*/
+    "web=https://jhpc.manduhu.com/duoduo/?url="+playurl+'@{"Referer":"https://555dy3.com"}';
+    }else if(playurl.indexOf("1080p.one/mogai_api.php/v1.api/Index?list=")!=-1){
+        uu="https://zy.youhuima.vip/?url="+playurl.split("url=")[1];
+        "web="+uu;
+    }else if(playurl.indexOf("ruifenglb.com")!=-1){
+        "web="+playurl;
+    }else if(playurl.indexOf("cat.wkfile.com")!=-1){
+        JSON.stringify({url:playurl,head:{"User-Agent":"Lavf/58.12.100","Referer":"wkfile.com"}});
+    }else if(playurl.indexOf("=")==-1&&playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
+        if(playurl.indexOf("hsl.ysgc.xyz")!=-1){
+        var cccc=JZ(JSON.stringify({url:"https://play.dushe520.com/m3u8.php?url="+playurl}));
+        JSON.stringify({url:JSON.parse(cccc.code).url,head:{"Referer":"https://ysgc.cc"}});
+        }else{
+        JSON.stringify({url:playurl.match(/.*(http.*)/)[1]});
+        }
+    }else if(playurl.indexOf("=")!=-1){
+            var resp=JZ(JSON.stringify({url:playurl,redirect:false}));
+            if(resp.head.location||resp.head.Location){
+                   var a=resp;
+                   while(a.head.location||a.head.Location){
+                    var finalurl=a.head.location||a.head.Location;
+                    if(finalurl.indexOf(".mp4")>30){
+                        var a={"head":{"cookie":"ccccc"}};
+                    }else{
+                        var a=JZ(JSON.stringify({url:finalurl,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
+                    }
+                   }
+                   var realurl=finalurl;
+                if(realurl.indexOf("=http")!=-1||realurl.indexOf("url=")!=-1){
+                    if(a.code.indexOf("<html")!=-1){
+                        "web="+realurl;
+                    }else{
+                        var ppurl=JSON.parse(a.code).url;
+                        if(realurl.indexOf("mgtv.com")!=-1){
+                            JSON.stringify({url:ppurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
+                        }else if(realurl.indexOf("bilibili.com")!=-1){
+                            JSON.stringify({url:ppurl});
+                        }else{
+                            JSON.stringify({url:ppurl});
+                        }
+                    }
+                }else{
+                    if(playurl.indexOf("www.mgtv.com")!=-1){
+                    JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}}); 
+                    }else{
+                    JSON.stringify({url:realurl});
+                    }
+                }
+            }else{
+                function 切换解析(data){
+                        if(data.split("url=")[1].indexOf("http")!=-1){
+                            return "web=http://1.117.152.239:39000/?url="+data.split("url=")[1];
+                        }else if(data.split("url=")[1].indexOf("renrenmi")!=-1){
+                            return "web=https://jx.blbo.cc:4433/?url="+data.split("url=")[1];
+                        }else if(data.split("url=")[1].indexOf("LT-")!=-1){
+                            return "web=https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+data.split("url=")[1];
+                        }else{
+                            return "web=http://1.117.152.239:39000/?url="+data.split("url=")[1];
+                        }
+                }
+                if(resp.code.indexOf("<html")!=-1){
+                    if(resp.code.search(/player=new/)!=-1||resp.code.search(/<div id="video"/)!=-1||resp.code.search(/<div id="[^"]*?player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1){
+                       "web="+playurl;
+                    }else{
+                       切换解析(playurl);
+                    }
+                }else{
+                    if(e2Rex(resp.code,".json(url).or().json(data).json(url)").length>1){
+                        var realurl=JSON.parse(resp.code).url||JSON.parse(resp.code).data.url;
+                        if(playurl.indexOf("mgtv.com")!=-1){
+                            JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
+                        }else if(playurl.indexOf("bilibili.com")!=-1){
+                            JSON.stringify({url:realurl});
+                        }else{
+                            JSON.stringify({url:realurl});
+                        }
+                    }else{
+                        切换解析(playurl);
+                    }
+                }
+            }
+        
+    }
+}else{
+"web="+uu;
 }
