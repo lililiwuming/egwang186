@@ -5,6 +5,7 @@
             {
                 "title":"骚火电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/saohuotv.png",
+                "指向":"q:详情TAB",
                 "分类地址":"https://saohuotv.com/list/分类-1.html",
                 "首页地址":"https://saohuotv.com/",
                 "baseURL":"https://saohuotv.com",
@@ -20,6 +21,7 @@
             {
                 "title":"555电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/555dy.png",
+                "指向":"q:详情TAB",
                 "分类地址":"https://www.555dy1.com/vodshow/分类-----1---.html",
                 "首页地址":"https://www.555dy1.com/",
                 "baseURL":"https://www.555dy1.com",
@@ -35,6 +37,7 @@
             {
                 "title":"哔嘀影视",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/bidiys.png",
+                "指向":"q:详情TAB",
                 "分类地址":"https://bidiys.cc/vodshow-分类--------1---.html",
                 "首页地址":"https://bidiys.cc/",
                 "baseURL":"https://bidiys.cc",
@@ -50,6 +53,7 @@
             {
                 "title":"1080迷",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/1080mi.png",
+                "指向":"q:详情TAB",
                 "分类地址":"https://www.1080mi.com/v_type/分类-1.html",
                 "首页地址":"https://www.1080mi.com/",
                 "baseURL":"https://www.1080mi.com",
@@ -65,6 +69,7 @@
             {
                 "title":"剧迷TV",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/gimytv.png",
+                "指向":"q:详情TAB",
                 "分类地址":"https://gimytv.com/genre/分类---1.html",
                 "首页地址":"https://gimytv.com/",
                 "baseURL":"https://gimytv.com",
@@ -80,6 +85,7 @@
             {
                 "title":"在线之家",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/zxzj.png",
+                "指向":"q:详情TAB",
                 "分类地址":"https://www.zxzjtv.com/list/分类-1.html",
                 "首页地址":"https://www.zxzjtv.com/",
                 "baseURL":"https://www.zxzjtv.com",
@@ -95,6 +101,7 @@
             {
                 "title":"剧白白",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/jubaibai.png",
+                "指向":"q:详情TAB",
                 "分类地址":"https://www.jubaibai.cc/vodshow/id/分类/page/1.html",
                 "首页地址":"https://www.jubaibai.cc/",
                 "baseURL":"https://www.jubaibai.cc",
@@ -115,13 +122,14 @@
             {
                 "title":"HG影视",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/HGyingshi.png",
+                "指向":"q:APP详情TAB",
                 "分类地址":"http://api.hgyx.vip/api.php/iptv/vod/?ac=list&class=分类&page=#PN#",
                 "首页地址":"http://api.hgyx.vip/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
                 "baseURL":"http://api.hgyx.vip/api.php/iptv/vod/",
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'分类+电影=movie&start=&area=&type=+电视剧=tvplay&start=&area=&type=+综艺=tvshow&start=&area=&type=+动漫=comic&start=&area=&type=+动作片=movie&start=&area=&type=动作+喜剧片=movie&start=&area=&type=喜剧+爱情片=movie&start=&area=&type=爱情+科幻片=movie&start=&area=&type=科幻+恐怖片=movie&start=&area=&type=恐怖+剧情片=movie&start=&area=&type=剧情+大陆剧=tvplay&start=&area=大陆&type=+香港剧=tvplay&start=&area=香港&type=+台湾剧=tvplay&start=&area=台湾&type=+美国剧=tvplay&start=&area=美国&type=+日本剧=tvplay&start=&area=日本&type=+韩国剧=tvplay&start=&area=韩国&type=',
-                    "分类规则":'var 列表=e2Arr(getVar("源码"),".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE=getUrl();var PREPAGE="";',
+                    "分类规则":'var 列表=e2Arr(getVar("源码"),".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE="";var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".json(videolist).z(\\".*?\\\\])");var 线路="";var 简介=e2Arr(getVar("源码"),".json(intro)");var 列表规则=".z(\\\\{.*?\\\\})";var 标题规则=".z2(\\"\\\\(.*?\\\\)\\")";var 选集规则=".json(title)";var 选集地址规则=".json(url)";',
                     "搜索规则":'var URL=baseURL+"?ac=list&page=1&wd="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":"okhttp/4.1.0"}}));var 列表=e2Arr(源码,".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE="";var PREPAGE="";',
                     "免嗅探规则":'eval(getVar("通用免嗅探"))'
