@@ -124,7 +124,7 @@
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE="";var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".json(videolist).z(\\".*?\\\\])");var 线路="";var 简介=e2Arr(getVar("源码"),".json(intro)");var 列表规则=".z(\\\\{.*?\\\\})";var 标题规则=".z2(\\"\\\\(.*?\\\\)\\")";var 选集规则=".json(title)";var 选集地址规则=".json(url)";',
                     "搜索规则":'var URL=baseURL+"?ac=list&page=1&wd="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":"okhttp/4.1.0"}}));var 列表=e2Arr(源码,".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";',
-                    "免嗅探规则":'getVar("通用免嗅探")'
+                    "免嗅探规则":'eval(getVar("通用免嗅探"))'
                 }
             }
         ]
