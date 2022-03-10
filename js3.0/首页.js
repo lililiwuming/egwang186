@@ -106,7 +106,7 @@
                     "搜索规则":'var URL=baseURL+"/rss?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".xml(item)");var 标题规则=".xml(title).t()";var 地址规则=".xml(link).t().z(\\S+)";var 图片规则=".get(a).a(data-original)";var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";var NEXTPAGE="";var PREPAGE="";',
                     "免嗅探规则":'"web="+getVar("url");'
                 }
-            },
+            }
         ]
     },
     {
