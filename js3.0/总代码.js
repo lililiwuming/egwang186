@@ -249,4 +249,4 @@ function 匹配模板(item){
 }
 var baseURL=getVar("baseURL");
 alert(JSON.stringify(模板库.find(匹配模板)));
-模板库.find(匹配模板).rule;
+JSON.stringify(模板库.find(匹配模板).rule);
