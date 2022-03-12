@@ -145,6 +145,14 @@
                 "rule":''
             },
             {
+                "title":"瑞丰影视",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/ruifeng.png",
+                "分类地址":"https://tv.yjhan.com:4423/ruifenglb_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
+                "首页地址":"https://tv.yjhan.com:4423/ruifenglb_api.php/v1.vod/vodPhbAll",
+                "baseURL":"https://tv.yjhan.com:4423/ruifenglb_api.php/v1.vod",
+                "rule":''
+            },
+            {
                 "title":"天空影视",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/tkys.png",
                 "分类地址":"https://www.tkys.tv/xgapp.php/v2/video?tid=分类&lang=&year=&pg=翻页",
