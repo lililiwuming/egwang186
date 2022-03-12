@@ -118,14 +118,7 @@
                 "分类地址":"http://api.hgyx.vip/api.php/iptv/vod/?ac=list&class=分类&page=翻页",
                 "首页地址":"http://api.hgyx.vip/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
                 "baseURL":"http://api.hgyx.vip/api.php/iptv/vod/",
-                "rule":{
-                    "首页规则":'var 列表=e2Arr(getVar("源码"),".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=movie&start=&area=&type=+电视剧=tvplay&start=&area=&type=+综艺=tvshow&start=&area=&type=+动漫=comic&start=&area=&type=+动作片=movie&start=&area=&type=动作+喜剧片=movie&start=&area=&type=喜剧+爱情片=movie&start=&area=&type=爱情+科幻片=movie&start=&area=&type=科幻+恐怖片=movie&start=&area=&type=恐怖+剧情片=movie&start=&area=&type=剧情+大陆剧=tvplay&start=&area=大陆&type=+香港剧=tvplay&start=&area=香港&type=+台湾剧=tvplay&start=&area=台湾&type=+美国剧=tvplay&start=&area=美国&type=+日本剧=tvplay&start=&area=日本&type=+韩国剧=tvplay&start=&area=韩国&type=";var b="";for(var i=1;i<50;i++){b=b+"+"+i;}var b="翻页+"+b;a+"\\n"+b;',
-                    "分类规则":'var 列表=e2Arr(getVar("源码"),".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE="";var PREPAGE="";',
-                    "选集规则":'var 分类=e2Arr(getVar("源码"),".json(videolist).z(\\".*?\\\\])");var 线路="";var 简介=e2Arr(getVar("源码"),".json(intro)");var 列表规则=".z(\\\\{.*?\\\\})";var 标题规则=".z2(\\"\\\\(.*?\\\\)\\")";var 选集规则=".json(title)";var 选集地址规则=".json(url)";',
-                    "搜索规则":'var URL=baseURL+"?ac=list&page=1&wd="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":"okhttp/4.1.0"}}));var 列表=e2Arr(源码,".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE="";var PREPAGE="";',
-                    "免嗅探规则":'eval(getVar("通用免嗅探"))'
-                }
+                "rule":''
             },
             {
                 "title":"聚多影视",
@@ -136,19 +129,20 @@
                 "rule":''
             },
             {
+                "title":"大师兄TV",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/dashixiong.png",
+                "分类地址":"http://dsxtv.tv.ci/api.php/dsx/vod/?ac=list&class=分类&page=翻页",
+                "首页地址":"http://dsxtv.tv.ci/api.php/dsx/vod/?ac=list&class=&start=&area=&type=&page=1",
+                "baseURL":"http://dsxtv.tv.ci/api.php/dsx/vod/",
+                "rule":''
+            },
+            {
                 "title":"大熊追剧",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/daxiongzhuiju.png",
                 "分类地址":"https://dxys2233.com/mogai_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
                 "首页地址":"https://dxys2233.com/mogai_api.php/v1.vod/vodPhbAll",
                 "baseURL":"https://dxys2233.com/mogai_api.php/v1.vod",
-                "rule":{
-                    "首页规则":'var 列表=getVar("源码").replace(/<.*?>/g,"").replace(/[\\s]*/g,"").match(/\\{[^\\{]*"vod_id".*?"type_1".*?\\}/g);var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=1&class=&area=+电视剧=2&class=&area=+综艺=3&class=&area=+动漫=4&class=&area=+纪录片=31&class=&area=+电视直播=33&class=&area=+动作片=1&class=动作&area=+喜剧片=1&class=喜剧&area=+爱情片=1&class=爱情&area=+科幻片=1&class=科幻&area=+恐怖片=1&class=恐怖&area=+剧情片=1&class=剧情&area=+战争片=1&class=战争&area=+大陆剧=2&class=&area=大陆+香港剧=2&class=&area=香港+台湾剧=2&class=&area=台湾+日本剧=2&class=&area=日本+韩国剧=2&class=&area=韩国+美国剧=2&class=&area=美国";var b="";for(var i=1;i<50;i++){b=b+"+"+i;}var b="翻页+"+b;a+"\\n"+b;',
-                    "分类规则":'var 列表=e2Arr(getVar("源码"),".json(data).json(list)");var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";var NEXTPAGE="";var PREPAGE="";',
-                    "选集规则":'var 分类=e2Arr(getVar("源码"),".json(data).json(vod_play_list)");var 线路="";var 简介=e2Rex(getVar("源码"),".json(data).json(vod_content)");var 列表规则=".json(url).ct(#).z(.*?\\\\$.*?#)";var 标题规则=".json(player_info).json(show)";var 选集规则=".z2(\\\\(.+?\\\\)\\\\$)";var 选集地址规则=".z2(\\\\$\\\\(.+?\\\\)[#|\\"])";',
-                    "搜索规则":'var URL=baseURL+"?page=1&limit=10&wd="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":"okhttp/4.1.0"}}));var 列表=e2Arr(源码,".json(data).json(list)");var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";var NEXTPAGE="";var PREPAGE="";',
-                    "免嗅探规则":'eval(getVar("通用免嗅探"))'
-                }
+                "rule":''
             },
             {
                 "title":"天空影视",
@@ -156,14 +150,7 @@
                 "分类地址":"https://www.tkys.tv/xgapp.php/v2/video?tid=分类&lang=&year=&pg=翻页",
                 "首页地址":"https://www.tkys.tv/xgapp.php/v2/index_video?token=",
                 "baseURL":"https://www.tkys.tv/xgapp.php/v2/",
-                "rule":{
-                    "首页规则":'var 列表=getVar("源码").replace(/<.*?>/g,"").replace(/[\\s]*/g,"").match(/\\{"vod_id".*?\\}/g);var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=1&class=&area=+电视剧=2&class=&area=+综艺=3&class=&area=+动漫=4&class=&area=+纪录片=31&class=&area=+电视直播=33&class=&area=+动作片=1&class=动作&area=+喜剧片=1&class=喜剧&area=+爱情片=1&class=爱情&area=+科幻片=1&class=科幻&area=+恐怖片=1&class=恐怖&area=+剧情片=1&class=剧情&area=+战争片=1&class=战争&area=+大陆剧=2&class=&area=内地+香港剧=2&class=&area=香港+台湾剧=2&class=&area=台湾+日本剧=2&class=&area=日本+韩国剧=2&class=&area=韩国+美国剧=2&class=&area=美国";var b="";for(var i=1;i<50;i++){b=b+"+"+i;}var b="翻页+"+b;a+"\\n"+b;',
-                    "分类规则":'var 列表=e2Arr(getVar("源码"),".json(data)");var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
-                    "选集规则":'var 分类=e2Arr(getVar("源码"),".json(data).json(vod_info).json(vod_url_with_player)");var 线路="";var 简介=e2Rex(getVar("源码"),".json(data).json(vod_info).json(vod_content)");var 列表规则=".json(url).ct(#).z(.*?\\\\$.*?#)";var 标题规则=".json(name)";var 选集规则=".z2(\\\\(.+?\\\\)\\\\$)";var 选集地址规则=".z2(\\\\$\\\\(.+?\\\\)[#|\\"])";',
-                    "搜索规则":'var URL=baseURL+"search?pg=1&text="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":"okhttp/4.1.0"}}));var 列表=e2Arr(源码,".json(data)");var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
-                    "免嗅探规则":'eval(getVar("通用免嗅探"))'
-                }
+                "rule":''
             },
             {
                 "title":"追剧达人",
@@ -171,14 +158,15 @@
                 "分类地址":"http://vipmv.co/xgapp.php/v1/video?tid=分类&lang=&year=&pg=翻页",
                 "首页地址":"http://vipmv.co/xgapp.php/v1/index_video?token=",
                 "baseURL":"http://vipmv.co/xgapp.php/v1/",
-                "rule":{
-                    "首页规则":'var 列表=getVar("源码").replace(/<.*?>/g,"").replace(/[\\s]*/g,"").match(/\\{"vod_id".*?\\}/g);var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+追剧推荐=20&class=&area=+电影=1&class=&area=+电视剧=2&class=&area=+综艺=3&class=&area=+动漫=4&class=&area=+纪录片=31&class=&area=+电视直播=33&class=&area=+动作片=1&class=动作&area=+喜剧片=1&class=喜剧&area=+爱情片=1&class=爱情&area=+科幻片=1&class=科幻&area=+恐怖片=1&class=恐怖&area=+剧情片=1&class=剧情&area=+战争片=1&class=战争&area=+大陆剧=2&class=&area=内地+香港剧=2&class=&area=香港+台湾剧=2&class=&area=台湾+日本剧=2&class=&area=日本+韩国剧=2&class=&area=韩国+美国剧=2&class=&area=美国";var b="";for(var i=1;i<50;i++){b=b+"+"+i;}var b="翻页+"+b;a+"\\n"+b;',
-                    "分类规则":'var 列表=e2Arr(getVar("源码"),".json(data)");var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
-                    "选集规则":'var 分类=e2Arr(getVar("源码"),".json(data).json(vod_info).json(vod_url_with_player)");var 线路="";var 简介=e2Rex(getVar("源码"),".json(data).json(vod_info).json(vod_content)");var 列表规则=".json(url).ct(#).z(.*?\\\\$.*?#)";var 标题规则=".json(name)";var 选集规则=".z2(\\\\(.+?\\\\)\\\\$)";var 选集地址规则=".z2(\\\\$\\\\(.+?\\\\)[#|\\"])";',
-                    "搜索规则":'var URL=baseURL+"search?pg=1&text="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":"okhttp/4.1.0"}}));var 列表=e2Arr(源码,".json(data)");var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
-                    "免嗅探规则":'eval(getVar("通用免嗅探"))'
-                }
+                "rule":''
+            },
+            {
+                "title":"看365",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/kan365.png",
+                "分类地址":"https://www.kan365.xyz/api.php/app/video?tid=分类&lang=&year=&pg=翻页",
+                "首页地址":"https://www.kan365.xyz/api.php/app/index_video?token=",
+                "baseURL":"https://www.kan365.xyz/api.php/app/",
+                "rule":''
             }
         ]
     }
