@@ -280,7 +280,7 @@ var 模板库=[
     }
 ];
 function 匹配模板(item){
-    alert(baseURL.search(item.匹配))
+    alert(String(baseURL.search(item.匹配)))
     return baseURL.search(item.匹配);
 }
 var baseURL=getVar("baseURL");
