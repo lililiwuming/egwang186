@@ -280,7 +280,8 @@ var 模板库=[
     }
 ];
 function 匹配模板(item){
-    return baseURL.search(item.匹配)>1;
+    alert(item.匹配)
+    return baseURL.search(item.匹配);
 }
 var baseURL=getVar("baseURL");
 JSON.stringify(模板库.find(匹配模板).rule);
