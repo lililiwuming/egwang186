@@ -82,7 +82,7 @@ function 选集列表(){
             if(baseURL.indexOf("xgapp.php/v")!=-1||baseURL.indexOf("api.php/app/")!=-1||baseURL.search(/\.php\/.+?\.vod/)!=-1){
                if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
                    if(选集地址.indexOf(".ruifenglb.com")!=-1){
-                       var 选集地址="http://ip111.cn/?wd=http://ts.yjhan.com:8090/api/?key=DSQFgXdmj9xkDyiXdr&url="+选集地址;
+                       var 选集地址="http://ip111.cn/?wd=https://tv.yjhan.com:4423/cljson3394/?url="+选集地址;
                    }else{
                        var 选集地址="http://ip111.cn/?wd="+选集地址;
                    }
