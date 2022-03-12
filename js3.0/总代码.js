@@ -123,7 +123,7 @@ function 选集列表(){
     return JSON.stringify(res);
 }
 var baseURL=getVar("baseURL");
-eval(getVar("选集规则"));选集列表();
+选集列表();
 ######UA3
 var u=getVar("baseURL");
 if(u.indexOf("hou.lu")!=-1||u.indexOf("dxys2233.com")!=-1){
