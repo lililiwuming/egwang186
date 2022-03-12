@@ -128,6 +128,14 @@
                 }
             },
             {
+                "title":"聚多影视",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/juduo.png",
+                "分类地址":"http://jdyy.weetai.cn/api.php/iptv/vod/?ac=list&class=分类&page=翻页",
+                "首页地址":"http://jdyy.weetai.cn/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
+                "baseURL":"http://jdyy.weetai.cn/api.php/iptv/vod/",
+                "rule":''
+            },
+            {
                 "title":"大熊追剧",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/daxiongzhuiju.png",
                 "分类地址":"https://dxys2233.com/mogai_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
