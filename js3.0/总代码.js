@@ -232,7 +232,7 @@ var playurl=uu.split("ip111.cn/?wd=")[1];
 var 模板库=[
     {
         "title":"iptv/vod",
-        "匹配":"/api\\.php\\/.+?\\/vod/",
+        "匹配":"/api\\.php\\/.+?\\/vod\\//",
         "rule":{
             "首页规则":'var 列表=e2Arr(getVar("源码"),".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE="";var PREPAGE="";',
             "筛选数据":'var a="分类+电影=movie&start=&area=&type=+电视剧=tvplay&start=&area=&type=+综艺=tvshow&start=&area=&type=+动漫=comic&start=&area=&type=+动作片=movie&start=&area=&type=动作+喜剧片=movie&start=&area=&type=喜剧+爱情片=movie&start=&area=&type=爱情+科幻片=movie&start=&area=&type=科幻+恐怖片=movie&start=&area=&type=恐怖+剧情片=movie&start=&area=&type=剧情+大陆剧=tvplay&start=&area=大陆&type=+香港剧=tvplay&start=&area=香港&type=+台湾剧=tvplay&start=&area=台湾&type=+美国剧=tvplay&start=&area=美国&type=+日本剧=tvplay&start=&area=日本&type=+韩国剧=tvplay&start=&area=韩国&type=";var b="";for(var i=1;i<50;i++){b=b+"+"+i;}var b="翻页+"+b;a+"\\n"+b;',
