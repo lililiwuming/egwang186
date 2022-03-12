@@ -82,7 +82,7 @@ function 选集列表(){
             if(baseURL.indexOf("xgapp.php/v")!=-1||baseURL.indexOf("api.php/app/")!=-1||baseURL.search(/\.php\/.+?\.vod/)!=-1){
                if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
                    if(选集地址.indexOf(".ruifenglb.com")!=-1){
-                       var 选集地址="http://ip111.cn/?wd=https://tv.yjhan.com:4433/CL4K/?url="+选集地址;
+                       var 选集地址="http://ip111.cn/?wd=http://ts.yjhan.com:8090/api/?key=DSQFgXdmj9xkDyiXdr&url="+选集地址;
                    }else{
                        var 选集地址="http://ip111.cn/?wd="+选集地址;
                    }
@@ -146,8 +146,6 @@ var playurl=uu.split("ip111.cn/?wd=")[1];
     }else if(playurl.indexOf("1080p.one/mogai_api.php/v1.api/Index?list=")!=-1){
         uu="https://zy.youhuima.vip/?url="+playurl.split("url=")[1];
         "web="+uu;
-    }else if(playurl.indexOf("ruifenglb.com")!=-1){
-        "web="+playurl;
     }else if(playurl.indexOf("cat.wkfile.com")!=-1){
         JSON.stringify({url:playurl,head:{"User-Agent":"Lavf/58.12.100","Referer":"wkfile.com"}});
     }else if(playurl.indexOf("=")==-1&&playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
