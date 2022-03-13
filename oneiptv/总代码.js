@@ -142,7 +142,7 @@ for(var i=0;i<urls.length;i++){
         var u = resp.head.Location || resp.head.location;
     }else{
         var 分割=urls[i].split("://");
-        var u=分割[0].toLowerCase()+分割[1];
+        var u=分割[0].toLowerCase()+"://"+分割[1];
     }
     items.push({url:u}); 
 }
@@ -153,7 +153,7 @@ JSON.stringify(items);
         var u=resp.head.Location||resp.head.location;
     }else{
         var 分割=uu.split("://");
-        var u=分割[0].toLowerCase()+分割[1];
+        var u=分割[0].toLowerCase()+"://"+分割[1];
     }
 JSON.stringify({url:u});
 }
