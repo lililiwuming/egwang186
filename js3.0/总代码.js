@@ -321,4 +321,6 @@ var 新记录=[];
 }
 _.write(JSON.stringify(新记录),filename);
 _.read(filename);
+}else{
+alert("请输入正确规则格式：{\"title\":\"播放呀\",\"url\":\"https:\/\/www.bofangya.com\/xgapp.php\/v1\/\",\"img\":\"https:\/\/inmemory.coding.net\/p\/InMemory\/d\/MBrowser\/git\/raw\/master\/AppFile\/AppIcon\/播放呀.png\"}");
 }
