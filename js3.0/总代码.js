@@ -283,3 +283,29 @@ function 匹配模板(item){
 }
 var baseURL=getVar("baseURL");
 JSON.stringify(模板库.find(匹配模板).rule);
+######读取本地规则6
+eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+var filename='一个影视本地规则.txt';
+_.read(filename);
+######写入本地规则7
+eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+var filename='一个影视本地规则.txt';
+var 记录=[];
+if(getVar("KEY")!='null'){
+var data=getVar("KEY");
+if(JSON.parse(data).title&&JSON.parse(data).分类地址&&JSON.parse(data).首页地址&&JSON.parse(data).baseURL&&JSON.parse(data).rule){
+记录.push(JSON.parse(data));
+}else{
+    alert("请输入正确规则格式");
+}
+if(_.read(filename)){
+var 新记录=[];
+var 记录=记录.concat(JSON.parse(_.read(filename)[0].data));
+新记录.push({title:"本地规则",data:记录});
+}else{
+var 新记录=[];
+新记录.push({title:"本地规则",data:记录});
+}
+_.write(JSON.stringify(新记录),filename);
+_.read(filename);
+}
