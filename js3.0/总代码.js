@@ -292,9 +292,22 @@ eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/mast
 var filename='一个影视本地规则.txt';
 var 记录=[];
 if(getVar("KEY")!='null'){
-var data=getVar("KEY").replace(/\s+/g,"");
-if(JSON.parse(data).title&&JSON.parse(data).分类地址&&JSON.parse(data).首页地址&&JSON.parse(data).baseURL){
-记录.push(data);
+if(JSON.parse(data).title&&JSON.parse(data).url&&JSON.parse(data).img){
+var data=JSON.parse(getVar("KEY"));
+var title=data.title;var baseURL=data.url;var img=data.img;
+if(baseURL.search(/api\.php\/app\//)!=-1||baseURL.search(/xgapp\.php\/v/)!=-1){
+var 分类地址=baseURL+"video?tid=分类&lang=&year=&pg=翻页";
+var 首页地址=baseURL+"index_video?token=";
+}else if(baseURL.search(/\.php\/.+?\.vod/)!=-1){
+var 分类地址=baseURL+"?type=分类&lang=&year=&page=翻页";
+var 首页地址=baseURL+"/vodPhbAll";
+}else if(baseURL.search(/api\.php\/.+?\/vod\//)!=-1){
+var 分类地址=baseURL+"?ac=list&class=分类&page=翻页";
+var 首页地址=baseURL+"?ac=list&class=&start=&area=&type=&page=1";
+}else{
+    alert("暂未适配");
+}
+记录.push({title:title,img:img,baseURL:baseURL,分类地址:分类地址,首页地址:首页地址});
 }else{
     alert("请输入正确规则格式");
 }

@@ -178,7 +178,7 @@
                 "分类地址":"http://api.hgyx.vip/api.php/iptv/vod/?ac=list&class=分类&page=翻页",
                 "首页地址":"http://api.hgyx.vip/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
                 "baseURL":"http://api.hgyx.vip/api.php/iptv/vod/",
-                "rule":''
+                "rule":""
             },
             {
                 "title":"聚多影视",
@@ -186,7 +186,7 @@
                 "分类地址":"http://jdyy.weetai.cn/api.php/iptv/vod/?ac=list&class=分类&page=翻页",
                 "首页地址":"http://jdyy.weetai.cn/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
                 "baseURL":"http://jdyy.weetai.cn/api.php/iptv/vod/",
-                "rule":''
+                "rule":""
             },
             {
                 "title":"大师兄TV",
@@ -194,7 +194,7 @@
                 "分类地址":"http://dsxtv.tv.ci/api.php/dsx/vod/?ac=list&class=分类&page=翻页",
                 "首页地址":"http://dsxtv.tv.ci/api.php/dsx/vod/?ac=list&class=&start=&area=&type=&page=1",
                 "baseURL":"http://dsxtv.tv.ci/api.php/dsx/vod/",
-                "rule":''
+                "rule":""
             },
             {
                 "title":"大熊追剧",
@@ -202,7 +202,7 @@
                 "分类地址":"https://dxys2233.com/mogai_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
                 "首页地址":"https://dxys2233.com/mogai_api.php/v1.vod/vodPhbAll",
                 "baseURL":"https://dxys2233.com/mogai_api.php/v1.vod",
-                "rule":''
+                "rule":""
             },
             {
                 "title":"瑞丰影视",
@@ -210,7 +210,7 @@
                 "分类地址":"https://tv.yjhan.com:4423/ruifenglb_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
                 "首页地址":"https://tv.yjhan.com:4423/ruifenglb_api.php/v1.vod/vodPhbAll",
                 "baseURL":"https://tv.yjhan.com:4423/ruifenglb_api.php/v1.vod",
-                "rule":''
+                "rule":""
             },
             {
                 "title":"天空影视",
@@ -218,7 +218,7 @@
                 "分类地址":"https://www.tkys.tv/xgapp.php/v2/video?tid=分类&lang=&year=&pg=翻页",
                 "首页地址":"https://www.tkys.tv/xgapp.php/v2/index_video?token=",
                 "baseURL":"https://www.tkys.tv/xgapp.php/v2/",
-                "rule":''
+                "rule":""
             },
             {
                 "title":"追剧达人",
@@ -226,7 +226,7 @@
                 "分类地址":"http://vipmv.co/xgapp.php/v1/video?tid=分类&lang=&year=&pg=翻页",
                 "首页地址":"http://vipmv.co/xgapp.php/v1/index_video?token=",
                 "baseURL":"http://vipmv.co/xgapp.php/v1/",
-                "rule":''
+                "rule":""
             },
             {
                 "title":"看365",
@@ -234,7 +234,7 @@
                 "分类地址":"https://www.kan365.xyz/api.php/app/video?tid=分类&lang=&year=&pg=翻页",
                 "首页地址":"https://www.kan365.xyz/api.php/app/index_video?token=",
                 "baseURL":"https://www.kan365.xyz/api.php/app/",
-                "rule":''
+                "rule":""
             }
         ]
     }
