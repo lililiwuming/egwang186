@@ -309,7 +309,7 @@ var 首页地址=baseURL+"?ac=list&class=&start=&area=&type=&page=1";
 }
 记录.push({title:title,img:img,baseURL:baseURL,分类地址:分类地址,首页地址:首页地址});
 }else{
-    alert("请输入正确规则格式");
+    alert("请输入正确规则格式：{\"title\":\"播放呀\",\"url\":\"https:\/\/www.bofangya.com\/xgapp.php\/v1\/\",\"img\":\"https:\/\/inmemory.coding.net\/p\/InMemory\/d\/MBrowser\/git\/raw\/master\/AppFile\/AppIcon\/播放呀.png\"}");
 }
 if(_.read(filename)){
 var 新记录=[];
