@@ -140,10 +140,9 @@ for(var i=0;i<urls.length;i++){
     if(urls[i].indexOf(".php")!=-1){
         var resp = JZ(JSON.stringify({ url: urls[i], redirect: false }));
         var u = resp.head.Location || resp.head.location;
-    }else if(urls[i].indexOf("http")!=-1&&urls[i].split(/.+\//)[1].indexOf(".")==-1&&urls[i].indexOf("?")==-1){
-        var u=urls[i];
     }else{
-        var u=urls[i];
+        var 分割=urls[i].split("://");
+        var u=分割[0].toLowerCase()+分割[1];
     }
     items.push({url:u}); 
 }
@@ -152,10 +151,9 @@ JSON.stringify(items);
     if(uu.indexOf(".php")!=-1){
         var resp=JZ(JSON.stringify({url:uu,redirect:false}));
         var u=resp.head.Location||resp.head.location;
-    }else if(uu.indexOf("http")!=-1&&uu.split(/.+\//)[1].indexOf(".")==-1&&uu.indexOf("?")==-1){
-        var u=uu;
     }else{
-        var u=uu;
+        var 分割=uu.split("://");
+        var u=分割[0].toLowerCase()+分割[1];
     }
 JSON.stringify({url:u});
 }
