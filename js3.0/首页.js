@@ -121,6 +121,21 @@
                     "搜索规则":'var URL=baseURL+"/vodsearch.html?wd="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL}));var 列表=e2Arr(源码,".get(ul li.list-width)");var 标题规则=".get(a.searchkey).t()";var 地址规则=".get(a.searchkey).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).st().t()";var NEXTPAGE="";var PREPAGE="";',
                     "免嗅探规则":'"web="+getVar("url");'
                 }
+            },
+            {
+                "title":"Auete影视",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/auete.png",
+                "分类地址":"https://auete.com/分类/翻页.html",
+                "首页地址":"https://auete.com/",
+                "baseURL":"https://auete.com",
+                "rule":{
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.threadlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(button).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'var a="分类+电影=Movie+电视剧=Tv+综艺Zy+动漫=Dm+动作片=Movie/dzp+喜剧片=Movie/xjp+爱情片=Movie/aqp+科幻片=Movie/khp+恐怖片=Movie/kbp+剧情片=Movie/jqp+战争片=Movie/zzp+大陆剧=Tv/neidi+香港剧=Tv/tvbgj+台湾剧=Tv/taiju+日本剧=Tv/riju+韩国剧=Tv/hanju+欧美剧=Tv/oumei";var b="第1页=index";for(var i=2;i<50;i++){b=b+"+第"+i+"页=index"+i;}var b="翻页+"+b;a+"\\n"+b;',
+                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.threadlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(button).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
+                    "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div#player_list)");var 简介=e2Rex(getVar("源码"),".get(div.message).t()");var 线路="";var 列表规则=".get(ul li)";var 标题规则=".get(h2).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
+                    "搜索规则":'var URL=baseURL+"/search.php?searchword="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL}));var 列表=e2Arr(源码,".get(ul.threadlist li)");var 标题规则=".get(a).t()";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(span).st().t()";var NEXTPAGE="";var PREPAGE="";',
+                    "免嗅探规则":'var uu=getVar("url");var resp=JZ(uu);var script=e2Rex(resp.code,".get(div#video script).t().or().get(div#player script).t()");function base64decode(str){return e2Rex(str,".dn64()")}eval(script);if(pn=="i8i"){JSON.stringify({url:now,head:{"referer":"https://auete.com/js/player/i8i.html","user-agent":"Mozilla/5.0"}})}else if(pn=="m3u8hd"){if(now.indexOf("9yun")!=-1){var b="https://auete.com/api/9yun.php?url="+now.split("9yun")[0];var a=JZ(JSON.stringify({url:b,redirect:false,head:{"User-Agent":"Mozilla/5.0"}}));while(a.head.location||a.head.Location){var finalurl=a.head.location||a.head.Location;if(finalurl.indexOf(".mp4")>40){var a={"head":{"cookie":"ccccc"}}}else{var a=JZ(JSON.stringify({url:finalurl,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}))}}JSON.stringify({url:finalurl})}else{"web="+uu}}else{if(now.indexOf("http")!=-1){JSON.stringify({url:now,head:{"referer":"https://auete.com/js/player/i8i.html","user-agent":"Mozilla/5.0"}})}else{"web="+uu}}'
+                }
             }
         ]
     },
