@@ -293,8 +293,9 @@ var filename='一个影视本地规则.txt';
 var 记录=[];
 if(getVar("KEY")!='null'){
 var data=getVar("KEY");
+alert(data);
 if(JSON.parse(data).title&&JSON.parse(data).分类地址&&JSON.parse(data).首页地址&&JSON.parse(data).baseURL&&JSON.parse(data).rule){
-记录.push(data);
+记录.push(data);alert(JSON.stringify(记录));
 }else{
     alert("请输入正确规则格式");
 }
