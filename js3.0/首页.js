@@ -5,12 +5,12 @@
             {
                 "title":"骚火电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/saohuotv.png",
-                "分类地址":"https://saohuotv.com/list/分类-1.html",
+                "分类地址":"https://saohuotv.com/list/分类-翻页.html",
                 "首页地址":"https://saohuotv.com/",
                 "baseURL":"https://saohuotv.com",
                 "rule":{
                     "首页规则":'var 列表=getVar("源码").match(/<li>[\\s]*?<div class="v_img"[\\s\\S]*?<\\/li>/g);var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(div.v_note).t()";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=1+电视剧=2+动漫=4+喜剧片=6+爱情片=7+恐怖片=8+动作片=9+科幻片=10+大陆剧=20+TVB=21+韩剧=22+美剧=23+日剧=24";a;',
+                    "筛选数据":'var a="分类+电影=1+电视剧=2+动漫=4+喜剧片=6+爱情片=7+恐怖片=8+动作片=9+科幻片=10+大陆剧=20+TVB=21+韩剧=22+美剧=23+日剧=24";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
                     "分类规则":'var 列表=getVar("源码").match(/<li>[\\s]*?<div class="v_img"[\\s\\S]*?<\\/li>/g);var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(div.v_note).t()";var NEXTPAGE=baseURL+e2Rex(getVar("源码"),".get(section.page).byt(下一页).a(href)");var PREPAGE="";',
                     "选集规则":'var 分类=e2Rex(getVar("源码"),".get(ul#play_link)").match(/<li[\\s\\S]*?\\/li>/g);var 线路=e2Rex(getVar("源码"),".get(ul.from_list)").match(/<li[\\s\\S]*?\\/li>/g);var 简介=e2Rex(getVar("源码"),".get(p.p_txt)");var 列表规则=".get(a)";var 标题规则=".get(li).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
                     "搜索规则":'var URL=baseURL+"/search.php?searchword="+getVar("KEY");var 源码=getHttp(URL);var 列表=源码.match(/<li>[\\s]*?<div class="v_img[\\s\\S]*?<\\/li>/g);var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(div.v_note).t()";var NEXTPAGE="";var PREPAGE="";',
@@ -20,12 +20,12 @@
             {
                 "title":"555电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/555dy.png",
-                "分类地址":"https://www.555dy1.com/vodshow/分类-----1---.html",
+                "分类地址":"https://www.555dy1.com/vodshow/分类-----翻页---.html",
                 "首页地址":"https://www.555dy1.com/",
                 "baseURL":"https://www.555dy1.com",
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.myui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=1---+电视剧=2---+福利=124---+动漫=4---+Netflix电影=1---Netflix+Netflix剧=2---Netflix+剧情片=1---剧情+科幻片=1---科幻+动作片=1---动作+喜剧片=1---喜剧+爱情片=1---爱情+大陆剧=2-大陆--+香港剧=2-香港--+韩剧=2-韩国--+美剧=2-美国--+日剧=2-日本--";a;',
+                    "筛选数据":'var a="分类+电影=1---+电视剧=2---+福利=124---+动漫=4---+Netflix电影=1---Netflix+Netflix剧=2---Netflix+剧情片=1---剧情+科幻片=1---科幻+动作片=1---动作+喜剧片=1---喜剧+爱情片=1---爱情+大陆剧=2-大陆--+香港剧=2-香港--+韩剧=2-韩国--+美剧=2-美国--+日剧=2-日本--";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.myui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE=baseURL+e2Rex(getVar("源码"),".get(ul.myui-page).byt(下一页).a(href)");var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".get(ul[class~=.*?ui-content__.*?list])");var 线路=e2Arr(getVar("源码"),".get(ul.nav.nav-tabs li)");var 简介=e2Rex(getVar("源码"),".get(div[class~=.*?ui-content__detail]).t().c().get(div.col-pd.text-collapse.content).t()");var 列表规则=".get(li)";var 标题规则=".get(a).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
                     "搜索规则":'var URL=baseURL+"/index.php/ajax/suggest?mid=1&limit=10&wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".json(list)");var 标题规则=".json(name)";var 地址规则=".c(/voddetail/).json(id).ct(.html)";var 图片规则=".json(pic)";var 简介规则=".json(name)";var NEXTPAGE="";var PREPAGE="";',
@@ -35,30 +35,15 @@
             {
                 "title":"哔嘀影视",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/bidiys.png",
-                "分类地址":"https://bidiys.cc/vodshow-分类--------1---.html",
+                "分类地址":"https://bidiys.cc/vodshow-分类--------翻页---.html",
                 "首页地址":"https://bidiys.cc/",
                 "baseURL":"https://bidiys.cc",
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-item)");var 标题规则=".get(div.video-name a).t()";var 地址规则=".get(div.video-name a).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".get(div.module-item-text).t().c().get(span).st().t()";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+南瓜电影=nanguady+4K专区=huiyuanzhuanqu+电影=dianying+连续剧=lianxuju+动漫=dongman+综艺=zongyi+剧情片=juqingpian+科幻片=kehuanpian+动作片=dongzuopian+喜剧片=xijupian+爱情片=aiqingpian+国产剧=guochanju+日韩剧=rihanju+港台剧=gangtaiju+欧美剧=oumeiju";a;',
+                    "筛选数据":'var a="分类+南瓜电影=nanguady+4K专区=huiyuanzhuanqu+电影=dianying+连续剧=lianxuju+动漫=dongman+综艺=zongyi+剧情片=juqingpian+科幻片=kehuanpian+动作片=dongzuopian+喜剧片=xijupian+爱情片=aiqingpian+国产剧=guochanju+日韩剧=rihanju+港台剧=gangtaiju+欧美剧=oumeiju";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-item)");var 标题规则=".get(div.video-name a).t()";var 地址规则=".get(div.video-name a).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".get(div.module-item-text).t().c().get(span).st().t()";var NEXTPAGE=baseURL+e2Rex(getVar("源码"),".get(div#page).byt(下一页).a(href)");var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div.sort-item)");var 线路=e2Arr(getVar("源码"),".get(.module-tab-item.tab-item)");var 简介=e2Rex(getVar("源码"),".get(div.video-info-main).t()");var 列表规则=".get(a)";var 标题规则=".t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
                     "搜索规则":'var URL=baseURL+"/vodsearch--------------.html?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".get(div.module-search-item)");var 标题规则=".get(h3 a).t()";var 地址规则=".get(h3 a).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".get(div.video-info-header).t().c().get(div.video-info-main).t().c().get(div.video-info-items).t()";var NEXTPAGE="";var PREPAGE="";',
-                    "免嗅探规则":'"web="+getVar("url");'
-                }
-            },
-            {
-                "title":"1080迷",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/1080mi.png",
-                "分类地址":"https://www.1080mi.com/v_type/分类-1.html",
-                "首页地址":"https://www.1080mi.com/",
-                "baseURL":"https://www.1080mi.com",
-                "rule":{
-                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=1+电视剧=2+综艺=3+动漫=4+动作片=6+喜剧片=7+爱情片=8+科幻片=9+恐怖片=10+剧情片=11+国产剧=13+港台剧=14+日韩剧=15+欧美剧=16";a;',
-                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var NEXTPAGE="";var PREPAGE="";',
-                    "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div.module-play-list)");var 简介=e2Rex(getVar("源码"),".get(div.module-info-main)");var 线路=e2Arr(getVar("源码"),".get(.module-tab-item.tab-item)");var 列表规则=".get(a)";var 标题规则=".t()";var 选集规则=".t()";var 选集地址规则=".a(href)";',
-                    "搜索规则":'var URL=baseURL+"/v_search/-------------.html?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".get(div.module-card-item)");var 标题规则=".get(div.module-card-item-title a).t()";var 地址规则=".get(div.module-card-item-title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var NEXTPAGE="";var PREPAGE="";',
                     "免嗅探规则":'"web="+getVar("url");'
                 }
             },
@@ -80,12 +65,12 @@
             {
                 "title":"在线之家",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/zxzj.png",
-                "分类地址":"https://www.zxzjtv.com/list/分类-1.html",
+                "分类地址":"https://www.zxzjtv.com/list/分类-翻页.html",
                 "首页地址":"https://www.zxzjtv.com/",
                 "baseURL":"https://www.zxzjtv.com",
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=1+动漫=6+韩剧=3+美剧=2+日剧=4+泰剧=5";a;',
+                    "筛选数据":'var a="分类+电影=1+动漫=6+韩剧=3+美剧=2+日剧=4+泰剧=5";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";var NEXTPAGE=baseURL+e2Rex(getVar("源码"),".get(ul.stui-page__item).byt(下一页).a(href)");var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".get(ul.stui-content__playlist)");var 线路=e2Arr(getVar("源码"),".get(div.stui-vodlist__head)");var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");var 列表规则=".get(li)";var 标题规则=".get(h3).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
                     "搜索规则":'var URL=baseURL+"/vodsearch/-------------.html?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";var NEXTPAGE="";var PREPAGE="";',
@@ -95,12 +80,12 @@
             {
                 "title":"剧白白",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/jubaibai.png",
-                "分类地址":"https://www.jubaibai.cc/vodshow/id/分类/page/1.html",
+                "分类地址":"https://www.jubaibai.cc/vodshow/id/分类/page/翻页.html",
                 "首页地址":"https://www.jubaibai.cc/",
                 "baseURL":"https://www.jubaibai.cc",
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=dianying+连续剧=dianshiju+动漫=dongman+综艺=zongyi+剧情片=juqingpian+恐怖片=kongbupian+科幻片=kehuanpian+动作片=dongzuopian+喜剧片=xijupian+爱情片=aiqingpian+国产剧=guochanju+日韩剧=rihanju+港台剧=gangtaiju+欧美剧=oumeiju";a;',
+                    "筛选数据":'var a="分类+电影=dianying+连续剧=dianshiju+动漫=dongman+综艺=zongyi+剧情片=juqingpian+恐怖片=kongbupian+科幻片=kehuanpian+动作片=dongzuopian+喜剧片=xijupian+爱情片=aiqingpian+国产剧=guochanju+日韩剧=rihanju+港台剧=gangtaiju+欧美剧=oumeiju";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";var NEXTPAGE=baseURL+e2Rex(getVar("源码"),".get(ul.stui-page__item).byt(下一页).a(href)");var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".get(ul.stui-content__playlist)");var 线路=getVar("源码").match(/<a class="sort-button[\\s\\S]*?\\/h3>/g);;var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");var 列表规则=".get(li)";var 标题规则=".get(h3).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
                     "搜索规则":'var URL=baseURL+"/rss?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".xml(item)");var 标题规则=".xml(title).t()";var 地址规则=".xml(link).t().z(\\S+)";var 图片规则=".get(a).a(data-original)";var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";var NEXTPAGE="";var PREPAGE="";',
