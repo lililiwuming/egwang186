@@ -65,9 +65,9 @@
             {
                 "title":"剧迷TV",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/gimytv.png",
-                "分类地址":"https://gimytv.com/genre/分类---1.html",
-                "首页地址":"https://gimytv.com/",
-                "baseURL":"https://gimytv.com",
+                "分类地址":"https://gimytv.app/genre/分类---1.html",
+                "首页地址":"https://gimytv.app/",
+                "baseURL":"https://gimytv.app",
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.myui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=movies+电视剧=tvseries+综艺=tv_show+动漫=anime+剧情片=drama+科幻片=scifi+动作片=action+喜剧片=comedymovie+爱情片=romance+大陆剧=cn+香港剧=hk+韩剧=kr+美剧=us+日剧=jp+台剧=tw";a;',
@@ -130,7 +130,7 @@
                 "baseURL":"https://auete.com",
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.threadlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(button).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=Movie+电视剧=Tv+综艺Zy+动漫=Dm+动作片=Movie/dzp+喜剧片=Movie/xjp+爱情片=Movie/aqp+科幻片=Movie/khp+恐怖片=Movie/kbp+剧情片=Movie/jqp+战争片=Movie/zzp+大陆剧=Tv/neidi+香港剧=Tv/tvbgj+台湾剧=Tv/taiju+日本剧=Tv/riju+韩国剧=Tv/hanju+欧美剧=Tv/oumei";var b="第1页=index";for(var i=2;i<50;i++){b=b+"+第"+i+"页=index"+i;}var b="翻页+"+b;a+"\\n"+b;',
+                    "筛选数据":'var a="分类+电影=Movie+电视剧=Tv+综艺=Zy+动漫=Dm+动作片=Movie/dzp+喜剧片=Movie/xjp+爱情片=Movie/aqp+科幻片=Movie/khp+恐怖片=Movie/kbp+剧情片=Movie/jqp+战争片=Movie/zzp+大陆剧=Tv/neidi+香港剧=Tv/tvbgj+台湾剧=Tv/taiju+日本剧=Tv/riju+韩国剧=Tv/hanju+欧美剧=Tv/oumei";var b="第1页=index";for(var i=2;i<50;i++){b=b+"+第"+i+"页=index"+i;}var b="翻页+"+b;a+"\\n"+b;',
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.threadlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(button).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div#player_list)");var 简介=e2Rex(getVar("源码"),".get(div.message).t()");var 线路="";var 列表规则=".get(ul li)";var 标题规则=".get(h2).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
                     "搜索规则":'var URL=baseURL+"/search.php?searchword="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL}));var 列表=e2Arr(源码,".get(ul.threadlist li)");var 标题规则=".get(a).t()";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(span).st().t()";var NEXTPAGE="";var PREPAGE="";',
