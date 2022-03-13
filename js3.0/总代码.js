@@ -294,7 +294,7 @@ var 记录=[];
 if(getVar("KEY")!='null'){
 var data=getVar("KEY");
 if(JSON.parse(data).title&&JSON.parse(data).分类地址&&JSON.parse(data).首页地址&&JSON.parse(data).baseURL&&JSON.parse(data).rule){
-记录.push(JSON.parse(data));
+记录.push(data);
 }else{
     alert("请输入正确规则格式");
 }
