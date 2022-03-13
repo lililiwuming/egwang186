@@ -293,7 +293,7 @@ var filename='一个影视本地规则.txt';
 var 记录=[];
 if(getVar("KEY")!='null'){
 var data=getVar("KEY");
-alert(data);
+alert(JSON.stringify(data));
 if(JSON.parse(data).title&&JSON.parse(data).分类地址&&JSON.parse(data).首页地址&&JSON.parse(data).baseURL&&JSON.parse(data).rule){
 记录.push(data);alert(JSON.stringify(记录));
 }else{
@@ -302,7 +302,7 @@ if(JSON.parse(data).title&&JSON.parse(data).分类地址&&JSON.parse(data).首�
 if(_.read(filename)){
 var 新记录=[];
 var 记录=记录.concat(JSON.parse(_.read(filename)[0].data));
-新记录.push({title:"本地规则",data:记录});
+新记录.push({title:"本地规则",data:JSON.stringify(记录)});
 }else{
 var 新记录=[];
 新记录.push({title:"本地规则",data:记录});
