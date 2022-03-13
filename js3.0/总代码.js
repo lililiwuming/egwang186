@@ -293,7 +293,7 @@ var filename='一个影视本地规则.txt';
 var 记录=[];
 if(getVar("KEY")!='null'){
 var data=JSON.parse(getVar("KEY"));
-if(JSON.parse(data).title&&JSON.parse(data).url&&JSON.parse(data).img){
+if(data.title&&data.url&&data.img){
 var title=data.title;var baseURL=data.url;var img=data.img;
 if(baseURL.search(/api\.php\/app\//)!=-1||baseURL.search(/xgapp\.php\/v/)!=-1){
 var 分类地址=baseURL+"video?tid=分类&lang=&year=&pg=翻页";
