@@ -141,8 +141,7 @@ for(var i=0;i<urls.length;i++){
         var resp = JZ(JSON.stringify({ url: urls[i], redirect: false }));
         var u = resp.head.Location || resp.head.location;
     }else{
-        var 分割=urls[i].split("://");
-        var u=分割[0].toLowerCase()+"://"+分割[1];
+        var u=urls[i];
     }
     items.push({url:u}); 
 }
@@ -152,8 +151,7 @@ JSON.stringify(items);
         var resp=JZ(JSON.stringify({url:uu,redirect:false}));
         var u=resp.head.Location||resp.head.location;
     }else{
-        var 分割=uu.split("://");
-        var u=分割[0].toLowerCase()+"://"+分割[1];
+        var u=uu;
     }
 JSON.stringify({url:u});
 }
