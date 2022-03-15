@@ -182,6 +182,13 @@
                 "rule":""
             },
             {
+              "title":"飓风影院",
+              "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/飓风影院.png",
+              "baseURL":"http://yidayy.top/lehailb_api.php/v1.vod",
+              "分类地址":"http://yidayy.top/lehailb_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
+              "首页地址":"http://yidayy.top/lehailb_api.php/v1.vod/vodPhbAll"
+            },
+            {
                 "title":"奈菲迷",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/naifeimi.png",
                 "分类地址":"https://app.netflixmi.com/api.php/tv.vod?type=分类&lang=&year=&page=翻页",
