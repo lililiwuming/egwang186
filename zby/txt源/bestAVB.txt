@@ -1,4 +1,3 @@
-VSV XXX 1 FHD,http://bestavb.top:8008/live/Daia_Florin/1Unlimited19/95810.m3u8
 VSV XXX 2 FHD,http://bestavb.top:8008/live/Daia_Florin/1Unlimited19/95809.m3u8
 VSV XXX 3 FHD,http://bestavb.top:8008/live/Daia_Florin/1Unlimited19/95808.m3u8
 VSV XXX 4 FHD,http://bestavb.top:8008/live/Daia_Florin/1Unlimited19/95807.m3u8
