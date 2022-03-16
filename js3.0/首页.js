@@ -63,21 +63,6 @@
                 }
             },
             {
-                "title":"1080迷",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/1080mi.png",
-                "分类地址":"https://www.1080mi.com/v_type/分类-翻页.html",
-                "首页地址":"https://www.1080mi.com/",
-                "baseURL":"https://www.1080mi.com",
-                "rule":{
-                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=1+电视剧=2+综艺=3+动漫=4+动作片=6+喜剧片=7+爱情片=8+科幻片=9+恐怖片=10+剧情片=11+国产剧=13+港台剧=14+日韩剧=15+欧美剧=16";var b="翻页+第1页=1";a+"\\n"+b;',
-                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var NEXTPAGE="";var PREPAGE="";',
-                    "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div.module-play-list)");var 简介=e2Rex(getVar("源码"),".get(div.module-info-main)");var 线路=e2Arr(getVar("源码"),".get(.module-tab-item.tab-item)");var 列表规则=".get(a)";var 标题规则=".t()";var 选集规则=".t()";var 选集地址规则=".a(href)";',
-                    "搜索规则":'var URL=baseURL+"/v_search/-------------.html?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".get(div.module-card-item)");var 标题规则=".get(div.module-card-item-title a).t()";var 地址规则=".get(div.module-card-item-title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var NEXTPAGE="";var PREPAGE="";',
-                    "免嗅探规则":'"web="+getVar("url");'
-                }
-            },
-            {
                 "title":"剧迷TV",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/gimytv.png",
                 "分类地址":"https://gimytv.app/genre/分类---翻页.html",
