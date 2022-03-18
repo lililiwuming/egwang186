@@ -108,21 +108,6 @@
                 }
             },
             {
-                "title":"348电影",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/348z.png",
-                "分类地址":"https://www.348z.com/vodshow/id/分类/page/翻页.html",
-                "首页地址":"https://www.348z.com/",
-                "baseURL":"https://www.348z.com",
-                "rule":{
-                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(li.list-width)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(div.lazy).a(data-original)";var 简介规则=".get(span).st().t().c().get(div.bt).t()";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=1+电视剧=2+综艺=3+动漫=4+动作片=6+喜剧片=7+爱情片=8+科幻片=9+恐怖片=10+剧情片=11+国产剧=13+港台剧=14+日韩剧=15+欧美剧=16";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
-                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(li.list-width)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(div.lazy).a(data-original)";var 简介规则=".get(span).st().t().c().get(div.bt).t()";var NEXTPAGE="";var PREPAGE="";',
-                    "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div.play_list_box)");var 简介=e2Rex(getVar("源码"),".get(div.detail-a.box)");var 线路=e2Arr(getVar("源码"),".get(div#tag a)");var 列表规则=".get(li)";var 标题规则=".t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
-                    "搜索规则":'var URL=baseURL+"/vodsearch.html?wd="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL}));var 列表=e2Arr(源码,".get(ul li.list-width)");var 标题规则=".get(a.searchkey).t()";var 地址规则=".get(a.searchkey).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).st().t()";var NEXTPAGE="";var PREPAGE="";',
-                    "免嗅探规则":'"web="+getVar("url");'
-                }
-            },
-            {
                 "title":"Auete影视",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/auete.png",
                 "分类地址":"https://auete.com/分类/翻页.html",
