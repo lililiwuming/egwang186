@@ -5,9 +5,9 @@
             {
                 "title":"骚火电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/saohuotv.png",
-                "分类地址":"https://saohuotv.com/list/分类-翻页.html",
-                "首页地址":"https://saohuotv.com/",
-                "baseURL":"https://saohuotv.com",
+                "分类地址":"https://saohuo.vip/list/分类-翻页.html",
+                "首页地址":"https://saohuo.vip/",
+                "baseURL":"https://saohuo.vip",
                 "rule":{
                     "首页规则":'var 列表=getVar("源码").match(/<li>[\\s]*?<div class="v_img"[\\s\\S]*?<\\/li>/g);var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(div.v_note).t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=1+电视剧=2+动漫=4+喜剧片=6+爱情片=7+恐怖片=8+动作片=9+科幻片=10+大陆剧=20+TVB=21+韩剧=22+美剧=23+日剧=24";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
