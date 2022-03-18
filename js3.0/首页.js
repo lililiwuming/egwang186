@@ -65,9 +65,9 @@
             {
                 "title":"剧迷TV",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/gimytv.png",
-                "分类地址":"https://gimytv.app/genre/分类---翻页.html",
-                "首页地址":"https://gimytv.app/",
-                "baseURL":"https://gimytv.app",
+                "分类地址":"https://gimy.app/genre/分类---翻页.html",
+                "首页地址":"https://gimy.app/",
+                "baseURL":"https://gimy.app",
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.myui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=movies+电视剧=tvseries+综艺=tv_show+动漫=anime+剧情片=drama+科幻片=scifi+动作片=action+喜剧片=comedymovie+爱情片=romance+大陆剧=cn+香港剧=hk+韩剧=kr+美剧=us+日剧=jp+台剧=tw";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
