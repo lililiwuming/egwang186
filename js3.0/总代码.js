@@ -125,14 +125,21 @@ function 选集列表(){
 var baseURL=getVar("baseURL");
 选集列表();
 ######UA3
-var u=getVar("baseURL");
-if(u.indexOf("hou.lu")!=-1||u.indexOf("dxys2233.com")!=-1){
-"Dart/2.13(dart:io)";
-}else if(u.indexOf("18mv.club")!=-1){
-"okhttp/4.1.0";
+var baseURL=getVar("baseURL");
+if(baseURL.indexOf(".php/")!=-1){
+    if(baseURL.indexOf("api.php/app")!=-1||baseURL.indexOf("xgapp")!=-1||baseURL.indexOf("freekan")!=-1){
+        "Dart/2.14 (dart:io)";
+    }else if(baseURL.indexOf("zsb")!=-1||baseURL.indexOf("fkxs")!=-1||baseURL.indexOf("xays")!=-1||baseURL.indexOf("xcys")!=-1||baseURL.indexOf("szys")!=-1||baseURL.indexOf("dxys")!=-1||baseURL.indexOf("ytys")!=-1||baseURL.indexOf("qnys")!=-1){
+        "Dart/2.15 (dart:io)";
+    }else if(baseURL.indexOf(".vod")!=-1){
+        "okhttp/4.1.0";
+    }else{
+        "Dalvik/2.1.0";
+    }
 }else{
 "Mozilla/5.0 Android";
 }
+
 ######通用免嗅探4
 var uu=getVar("url");
 if(uu.indexOf("ip111.cn/?wd=")!=-1){
@@ -236,7 +243,7 @@ var 模板库=[
             "筛选数据":'var a="分类+电影=movie&start=&area=&type=+电视剧=tvplay&start=&area=&type=+综艺=tvshow&start=&area=&type=+动漫=comic&start=&area=&type=+动作片=movie&start=&area=&type=动作+喜剧片=movie&start=&area=&type=喜剧+爱情片=movie&start=&area=&type=爱情+科幻片=movie&start=&area=&type=科幻+恐怖片=movie&start=&area=&type=恐怖+剧情片=movie&start=&area=&type=剧情+大陆剧=tvplay&start=&area=大陆&type=+香港剧=tvplay&start=&area=香港&type=+台湾剧=tvplay&start=&area=台湾&type=+美国剧=tvplay&start=&area=美国&type=+日本剧=tvplay&start=&area=日本&type=+韩国剧=tvplay&start=&area=韩国&type=";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
             "分类规则":'var 列表=e2Arr(getVar("源码"),".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE="";var PREPAGE="";',
             "选集规则":'var 分类=e2Arr(getVar("源码"),".json(videolist).z(\\".*?\\\\])");var 线路="";var 简介=e2Arr(getVar("源码"),".json(intro)");var 列表规则=".z(\\\\{.*?\\\\})";var 标题规则=".z2(\\"\\\\(.*?\\\\)\\")";var 选集规则=".json(title)";var 选集地址规则=".json(url)";',
-            "搜索规则":'var URL=baseURL+"?ac=list&page=1&wd="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":"okhttp/4.1.0"}}));var 列表=e2Arr(源码,".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE="";var PREPAGE="";',
+            "搜索规则":'var URL=baseURL+"?ac=list&page=1&wd="+getVar("KEY");if(baseURL.indexOf("api.php/app")!=-1||baseURL.indexOf("xgapp")!=-1||baseURL.indexOf("freekan")!=-1){var UA="Dart/2.14 (dart:io)"}else if(baseURL.indexOf("zsb")!=-1||baseURL.indexOf("fkxs")!=-1||baseURL.indexOf("xays")!=-1||baseURL.indexOf("xcys")!=-1||baseURL.indexOf("szys")!=-1||baseURL.indexOf("dxys")!=-1||baseURL.indexOf("ytys")!=-1||baseURL.indexOf("qnys")!=-1){var UA="Dart/2.15 (dart:io)"}else if(baseURL.indexOf(".vod")!=-1){var UA="okhttp/4.1.0"}else{var UA="Dalvik/2.1.0"}var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":UA}}));var 列表=e2Arr(源码,".json(data)");var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";var NEXTPAGE="";var PREPAGE="";',
             "免嗅探规则":'eval(getVar("通用免嗅探"))'
         }
     },
@@ -248,7 +255,7 @@ var 模板库=[
             "筛选数据":'var a="分类+电影=1&class=&area=+电视剧=2&class=&area=+综艺=3&class=&area=+动漫=4&class=&area=+纪录片=31&class=&area=+电视直播=33&class=&area=+动作片=1&class=动作&area=+喜剧片=1&class=喜剧&area=+爱情片=1&class=爱情&area=+科幻片=1&class=科幻&area=+恐怖片=1&class=恐怖&area=+剧情片=1&class=剧情&area=+战争片=1&class=战争&area=+大陆剧=2&class=&area=大陆+香港剧=2&class=&area=香港+台湾剧=2&class=&area=台湾+日本剧=2&class=&area=日本+韩国剧=2&class=&area=韩国+美国剧=2&class=&area=美国";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
             "分类规则":'var 列表=e2Arr(getVar("源码"),".json(data).json(list)");var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";var NEXTPAGE="";var PREPAGE="";',
             "选集规则":'var 分类=e2Arr(getVar("源码"),".json(data).json(vod_play_list)");var 线路="";var 简介=e2Rex(getVar("源码"),".json(data).json(vod_content)");var 列表规则=".json(url).ct(#).z(.*?\\\\$.*?#)";var 标题规则=".json(player_info).json(show)";var 选集规则=".z2(\\\\(.+?\\\\)\\\\$)";var 选集地址规则=".z2(\\\\$\\\\(.+?\\\\)[#|\\"])";',
-            "搜索规则":'var URL=baseURL+"?page=1&limit=10&wd="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":"Dart/2.15 okhttp/4.1.0"}}));var 列表=e2Arr(源码,".json(data).json(list)");var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";var NEXTPAGE="";var PREPAGE="";',
+            "搜索规则":'var URL=baseURL+"?page=1&limit=10&wd="+getVar("KEY");if(baseURL.indexOf("api.php/app")!=-1||baseURL.indexOf("xgapp")!=-1||baseURL.indexOf("freekan")!=-1){var UA="Dart/2.14 (dart:io)"}else if(baseURL.indexOf("zsb")!=-1||baseURL.indexOf("fkxs")!=-1||baseURL.indexOf("xays")!=-1||baseURL.indexOf("xcys")!=-1||baseURL.indexOf("szys")!=-1||baseURL.indexOf("dxys")!=-1||baseURL.indexOf("ytys")!=-1||baseURL.indexOf("qnys")!=-1){var UA="Dart/2.15 (dart:io)"}else if(baseURL.indexOf(".vod")!=-1){var UA="okhttp/4.1.0"}else{var UA="Dalvik/2.1.0"}var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":UA}}));var 列表=e2Arr(源码,".json(data).json(list)");var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";var NEXTPAGE="";var PREPAGE="";',
             "免嗅探规则":'eval(getVar("通用免嗅探"))'
         }
     },
@@ -260,7 +267,7 @@ var 模板库=[
             "筛选数据":'var a="分类+电影=1&class=&area=+电视剧=2&class=&area=+综艺=3&class=&area=+动漫=4&class=&area=+纪录片=31&class=&area=+电视直播=33&class=&area=+动作片=1&class=动作&area=+喜剧片=1&class=喜剧&area=+爱情片=1&class=爱情&area=+科幻片=1&class=科幻&area=+恐怖片=1&class=恐怖&area=+剧情片=1&class=剧情&area=+战争片=1&class=战争&area=+大陆剧=2&class=&area=内地+香港剧=2&class=&area=香港+台湾剧=2&class=&area=台湾+日本剧=2&class=&area=日本+韩国剧=2&class=&area=韩国+美国剧=2&class=&area=美国";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
             "分类规则":'var 列表=e2Arr(getVar("源码"),".json(data)");var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
             "选集规则":'var 分类=e2Arr(getVar("源码"),".json(data).json(vod_info).json(vod_url_with_player)");var 线路="";var 简介=e2Rex(getVar("源码"),".json(data).json(vod_info).json(vod_content)");var 列表规则=".json(url).ct(#).z(.*?\\\\$.*?#)";var 标题规则=".json(name)";var 选集规则=".z2(\\\\(.+?\\\\)\\\\$)";var 选集地址规则=".z2(\\\\$\\\\(.+?\\\\)[#|\\"])";',
-            "搜索规则":'var URL=baseURL+"search?pg=1&text="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":"okhttp/4.1.0"}}));var 列表=e2Arr(源码,".json(data)");var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
+            "搜索规则":'var URL=baseURL+"search?pg=1&text="+getVar("KEY");if(baseURL.indexOf("api.php/app")!=-1||baseURL.indexOf("xgapp")!=-1||baseURL.indexOf("freekan")!=-1){var UA="Dart/2.14 (dart:io)"}else if(baseURL.indexOf("zsb")!=-1||baseURL.indexOf("fkxs")!=-1||baseURL.indexOf("xays")!=-1||baseURL.indexOf("xcys")!=-1||baseURL.indexOf("szys")!=-1||baseURL.indexOf("dxys")!=-1||baseURL.indexOf("ytys")!=-1||baseURL.indexOf("qnys")!=-1){var UA="Dart/2.15 (dart:io)"}else if(baseURL.indexOf(".vod")!=-1){var UA="okhttp/4.1.0"}else{var UA="Dalvik/2.1.0"}var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":UA}}));var 列表=e2Arr(源码,".json(data)");var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
             "免嗅探规则":'eval(getVar("通用免嗅探"))'
         }
     },
@@ -272,7 +279,7 @@ var 模板库=[
             "筛选数据":'var a="分类+电影=1&class=&area=+电视剧=2&class=&area=+综艺=3&class=&area=+动漫=4&class=&area=+纪录片=31&class=&area=+电视直播=33&class=&area=+动作片=1&class=动作&area=+喜剧片=1&class=喜剧&area=+爱情片=1&class=爱情&area=+科幻片=1&class=科幻&area=+恐怖片=1&class=恐怖&area=+剧情片=1&class=剧情&area=+战争片=1&class=战争&area=+大陆剧=2&class=&area=内地+香港剧=2&class=&area=香港+台湾剧=2&class=&area=台湾+日本剧=2&class=&area=日本+韩国剧=2&class=&area=韩国+美国剧=2&class=&area=美国";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
             "分类规则":'var 列表=e2Arr(getVar("源码"),".json(list)");var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
             "选集规则":'var 分类=e2Arr(getVar("源码"),".json(data).json(vod_url_with_player)");var 线路="";var 简介=e2Rex(getVar("源码"),".json(data).json(vod_content)");var 列表规则=".json(url).ct(#).z(.*?\\\\$.*?#)";var 标题规则=".json(name)";var 选集规则=".z2(\\\\(.+?\\\\)\\\\$)";var 选集地址规则=".z2(\\\\$\\\\(.+?\\\\)[#|\\"])";',
-            "搜索规则":'var URL=baseURL+"search?pg=1&text="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":"okhttp/4.1.0"}}));var 列表=e2Arr(源码,".json(list)");var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
+            "搜索规则":'var URL=baseURL+"search?pg=1&text="+getVar("KEY");if(baseURL.indexOf("api.php/app")!=-1||baseURL.indexOf("xgapp")!=-1||baseURL.indexOf("freekan")!=-1){var UA="Dart/2.14 (dart:io)"}else if(baseURL.indexOf("zsb")!=-1||baseURL.indexOf("fkxs")!=-1||baseURL.indexOf("xays")!=-1||baseURL.indexOf("xcys")!=-1||baseURL.indexOf("szys")!=-1||baseURL.indexOf("dxys")!=-1||baseURL.indexOf("ytys")!=-1||baseURL.indexOf("qnys")!=-1){var UA="Dart/2.15 (dart:io)"}else if(baseURL.indexOf(".vod")!=-1){var UA="okhttp/4.1.0"}else{var UA="Dalvik/2.1.0"}var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":UA}}));var 列表=e2Arr(源码,".json(list)");var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";var NEXTPAGE="";var PREPAGE="";',
             "免嗅探规则":'eval(getVar("通用免嗅探"))'
         }
     }
