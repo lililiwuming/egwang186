@@ -164,7 +164,7 @@
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div.stui-warp-content)");var 线路="";var 简介=e2Rex(getVar("源码"),".get(div.stui-warp-content).t()");var 列表规则=".ty(player_aaaa=).json()";var 标题规则=".get(h3).t()";var 选集规则=".json(from)";var 选集地址规则=".json(url)";',
                     "搜索规则":'var URL=baseURL+"/vodsearch/-------------.html?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
-                    "免嗅探规则":''
+                    "免嗅探规则":'JSON.stringify({url:getVar("url")});'
                 }
             }
         ]
