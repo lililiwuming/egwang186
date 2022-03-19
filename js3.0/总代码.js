@@ -299,7 +299,7 @@ eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/mast
 var filename='一个影视本地规则.txt';
 var 记录=[];
 if(getVar("KEY").length>10){
-var data=e2Rex(getVar("KEY"),".json()");
+var data=e2Rex(getVar("KEY").replace(/\s+/g,""),".json()");
 alert(JSON.stringify(data))
 if(data.title&&data.url&&data.img){
 var title=data.title;var baseURL=data.url;var img=data.img;
