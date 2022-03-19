@@ -55,7 +55,7 @@ for(var j=0;j<LIMIT;j++){
     var 图片=getVar("url").match(/https?:\/\/.+?\//)[0]+预图片;
     }
     if(图片.indexOf("puui.qpic.cn/")!=-1){
-    var 图片=图片.indexOf("https")!=-1?图片+getVar("TIME_")+"/220":图片.replace("http","https")+getVar("TIME_")+"/220";
+    var 图片=图片.indexOf("https")!=-1?图片+getVar("TIME")+"/220":图片.replace("http","https")+getVar("TIME")+"/220";
     }
     var 简介=e2Rex(CODE,简介规则);
     var 图片底部=e2Rex(CODE,图片底部规则);
