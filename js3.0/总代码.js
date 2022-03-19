@@ -308,8 +308,8 @@ var 分类地址=e2Rex(getVar("KEY"),".json(分类地址)")||e2Rex(getVar("KEY")
 var 首页地址=e2Rex(getVar("KEY"),".json(首页地址)")||e2Rex(getVar("KEY"),".dn64().json(首页地址)");
 记录.push({title:title,img:img,baseURL:baseURL,分类地址:分类地址,首页地址:首页地址,rule:rule});
 }else{
-if(data.title&&data.url&&data.img){
-var title=data.title;var baseURL=data.url;var img=data.img;
+if(e2Rex(getVar("KEY"),".json(title)")&&e2Rex(getVar("KEY"),".json(url)")&&e2Rex(getVar("KEY"),".json(img)")){
+var title=e2Rex(getVar("KEY"),".json(title)");var baseURL=e2Rex(getVar("KEY"),".json(url)");var img=e2Rex(getVar("KEY"),".json(img)");
 if(baseURL.search(/api\.php\/app\//)!=-1||baseURL.search(/xgapp\.php\/v/)!=-1){
 var 分类地址=baseURL+"video?tid=分类&lang=&year=&pg=翻页";
 var 首页地址=baseURL+"index_video?token=";
