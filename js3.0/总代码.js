@@ -301,11 +301,11 @@ var 记录=[];
 if(getVar("KEY").length>10){
 var rule=e2Rex(getVar("KEY"),".json(rule)")||e2Rex(getVar("KEY"),".dn64().json(rule)");
 if(rule){
-var title=e2Rex(getVar("KEY"),".json(title)");
-var img=e2Rex(getVar("KEY"),".json(img)");
-var baseURL=e2Rex(getVar("KEY"),".json(baseURL)");
-var 分类地址=e2Rex(getVar("KEY"),".json(分类地址)");
-var 首页地址=e2Rex(getVar("KEY"),".json(首页地址)");
+var title=e2Rex(getVar("KEY"),".json(title)")||e2Rex(getVar("KEY"),".dn64().json(title)");
+var img=e2Rex(getVar("KEY"),".json(img)")||e2Rex(getVar("KEY"),".dn64().json(img)");
+var baseURL=e2Rex(getVar("KEY"),".json(baseURL)")||e2Rex(getVar("KEY"),".dn64().json(baseURL)");
+var 分类地址=e2Rex(getVar("KEY"),".json(分类地址)")||e2Rex(getVar("KEY"),".dn64().json(分类地址)");
+var 首页地址=e2Rex(getVar("KEY"),".json(首页地址)")||e2Rex(getVar("KEY"),".dn64().json(首页地址)");
 记录.push({title:title,img:img,baseURL:baseURL,分类地址:分类地址,首页地址:首页地址,rule:rule});
 }else{
 if(data.title&&data.url&&data.img){
