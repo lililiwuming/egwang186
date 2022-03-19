@@ -299,8 +299,15 @@ eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/mast
 var filename='一个影视本地规则.txt';
 var 记录=[];
 if(getVar("KEY").length>10){
-var data=e2Rex(getVar("KEY"),".json(rule)");
-alert(JSON.stringify(data))
+var rule=e2Rex(getVar("KEY"),".json(rule)");
+if(rule){
+var title=e2Rex(getVar("KEY"),".json(title)");
+var img=e2Rex(getVar("KEY"),".json(img)");
+var baseURL=e2Rex(getVar("KEY"),".json(baseURL)");
+var 分类地址=e2Rex(getVar("KEY"),".json(分类地址)");
+var 首页地址=e2Rex(getVar("KEY"),".json(首页地址)");
+记录.push({title:title,img:img,baseURL:baseURL,分类地址:分类地址,首页地址:首页地址,rule:rule});
+}else{
 if(data.title&&data.url&&data.img){
 var title=data.title;var baseURL=data.url;var img=data.img;
 if(baseURL.search(/api\.php\/app\//)!=-1||baseURL.search(/xgapp\.php\/v/)!=-1){
@@ -318,6 +325,7 @@ var 首页地址=baseURL+"?ac=list&class=&start=&area=&type=&page=1";
 记录.push({title:title,img:img,baseURL:baseURL,分类地址:分类地址,首页地址:首页地址});
 }else{
     alert("请输入正确规则格式：{\"title\":\"播放呀\",\"url\":\"https:\/\/www.bofangya.com\/xgapp.php\/v1\/\",\"img\":\"https:\/\/inmemory.coding.net\/p\/InMemory\/d\/MBrowser\/git\/raw\/master\/AppFile\/AppIcon\/播放呀.png\"}");
+}
 }
 if(_.read(filename)){
 var 新记录=[];
