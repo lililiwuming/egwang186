@@ -182,11 +182,12 @@
                 "rule":""
             },
             {
-              "title":"飓风影院",
-              "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/飓风影院.png",
-              "baseURL":"http://yidayy.top/lehailb_api.php/v1.vod",
-              "分类地址":"http://yidayy.top/lehailb_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
-              "首页地址":"http://yidayy.top/lehailb_api.php/v1.vod/vodPhbAll"
+                "title":"飓风影院",
+                "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/飓风影院.png",
+                "分类地址":"http://yidayy.top/lehailb_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
+                "首页地址":"http://yidayy.top/lehailb_api.php/v1.vod/vodPhbAll",
+                "baseURL":"http://yidayy.top/lehailb_api.php/v1.vod",
+                "rule":""
             },
             {
                 "title":"奈菲迷",
@@ -205,11 +206,28 @@
                 "rule":""
             },
             {
-                "title":"瑞丰影视",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/ruifeng.png",
-                "分类地址":"https://tv.yjhan.com:4423/ruifenglb_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
-                "首页地址":"https://tv.yjhan.com:4423/ruifenglb_api.php/v1.vod/vodPhbAll",
-                "baseURL":"https://tv.yjhan.com:4423/ruifenglb_api.php/v1.vod",
+                "title":"益达影院",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yss6080.png",
+                "分类地址":"http://luobu.yss6080.com/mogai_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
+                "首页地址":"http://luobu.yss6080.com/mogai_api.php/v1.vod/vodPhbAll",
+                "baseURL":"http://luobu.yss6080.com/mogai_api.php/v1.vod",
+                "rule":""
+            },
+            {
+                "title":"片多儿影视",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/meinaikang.png",
+                "分类地址":"http://221.236.18.12:665/api.php/v1.vod?type=分类&lang=&year=&page=翻页",
+                "首页地址":"http://221.236.18.12:665/api.php/v1.vod/vodPhbAll",
+                "baseURL":"http://221.236.18.12:665/api.php/v1.vod",
+                "rule":""
+            },
+            {
+                "title":"苍蓝4K",
+                "url":"https://vip.ruifenglb.com:4433/api.php/app/index_video?token=",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ruifeng.png",
+                "分类地址":"https://vip.ruifenglb.com:4433/api.php/app/video?tid=分类&lang=&year=&pg=翻页",
+                "首页地址":"https://vip.ruifenglb.com:4433/api.php/app/index_video?token=",
+                "baseURL":"https://vip.ruifenglb.com:4433/api.php/app/",
                 "rule":""
             },
             {
@@ -226,14 +244,6 @@
                 "分类地址":"http://vipmv.co/xgapp.php/v1/video?tid=分类&lang=&year=&pg=翻页",
                 "首页地址":"http://vipmv.co/xgapp.php/v1/index_video?token=",
                 "baseURL":"http://vipmv.co/xgapp.php/v1/",
-                "rule":""
-            },
-            {
-                "title":"看365",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/kan365.png",
-                "分类地址":"https://www.kan365.xyz/api.php/app/video?tid=分类&lang=&year=&pg=翻页",
-                "首页地址":"https://www.kan365.xyz/api.php/app/index_video?token=",
-                "baseURL":"https://www.kan365.xyz/api.php/app/",
                 "rule":""
             }
         ]
