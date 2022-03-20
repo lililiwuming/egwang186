@@ -33,21 +33,6 @@
                 }
             },
             {
-                "title":"念念剧场",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/997yuanmajs.png",
-                "分类地址":"https://997.yuanmajs.cn/index.php/vod/show/id/分类/page/翻页.html",
-                "首页地址":"https://997.yuanmajs.cn/",
-                "baseURL":"https://997.yuanmajs.cn",
-                "rule":{
-                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.img-list li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(p).t()";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=1+电视剧=2+综艺=3+动漫=4+4K=5+剧情片=1/class/剧情+恐怖片=1/class/恐怖+科幻片=1/class/科幻+动作片=1/class/动作+喜剧片=1/class/喜剧+爱情片=1/class/爱情+大陆剧=2/area/大陆+香港剧=2/area/香港+台湾剧=2/area/台湾+韩剧=2/area/韩国+美剧=2/area/美国+日剧=2/area/日本";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
-                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.img-list li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(p).t()";var NEXTPAGE="";var PREPAGE="";',
-                    "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div.video_list)");var 线路=e2Arr(getVar("源码"),".get(div.down-title)");var 简介=e2Rex(getVar("源码"),".get(div#juqing).t()");var 列表规则=".get(a)";var 标题规则=".get(h2).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
-                    "搜索规则":'var URL=baseURL+"/index.php/vod/search.html?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".get(ul.show-list li)");var 标题规则=".get(h2 a).t()";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(sc)";var 简介规则=".get(div.play-txt).t()";var NEXTPAGE="";var PREPAGE="";',
-                    "免嗅探规则":'"web="+getVar("url");'
-                }
-            },
-            {
                 "title":"1080迷",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/1080mi.png",
                 "分类地址":"https://www.1080mi.com/v_type/分类-翻页.html",
@@ -149,6 +134,21 @@
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".get(ul[class~=.*?ui-content__.*?list])");var 线路=e2Arr(getVar("源码"),".get(ul.nav.nav-tabs li)");var 简介=e2Rex(getVar("源码"),".get(div[class~=.*?ui-content__detail]).t().c().get(div.col-pd.text-collapse.content).t()");var 列表规则=".get(li)";var 标题规则=".get(a).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
                     "搜索规则":'var URL=baseURL+"/vodsearch/-------------.html?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".get(ul.myui-vodlist__media li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
+                    "免嗅探规则":'"web="+getVar("url");'
+                }
+            },
+            {
+                "title":"影视工场",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/ysgc.png",
+                "分类地址":"https://www.ysgc.tv/vodtype/分类-翻页.html",
+                "首页地址":"https://www.ysgc.tv/",
+                "baseURL":"https://www.ysgc.tv",
+                "rule":{
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.myui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'var a="分类+电影=1+电视剧=2+综艺=3+动漫=4+动作片=6+喜剧片=7+爱情片=8+科幻片=9+恐怖片=10+剧情片=11+国产剧=13+港台剧=14+日韩剧=15+欧美剧=16";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
+                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.myui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
+                    "选集规则":'var 分类=e2Arr(getVar("源码"),".get(ul[class~=.*?ui-content__.*?list])");var 线路=e2Arr(getVar("源码"),".get(ul.nav.nav-tabs li)");var 简介=e2Rex(getVar("源码"),".get(div[class~=.*?ui-content__detail]).t().c().get(div.col-pd.text-collapse.content).t()");var 列表规则=".get(li)";var 标题规则=".get(a).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
+                    "搜索规则":'var URL=baseURL+"/rss.xml?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".xml(item)");var 标题规则=".xml(title).t()";var 地址规则=".xml(link).t().z(\\S+)";var 图片规则=".get(a).a(data-original)";var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";var NEXTPAGE="";var PREPAGE="";',
                     "免嗅探规则":'"web="+getVar("url");'
                 }
             }
