@@ -207,7 +207,7 @@
             },
             {
                 "title":"益达影院",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/yss6080.png",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/yss6080.png",
                 "分类地址":"http://luobu.yss6080.com/mogai_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
                 "首页地址":"http://luobu.yss6080.com/mogai_api.php/v1.vod/vodPhbAll",
                 "baseURL":"http://luobu.yss6080.com/mogai_api.php/v1.vod",
@@ -215,7 +215,7 @@
             },
             {
                 "title":"片多儿影视",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/meinaikang.png",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/meinaikang.png",
                 "分类地址":"http://221.236.18.12:665/api.php/v1.vod?type=分类&lang=&year=&page=翻页",
                 "首页地址":"http://221.236.18.12:665/api.php/v1.vod/vodPhbAll",
                 "baseURL":"http://221.236.18.12:665/api.php/v1.vod",
@@ -224,7 +224,7 @@
             {
                 "title":"苍蓝4K",
                 "url":"https://vip.ruifenglb.com:4433/api.php/app/index_video?token=",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js2.0/ruifeng.png",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/ruifeng.png",
                 "分类地址":"https://vip.ruifenglb.com:4433/api.php/app/video?tid=分类&lang=&year=&pg=翻页",
                 "首页地址":"https://vip.ruifenglb.com:4433/api.php/app/index_video?token=",
                 "baseURL":"https://vip.ruifenglb.com:4433/api.php/app/",
