@@ -1,4 +1,3 @@
-XXL (M),http://tv.rtvline.xyz:25461/live/sergiofreire/Hke4gCuw9b/55256.m3u8
 Erox (M)(1080),http://tv.rtvline.xyz:25461/live/sergiofreire/Hke4gCuw9b/55260.m3u8
 HOT TV (M),http://tv.rtvline.xyz:25461/live/sergiofreire/Hke4gCuw9b/55303.m3u8
 X1 (M)(1080),http://tv.rtvline.xyz:25461/live/sergiofreire/Hke4gCuw9b/67372.m3u8
