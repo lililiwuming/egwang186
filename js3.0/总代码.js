@@ -343,4 +343,5 @@ alert("请输入正确规则格式：{\"title\":\"播放呀\",\"url\":\"https:\/
 var base=getVar("baseURL").match(/https?:\/\/(.+?)\//)[1];
 var cm=android.webkit.CookieManager.getInstance();
 var COOKIE=cm.getCookie(base);
+alert(JSON.stringify(COOKIE));
 JSON.stringify(COOKIE);
