@@ -339,10 +339,3 @@ _.read(filename);
 }else{
 alert("请输入正确规则格式：{\"title\":\"播放呀\",\"url\":\"https:\/\/www.bofangya.com\/xgapp.php\/v1\/\",\"img\":\"https:\/\/inmemory.coding.net\/p\/InMemory\/d\/MBrowser\/git\/raw\/master\/AppFile\/AppIcon\/播放呀.png\"}");
 }
-######COOKIE8
-var base=getVar("baseURL").match(/https?:\/\/(.+)/)[1];
-alert(base)
-var cm=android.webkit.CookieManager.getInstance();
-var COOKIE=cm.getCookie(base);
-alert(COOKIE);
-COOKIE;
