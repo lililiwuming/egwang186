@@ -139,7 +139,6 @@ if(baseURL.indexOf(".php/")!=-1){
 }else{
 "Mozilla/5.0 Android";
 }
-
 ######通用免嗅探4
 var uu=getVar("url");
 if(uu.indexOf("ip111.cn/?wd=")!=-1){
@@ -340,3 +339,8 @@ _.read(filename);
 }else{
 alert("请输入正确规则格式：{\"title\":\"播放呀\",\"url\":\"https:\/\/www.bofangya.com\/xgapp.php\/v1\/\",\"img\":\"https:\/\/inmemory.coding.net\/p\/InMemory\/d\/MBrowser\/git\/raw\/master\/AppFile\/AppIcon\/播放呀.png\"}");
 }
+######COOKIE8
+var base=getVar("baseURL");
+var cm=android.webkit.CookieManager.getInstance();
+var COOKIE=cm.getCookie(base);
+JSON.stringify(COOKIE);
