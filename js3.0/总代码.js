@@ -344,5 +344,5 @@ var base=getVar("baseURL").match(/https?:\/\/(.+)/)[1];
 alert(base)
 var cm=android.webkit.CookieManager.getInstance();
 var COOKIE=cm.getCookie(base);
-alert(JSON.stringify(COOKIE));
-JSON.stringify(COOKIE);
+alert(COOKIE);
+COOKIE;
