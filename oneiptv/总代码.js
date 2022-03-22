@@ -141,7 +141,7 @@ for(var i=0;i<urls.length;i++){
         var resp = JZ(JSON.stringify({ url: urls[i], redirect: false }));
         var u = resp.head.Location || resp.head.location;
     }else if(urls[i].indexOf("mitv://")!=-1){
-        var u=urls[i].replace("mitv://","P2p://");
+        var u=urls[i].replace("mitv://","p8p://");
     }else{
         var u=urls[i];
     }
@@ -153,7 +153,7 @@ JSON.stringify(items);
         var resp=JZ(JSON.stringify({url:uu,redirect:false}));
         var u=resp.head.Location||resp.head.location;
     }else if(uu.indexOf("mitv://")!=-1){
-        var u=uu.replace("mitv://","P2p://");
+        var u=uu.replace("mitv://","p8p://");
     }else{
         var u=uu;
     }
