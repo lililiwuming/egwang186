@@ -137,7 +137,7 @@ if(baseURL.indexOf(".php/")!=-1){
         "Dalvik/2.1.0";
     }
 }else{
-"Mozilla/5.0 Android";
+"";
 }
 ######通用免嗅探4
 var uu=getVar("url");
