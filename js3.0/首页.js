@@ -151,6 +151,21 @@
                     "搜索规则":'var URL=baseURL+"/rss.xml?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".xml(item)");var 标题规则=".xml(title).t()";var 地址规则=".xml(link).t().z(\\S+)";var 图片规则=".get(a).a(data-original)";var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";var NEXTPAGE="";var PREPAGE="";',
                     "免嗅探规则":'"web="+getVar("url");'
                 }
+            },
+            {
+                "title":"黄色仓库",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/hsck.png",
+                "分类地址":'getVar("baseURL")+"/vodtype/分类-翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'var url="http://hsck.us/";var jx=e2Rex(getHttp(url),".z(http[^\\"]+)");var code=JZ(JSON.stringify({url:jx+url,redirect:false}));code.head.Location;',
+                "rule":{
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'var a="分类+日韩AV=1+国产系列=2+欧美=3+成人动漫=4+中字无码=8+中字有码=9+日本无码=10+日本有码=7+国产视频=15+欧美高清=21+动漫剧情=22";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
+                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
+                    "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div.stui-warp-content)");var 线路="";var 简介=e2Rex(getVar("源码"),".get(div.stui-warp-content).t()");var 列表规则=".ty(player_aaaa=).json(url)";var 标题规则=".get(h3).t()";var 选集规则="播放";var 选集地址规则=".t()";',
+                    "搜索规则":'var URL=baseURL+"/vodsearch/-------------.html?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
+                    "免嗅探规则":'JSON.stringify({url:getVar("url")});'
+                }
             }
         ]
     },
