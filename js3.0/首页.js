@@ -5,8 +5,8 @@
             {
                 "title":"骚火电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/saohuotv.png",
-                "分类地址":"getVar("baseURL")+'/list/分类-翻页.html';",
-                "首页地址":"getVar("baseURL")+'/';",
+                "分类地址":"getVar(\"baseURL\")+'/list/分类-翻页.html';",
+                "首页地址":"getVar(\"baseURL\")+'/';",
                 "baseURL":"'https://saohuo.vip';",
                 "rule":{
                     "首页规则":'var 列表=getVar("源码").match(/<li>[\\s]*?<div class="v_img"[\\s\\S]*?<\\/li>/g);var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(div.v_note).t()";var NEXTPAGE="";var PREPAGE="";',
@@ -20,8 +20,8 @@
             {
                 "title":"555电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/555dy.png",
-                "分类地址":"getVar("baseURL")+'/vodshow/分类-----翻页---.html';",
-                "首页地址":"getVar("baseURL")+'/';",
+                "分类地址":"getVar(\"baseURL\")+'/vodshow/分类-----翻页---.html';",
+                "首页地址":"getVar(\"baseURL\")+'/';",
                 "baseURL":"'https://www.555dy1.com';",
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.myui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
