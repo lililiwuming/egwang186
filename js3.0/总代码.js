@@ -343,4 +343,8 @@ alert("请输入正确规则格式：{\"title\":\"播放呀\",\"url\":\"https:\/
 var baseURL=getVar("baseURL");
 var cm=android.webkit.CookieManager.getInstance();
 var COOKIE=cm.getCookie(baseURL);
-COOKIE+"";
+if(baseURL.indexOf("hsck.com")!=-1){
+    COOKIE.split(";")[0]+';';
+}else{
+    COOKIE;
+}
