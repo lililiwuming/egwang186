@@ -310,14 +310,14 @@ var 首页地址=e2Rex(getVar("KEY"),".json(首页地址)")||e2Rex(getVar("KEY")
 if(e2Rex(getVar("KEY"),".json(title)")&&e2Rex(getVar("KEY"),".json(url)")&&e2Rex(getVar("KEY"),".json(img)")){
 var title=e2Rex(getVar("KEY"),".json(title)");var baseURL=e2Rex(getVar("KEY"),".json(url)");var img=e2Rex(getVar("KEY"),".json(img)");
 if(baseURL.search(/api\.php\/app\//)!=-1||baseURL.search(/xgapp\.php\/v/)!=-1){
-var 分类地址=baseURL+"video?tid=分类&lang=&year=&pg=翻页";
-var 首页地址=baseURL+"index_video?token=";
+var 分类地址='getVar("baseURL")+"video?tid=分类&lang=&year=&pg=翻页";';
+var 首页地址='getVar("baseURL")+"index_video?token=";';
 }else if(baseURL.search(/\.php\/.+?\.vod/)!=-1){
-var 分类地址=baseURL+"?type=分类&lang=&year=&page=翻页";
-var 首页地址=baseURL+"/vodPhbAll";
+var 分类地址='getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";';
+var 首页地址='getVar("baseURL")+"/vodPhbAll";';
 }else if(baseURL.search(/api\.php\/.+?\/vod\//)!=-1){
-var 分类地址=baseURL+"?ac=list&class=分类&page=翻页";
-var 首页地址=baseURL+"?ac=list&class=&start=&area=&type=&page=1";
+var 分类地址='getVar("baseURL")+"?ac=list&class=分类&page=翻页";';
+var 首页地址='getVar("baseURL")+"?ac=list&class=&start=&area=&type=&page=1";';
 }else{
     alert("暂未适配");
 }
@@ -342,5 +342,5 @@ alert("请输入正确规则格式：{\"title\":\"播放呀\",\"url\":\"https:\/
 ######COOKIE8
 var baseURL=getVar("baseURL");
 var cm=android.webkit.CookieManager.getInstance();
-var ALICOOKIE=cm.getCookie(baseURL);
-ALICOOKIE+"";
+var COOKIE=cm.getCookie(baseURL);
+COOKIE+"";

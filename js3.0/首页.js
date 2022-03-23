@@ -5,9 +5,9 @@
             {
                 "title":"骚火电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/saohuotv.png",
-                "分类地址":"getVar(\"baseURL\")+'/list/分类-翻页.html';",
-                "首页地址":"getVar(\"baseURL\")+'/';",
-                "baseURL":"'https://saohuo.vip';",
+                "分类地址":'getVar("baseURL")+"/list/分类-翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"https://saohuo.vip";',
                 "rule":{
                     "首页规则":'var 列表=getVar("源码").match(/<li>[\\s]*?<div class="v_img"[\\s\\S]*?<\\/li>/g);var 标题规则=".get(.v_title a).t()";var 地址规则=".get(.v_title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".get(div.v_note).t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=1+电视剧=2+动漫=4+喜剧片=6+爱情片=7+恐怖片=8+动作片=9+科幻片=10+大陆剧=20+TVB=21+韩剧=22+美剧=23+日剧=24";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
@@ -20,9 +20,9 @@
             {
                 "title":"555电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/555dy.png",
-                "分类地址":"getVar(\"baseURL\")+'/vodshow/分类-----翻页---.html';",
-                "首页地址":"getVar(\"baseURL\")+'/';",
-                "baseURL":"'https://www.555dy1.com';",
+                "分类地址":'getVar("baseURL")+"/vodshow/分类-----翻页---.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"https://www.555dy1.com";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.myui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=1---+电视剧=2---+福利=124---+动漫=4---+Netflix电影=1---Netflix+Netflix剧=2---Netflix+剧情片=1---剧情+科幻片=1---科幻+动作片=1---动作+喜剧片=1---喜剧+爱情片=1---爱情+大陆剧=2-大陆--+香港剧=2-香港--+韩剧=2-韩国--+美剧=2-美国--+日剧=2-日本--";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
@@ -35,9 +35,9 @@
             {
                 "title":"1080迷",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/1080mi.png",
-                "分类地址":"https://www.1080mi.com/v_type/分类-翻页.html",
-                "首页地址":"https://www.1080mi.com/",
-                "baseURL":"https://www.1080mi.com",
+                "分类地址":'getVar("baseURL")+"/v_type/分类-翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"https://www.1080mi.com";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=1+电视剧=2+综艺=3+动漫=4+动作片=6+喜剧片=7+爱情片=8+科幻片=9+恐怖片=10+剧情片=11+国产剧=13+港台剧=14+日韩剧=15+欧美剧=16";var b="翻页+第1页=1";a+"\\n"+b;',
@@ -50,9 +50,9 @@
             {
                 "title":"哔嘀影视",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/bidiys.png",
-                "分类地址":"https://bidiys.cc/vodshow-分类--------翻页---.html",
-                "首页地址":"https://bidiys.cc/",
-                "baseURL":"https://bidiys.cc",
+                "分类地址":'getVar("baseURL")+"/vodshow-分类--------翻页---.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"https://bidiys.cc";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-item)");var 标题规则=".get(div.video-name a).t()";var 地址规则=".get(div.video-name a).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".get(div.module-item-text).t().c().get(span).st().t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+南瓜电影=nanguady+4K专区=huiyuanzhuanqu+电影=dianying+连续剧=lianxuju+动漫=dongman+综艺=zongyi+剧情片=juqingpian+科幻片=kehuanpian+动作片=dongzuopian+喜剧片=xijupian+爱情片=aiqingpian+国产剧=guochanju+日韩剧=rihanju+港台剧=gangtaiju+欧美剧=oumeiju";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
@@ -65,9 +65,9 @@
             {
                 "title":"剧迷TV",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/gimytv.png",
-                "分类地址":"https://gimytv.app/genre/分类---翻页.html",
-                "首页地址":"https://gimytv.app/",
-                "baseURL":"https://gimytv.app",
+                "分类地址":'getVar("baseURL")+"/genre/分类---翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"https://gimytv.app";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.myui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=movies+电视剧=tvseries+综艺=tv_show+动漫=anime+剧情片=drama+科幻片=scifi+动作片=action+喜剧片=comedymovie+爱情片=romance+大陆剧=cn+香港剧=hk+韩剧=kr+美剧=us+日剧=jp+台剧=tw";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
@@ -80,9 +80,9 @@
             {
                 "title":"在线之家",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/zxzj.png",
-                "分类地址":"https://www.zxzjtv.com/list/分类-翻页.html",
-                "首页地址":"https://www.zxzjtv.com/",
-                "baseURL":"https://www.zxzjtv.com",
+                "分类地址":'getVar("baseURL")+"/list/分类-翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"https://www.zxzjtv.com";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original).ct(@{\\"Referer\\":\\"https://www.zxzjtv.com/\\"})";var 简介规则=".get(span).st().t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=1+动漫=6+韩剧=3+美剧=2+日剧=4+泰剧=5";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
@@ -95,9 +95,9 @@
             {
                 "title":"剧白白",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/jubaibai.png",
-                "分类地址":"https://www.jubaibai.cc/vodshow/id/分类/page/翻页.html",
-                "首页地址":"https://www.jubaibai.cc/",
-                "baseURL":"https://www.jubaibai.cc",
+                "分类地址":'getVar("baseURL")+"/vodshow/id/分类/page/翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"https://www.jubaibai.cc";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=dianying+连续剧=dianshiju+动漫=dongman+综艺=zongyi+剧情片=juqingpian+恐怖片=kongbupian+科幻片=kehuanpian+动作片=dongzuopian+喜剧片=xijupian+爱情片=aiqingpian+国产剧=guochanju+日韩剧=rihanju+港台剧=gangtaiju+欧美剧=oumeiju";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
@@ -110,9 +110,9 @@
             {
                 "title":"Auete影视",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/auete.png",
-                "分类地址":"https://auete.com/分类/翻页.html",
-                "首页地址":"https://auete.com/",
-                "baseURL":"https://auete.com",
+                "分类地址":'getVar("baseURL")+"/分类/翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"https://auete.com";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.threadlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".get(button).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=Movie+电视剧=Tv+综艺=Zy+动漫=Dm+动作片=Movie/dzp+喜剧片=Movie/xjp+爱情片=Movie/aqp+科幻片=Movie/khp+恐怖片=Movie/kbp+剧情片=Movie/jqp+战争片=Movie/zzp+大陆剧=Tv/neidi+香港剧=Tv/tvbgj+台湾剧=Tv/taiju+日本剧=Tv/riju+韩国剧=Tv/hanju+欧美剧=Tv/oumei";var b="第1页=index";for(var i=2;i<50;i++){b=b+"+第"+i+"页=index"+i;}var b="翻页+"+b;a+"\\n"+b;',
@@ -125,9 +125,9 @@
             {
                 "title":"九州影院",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/unss.png",
-                "分类地址":"http://www.unss.net/vodtype/分类-翻页.html",
-                "首页地址":"http://www.unss.net/",
-                "baseURL":"http://www.unss.net",
+                "分类地址":'getVar("baseURL")+"/vodtype/分类-翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"http://www.unss.net";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=1+电视剧=2+综艺=3+动漫=4+动作片=6+喜剧片=7+爱情片=8+科幻片=9+恐怖片=10+剧情片=11+国产剧=13+港台剧=14+日韩剧=15+欧美剧=16";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
@@ -140,9 +140,9 @@
             {
                 "title":"影视工场",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/ysgc.png",
-                "分类地址":"https://www.ysgc.tv/vodtype/分类-翻页.html",
-                "首页地址":"https://www.ysgc.tv/",
-                "baseURL":"https://www.ysgc.tv",
+                "分类地址":'getVar("baseURL")+"/vodtype/分类-翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"https://www.ysgc.tv";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.myui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=1+电视剧=2+综艺=3+动漫=4+动作片=6+喜剧片=7+爱情片=8+科幻片=9+恐怖片=10+剧情片=11+国产剧=13+港台剧=14+日韩剧=15+欧美剧=16";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
@@ -160,90 +160,90 @@
             {
                 "title":"HG影视",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/HGyingshi.png",
-                "分类地址":"http://api.hgyx.vip/api.php/iptv/vod/?ac=list&class=分类&page=翻页",
-                "首页地址":"http://api.hgyx.vip/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
-                "baseURL":"http://api.hgyx.vip/api.php/iptv/vod/",
+                "分类地址":'getVar("baseURL")+"?ac=list&class=分类&page=翻页";',
+                "首页地址":'getVar("baseURL")+"?ac=list&class=&start=&area=&type=&page=1";',
+                "baseURL":'"http://api.hgyx.vip/api.php/iptv/vod/";',
                 "rule":""
             },
             {
                 "title":"聚多影视",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/juduo.png",
-                "分类地址":"http://jdyy.weetai.cn/api.php/iptv/vod/?ac=list&class=分类&page=翻页",
-                "首页地址":"http://jdyy.weetai.cn/api.php/iptv/vod/?ac=list&class=&start=&area=&type=&page=1",
-                "baseURL":"http://jdyy.weetai.cn/api.php/iptv/vod/",
+                "分类地址":'getVar("baseURL")+"?ac=list&class=分类&page=翻页";',
+                "首页地址":'getVar("baseURL")+"?ac=list&class=&start=&area=&type=&page=1";',
+                "baseURL":'"http://jdyy.weetai.cn/api.php/iptv/vod/";',
                 "rule":""
             },
             {
                 "title":"大师兄TV",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/dashixiong.png",
-                "分类地址":"http://dsxtv.tv.ci/api.php/dsx/vod/?ac=list&class=分类&page=翻页",
-                "首页地址":"http://dsxtv.tv.ci/api.php/dsx/vod/?ac=list&class=&start=&area=&type=&page=1",
-                "baseURL":"http://dsxtv.tv.ci/api.php/dsx/vod/",
+                "分类地址":'getVar("baseURL")+"?ac=list&class=分类&page=翻页";',
+                "首页地址":'getVar("baseURL")+"?ac=list&class=&start=&area=&type=&page=1";',
+                "baseURL":'"http://dsxtv.tv.ci/api.php/dsx/vod/";',
                 "rule":""
             },
             {
                 "title":"飓风影院",
                 "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/飓风影院.png",
-                "分类地址":"http://yidayy.top/lehailb_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
-                "首页地址":"http://yidayy.top/lehailb_api.php/v1.vod/vodPhbAll",
-                "baseURL":"http://yidayy.top/lehailb_api.php/v1.vod",
+                "分类地址":'getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";',
+                "首页地址":'getVar("baseURL")+"/vodPhbAll";',
+                "baseURL":'"http://yidayy.top/lehailb_api.php/v1.vod";',
                 "rule":""
             },
             {
                 "title":"奈菲迷",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/naifeimi.png",
-                "分类地址":"https://app.netflixmi.com/api.php/tv.vod?type=分类&lang=&year=&page=翻页",
-                "首页地址":"https://app.netflixmi.com/api.php/tv.vod/vodPhbAll",
-                "baseURL":"https://app.netflixmi.com/api.php/tv.vod",
+                "分类地址":'getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";',
+                "首页地址":'getVar("baseURL")+"/vodPhbAll";',
+                "baseURL":'"https://app.netflixmi.com/api.php/tv.vod";',
                 "rule":""
             },
             {
                 "title":"大熊追剧",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/daxiongzhuiju.png",
-                "分类地址":"https://dxys2233.com/mogai_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
-                "首页地址":"https://dxys2233.com/mogai_api.php/v1.vod/vodPhbAll",
-                "baseURL":"https://dxys2233.com/mogai_api.php/v1.vod",
+                "分类地址":'getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";',
+                "首页地址":'getVar("baseURL")+"/vodPhbAll";',
+                "baseURL":'"https://dxys2233.com/mogai_api.php/v1.vod";',
                 "rule":""
             },
             {
                 "title":"益达影院",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/yss6080.png",
-                "分类地址":"http://luobu.yss6080.com/mogai_api.php/v1.vod?type=分类&lang=&year=&page=翻页",
-                "首页地址":"http://luobu.yss6080.com/mogai_api.php/v1.vod/vodPhbAll",
-                "baseURL":"http://luobu.yss6080.com/mogai_api.php/v1.vod",
+                "分类地址":'getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";',
+                "首页地址":'getVar("baseURL")+"/vodPhbAll";',
+                "baseURL":'"http://luobu.yss6080.com/mogai_api.php/v1.vod";',
                 "rule":""
             },
             {
                 "title":"片多儿影视",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/meinaikang.png",
-                "分类地址":"http://221.236.18.12:665/api.php/v1.vod?type=分类&lang=&year=&page=翻页",
-                "首页地址":"http://221.236.18.12:665/api.php/v1.vod/vodPhbAll",
-                "baseURL":"http://221.236.18.12:665/api.php/v1.vod",
+                "分类地址":'getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";',
+                "首页地址":'getVar("baseURL")+"/vodPhbAll";',
+                "baseURL":'"http://221.236.18.12:665/api.php/v1.vod";',
                 "rule":""
             },
             {
                 "title":"苍蓝4K",
                 "url":"https://vip.ruifenglb.com:4433/api.php/app/index_video?token=",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/ruifeng.png",
-                "分类地址":"https://vip.ruifenglb.com:4433/api.php/app/video?tid=分类&lang=&year=&pg=翻页",
-                "首页地址":"https://vip.ruifenglb.com:4433/api.php/app/index_video?token=",
-                "baseURL":"https://vip.ruifenglb.com:4433/api.php/app/",
+                "分类地址":'getVar("baseURL")+"video?tid=分类&lang=&year=&pg=翻页";',
+                "首页地址":'getVar("baseURL")+"index_video?token=";',
+                "baseURL":'"https://vip.ruifenglb.com:4433/api.php/app/";',
                 "rule":""
             },
             {
                 "title":"天空影视",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/tkys.png",
-                "分类地址":"https://www.tkys.tv/xgapp.php/v2/video?tid=分类&lang=&year=&pg=翻页",
-                "首页地址":"https://www.tkys.tv/xgapp.php/v2/index_video?token=",
-                "baseURL":"https://www.tkys.tv/xgapp.php/v2/",
+                "分类地址":'getVar("baseURL")+"video?tid=分类&lang=&year=&pg=翻页";',
+                "首页地址":'getVar("baseURL")+"index_video?token=";',
+                "baseURL":'"https://www.tkys.tv/xgapp.php/v2/";',
                 "rule":""
             },
             {
                 "title":"追剧达人",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/vipmv.png",
-                "分类地址":"http://vipmv.co/xgapp.php/v1/video?tid=分类&lang=&year=&pg=翻页",
-                "首页地址":"http://vipmv.co/xgapp.php/v1/index_video?token=",
-                "baseURL":"http://vipmv.co/xgapp.php/v1/",
+                "分类地址":'getVar("baseURL")+"video?tid=分类&lang=&year=&pg=翻页";',
+                "首页地址":'getVar("baseURL")+"index_video?token=";',
+                "baseURL":'"http://vipmv.co/xgapp.php/v1/";',
                 "rule":""
             }
         ]
