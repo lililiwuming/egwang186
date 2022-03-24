@@ -159,7 +159,7 @@
                 "首页地址":'"https://live.cdn.huya.com/liveHttpUI/getHomeLiveRecommend?iType=1&ePlatform=1";',
                 "baseURL":'"https://www.huya.com";',
                 "rule":{
-                    "首页规则":'var 列表=e2Arr(getVar("源码").replace(/\\s+/g,""),".z(\\\\{\\"lUid\\".+?\\\\})");var 标题规则=".json(sRoomName)";var 地址规则=".c(/).json(lProfileRoom)";var 图片规则=".json(sScreenshot)";var 简介规则=".json(sIntroduction)";var NEXTPAGE="";var PREPAGE="";',
+                    "首页规则":'var 列表=e2Arr(getVar("源码").replace(/\\s+/g,""),".z(\\\\{\\"lUid\\"[^\\{]+?sScreenshot.+?\\\\})");var 标题规则=".json(sRoomName)";var 地址规则=".c(/).json(lProfileRoom)";var 图片规则=".json(sScreenshot)";var 简介规则=".json(sIntroduction)";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+全部=+一起看=2135+原神=5489+英雄联盟手游=6203+英雄联盟=1+王者荣耀=2336+和平精英=3203+天天吃鸡=2793+穿越火线=4+棋牌桌游=100036+颜值=2168+交友=4079+放映厅=6245+互动点播=5907+音乐=3793+体育=2356";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
                     "分类规则":'var 列表=e2Arr(getVar("源码").replace(/\\s+/g,""),".z(\\\\{.+).json(data).json(datas)");var 标题规则=".json(roomName)";var 地址规则=".c(/).json(profileRoom)";var 图片规则=".json(screenshot)";var 简介规则=".json(sIntroduction)";var NEXTPAGE="";var PREPAGE="";',
                     "选集规则":'var 标识=e2Arr(getVar("源码"),".ty(var hyPlayerConfig =).json(stream).dn64()").match(/"sStreamName":"(.+?)"/)[1];var 分类=[];var a={};var data=[];data.push({name:"P2p线路",url:"http://txtest-xp2p.p2p.huya.com/src/"+标识+".xs"},{name:"Flv线路",url:"https://hw.flv.huya.com/src/"+标识+".flv"});a.data=data;a.title="线路";分类.push(a);var 线路="";var 简介=e2Rex(getVar("name"),".t()");var 列表规则=".json(data)";var 标题规则=".json(title)";var 选集规则=".json(name)";var 选集地址规则=".json(url)";',
