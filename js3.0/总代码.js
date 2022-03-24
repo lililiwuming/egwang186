@@ -82,6 +82,7 @@ function 选集列表(){
             if(baseURL.indexOf("xgapp.php/v")!=-1||baseURL.indexOf("api.php/app/")!=-1||baseURL.search(/\.php\/.+?\.vod/)!=-1){
                if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
                    if(选集地址.indexOf(".ruifenglb.com")!=-1){
+                       var 接口="http://player.yjhan.com:8090/api/?key=U9D1GkE1K0rmhUsVdZ&url=";
                        var 选集地址="http://ip111.cn/?wd="+接口+选集地址;
                    }else{
                        var 选集地址="http://ip111.cn/?wd="+选集地址;
