@@ -254,11 +254,11 @@
                 "rule":""
             },
             {
-                "title":"追剧达人",
+                "title":"影视达人",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/vipmv.png",
-                "分类地址":'getVar("baseURL")+"video?tid=分类&lang=&year=&pg=翻页";',
-                "首页地址":'getVar("baseURL")+"index_video?token=";',
-                "baseURL":'"http://vipmv.co/xgapp.php/v1/";',
+                "分类地址":'getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";',
+                "首页地址":'getVar("baseURL")+"/vodPhbAll";',
+                "baseURL":'"http://www.ysdr.vip/api.php/v1.vod";',
                 "rule":""
             }
         ]
