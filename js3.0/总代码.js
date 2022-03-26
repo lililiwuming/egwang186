@@ -337,18 +337,18 @@ if(_.read(filename)){
     var 新记录=[];
 }
 if(新记录.length==0) {
-    新记录.push({title:记录.type,data:记录});
+    新记录.push({title:记录[0].type,data:记录});
 }else{
     let res=新记录.some(item=>{
     //判断类型，有就添加到当前项
-      if (item.title == 记录.type) {
+      if(item.title == 记录[0].type){
       item.data=记录.concat(item.data);
       return true
       }
     });
     if (!res) {
     //如果没找相同类型添加一个类型
-      新记录.push({title:记录.type,data:记录});
+      新记录.push({title:记录[0].type,data:记录});
     }
 }
 _.write(JSON.stringify(新记录),filename);
