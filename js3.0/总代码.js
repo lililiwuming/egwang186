@@ -306,34 +306,50 @@ var img=e2Rex(getVar("KEY"),".json(img)")||e2Rex(getVar("KEY"),".dn64().json(img
 var baseURL=e2Rex(getVar("KEY"),".json(baseURL)")||e2Rex(getVar("KEY"),".dn64().json(baseURL)");
 var 分类地址=e2Rex(getVar("KEY"),".json(分类地址)")||e2Rex(getVar("KEY"),".dn64().json(分类地址)");
 var 首页地址=e2Rex(getVar("KEY"),".json(首页地址)")||e2Rex(getVar("KEY"),".dn64().json(首页地址)");
-记录.push({title:title,img:img,baseURL:baseURL,分类地址:分类地址,首页地址:首页地址,rule:rule});
+var type="网页类";
+记录.push({title:title,img:img,baseURL:baseURL,分类地址:分类地址,首页地址:首页地址,type:type,rule:rule});
 }else{
 if(e2Rex(getVar("KEY"),".json(title)")&&e2Rex(getVar("KEY"),".json(url)")&&e2Rex(getVar("KEY"),".json(img)")){
 var title=e2Rex(getVar("KEY"),".json(title)");var baseURL='"'+e2Rex(getVar("KEY"),".json(url)")+'";';var img=e2Rex(getVar("KEY"),".json(img)");
 if(baseURL.search(/api\.php\/app\//)!=-1||baseURL.search(/xgapp\.php\/v/)!=-1){
 var 分类地址='getVar("baseURL")+"video?tid=分类&lang=&year=&pg=翻页";';
 var 首页地址='getVar("baseURL")+"index_video?token=";';
+var type="小龟";
 }else if(baseURL.search(/\.php\/.+?\.vod/)!=-1){
 var 分类地址='getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";';
 var 首页地址='getVar("baseURL")+"/vodPhbAll";';
+var type="v1.vod";
 }else if(baseURL.search(/api\.php\/.+?\/vod\//)!=-1){
 var 分类地址='getVar("baseURL")+"?ac=list&class=分类&page=翻页";';
 var 首页地址='getVar("baseURL")+"?ac=list&class=&start=&area=&type=&page=1";';
+var type="iptv";
 }else{
     alert("暂未适配");
 }
-记录.push({title:title,img:img,baseURL:baseURL,分类地址:分类地址,首页地址:首页地址});
+记录.push({title:title,img:img,baseURL:baseURL,分类地址:分类地址,首页地址:首页地址,type:type});
 }else{
     alert("请输入正确规则格式：{\"title\":\"播放呀\",\"url\":\"https:\/\/www.bofangya.com\/xgapp.php\/v1\/\",\"img\":\"https:\/\/inmemory.coding.net\/p\/InMemory\/d\/MBrowser\/git\/raw\/master\/AppFile\/AppIcon\/播放呀.png\"}");
 }
 }
 if(_.read(filename)){
-var 新记录=[];
-var 记录=记录.concat(JSON.parse(_.read(filename))[0].data);
-新记录.push({title:"本地规则",data:记录});
+    var 新记录=JSON.parse(_.read(filename));
 }else{
-var 新记录=[];
-新记录.push({title:"本地规则",data:记录});
+    var 新记录=[];
+}
+if(新记录.length==0) {
+    新记录.push({title:记录.type,data:记录});
+}else{
+    let res=新记录.some(item=>{
+    //判断类型，有就添加到当前项
+      if (item.title == 记录.type) {
+      item.data=记录.concat(item.data);
+      return true
+      }
+    });
+    if (!res) {
+    //如果没找相同类型添加一个类型
+      新记录.push({title:记录.type,data:记录});
+    }
 }
 _.write(JSON.stringify(新记录),filename);
 _.read(filename);
