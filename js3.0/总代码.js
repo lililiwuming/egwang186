@@ -486,7 +486,7 @@ var type="CMS";
 记录.push({title:title,img:img,baseURL:baseURL,分类地址:分类地址,首页地址:首页地址,type:type});
 }
 }else{
-    alert("请输入正确规则格式：\n1,APP类：{\"title\":\"播放呀\",\"url\":\"https:\/\/www.bofangya.com\/xgapp.php\/v1\/\",\"img\":\"https:\/\/inmemory.coding.net\/p\/InMemory\/d\/MBrowser\/git\/raw\/master\/AppFile\/AppIcon\/播放呀.png\"}\n2,CMS类：xx资源,http..... \n3,网页类，参考内置网页源模板");
+    alert("请输入正确规则格式：\n1,APP类：{\"title\":\"播放呀\",\"url\":\"https:\/\/www.bofangya.com\/xgapp.php\/v1\/\",\"img\":\"https:\/\/inmemory.coding.net\/p\/InMemory\/d\/MBrowser\/git\/raw\/master\/AppFile\/AppIcon\/播放呀.png\"}\n2,CMS类：xx资源,http..... \n3,网页类：参考内置网页源模板");
 }
 }
 if(_.read(filename)){
@@ -515,7 +515,7 @@ if(新记录.length==0) {
 _.write(JSON.stringify(新记录),filename);
 _.read(filename);
 }else{
-    alert("请输入正确规则格式：\n1,APP类：{\"title\":\"播放呀\",\"url\":\"https:\/\/www.bofangya.com\/xgapp.php\/v1\/\",\"img\":\"https:\/\/inmemory.coding.net\/p\/InMemory\/d\/MBrowser\/git\/raw\/master\/AppFile\/AppIcon\/播放呀.png\"}\n2,CMS类：xx资源,http..... \n3,网页类，参考内置网页源模板");
+    alert("请输入正确规则格式：\n1,APP类：{\"title\":\"播放呀\",\"url\":\"https:\/\/www.bofangya.com\/xgapp.php\/v1\/\",\"img\":\"https:\/\/inmemory.coding.net\/p\/InMemory\/d\/MBrowser\/git\/raw\/master\/AppFile\/AppIcon\/播放呀.png\"}\n2,CMS类：xx资源,http..... \n3,网页类：参考内置网页源模板");
 }
 ######COOKIE8
 var baseURL=getVar("baseURL");
