@@ -116,7 +116,11 @@ if(标题=="xhzy"){
 }else if(URL.indexOf("ujuba.com")!=-1){
       选集地址="https://www.dmplay.xyz/j0?url="+选集地址;
 }else if(URL.indexOf("xinlangapi.com")!=-1){
+      if(标题=="xlm3u8"){
       选集地址="https://www.xinlangjiexi.com/m3u8/?url="+选集地址;
+      }else{
+      选集地址=选集地址;
+      }
 }else if(URL.indexOf("apicdn.vipm3u8.com")!=-1){
       选集地址="https://player.vipparsing.com/player?token=4732bUERfVb60lWNSLrsd5-2s1r70KeA89C3VwrGYYdByboQT9o4OzxIr5-8/cX9-sO6&vid="+选集地址;
 }else if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1||选集地址.indexOf("share.weiyun.")!=-1){
