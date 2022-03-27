@@ -89,7 +89,7 @@ function CMS选集列表(){
     }else if(选集地址.indexOf(":6688/player")!=-1){
           var hash=选集地址.split("player/")[1];
           选集地址="http://ip111.cn/?wd=https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
-    }else if(URL.indexOf("api.yparse.com")!=-1){
+    }else if(baseURL.indexOf("api.yparse.com")!=-1){
           选集地址="https://yparse.jn1.cc/index.php?url="+选集地址;
     }else if(标题.indexOf("rrm3u8")!=-1){
       选集地址="https://www.meiju11.com/ckplayerx/m3u8.php?url="+选集地址;
