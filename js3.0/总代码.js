@@ -247,7 +247,11 @@ function 选集列表(){
     return JSON.stringify(res);
 }
 var baseURL=getVar("baseURL");
-var 类型=type||"";
+if(typeof(type) == "undefined"){
+    var 类型="";
+}else{
+    var 类型=type;
+}
 if(类型){
 CMS选集列表();
 }else{
