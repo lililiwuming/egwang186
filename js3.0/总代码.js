@@ -247,7 +247,8 @@ function 选集列表(){
     return JSON.stringify(res);
 }
 var baseURL=getVar("baseURL");
-if(type){
+var 类型=type||"";
+if(类型){
 CMS选集列表();
 }else{
 选集列表();
