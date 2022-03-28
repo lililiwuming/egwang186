@@ -84,7 +84,7 @@ function CMS选集列表(){
         }
     }else if(baseURL.indexOf("yanaifei.cn")!=-1){
         if(标题=="VIP"){
-        选集地址="http://ip111.cn/?wd=https://newtv.yanaifei.cn/jx/pjx.php?pid="+选集地址;  
+        选集地址="http://ip111.cn/?wd=https://newtv.yanaifei.cn/jx/pjx.php?pid="+选集地址;
         }else if(标题=="VIP2"){
         选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/ddjx.php?url="+选集地址;
         }
@@ -361,8 +361,8 @@ var playurl=uu.split("ip111.cn/?wd=")[1];
                        切换解析(playurl);
                     }
                 }else{
-                    if(e2Rex(resp.code,".json(url).or().json(data).json(url)").length>1){
-                        var realurl=JSON.parse(resp.code).url||JSON.parse(resp.code).data.url;
+                    if(e2Rex(JSON.stringify(resp.code),".json(url).or().json(data).json(url)").length>1){
+                        var realurl=e2Rex(JSON.stringify(resp.code),".json(url).or().json(data).json(url)");
                         if(playurl.indexOf("mgtv.com")!=-1){
                             JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
                         }else if(playurl.indexOf("bilibili.com")!=-1){
