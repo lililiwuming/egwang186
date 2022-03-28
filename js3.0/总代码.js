@@ -497,7 +497,7 @@ var 首页地址='getVar("baseURL")+"&ac=list&page=1";';
 var type="CMS";
 }else{
 var 分类地址='getVar("baseURL")+"?ac=videolist分类&page=翻页";';
-if(baseURL.indexOf("?")!=-1){
+if(baseURL.indexOf("yanaifei.cn")!=-1){
 var 首页地址='getVar("baseURL")+"?ac=videolist&page=1";';
 }else{
 var 首页地址='getVar("baseURL")+"?ac=list&page=1";';
