@@ -361,12 +361,8 @@ var playurl=uu.split("ip111.cn/?wd=")[1];
                        切换解析(playurl);
                     }
                 }else{
-                    var json=resp.code;
-                    if(resp.code.indexOf("'url'")!=-1){
-                    json=json.replace(/'/g,'"');
-                    }
-                    if(e2Rex(json,".json(url).or().json(data).json(url)").length>1){
-                        var realurl=e2Rex(json,".json(url).or().json(data).json(url)");
+                    if(e2Rex(resp.code,".json(url).or().json(data).json(url)").length>1){
+                        var realurl=e2Rex(resp.code,".json(url).or().json(data).json(url)");
                         if(playurl.indexOf("mgtv.com")!=-1){
                             JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
                         }else if(playurl.indexOf("bilibili.com")!=-1){
