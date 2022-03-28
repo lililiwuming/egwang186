@@ -140,7 +140,7 @@ if(标题=="xhzy"){
       选集地址="https://newtv.yanaifei.cn/jx/pjx.php?pid="+选集地址;  
       }else if(标题=="VIP3"){
       //选集地址="http://www.yanaifei.cn/addons/dplayer/?"+选集地址;
-      选集地址="https://newtv.yanaifei.cn/jx/pjx.php?fid="+选集地址;
+      选集地址="https://newtv.yanaifei.cn/jx/pjx.php?"+选集地址;
       }else{
       选集地址="https://newtv.yanaifei.cn/jx/pjx.php?url="+选集地址;
       }
