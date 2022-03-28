@@ -482,7 +482,7 @@ JSON.stringify({url:uu+"?type=.m3u8"});
 }
 }else{
 if(e2Rex(resp.code,".json(url)").length>1){
-var playurl=JSON.parse(resp.code).url;
+var playurl=JSON.parse(resp.code.replace(/'/,'"')).url;
 if(playurl.indexOf(".titan.mgtv.com")!=-1){
 JSON.stringify({url:playurl,head:{"User-Agent":UA,"Referer":""}});
 }else{
