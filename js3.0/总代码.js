@@ -492,15 +492,15 @@ var 输入条目=getVar("KEY").match(/.+,http.+/g);
 for(var j in 输入条目){
 var title=e2Rex(输入条目[j],".tz(,)");var baseURL='"'+e2Rex(输入条目[j],".ty(,)")+'";';var img="http://1.117.152.239:39000/tupian.php?text="+title;
 if(baseURL.indexOf("?")!=-1){
-var 分类地址='getVar("baseURL")+"&ac=videolist分类&page=翻页";';
-var 首页地址='getVar("baseURL")+"&ac=list&page=1";';
+var 分类地址='getVar("baseURL")+"&ac=videolist分类&pg=翻页";';
+var 首页地址='getVar("baseURL")+"&ac=list&pg=1";';
 var type="CMS";
 }else{
-var 分类地址='getVar("baseURL")+"?ac=videolist分类&page=翻页";';
+var 分类地址='getVar("baseURL")+"?ac=videolist分类&pg=翻页";';
 if(baseURL.indexOf("yanaifei.cn")!=-1){
-var 首页地址='getVar("baseURL")+"?ac=videolist&page=1";';
+var 首页地址='getVar("baseURL")+"?ac=videolist&pg=1";';
 }else{
-var 首页地址='getVar("baseURL")+"?ac=list&page=1";';
+var 首页地址='getVar("baseURL")+"?ac=list&pg=1";';
 }
 var type="CMS";
 }
