@@ -84,9 +84,9 @@ function CMS选集列表(){
         }
     }else if(baseURL.indexOf("yanaifei.cn")!=-1){
         if(标题=="VIP"){
-            选集地址="http://ip111.cn/?wd=https://newtv.yanaifei.cn/jx/pjx.php?pid="+选集地址;  
+            选集地址="http://ip111.cn/?wd=https://newtv.yanaifei.cn/jx/pjx.php?pid="+选集地址;
         }else if(标题=="VIP3"){
-            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/ddjx.php?fid="+选集地址;
+            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/rrjx.php?fid="+选集地址;
         }else{
             选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/ddjx.php?url="+选集地址;
         }
