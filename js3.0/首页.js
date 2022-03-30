@@ -185,7 +185,7 @@
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/juduo.png",
                 "分类地址":'getVar("baseURL")+"?ac=list&class=分类&page=翻页";',
                 "首页地址":'getVar("baseURL")+"?ac=list&class=&start=&area=&type=&page=1";',
-                "baseURL":'"http://jdyy.weetai.cn/api.php/iptv/vod/";',
+                "baseURL":'"http://jdys.weetai.cn/api.php/iptv/vod/";',
                 "rule":""
             },
             {
