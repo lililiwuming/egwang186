@@ -166,6 +166,21 @@
                     "搜索规则":'var URL="https://search.cdn.huya.com/?m=Search&do=getSearchContent&q="+getVar("KEY")+"&uid=0&v=4&typ=-5&livestate=0&rows=40";var 源码=getHttp(URL);var 列表=e2Arr(源码,".json(response).json(3).json(docs)");var 标题规则=".json(game_roomName)";var 地址规则=".c(/).json(room_id)";var 图片规则=".json(game_screenshot)";var 简介规则=".json(game_introduction)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
                     "免嗅探规则":'JSON.stringify({url:getVar("url")});'
                 }
+            },
+            {
+                "title":"COKEMV",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/cokemv.png",
+                "分类地址":'getVar("baseURL")+"/vodshow/分类--------翻页---.html";',
+                "首页地址":'getVar("baseURL")+"/label/new.html";',
+                "baseURL":'"https://cokemv.me";',
+                "rule":{
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'var a="分类+电视剧=2+抖音电影=5+电影=1+综艺=3+动漫=4+动作片=6+喜剧片=7+爱情片=8+科幻片=9+恐怖片=10+剧情片=11+国产剧=13+港台剧=14+日韩剧=15+欧美剧=16+日剧=20";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
+                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(div.module-items a.module-item)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE=baseURL+e2Rex(getVar("源码"),".get(div#page).byt(下一页).a(href)");var PREPAGE="";',
+                    "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div.module-play-list)");var 简介=e2Rex(getVar("源码"),".get(div.module-info-main)");var 线路=e2Arr(getVar("源码"),".get(.module-tab-item.tab-item)");var 列表规则=".get(a)";var 标题规则=".get(span).t()";var 选集规则=".t()";var 选集地址规则=".a(href)";',
+                    "搜索规则":'var URL=baseURL+"/rss?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".xml(item)");var 标题规则=".xml(title).t()";var 地址规则=".xml(link).t().z(\\S+)";var 图片规则=".get(a).a(data-original)";var 简介规则=".xml(pubDate).t().c().xml(author).t().xml(description).t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "免嗅探规则":'"web="+getVar("url");'
+                }
             }
         ]
     },
