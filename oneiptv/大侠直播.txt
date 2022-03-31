@@ -221,3 +221,36 @@ WakuWakuJapan,http://59.125.101.187:8538/playlist.m3u8
 好莱坞电影,http://59.125.101.187:8550/playlist.m3u8
 纬来电影台,http://59.125.101.187:8583/playlist.m3u8
 卫视电影台,http://59.125.101.187:8588/playlist.m3u8
+午夜成人source-streams#genre#
+PRIVATE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/3.m3u8
+HUSTLER HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/1.m3u8
+DORCEL TV HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/4.m3u8
+VIVIDRED HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/6.m3u8
+EROxxx HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/9.m3u8
+REDLIGHT HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/2.m3u8
+VIXEN HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/7.m3u8
+PENTHOUSE GOLD HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/10.m3u8
+PENTHOUSE QUICKIES HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/11.m3u8
+DORCELxxx HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/5.m3u8
+XyPLUS HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/14.m3u8
+XyMIX HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/16.m3u8
+XyMAX HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/15.m3u8
+BabesTV HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/13.m3u8
+BRAZZERS TV EUROPE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/26.m3u8
+BRAZZERS TV EUROPE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/25.m3u8
+NUART HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/54.m3u8
+BEATE UHSE TV HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/58.m3u8
+ExxxoTICA HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/55.m3u8
+SEXPRIVE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/70.m3u8
+HOT XXL HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/77.m3u8
+NAUGHTY HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/79.m3u8
+BALKAN EROTIC HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/80.m3u8
+EROXXX HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/97.m3u8
+PORNBOX HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/92.m3u8
+REDxxx HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/88.m3u8
+BRAZZERS HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/91.m3u8
+LEO TV HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/98.m3u8
+EXTASY 4K,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/99.m3u8
+PRIVATE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/103.m3u8
+茉莉花台HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/108.m3u8
+VISIT-X TV LIVE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/112.m3u8
