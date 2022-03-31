@@ -254,3 +254,26 @@ EXTASY 4K,http://source-streams.com:8081/live/buyasaponline/buyasaponline_260220
 PRIVATE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/103.m3u8
 茉莉花台HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/108.m3u8
 VISIT-X TV LIVE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/112.m3u8
+红松#genre#
+亚洲成人在线1,https://cdn1.ibizastream.biz:441/free/Stream1/playlist.m3u8
+亚洲成人在线2,https://cdn1.ibizastream.biz:441/free/Stream2/playlist.m3u8
+亚洲成人在线3,https://cdn1.ibizastream.biz:441/free/Stream3/playlist.m3u8
+亚洲成人在线4,https://cdn1.ibizastream.biz:441/free/Stream4/playlist.m3u8
+亚洲成人在线5,https://cdn1.ibizastream.biz:441/free/Stream5/playlist.m3u8
+亚洲成人在线6,https://cdn1.ibizastream.biz:441/free/Stream6/playlist.m3u8
+亚洲成人在线7,https://cdn1.ibizastream.biz:441/free/Stream7/playlist.m3u8
+亚洲成人在线8,https://cdn1.ibizastream.biz:441/free/Stream8/playlist.m3u8
+亚洲成人在线9,https://cdn1.ibizastream.biz:441/free/Stream9/playlist.m3u8
+亚洲成人在线10,https://cdn1.ibizastream.biz:441/free/Stream10/playlist.m3u8
+亚洲成人在线11,https://cdn1.ibizastream.biz:441/free/Stream11/playlist.m3u8
+台湾成人在线1,http://00322.xyz:800/live/juanmaydharmadic21/1YPUYF8A04/7363.m3u8
+台湾成人在线2,http://00322.xyz:8000/live/juanmaydharmadic21/1YPUYF8A04/7367.m3u8
+台湾成人在线3,http://00322.xyz:8000/live/juanmaydharmadic21/1YPUYF8A04/7364.m3u8
+台湾成人在线4,http://00322.xyz:8000/live/juanmaydharmadic21/1YPUYF8A04/7361.m3u8
+台湾成人在线5,http://00322.xyz:8000/live/juanmaydharmadic21/1YPUYF8A04/7370.m3u8
+台湾成人在线6,http://00322.xyz:8000/live/juanmaydharmadic21/1YPUYF8A04/7375.m3u8
+台湾成人在线7,http://00322.xyz:8000/live/juanmaydharmadic21/1YPUYF8A04/7377.m3u8
+台湾成人在线8,http://00322.xyz:8000/live/juanmaydharmadic21/1YPUYF8A04/7385.m3u8
+台湾成人在线9,http://00322.xyz:8000/live/juanmaydharmadic21/1YPUYF8A04/7391.m3u8
+台湾成人在线10,http://00322.xyz:8000/live/juanmaydharmadic21/1YPUYF8A04/7392.m3u8
+台湾成人在线11,http://00322.xyz:8000/live/juanmaydharmadic21/1YPUYF8A04/7393.m3u8
