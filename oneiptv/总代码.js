@@ -133,7 +133,7 @@ for(var i in code){
     }else{
         var type="未分类";
     }
-var 当前条目=[];当前条目.push({title:选集,url:选集地址});
+var 当前条目=[];当前条目.push({title:选集,url:"http://ip111.cn/?wd="+选集地址});
 if(items.length==0) {
     items.push({title:type,list:当前条目});
 }else{
