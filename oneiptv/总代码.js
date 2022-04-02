@@ -125,14 +125,37 @@ if(code.indexOf("#genre#")!=-1){
     var 选集规则=".tz(,)";选集列表();
 }else if(code.indexOf("#EXTINF:")!=-1){
     var code=code.match(/#EXTINF:.+[\s]+?.+/g);
-    var head=[];head.push(getVar("name")+"#genre#");
-    code=head.concat(code).join("\n");
-    var 分类=code.split(/.+?#genre#.*/).filter(Boolean);
-    var 线路=code.match(/.+?#genre#.*/g);
-    var 列表规则=".z(#EXTINF:.+[\\s]+?.+)";
-    var 标题规则=".tz(#genre#)";
-    var 选集规则=".z(.+).ty(,)";
-    var 选集地址规则=".c(http://ip111.cn/?wd=).z2(,.+[\\s]+?\\(.+\\))";选集列表();
+    var res={};var items=[];
+for(var i in code){
+    var 选集=code[i].match(/,(.+)/)[1];var 选集地址=code[i].match(/,.+[\s]+?(.+)/)[1];
+    var type=code[i].match(/group-title="(.+)"/)[1]||"未分类";
+var 当前条目=[];当前条目.push({title:选集,url:选集地址});
+if(items.length==0) {
+    items.push({title:type,list:当前条目});
+}else{
+    let 寻找=items.some(item=>{
+    //判断类型，有就添加到当前项
+      if(item.title == type){
+      item.list=item.list.concat(当前条目);
+      return true
+      }
+    });
+    if (!寻找) {
+    //如果没找相同类型添加一个类型
+      items.push({title:type,list:当前条目});
+    }
+}
+}
+res.data=items;
+JSON.stringify(res);
+//    var head=[];head.push(getVar("name")+"#genre#");
+//    code=head.concat(code).join("\n");
+//    var 分类=code.split(/.+?#genre#.*/).filter(Boolean);
+//    var 线路=code.match(/.+?#genre#.*/g);
+//    var 列表规则=".z(#EXTINF:.+[\\s]+?.+)";
+//    var 标题规则=".tz(#genre#)";
+//    var 选集规则=".z(.+).ty(,)";
+//    var 选集地址规则=".c(http://ip111.cn/?wd=).z2(,.+[\\s]+?\\(.+\\))";选集列表();
 }else if(code.search(/\$c_start.+?\$c_end/)!=-1){
     var 分类=code.split(/\$c_start.+?\$c_end/).filter(item=>item.indexOf("://")!=-1);
     var 线路=code.match(/\$c_start.+?\$c_end/g);
