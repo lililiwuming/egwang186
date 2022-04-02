@@ -164,7 +164,7 @@ for(var i=0;i<urls.length;i++){
             u=uu+"&type=.m3u8";
         }
     }else if(urls[i].indexOf("mitv://")!=-1){
-        var u=urls[i].replace("mitv://","P2p://").replace(".ts","");
+        var u=urls[i].replace("mitv://","P2p://");
     }else{
         var u=urls[i];
     }
@@ -179,7 +179,7 @@ JSON.stringify(items);
             u=uu+"&type=.m3u8";
         }
     }else if(uu.indexOf("mitv://")!=-1){
-        var u=uu.replace("mitv://","P2p://").replace(".ts","");
+        var u=uu.replace("mitv://","P2p://");
     }else{
         var u=uu;
     }
