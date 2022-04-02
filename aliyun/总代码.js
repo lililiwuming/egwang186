@@ -129,7 +129,11 @@ if(JSON.parse(目录数据).items){
     alert("来晚了，该分享已失效");
 }
 ######历史记录3
-eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+if(getVar("QJS")){
+    eval(getVar("QJS"));
+}else{
+    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+}
 var filename='阿里云历史记录.txt';
 var 记录=[];
 if(getVar("name")!='null'&&getVar("url").indexOf("$$root")==-1){
@@ -144,7 +148,11 @@ var 新记录=记录;
 _.write(JSON.stringify(新记录),filename);
 }
 ######读取历史4
-eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+if(getVar("QJS")){
+    eval(getVar("QJS"));
+}else{
+    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+}
 var filename='阿里云历史记录.txt';
 _.read(filename);
 ######alicookie5
@@ -160,7 +168,11 @@ if(过滤[i].download_url){
 }
 JSON.stringify(过滤);
 ######视频地址7
-eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+if(getVar("QJS")){
+    eval(getVar("QJS"));
+}else{
+    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+}
 if(getVar("url").indexOf("$$")!=-1){
     var cm=android.webkit.CookieManager.getInstance();
     var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
@@ -255,7 +267,7 @@ alert("请重新登陆阿里云盘网页");
 }
 ######文档预览8
 var cm=android.webkit.CookieManager.getInstance();
-    var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
+var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
     if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
         var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
         var Acode=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
@@ -334,7 +346,7 @@ JSON.stringify(items);
 }
 ######图片预览11
 var cm=android.webkit.CookieManager.getInstance();
-    var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
+var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
     if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
         var refresh_token=ALICOOKIE.match(/refresh_token=(.*?)[\s;]/)[1];
         var Acode=getHttp(JSON.stringify({url:"https://auth.aliyundrive.com/v2/account/token",postJson:JSON.stringify({refresh_token:refresh_token,grant_type:"refresh_token"})}));
