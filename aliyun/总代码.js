@@ -137,7 +137,7 @@ var title=getVar("name");
 var url="q:root?url="+getVar("url");
 记录.push({title:title,url:url});
 if(_.read(filename)){
-var 新记录=记录.concat(JSON.parse(_.read(filename)||[]));
+var 新记录=记录.concat(JSON.parse(_.read(filename)).filter(d=>d.url!=记录[0].url));
 }else{
 var 新记录=记录;
 }
