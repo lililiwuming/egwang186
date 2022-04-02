@@ -1,6 +1,5 @@
 ######share_token1
-alert("@"+getVar("url")+"@")
-if(typeof(getVar("url"))!="undefined"&&getVar("url")!="null"){
+if(getVar("url").length>1&&getVar("url")!="null"){
 if(getVar("url").indexOf("aliyundrive.com/s/")!=-1||getVar("url").indexOf("share_id-")!=-1){
     if(getVar("url").indexOf("aliyundrive.com/s/")!=-1){
     var share_id=getVar("url").match(/\.com\/s\/([0-9a-zA-Z]+)/)[1];
