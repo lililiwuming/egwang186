@@ -1,4 +1,5 @@
 ######share_token1
+alert(getVar("url"))
 if(getVar("url")!="null"){
 if(getVar("url").indexOf("aliyundrive.com/s/")!=-1||getVar("url").indexOf("share_id-")!=-1){
     if(getVar("url").indexOf("aliyundrive.com/s/")!=-1){
