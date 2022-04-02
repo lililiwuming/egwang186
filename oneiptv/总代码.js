@@ -152,14 +152,6 @@ if(items.length==0) {
 }
 res.data=items;
 JSON.stringify(res);
-//    var head=[];head.push(getVar("name")+"#genre#");
-//    code=head.concat(code).join("\n");
-//    var 分类=code.split(/.+?#genre#.*/).filter(Boolean);
-//    var 线路=code.match(/.+?#genre#.*/g);
-//    var 列表规则=".z(#EXTINF:.+[\\s]+?.+)";
-//    var 标题规则=".tz(#genre#)";
-//    var 选集规则=".z(.+).ty(,)";
-//    var 选集地址规则=".c(http://ip111.cn/?wd=).z2(,.+[\\s]+?\\(.+\\))";选集列表();
 }else if(code.search(/\$c_start.+?\$c_end/)!=-1){
     var 分类=code.split(/\$c_start.+?\$c_end/).filter(item=>item.indexOf("://")!=-1);
     var 线路=code.match(/\$c_start.+?\$c_end/g);
