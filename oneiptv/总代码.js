@@ -128,7 +128,11 @@ if(code.indexOf("#genre#")!=-1){
     var res={};var items=[];
 for(var i in code){
     var 选集=code[i].match(/,(.+)/)[1];var 选集地址=code[i].match(/,.+[\s]+?(.+)/)[1];
-    var type=code[i].match(/group-title="(.+)"/)[1]||"未分类";
+    if(code[i].indexOf("group-title=")!=-1){
+        var type=code[i].match(/group-title="(.+)"/)[1];
+    }else{
+        var type="未分类";
+    }
 var 当前条目=[];当前条目.push({title:选集,url:选集地址});
 if(items.length==0) {
     items.push({title:type,list:当前条目});
