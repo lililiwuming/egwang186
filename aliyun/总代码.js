@@ -23,7 +23,7 @@ if(getVar("url").indexOf("aliyundrive.com/s/")!=-1||getVar("url").indexOf("share
 }else if(getVar("url").indexOf("$$")!=-1){
     "";
 }else{
-    alert("请输入完整的阿里云盘分享链接,比如https://www.aliyundrive.com/s/wUFXj7116uS");
+    alert("ce请输入完整的阿里云盘分享链接,比如https://www.aliyundrive.com/s/wUFXj7116uS");
 }
 }else{
   "";
