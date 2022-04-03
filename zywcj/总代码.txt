@@ -149,7 +149,7 @@ if(标题=="xhzy"){
       选集地址="http://1.117.152.239:39000/?url="+选集地址;
 }else if(选集地址.indexOf(":6688/player")!=-1){
       var hash=选集地址.split("player/")[1];
-      选集地址="http://ip111.cn/?wd=https://qq.iqiyi2.b555b.com:7777/54/"+hash+"hd.m3u8";
+      选集地址="http://ip111.cn/?wd=https://qq.iqiyi2.b555b.com:7777/54/"+hash+"/hd.m3u8";
 }else if(URL.indexOf("api.yparse.com")!=-1){
       选集地址="https://yparse.jn1.cc/index.php?url="+选集地址;
 }else if(标题.indexOf("rrm3u8")!=-1){
