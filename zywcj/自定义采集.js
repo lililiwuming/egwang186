@@ -10,7 +10,7 @@ if (getVar("rurl") != 'null' && getVar("rurl").indexOf(",http") > 1) {
   记录 = getVar("rurl").match(/.+?,http.+/g);
   if (_.read(filename)) {
     var 旧记录 = _.read(filename).match(/.+?,http.+/g);
-    var 新记录 = 记录.concat(旧记录);
+    var 新记录 = 记录.concat(旧记录.filter(item=>item!=记录[0]));
   } else {
     var 新记录 = 记录;
   }

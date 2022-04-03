@@ -196,6 +196,21 @@
                     "搜索规则":'var URL=baseURL+"/vodsearch/-------------.html?wd="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"Referer":encodeURI(URL),"User-Agent":"Mozilla/5.0 Android 10","Cookie":getVar("当前COOKIE")}}));var 列表=e2Arr(源码,".get(div.module-items div.module-item)");if(!列表[0]){var 列表=["网页可能有搜索验证，去网页看看吧"];var 标题规则=".t()";var 地址规则=URL;var 图片规则=".get(img).a(data-original)";var 简介规则="长按网页打开，验证后返回刷新即可";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";}else{var 标题规则=".get(div.module-card-item-title a).t()";var 地址规则=".get(div.module-card-item-title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";}',
                     "免嗅探规则":'"web="+getVar("url");'
                 }
+            },
+            {
+                "title":"JableTV",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/Jable.png",
+                "分类地址":'getVar("baseURL")+"分类?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=post_date&from=翻页";',
+                "首页地址":'getVar("baseURL")+"/categories/";',
+                "baseURL":'"https://jable.tv";',
+                "rule":{
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(div.video-img-box.mb-e-20)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".t()";var 图片底部规则=".get(span.label).t()";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'alert("请等待几秒...列表加载中");try{var 源码=getHttp(getVar("首页地址"));}catch(err){alert("哦，报错了，错误描述："+err.message);}var 标签列表=e2Arr(源码,".get(a.tag)");var 主题列表=e2Arr(源码,".get(div.video-img-box.mb-e-20)");var a="";for(var i in 标签列表){var title=e2Rex(标签列表[i],".get(a).t()");var id=e2Rex(标签列表[i],".get(a).a(href).ty(jable.tv)");a=a+"+"+title+"="+id;}for(var i in 主题列表){var title=e2Rex(主题列表[i],".get(h4).t()");var id=e2Rex(主题列表[i],".get(a).a(href).ty(jable.tv)");a=a+"+"+title+"="+id;}var a="分类+"+a;var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
+                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(div.video-img-box.mb-e-20)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".t()";var 图片底部规则=".get(span.label).t()";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "选集规则":'var 分类=getVar("源码").match(/<video[\\s\\S]+?<\\/h4>/g);var 简介=e2Rex(getVar("源码"),".get(div.info-header)");var 线路="";var 列表规则=".z(var hlsUrl.+)";var 标题规则=".get(h4).t()";var 选集规则="播放";var 选集地址规则=".ty(\').tz(\')";',
+                    "搜索规则":'var URL=baseURL+"/search/"+getVar("KEY")+"/";var 源码=getHttp(JSON.stringify({url:URL,head:{"Referer":encodeURI(URL),"User-Agent":"Mozilla/5.0 Android 10","Cookie":getVar("当前COOKIE")}}));var 列表=e2Arr(源码,".get(div.video-img-box.mb-e-20)");if(!列表[0]){var 列表=["网页可能有搜索验证，去网页看看吧"];var 标题规则=".t()";var 地址规则=URL;var 图片规则=".get(img).a(data-original)";var 简介规则="长按网页打开，验证后返回刷新即可";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";}else{var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(data-src)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";}',
+                    "免嗅探规则":'JSON.stringify({url:getVar("url")});'
+                }
             }
         ]
     },
