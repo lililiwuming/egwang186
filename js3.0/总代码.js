@@ -451,7 +451,7 @@ JSON.stringify(rule);
 JSON.stringify(模板库.find(匹配模板).rule);
 }
 ######读取本地规则6
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
 eval(getVar("QJS"));
 }else{
 eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -459,7 +459,7 @@ eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/mast
 var filename='一个影视本地规则.txt';
 _.read(filename);
 ######写入本地规则7
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
 eval(getVar("QJS"));
 }else{
 eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));

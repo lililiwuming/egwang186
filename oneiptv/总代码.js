@@ -1,5 +1,5 @@
 ######远程订阅写入本地1
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -20,7 +20,7 @@ _.read(filename);
 "请输入正确格式(支持批量):名称,地址";
 }
 ######源文本写入本地2
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -50,7 +50,7 @@ _.read(indexname)+_.read(filename);
 "请输入正确格式(支持批量):名称,地址";
 }
 ######读取远程订阅3
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -65,7 +65,7 @@ items.push({title:title,url:url});
 }
 JSON.stringify(items);
 ######读取本地文本4
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -80,7 +80,7 @@ items.push({title:title,url:url});
 }
 JSON.stringify(items);
 ######选集地址5
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -205,7 +205,7 @@ JSON.stringify(items);
 JSON.stringify({url:u});
 }
 ######管理订阅7
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -220,7 +220,7 @@ items.push({title:title,url:url});
 }
 JSON.stringify(items);
 ######管理本地8
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -235,7 +235,7 @@ items.push({title:title,url:url});
 }
 JSON.stringify(items);
 ######展示本地内容9
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));

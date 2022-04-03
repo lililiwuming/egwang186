@@ -1,6 +1,5 @@
 ######远程订阅写入本地1
-alert("@"+getVar("QJS")+"@")
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
   eval(getVar("QJS"));
 }else{
   eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -21,7 +20,7 @@ if (getVar("rurl") != 'null' && getVar("rurl").indexOf(",http") > 1) {
   "请输入正确格式(支持批量):名称,地址";
 }
 ######读取远程订阅2
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
   eval(getVar("QJS"));
 }else{
   eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -42,7 +41,7 @@ for (var i in code) {
 }
 JSON.stringify(items);
 ######单一搜索读取远程订阅3
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
   eval(getVar("QJS"));
 }else{
   eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -57,7 +56,7 @@ for (var i in code) {
 }
 JSON.stringify(items);
 ######侧边栏搜索读取远程订阅4
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
   eval(getVar("QJS"));
 }else{
   eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -72,7 +71,7 @@ for (var i in code) {
 }
 JSON.stringify(items);
 ######管理订阅5
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
   eval(getVar("QJS"));
 }else{
   eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));

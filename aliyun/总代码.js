@@ -129,7 +129,7 @@ if(JSON.parse(目录数据).items){
     alert("来晚了，该分享已失效");
 }
 ######历史记录3
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -148,7 +148,7 @@ var 新记录=记录;
 _.write(JSON.stringify(新记录),filename);
 }
 ######读取历史4
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
@@ -168,7 +168,7 @@ if(过滤[i].download_url){
 }
 JSON.stringify(过滤);
 ######视频地址7
-if(getVar("QJS")){
+if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
