@@ -1,4 +1,5 @@
 ######远程订阅写入本地1
+alert("@"+getVar("QJS")+"@")
 if(getVar("QJS")){
   eval(getVar("QJS"));
 }else{
