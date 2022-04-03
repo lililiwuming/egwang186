@@ -65,7 +65,7 @@
             {
                 "title":"易看",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/ykvideo.png",
-                "分类地址":'getVar("baseURL")+"index.php/vod/show/id/分类/page/翻页.html";',
+                "分类地址":'getVar("baseURL")+"/index.php/vod/show/id/分类/page/翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://video.ykvideo.cn";',
                 "rule":{
