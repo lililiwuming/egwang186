@@ -196,6 +196,21 @@
                     "搜索规则":'var URL=baseURL+"/vodsearch/-------------.html?wd="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"Referer":encodeURI(URL),"User-Agent":"Mozilla/5.0 Android 10","Cookie":getVar("当前COOKIE")}}));var 列表=e2Arr(源码,".get(div.module-items div.module-item)");if(!列表[0]){var 列表=["网页可能有搜索验证，去网页看看吧"];var 标题规则=".t()";var 地址规则=URL;var 图片规则=".get(img).a(data-original)";var 简介规则="长按网页打开，验证后返回刷新即可";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";}else{var 标题规则=".get(div.module-card-item-title a).t()";var 地址规则=".get(div.module-card-item-title a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";}',
                     "免嗅探规则":'"web="+getVar("url");'
                 }
+            },
+            {
+                "title":"77影视大全",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/kunyu77.png",
+                "分类地址":'getVar("baseURL")+"/searchFilter?type_id=分类&pagenum=翻页&pagesize=24";',
+                "首页地址":'getVar("baseURL")+"/homeBlock?type_id=0";',
+                "baseURL":'"https://b.api.kunyu77.com/api.php/provide";',
+                "rule":{
+                    "首页规则":'var 原列表=e2Arr(getVar("源码"),".json(data).json(blocks)");var 列表=[];for(var i in 原列表){var 分列表=e2Arr(原列表[i],".json(contents)");列表=列表.concat(分列表);}var 标题规则=".json(title)";var 地址规则=".c(/videoPlaylist?ids=).json(id)";var 图片规则=".json(videoCover)";var 简介规则=".json(msg).c().json(year)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'var a="分类+电影=1+电视剧=2+综艺=3+动漫=4+动作片=1&category=动作+喜剧片=1&category=喜剧+爱情片=1&category=爱情+科幻片=1&category=科幻+恐怖片=1&category=恐怖+剧情片=1&category=剧情+伦理=1&category=伦理+国产剧=2&area=中国大陆+港剧=2&area=中国香港+台剧=2&area=中国台湾+韩剧=2&area=韩国+美剧=2&area=美国+日剧=2&area=日本";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
+                    "分类规则":'var 原列表=e2Arr(getVar("源码"),".json(data).json(result)");var 标题规则=".json(title)";var 地址规则=".c(/videoPlaylist?ids=).json(id)";var 图片规则=".json(videoCover)";var 简介规则=".json(msg).c().json(year)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "选集规则":'var 分类=e2Arr(getVar("源码"),".json(data)");var 简介=getVar("msg");var 线路="";var 列表规则=".json(episodes)";var 标题规则=getVar("name");var 选集规则=".json(title)";var 选集地址规则=".json(playurl)";',
+                    "搜索规则":'var URL=baseURL+"/searchVideo?searchName="+getVar("KEY")+"&pg=1";var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":getVar("当前UA")}}));var 列表=e2Arr(源码,".json(data)");var 标题规则=".json(videoName)";var 地址规则=".c(/videoPlaylist?ids=).json(id)";var 图片规则=".json(videoCover)";var 简介规则="=".json(msg).c(_).json(briefContent)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "免嗅探规则":'JSON.stringify({url:getVar("url")});'
+                }
             }
         ]
     },
