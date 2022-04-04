@@ -165,8 +165,6 @@ if(标题=="xhzy"){
    选集地址="http://ts.yjhan.com:8090/api/?key=DSQFgXdmj9xkDyiXdr&url="+选集地址;
 }else if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
       选集地址="http://ip111.cn/?wd="+选集地址;
-}else if(URL.indexOf("997.yuanmajs.cn")!=-1){
-      选集地址="http://ip111.cn/?wd=https://tc.yuanmajs.cn/dmplay/?url="+选集地址;
 }else if(URL.indexOf("qbzyz.com")!=-1){
       if(选集地址.indexOf("//")!=-1){
       选集地址="http:"+选集地址;
@@ -197,9 +195,9 @@ if(标题=="xhzy"){
 }else if(标题.indexOf("x1play")!=-1){
   选集地址="http://ip111.cn/?wd=https://www.xing1.vip/player/dp/?url="+选集地址;
 }else if(标题.indexOf("xfyun")!=-1){
-  选集地址="http://ip111.cn/?wd=https://www.ml0513.com/?url="+选集地址;
+  选集地址="https://www.ml0513.com/?url="+选集地址;
 }else if(标题=="rx"){
-  选集地址="http://ip111.cn/?wd=https://svip.rongxingvr.top/api/?key=B26J6jO5MOnjUv3GqW&url="+选集地址;
+  选集地址="https://svip.rongxingvr.top/api/?key=B26J6jO5MOnjUv3GqW&url="+选集地址;
 }else if(标题=="renrenmi"){
       //选集地址="http://www.1080kan.cc/jiexi/rrmi.php?url="+选集地址+'@{"Referer":"http://www.1080kan.cc/"}';
       //选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
