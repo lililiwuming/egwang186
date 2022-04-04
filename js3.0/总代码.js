@@ -95,9 +95,10 @@ function CMS选集列表(){
     }else if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1||选集地址.indexOf("share.weiyun.")!=-1){
           选集地址="http://1.117.152.239:39000/?url="+选集地址;
     }else if(选集地址.indexOf(":6688/player")!=-1){
-          var hash=选集地址.split("player/")[1];
-          选集地址="http://ip111.cn/?wd=https://qq.iqiyi5.b555b.com:7777/video/"+hash+".m3u8";
-    }else if(baseURL.indexOf("api.yparse.com")!=-1){
+        var hash=选集地址.split("player/")[1];
+        var dd=hash.substring(0,2);
+        选集地址="http://ip111.cn/?wd=https://qq.iqiyi3.b555b.com:7777/"+dd+"/"+hash+"/hd.m3u8";
+  }else if(baseURL.indexOf("api.yparse.com")!=-1){
           选集地址="https://yparse.jn1.cc/index.php?url="+选集地址;
     }else if(标题.indexOf("rrm3u8")!=-1){
       选集地址="https://www.meiju11.com/ckplayerx/m3u8.php?url="+选集地址;
@@ -111,8 +112,6 @@ function CMS选集列表(){
        选集地址="http://ip111.cn/?wd="+选集地址;
     }else if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
           选集地址="http://ip111.cn/?wd="+选集地址;
-    }else if(URL.indexOf("997.yuanmajs.cn")!=-1){
-          选集地址="https://tc.yuanmajs.cn/dmplay/?url="+选集地址;
     }else if(标题=="4kdym"||标题=="8kvod"){
           选集地址="http://ip111.cn/?wd="+decodeURIComponent(选集地址);
     }else if(标题=="zbkplayer"){
@@ -133,7 +132,7 @@ function CMS选集列表(){
     }else if(标题.indexOf("xfyun")!=-1){
       选集地址="https://www.ml0513.com/?url="+选集地址;
     }else if(标题=="rx"){
-      选集地址="http://ip111.cn/?wd=https://svip.rongxingvr.top/api/?key=B26J6jO5MOnjUv3GqW&url="+选集地址;
+      选集地址="https://svip.rongxingvr.top/api/?key=B26J6jO5MOnjUv3GqW&url="+选集地址;
     }else if(标题=="renrenmi"){
           //选集地址="http://www.1080kan.cc/jiexi/rrmi.php?url="+选集地址+'@{"Referer":"http://www.1080kan.cc/"}';
           //选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
