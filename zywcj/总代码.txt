@@ -195,7 +195,7 @@ if(标题=="xhzy"){
 }else if(标题.indexOf("x1play")!=-1){
   选集地址="http://ip111.cn/?wd=https://www.xing1.vip/player/dp/?url="+选集地址;
 }else if(标题.indexOf("xfyun")!=-1){
-  选集地址="https://www.ml0513.com/?url="+选集地址;
+  选集地址="https://b.sigu.tv/api/type/?key=b08DPxVf9MCYrAX8fP&url="+选集地址;
 }else if(标题=="rx"){
   选集地址="https://svip.rongxingvr.top/api/?key=B26J6jO5MOnjUv3GqW&url="+选集地址;
 }else if(标题=="renrenmi"){
