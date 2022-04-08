@@ -161,14 +161,43 @@ JSON.stringify(res);
     var 选集规则=".tz(,)";选集列表();
 }else{
     var code=code.match(/.+?,.+/g);
-    var head=[];head.push(getVar("name")+"#genre#");
-    code=head.concat(code).join("\n");
-    var 分类=code.split(/.+?#genre#.*/).filter(Boolean);
-    var 线路=code.match(/.+?#genre#.*/g);
-    var 列表规则=".z(.+?,.+)";
-    var 标题规则=".tz(#genre#)";
-    var 选集规则=".tz(,)";
-    var 选集地址规则=".c(http://ip111.cn/?wd=).ty(,)";选集列表();
+    var res={};var items=[];
+for(var i in code){
+    var 选集=code[i].match(/,(.+)/)[1];var 选集地址=code[i].match(/,.+[\s]+?(.+)/)[1];
+    if(code[i].indexOf("|")!=-1){
+        var type=选集.split("|")[0];
+        var 选集标题=选集.split("|")[0];
+    }else{
+        var type=getVar("name")+"-无子分类";
+        var 选集标题=选集;
+    }
+var 当前条目=[];当前条目.push({title:选集标题,url:"http://ip111.cn/?wd="+选集地址});
+if(items.length==0) {
+    items.push({title:type,list:当前条目});
+}else{
+    let 寻找=items.some(item=>{
+    //判断类型，有就添加到当前项
+      if(item.title == type){
+      item.list=item.list.concat(当前条目);
+      return true
+      }
+    });
+    if (!寻找) {
+    //如果没找相同类型添加一个类型
+      items.push({title:type,list:当前条目});
+    }
+}
+}
+res.data=items;
+JSON.stringify(res);
+//    var head=[];head.push(getVar("name")+"#genre#");
+//    code=head.concat(code).join("\n");
+//   var 分类=code.split(/.+?#genre#.*/).filter(Boolean);
+//    var 线路=code.match(/.+?#genre#.*/g);
+//    var 列表规则=".z(.+?,.+)";
+//    var 标题规则=".tz(#genre#)";
+//    var 选集规则=".tz(,)";
+//    var 选集地址规则=".c(http://ip111.cn/?wd=).ty(,)";选集列表();
 }
 ######免嗅探6
 var uu=getVar("url").split("/?wd=")[1];
