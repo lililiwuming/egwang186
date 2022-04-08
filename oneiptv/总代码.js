@@ -163,7 +163,7 @@ JSON.stringify(res);
     var code=code.match(/.+?,.+/g);
     var res={};var items=[];
 for(var i in code){
-    var 选集=code[i].match(/,(.+)/)[1];var 选集地址=code[i].match(/,.+[\s]+?(.+)/)[1];
+    var 选集=code[i].match(/(.+),/)[1];var 选集地址=code[i].match(/,[\s]*?(.+)/)[1];
     if(code[i].indexOf("|")!=-1){
         var type=选集.split("|")[0];
         var 选集标题=选集.split("|")[0];
