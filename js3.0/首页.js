@@ -140,7 +140,7 @@
             {
                 "title":"九州影院",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/unss.png",
-                "分类地址":'getVar("baseURL")+"/index.php/vod/type/id/分类/page/翻页.html";',
+                "分类地址":'getVar("baseURL")+"/vodtype/分类-翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.duwy.cn";',
                 "rule":{
