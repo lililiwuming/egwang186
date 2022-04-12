@@ -84,11 +84,15 @@ function CMS选集列表(){
         }
     }else if(baseURL.indexOf("yanaifei.cn")!=-1){
         if(标题=="VIP"){
-            选集地址="http://ip111.cn/?wd=https://newtv.yanaifei.cn/jx/pjx.php?pid="+选集地址;
+            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/?fid="+选集地址;
+        }else if(标题=="TE"){
+            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/qq.php?fid="+选集地址;
         }else if(标题=="VIP3"){
             选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/rrjx.php?fid="+选集地址;
+        }else if(标题=="LIBVIO"){
+            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/lbjx.php?fid="+选集地址;
         }else{
-            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/ddjx.php?url="+选集地址;
+            选集地址=选集地址;
         }
   }else if(baseURL.indexOf("apicdn.vipm3u8.com")!=-1){
           选集地址="https://player.vipparsing.com/player?token=4732bUERfVb60lWNSLrsd5-2s1r70KeA89C3VwrGYYdByboQT9o4OzxIr5-8/cX9-sO6&vid="+选集地址;
