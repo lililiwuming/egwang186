@@ -84,13 +84,13 @@ function CMS选集列表(){
         }
     }else if(baseURL.indexOf("yanaifei.cn")!=-1){
         if(标题=="VIP"){
-            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/?fid="+选集地址;
+            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/?pid="+选集地址;
         }else if(标题=="qq"){
-            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/qq.php?fid="+选集地址;
+            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/qq.php?url="+选集地址;
         }else if(标题=="VIP3"){
             选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/rrjx.php?fid="+选集地址;
         }else if(标题=="LIBVIO"){
-            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/lbjx.php?fid="+选集地址;
+            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/lbjx.php?url="+选集地址;
         }else{
             选集地址=选集地址;
         }
