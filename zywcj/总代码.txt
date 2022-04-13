@@ -161,7 +161,7 @@ if(标题=="xhzy"){
   选集地址="https://www.meiju11.com/ckplayerx/m3u8.php?url="+选集地址;
 }else if(标题=="dmplay"||标题=="base"){
 选集地址="https://play.omofun.tv/m3u8.php?url="+选集地址;
-}else if(标题.indexOf("ltnb")!=-1){
+}else if(标题=="ltnb"||标题=="jrq"){
   //选集地址="https://jifei.longtengzy.fun/video/?url="+选集地址;
   //选集地址="http://jx.yinliub.cn/home/api?type=ys&uid=51213&key=chiprvyFHJNOTUVZ39&url="+选集地址;
   选集地址="https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+选集地址;
@@ -198,7 +198,7 @@ if(标题=="xhzy"){
   选集地址="https://jx.cyu0.cn/?url="+选集地址;
 }else if(标题.indexOf("x1play")!=-1){
   选集地址="http://ip111.cn/?wd=https://www.xing1.vip/player/dp/?url="+选集地址;
-}else if(标题.indexOf("xfyun")!=-1){
+}else if(标题=="xfy"||标题=="xfyun"){
   选集地址="https://b.sigu.tv/api/type/?key=b08DPxVf9MCYrAX8fP&url="+选集地址;
 }else if(标题=="rx"){
   选集地址="https://svip.rongxingvr.top/api/?key=B26J6jO5MOnjUv3GqW&url="+选集地址;
