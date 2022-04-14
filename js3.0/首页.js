@@ -33,6 +33,21 @@
                 }
             },
             {
+                "title":"City电影",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/citydy.png",
+                "分类地址":'getVar("baseURL")+"/show/id-分类/page/翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"https://www.citydy.com";',
+                "rule":{
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.img-list li)");var 标题规则=".get(div.name a).a(title)";var 地址规则=".get(div.name a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'var a="分类+电影=1+电视剧=2+综艺=3+动漫=4+纪录片=5+动作片=1/class/动作+喜剧片=1/class/喜剧+爱情片=1/class/爱情+科幻片=1/class/科幻+恐怖片=1/class/恐怖+剧情片=1/class/剧情+国产剧=2/class/国产+港台剧=2/class/港台+日韩剧=2/class/日韩+美剧=2/class/美国+大陆剧=2/area/中国大陆+香港剧=2/area/中国香港+台湾剧=2/area/中国台湾+韩剧=2/area/韩国+日本剧=2/area/日本+美国剧=2/area/美国";var b="翻页+第1页=1";a+"\\n"+b;',
+                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.img-list li)");var 标题规则=".get(div.name a).a(title)";var 地址规则=".get(div.name a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "选集规则":'var 分类=e2Arr(getVar("源码"),".get(ul.play-list)");var 简介=e2Rex(getVar("源码"),".get(div.vod-detail-info)");var 线路="";var 列表规则=".get(li)";var 标题规则=".get(span).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
+                    "搜索规则":'var URL=baseURL+"/search.html?wd="+getVar("KEY");var 源码=getHttp(URL);var 列表=e2Arr(源码,".get(ul.img-list.clearfix.news-list li)");var 标题规则=".get(h2 a).t()";var 地址规则=".get(h2 a).a(href)";var 图片规则=".get(img).a(data-original)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "免嗅探规则":'"web="+getVar("url");'
+                }
+            },
+            {
                 "title":"1080迷",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/1080mi.png",
                 "分类地址":'getVar("baseURL")+"/v_type/分类-翻页.html";',
