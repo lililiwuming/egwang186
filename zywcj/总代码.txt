@@ -130,11 +130,7 @@ if(标题=="xhzy"){
 }else if(URL.indexOf("ujuba.com")!=-1){
       选集地址="https://www.dmplay.xyz/j0?url="+选集地址;
 }else if(URL.indexOf("xinlangapi.com")!=-1){
-      if(标题=="xlm3u8"){
-      选集地址="http://ip111.cn/?wd="+选集地址;
-      }else{
-      选集地址=选集地址;
-      }
+      选集地址="https://www.xinlangjiexi.com/m3u8/?url="+选集地址;
 }else if(URL.indexOf("yanaifei.cn")!=-1){
       if(标题=="VIP"){
       选集地址="http://www.yanaifei.cn/addons/dplayer/?pid="+选集地址;  
@@ -389,8 +385,6 @@ var UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, lik
 JSON.stringify({url:解密地址,head:{"Referer":playurl,"User-Agent":UA}});
 }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
 "web="+playurl;
-}else if(playurl.indexOf("https://xlzy")!=-1){
-JSON.stringify({url:playurl,head:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"}});
 }else if(playurl.indexOf("SSPLUS_SSPLUS_SS")!=-1){
 function decrypt(str, key, iv) {
     //密钥16位
