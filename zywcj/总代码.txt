@@ -283,7 +283,7 @@ var res={};var items=[];var LIST=[];
 var LIMIT=列表.length;
 for(var j=0;j<LIMIT;j++){
     var CODE=列表[j];
-   var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):getVar("Url")+e2Rex(CODE,地址规则);
+   var 地址=e2Rex(CODE,地址规则).indexOf("http")==0?e2Rex(CODE,地址规则):getVar("Url")+e2Rex(CODE,地址规则);
     var 标题=e2Rex(CODE,标题规则);
     var 预图片=e2Rex(CODE,图片规则);
     if(预图片.indexOf("/mac:")!=-1){
