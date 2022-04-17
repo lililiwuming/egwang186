@@ -212,7 +212,7 @@ if(标题=="xhzy"){
       选集地址="https://jx.xmflv.vip/?url="+选集地址;
 }else if(URL.indexOf('dmdm2020.com')!=-1){
       if(标题="youbo"){
-      选集地址="http://jx1090ys5.hongfanedu.top/x2.php?id="+选集地址+"@{"Referer":"http://www.dmdm2020.com/"}";
+      选集地址="http://jx1090ys5.hongfanedu.top/x2.php?id="+选集地址+'@{"Referer":"http://www.dmdm2020.com/"}';
       }else{
       选集地址=选集地址;
       }
