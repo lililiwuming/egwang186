@@ -118,6 +118,8 @@ function CMS选集列表(){
           选集地址="http://ip111.cn/?wd="+选集地址;
     }else if(标题=="4kdym"||标题=="8kvod"){
           选集地址="http://ip111.cn/?wd="+decodeURIComponent(选集地址);
+    }else if(标题=="789pan"||标题=="pll"){
+        选集地址="https://dp.jiexi.work/bfq.php?url="+选集地址;
     }else if(标题=="zbkplayer"){
           选集地址="http://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+选集地址;
     }else if(标题=="lekanzyw"){

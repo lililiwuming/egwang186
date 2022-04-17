@@ -178,7 +178,7 @@ if(标题=="xhzy"){
 }else if(标题=="4kdym"||标题=="8kvod"){
       选集地址="http://ip111.cn/?wd="+decodeURIComponent(选集地址);
 }else if(标题=="789pan"||标题=="pll"){
-      选集地址="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+选集地址;
+      选集地址="https://dp.jiexi.work/bfq.php?url="+选集地址;
 }else if(标题=="zbkplayer"){
       选集地址="http://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+选集地址;
 }else if(标题=="lekanzyw"){
@@ -194,8 +194,6 @@ if(标题=="xhzy"){
   选集地址="https://jx.cyu0.cn/?url="+选集地址;
 }else if(标题.indexOf("x1play")!=-1){
   选集地址="http://ip111.cn/?wd=https://www.xing1.vip/player/dp/?url="+选集地址;
-}else if(标题=="789pan"){
-  选集地址="https://dp.jiexi.work/bfq.php?url="+选集地址;
 }else if(标题=="xfy"||标题=="xfyun"){
   选集地址="https://b.sigu.tv/api/type/?key=b08DPxVf9MCYrAX8fP&url="+选集地址;
 }else if(标题=="rx"||标题=="muxm3u8"){
