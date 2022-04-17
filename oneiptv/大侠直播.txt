@@ -295,11 +295,11 @@ WakuWakuJapan,http://59.125.101.187:8538/playlist.m3u8
 纬来电影台,http://59.125.101.187:8583/playlist.m3u8
 卫视电影台,http://59.125.101.187:8588/playlist.m3u8
 暴風直播-午夜劇場,#genre#
-彩虹e台,p8p://fccs.123178.top:9906/fa9fcb0ade2e4683a489497cda4861db
-彩虹電影台,p8p://fccs.123178.top:9906/cc404855490643bb968e764f6e2f0fb9
-LOOK TV,p8p://fccs.123178.top:9906/0e9bdd262cc34bc0b2b6f55f12cd6ec8
-潘朵啦玩美台,p8p://fccs.123178.top:9906/fe6b69fa1cad4dcc9d71d9b4503b3f61
-潘朵啦粉紅台,p8p://fccs.123178.top:9906/2c987e0d3e74400d946478e92ba491e6
+彩虹e台,P2p://ns2.hellotvvod.com:9906/fa9fcb0ade2e4683a489497cda4861db.ts
+彩虹電影台,P2p://ns2.hellotvvod.com:9906/cc404855490643bb968e764f6e2f0fb9.ts
+LOOK TV,P2p://ns2.hellotvvod.com:9906/0e9bdd262cc34bc0b2b6f55f12cd6ec8.ts
+潘朵啦玩美台,P2p://ns2.hellotvvod.com:9906/fe6b69fa1cad4dcc9d71d9b4503b3f61.ts
+潘朵啦粉紅台,P2p://ns2.hellotvvod.com:9906/2c987e0d3e74400d946478e92ba491e6.ts
 泰國人妖1,https://www.ast.tv/stream/1/ultra.m3u8
 午夜成人source-streams#genre#
 PRIVATE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/3.m3u8
