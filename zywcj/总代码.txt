@@ -194,6 +194,8 @@ if(标题=="xhzy"){
   选集地址="https://jx.cyu0.cn/?url="+选集地址;
 }else if(标题.indexOf("x1play")!=-1){
   选集地址="http://ip111.cn/?wd=https://www.xing1.vip/player/dp/?url="+选集地址;
+}else if(标题=="789pan"){
+  选集地址="https://dp.jiexi.work/bfq.php?url="+选集地址;
 }else if(标题=="xfy"||标题=="xfyun"){
   选集地址="https://b.sigu.tv/api/type/?key=b08DPxVf9MCYrAX8fP&url="+选集地址;
 }else if(标题=="rx"||标题=="muxm3u8"){
