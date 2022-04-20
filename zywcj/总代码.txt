@@ -320,7 +320,7 @@ var URL=getVar("Url")+"&ac=videolist&wd="+getVar("KEY");
 }else{
 var URL=getVar("Url")+"?ac=videolist&wd="+getVar("KEY");
 }
-var 源码=getVar("源码");
+var 源码=getCode();
 if(源码.indexOf("<rss")!=-1){
 var 列表=e2Arr(源码,".xml(video)");
 var 标题规则=".xml(name).ty(CDATA).tz2(])";
