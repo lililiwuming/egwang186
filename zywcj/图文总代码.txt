@@ -113,7 +113,7 @@ res.data=items;
 return JSON.stringify(res);
 }
 var URL=getVar("Url")+"?ac=list&wd="+getVar("KEY");
-var 源码=getHttp(JSON.stringify({url:URL}));
+var 源码=getCode();
 if(URL.indexOf("/art/json")!=-1){
 var 列表=e2Arr(源码,".json(data)");
 var 标题规则=".json(news_name)";var 地址规则=".c(?ac=detail&ids=).json(news_id)";var 图片规则=".json(news_pic)";var 简介规则=".json(news_addtime).c().json(news_type)";var 作者规则=".json(news_remark)";搜索列表();
