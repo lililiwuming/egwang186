@@ -89,6 +89,8 @@ function CMS选集列表(){
             选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/qq.php?url="+选集地址;
         }else if(标题=="VIP3"){
             选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/rrjx.php?fid="+选集地址;
+        }else if(标题=="VIP2"){
+            选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/ddjx.php?url="+选集地址;
         }else if(标题=="LIBVIO"){
             选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/lbjx.php?url="+选集地址;
         }else{
