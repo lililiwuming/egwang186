@@ -33,6 +33,21 @@
                 }
             },
             {
+                "title":"夜空资源(多多)",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/yekong.png",
+                "分类地址":'getVar("baseURL")+"/index.php/vod/type/id/分类/page/翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"https://zy.yekong.cc";',
+                "rule":{
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li.clearfix)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'var a="分类+电影=50+电视剧=60+综艺=69+动漫=70+纪录片=71+动作片=51+喜剧片=52+爱情片=53+科幻片=54+恐怖片=55+剧情片=56+国产剧=61+香港剧=62+台湾剧=67+韩剧=65+日剧=63+欧美剧=64";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
+                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li.clearfix)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE=baseURL+e2Rex(getVar("源码"),".get(ul.myui-page).byt(下一页).a(href)");var PREPAGE="";',
+                    "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div#playlist)");var 线路="";var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");var 列表规则=".get(ul.stui-content__playlist li)";var 标题规则=".get(h3).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
+                    "搜索规则":'var URL=baseURL+"/index.php/vod/search.html";var 源码=getHttp(JSON.stringify({url:URL,post:{"wd":getVar("KEY")}}));var 列表=e2Arr(源码,".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "免嗅探规则":'"web="+getVar("url");'
+                }
+            },
+            {
                 "title":"双十电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/1010dy.png",
                 "分类地址":'getVar("baseURL")+"/show/分类/page/翻页/";',
