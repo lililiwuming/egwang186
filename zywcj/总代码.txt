@@ -437,7 +437,7 @@ JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://
 var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
 var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
 JSON.stringify({url:uuuu});*/
-"web=https://bo.dd520.cc/xplay/?url="+playurl+'@{"Referer":"https://www.libvio.com"}';
+"web=https://jhpc.manduhu.com/duoduo/?url="+playurl+'@{"Referer":"http://555dy3.com/"}';
 }else if(playurl.indexOf("api.cultureplus.shop/play/")!=-1){
 var referer="https://jx.jxbdzyw.com/m3u8/?url="+playurl;
 JSON.stringify({url:playurl,head:{"Referer":referer}});
