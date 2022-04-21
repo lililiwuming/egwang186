@@ -166,7 +166,7 @@ if(标题=="xhzy"){
   //选集地址="http://jx.yinliub.cn/home/api?type=ys&uid=51213&key=chiprvyFHJNOTUVZ39&url="+选集地址;
   选集地址="https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+选集地址;
 }else if(选集地址.indexOf(".ruifenglb.com")!=-1){
-   选集地址="http://ts.yjhan.com:8090/api/?key=DSQFgXdmj9xkDyiXdr&url="+选集地址;
+   选集地址="https://js.jisujiexi.vip/home/api?type=ys&uid=196395&key=aejlnoprsABDNUZ159&url="+选集地址;
 }else if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
       选集地址="http://ip111.cn/?wd="+选集地址;
 }else if(URL.indexOf("qbzyz.com")!=-1){
