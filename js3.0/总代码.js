@@ -82,6 +82,8 @@ function CMS选集列表(){
         }else{
         选集地址=选集地址;  
         }
+    }else if(标题=="autue"){
+        选集地址=e2Rex(选集地址,".dn64()");
     }else if(baseURL.indexOf("yanaifei.cn")!=-1){
         if(标题=="VIP"){
             选集地址="http://ip111.cn/?wd=http://www.yanaifei.cn/addons/dplayer/?pid="+选集地址;
@@ -115,7 +117,7 @@ function CMS选集列表(){
       //选集地址="http://jx.yinliub.cn/home/api?type=ys&uid=51213&key=chiprvyFHJNOTUVZ39&url="+选集地址;
       选集地址="https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+选集地址;
     }else if(选集地址.indexOf(".ruifenglb.com")!=-1){
-       选集地址="http://ip111.cn/?wd="+选集地址;
+       选集地址="http://ip111.cn/?wd=https://js.jisujiexi.vip/home/api?type=ys&uid=196395&key=aejlnoprsABDNUZ159&url="+选集地址;
     }else if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
           选集地址="http://ip111.cn/?wd="+选集地址;
     }else if(标题=="4kdym"||标题=="8kvod"){
@@ -229,7 +231,7 @@ function 选集列表(){
             if(baseURL.indexOf("xgapp.php/v")!=-1||baseURL.indexOf("api.php/app/")!=-1||baseURL.search(/\.php\/.+?\.vod/)!=-1){
                if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
                    if(选集地址.indexOf(".ruifenglb.com")!=-1){
-                       var 接口="http://player.yjhan.com:8090/api/?key=U9D1GkE1K0rmhUsVdZ&url=";
+                       var 接口="https://js.jisujiexi.vip/home/api?type=ys&uid=196395&key=aejlnoprsABDNUZ159&url=";
                        var 选集地址="http://ip111.cn/?wd="+接口+选集地址;
                    }else{
                        var 选集地址="http://ip111.cn/?wd="+选集地址;
