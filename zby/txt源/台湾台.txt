@@ -10,6 +10,19 @@ GoodTV 共享觀點,https://live-350k.streamingfast.net/hls-live/goodtv/_definst
 GoodTV 真情部落,https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch3-2.m3u8
 NHK华语视界,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
 寰宇新聞台,http://seb.sason.top/sc/hyxw.m3u8#http://58.99.33.16:1935/liveedge17/live_163_3.stream/chunklist.m3u8
+港台|东森电影,http://120.84.96.32:808/hls/32/index.m3u8
+HBO,http://59.125.101.187:8757/http/192.168.77.24:8081/hls/71/813/ch41.m3u8
+霹雳台湾,http://59.125.101.187:8768/http/192.168.77.24:8081/hls/75/817/ch59.m3u8
+CINEMAX,http://59.125.101.187:8761/http/192.168.77.24:8081/hls/71/813/ch42.m3u8
+AXN,http://59.125.101.187:8759/http/192.168.77.24:8081/hls/71/813/ch43.m3u8
+Animax,http://59.125.101.187:8744/http/192.168.77.24:8081/hls/70/812/ch39.m3u8
+中天新闻,http://59.125.101.187:8703/http/192.168.77.24:8081/hls/78/80/ch63max.m3u8
+中天综合,http://59.125.101.187:8733/http/192.168.77.24:8081/hls/67/809/ch25.m3u8
+中天娱乐,http://59.125.101.187:8734/http/192.168.77.24:8081/hls/67/809/ch26.m3u8
+J2,http://120.84.96.32:808/hls/86/index.m3u8
+东森电影,http://120.84.96.32:808/hls/86/index.m3u8
+东森洋片,http://120.84.96.32:808/hls/86/index.m3u8
+龙祥时代,http://120.84.96.32:808/hls/86/index.m3u8
 三立Live新闻,http://seb.sason.top/sc/sllive_fhd.m3u8
 三立iNews新闻,http://seb.sason.top/sc/slinews_fhd.m3u8
 中天新闻,http://seb.sason.top/sc/ztxw_fhd.m3u8
