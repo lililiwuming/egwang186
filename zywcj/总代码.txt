@@ -479,17 +479,11 @@ if(resp.code.indexOf("<html")!=-1){
 if(resp.code.search(/<div id="video"/)!=-1||resp.code.search(/<div id="[^"]*?player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1){
 "web="+uu;
 }else{
-if(uu.split("url=")[1].indexOf("alizy-")!=-1){
-var id=uu.split("url=")[1];
-var uuu="https://api.jhdyw.vip/?url="+id;
-var resp2=JZ(JSON.stringify({url:uuu}));
-var playurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
-JSON.stringify({url:playurl});
-}else if(uu.split("url=")[1].indexOf("http")!=-1){
+if(uu.split("url=")[1].indexOf("http")!=-1){
 "web=http://1.117.152.239:39000/?url="+uu.split("url=")[1];
 }else{
 var id=uu.split("url=")[1];
-var uuu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
+var uuu="http://jx.jisujiexi.vip/home/api?type=ys&uid=5196896&key=ajortuvxzRTUWXZ037&url="+id;
 var resp=JZ(JSON.stringify({url:uuu}));
 var playurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
 JSON.stringify({url:playurl});

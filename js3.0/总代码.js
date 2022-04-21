@@ -362,7 +362,9 @@ var playurl=uu.split("ip111.cn/?wd=")[1];
                         }else if(data.split("url=")[1].indexOf("LT-")!=-1){
                             return "web=https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+data.split("url=")[1];
                         }else{
-                            return "web=http://1.117.152.239:39000/?url="+data.split("url=")[1];
+                            var 全能="http://jx.jisujiexi.vip/home/api?type=ys&uid=5196896&key=ajortuvxzRTUWXZ037&url="+data.split("url=")[1];
+                            var link=e2Rex(getHttp(全能),".json(url).or().json(data).json(url)");
+                            return JSON.stringify({url:link});
                         }
                 }
                 if(resp.code.indexOf("<html")!=-1){
