@@ -176,7 +176,7 @@ if(getVar("QJS")&&getVar("QJS")!="null"){
 if(getVar("url").indexOf("$$")!=-1){
     var cm=android.webkit.CookieManager.getInstance();
     var ALICOOKIE=cm.getCookie("www.aliyundrive.com");
-    if(ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
+    if(ALICOOKIE&&ALICOOKIE.indexOf("access_token")!=-1&&ALICOOKIE.indexOf("refresh_token")!=-1){
         //
         var pwd=getVar("url").split("?wd=")[1].split("$$")[5];
         var share_id=getVar("url").split("?wd=")[1].split("$$")[1];
