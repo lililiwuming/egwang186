@@ -190,14 +190,6 @@ if(items.length==0) {
 }
 res.data=items;
 JSON.stringify(res);
-//    var head=[];head.push(getVar("name")+"#genre#");
-//    code=head.concat(code).join("\n");
-//   var 分类=code.split(/.+?#genre#.*/).filter(Boolean);
-//    var 线路=code.match(/.+?#genre#.*/g);
-//    var 列表规则=".z(.+?,.+)";
-//    var 标题规则=".tz(#genre#)";
-//    var 选集规则=".tz(,)";
-//    var 选集地址规则=".c(http://ip111.cn/?wd=).ty(,)";选集列表();
 }
 ######免嗅探6
 var uu=getVar("url").split("/?wd=")[1];
