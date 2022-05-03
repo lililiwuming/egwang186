@@ -143,6 +143,8 @@ function CMS选集列表(){
       选集地址="https://b.sigu.tv/api/type/?key=b08DPxVf9MCYrAX8fP&url="+选集地址;
     }else if(标题=="rx"){
       选集地址="https://svip.rongxingvr.top/api/?key=B26J6jO5MOnjUv3GqW&url="+选集地址;
+    }else if(标题=="xueren"){
+        选集地址="https://xrm3u8.qd234.cn/?url="+选集地址;
     }else if(标题=="renrenmi"){
           //选集地址="http://www.1080kan.cc/jiexi/rrmi.php?url="+选集地址+'@{"Referer":"http://www.1080kan.cc/"}';
           //选集地址="https://kuba.renrenmi.cc:2266/api/?key=2WzAj2s0pgQ1AYQoPT&url="+选集地址;
