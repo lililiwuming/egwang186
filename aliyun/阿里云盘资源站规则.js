@@ -1,12 +1,14 @@
 ######首页1
-{"data":[{
+{"data":[
+    //{
     "title":"阿里大站",
     "rule":{
         "分类":'var a="影视$https://pan.3636360.com/api/v3/thread.list?perPage=10&page=#PN#&filter[categoryids][0]=1&filter[essence]=$$动漫$https://pan.3636360.com/api/v3/thread.list?perPage=10&page=#PN#&filter[categoryids][0]=7&filter[essence]=$$音乐$https://pan.3636360.com/api/v3/thread.list?perPage=10&page=#PN#&filter[categoryids][0]=2&filter[essence]=";var b="全部$0&filter[attention]=0&filter[sort]=1&scope=0$$推荐$0&filter[attention]=0&filter[sort]=1&scope=1$$精华$1&filter[attention]=0&filter[sort]=1&scope=0$$评论时间$0&filter[attention]=0&filter[sort]=2&scope=0$$热门内容$0&filter[attention]=0&filter[sort]=3&scope=0";a=a.split("$$");b=b.split("$$");var items=[];for(var i in a){var az=a[i].split("$")[0];var ay=a[i].split("$")[1];for(var j in b){var bz=b[j].split("$")[0];var by=b[j].split("$")[1];items.push({title:az+"-"+bz,url:ay+by});}}JSON.stringify(items);',
         "列表规则":'var 列表=e2Arr(getCode(),".json(Data).json(pageData)");var 地址规则=".json(threadId)";var 标题规则=".c(更新时间:).json(updatedAt).c(标题:).json(title)";var 图片规则=".json(user).json(avatar)";var 简介规则=".json(content).json(text)";if(Number(getVar("PN"))==-1){var page=Number(getVar("PN"))+3;var NEXTPAGE=getVar("前")+page+getVar("后");var PREPAGE="";}else{var page=Number(getVar("PN"))+1;var NEXTPAGE=getVar("前")+page+getVar("后");var PREPAGE="";}',
         "详情规则":'var 正文=e2Rex(getVar("CODE"),".json(detail).t()");'
     }
-},{
+},//
+{
     "title":"阿里小纸条",
     "rule":{
         "分类":'var a=JSON.parse(getHttp(JSON.stringify({url:"https://yunluo.oss-cn-shanghai.aliyuncs.com/alipaper/data.json"}))).data;for(var i in a){a[i].title=a[i].info.name+a[i].info.cat_num;a[i].url="http://ip111.cn/?pg=#PN#";}JSON.stringify(a);',
