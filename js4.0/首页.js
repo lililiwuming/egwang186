@@ -20,7 +20,7 @@
             {
                 "title":"555电影",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/555dy.png",
-                "分类地址":'getVar("baseURL")+"/vodshow/分类-----翻页---.html";',
+                "分类地址":'getVar("baseURL")+"/vodtype/分类-翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.555dy1.com";',
                 "rule":{
