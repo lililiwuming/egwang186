@@ -494,7 +494,7 @@ var resp=JZ(JSON.stringify({url:uu,head:{"User-Agent":UA,"Cookie":COOKIE}}));
 if(resp.code.indexOf("<html")!=-1){
 if(resp.code.search(/<div id="video"/)!=-1||resp.code.search(/<div id="[^"]*?player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<div id="jx-content"/)!=-1){
       if(uu.indexOf("dmplay.xyz/d?url=")!=-1){
-"web="+uu+'@{"Referer":"https://zy.hikan.xyz/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50"}';
+"web="+uu+'@{"Referer":"https://zy.hikan.xyz/","sec-ch-ua-platform":"Windows","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50"}';
       }else{
 "web="+uu;
       }
