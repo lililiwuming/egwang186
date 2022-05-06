@@ -58,19 +58,19 @@ CCTV高尔夫网球,http://tlivectfree-cdn.ysp.cctv.cn/ysp/2012512503.m3u8
 中国交通广播,http://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8
 中国乡村之声,http://ngcdn017.cnr.cn/live/xczs/index.m3u8
 哈语广播,http://ngcdn025.cnr.cn/live/hygb/index.m3u8
-CGTN REDIO,https://sk.cri.cn/am846.m3u8
+CGTNREDIO,https://sk.cri.cn/am846.m3u8
 HITFM,http://cnlive.cnr.cn/hls/HITFM.m3u8
 环球资讯广播,http://cnlive.cnr.cn/hls/huanqiuzixunguangbo.m3u8
 轻松调频,http://sk.cri.cn/915.m3u8
-CRI 南海之声,http://sk.cri.cn/nhzs.m3u8
-CRI 轻松调频 FM91.5,http://sk.cri.cn/915.m3u8
-CRI 环球资讯广播 FM90.5,http://sk.cri.cn/905.m3u8
-英语资讯广播 China Plus Radio,http://cnlive.cnr.cn/hls/yyzxgb.m3u8
-CRI 中文环球广播,http://sk.cri.cn/hyhq.m3u8
-CRI 海峡飞虹,http://sk.cri.cn/hxfh.m3u8
-CRI 客家之声,http://sk.cri.cn/hakka.m3u8
-CRI 闽南之音,http://sk.cri.cn/minnan.m3u8
-CRI NEWS Plus AM1008,http://sk.cri.cn/am1008.m3u8
+CRI南海之声,http://sk.cri.cn/nhzs.m3u8
+CRI轻松调频FM91.5,http://sk.cri.cn/915.m3u8
+CRI环球资讯广播FM90.5,http://sk.cri.cn/905.m3u8
+英语资讯广播ChinaPlusRadio,http://cnlive.cnr.cn/hls/yyzxgb.m3u8
+CRI中文环球广播,http://sk.cri.cn/hyhq.m3u8
+CRI海峡飞虹,http://sk.cri.cn/hxfh.m3u8
+CRI客家之声,http://sk.cri.cn/hakka.m3u8
+CRI闽南之音,http://sk.cri.cn/minnan.m3u8
+CRINEWSPlusAM1008,http://sk.cri.cn/am1008.m3u8
 咪咕轮播#genre#
 周星驰,http://117.148.179.153/PLTV/88888888/224/3221231562/index.m3u8
 周润发,http://117.148.179.177/PLTV/88888888/224/3221231709/index.m3u8
@@ -129,7 +129,7 @@ Discovery,http://iptv.tvfix.org/hls/discovery.m3u8
 国家地理,http://iptv.tvfix.org/hls/natlgeo.m3u8
 港台综合#genre#
 BaBy-TV,http://50.7.218.42:8278/babytv_twn/playlist.m3u8?tid=m7ab1b92a1306&ct=18335&tsum=57086eb57e1cc0c75ba08c75acab2406
-CATCHPLAY 电影台[854*480],http://50.7.218.42:8278/catchplay_twn/playlist.m3u8?tid=ma51023a5bb5c15986498&ct=17874&tsum=2de38c0bcaece3cb5c50d0d600357cb0
+CATCHPLAY电影台[854*480],http://50.7.218.42:8278/catchplay_twn/playlist.m3u8?tid=ma51023a5bb5c15986498&ct=17874&tsum=2de38c0bcaece3cb5c50d0d600357cb0
 CINEMAX,http://50.7.218.42:8278/cinemax_twn/playlist.m3u8?tid=MEAE1417577214175772&ct=18392&tsum=5d6639abf9c0be1bdb8ded47c91e3af7
 CINEMAX,http://50.7.218.42:8278/cinemax_twn/playlist.m3u8?tid=mf18038aaba6311485855&ct=17874&tsum=63ee6bcdb705ee72ea3d0f0d84ed6df1
 ELEVEN体育一台,http://50.7.218.42:8278/golfchannel_twn/playlist.m3u8?tid=m43df9270caf7&ct=18335&tsum=3bcc02e810e7073b86bb40d392e95f23
@@ -193,7 +193,7 @@ TVBS新闻台,http://50.7.218.42:8278/tvbs_n/playlist.m3u8?tid=m4a218f9aa395&ct=
 东森新闻台,http://50.7.218.42:8278/ettvnews/playlist.m3u8?tid=m1785954e5a67&ct=18336&tsum=ce82c650c85a63fe1ead9e30f2d4bfb4
 凤凰香港,http://50.7.218.42:8278/hkphoenix_twn/playlist.m3u8?tid=m5bd7047b492a&ct=18336&tsum=2c3b7b7f9cee713c07f561b51a9e2768
 凤凰资讯,http://50.7.218.42:8278/phoenixinfo_hd/playlist.m3u8?tid=m7f4a830029be&ct=18336&tsum=74f57bddc0725f74838380086dce3e44
-国家地理频道 TWAIWAN,http://50.7.218.42:8278/natgeohd_twn/playlist.m3u8?tid=MB5B4841803948418039&ct=18393&tsum=a2343b2c061fc9de3fa7857e832d9625
+国家地理频道TWAIWAN,http://50.7.218.42:8278/natgeohd_twn/playlist.m3u8?tid=MB5B4841803948418039&ct=18393&tsum=a2343b2c061fc9de3fa7857e832d9625
 国家地理野生频道,http://50.7.218.42:8278/natgeowild_twn/playlist.m3u8?tid=mc9d789e8a1bb12836354&ct=17877&tsum=82c5ce1596dc364c112c79b239c3f5e8
 好莱坞电影台,http://50.7.218.42:8278/hollywoodmovies_twn/playlist.m3u8?tid=m39bfcd99239617992917&ct=17874&tsum=774ffa7546c934dc27e743c5bbb454d3
 好莱坞电影台,http://50.7.218.42:8278/hollywoodmovies_twn/playlist.m3u8?tid=MA8A4005638840056388&ct=18392&tsum=a1f1517d4ea64fd01267905f21d83859
@@ -210,23 +210,23 @@ RTHK31,http://livetv.dnsfor.me:80/channel.1.m3u8
 RTHK32,http://livetv.dnsfor.me:80/channel.2.m3u8
 Now直播331台,http://livetv.dnsfor.me:80/channel.3.m3u8
 Now新聞332台,http://livetv.dnsfor.me:80/channel.4.m3u8
-有線新聞台 HD,http://livetv.dnsfor.me:80/channel.5.m3u8
-有線財經資訊台 HD,http://livetv.dnsfor.me:80/channel.6.m3u8
-有線綜合娛樂台 HD,http://livetv.dnsfor.me:80/channel.7.m3u8
+有線新聞台HD,http://livetv.dnsfor.me:80/channel.5.m3u8
+有線財經資訊台HD,http://livetv.dnsfor.me:80/channel.6.m3u8
+有線綜合娛樂台HD,http://livetv.dnsfor.me:80/channel.7.m3u8
 開電視,http://livetv.dnsfor.me:80/channel.9.m3u8
 無綫新聞台,http://livetv.dnsfor.me:80/channel.10.m3u8
 無綫財經資訊台,http://livetv.dnsfor.me:80/channel.11.m3u8
-Now Sports Prime 630,http://livetv.dnsfor.me:80/channel.12.m3u8
+NowSportsPrime630,http://livetv.dnsfor.me:80/channel.12.m3u8
 ATV,http://livetv.dnsfor.me:80/channel.14.m3u8
 HKS香港卫视,http://livetv.dnsfor.me:80/channel.15.m3u8
 凤凰香港台,http://livetv.dnsfor.me:80/channel.16.m3u8
 CCTV5HD,http://livetv.dnsfor.me:80/channel.17.m3u8
 翡翠台,http://livetv.dnsfor.me:80/channel.18.m3u8
 J2,http://livetv.dnsfor.me:80/channel.19.m3u8
-VIU TV,http://livetv.dnsfor.me:80/channel.20.m3u8
+VIUTV,http://livetv.dnsfor.me:80/channel.20.m3u8
 鳳凰資訊台,http://livetv.dnsfor.me:80/channel.21.m3u8
 星空卫视,http://livetv.dnsfor.me:80/channel.22.m3u8
-UNIVERSE TV,http://livetv.dnsfor.me:80/channel.23.m3u8
+UNIVERSETV,http://livetv.dnsfor.me:80/channel.23.m3u8
 亚旅卫视,http://livetv.dnsfor.me:80/channel.24.m3u8
 香港3#genre#
 港台電視31,https://cdn.hkdtmb.com/hls/31/index.m3u8
@@ -235,14 +235,14 @@ UNIVERSE TV,http://livetv.dnsfor.me:80/channel.23.m3u8
 香港開電視,https://cdn.hkdtmb.com/hls/77/index.m3u8
 香港國際財經台,https://cdn.hkdtmb.com/hls/76/index.m3u8
 翡翠台,https://cdn.hkdtmb.com/hls/81/index.m3u8
-翡翠台 (中英字幕),https://cdn.hkdtmb.com/hls/81b/index.m3u8
+翡翠台(中英字幕),https://cdn.hkdtmb.com/hls/81b/index.m3u8
 J2台,https://cdn.hkdtmb.com/hls/82/index.m3u8
 無綫新聞台,https://cdn.hkdtmb.com/hls/83/index.m3u8
 明珠台,https://cdn.hkdtmb.com/hls/84/index.m3u8
-明珠台 (粵語聲道),https://cdn.hkdtmb.com/hls/84b/index.m3u8
+明珠台(粵語聲道),https://cdn.hkdtmb.com/hls/84b/index.m3u8
 無綫財經·資訊台,https://cdn.hkdtmb.com/hls/85/index.m3u8
 ViuTV,https://cdn.hkdtmb.com/hls/99/index.m3u8
-ViuTV Six,https://cdn.hkdtmb.com/hls/96/index.m3u8
+ViuTVSix,https://cdn.hkdtmb.com/hls/96/index.m3u8
 台湾1#genre#
 TVBS新闻,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
 东森财经新闻,http://seb.sason.top/sc/dscjxw_fhd.m3u8
@@ -329,7 +329,7 @@ Bloomberg,http://61.221.81.93:8581/hls/210/10016/cstv16.m3u8
 国兴卫视,http://61.221.81.93:8088/hls/64/806/ch15.m3u8
 霹雳台湾,http://61.221.81.93:8088/hls/75/817/ch59.m3u8
 JET综合,http://61.221.81.93:8088/hls/74/816/ch54.m3u8
-Baby TV,http://61.221.81.93:8546/hls/35/80/babytv.m3u8
+BabyTV,http://61.221.81.93:8546/hls/35/80/babytv.m3u8
 momo亲子台,http://61.221.81.93:8088/hls/70/812/ch40.m3u8
 大爱1台,http://61.221.81.93:8088/hls/73/815/ch52.m3u8
 大爱2台,http://61.221.81.93:8088/hls/75/817/ch60.m3u8
@@ -361,54 +361,46 @@ Animax,http://61.221.81.93:8088/hls/70/812/ch39.m3u8
 纬来体育,http://61.221.81.93:8088/hls/67/809/ch28.m3u8
 博斯运动I,http://61.221.81.93:8596/hls/210/10018/cstv18.m3u8
 博斯运动II,http://61.221.81.93:8088/hls/61/803/ch04.m3u8
-ELEVEN 2,http://61.221.81.93:8078/hls/26/80/esport2.m3u8
+ELEVEN2,http://61.221.81.93:8078/hls/26/80/esport2.m3u8
 TLC旅游生活,http://61.221.81.93:8088/hls/70/812/ch38.m3u8
 亚洲旅游,http://61.221.81.93:8088/hls/76/818/ch61.m3u8
 探索发现,http://61.221.81.93:8088/hls/71/813/ch44.m3u8
 国家地理,http://61.221.81.93:8590/hls/61/803/ch01.m3u8
 动物星球,http://61.221.81.93:8088/hls/70/812/ch37.m3u8
 午夜成人source-streams#genre#
-PRIVATE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/3.m3u8
-HUSTLER HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/1.m3u8
-DORCEL TV HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/4.m3u8
-VIVIDRED HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/6.m3u8
-EROxxx HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/9.m3u8
-REDLIGHT HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/2.m3u8
-VIXEN HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/7.m3u8
-PENTHOUSE GOLD HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/10.m3u8
-PENTHOUSE QUICKIES HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/11.m3u8
-DORCELxxx HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/5.m3u8
-XyPLUS HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/14.m3u8
-XyMIX HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/16.m3u8
-XyMAX HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/15.m3u8
-BabesTV HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/13.m3u8
-BRAZZERS TV EUROPE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/26.m3u8
-BRAZZERS TV EUROPE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/25.m3u8
-NUART HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/54.m3u8
-BEATE UHSE TV HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/58.m3u8
-ExxxoTICA HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/55.m3u8
-SEXPRIVE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/70.m3u8
-HOT XXL HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/77.m3u8
-NAUGHTY HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/79.m3u8
-BALKAN EROTIC HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/80.m3u8
-EROXXX HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/97.m3u8
-PORNBOX HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/92.m3u8
-REDxxx HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/88.m3u8
-BRAZZERS HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/91.m3u8
-LEO TV HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/98.m3u8
-EXTASY 4K,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/99.m3u8
-PRIVATE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/103.m3u8
+PRIVATEHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/3.m3u8
+HUSTLERHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/1.m3u8
+DORCELTVHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/4.m3u8
+VIVIDREDHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/6.m3u8
+EROxxxHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/9.m3u8
+REDLIGHTHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/2.m3u8
+VIXENHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/7.m3u8
+PENTHOUSEGOLDHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/10.m3u8
+PENTHOUSEQUICKIESHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/11.m3u8
+DORCELxxxHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/5.m3u8
+XyPLUSHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/14.m3u8
+XyMIXHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/16.m3u8
+XyMAXHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/15.m3u8
+BabesTVHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/13.m3u8
+BRAZZERSTVEUROPEHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/26.m3u8
+BRAZZERSTVEUROPEHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/25.m3u8
+NUARTHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/54.m3u8
+BEATEUHSETVHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/58.m3u8
+ExxxoTICAHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/55.m3u8
+SEXPRIVEHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/70.m3u8
+HOTXXLHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/77.m3u8
+NAUGHTYHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/79.m3u8
+BALKANEROTICHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/80.m3u8
+EROXXXHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/97.m3u8
+PORNBOXHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/92.m3u8
+REDxxxHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/88.m3u8
+BRAZZERSHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/91.m3u8
+LEOTVHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/98.m3u8
+EXTASY4K,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/99.m3u8
+PRIVATEHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/103.m3u8
 茉莉花台HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/108.m3u8
-VISIT-X TV LIVE HD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/112.m3u8
+VISIT-XTVLIVEHD,http://source-streams.com:8081/live/buyasaponline/buyasaponline_26022019/112.m3u8
 付费频道1#genre#
-松視➊臺備,p8p://0198.02686.cc:16871/60d53d8e00057359f2ab7923682f1b04.ts
-松視➋臺備,p8p://0198.02686.cc:16871/60d53dc70008faa7f2ac58b29604771a.ts
-彩虹電影,p8p://0198.02686.cc:16871/60d53d16000eff77f2a9a6d4e162209c.ts
-彩虹電影,p8p://0198.02686.cc:16871/60d53d16000eff77f2a9a6d4e162209c.ts
-彩虹e台,p8p://0198.02686.cc:16871/60d53d5a000f345ff2aab082b6067f98.ts
-驚艷台AmazingTV,p8p://0198.02686.cc:16871/60d53ded0009cddef2aced586355082e.ts
-JSter極限電影,p8p://0198.02686.cc:16871/60d53e1000085590f2ad75b087c6e78e.ts
-潘多拉完美,p8p://0198.02686.cc:16871/60d53e4100021553f2ae337ec15497c2.ts
 彩虹e台,p5p://crfccs.kingh888.com:16666/60ab271b0008823b0e6079d6366a0d7e
 彩虹電影台,p5p://crfccs.kingh888.com:16666/60ab2705000438470e6022cd64274913
 香蕉台,p5p://crfccs.kingh888.com:16666/60ab2769000e40550e61abfe014de5b1
@@ -428,36 +420,37 @@ Hot,p5p://crfccs.kingh888.com:16666/60ab27ac000dd0ce0e62b1998dc28571
 京彩8,p5p://crfccs.kingh888.com:16666/60ab6e880004cfa20f777aabfe62cb07
 京粉9,p5p://crfccs.kingh888.com:16666/60ab6e7a0001c5a50f7743347174894b
 京彩10,p5p://crfccs.kingh888.com:16666/60ab6e6a0006200a0f7705d1ab2c12fd
-53,p5p://crfccs.kingh888.com:16666/60ab70b60001c9880f7ffd95bace24f3
-54,p5p://crfccs.kingh888.com:16666/60ab70a40002d72f0f7fb78aefd6892e
-55,p5p://crfccs.kingh888.com:16666/60ab7092000628430f7f721440747700
-56,p5p://crfccs.kingh888.com:16666/60ab70820006339d0f7f3396eb1d08dd
-57,p5p://crfccs.kingh888.com:16666/60ab7074000469010f7efc7173919dd8
-58,p5p://crfccs.kingh888.com:16666/60ab7064000574aa0f7ebe36edd56f5d
-59,p5p://crfccs.kingh888.com:16666/60ab7047000494df0f7e4cb4bbaee6ba
-60,p5p://crfccs.kingh888.com:16666/60ab7034000aaf730f7e040c1a43198e
-61,p5p://crfccs.kingh888.com:16666/60ab7022000573560f7dbc65c7a7c516
-62,p5p://crfccs.kingh888.com:16666/60ab70110002dad70f7d795342d4455b
-63,p5p://crfccs.kingh888.com:16666/60ab6ffb000a2d7f0f7d254314764200
-64,p5p://crfccs.kingh888.com:16666/60ab6fec00082ce30f7cea283a526c13
-65,p5p://crfccs.kingh888.com:16666/60ab6fda0007e3e20f7ca3c5f3e96f00
-66,p5p://crfccs.kingh888.com:16666/60ab6fc800082d9b0f7c5d88192b05b6
-67,p5p://crfccs.kingh888.com:16666/60ab6fb6000b8a650f7c1814ba6d0807
-68,p5p://crfccs.kingh888.com:16666/60ab6fa60009ec320f7bd92abf911f6f
-69,p5p://crfccs.kingh888.com:16666/60ab6f950004e0220f7b9578b29fcb6e
-70,p5p://crfccs.kingh888.com:16666/60ab6f77000386550f7b1fef3ff04705
-71,p5p://crfccs.kingh888.com:16666/60ab6f630008847b0f7ad31644e78979
-72,p5p://crfccs.kingh888.com:16666/60ab6f5300037e900f7a934df938ee61
-73,p5p://crfccs.kingh888.com:16666/60ab6f2a000125b50f79f28b8f8bc416
-74,p5p://crfccs.kingh888.com:16666/60ab6f18000750370f79adcf701ffea1
-75,p5p://crfccs.kingh888.com:16666/60ab6efa000787ad0f7938ae568e03ff
-76,p5p://crfccs.kingh888.com:16666/60ab6eea000b90780f78fb362da5bde6
-77,p5p://crfccs.kingh888.com:16666/60ab6ed70002dde40f78aec43aa651ca
-78,p5p://crfccs.kingh888.com:16666/60ab6ec40007e3700f7865d5af2800d9
-79,p5p://crfccs.kingh888.com:16666/60ab6ea5000dc3580f77ee3eb0a503fc
-80,p5p://crfccs.kingh888.com:16666/60ab6e880004cfa20f777aabfe62cb07
-81,p5p://crfccs.kingh888.com:16666/60ab6e7a0001c5a50f7743347174894b
-82,p5p://crfccs.kingh888.com:16666/60ab6e6a0006200a0f7705d1ab2c12fd
+Cunnilingus,p5p://crfccs.kingh888.com:16666/60ab70b60001c9880f7ffd95bace24f3
+Blonde,p5p://crfccs.kingh888.com:16666/60ab70a40002d72f0f7fb78aefd6892e
+Sologirl,p5p://crfccs.kingh888.com:16666/60ab7092000628430f7f721440747700
+Couples,p5p://crfccs.kingh888.com:16666/60ab70820006339d0f7f3396eb1d08dd
+BigButt,p5p://crfccs.kingh888.com:16666/60ab7074000469010f7efc7173919dd8
+Creampie,p5p://crfccs.kingh888.com:16666/60ab7064000574aa0f7ebe36edd56f5d
+Interracial,p5p://crfccs.kingh888.com:16666/60ab7047000494df0f7e4cb4bbaee6ba
+Masturbation,p5p://crfccs.kingh888.com:16666/60ab7034000aaf730f7e040c1a43198e
+BBW,p5p://crfccs.kingh888.com:16666/60ab7022000573560f7dbc65c7a7c516
+Young/Old,p5p://crfccs.kingh888.com:16666/60ab70110002dad70f7d795342d4455b
+Public,p5p://crfccs.kingh888.com:16666/60ab6ffb000a2d7f0f7d254314764200
+Orgy,p5p://crfccs.kingh888.com:16666/60ab6fec00082ce30f7cea283a526c13
+German,p5p://crfccs.kingh888.com:16666/60ab6fda0007e3e20f7ca3c5f3e96f00
+Shemale,p5p://crfccs.kingh888.com:16666/60ab6fc800082d9b0f7c5d88192b05b6
+Amateur,p5p://crfccs.kingh888.com:16666/60ab6fb6000b8a650f7c1814ba6d0807
+BigTits,p5p://crfccs.kingh888.com:16666/60ab6fa60009ec320f7bd92abf911f6f
+Threesome,p5p://crfccs.kingh888.com:16666/60ab6f950004e0220f7b9578b29fcb6e
+Teen,p5p://crfccs.kingh888.com:16666/60ab6f77000386550f7b1fef3ff04705
+Strip,p5p://crfccs.kingh888.com:16666/60ab6f630008847b0f7ad31644e78979
+Milf,p5p://crfccs.kingh888.com:16666/60ab6f5300037e900f7a934df938ee61
+Mature,p5p://crfccs.kingh888.com:16666/60ab6f2a000125b50f79f28b8f8bc416
+Latina,p5p://crfccs.kingh888.com:16666/60ab6f18000750370f79adcf701ffea1
+HD,p5p://crfccs.kingh888.com:16666/60ab6efa000787ad0f7938ae568e03ff
+Hardcore,p5p://crfccs.kingh888.com:16666/60ab6eea000b90780f78fb362da5bde6
+Fetish,p5p://crfccs.kingh888.com:16666/60ab6ed70002dde40f78aec43aa651ca
+Erotic,p5p://crfccs.kingh888.com:16666/60ab6ec40007e3700f7865d5af2800d9
+Ebony,p5p://crfccs.kingh888.com:16666/60ab6ea5000dc3580f77ee3eb0a503fc
+Blowjob,p5p://crfccs.kingh888.com:16666/60ab6e880004cfa20f777aabfe62cb07
+Asian,p5p://crfccs.kingh888.com:16666/60ab6e7a0001c5a50f7743347174894b
+Anal,p5p://crfccs.kingh888.com:16666/60ab6e6a0006200a0f7705d1ab2c12fd
+HOTH,p5p://crfccs.kingh888.com:16666/60ab27ac000dd0ce0e62b1998dc28571
 東森戲劇,p5p://fccs.123178.top:9906/60449e3500031323021ce24de00b3ef2.ts
 K頻道,p8p://fccs.123178.top:9906/60e5c69c0007bf360cfd3979da394ad7
 HIPLAY,p8p://fccs.123178.top:9906/606947ae0006005b15dfe627af5a3968.ts
@@ -512,10 +505,10 @@ HOT,http://35.241.67.113:80/live/q666888/456321/469.m3u8
 D槽素人,http://35.241.67.113:80/live/q666888/456321/470.m3u8
 道,http://35.241.67.113:80/live/q666888/456321/471.m3u8
 加勒比全球,http://35.241.67.113:80/live/q666888/456321/472.m3u8
-NYX MEDIA,http://35.241.67.113:80/live/q666888/456321/473.m3u8
-NYX MEDIA2,http://35.241.67.113:80/live/q666888/456321/474.m3u8
-NYX MEDIA3,http://35.241.67.113:80/live/q666888/456321/475.m3u8
-NYX MEDIA4,http://35.241.67.113:80/live/q666888/456321/476.m3u8
+NYXMEDIA,http://35.241.67.113:80/live/q666888/456321/473.m3u8
+NYXMEDIA2,http://35.241.67.113:80/live/q666888/456321/474.m3u8
+NYXMEDIA3,http://35.241.67.113:80/live/q666888/456321/475.m3u8
+NYXMEDIA4,http://35.241.67.113:80/live/q666888/456321/476.m3u8
 松视1台,http://35.241.67.113:80/live/q666888/456321/477.m3u8
 松视2台,http://35.241.67.113:80/live/q666888/456321/478.m3u8
 松视3台,http://35.241.67.113:80/live/q666888/456321/479.m3u8
@@ -532,8 +525,8 @@ NYX MEDIA4,http://35.241.67.113:80/live/q666888/456321/476.m3u8
 乐活频道,http://61.222.202.191:80/wtv34.php?id=312ch
 付费频道4#genre#
 彩虹e台,p5p://45.92.126.18:9906/60e5c5e4000b60ac0cfa6ba7ff5ef206
-K 頻道,p5p://45.92.126.18:9906/60e5c69c0007bf360cfd3979da394ad7
-Look TV,p5p://45.92.126.18:9906/60ed753e0003e9cf1108a73c5ad48fc9
+K頻道,p5p://45.92.126.18:9906/60e5c69c0007bf360cfd3979da394ad7
+LookTV,p5p://45.92.126.18:9906/60ed753e0003e9cf1108a73c5ad48fc9
 驚豔成人電影台,p5p://45.92.126.18:9906/60fd2dbc0002e8d300ed4537251ee06d
 香蕉台,p5p://45.92.126.18:9906/60fd2ddd000096c200edc58716da3240
 潘朵啦高畫質玩美台,p5p://45.92.126.18:9906/60e5c6c10007bff20cfdca01da007296
@@ -546,8 +539,8 @@ Hot,p5p://45.92.126.18:9906/60e5c5940008bfb40cf9327b7a38210e
 Happy,p5p://45.92.126.18:9906/60e5c5bb0000e84a0cf9c8d164f11b3b
 付费频道5#genre#
 彩虹e台,p5p://45.92.126.18:19706/60e5c5e4000b60ac0cfa6ba7ff5ef206
-K 頻道,p5p://45.92.126.18:19706/60e5c69c0007bf360cfd3979da394ad7
-Look TV,p5p://45.92.126.18:19706/60ed753e0003e9cf1108a73c5ad48fc9
+K頻道,p5p://45.92.126.18:19706/60e5c69c0007bf360cfd3979da394ad7
+LookTV,p5p://45.92.126.18:19706/60ed753e0003e9cf1108a73c5ad48fc9
 驚豔成人電影台,p5p://45.92.126.18:19706/60fd2dbc0002e8d300ed4537251ee06d
 香蕉台,p5p://45.92.126.18:19706/60fd2ddd000096c200edc58716da3240
 潘朵啦高畫質玩美台,p5p://45.92.126.18:19706/60e5c6c10007bff20cfdca01da007296
@@ -643,7 +636,7 @@ Penthouse,p9p://45.86.67.154:9906/5d4f96c10008ca971435b1dd34df64a7.ts
 韩国演艺圈潜规则,p9p://45.86.67.154:9906/5d5995e9000e2c6707798ec91bc8ba08.ts
 日本一本道无码,p9p://45.86.67.154:9906/5d59962f00074b49077a9e76646ad3d6.ts
 日本天热素人无码,p9p://45.86.67.154:9906/5d59966d000e5f60077b9276d8257da1.ts
-Naughty America,p9p://45.86.67.154:9906/5d5996cc0004d512077d031d6df4719e.ts
+NaughtyAmerica,p9p://45.86.67.154:9906/5d5996cc0004d512077d031d6df4719e.ts
 西方OFFICE场景,p9p://45.86.67.154:9906/5d59971a0008b9c4077e34cceff4aa94.ts
 西方黑白大战,p9p://45.86.67.154:9906/5d59976d000162a8077f77232ed1532c.ts
 中字有码1,p9p://45.86.67.154:9906/6088559700006d6a0f40bd67867e9505.ts
@@ -657,12 +650,12 @@ Heyzo无码,p9p://45.86.67.154:9906/608bea27000c60bd034481e611c23d95.ts
 人妻斩,p9p://45.86.67.154:9906/608bea4b000e85d903450f12cb48a2ef.ts
 猫步毒药,p9p://45.86.67.154:9906/608bea74000ea3350345af42d8d8b0a6.ts
 人妻熟女,p9p://45.86.67.154:9906/608bea960002cfd30346310ba8ab00a1.ts
-素人动画,p9p://45.86.67.154:9906/608beab8000eeeb70346b8f59110da07.ts XXXAV,p9p://45.86.67.154:9906/608beae40002b5d4034761b4ed6c00f0.ts
+素人动画,p9p://45.86.67.154:9906/608beab8000eeeb70346b8f59110da07.tsXXXAV,p9p://45.86.67.154:9906/608beae40002b5d4034761b4ed6c00f0.ts
 黑珍珠,p9p://45.86.67.154:9906/608beb520004891c03490fdc097d7e4c.ts
 色情世界,p9p://45.86.67.154:9906/608beb7600096d8803499dbcd1c788c1.ts
 人妻出轨,p9p://45.86.67.154:9906/608bec3e00060395034caa1cf343991f.ts
 阿拉伯情色,p9p://45.86.67.154:9906/608bec620007bc02034d372d176b1cdf.ts
-啄木鸟,p9p://45.86.67.154:9906/608bec97000589c3034e05a5aa2c6188.ts Hi Play,p9p://45.86.67.154:9906/608beb280004836603486bcab7d4e831.ts
+啄木鸟,p9p://45.86.67.154:9906/608bec97000589c3034e05a5aa2c6188.tsHiPlay,p9p://45.86.67.154:9906/608beb280004836603486bcab7d4e831.ts
 古川伊织,p9p://45.86.67.154:9906/608becd9000336e2034f06ddc00031d3.ts
 无码破解,p9p://45.86.67.154:9906/608bed3c00098d4203508b344ba5ff1e.ts
 迷奸无码,p9p://45.86.67.154:9906/608c0034000ce114039aa4ce516a1ea7.ts
