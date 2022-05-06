@@ -547,6 +547,38 @@ Heyzo零時差,https://wabc.ml/1919.php?id=10
 LOVE6-1,https://wabc.ml/1919.php?id=11
 LOVE6-2,https://wabc.ml/1919.php?id=12
 LOVE6-3,https://wabc.ml/1919.php?id=13
+国外18台#genre#
+Кино 18+ HD,https://v2.catcast.tv/content/40381/index.m3u8
+Русская Ночь,http://46.174.83.66/Russkaya_Noch/video.m3u8
+Шелк ТВ HD,http://live-2.otcnet.ru/shelk/index.m3u8
+Babestation,http://sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net/9528/9528_264_live.m3u8
+Barely legal,http://46.181.193.122:81/udp/239.255.42.224:1234
+Blue Hustler,http://srv1.roshen.live/70s5oC8mvp/mpegts?token=qnNUnXdwRyvUqPLo
+Blue Hustler UDP,http://46.181.193.122:81/udp/239.255.42.222:1234
+BRAZZERS TV,http://46.181.193.122:81/udp/239.255.42.220:1234
+Eropuls DE,https://api.alpaca.t62a.com/hls/9108/stream0.m3u8
+Erox HD,http://94.229.250.73:8008/play/a002
+Extasy HD,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
+Extasy 4K,http://213.81.133.133:8080/extasy4k/index.m3u8
+FrenchLover,http://46.181.193.122:81/udp/239.255.42.223:1234
+Hustler HD,http://46.181.193.122:81/udp/239.255.43.53:1234
+Hustler TV,http://78.83.191.18:8000/play/a078
+Kaloopy,https://dai.google.com/linear/hls/event/FK1bjW0AThepH1W7CJrByg/master.m3u8
+Darcizzle Offshore,https://30a-tv.com/feeds/xodglobal/fishingoffshore.m3u8
+AST1,https://www.ast.tv/stream/1/high.m3u8
+AST2,https://www.ast.tv/stream/2/high.m3u8
+花花公子1,http://190.92.95.37:8000/play/a0f6/index.m3u8
+红兔子2,http://38.123.205.70:8000/play/a09a/index.m3u8
+DISHMX,http://38.123.205.70:8000/play/a09c/index.m3u8
+FTV午夜秘密,https://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/playlist.m3u8
+Jenny For You,http://59ec5453559f0.streamlock.net:1935/jennyforyou/jennyforyou/playlist.m3u8
+Jenny Live,http://59ec5453559f0.streamlock.net:1935/JennyLive/JennyLive/playlist.m3u8
+迈阿密WEB,https://59ec5453559f0.streamlock.net/miamitv/smil:miamitvWEB/playlist.m3u8
+迈阿密canal18,https://59ec5453559f0.streamlock.net/canal18/smil:canal18/playlist.m3u8
+迈阿密拉丁裔,https://5ee7c2b857b7f.streamlock.net/latino/latino/playlist.m3u8
+迈阿密墨西哥,https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexicoROKU/playlist.m3u8
+时尚电视米德尼特秘密,https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8
+茉莉电视Jasmin TV,http://109.71.162.112/live/hd.jasminchannel.stream/playlist.m3u8
 测试#genre#
 Cunnilingus,p8p://crfccs.kingh888.com:16666/60ab70b60001c9880f7ffd95bace24f3 
 Blonde,p8p://crfccs.kingh888.com:16666/60ab70a40002d72f0f7fb78aefd6892e 
