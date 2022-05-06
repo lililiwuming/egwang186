@@ -548,8 +548,12 @@ LOVE6-1,https://wabc.ml/1919.php?id=11
 LOVE6-2,https://wabc.ml/1919.php?id=12
 LOVE6-3,https://wabc.ml/1919.php?id=13
 国外18台#genre#
+Extasy HD,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
+FTV Midnight Secrets (UHD),http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
+Shemale Tube TV HD (21+),https://www.ast.tv/stream/1/ultra.m3u8
+Shemale Tube TV 2 HD (21+),https://www.ast.tv/stream/2/ultra.m3u8
 Кино 18+ HD,https://v2.catcast.tv/content/40381/index.m3u8
-Русская Ночь,http://46.174.83.66/Russkaya_Noch/video.m3u8
+Russkaya_Noch,http://46.174.83.66/Russkaya_Noch/index.m3u8
 Шелк ТВ HD,http://live-2.otcnet.ru/shelk/index.m3u8
 Babestation,http://sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net/9528/9528_264_live.m3u8
 Barely legal,http://46.181.193.122:81/udp/239.255.42.224:1234
@@ -565,8 +569,6 @@ Hustler HD,http://46.181.193.122:81/udp/239.255.43.53:1234
 Hustler TV,http://78.83.191.18:8000/play/a078
 Kaloopy,https://dai.google.com/linear/hls/event/FK1bjW0AThepH1W7CJrByg/master.m3u8
 Darcizzle Offshore,https://30a-tv.com/feeds/xodglobal/fishingoffshore.m3u8
-AST1,https://www.ast.tv/stream/1/high.m3u8
-AST2,https://www.ast.tv/stream/2/high.m3u8
 花花公子1,http://190.92.95.37:8000/play/a0f6/index.m3u8
 红兔子2,http://38.123.205.70:8000/play/a09a/index.m3u8
 DISHMX,http://38.123.205.70:8000/play/a09c/index.m3u8
