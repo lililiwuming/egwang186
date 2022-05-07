@@ -138,7 +138,7 @@ var filename='阿里云历史记录.txt';
 var 记录=[];
 if(getVar("name")!='null'&&getVar("url").indexOf("$$root")==-1){
 var title=getVar("name");
-var url="q:root?url="+getVar("url");
+var url=getVar("url");
 记录.push({title:title,url:url});
 if(_.read(filename)){
 var 新记录=记录.concat(JSON.parse(_.read(filename)).filter(d=>d.url!=记录[0].url));
