@@ -200,7 +200,7 @@ if(标题=="xhzy"){
 }else if(标题.indexOf("miaoparty2")!=-1){
   选集地址="https://vip5.jiexi.one?url="+选集地址;
 }else if(标题.indexOf("miaoparty")!=-1){
-  选集地址="https://json.5lp.net/json.php?url="+选集地址;
+  选集地址="https://a.dxzj88.com/jxrrm/jiami.php?url="+选集地址;
 }else if(标题.indexOf("mx771")!=-1||标题.indexOf("mengxin886")!=-1){
   选集地址="https://vip.mengx.vip/home/api?type=ys&uid=2117076&key=abghklvyDEIJLNT025&url="+选集地址;
 }else if(标题.indexOf("taiyi")!=-1){
