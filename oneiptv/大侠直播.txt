@@ -548,11 +548,9 @@ LOVE6-1,https://wabc.ml/1919.php?id=11
 LOVE6-2,https://wabc.ml/1919.php?id=12
 LOVE6-3,https://wabc.ml/1919.php?id=13
 国外18台#genre#
-Extasy HD,http://213.151.233.20:8000/dna-6233-tv-pc.m3u8
 FTV Midnight Secrets (UHD),http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
 Shemale Tube TV HD (21+),https://www.ast.tv/stream/1/ultra.m3u8
 Shemale Tube TV 2 HD (21+),https://www.ast.tv/stream/2/ultra.m3u8
-Кино 18+ HD,https://v2.catcast.tv/content/40381/index.m3u8
 Russkaya_Noch,http://46.174.83.66/Russkaya_Noch/index.m3u8
 Шелк ТВ HD,http://live-2.otcnet.ru/shelk/index.m3u8
 Babestation,http://sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net/9528/9528_264_live.m3u8
