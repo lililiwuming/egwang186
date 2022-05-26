@@ -33,6 +33,21 @@
                 }
             },
             {
+                "title":"蓝影资源(龙腾)",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/lanying.png",
+                "分类地址":'getVar("baseURL")+"/index.php/vod/type/id/分类/page/翻页.html";',
+                "首页地址":'getVar("baseURL")+"/";',
+                "baseURL":'"http://124.223.10.96:8090";',
+                "rule":{
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li.clearfix)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'var a="分类+电影=20+电视剧=21+综艺=22+动漫=23+动作片=52+喜剧片=53+爱情片=54+科幻片=55+恐怖片=56+剧情片=57+国产剧=60+港台剧=61+日韩剧=62+欧美剧=63";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
+                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li.clearfix)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE=baseURL+e2Rex(getVar("源码"),".get(ul.myui-page).byt(下一页).a(href)");var PREPAGE="";',
+                    "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div#playlist)");var 线路="";var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");var 列表规则=".get(ul.stui-content__playlist li)";var 标题规则=".get(h3).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
+                    "搜索规则":'var URL=baseURL+"/index.php/vod/search.html";var 源码=getHttp(JSON.stringify({url:URL,post:{"wd":getVar("KEY")}}));var 列表=e2Arr(源码,".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "免嗅探规则":'"web="+getVar("url");'
+                }
+            },
+            {
                 "title":"夜空资源(多多)",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/yekong.png",
                 "分类地址":'getVar("baseURL")+"/index.php/vod/type/id/分类/page/翻页.html";',
@@ -40,7 +55,7 @@
                 "baseURL":'"https://zy.yekong.cc";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li.clearfix)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+电影=20+电视剧=21+综艺=22+动漫=23+纪录片=24";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
+                    "筛选数据":'var a="分类+电影=1+电视剧=2+综艺=3+动漫=4+纪录片=49+4K电影=44+4K剧集=45";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li.clearfix)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE=baseURL+e2Rex(getVar("源码"),".get(ul.myui-page).byt(下一页).a(href)");var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".get(div#playlist)");var 线路="";var 简介=e2Rex(getVar("源码"),".get(div.stui-content__detail).t()");var 列表规则=".get(ul.stui-content__playlist li)";var 标题规则=".get(h3).t()";var 选集规则=".get(a).t()";var 选集地址规则=".get(a).a(href)";',
                     "搜索规则":'var URL=baseURL+"/index.php/vod/search.html";var 源码=getHttp(JSON.stringify({url:URL,post:{"wd":getVar("KEY")}}));var 列表=e2Arr(源码,".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
