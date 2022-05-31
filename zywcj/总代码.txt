@@ -358,11 +358,11 @@ var 标题规则=".json(vod_name)";var 地址规则=".c(?ac=videolist&ids=).json
 var uu=getVar("url");
 var UA="Mozilla/5.0";
 var COOKIE="";
-alert(uu)
 if(uu.indexOf("www.meiju11.com")!=-1){
 'web='+uu+'@{"Referer":"https://www.meiju11.com/"}';
 }else if(uu.indexOf("jx.yanaifei.cn/player/?uid=")!=-1){
-var resp=JZ(JSON.stringify({url:uu,head:{"Referer":"https://yanaifei.cn/"}})).code;
+var resp=JZ(JSON.stringify({url:uu,head:{"Referer":"https://yanaifei.cn/","User-Agent":"Mozilla/5.0 Android"}})).code;
+alert(resp);
 var playurl=resp.match(/var config[\s\S]+?"url":"(.+?)"/)[1];
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("magnet:?xt=")!=-1){
