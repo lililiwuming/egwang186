@@ -360,6 +360,8 @@ var UA="Mozilla/5.0";
 var COOKIE="";
 if(uu.indexOf("www.meiju11.com")!=-1){
 'web='+uu+'@{"Referer":"https://www.meiju11.com/"}';
+}else if(uu.indexOf("jx.yanaifei.cn/player/?uid=")!=-1){
+'web='+uu;
 }else if(uu.indexOf("magnet:?xt=")!=-1){
 JSON.stringify({url:uu});
 }else if(uu.indexOf("play.ekvod.com/play")!=-1){
