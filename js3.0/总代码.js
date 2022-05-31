@@ -98,7 +98,7 @@ function CMS选集列表(){
         }else{
             选集地址=选集地址;
         }*/
-        选集地址="http://ip111.cn/?wd=https://jx.yanaifei.cn/player/?uid=4109651&key=gjprstuwxACDFLSVXY&url="+选集地址;
+        选集地址="https://jx.yanaifei.cn/player/?uid=4109651&key=gjprstuwxACDFLSVXY&url="+选集地址+'@{"Referer":"https://yanaifei.cn/","User-Agent":"Mozilla/5.0 Android"}';
   }else if(baseURL.indexOf("apicdn.vipm3u8.com")!=-1){
           选集地址="https://player.vipparsing.com/player?token=4732bUERfVb60lWNSLrsd5-2s1r70KeA89C3VwrGYYdByboQT9o4OzxIr5-8/cX9-sO6&vid="+选集地址;
     }else if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1||选集地址.indexOf("share.weiyun.")!=-1){
