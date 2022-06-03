@@ -317,6 +317,8 @@ JSON.stringify([{name:name,url:url}]);
     {"title":"TG_云盘资源共享","url":"https://tx.me/s/aliyunziyuanfenxiang?q="},
     {"title":"TG_WAYOU资源","url":"https://tx.me/s/wayouziyuan?q="},
     {"title":"TG_影视必应阁","url":"https://tx.me/s/moviebyg?q="},
+    {"title":"TG_4K影视资源","url":"https://tx.me/s/remux_2160p?q="},
+    {"title":"TG_蓝光影音","url":"https://tx.me/s/voidrss?q="},
     {"title":"小纸条","url":"https://u.gitcafe.net/?wd="}
 ]
 ######多链接10
