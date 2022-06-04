@@ -10,7 +10,7 @@
 },{
     "title":"TG频道订阅",
     "rule":{
-        "分类":'var a="云盘资源发布$https://tx.me/s/sharealiyun#PN#$$云盘盘$https://tx.me/s/yunpanpan#PN#$$云盘影视共享$https://tx.me/s/alypysgx#PN#$$V云盘$https://tx.me/s/aliyun69#PN#$$云盘资源共享$https://tx.me/s/aliyunziyuanfenxiang#PN#$$WAYOU资源每日更新$https://tx.me/s/WaYouZiYuan#PN#$$影视必应阁$https://tx.me/s/moviebyg#PN#$$4K影视资源$https://tx.me/s/remux_2160p$$蓝光影音$https://tx.me/s/voidrss";var a=a.split("$$");var items=[];for(var i in a){var title=a[i].split("$")[0];var url=a[i].split("$")[1];items.push({title:title,url:url});}JSON.stringify(items);',
+        "分类":'var a="云盘资源发布$https://tx.me/s/sharealiyun#PN#$$云盘盘$https://tx.me/s/yunpanpan#PN#$$云盘影视共享$https://tx.me/s/alypysgx#PN#$$V云盘$https://tx.me/s/aliyun69#PN#$$云盘资源共享$https://tx.me/s/aliyunziyuanfenxiang#PN#$$WAYOU资源每日更新$https://tx.me/s/WaYouZiYuan#PN#$$影视必应阁$https://tx.me/s/moviebyg#PN#$$4K影视资源$https://tx.me/s/remux_2160p#PN#$$蓝光影音$https://tx.me/s/voidrss#PN#";var a=a.split("$$");var items=[];for(var i in a){var title=a[i].split("$")[0];var url=a[i].split("$")[1];items.push({title:title,url:url});}JSON.stringify(items);',
         "列表规则":'var 列表=e2Arr(getCode(),".get(div.tgme_widget_message_bubble)");var 地址规则=".get(a.tgme_widget_message_photo_wrap).a(href)";var 标题规则=".c(发表时间:).get(time).a(datetime).c( 标题:).get(div.tgme_widget_message_text).t().z([\\\\s\\\\S]{40})";var 图片规则=".get(a.tgme_widget_message_photo_wrap).a(style).ty(\').tz(\')";var 简介规则=".get(div.tgme_widget_message_text).t()";var NEXTPAGE="https://tx.me"+getCode().match(/rel="prev" href="(.+?)"/)[1];var PREPAGE="https://tx.me"+getCode().match(/rel="canonical" href="(.+?)"/)[1];',
         "详情规则":'var 正文=getVar("msg");'
     }
