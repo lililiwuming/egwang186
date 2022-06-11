@@ -7,13 +7,13 @@ if(getVar("QJS")&&getVar("QJS")!="null"){
 var filename='一个直播远程索引.txt';
 if(getVar("rurl").indexOf(",http")>0){
 var 记录=getVar("rurl").match(/.+?,http.+/g);
-alert(JSON.stringify(记录))
 if(_.read(filename)){
     var 旧记录=_.read(filename).match(/.+?,http.+/g);
     for(var i in 记录){
     var 记录项=[];记录项.push(记录[i]);
-    var 新记录=记录项.concat(旧记录.filter(item=>item!=记录[i]));
+    var 旧记录=记录项.concat(旧记录.filter(item=>item!=记录[i]));
     }
+    var 新记录=旧记录;
 }else{
 var 新记录=记录;
 }
