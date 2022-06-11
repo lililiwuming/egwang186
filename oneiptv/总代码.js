@@ -5,9 +5,9 @@ if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
 }
 var filename='一个直播远程索引.txt';
-var 记录="";
-if(getVar("rurl")!='null'&&getVar("rurl").indexOf(",http")>1){
-记录=getVar("rurl").match(/.+?,http.+/g);
+if(getVar("rurl").indexOf(",http")>0){
+var 记录=getVar("rurl").match(/.+?,http.+/g);
+alert(JSON.stringify(记录))
 if(_.read(filename)){
     var 旧记录=_.read(filename).match(/.+?,http.+/g);
     for(var i in 记录){
