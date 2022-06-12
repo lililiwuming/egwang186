@@ -128,12 +128,11 @@ if(code.indexOf("#genre#")!=-1){
     var 选集规则=".tz(,)";选集列表();
 }else if(code.indexOf("#EXTINF:")!=-1){
     var code=code.match(/#EXTINF:.+[\s]+?.+/g);
-    alert(JSON.stringify(code));
     var res={};var items=[];
 for(var i in code){
     var 选集=code[i].match(/,(.+)/)[1];var 选集地址=code[i].match(/,.+[\s]+?(.+)/)[1];
-    if(code[i].indexOf("group-title=")!=-1){
-        var type=code[i].match(/group-title=(.+),/)[1];
+    if(code[i].search(/group-title=".+?",/)!=-1){
+        var type=code[i].match(/group-title="(.+)",/)[1];
     }else{
         var type="未分类";
     }
