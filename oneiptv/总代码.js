@@ -130,7 +130,7 @@ if(code.indexOf("#genre#")!=-1){
     var code=code.match(/#EXTINF:.+[\s]+?.+/g);
     var res={};var items=[];
 for(var i in code){
-    var 选集=code[i].match(/,(.+)/)[1];var 选集地址=code[i].match(/,.+[\s]+?(.+)/)[1];
+    var 选集=code[i].match(/,(.+)/)[1]||"选集不规范";var 选集地址=code[i].match(/,.+[\s]+?(.+)/)[1]||"地址不规范";
     if(code[i].search(/group-title=".*?"/)!=-1){
         var type=code[i].match(/group-title="(.*?)"/)[1]||"分类不规范";
     }else{
