@@ -239,8 +239,8 @@ if(getVar("url").indexOf("$$")!=-1){
             file_data.file_id=file_id;file_data.share_id=share_id;file_data.share_pwd=pwd;file_data.expiration="";
             file_data.file_name=getVar("url").split("?wd=")[1].split("$$")[8];
             var _d=e2Rex(encodeURI(JSON.stringify(file_data)),".en64()").replace(/\//g,"$");
-            var 转码1080='http://116.85.31.19:3000/apis/yun-play/'+_d+'/'+access_token+'/'+share_token+'/FHD/index.m3u8';
-            var 转码720='http://116.85.31.19:3000/apis/yun-play/'+_d+'/'+access_token+'/'+share_token+'/HD/index.m3u8';
+            var 转码1080='http://116.85.31.19:4000/apis/yun-play/'+_d+'/'+access_token+'/'+share_token+'/FHD/index.m3u8';
+            var 转码720='http://116.85.31.19:4000/apis/yun-play/'+_d+'/'+access_token+'/'+share_token+'/HD/index.m3u8';
         JSON.stringify([{name:"转码1080P可投屏",url:转码1080},{name:"转码720P可投屏",url:转码720},{name:"原始文件播放",url:JSON.parse(code).download_url,head:{"Referer":"https://www.aliyundrive.com/"}}]);
     }
     }
@@ -261,8 +261,8 @@ alert("请重新登陆阿里云盘网页");
     var file_id=getVar("url").split("?wd=")[1].split("###")[2];
     var drive_id=getVar("url").split("?wd=")[1].split("###")[1];
     var u=getVar("url").split("?wd=")[1].split("###")[0];
-    var 转码1080='http://116.85.31.19:3000/apis/my-yun-play/'+file_id+'/'+drive_id+'/'+access_token+'/FHD/index.m3u8';
-    var 转码720='http://116.85.31.19:3000/apis/my-yun-play/'+file_id+'/'+drive_id+'/'+access_token+'/HD/index.m3u8';
+    var 转码1080='http://116.85.31.19:4000/apis/my-yun-play/'+file_id+'/'+drive_id+'/'+access_token+'/FHD/index.m3u8';
+    var 转码720='http://116.85.31.19:4000/apis/my-yun-play/'+file_id+'/'+drive_id+'/'+access_token+'/HD/index.m3u8';
     JSON.stringify([{name:"原始文件播放",url:u,head:{"Referer":"https://www.aliyundrive.com/"}},{name:"转码1080P可投屏",url:转码1080},{name:"转码720P可投屏",url:转码720}]);
 }
 ######文档预览8
