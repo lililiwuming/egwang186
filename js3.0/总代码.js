@@ -84,7 +84,7 @@ function CMS选集列表(){
         }
     }else if(标题=="autue"){
         选集地址=e2Rex(选集地址,".dn64()");
-    }else if(URL.indexOf("app.netflixmi.com")!=-1){
+    }else if(baseURL.indexOf("app.netflixmi.com")!=-1){
         选集地址="https://player.naifeimi.com/?url="+选集地址;
     }else if(baseURL.indexOf("yanaifei.cn")!=-1||baseURL.indexOf("106.13.199.87:4433")!=-1){
         /*if(标题=="VIP"){
