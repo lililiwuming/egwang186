@@ -319,6 +319,7 @@ JSON.stringify([{name:name,url:url}]);
     {"title":"TG_影视必应阁","url":"https://tx.me/s/moviebyg?q="},
     {"title":"TG_4K影视资源","url":"https://tx.me/s/remux_2160p?q="},
     {"title":"TG_蓝光影音","url":"https://tx.me/s/voidrss?q="},
+    {"title":"TG_阿里云影视","url":"https://tx.me/s/aliyunys?q="},
     {"title":"小纸条","url":"https://u.gitcafe.net/?wd="}
 ]
 ######多链接10
