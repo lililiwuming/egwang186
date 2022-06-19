@@ -144,7 +144,7 @@ if(标题=="xhzy"){
       选集地址=e2Rex(选集地址,".dn64()");
 }else if(URL.indexOf("app.netflixmi.com")!=-1){
       选集地址="https://player.naifeimi.com/?url="+选集地址;
-}else if(URL.indexOf("yanaifei.cn")!=-1||URL.indexOf("106.13.199.87:4433")!=-1){
+}else if(URL.indexOf("yanaifei.cn")!=-1||URL.indexOf("45.125.46.41:4433")!=-1){
       /*if(标题=="VIP"){
       选集地址="http://www.yanaifei.cn/addons/dplayer/?pid="+选集地址;  
       }else if(标题=="qq"){
