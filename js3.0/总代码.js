@@ -84,6 +84,8 @@ function CMS选集列表(){
         }
     }else if(标题=="autue"){
         选集地址=e2Rex(选集地址,".dn64()");
+    }else if(标题=="Mika"){
+        选集地址="https://mika.ovooa.com/api/player/xg.php?key=200OK&url="+选集地址;
     }else if(baseURL.indexOf("app.netflixmi.com")!=-1){
         选集地址="https://player.naifeimi.com/?url="+选集地址;
     }else if(baseURL.indexOf("yanaifei.cn")!=-1||baseURL.indexOf("45.125.46.41:4433")!=-1){
