@@ -82,6 +82,8 @@ function CMS选集列表(){
         }else{
         选集地址=选集地址;  
         }
+    }else if(标题=="ddzy"){
+        选集地址="http://qiqi.520say.cn/json/dd.php?url="+选集地址;
     }else if(标题=="autue"){
         选集地址=e2Rex(选集地址,".dn64()");
     }else if(标题=="Mika"){
