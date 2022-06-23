@@ -97,7 +97,7 @@
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/4kan.png",
                 "分类地址":'getVar("baseURL")+"/vodshow/分类-----翻页---/";',
                 "首页地址":'getVar("baseURL")+"/";',
-                "baseURL":'"http://4kan.cc";',
+                "baseURL":'"https://4kan.cc";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(a).a(data-original)";var 简介规则=".get(span).st().t().c().get(p).t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=1---+电视剧=2---+综艺=3---+动漫=4---+纪录片=5+动作片=1---动作+喜剧片=1---喜剧+爱情片=1---爱情+科幻片=1---科幻+恐怖片=1---恐怖+剧情片=1---剧情+国产剧=13---+港台剧=14---+日韩剧=15---+欧美剧=16---";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
