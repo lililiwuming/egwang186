@@ -58,7 +58,7 @@ function 正文处理(){
     var list=正文.match(/[\s\S]*?https:\/\/www\.aliyundrive\.com\/s\/.+/g);
 var items=[];
 for(var i in list){
-    var title=list[i].replace(/\s/g,"").replace(/.+?阿里云盘.+/g,"").replace(/<.+?>/g,"").split("https://")[0]||"没获取到标题，去看原文吧";
+    var title=list[i].replace(/.+?阿里云盘.+/g,"").replace(/<.+?>/g,"").split("https://")[0]||"没获取到标题，去看原文吧";
     if(title.length>40){
         title=title.substr(title.length-40);
     }
