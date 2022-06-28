@@ -74,6 +74,8 @@ function CMS选集列表(){
           选集地址="http://ip111.cn/?wd="+选集地址;
     }else if(标题.indexOf("Tcm3u8")!=-1){
           选集地址="https://api.iopenyun.com:88/vips/?url="+选集地址;
+    }else if(标题.indexOf("bjhu")!=-1){
+        选集地址="http://124.223.69.144:8999/web/115?url="+选集地址;
     }else if(baseURL.indexOf("ujuba.com")!=-1){
           选集地址="https://www.dmplay.xyz/j0?url="+选集地址;
     }else if(baseURL.indexOf("xinlangapi.com")!=-1){
