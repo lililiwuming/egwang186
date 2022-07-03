@@ -378,6 +378,8 @@ var UA="Mozilla/5.0";
 var COOKIE="";
 if(uu.indexOf("www.meiju11.com")!=-1){
 'web='+uu+'@{"Referer":"https://www.meiju11.com/"}';
+}else if(uu.indexOf("moefun.goingstock.net")!=-1){
+'web='+uu;
 }else if(uu.indexOf("www.dmplay.xyz/d?url=")!=-1){
 'web='+uu+'@{"Referer":"https://zy.hikan.xyz/"}';
 }else if(uu.indexOf("https://www.nfjx.xyz/player/?url=")!=-1){
