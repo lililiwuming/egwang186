@@ -135,7 +135,7 @@ if(标题=="xhzy"){
 }else if(URL.indexOf("www.bcwzg.com")!=-1){
       选集地址="https://xs.bcyingshi.ink/?url="+选集地址;
 }else if(URL.indexOf("moefun.goingstock.net")!=-1){
-      选集地址="https://www.goingstock.net/addons/dp/player/dp.php?key=0&from=player_1&id=&uid=https://www.goingstock.net/&url="+选集地址;
+      选集地址="https://www.goingstock.net/addons/dp/player/dp.php?key=0&from=player_1&id=&uid=https://www.goingstock.net/&url="+选集地址+'@{"User-Aent":"Mozilla/5.0 Android"}';
 }else if(URL.indexOf("ttky8.com")!=-1){
       选集地址="http://ip111.cn/?wd="+选集地址;
 }else if(标题.indexOf("Tcm3u8")!=-1){
