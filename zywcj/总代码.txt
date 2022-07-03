@@ -135,7 +135,7 @@ if(标题=="xhzy"){
 }else if(URL.indexOf("www.bcwzg.com")!=-1){
       选集地址="https://xs.bcyingshi.ink/?url="+选集地址;
 }else if(URL.indexOf("moefun.goingstock.net")!=-1){
-      选集地址="https://www.goingstock.net/addons/dp/player/dp.php?key=0&from=player_1&id=&uid=https://www.goingstock.net/&url="+选集地址;
+      选集地址="https://www.goingstock.net/addons/dp/player/dp.php?key=0&from=player_1&id=&uid=https://www.goingstock.net/&url="+选集地址+'@{"Referer":"https://www.goingstock.net/"}';
 }else if(URL.indexOf("ttky8.com")!=-1){
       选集地址="http://ip111.cn/?wd="+选集地址;
 }else if(标题.indexOf("Tcm3u8")!=-1){
@@ -521,7 +521,7 @@ if(resp.code.search(/<div class="video"/)!=-1||resp.code.search(/<div id="video"
       if(uu.indexOf("dmplay.xyz/d?url=")!=-1){
 "web="+uu+'@{"Referer":"https://zy.hikan.xyz/","sec-ch-ua-platform":"Windows","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50"}';
       }else{
-"web="+uu+'@{"User-Aent":"Mozilla/5.0 Android"}';
+"web="+uu;
       }
 }else{
 if(uu.split("url=")[1].indexOf("http")!=-1){
