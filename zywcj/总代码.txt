@@ -245,7 +245,7 @@ if(标题=="xhzy"){
       选集地址=选集地址;
       }
 }else if(标题.indexOf('leduo')!=-1){
-      选集地址="https://api.ldyun.cc/wp-api/ifr.php?vid="+选集地址;
+      选集地址="https://api.ldyun.cc/wp-api/ifr.php?vid="+选集地址+'@{"Referer":"http://leduozy.net/"}';
 }else if(标题.indexOf("mengxin")!=-1){
       选集地址="https://jx3.bifenvip.com/?url="+选集地址;
 }else if(标题.indexOf("aly")!=-1){
