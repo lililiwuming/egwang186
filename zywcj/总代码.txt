@@ -369,7 +369,7 @@ var COOKIE="";
 if(uu.indexOf("www.meiju11.com")!=-1){
 'web='+uu+'@{"Referer":"https://www.meiju11.com/"}';
 }else if(uu.indexOf("jx.yanaifei.cn/player/?uid=")!=-1){
-var resp=JZ(JSON.stringify({url:uu,head:{"Referer":"https://yanaifei.cn/","User-Agent":"Mozilla/5.0 Android"}})).code;
+var resp=JZ(JSON.stringify({url:uu,head:{"Referer":"http://yanaifei.cn/","User-Agent":"Mozilla/5.0 Android"}})).code;
 var playurl=resp.match(/var config[\s\S]+?"url":"(.+?)"/)[1];
 JSON.stringify({url:playurl});
 }else if(uu.indexOf("magnet:?xt=")!=-1){
