@@ -201,6 +201,8 @@ if(标题=="xhzy"){
       选集地址="http://player.sxmj.wang/m3u8.php?url="+选集地址+'@{"Referer":"http://www.moyuyingshi.com"}';
 }else if(标题=="mao"){
       选集地址="http://app.sxmj.wang/player.php?url="+选集地址;
+}else if(标题=="xyb"){
+      选集地址="https://good-vip.mmiyue.com/zhichi/HaoR.php?id="+选集地址;
 }else if(标题=="weibo"){
       选集地址="https://hj.52svip.cc/q/weibojx.php?url="+选集地址;
 }else if(标题=="4kdym"||标题=="8kvod"){
