@@ -227,7 +227,7 @@ if(标题=="xhzy"){
 }else if(标题.indexOf("x1play")!=-1){
   选集地址="http://ip111.cn/?wd=https://www.xing1.vip/player/dp/?url="+选集地址;
 }else if(标题=="xfy"||标题=="xfyun"){
-  选集地址="https://vip.xfyun.one/home/api?type=ys&uid=2581923&key=ceijpquvBMOSUVXZ23&url="+选集地址;
+  选集地址="https://svip.iepig.com:4443/api/?key=SicQs2pG0Cw7BnWV9a&url="+选集地址;
 }else if(标题=="muxm3u8"){
   选集地址="http://jx.muxm3u8.com/test2/?url="+选集地址;
 }else if(标题=="rx"){
