@@ -223,7 +223,7 @@ if(标题=="xhzy"){
 }else if(标题=="xfy"||标题=="xfyun"){
   选集地址="https://vip.xfyun.one/home/api?type=ys&uid=2581923&key=ceijpquvBMOSUVXZ23&url="+选集地址;
 }else if(标题=="rx"||标题=="muxm3u8"){
-  选集地址="https://svip.rongxingvr.top/api/?key=B26J6jO5MOnjUv3GqW&url="+选集地址;
+  选集地址="http://jx.muxm3u8.com/test2/?url="+选集地址;
 }else if(标题=="xueren"){
   选集地址="https://xrm3u8.qd234.cn/?url="+选集地址;
 }else if(标题=="renrenmi"){
