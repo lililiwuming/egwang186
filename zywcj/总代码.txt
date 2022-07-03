@@ -134,6 +134,8 @@ if(标题=="xhzy"){
       选集地址="https://jx.yunboys.cn/?url="+选集地址;
 }else if(URL.indexOf("www.bcwzg.com")!=-1){
       选集地址="https://xs.bcyingshi.ink/?url="+选集地址;
+}else if(URL.indexOf("moefun.goingstock.net")!=-1){
+      选集地址="https://www.goingstock.net/addons/dp/player/dp.php?key=0&from=player_1&id=&uid=https://www.goingstock.net/&url="+选集地址;
 }else if(URL.indexOf("ttky8.com")!=-1){
       选集地址="http://ip111.cn/?wd="+选集地址;
 }else if(标题.indexOf("Tcm3u8")!=-1){
@@ -141,7 +143,7 @@ if(标题=="xhzy"){
 }else if(标题.indexOf("bjhu")!=-1){
       选集地址="http://124.223.69.144:8999/web/115?url="+选集地址;
 }else if(URL.indexOf("hikan.xyz")!=-1){
-      选集地址="https://www.dmplay.xyz/d?url="+选集地址+'@{"Referer":"https://zy.hikan.xyz/"}';
+      选集地址="https://www.dmplay.xyz/d?url="+选集地址;
 }else if(URL.indexOf("xinlangapi.com")!=-1){
       选集地址="https://www.xinlangjiexi.com/m3u8/?url="+选集地址;
 }else if(标题=="ddzy"){
@@ -370,6 +372,8 @@ var UA="Mozilla/5.0";
 var COOKIE="";
 if(uu.indexOf("www.meiju11.com")!=-1){
 'web='+uu+'@{"Referer":"https://www.meiju11.com/"}';
+}else if(uu.indexOf("www.dmplay.xyz/d?url=")!=-1){
+'web='+uu+'@{"Referer":"https://zy.hikan.xyz/"}';
 }else if(uu.indexOf("https://www.nfjx.xyz/player/?url=")!=-1){
 var resp=JZ(JSON.stringify({url:uu,head:{"Referer":"http://yanaifei.cn/","User-Agent":"Mozilla/5.0 Android"}})).code;
 var playurl=resp.match(/var config[\s\S]+?"url":"(.+?)"/)[1];
