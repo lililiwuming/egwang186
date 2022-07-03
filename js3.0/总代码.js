@@ -106,7 +106,7 @@ function CMS选集列表(){
         }else{
             选集地址=选集地址;
         }*/
-        选集地址="https://jx.yanaifei.cn/player/?uid=4109651&key=gjprstuwxACDFLSVXY&url="+选集地址;
+        选集地址="https://www.nfjx.xyz/player/?url="+选集地址;
   }else if(baseURL.indexOf("apicdn.vipm3u8.com")!=-1){
           选集地址="https://player.vipparsing.com/player?token=4732bUERfVb60lWNSLrsd5-2s1r70KeA89C3VwrGYYdByboQT9o4OzxIr5-8/cX9-sO6&vid="+选集地址;
     }else if(选集地址.indexOf("html")!=-1||选集地址.indexOf("www.bilibili.com")!=-1||选集地址.indexOf("share.weiyun.")!=-1){
@@ -399,8 +399,8 @@ var playurl=uu.split("ip111.cn/?wd=")[1];
             }
         
     }
-}else if(uu.indexOf("jx.yanaifei.cn/player/?uid=")!=-1){
-    var resp=JZ(JSON.stringify({url:uu,head:{"Referer":"https://yanaifei.cn/","User-Agent":"Mozilla/5.0 Android"}})).code;
+}else if(uu.indexOf("https://www.nfjx.xyz/player/?url=")!=-1){
+    var resp=JZ(JSON.stringify({url:uu,head:{"Referer":"http://yanaifei.cn/","User-Agent":"Mozilla/5.0 Android"}})).code;
     var playurl=resp.match(/var config[\s\S]+?"url":"(.+?)"/)[1];
     JSON.stringify({url:playurl});
 }else{
