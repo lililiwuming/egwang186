@@ -8,7 +8,7 @@ function 通用列表(){
         var 地址=预地址.indexOf("http")!=-1?预地址:baseURL+预地址;
         if(地址.search(/\.php\/.+?\.vod/)!=-1){
             var 日期=e2Rex(getVar("TIME_"),".time(MMdd)");
-            var 地址=地址+"&key="+日期;
+            var 地址=地址+"&key="+日期+"&keytime="+getVar("TIME_");
         }
         var 标题=e2Rex(CODE,标题规则);
         var 预图片=e2Rex(CODE,图片规则);
