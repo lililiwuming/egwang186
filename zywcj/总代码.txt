@@ -132,6 +132,8 @@ if(标题=="xhzy"){
       选集地址=选集地址;
 }else if(URL.indexOf("api.yunboys.cn")!=-1){
       选集地址="https://jx.yunboys.cn/?url="+选集地址;
+}else if(URL.indexOf("www.bcwzg.com")!=-1){
+      选集地址="https://xs.bcyingshi.ink/?url="+选集地址;
 }else if(URL.indexOf("ttky8.com")!=-1){
       选集地址="http://ip111.cn/?wd="+选集地址;
 }else if(标题.indexOf("Tcm3u8")!=-1){
