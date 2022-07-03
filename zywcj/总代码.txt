@@ -202,7 +202,7 @@ if(标题=="xhzy"){
 }else if(标题=="mao"){
       选集地址="http://app.sxmj.wang/player.php?url="+选集地址;
 }else if(标题=="xyb"){
-      选集地址="https://good-vip.mmiyue.com/zhichi/HaoR.php?id="+选集地址+'@{"Referer":"Referer: https://www.laohanzong2.com/"}';
+      选集地址="https://good-vip.mmiyue.com/zhichi/HaoR.php?id="+选集地址+'@{"Referer":"https://www.laohanzong2.com/"}';
 }else if(标题=="bst"){
       选集地址="https://hj.52svip.cc/bst/tmzz.php?type=bestv&url="+选集地址;
 }else if(标题=="weibo"){
