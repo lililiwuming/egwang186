@@ -320,12 +320,12 @@
             {
                 "title":"直播盒子",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/kunyu77.png",
-                "分类地址":'getVar("baseURL")+"/分类/json.txt";',
+                "分类地址":'getVar("baseURL")+"/分类/json.txt翻页";',
                 "首页地址":'"https://api.zbjk.live/txt/json.txt";',
                 "baseURL":'"http://api.vipmisss.com:81";',
                 "rule":{
-                    "首页规则":'var 列表=e2Arr(getVar("源码"),".json(pingtai)");var 标题规则=".json(title)";var 地址规则=".c(/xcdsw/).json(address)";var 图片规则=".json(xinimg)";var 简介规则=".json(Number).ct(位主播)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
-                    "筛选数据":'var a="分类+xcdsw+mf";var b="翻页+第1页=1";a+"\\n"+b;',
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".json(pingtai)");var 标题规则=".json(title)";var 地址规则=".c(https://api.zbjk.live/txt/).json(address)";var 图片规则=".json(xinimg)";var 简介规则=".json(Number).ct(位主播)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'var a="分类+xcdsw+mf";var b="翻页+全部=";a+"\\n"+b;',
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".json(pingtai)");var 标题规则=".json(title)";var 地址规则=".c(/xcdsw/).json(address)";var 图片规则=".json(xinimg)";var 简介规则=".json(Number).ct(位主播)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".all()");var 简介=getVar("name");var 线路="";var 列表规则=".json(zhubo)";var 标题规则=getVar("name");var 选集规则=".json(title)";var 选集地址规则=".json(address)";',
                     "搜索规则":'var URL=baseURL+"/xcdsw/json.txt";var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":getVar("当前UA")}}));var 列表=e2Arr(源码,".json(pingtai)").filter(item=>item.indexOf(getVar("KEY"))!=-1);var 标题规则=".json(title)";var 地址规则=".c(/xcdsw/).json(address)";var 图片规则=".json(xinimg)";var 简介规则=".json(Number).ct(位主播)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
