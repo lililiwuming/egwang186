@@ -316,6 +316,21 @@
                     "搜索规则":'var URL=baseURL+"/xssearch?s="+getVar("KEY");var 源码=getHttp(JSON.stringify({url:URL,head:{"Referer":encodeURI(URL),"User-Agent":"Mozilla/5.0 Android 10","Cookie":getVar("当前COOKIE")}}));var 列表=e2Arr(源码,".get(div.result-item)");if(!列表[0]){var 列表=["网页可能有搜索验证，去网页看看吧"];var 标题规则=".t()";var 地址规则=URL;var 图片规则=".get(img).a(data-original)";var 简介规则="长按网页打开，验证后返回刷新即可";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";}else{var 标题规则=".get(.title a).t()";var 地址规则=".get(.title a).a(href)";var 图片规则=".get(img).a(src)";var 简介规则=".t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";}',
                     "免嗅探规则":'var code=getHttp(getVar("url"));if(code.indexOf("url:")!=-1){var playurl=code.match(/url:.*?\'(.+?)\'/)[1];JSON.stringify({url:playurl+"?_type=.m3u8"});}else if(getVar("url").indexOf("/dooplayer/v1/post/")==-1){var 播放线路=e2Rex(code,".get(div.dooplay_player li)");var u="https://www.4kvm.com/wp-json/dooplayer/v1/post/"+e2Rex(播放线路,".a(data-post)")+"?type="+e2Rex(播放线路,".a(data-type)")+"&source="+e2Rex(播放线路,".a(data-nume)");var uu=e2Rex(getHttp(u),".json(embed_url)");var resp=getHttp(uu);var playurl=resp.match(/url:.*?\'(.+?)\'/)[1];JSON.stringify({url:playurl+"?_type=.m3u8"});}else{var uu=e2Rex(getHttp(getVar("url")),".json(embed_url)");var resp=getHttp(uu);if(resp.match(/url:.*?\'(.+?)\'/)){var playurl=resp.match(/url:.*?\'(.+?)\'/)[1];JSON.stringify({url:playurl+"?_type=.m3u8"});}else{JSON.stringify({url:"此资源需要付费观看"});}}'
                 }
+            },
+            {
+                "title":"直播盒子",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/kunyu77.png",
+                "分类地址":'getVar("baseURL")+"/分类/json.txt";',
+                "首页地址":'"https://api.zbjk.live/txt/json.txt";',
+                "baseURL":'"http://api.vipmisss.com:81";',
+                "rule":{
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".json(pingtai)");var 标题规则=".json(title)";var 地址规则=".c(/xcdsw/).json(address)";var 图片规则=".json(xinimg)";var 简介规则=".json(Number).ct(位主播)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'var a="分类+xcdsw+mf";var b="翻页+第1页=1";a+"\\n"+b;',
+                    "分类规则":'var 列表=e2Arr(getVar("源码"),".json(pingtai)");var 标题规则=".json(title)";var 地址规则=".c(/xcdsw/).json(address)";var 图片规则=".json(xinimg)";var 简介规则=".json(Number).ct(位主播)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "选集规则":'var 分类=e2Arr(getVar("源码"),".t()");var 简介=getVar("name");var 线路="";var 列表规则=".json(zhubo)";var 标题规则=getVar("name");var 选集规则=".json(title)";var 选集地址规则=".json(address)";',
+                    "搜索规则":'var URL=baseURL+"/xcdsw/json.txt";var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":getVar("当前UA")}}));var 列表=e2Arr(源码,".json(pingtai)").filter(item=>item.indexOf(getVar("KEY"))!=-1);var 标题规则=".json(title)";var 地址规则=".c(/xcdsw/).json(address)";var 图片规则=".json(xinimg)";var 简介规则=".json(Number).ct(位主播)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "免嗅探规则":'JSON.stringify({url:getVar("url")});'
+                }
             }
         ]
     },
