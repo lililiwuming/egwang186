@@ -329,7 +329,7 @@
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".json(pingtai)");var 标题规则=".json(title)";var 地址规则=".c(/xcdsw/).json(address)";var 图片规则=".json(xinimg)";var 简介规则=".json(Number).ct(位主播)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("源码"),".all()");var 简介=getVar("name");var 线路="";var 列表规则=".json(zhubo)";var 标题规则=getVar("name");var 选集规则=".json(title)";var 选集地址规则=".c(http://ip111.cn/?wd=).json(address)";',
                     "搜索规则":'var URL=baseURL+"/xcdsw/json.txt";var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":getVar("当前UA")}}));var 列表=e2Arr(源码,".json(pingtai)").filter(item=>item.indexOf(getVar("KEY"))!=-1);var 标题规则=".json(title)";var 地址规则=".c(/xcdsw/).json(address)";var 图片规则=".json(xinimg)";var 简介规则=".json(Number).ct(位主播)";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
-                    "免嗅探规则":'JSON.stringify({url:getVar("url").split("http://ip111.cn/?wd=")});'
+                    "免嗅探规则":'JSON.stringify({url:getVar("url").split("http://ip111.cn/?wd=")[1]});'
                 }
             }
         ]
