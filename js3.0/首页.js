@@ -319,7 +319,7 @@
             },
             {
                 "title":"直播盒子",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/kunyu77.png",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/zhibohezi.png",
                 "分类地址":'getVar("baseURL")+"/分类/json.txt翻页";',
                 "首页地址":'"https://api.zbjk.live/txt/json.txt";',
                 "baseURL":'"http://api.vipmisss.com:81";',
