@@ -43,11 +43,19 @@
     {
         "title":"biubiu-3",
         "rule":{
-            "分类":'var a=e2Arr(getHttp(JSON.stringify({url:"http://www.mikkk.xyz/bblive.txt"})),".z(##[^,#]+?##[\\\\s\\\\S]+?##)");var items=[];for(var i in a){var title=e2Rex(a[i],".z2(##\\\\([^,#]+?\\\\)##)");var ul=a[i];var url="q:播放器?url="+title;items.push({title:title,ul:ul,url:url});}JSON.stringify(items);',
+            "分类":'var a=e2Arr(getHttp(JSON.stringify({url:"http://laohu.cool/ddtv/bblive.txt"})),".z(##[^,#]+?##[\\\\s\\\\S]+?##)");var items=[];for(var i in a){var title=e2Rex(a[i],".z2(##\\\\([^,#]+?\\\\)##)");var ul=a[i];var url="q:播放器?url="+title;items.push({title:title,ul:ul,url:url});}JSON.stringify(items);',
             "选集规则":'var 分类=e2Arr(getVar("CODE"),".json(ul)");var 列表规则=".z(.+?,.+)";var 线路="";var 标题规则=".ty(##).tz(##)";var 选集规则=".tz(,)";var 选集地址规则=".c(http://ip111.cn/?wd=).ty(,)";',
             "免嗅探规则":'var urls=getVar("url").split("?wd=")[1].split("#").filter(Boolean);var items=[];for(var i in urls){if(urls[i].indexOf(".php?")!=-1){var resp=JZ(JSON.stringify({url:urls[i],redirect:false}));var u=resp.head.Location||resp.head.location;if(!u){u=urls[i]+"&type=.m3u8";}}else{var u=urls[i];}items.push({url:u});}JSON.stringify(items);'
         }
     }
+    /*{
+        "title":"biubiu-4",
+        "rule":{
+            "分类":'var a=e2Arr(getHttp(JSON.stringify({url:"http://www.mikkk.xyz/bblive.txt"})),".z(##[^,#]+?##[\\\\s\\\\S]+?##)");var items=[];for(var i in a){var title=e2Rex(a[i],".z2(##\\\\([^,#]+?\\\\)##)");var ul=a[i];var url="q:播放器?url="+title;items.push({title:title,ul:ul,url:url});}JSON.stringify(items);',
+            "选集规则":'var 分类=e2Arr(getVar("CODE"),".json(ul)");var 列表规则=".z(.+?,.+)";var 线路="";var 标题规则=".ty(##).tz(##)";var 选集规则=".tz(,)";var 选集地址规则=".c(http://ip111.cn/?wd=).ty(,)";',
+            "免嗅探规则":'var urls=getVar("url").split("?wd=")[1].split("#").filter(Boolean);var items=[];for(var i in urls){if(urls[i].indexOf(".php?")!=-1){var resp=JZ(JSON.stringify({url:urls[i],redirect:false}));var u=resp.head.Location||resp.head.location;if(!u){u=urls[i]+"&type=.m3u8";}}else{var u=urls[i];}items.push({url:u});}JSON.stringify(items);'
+        }
+    }*/
 ]
 }
 ######选集列表
