@@ -303,6 +303,21 @@
                 }
             },
             {
+                "title":"XChina",
+                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/kunyu77.png",
+                "分类地址":'getVar("baseURL")+"/分类/翻页.html";',
+                "首页地址":'getVar("baseURL")+"/videos.html";',
+                "baseURL":'"https://xchina.xyz";',
+                "rule":{
+                    "首页规则":'var 列表=e2Arr(getVar("源码"),".get(div.videos div.item)");var 标题规则=".get(div.text a).t()";var 地址规则=".get(div.text a).a(href)";var 图片规则=".get(video).a(autoplay muted poster)";var 简介规则=".get(div.tag).t()";var 图片底部规则=".get(div.duration)";var 左上规则=".get(div.series)";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "筛选数据":'var 源码=getHttp(JSON.stringify({url:"https://xchina.xyz/videos.html",head:{"User-Agent":"Windows 10"}}));var Series=源码.match(/<a href="/videos/series-.+?<\\/a>/g);var Model=源码.match(/<a href="/videos/model-.+?<\\/a>/g);var a="";for(var i in Series){var title=e2Rex(Series[i],".t()");var id=e2Rex(Series[i],".ty(/).tz(.html)");a=a+"+"+title+"="+id;}for(var i in Model){var title=e2Rex(Model[i],".t()");var id=e2Rex(Model[i],".ty(/).tz(.html)");a=a+"+"+title+"="+id;}var a="分类"+a;var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
+                    "分类规则":'var 列表=e2Arr(getVar("源码"),".get(div.videos div.item)");var 标题规则=".get(div.text a).t()";var 地址规则=".get(div.text a).a(href)";var 图片规则=".get(video).a(autoplay muted poster)";var 简介规则=".get(div.tag).t()";var 图片底部规则=".get(div.duration)";var 左上规则=".get(div.series)";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "选集规则":'var 分类=e2Arr(getVar("CODE"),".get(video)");var 简介=getVar("msg");var 线路="";var 列表规则=".a(videourl)";var 标题规则=getVar("name");var 选集规则=".t()";var 选集地址规则=".t()";',
+                    "搜索规则":'var URL=baseURL+"/videos/keyword-"+getVar("KEY")+".html";var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":getVar("当前UA")}}));var 列表=e2Arr(getVar("源码"),".get(div.videos div.item)");var 标题规则=".get(div.text a).t()";var 地址规则=".get(div.text a).a(href)";var 图片规则=".get(video).a(autoplay muted poster)";var 简介规则=".get(div.tag).t()";var 图片底部规则=".get(div.duration)";var 左上规则=".get(div.series)";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
+                    "免嗅探规则":'JSON.stringify({url:getVar("url")});'
+                }
+            },
+            {
                 "title":"4K影院",
                 "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/4kvm.png",
                 "分类地址":'getVar("baseURL")+"/分类翻页";',

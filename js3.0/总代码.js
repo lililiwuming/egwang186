@@ -304,6 +304,8 @@ if(baseURL.indexOf(".php/")!=-1){
     }else{
         "Dalvik/2.1.0";
     }
+}else if(baseURL.indexOf("xchina.xyz")!=-1){
+"Windows 10";
 }else{
 "";
 }
