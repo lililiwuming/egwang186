@@ -314,7 +314,7 @@
                     "分类规则":'var 列表=e2Arr(getVar("源码"),".get(div.videos div.item)");var 标题规则=".get(div.text a).t()";var 地址规则=".get(video).a(videourl).th(&p=1##)";var 图片规则=".get(video).a(poster)";var 简介规则=".get(div.tag).t()";var 图片底部规则=".get(div.duration)";var 左上规则=".get(div.series)";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
                     "选集规则":'var 分类=e2Arr(getVar("CODE"),".json(url)");var 简介=getVar("msg");var 线路="";var 列表规则=".t()";var 标题规则=getVar("name");var 选集规则=".t()";var 选集地址规则=".t()";',
                     "搜索规则":'var URL=baseURL+"/videos/keyword-"+getVar("KEY")+".html";var 源码=getHttp(JSON.stringify({url:URL,head:{"User-Agent":getVar("当前UA")}}));var 列表=e2Arr(getVar("源码"),".get(div.videos div.item)");var 标题规则=".get(div.text a).t()";var 地址规则=".get(video).a(videourl).th(&p=1##)";var 图片规则=".get(video).a(poster)";var 简介规则=".get(div.tag).t()";var 图片底部规则=".get(div.duration)";var 左上规则=".get(div.series)";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
-                    "免嗅探规则":'JSON.stringify({url:getVar("url")});'
+                    "免嗅探规则":'JSON.stringify({url:getVar("url"),head:{"Referer":"https://xchina.xyz"}});'
                 }
             },
             {
