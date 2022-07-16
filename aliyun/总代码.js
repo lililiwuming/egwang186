@@ -158,7 +158,14 @@ _.read(filename);
 ######alicookie5
 alert("快去首页安装新版吧");
 ######过滤非视频6
-var 过滤=JSON.parse(getVar("目录重组数据")).filter(item=>item.mime_type.indexOf("video")!=-1||item.category=="video"||item.category=="audio");
+function 过滤非视频(item) {
+    if(item.mime_type){
+        return item.mime_type.indexOf("video")!=-1||item.category=="video"||item.category=="audio";
+    }else{
+        return item.category=="video"||item.category=="audio";
+    }
+}
+var 过滤=JSON.parse(getVar("目录重组数据")).filter(过滤非视频);
 for(var i in 过滤){
 if(过滤[i].download_url){
     过滤[i].url="http://ip111.cn/?wd="+过滤[i].download_url+"###"+过滤[i].drive_id+"###"+过滤[i].file_id;
