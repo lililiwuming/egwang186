@@ -4,7 +4,7 @@
         "data":[
             {
                 "title":"骚火电影",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/saohuotv.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/saohuotv.png",
                 "分类地址":'getVar("baseURL")+"/list/分类-翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://saohuo.vip";',
@@ -19,7 +19,7 @@
             },
             {
                 "title":"555电影",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/555dy.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/555dy.png",
                 "分类地址":'getVar("baseURL")+"/vodshow/分类-----翻页---.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.555dy1.com";',
@@ -34,7 +34,7 @@
             },
             {
                 "title":"周末影院(多多)",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/zzzlike.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/zzzlike.png",
                 "分类地址":'getVar("baseURL")+"/vodshow/分类--------翻页---.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.dunkfun.com";',
@@ -49,7 +49,7 @@
             },
             {
                 "title":"双十电影",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/1010dy.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/1010dy.png",
                 "分类地址":'getVar("baseURL")+"/show/分类/page/翻页/";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.1010dy.vip";',
@@ -64,7 +64,7 @@
             },
             {
                 "title":"City电影",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/citydy.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/citydy.png",
                 "分类地址":'getVar("baseURL")+"/show/id-分类/page/翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.citydy.com";',
@@ -79,7 +79,7 @@
             },
             {
                 "title":"特狗影视",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/tegouys.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/tegouys.png",
                 "分类地址":'getVar("baseURL")+"/vodshow/id/分类/page/翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.tegouys.com";',
@@ -94,7 +94,7 @@
             },
             {
                 "title":"4kan电影网",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/4kan.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/4kan.png",
                 "分类地址":'getVar("baseURL")+"/vodshow/分类-----翻页---/";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://4kan.cc";',
@@ -109,7 +109,7 @@
             },
             {
                 "title":"1080迷",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/1080mi.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/1080mi.png",
                 "分类地址":'getVar("baseURL")+"/v_type/分类-翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.1080mi.com";',
@@ -124,7 +124,7 @@
             },
             {
                 "title":"哔嘀影视",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/bidiys.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/bidiys.png",
                 "分类地址":'getVar("baseURL")+"/vodshow-分类--------翻页---.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://bidiys.cc";',
@@ -139,7 +139,7 @@
             },
             {
                 "title":"剧迷TV",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/gimytv.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/gimytv.png",
                 "分类地址":'getVar("baseURL")+"/genre/分类---翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://gimytv.app";',
@@ -154,7 +154,7 @@
             },
             {
                 "title":"在线之家",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/zxzj.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/zxzj.png",
                 "分类地址":'getVar("baseURL")+"/list/分类-翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.zxzjtv.com";',
@@ -169,7 +169,7 @@
             },
             {
                 "title":"剧白白",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/jubaibai.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/jubaibai.png",
                 "分类地址":'getVar("baseURL")+"/vodshow/id/分类/page/翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.jubaibai.cc";',
@@ -184,7 +184,7 @@
             },
             {
                 "title":"Auete影视",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/auete.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/auete.png",
                 "分类地址":'getVar("baseURL")+"/分类/翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://auete.com";',
@@ -199,7 +199,7 @@
             },
             {
                 "title":"九州影院",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/unss.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/unss.png",
                 "分类地址":'getVar("baseURL")+"/index.php/vod/type/id/分类/page/翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"http://www.unss.net";',
@@ -214,7 +214,7 @@
             },
             {
                 "title":"淘剧鸭",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/so2.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/so2.png",
                 "分类地址":'getVar("baseURL")+"/vodtype/分类-翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://so2.cc";',
@@ -229,7 +229,7 @@
             },
             {
                 "title":"LIBVIO影院",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/libvio.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/libvio.png",
                 "分类地址":'getVar("baseURL")+"/type/分类-翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.libvio.me/";',
@@ -244,7 +244,7 @@
             },
             {
                 "title":"影视工场",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/ysgc.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/ysgc.png",
                 "分类地址":'getVar("baseURL")+"/vodtype/分类-翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://ysgc.cc";',
@@ -259,7 +259,7 @@
             },
             {
                 "title":"虎牙直播",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/huya.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/huya.png",
                 "分类地址":'"https://www.huya.com/cache.php?m=LiveList&do=getLiveListByPage&gameId=分类&tagAll=0&callback=getLiveListJsonpCallback&page=翻页";',
                 "首页地址":'"https://live.cdn.huya.com/liveHttpUI/getHomeLiveRecommend?iType=1&ePlatform=1";',
                 "baseURL":'"https://m.huya.com";',
@@ -274,7 +274,7 @@
             },
             {
                 "title":"COKEMV",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/cokemv.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/cokemv.png",
                 "分类地址":'getVar("baseURL")+"/vodshow/分类--------翻页---.html";',
                 "首页地址":'getVar("baseURL")+"/label/new.html";',
                 "baseURL":'"https://cokemv.me";',
@@ -289,7 +289,7 @@
             },
             {
                 "title":"77影视大全",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/kunyu77.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/kunyu77.png",
                 "分类地址":'getVar("baseURL")+"/searchFilter?type_id=分类&pagenum=翻页&pagesize=24";',
                 "首页地址":'getVar("baseURL")+"/homeBlock?type_id=0";',
                 "baseURL":'"https://b.api.kunyu77.com/api.php/provide";',
@@ -304,7 +304,7 @@
             },
             {
                 "title":"4K影院",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/4kvm.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/4kvm.png",
                 "分类地址":'getVar("baseURL")+"/分类翻页";',
                 "首页地址":'getVar("baseURL")+"/";',
                 "baseURL":'"https://www.4kvm.com";',
@@ -324,7 +324,7 @@
         "data":[
             {
                 "title":"HG影视",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/HGyingshi.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/HGyingshi.png",
                 "分类地址":'getVar("baseURL")+"?ac=list&class=分类&page=翻页";',
                 "首页地址":'getVar("baseURL")+"?ac=list&class=&start=&area=&type=&page=1";',
                 "baseURL":'"http://api.hgyx.vip/api.php/iptv/vod/";',
@@ -332,7 +332,7 @@
             },
             {
                 "title":"聚多影视",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/juduo.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/juduo.png",
                 "分类地址":'getVar("baseURL")+"?ac=list&class=分类&page=翻页";',
                 "首页地址":'getVar("baseURL")+"?ac=list&class=&start=&area=&type=&page=1";',
                 "baseURL":'"http://jdys.weetai.cn/api.php/iptv/vod/";',
@@ -340,7 +340,7 @@
             },
             {
                 "title":"大师兄TV",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/dashixiong.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/dashixiong.png",
                 "分类地址":'getVar("baseURL")+"?ac=list&class=分类&page=翻页";',
                 "首页地址":'getVar("baseURL")+"?ac=list&class=&start=&area=&type=&page=1";',
                 "baseURL":'"http://dsxtv.tv.ci/api.php/dsx/vod/";',
@@ -356,7 +356,7 @@
             },
             {
                 "title":"奈菲迷",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/naifeimi.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/naifeimi.png",
                 "分类地址":'getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";',
                 "首页地址":'getVar("baseURL")+"/vodPhbAll";',
                 "baseURL":'"https://app.netflixmi.com/api.php/tv.vod";',
@@ -364,7 +364,7 @@
             },
             {
                 "title":"大熊追剧",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/daxiongzhuiju.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/daxiongzhuiju.png",
                 "分类地址":'getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";',
                 "首页地址":'getVar("baseURL")+"/vodPhbAll";',
                 "baseURL":'"https://dxys2233.com/mogai_api.php/v1.vod";',
@@ -372,7 +372,7 @@
             },
             {
                 "title":"益达影院",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/yss6080.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/yss6080.png",
                 "分类地址":'getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";',
                 "首页地址":'getVar("baseURL")+"/vodPhbAll";',
                 "baseURL":'"http://luobu.yss6080.com/mogai_api.php/v1.vod";',
@@ -380,7 +380,7 @@
             },
             {
                 "title":"片多儿影视",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/meinaikang.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/meinaikang.png",
                 "分类地址":'getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";',
                 "首页地址":'getVar("baseURL")+"/vodPhbAll";',
                 "baseURL":'"http://221.236.18.12:665/api.php/v1.vod";',
@@ -389,7 +389,7 @@
             {
                 "title":"苍蓝4K",
                 "url":"https://vip.ruifenglb.com:4433/api.php/app/index_video?token=",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/ruifeng.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/ruifeng.png",
                 "分类地址":'getVar("baseURL")+"video?tid=分类&lang=&year=&pg=翻页";',
                 "首页地址":'getVar("baseURL")+"index_video?token=";',
                 "baseURL":'"https://vip.ruifenglb.com:4433/api.php/app/";',
@@ -397,7 +397,7 @@
             },
             {
                 "title":"天空影视",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/tkys.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/tkys.png",
                 "分类地址":'getVar("baseURL")+"video?tid=分类&lang=&year=&pg=翻页";',
                 "首页地址":'getVar("baseURL")+"index_video?token=";',
                 "baseURL":'"https://www.tkys.tv/xgapp.php/v2/";',
@@ -405,7 +405,7 @@
             },
             {
                 "title":"影视达人",
-                "img":"https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/vipmv.png",
+                "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/vipmv.png",
                 "分类地址":'getVar("baseURL")+"?type=分类&lang=&year=&page=翻页";',
                 "首页地址":'getVar("baseURL")+"/vodPhbAll";',
                 "baseURL":'"http://www.ysdr.vip/api.php/v1.vod";',
