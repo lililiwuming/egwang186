@@ -34,6 +34,7 @@ var 标题规则=".json(type_name)";var 地址规则=".json(type_id)";var 前="&
 }else{
 var 列表=e2Arr(源码.replace(/<.*?>/g,""),".json(class)");
 if(列表){
+      alert("555")
       if(URL.indexOf("/videos")!=-1){
       var 标题规则=".json(type_name)";var 标题规则1=".json(type_title)";var 地址规则=".json(type_id)";var 前="?ac=list&pg=#PN#&t=";var 后="";头部导航();   
       }else{
