@@ -1,7 +1,7 @@
 var URL=getVar("url");
 function 头部导航(){
 var res={};var items=[];
-if(列表){
+if(列表[0]){
 for(var j=0;j<列表.length;j++){
      var 标题=e2Rex(列表[j],标题规则)?e2Rex(列表[j],标题规则):e2Rex(列表[j],标题规则1);
      var 地址=e2Rex(列表[j],地址规则);
@@ -33,8 +33,7 @@ var 列表=e2Arr(源码,".json(class)");
 var 标题规则=".json(type_name)";var 地址规则=".json(type_id)";var 前="&ac=videolist&pg=#PN#&t=";var 后="";头部导航();      
 }else{
 var 列表=e2Arr(源码.replace(/<.*?>/g,""),".json(class)");
-if(列表){
-      alert("555")
+if(列表[0]){
       if(URL.indexOf("/videos")!=-1){
       var 标题规则=".json(type_name)";var 标题规则1=".json(type_title)";var 地址规则=".json(type_id)";var 前="?ac=list&pg=#PN#&t=";var 后="";头部导航();   
       }else{
