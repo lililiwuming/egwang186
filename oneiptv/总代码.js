@@ -2,7 +2,7 @@
 if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
-    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+    eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename='一个直播远程索引.txt';
 if(getVar("rurl").indexOf(",http")>0){
@@ -26,7 +26,7 @@ _.read(filename);
 if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
-    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+    eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var indexname='一个直播本地索引.txt';
 if(getVar("text")!='null'&&getVar("text").indexOf(",")>1&&getVar("sort")!='null'&&getVar("sort").length>1){
@@ -56,7 +56,7 @@ _.read(indexname)+_.read(filename);
 if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
-    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+    eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename='一个直播远程索引.txt';
 var code=_.read(filename).match(/.+?,.+/g);
@@ -71,7 +71,7 @@ JSON.stringify(items);
 if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
-    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+    eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename='一个直播本地索引.txt';
 var code=_.read(filename).match(/.+?,.+/g);
@@ -86,7 +86,7 @@ JSON.stringify(items);
 if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
-    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+    eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var type=getVar("url").split("$$")[0];
 var u=getVar("url").split("$$")[1];
@@ -232,7 +232,7 @@ JSON.stringify({url:u});
 if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
-    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+    eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename='一个直播远程索引.txt';
 var code=_.read(filename).match(/.+?,.+/g);
@@ -247,7 +247,7 @@ JSON.stringify(items);
 if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
-    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+    eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename='一个直播本地索引.txt';
 var code=_.read(filename).match(/.+?,.+/g);
@@ -262,7 +262,7 @@ JSON.stringify(items);
 if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
-    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+    eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename=getVar("url").split(",")[1];
 var code=_.read(filename).match(/.+?,.+/g);

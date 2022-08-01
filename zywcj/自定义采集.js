@@ -2,7 +2,7 @@
 if(getVar("QJS")&&getVar("QJS")!="null"){
   eval(getVar("QJS"));
 }else{
-  eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+  eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename = '资源采集远程索引.txt';
 var 记录 = "";
@@ -23,7 +23,7 @@ if (getVar("rurl") != 'null' && getVar("rurl").indexOf(",http") > 1) {
 if(getVar("QJS")&&getVar("QJS")!="null"){
   eval(getVar("QJS"));
 }else{
-  eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+  eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename = '资源采集远程索引.txt';
 if (_.read(filename)) {
@@ -44,7 +44,7 @@ JSON.stringify(items);
 if(getVar("QJS")&&getVar("QJS")!="null"){
   eval(getVar("QJS"));
 }else{
-  eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+  eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename = '资源采集远程索引.txt';
 var code = _.read(filename).match(/.+?,.+/g);
@@ -59,7 +59,7 @@ JSON.stringify(items);
 if(getVar("QJS")&&getVar("QJS")!="null"){
   eval(getVar("QJS"));
 }else{
-  eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+  eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename = '资源采集远程索引.txt';
 var code = _.read(filename).match(/.+?,.+/g);
@@ -74,7 +74,7 @@ JSON.stringify(items);
 if(getVar("QJS")&&getVar("QJS")!="null"){
   eval(getVar("QJS"));
 }else{
-  eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+  eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename='资源采集远程索引.txt';
 var code=_.read(filename).match(/.+?,.+/g);

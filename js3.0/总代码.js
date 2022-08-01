@@ -19,7 +19,7 @@ function 通用列表(){
         }else if(预图片.indexOf("http")==0){
             var 图片=预图片;
         }else if(预图片==""){
-            var 图片="https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/js3.0/kongbai.gif";
+            var 图片="https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/kongbai.gif";
         }else{
             var 图片=baseURL+预图片;
             if(baseURL.indexOf("1090ys2.com")!=-1){
@@ -480,7 +480,7 @@ JSON.stringify(模板库.find(匹配模板).rule);
 if(getVar("QJS")&&getVar("QJS")!="null"){
 eval(getVar("QJS"));
 }else{
-eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename='一个影视本地规则.txt';
 _.read(filename);
@@ -488,7 +488,7 @@ _.read(filename);
 if(getVar("QJS")&&getVar("QJS")!="null"){
 eval(getVar("QJS"));
 }else{
-eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename='一个影视本地规则.txt';
 var 记录=[];
