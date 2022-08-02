@@ -157,7 +157,7 @@
                 "img":"https://gitea.com/egwang186/iptv/raw/branch/main/js3.0/zxzj.png",
                 "分类地址":'getVar("baseURL")+"/list/分类-翻页.html";',
                 "首页地址":'getVar("baseURL")+"/";',
-                "baseURL":'"https://www.zxzjtv.com";',
+                "baseURL":'"https://zxzj.vip";',
                 "rule":{
                     "首页规则":'var 列表=e2Arr(getVar("源码"),".get(ul.stui-vodlist li)");var 标题规则=".get(a).a(title)";var 地址规则=".get(a).a(href)";var 图片规则=".get(a).a(data-original).ct(@{\\"Referer\\":\\"https://www.zxzjtv.com/\\"})";var 简介规则=".get(span).st().t()";var 图片底部规则="";var 左上规则="";var 右上规则="";var NEXTPAGE="";var PREPAGE="";',
                     "筛选数据":'var a="分类+电影=1+动漫=6+韩剧=3+美剧=2+日剧=4+泰剧=5";var b="";for(var i=1;i<50;i++){b=b+"+第"+i+"页="+i;}var b="翻页+"+b;a+"\\n"+b;',
