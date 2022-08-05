@@ -132,7 +132,7 @@ if(JSON.parse(目录数据).items){
 if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
-    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+    eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename='阿里云历史记录.txt';
 var 记录=[];
@@ -151,7 +151,7 @@ _.write(JSON.stringify(新记录),filename);
 if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
-    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+    eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 var filename='阿里云历史记录.txt';
 _.read(filename);
@@ -178,7 +178,7 @@ JSON.stringify(过滤);
 if(getVar("QJS")&&getVar("QJS")!="null"){
     eval(getVar("QJS"));
 }else{
-    eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
+    eval(e2Rex(getHttp('https://gitea.com/egwang186/iptv/raw/branch/main/aliyun/QJS.js'),'.dn64()'));
 }
 if(getVar("url").indexOf("$$")!=-1){
     var cm=android.webkit.CookieManager.getInstance();
