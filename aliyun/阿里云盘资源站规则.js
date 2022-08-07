@@ -3,8 +3,8 @@
 {
     "title":"阿里小站",
     "rule":{
-        "分类":'var a="影视$video$$图片$picture$$软件$software$$游戏$games$$音乐$music$$动漫$comic$$书籍$books学习$learn$$生活日常$dailylife";var a=a.split("$$");var 前="http://alipan.pan666.cn/api/discussions?include=user,lastPostedUser,tags,tags.parent,firstPost&filter[tag]=";var 后="&sort&page[offset]=#PN#";var items=[];for(var i in a){var title=a[i].split("$")[0];var url=前+a[i].split("$")[1]+后;items.push({title:title,url:url});}JSON.stringify(items);',
-        "列表规则":'var 列表=e2Arr(getCode(),".json(data)");var 地址规则=".c(http://alipan.pan666.cn/api/discussions/).json(attributes).json(slug)";var 标题规则=".json(attributes).json(title)";var 图片规则=".json(tok)";var 简介规则=".c(发布时间：).json(attributes).json(createdAt).c(最近回复时间：).json(attributes).json(lastPostedAt)";var NEXTPAGE=e2Rex(getCode(),".json(links).json(next)");var PREPAGE=e2Rex(getCode(),".json(links).json(prev)");',
+        "分类":'var a="影视$video$$图片$picture$$软件$software$$游戏$games$$音乐$music$$动漫$comic$$书籍$books学习$learn$$生活日常$dailylife";var a=a.split("$$");var 前="http://wpxz.org/api/discussions?include=user,lastPostedUser,tags,tags.parent,firstPost&filter[tag]=";var 后="&sort&page[offset]=#PN#";var items=[];for(var i in a){var title=a[i].split("$")[0];var url=前+a[i].split("$")[1]+后;items.push({title:title,url:url});}JSON.stringify(items);',
+        "列表规则":'var 列表=e2Arr(getCode(),".json(data)");var 地址规则=".c(http://wpxz.org/api/discussions/).json(attributes).json(slug)";var 标题规则=".json(attributes).json(title)";var 图片规则=".json(tok)";var 简介规则=".c(发布时间：).json(attributes).json(createdAt).c(最近回复时间：).json(attributes).json(lastPostedAt)";var NEXTPAGE=e2Rex(getCode(),".json(links).json(next)");var PREPAGE=e2Rex(getCode(),".json(links).json(prev)");',
         "详情规则":'var 回复=e2Arr(getHttp(getVar("url")),".json(included)").filter(item=>JSON.parse(item).type=="posts");var 正文=[];for(var i in 回复){正文.push(JSON.parse(回复[i]).attributes.contentHtml);}var 正文=正文.join("\\n");'
     }
 },{
