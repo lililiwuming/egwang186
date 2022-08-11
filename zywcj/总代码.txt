@@ -362,7 +362,7 @@ if(源码.indexOf("<rss")!=-1){
 var 列表=e2Arr(源码,".xml(video)");
 var 标题规则=".xml(name).ty(CDATA).tz2(])";
 var 地址规则=".c(?ac=videolist&ids=).xml(id).z(\\d+)";
-var 图片规则=".xml(pic).t().z(http.*\\S).th( ##%20)";
+var 图片规则=".xml(pic).t().z(http.+\\S).th( ##%20)";
 var 简介规则=".c(<font color=\"#0997F7\"><b>).xml(dt).t().c(</b></font><br>).xml(last).t()";
 var 作者规则=".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\">).xml(note).t().ct(</font></p>)";搜索列表();
 }else if(getVar("Url").indexOf("/vodd/json")!=-1){
